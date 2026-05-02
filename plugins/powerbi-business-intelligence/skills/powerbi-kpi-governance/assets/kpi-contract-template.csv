@@ -1,0 +1,3 @@
+kpi_name,business_owner,definition,grain,numerator,denominator,date_basis,filters,exclusions,dax_measure,validation_source,certification_status
+Churn Rate,Revenue Ops,Share of starting customers that churned in period,customer-period,Churned Customers,Customers at Start,Period End,,,Customer Churn Rate,CRM contract reconciliation,Draft
+

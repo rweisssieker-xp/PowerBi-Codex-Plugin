@@ -1,0 +1,4 @@
+measure,table,folder,business_definition,expression,validation_source
+Amount,Fact,Core,Sum of amount in current filter context,"SUM ( Fact[Amount] )",Source total
+Entity Count,Fact,Core,Distinct entity count,"DISTINCTCOUNT ( Fact[EntityKey] )",Source count
+

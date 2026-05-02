@@ -1,0 +1,26 @@
+-- Business measure patterns. Replace table and column names with verified model names.
+
+Churned Customers =
+CALCULATE ( DISTINCTCOUNT ( FactCustomerPeriod[CustomerKey] ), FactCustomerPeriod[ChurnFlag] = TRUE () )
+
+Customer Churn Rate =
+DIVIDE ( [Churned Customers], [Customers at Start] )
+
+Inventory Turns =
+DIVIDE ( [Cost of Goods Sold], [Average Inventory Value] )
+
+Slow Moving Material Value =
+CALCULATE ( [Inventory Value], DimMaterial[MovementClass] = "Slow Moving" )
+
+Plan Actual Variance =
+[Actual Amount] - [Plan Amount]
+
+Plan Actual Variance % =
+DIVIDE ( [Plan Actual Variance], [Plan Amount] )
+
+SLA Compliance % =
+DIVIDE ( [Within SLA Count], [Closed Count] )
+
+Cycle Time Days =
+AVERAGEX ( FactProcess, DATEDIFF ( FactProcess[StartDate], FactProcess[EndDate], DAY ) )
+

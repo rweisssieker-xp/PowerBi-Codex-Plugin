@@ -1,0 +1,55 @@
+{
+  "name": "powerbi-business-intelligence",
+  "version": "0.1.0",
+  "description": "Power BI expert-reduction operating model with intake routing, portfolio cleanup, KPI governance, certified datasets, performance, Fabric architecture, migration, cost, acceptance, CoE, and delivery automation.",
+  "author": {
+    "name": "Power BI Business Intelligence Maintainers",
+    "email": "",
+    "url": ""
+  },
+  "homepage": "https://github.com/rweisssieker-xp/PowerBi-Codex-Plugin",
+  "repository": "https://github.com/rweisssieker-xp/PowerBi-Codex-Plugin",
+  "license": "MIT",
+  "keywords": [
+    "power-bi",
+    "business-intelligence",
+    "dax",
+    "power-query",
+    "semantic-model",
+    "expert-reduction",
+    "governance",
+    "fabric",
+    "center-of-excellence",
+    "migration"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Power BI Business Intelligence",
+    "shortDescription": "Reduce Power BI expert load with intake routing, governed datasets, KPI standards, reviews, CoE automation, and delivery packs.",
+    "longDescription": "A generic Power BI expert-reduction plugin and operating model for turning any supported Power BI data source and business problem into governed semantic models, KPI contracts, certified datasets, DAX catalogs, report pages, validation plans, expert reviews, migration plans, performance fixes, Fabric architecture decisions, cost optimizations, business acceptance packs, and complete delivery packs. Covers customer churn, material churn, FiCO, sales, supply chain, procurement, service, HR, risk, operations, and executive reporting.",
+    "developerName": "Power BI Business Intelligence Maintainers",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/rweisssieker-xp/PowerBi-Codex-Plugin",
+    "privacyPolicyURL": "https://github.com/rweisssieker-xp/PowerBi-Codex-Plugin/blob/main/plugins/powerbi-business-intelligence/docs/PRIVACY_POLICY.md",
+    "termsOfServiceURL": "https://github.com/rweisssieker-xp/PowerBi-Codex-Plugin/blob/main/plugins/powerbi-business-intelligence/docs/TERMS_OF_SERVICE.md",
+    "defaultPrompt": [
+      "Erstelle ein Power BI Modell und Dashboard fuer Customer Churn.",
+      "Plane ein Power BI Reporting fuer SAP FiCO mit Datenmodell, DAX und Seitenlayout.",
+      "Analysiere diese Datenquelle und entwirf ein Power BI Business Cockpit.",
+      "Reviewe dieses Power BI Modell wie ein Senior Experte und gib eine Remediation-Liste aus.",
+      "Erzeuge ein vollstaendiges Power BI Delivery Pack fuer Material Churn."
+      ,
+      "Route diese Power BI Anfrage und entscheide, welcher Expertentyp gebraucht wird.",
+      "Rationalisiere unser Power BI Report-Portfolio und finde Konsolidierungsmoeglichkeiten.",
+      "Erstelle ein Power BI Center-of-Excellence Operating Model."
+    ],
+    "brandColor": "#F2C811",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}

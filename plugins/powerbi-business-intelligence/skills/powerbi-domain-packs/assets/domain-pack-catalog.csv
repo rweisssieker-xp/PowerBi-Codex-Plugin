@@ -1,0 +1,10 @@
+domain,sources,facts,core_kpis,pages
+Customer Churn,"CRM; contracts; invoices; usage; support","customer-period; contract; invoice; usage event","churn rate; retained revenue; lost revenue; NRR; GRR; risk score","overview; cohort retention; drivers; at-risk customers; drillthrough"
+Material Churn,"ERP material master; stock; movements; purchase orders; forecast","material-location-period; movement; PO line","slow-moving value; obsolete stock; inventory turns; stockout count; forecast bias","overview; ABC/XYZ; aging; supplier risk; exceptions"
+FiCO,"GL; controlling; plan; open items; master data","journal line; plan line; balance snapshot; invoice; payment","actuals; plan; variance; margin; working capital; DSO; DPO","finance overview; P&L; cost center; profit center; variance; open items"
+Sales,"CRM; orders; invoices; customer master","opportunity; order line; invoice line","pipeline; win rate; bookings; revenue; margin; forecast accuracy","overview; funnel; aging; territory; account detail"
+Procurement,"requisitions; purchase orders; receipts; invoices; supplier master","PO line; receipt; invoice; supplier-period","spend; savings; on-time delivery; price variance; supplier risk","overview; category; supplier scorecard; compliance; exceptions"
+Service Operations,"tickets; work orders; assets; SLA events","ticket; work order; SLA event; backlog snapshot","backlog; SLA compliance; MTTA; MTTR; reopen rate; throughput","overview; SLA risk; backlog aging; root causes; workload"
+HR Workforce,"HRIS; recruiting; absence; learning; payroll aggregates","employee snapshot; recruiting stage; absence; training","headcount; attrition; vacancy; time-to-hire; absence rate","overview; attrition; recruiting; absence; compliance"
+Risk Compliance,"controls; audit findings; incidents; exceptions","finding; control test; incident; exception","open findings; overdue actions; residual risk; control pass rate","overview; heatmap; controls; actions; detail"
+

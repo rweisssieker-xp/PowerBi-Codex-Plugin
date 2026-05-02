@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-label="Power BI Business Intelligence">
+  <rect width="640" height="240" rx="32" fill="#111827"/>
+  <g transform="translate(48 36)">
+    <rect x="0" y="92" width="28" height="76" rx="8" fill="#F2C811"/>
+    <rect x="44" y="52" width="28" height="116" rx="8" fill="#F7D95C"/>
+    <rect x="88" y="20" width="28" height="148" rx="8" fill="#F2C811"/>
+    <rect x="132" y="68" width="28" height="100" rx="8" fill="#D9A300"/>
+  </g>
+  <text x="240" y="108" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700">Power BI</text>
+  <text x="240" y="156" fill="#F2C811" font-family="Segoe UI, Arial, sans-serif" font-size="28">Business Intelligence</text>
+</svg>

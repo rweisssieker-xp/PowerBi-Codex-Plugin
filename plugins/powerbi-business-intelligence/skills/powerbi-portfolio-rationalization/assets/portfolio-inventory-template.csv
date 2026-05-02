@@ -1,0 +1,3 @@
+workspace,artifact_type,name,owner,business_domain,source_system,semantic_model,refresh_status,last_refresh,last_viewed_utc,views_30d,endorsement,sensitivity_label,action,recommendation
+Sales,Report,Sales Overview,Sales Ops,Sales,CRM,Sales Certified,Success,,,"",Promoted,Confidential,Keep,
+
