@@ -15,6 +15,26 @@ The plugin contains more than 100 Codex skills. This catalog groups the most imp
 
 ## Expert Reduction and Operating Model
 
+- `powerbi-requirement-to-model-autopilot`
+- `powerbi-erp-object-resolver`
+- `powerbi-kpi-conflict-war-room`
+- `powerbi-executive-question-library`
+- `powerbi-process-dax-pattern-library`
+- `powerbi-auto-data-contract-generator`
+- `powerbi-report-consolidation-ai`
+- `powerbi-semantic-model-certification-bot`
+- `powerbi-source-system-gap-detector`
+- `powerbi-industrial-kpi-benchmark-pack`
+- `powerbi-value-realization-tracker`
+- `powerbi-report-ux-decision-coach`
+- `powerbi-data-lineage-risk-scorer`
+- `powerbi-sap-fabric-migration-playbooks`
+- `powerbi-role-based-prompt-packs`
+- `powerbi-closed-loop-action-roi`
+- `powerbi-builder-skill-assessment`
+- `powerbi-tenant-cleanup-autopilot`
+- `powerbi-data-product-marketplace-generator`
+- `powerbi-audit-ready-ai-evidence-trail`
 - `powerbi-intake-router`
 - `powerbi-portfolio-rationalization`
 - `powerbi-kpi-governance`
@@ -50,6 +70,26 @@ The plugin contains more than 100 Codex skills. This catalog groups the most imp
 
 ## Automation and Platform Engineering
 
+- `powerbi-live-metadata-scanner`
+- `powerbi-pbip-tmdl-generator`
+- `powerbi-dax-unit-test-runner`
+- `powerbi-powerquery-code-generator`
+- `powerbi-visual-layout-spec-generator`
+- `powerbi-fabric-deployment-blueprint`
+- `powerbi-connector-capability-matrix`
+- `powerbi-enterprise-kpi-ontology`
+- `powerbi-industry-solution-packs`
+- `powerbi-system-object-dictionaries`
+- `powerbi-golden-semantic-model-templates`
+- `powerbi-automated-report-review-rubric`
+- `powerbi-data-quality-rule-library`
+- `powerbi-rls-ols-pattern-library`
+- `powerbi-admin-api-playbook`
+- `powerbi-synthetic-demo-data-generator`
+- `powerbi-acceptance-test-pack-generator`
+- `powerbi-migration-cost-estimator`
+- `powerbi-coe-operating-handbook`
+- `powerbi-machine-readable-skill-index`
 - `powerbi-live-connector-toolkit`
 - `powerbi-auto-semantic-model-builder`
 - `powerbi-auto-report-layout-generator`

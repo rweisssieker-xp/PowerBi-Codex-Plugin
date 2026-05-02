@@ -14,6 +14,10 @@ The platform layer adds executable operating-system capabilities: live connector
 
 The AI/KI layer adds evidence-based Copilot orchestration, RAG grounding, semantic translation, NL-to-DAX and NL-to-PowerQuery guardrails, AI report review, AI data stewardship, KPI negotiation, process advice, scenario planning, AI model governance, prompt governance, hallucination checks, insight confidence scoring, autonomous root-cause investigation, auto documentation, training coaching, change-impact explanation, ticket resolution, and autonomous BI sprints.
 
+The newest expert-reduction layer adds requirement-to-model autopilot, ERP object resolver, KPI conflict war room, executive question library, process DAX pattern library, auto data contract generation, report consolidation AI, semantic model certification bot, source-system gap detection, industrial KPI benchmarks, value realization tracking, report UX decision coaching, lineage risk scoring, SAP/Fabric migration playbooks, role-based prompt packs, closed-loop action ROI, builder skill assessment, tenant cleanup autopilot, data product marketplace generation, and audit-ready AI evidence trails.
+
+The executable-factory layer adds live metadata scanning, PBIP/TMDL generation, DAX unit test execution planning, Power Query/M code generation, visual layout specs, Fabric deployment blueprints, connector capability decisions, enterprise KPI ontology, industry solution packs, system object dictionaries, golden semantic model templates, automated report review rubrics, data-quality rule libraries, RLS/OLS pattern libraries, Power BI Admin API playbooks, synthetic demo data, acceptance test packs, migration cost estimates, CoE operating handbooks, and machine-readable skill indexes.
+
 All substantial documentation and generated artifacts must include matching `en-US` and `de-DE` documentation. Use [BILINGUAL_DOCUMENTATION_STANDARD.md](C:/tmp/PowerBi-Codex-Plugin/plugins/powerbi-business-intelligence/docs/BILINGUAL_DOCUMENTATION_STANDARD.md) and paired templates in [docs/templates](C:/tmp/PowerBi-Codex-Plugin/plugins/powerbi-business-intelligence/docs/templates).
 
 The enterprise software source layer now covers EPM/planning, treasury/cash, tax/compliance/audit, ESG, QM/QMS/EHS, CX/commerce, subscription billing, field service/aftermarket, procurement/supplier risk, logistics visibility, WHS/WMS/warehouse automation, APM/observability, MDM/governance, ETL/ELT, data quality observability, lakehouse/warehouse, ECM, OCR/IDP, workflow/RPA, and identity/security platforms.
@@ -29,6 +33,26 @@ The enterprise software source layer now covers EPM/planning, treasury/cash, tax
 - `skills/powerbi-expert-review`: senior-style review checklist for models, DAX, Power Query, reports, RLS, refresh, and governance.
 - `skills/powerbi-delivery-factory`: complete delivery packs with specs, validation, security, deployment, and runbooks.
 - `skills/powerbi-intake-router`: routes requests to the right expert-reduction path.
+- `skills/powerbi-requirement-to-model-autopilot`: turns vague business language into process scope, KPI tree, source map, semantic model, report structure, and backlog.
+- `skills/powerbi-erp-object-resolver`: resolves business objects to vendor-aware ERP/CRM/source object candidates, joins, APIs, CDS views, and validation paths.
+- `skills/powerbi-kpi-conflict-war-room`: resolves cross-department KPI definition conflicts before build or certification.
+- `skills/powerbi-executive-question-library`: provides role-specific executive question catalogs by process chain.
+- `skills/powerbi-process-dax-pattern-library`: provides reusable DAX patterns for aging, conversion, backlog, OTIF, leakage, cohorts, WIP, and bridges.
+- `skills/powerbi-auto-data-contract-generator`: generates required fields, keys, history, freshness, quality thresholds, ownership, and blocking conditions.
+- `skills/powerbi-report-consolidation-ai`: reduces report sprawl through duplicate clustering, target-model recommendations, and retirement plans.
+- `skills/powerbi-semantic-model-certification-bot`: checks certification readiness across ownership, KPI contracts, tests, performance, RLS, lineage, refresh, and docs.
+- `skills/powerbi-source-system-gap-detector`: detects missing or unreliable source fields, keys, history, quality, and ownership.
+- `skills/powerbi-industrial-kpi-benchmark-pack`: adds benchmark bands and maturity scoring for industrial process KPIs.
+- `skills/powerbi-value-realization-tracker`: measures expert reduction, consolidation impact, decision latency, adoption, cost savings, and realized ROI.
+- `skills/powerbi-report-ux-decision-coach`: routes business questions to the correct Power BI visuals, layout, drill paths, and accessibility choices.
+- `skills/powerbi-data-lineage-risk-scorer`: scores KPI and artifact risk across sources, transformations, owners, manual steps, refresh, and downstream impact.
+- `skills/powerbi-sap-fabric-migration-playbooks`: provides migration playbooks for SAP BW/extracts, Excel, Access, SSRS, Tableau, Qlik, and legacy warehouses.
+- `skills/powerbi-role-based-prompt-packs`: creates approved prompt packs for executive, operational, IT, data steward, and CoE roles.
+- `skills/powerbi-closed-loop-action-roi`: measures whether Power BI-generated actions actually close, improve KPIs, and create ROI.
+- `skills/powerbi-builder-skill-assessment`: assesses builder capabilities and splits work between self-service, CoE, IT, experts, and plugin automation.
+- `skills/powerbi-tenant-cleanup-autopilot`: identifies orphaned, stale, duplicate, risky, failing, and expensive tenant assets.
+- `skills/powerbi-data-product-marketplace-generator`: generates an internal marketplace for certified Power BI data products.
+- `skills/powerbi-audit-ready-ai-evidence-trail`: creates auditable evidence for AI-generated recommendations, DAX, Power Query, KPIs, and actions.
 - `skills/powerbi-portfolio-rationalization`: cleans up report sprawl, duplicates, owners, refresh issues, and certification candidates.
 - `skills/powerbi-kpi-governance`: standardizes KPI definitions and detects metric conflicts.
 - `skills/powerbi-certified-dataset-factory`: designs reusable governed semantic models.
@@ -73,6 +97,26 @@ The enterprise software source layer now covers EPM/planning, treasury/cash, tax
 - `skills/powerbi-benchmark-maturity-assessment`: scores Power BI maturity, data readiness, CoE, process analytics, portfolio health, and expert reduction potential.
 - `skills/powerbi-demo-sample-industry-packs`: creates synthetic demo data, sample DAX, sample blueprints, delivery packs, and quality gates.
 - `skills/powerbi-live-connector-toolkit`: plans live metadata access for SAP, Salesforce, Dataverse, SQL, Fabric, Power BI REST, Snowflake, Databricks, APIs, and warehouses.
+- `skills/powerbi-live-metadata-scanner`: defines live metadata scans across Power BI/Fabric, semantic models, SQL, lakehouse, SAP, Salesforce, Dynamics, Snowflake, APIs, and files.
+- `skills/powerbi-pbip-tmdl-generator`: turns designs into PBIP/TMDL-ready model structures, measures, roles, perspectives, and deployment artifacts.
+- `skills/powerbi-dax-unit-test-runner`: designs executable DAX unit tests through DAX queries, XMLA, Tabular Editor, or evidence-backed manual reconciliation.
+- `skills/powerbi-powerquery-code-generator`: generates Power Query/M extraction designs for APIs, SAP OData, SQL, files, pagination, incremental refresh, and folding constraints.
+- `skills/powerbi-visual-layout-spec-generator`: creates concrete report page specs with visuals, fields, coordinates, interactions, slicers, drillthroughs, and tooltips.
+- `skills/powerbi-fabric-deployment-blueprint`: designs Fabric workspaces, Lakehouse, Warehouse, Dataflows, semantic models, deployment pipelines, Git, capacity, and security.
+- `skills/powerbi-connector-capability-matrix`: compares Import, DirectQuery, Direct Lake, incremental refresh, gateway, SSO, folding, and privacy capabilities.
+- `skills/powerbi-enterprise-kpi-ontology`: creates a machine-readable KPI ontology with synonyms, process mapping, owners, sources, DAX patterns, conflicts, and certification.
+- `skills/powerbi-industry-solution-packs`: creates ready packs for machinery, automotive, chemicals, pharma, food, aerospace, electronics, defense, and engineer-to-order.
+- `skills/powerbi-system-object-dictionaries`: provides deeper source object dictionaries for SAP S/4HANA, SAP BW, Dynamics, Salesforce, Oracle, Infor, IFS, ServiceNow, Manhattan, SAP EWM, and QMS.
+- `skills/powerbi-golden-semantic-model-templates`: defines certified model templates for O2C, P2P, FiCO, inventory, production, quality, service, HR, ESG, treasury, and executives.
+- `skills/powerbi-automated-report-review-rubric`: scores reports by UX, model, DAX, Power Query, performance, security, governance, adoption, and value.
+- `skills/powerbi-data-quality-rule-library`: provides reusable DQ rules for customer, material, UoM, inventory, GR/IR, CAPA, ATP, orders, invoices, and master data.
+- `skills/powerbi-rls-ols-pattern-library`: defines RLS/OLS patterns for company, region, plant, warehouse, profit center, cost center, sales org, supplier, customer, HR, and executive access.
+- `skills/powerbi-admin-api-playbook`: plans Admin API tenant scans for usage, refresh failures, workspaces, endorsements, sensitivity labels, sharing risk, gateways, and capacity.
+- `skills/powerbi-synthetic-demo-data-generator`: designs synthetic process-chain data for demos, sales, training, testing, and sample packs without customer data.
+- `skills/powerbi-acceptance-test-pack-generator`: creates UAT scenarios, expected values, owners, sign-off evidence, and acceptance criteria.
+- `skills/powerbi-migration-cost-estimator`: estimates effort, risk, sequence, savings, and roadmap for Excel, Access, Tableau, Qlik, SSRS, SAP BW, and PBIX migrations.
+- `skills/powerbi-coe-operating-handbook`: creates CoE RACI, standards, intake, release, certification, incident, change, training, governance, and expert-reduction operating model.
+- `skills/powerbi-machine-readable-skill-index`: generates JSON/YAML skill indexes with tags, triggers, inputs, outputs, dependencies, and routing hints.
 - `skills/powerbi-auto-semantic-model-builder`: converts metadata into facts, dimensions, relationships, measures, RLS, TMDL, PBIP, and certified dataset candidates.
 - `skills/powerbi-auto-report-layout-generator`: turns business questions and models into page layouts, visuals, slicers, drillthrough, and report specs.
 - `skills/powerbi-dax-test-harness`: creates DAX tests for totals, edge cases, time intelligence, RLS contexts, and source reconciliation.
@@ -159,6 +203,19 @@ The enterprise software source layer now covers EPM/planning, treasury/cash, tax
 - Erstelle ein Market2Lead, Lead2Quote oder Quote2Contract KPI Cockpit mit Quellsystemen, Funnel, Bottlenecks und Actions.
 - Baue ein Dock2Stock, Pick2Pack2Ship oder Return2Disposition Cockpit fuer WMS/WHS, ERP, QM und Carrier-Daten.
 - Erzeuge ein Complaint2CAPA, Nonconformance2Disposition oder Control2Evidence Data Product mit en-US/de-DE Doku.
+- Erzeuge aus dieser Managementfrage automatisch Prozess, KPI Tree, Quellen, Semantic Model, Reportseiten und Backlog.
+- Loese die benoetigten SAP/Dynamics/Oracle/Salesforce Objekte und Join-Pfade fuer diesen KPI auf.
+- Finde KPI-Konflikte zwischen Finance, Sales, Controlling und Operations und erstelle eine zertifizierte Definition.
+- Konsolidiere unser Power BI Report-Portfolio und schlage zertifizierte Zielmodelle sowie Abschaltkandidaten vor.
+- Pruefe, ob dieses Semantic Model zertifizierbar ist, inklusive KPI-Vertraegen, Tests, RLS, Performance und Doku.
+- Erzeuge einen auditfaehigen Evidence Trail fuer diese AI-generierte Power BI Empfehlung.
+- Erstelle einen Live-Metadata-Scanplan fuer Power BI/Fabric, SAP, Salesforce und Snowflake.
+- Generiere eine PBIP/TMDL-ready Modellstruktur mit Tabellen, Beziehungen, Measures, Rollen und Beschreibungen.
+- Erzeuge DAX Unit Tests und Power Query/M Code fuer diese Quelle inklusive Incremental Refresh und Fehlerhandling.
+- Erstelle eine konkrete Visual Layout Spec fuer dieses Cockpit mit Seiten, Visuals, Feldern und Drillthroughs.
+- Entwirf ein Fabric Deployment Blueprint mit Workspaces, Lakehouse, Warehouse, Pipelines, Git und Security.
+- Erzeuge ein Golden Semantic Model Template fuer Order2Cash, FiCO oder Quality.
+- Erstelle einen Power BI Admin API Playbook fuer Tenant Scan, Usage, Refresh Failures und Sharing Risks.
 - Erstelle eine Cross-System Master-Data-Strategie fuer Customer, Material, Supplier und Cost Center.
 - Erzeuge ein Order2Cash Process-Mining Event Log mit Case ID, Activity, Timestamp und Variantenanalyse.
 - Fuehre eine Source Metadata Discovery fuer SAP OData, Salesforce Objects und Fabric Semantic Models durch.
@@ -209,6 +266,46 @@ The enterprise software source layer now covers EPM/planning, treasury/cash, tax
 - Cost and Capacity Optimizer: lowers Premium/Fabric cost, model duplication, refresh load, and unused assets.
 - Business Owner Acceptance Pack: shortens sign-off loops with KPI, reconciliation, RLS, and UAT evidence.
 - CoE Copilot: turns the plugin into a repeatable Power BI operating model.
+- Requirement-to-Model Autopilot: turns vague management questions into process scope, KPI tree, source map, semantic model, report structure, and backlog.
+- ERP Object Resolver: maps business concepts to candidate tables, CDS views, APIs, entities, joins, and validation paths across major vendor systems.
+- KPI Conflict War Room: resolves metric disagreements across Finance, Sales, Controlling, Operations, and regional variants.
+- Executive Question Library: supplies CEO/CFO/COO/CRO/plant/process-owner question catalogs that drive cockpit design.
+- Process DAX Pattern Library: standardizes DAX for aging, conversion, backlog, OTIF, leakage, cohorts, WIP, inventory, and bridges.
+- Auto Data Contract Generator: creates source field, key, grain, freshness, quality, owner, SLA, and blocking-condition contracts.
+- Report Consolidation AI: clusters duplicate reports, identifies target models, and creates decommission plans.
+- Semantic Model Certification Bot: checks whether a dataset can become certified and reusable.
+- Source-System Gap Detector: blocks or remediates KPIs when required data is missing, unreliable, or manual-only.
+- Industrial KPI Benchmark Pack: adds maturity and benchmark bands for process KPIs.
+- Value Realization Tracker: measures expert-hour reduction, consolidation savings, adoption, action impact, and ROI.
+- Report UX Decision Coach: chooses visuals and drill paths based on business decisions.
+- Data Lineage Risk Scorer: scores KPI trust risk across lineage, owners, transformations, refresh, and downstream assets.
+- SAP/Fabric Migration Playbooks: standardizes migration from SAP BW/extracts, Excel, Access, SSRS, Tableau, Qlik, and legacy warehouses.
+- Role-Based Prompt Packs: gives approved prompt sets for enterprise BI roles.
+- Closed-Loop Action ROI: measures whether actions created from insights solved the KPI problem.
+- Builder Skill Assessment: decides what self-service, CoE, IT, experts, or the plugin should own.
+- Tenant Cleanup Autopilot: finds stale, duplicate, orphaned, failing, risky, or expensive Power BI/Fabric assets.
+- Data Product Marketplace Generator: catalogs certified Power BI data products with owner, SLA, KPIs, quality, and access route.
+- Audit-Ready AI Evidence Trail: records sources, assumptions, tests, confidence, approvals, and changes for AI-generated BI work.
+- Live Metadata Scanner: discovers live metadata plans before modelling assumptions harden.
+- PBIP/TMDL Generator: turns approved designs into implementation-ready project structures.
+- DAX Unit Test Runner: makes certified DAX measures testable with evidence.
+- Power Query/M Code Generator: standardizes robust extraction code for complex sources.
+- Visual Layout Spec Generator: turns report intent into build-ready page specifications.
+- Fabric Deployment Blueprint: defines the deployment topology for enterprise Fabric solutions.
+- Connector Capability Matrix: prevents wrong storage-mode and refresh decisions.
+- Enterprise KPI Ontology: makes KPI governance machine-readable.
+- Industry Solution Packs: packages repeatable industry patterns.
+- System Object Dictionaries: deepens vendor-specific source mapping.
+- Golden Semantic Model Templates: accelerates certified reusable model delivery.
+- Automated Report Review Rubric: scores report quality consistently.
+- Data Quality Rule Library: standardizes process-specific DQ checks.
+- RLS/OLS Pattern Library: standardizes secure access patterns.
+- Power BI Admin API Playbook: operationalizes tenant governance scans.
+- Synthetic Demo Data Generator: enables demos and tests without customer data.
+- Acceptance Test Pack Generator: formalizes UAT and sign-off evidence.
+- Migration Cost Estimator: estimates migration waves and savings.
+- CoE Operating Handbook: documents the full Power BI operating model.
+- Machine-Readable Skill Index: makes skill routing and coverage auditable.
 - Natural Language to Verified Report: validates data, KPI, model, DAX, visual, and acceptance feasibility before build.
 - Agent Workforce: replaces manual expert routing with virtual Power BI roles.
 - Requirements Interviewer: reduces discovery workshops with structured questions and artifacts.

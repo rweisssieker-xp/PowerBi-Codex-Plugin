@@ -10,6 +10,8 @@ The plugin is designed as a Power BI expert-replacement layer. It captures repea
 - Supports any Power BI-compatible source pattern: ERP, CRM, MES, PLM, WMS/WHS, QMS, EHS, EPM, treasury, ESG, data warehouses, lakehouses, APIs, files, and SaaS platforms.
 - Understands industrial process chains such as Lead2Order, Order2Cash, Procure2Pay, Plan2Produce, Record2Report, Maintain2Operate, Market2Lead, Dock2Stock, Complaint2CAPA, Control2Evidence, and Data2Insight2Action.
 - Adds AI/KI guardrails for NL-to-DAX, NL-to-PowerQuery, RAG grounding, hallucination checks, insight confidence, autonomous BI sprints, and process recommendations.
+- Adds expert-reduction USPs for requirement-to-model automation, ERP object resolution, KPI conflict resolution, report consolidation, model certification, tenant cleanup, role prompt packs, value realization, and audit-ready AI evidence trails.
+- Adds executable-factory capabilities for live metadata scanning, PBIP/TMDL generation, DAX test execution, Power Query/M generation, visual layout specs, Fabric deployment blueprints, connector capability decisions, golden semantic model templates, RLS/OLS patterns, Admin API playbooks, synthetic demo data, acceptance testing, migration cost estimates, CoE handbooks, and machine-readable skill indexing.
 - Requires substantial delivery artifacts to include aligned `en-US` and `de-DE` documentation.
 
 ## Repository Structure

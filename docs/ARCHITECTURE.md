@@ -16,6 +16,10 @@ flowchart TB
     I --> J["Validation and Quality Gate"]
     J --> K["Bilingual Documentation"]
     J --> L["Closed-Loop Actions"]
+    M["Live Metadata Scanner"] --> D
+    G --> N["PBIP/TMDL Generator"]
+    H --> O["DAX and M Test Runners"]
+    J --> P["Deployment and CoE Handbook"]
 ```
 
 ## Main Layers
@@ -88,3 +92,18 @@ Substantial outputs should include:
 - Release checklist.
 - Owner acceptance.
 - `en-US` and `de-DE` documentation.
+
+### 7. Executable Factory Layer
+
+The executable factory layer turns advisory designs into buildable assets:
+
+- Live metadata scan plans.
+- PBIP/TMDL model structures.
+- DAX unit test packs.
+- Power Query/M extraction designs.
+- Visual layout specifications.
+- Fabric deployment blueprints.
+- Acceptance test packs.
+- Migration cost estimates.
+- CoE operating handbooks.
+- Machine-readable skill indexes.
