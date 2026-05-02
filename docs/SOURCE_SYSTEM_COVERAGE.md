@@ -1,0 +1,59 @@
+# Source System Coverage
+
+The plugin is source-system-aware. It does not assume that every customer uses the same tables, APIs, extensions, or warehouse naming conventions. Source objects are candidate mappings until validated against metadata.
+
+## ERP and CRM
+
+- SAP ECC, SAP S/4HANA, SAP BW/4HANA, SAP Datasphere.
+- Microsoft Dynamics 365 Finance, Supply Chain, Sales, Customer Service, Field Service, Business Central, Dataverse.
+- Salesforce Sales Cloud, Service Cloud, Revenue Cloud, Field Service.
+- Oracle Fusion Cloud ERP, EBS, NetSuite.
+- Infor, IFS, Epicor, QAD, Sage, Workday.
+- ServiceNow, HubSpot, Zendesk.
+
+## Industrial Systems
+
+- MES, SCADA, historians, IoT platforms.
+- PLM and engineering platforms: Siemens, PTC, Dassault and related CAD/BOM sources.
+- EAM/CMMS and maintenance systems.
+- WMS/WHS: SAP EWM/WM, Manhattan, Blue Yonder, Koerber, Infor WMS, Oracle WMS, Dynamics WHS.
+- TMS and logistics visibility: project44, FourKites, Transporeon, Shippeo, Descartes, carrier APIs.
+
+## Quality, Warehouse, and Compliance
+
+- QM/QMS/EHS: SAP QM/EHS, ETQ, MasterControl, TrackWise, Intelex, Sphera, Enablon, Veeva Quality, LIMS.
+- ESG: SAP Sustainability Control Tower, Microsoft Sustainability Manager, Workiva ESG, EcoVadis, Persefoni.
+- GRC/audit/tax: SAP GRC, AuditBoard, Workiva, Diligent, Vertex, Avalara, ONESOURCE.
+
+## Finance, Planning, and Revenue
+
+- EPM and planning: SAP SAC/BPC, Anaplan, Board, OneStream, Oracle EPM, Workday Adaptive, Jedox, Pigment, Tagetik.
+- Treasury: Kyriba, SAP Treasury, Serrala, TIS, Coupa Treasury, banking APIs, EBICS, SWIFT.
+- Subscription and revenue: Zuora, Chargebee, Stripe Billing, Salesforce Revenue Cloud, SAP BRIM, Oracle Revenue Management.
+
+## Data Platforms and Integration
+
+- Microsoft Fabric, Power BI semantic models, Lakehouse, Warehouse, Dataflows.
+- Snowflake, Databricks, BigQuery, Redshift, Synapse, Teradata, Exasol.
+- Azure Data Factory, Fabric Data Factory, Informatica, Talend, Fivetran, Matillion, dbt, Airbyte, Boomi, MuleSoft, Celigo, SSIS.
+- Data quality and observability: Great Expectations, Soda, Monte Carlo, Bigeye, Anomalo, dbt tests, Deequ.
+
+## Document, Workflow, and Security
+
+- ECM and documents: SharePoint, OpenText, DocuWare, M-Files, Hyland OnBase, Box, Google Drive.
+- OCR/IDP: ABBYY, Kofax, OpenText VIM, Basware, Esker, Rossum, Azure AI Document Intelligence.
+- Low-code and workflow: Power Apps, Power Automate, UiPath, Automation Anywhere, Blue Prism, Nintex, Camunda, Appian, Pega.
+- Identity and access: Entra ID, Okta, Ping Identity, SailPoint, CyberArk, BeyondTrust, Saviynt.
+
+## Validation Rule
+
+Never rely on vendor memory alone. Validate:
+
+- Object names.
+- Field semantics.
+- Key uniqueness.
+- Date meaning.
+- Status lifecycle.
+- Currency and unit logic.
+- Company, plant, warehouse, and fiscal calendar scope.
+- Replication latency and transformation rules.

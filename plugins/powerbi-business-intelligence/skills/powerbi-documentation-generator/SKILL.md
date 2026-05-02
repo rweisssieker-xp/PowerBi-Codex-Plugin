@@ -7,6 +7,8 @@ description: Generate Power BI documentation for reports, semantic models, KPIs,
 
 Use this skill whenever a report, model, or delivery pack needs handover-ready documentation.
 
+**Required companion skill:** Use `powerbi-bilingual-documentation` for all substantial documentation outputs.
+
 ## Documentation Outputs
 
 - Report documentation: pages, visuals, filters, drillthrough, audience, decisions.
@@ -20,4 +22,4 @@ Use this skill whenever a report, model, or delivery pack needs handover-ready d
 
 - Separate confirmed facts from assumptions.
 - Include update owner and review cadence.
-
+- Provide matching `en-US` and `de-DE` documentation sections or paired files.

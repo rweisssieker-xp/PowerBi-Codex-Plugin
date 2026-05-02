@@ -4,7 +4,19 @@ Generic Codex plugin for Power BI work across data sources, domains, and report 
 
 The extended positioning is a Power BI expert-replacement layer: virtual expert roles, readiness scores, risk scores, quality gates, lineage, tenant governance, compliance evidence, enablement, backlog generation, and executive value tracking.
 
-For industrial enterprises it now adds end-to-end process intelligence: Lead2Order, Order2Cash, Source2Contract, Procure2Pay, Forecast2Plan, Plan2Produce, Make2Stock, Engineer2Order, Idea2Launch, Maintain2Operate, Issue2Resolution, Record2Report, Hire2Retire, and cross-process root-cause cockpits. It adapts solutions to the actual source-system landscape, including SAP, Salesforce, Dynamics, MES, PLM, WMS, TMS, ServiceNow, Fabric, data warehouses, APIs, and files.
+For industrial enterprises it now adds end-to-end process intelligence: Lead2Order, Order2Cash, Source2Contract, Procure2Pay, Forecast2Plan, Plan2Produce, Make2Stock, Engineer2Order, Idea2Launch, Maintain2Operate, Issue2Resolution, Record2Report, Hire2Retire, Market2Lead, Lead2Quote, Configure2Quote, Quote2Contract, Contract2Revenue, Demand2Supply, S&OP/IBP2Execution, Design2Cost, Design2Source, Project2Cash, Dock2Stock, Pick2Pack2Ship, Return2Disposition, Complaint2CAPA, Nonconformance2Disposition, Incident2Action, Asset2Reliability, InstalledBase2ServiceRevenue, SupplierOnboarding2Risk, Control2Evidence, Close2Report, Plan2Perform, Data2Insight2Action, and cross-process root-cause cockpits. It adapts solutions to the actual source-system landscape, including SAP, Salesforce, Dynamics, MES, PLM, WMS, TMS, ServiceNow, Fabric, data warehouses, APIs, and files.
+
+It also includes a vendor-aware ERP/CRM system catalog for common structures across SAP, Microsoft Dynamics, Salesforce, Oracle, NetSuite, Infor, IFS, Epicor, QAD, Sage, Workday, ServiceNow, HubSpot, Zendesk, Siemens, PTC, Dassault, MES/SCADA, historians, and data platforms. Concrete object names are treated as candidates until validated against the customer's metadata, APIs, CDS/views, warehouse tables, or exports.
+
+The newest layer operationalizes industrial BI end to end: industry vertical packs, regulatory standards, process mining, source metadata discovery, Power BI DevOps/CI-CD, planning and simulation, AI/ML analytics packs, IoT/shopfloor analytics, data contracts, reference architecture generation, maturity assessment, and demo/sample packs.
+
+The platform layer adds executable operating-system capabilities: live connector discovery, automatic semantic model and report layout generation, DAX and Power Query test harnesses, semantic model regression, KPI knowledge graph, industrial data products, action recommendations, closed-loop process integration, anomaly explanations, executive narratives, usage telemetry, FinOps chargeback, data-quality routing, business glossary, multilingual assets, role-based cockpits, and implementation effort estimation.
+
+The AI/KI layer adds evidence-based Copilot orchestration, RAG grounding, semantic translation, NL-to-DAX and NL-to-PowerQuery guardrails, AI report review, AI data stewardship, KPI negotiation, process advice, scenario planning, AI model governance, prompt governance, hallucination checks, insight confidence scoring, autonomous root-cause investigation, auto documentation, training coaching, change-impact explanation, ticket resolution, and autonomous BI sprints.
+
+All substantial documentation and generated artifacts must include matching `en-US` and `de-DE` documentation. Use [BILINGUAL_DOCUMENTATION_STANDARD.md](C:/tmp/PowerBi-Codex-Plugin/plugins/powerbi-business-intelligence/docs/BILINGUAL_DOCUMENTATION_STANDARD.md) and paired templates in [docs/templates](C:/tmp/PowerBi-Codex-Plugin/plugins/powerbi-business-intelligence/docs/templates).
+
+The enterprise software source layer now covers EPM/planning, treasury/cash, tax/compliance/audit, ESG, QM/QMS/EHS, CX/commerce, subscription billing, field service/aftermarket, procurement/supplier risk, logistics visibility, WHS/WMS/warehouse automation, APM/observability, MDM/governance, ETL/ELT, data quality observability, lakehouse/warehouse, ECM, OCR/IDP, workflow/RPA, and identity/security platforms.
 
 ## Contents
 
@@ -43,8 +55,85 @@ For industrial enterprises it now adds end-to-end process intelligence: Lead2Ord
 - `skills/powerbi-executive-value-tracker`: tracks saved expert hours, consolidation, quality, and cost value.
 - `skills/powerbi-tenant-governance-scanner`: assesses tenant, workspace, sharing, label, gateway, owner, and capacity risks.
 - `skills/powerbi-industrial-process-intelligence`: maps industrial end-to-end process questions into Power BI solutions.
+- `skills/powerbi-process-chain-kpi-visibility`: turns additional process chains and operational micro-chains into KPI trees, semantic model patterns, visual patterns, validation, actions, and bilingual documentation.
 - `skills/powerbi-source-system-process-adapter`: maps process questions to SAP, CRM, MES, PLM, WMS, TMS, finance, service, lakehouse, warehouse, API, and file source objects.
 - `skills/powerbi-industrial-root-cause-cockpit`: designs root-cause cockpits for margin, delivery, backlog, inventory, production, quality, warranty, downtime, and cash issues.
+- `skills/powerbi-erp-crm-system-catalog`: maps major ERP/CRM/vendor system families and common module/object structures.
+- `skills/powerbi-enterprise-master-data-mapping`: designs cross-system mappings for customers, suppliers, materials, products, accounts, assets, employees, plants, cost centers, profit centers, and hierarchies.
+- `skills/powerbi-industry-vertical-packs`: adapts patterns for machinery, automotive, chemicals, pharma, food, electronics, aerospace, defense, and engineer-to-order.
+- `skills/powerbi-regulatory-standards`: handles IFRS, HGB, US GAAP, SOX, CSRD, ISO 9001, IATF 16949, GMP, FDA, GxP, GDPR, and export control.
+- `skills/powerbi-process-mining`: designs event logs, variants, bottlenecks, rework loops, and conformance checks.
+- `skills/powerbi-source-metadata-discovery`: discovers metadata for SAP, Salesforce, Dynamics, Fabric, SQL, OData, APIs, files, warehouses, and lakehouses.
+- `skills/powerbi-devops-cicd`: defines PBIP, Git, Tabular Editor, regression tests, deployment pipelines, and release gates.
+- `skills/powerbi-planning-simulation`: supports what-if, writeback, forecasting, capacity, inventory, working-capital, and budget scenarios.
+- `skills/powerbi-ai-analytics-packs`: designs churn, forecast, anomaly, predictive maintenance, supplier risk, cash, margin, and quality prediction.
+- `skills/powerbi-iot-shopfloor-analytics`: maps MES, SCADA, historian, OEE, downtime, energy, quality, and telemetry analytics.
+- `skills/powerbi-data-contracts`: defines enforceable source requirements, required keys, fields, history, quality thresholds, and blocking conditions.
+- `skills/powerbi-reference-architecture-generator`: creates target architectures for SAP/Salesforce/MES/Fabric, Oracle/WMS/Snowflake, Dynamics/Dataverse/Fabric, and legacy hybrids.
+- `skills/powerbi-benchmark-maturity-assessment`: scores Power BI maturity, data readiness, CoE, process analytics, portfolio health, and expert reduction potential.
+- `skills/powerbi-demo-sample-industry-packs`: creates synthetic demo data, sample DAX, sample blueprints, delivery packs, and quality gates.
+- `skills/powerbi-live-connector-toolkit`: plans live metadata access for SAP, Salesforce, Dataverse, SQL, Fabric, Power BI REST, Snowflake, Databricks, APIs, and warehouses.
+- `skills/powerbi-auto-semantic-model-builder`: converts metadata into facts, dimensions, relationships, measures, RLS, TMDL, PBIP, and certified dataset candidates.
+- `skills/powerbi-auto-report-layout-generator`: turns business questions and models into page layouts, visuals, slicers, drillthrough, and report specs.
+- `skills/powerbi-dax-test-harness`: creates DAX tests for totals, edge cases, time intelligence, RLS contexts, and source reconciliation.
+- `skills/powerbi-powerquery-test-harness`: tests folding, schema drift, nulls, duplicates, pagination, type conversion, and incremental refresh.
+- `skills/powerbi-semantic-model-regression`: diffs semantic model versions and detects breaking changes.
+- `skills/powerbi-kpi-knowledge-graph`: connects KPIs, processes, sources, owners, measures, reports, synonyms, conflicts, and lineage.
+- `skills/powerbi-industrial-data-product-factory`: creates governed O2C, P2P, Production, Finance, Customer, Supplier, Material, Asset, and Maintenance data products.
+- `skills/powerbi-action-recommendation-engine`: generates prioritized business actions with reason codes and impact.
+- `skills/powerbi-closed-loop-bi`: returns insights into tasks, tickets, CRM actions, ServiceNow, SAP workflows, or planner systems.
+- `skills/powerbi-root-cause-hypothesis-generator`: generates and tests root-cause hypotheses across industrial process drivers.
+- `skills/powerbi-anomaly-to-explanation`: explains anomalies through segment, mix, price, volume, cost, timing, and data-quality drivers.
+- `skills/powerbi-executive-narrative-generator`: creates management commentary for close, sales, O2C, supply chain, plant, quality, and service reviews.
+- `skills/powerbi-report-usage-telemetry-optimizer`: optimizes reports and portfolio decisions from usage, page views, load times, and adoption.
+- `skills/powerbi-finops-chargeback`: allocates Power BI/Fabric cost by workspace, domain, owner, dataset, refresh, storage, and capacity load.
+- `skills/powerbi-data-quality-issue-router`: routes data-quality issues to source-system and business owners.
+- `skills/powerbi-business-glossary-generator`: creates KPI, process, source field, DAX, report, owner, synonym, and translation glossaries.
+- `skills/powerbi-multilanguage-enterprise-pack`: supports German-English and multilingual enterprise rollout assets.
+- `skills/powerbi-role-based-cockpit-factory`: creates cockpit patterns for CEO, CFO, COO, Sales, Plant, Supply Chain, Controller, Quality, Maintenance, and Service roles.
+- `skills/powerbi-implementation-effort-estimator`: estimates delivery effort by source access, model complexity, KPI conflict, RLS, testing, DevOps, and acceptance.
+- `skills/powerbi-ai-copilot-orchestrator`: routes AI/KI work across Power BI expert roles, skills, source systems, quality gates, and evidence checks.
+- `skills/powerbi-rag-knowledge-base`: grounds AI answers in KPI catalogs, models, docs, source metadata, tickets, and CoE standards.
+- `skills/powerbi-ai-semantic-layer-translator`: maps business language to model objects, facts, dimensions, date roles, measures, and filters.
+- `skills/powerbi-nl-to-dax-guardrails`: generates DAX from natural language with KPI contracts, tests, validation, and semantic guardrails.
+- `skills/powerbi-nl-to-powerquery-generator`: generates Power Query/M designs from natural language with connector, pagination, refresh, typing, and error handling constraints.
+- `skills/powerbi-ai-report-reviewer`: reviews visuals, axes, KPIs, slicers, drilldowns, density, accessibility, and decision usefulness.
+- `skills/powerbi-ai-data-steward`: detects, explains, prioritizes, and routes data quality issues.
+- `skills/powerbi-ai-kpi-negotiator`: mediates KPI definition conflicts and proposes certified target definitions.
+- `skills/powerbi-ai-process-advisor`: recommends process improvements from validated BI findings.
+- `skills/powerbi-ai-scenario-planner`: generates and compares what-if scenarios.
+- `skills/powerbi-ai-model-governance`: creates model cards, drift, bias, explainability, approval, and monitoring controls.
+- `skills/powerbi-ai-prompt-governance`: governs prompts, allowed questions, prohibited data, PII, audit trail, and prompt versions.
+- `skills/powerbi-ai-hallucination-guard`: checks AI answers against metadata, KPI catalogs, tests, source totals, and accepted evidence.
+- `skills/powerbi-ai-insight-confidence`: scores AI insights by data coverage, KPI maturity, validation, freshness, lineage, and evidence.
+- `skills/powerbi-ai-root-cause-investigator`: investigates root causes through hypotheses, evidence, counterevidence, ranking, and conclusions.
+- `skills/powerbi-ai-auto-documentation`: generates documentation from PBIP, TMDL, DAX, Power Query, report specs, lineage, and quality gates.
+- `skills/powerbi-ai-training-coach`: coaches users by role using approved reports, KPIs, glossary, and CoE standards.
+- `skills/powerbi-ai-change-impact-explainer`: explains technical and business impact of changes to BI assets.
+- `skills/powerbi-ai-ticket-resolver`: triages and resolves Power BI support tickets.
+- `skills/powerbi-ai-autonomous-bi-sprint`: runs AI-led BI delivery from intake to quality gate and handoff.
+- `skills/powerbi-bilingual-documentation`: requires matching `en-US` and `de-DE` documentation for substantial artifacts, delivery packs, governance docs, training, acceptance evidence, and AI/KI outputs.
+- `skills/powerbi-enterprise-software-source-catalog`: routes enterprise software source products beyond ERP/CRM into the correct source pack.
+- `skills/powerbi-epm-planning-source-pack`: covers SAP SAC/BPC, Anaplan, Board, OneStream, Oracle EPM, Workday Adaptive, Jedox, Pigment, Tagetik, and planning sources.
+- `skills/powerbi-treasury-cash-source-pack`: covers Kyriba, SAP Treasury, Serrala, TIS, Coupa Treasury, banking APIs, EBICS, and SWIFT.
+- `skills/powerbi-tax-compliance-audit-source-pack`: covers Vertex, Avalara, ONESOURCE, SAP GRC, AuditBoard, Workiva, Diligent, and audit/control sources.
+- `skills/powerbi-esg-compliance-source-pack`: covers SAP Sustainability Control Tower, Microsoft Sustainability Manager, Workiva ESG, Sphera, Enablon, EcoVadis, Persefoni, and Normative.
+- `skills/powerbi-qm-qms-ehs-source-pack`: covers SAP QM/EHS, ETQ, MasterControl, TrackWise, Intelex, Sphera, Enablon, Veeva Quality, LIMS, CAPA, complaints, inspections, and safety data.
+- `skills/powerbi-cx-marketing-commerce-source-pack`: covers Adobe, Marketo, Braze, Klaviyo, Shopify, Magento, SAP Commerce, BigCommerce, GA4, and CDP sources.
+- `skills/powerbi-subscription-revenue-billing-source-pack`: covers Zuora, Chargebee, Stripe Billing, Salesforce Revenue Cloud, SAP BRIM, Oracle Revenue Management, and usage billing.
+- `skills/powerbi-field-service-aftermarket-source-pack`: covers Salesforce Field Service, Dynamics Field Service, ServiceMax, IFS FSM, SAP FSM, Oracle Field Service, and PTC Servigistics.
+- `skills/powerbi-procurement-supplier-risk-source-pack`: covers Coupa, Ivalua, Jaggaer, SAP Ariba, GEP, Scoutbee, Riskmethods, and supplier-risk sources.
+- `skills/powerbi-logistics-visibility-source-pack`: covers project44, FourKites, Transporeon, Shippeo, Descartes, DHL/FedEx/UPS APIs, and carrier visibility.
+- `skills/powerbi-whs-wms-warehouse-source-pack`: covers SAP EWM/WM, Manhattan, Blue Yonder, Körber, Infor WMS, Oracle WMS, Dynamics WHS, AutoStore, Kardex, Dematic, Swisslog, Zebra, and Honeywell.
+- `skills/powerbi-apm-observability-itops-source-pack`: covers Splunk, Datadog, Dynatrace, New Relic, Azure Monitor, Grafana, Prometheus, Elastic, and IT Ops telemetry.
+- `skills/powerbi-data-governance-mdm-source-pack`: covers Microsoft Purview, Collibra, Alation, Informatica, Ataccama, Profisee, Reltio, Semarchy, and MDM/governance sources.
+- `skills/powerbi-etl-integration-source-pack`: covers Azure Data Factory, Fabric Data Factory, Informatica, Talend, Fivetran, Matillion, dbt, Airbyte, Boomi, MuleSoft, Celigo, and SSIS.
+- `skills/powerbi-data-quality-observability-source-pack`: covers Great Expectations, Soda, Monte Carlo, Bigeye, Anomalo, dbt tests, Deequ, and DQ monitoring.
+- `skills/powerbi-lakehouse-warehouse-source-pack`: covers Snowflake, Databricks, BigQuery, Redshift, Synapse, Fabric Warehouse/Lakehouse, Teradata, Exasol, Delta, and Parquet.
+- `skills/powerbi-document-ecm-source-pack`: covers SharePoint, OpenText, DocuWare, M-Files, Hyland OnBase, Box, Google Drive, and document metadata.
+- `skills/powerbi-ocr-idp-invoice-capture-source-pack`: covers ABBYY, Kofax, OpenText VIM, Basware, Esker, Rossum, Azure AI Document Intelligence, and AP automation.
+- `skills/powerbi-lowcode-workflow-rpa-source-pack`: covers Power Apps, Power Automate, UiPath, Automation Anywhere, Blue Prism, Nintex, Camunda, Appian, and Pega.
+- `skills/powerbi-security-identity-source-pack`: covers Entra ID, Okta, Ping Identity, SailPoint, CyberArk, BeyondTrust, Saviynt, IAM, PAM, RBAC, and access reviews.
 
 ## Example Prompts
 
@@ -66,6 +155,38 @@ For industrial enterprises it now adds end-to-end process intelligence: Lead2Ord
 - Baue ein Procure2Pay Cockpit fuer Lieferantenperformance, GR/IR, Preisabweichung und blockierte Rechnungen.
 - Analysiere Plan2Produce: Was treibt Ausschuss, Rework, OEE-Verlust und Produktionsabweichung?
 - Mappe diese Fragestellung auf SAP S/4HANA, Salesforce, MES, WMS und Finance-Quellen.
+- Mappe eine Order2Cash Fragestellung auf SAP S/4HANA, Salesforce, Oracle Finance und ein Data Warehouse.
+- Erstelle ein Market2Lead, Lead2Quote oder Quote2Contract KPI Cockpit mit Quellsystemen, Funnel, Bottlenecks und Actions.
+- Baue ein Dock2Stock, Pick2Pack2Ship oder Return2Disposition Cockpit fuer WMS/WHS, ERP, QM und Carrier-Daten.
+- Erzeuge ein Complaint2CAPA, Nonconformance2Disposition oder Control2Evidence Data Product mit en-US/de-DE Doku.
+- Erstelle eine Cross-System Master-Data-Strategie fuer Customer, Material, Supplier und Cost Center.
+- Erzeuge ein Order2Cash Process-Mining Event Log mit Case ID, Activity, Timestamp und Variantenanalyse.
+- Fuehre eine Source Metadata Discovery fuer SAP OData, Salesforce Objects und Fabric Semantic Models durch.
+- Erstelle einen Data Contract fuer ein Plan2Produce Cockpit aus SAP, MES und Historian-Daten.
+- Entwirf eine Power BI DevOps Pipeline fuer PBIP, Tabular Editor Checks und Deployment Gates.
+- Baue ein Predictive-Maintenance Pack fuer IoT, Historian und Maintenance Orders.
+- Erstelle eine Maturity Assessment Roadmap fuer Power BI Expert Reduction.
+- Erzeuge aus SAP/Salesforce/Fabric Metadata automatisch ein semantisches Modell.
+- Erstelle einen DAX Test Harness fuer Umsatz, Churn, YTD und RLS-Kontexte.
+- Vergleiche zwei Semantic-Model-Versionen und finde Breaking Changes.
+- Baue ein O2C Data Product mit Contract, Owner, SLA, Quality Score und Certified Measures.
+- Erzeuge Handlungsempfehlungen: Welche Lieferanten eskalieren und welche Orders priorisieren?
+- Lege aus PowerBI-Insights ServiceNow/Jira/Planner Actions fuer die Owner an.
+- Erklaere die Marge-Anomalie nach Mix, Preis, Volumen, Fracht, Ausschuss und Rabatten.
+- Erstelle eine Executive Narrative fuer den Supply Chain Review.
+- Berechne Power BI/Fabric Chargeback je Workspace und Dataset.
+- Erstelle ein CEO/CFO/COO Cockpit aus demselben Data Product.
+- Orchestriere diese Anfrage mit AI Copilot Rollen und sage, welche Evidenz fehlt.
+- Baue eine RAG Knowledge Base fuer KPI-Katalog, PBIP, DAX, Source Metadata und CoE-Regeln.
+- Erzeuge DAX aus "Umsatz YTD ohne Intercompany" mit Tests und KPI-Vertrag.
+- Erzeuge Power Query fuer eine paginierte REST API mit Incremental Refresh.
+- Pruefe diese AI-Antwort mit Hallucination Guard und Insight Confidence Score.
+- Loese ein Ticket "Refresh failed und KPI falsch" mit AI Ticket Resolver.
+- Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate durch.
+- Erzeuge die passende Dokumentation fuer dieses Power BI Artefakt in en-US und de-DE.
+- Erstelle ein QM/QMS/EHS Cockpit fuer CAPA, Complaints, Inspection Lots, Defects und Audit Findings.
+- Baue ein WHS/WMS Cockpit fuer Pick Productivity, Inventory Accuracy, Putaway, Replenishment und Automation Throughput.
+- Mappe EPM, Treasury, ESG, OCR, RPA, Identity und MDM Quellen auf Power BI Data Products.
 
 ## Expert-Reduction USPs
 
@@ -104,5 +225,82 @@ For industrial enterprises it now adds end-to-end process intelligence: Lead2Ord
 - Executive Value Tracker: quantifies saved expert hours, report consolidation, dataset reuse, fewer failures, and lower cost.
 - Tenant Governance Scanner: finds workspace, sharing, export, label, gateway, orphaned asset, and capacity risks.
 - Industrial Process Intelligence: understands end-to-end process questions across Lead2Order, Order2Cash, Procure2Pay, Plan2Produce, Record2Report, Maintain2Operate, and more.
+- Process Chain KPI Visibility: makes Market2Lead, Lead2Quote, Quote2Contract, Contract2Revenue, Demand2Supply, S&OP, Design2Cost, Project2Cash, Dock2Stock, Pick2Pack2Ship, Return2Disposition, Complaint2CAPA, Nonconformance2Disposition, Incident2Action, Asset2Reliability, InstalledBase2ServiceRevenue, SupplierOnboarding2Risk, Control2Evidence, Close2Report, Plan2Perform, and Data2Insight2Action measurable in Power BI.
 - Source-System Process Adapter: adapts the Power BI solution to SAP, CRM, MES, PLM, WMS, TMS, service, finance, lakehouse, warehouse, API, and file landscapes.
 - Industrial Root-Cause Cockpit: traces symptoms like margin loss, delivery delay, inventory risk, production loss, warranty cost, and overdue cash to process drivers and owners.
+- ERP/CRM System Catalog: understands common vendor structures across SAP, Dynamics, Salesforce, Oracle, NetSuite, Infor, IFS, Epicor, QAD, Workday, ServiceNow, HubSpot, Zendesk, and industrial platforms.
+- Enterprise Master Data Mapping: resolves cross-system customer, supplier, product/material, account, asset, employee, plant, company, cost center, and hierarchy mapping.
+- Industry Vertical Packs: adapts KPIs, compliance, and source assumptions for machinery, automotive, chemicals, pharma, food, electronics, aerospace, defense, and engineer-to-order.
+- Regulatory Standards: embeds finance, ESG, quality, life-science, privacy, and export-control evidence requirements.
+- Process Mining: builds event logs, bottleneck analysis, rework loops, variants, and conformance checks.
+- Source Metadata Discovery: inventories schemas, objects, fields, relationships, measures, APIs, and quality blockers before design.
+- DevOps CI/CD: makes PBIP, semantic model versioning, Tabular Editor checks, regression tests, and deployment gates repeatable.
+- Planning Simulation: handles scenario, writeback, forecast, capacity, inventory, working-capital, and budget planning use cases.
+- AI Analytics Packs: designs predictive and anomaly analytics with target variables, feature candidates, validation, and governance.
+- IoT Shopfloor Analytics: covers MES, SCADA, historian, telemetry, OEE, downtime, energy, batch, quality, and predictive maintenance.
+- Data Contracts: formalizes required fields, keys, history, quality thresholds, SLAs, security, and blocking conditions.
+- Reference Architecture Generator: creates customer-specific Power BI/Fabric target architectures for mixed system landscapes.
+- Benchmark Maturity Assessment: scores maturity, readiness, governance, process analytics, portfolio health, and expert-reduction potential.
+- Demo Sample Industry Packs: provides synthetic examples, sample DAX, blueprints, quality gates, and delivery packs for sales and testing.
+- Live Connector Toolkit: moves from assumed source structures to live metadata plans.
+- Auto Semantic Model Builder: generates model candidates from metadata and process context.
+- Auto Report Layout Generator: creates report specs from business questions and model grain.
+- DAX Test Harness: makes measure correctness testable before certification.
+- Power Query Test Harness: makes extraction reliability and folding testable.
+- Semantic Model Regression: detects breaking changes and downstream impact across model versions.
+- KPI Knowledge Graph: turns KPI governance into connected enterprise knowledge.
+- Industrial Data Product Factory: shifts delivery from one-off reports to governed reusable data products.
+- Action Recommendation Engine: converts analytics into ranked business actions.
+- Closed Loop BI: sends insights back into operational task and workflow systems.
+- Root Cause Hypothesis Generator: creates testable explanations before claiming causality.
+- Anomaly to Explanation: explains outliers through validated driver decomposition.
+- Executive Narrative Generator: produces management-ready commentary tied to evidence.
+- Report Usage Telemetry Optimizer: uses real adoption and performance data to improve or retire reports.
+- FinOps Chargeback: makes Power BI/Fabric cost transparent by owner and domain.
+- Data Quality Issue Router: sends data defects to accountable source owners.
+- Business Glossary Generator: standardizes terms, synonyms, fields, measures, owners, and translations.
+- Multilanguage Enterprise Pack: supports global German-English and multilingual rollouts.
+- Role-Based Cockpit Factory: tailors cockpits by executive and operational role.
+- Implementation Effort Estimator: estimates effort, roles, blockers, and reusable-pattern savings.
+- AI Copilot Orchestrator: coordinates AI expert roles and evidence checks across the whole BI lifecycle.
+- RAG Knowledge Base: grounds AI answers in enterprise BI artifacts instead of generic model memory.
+- AI Semantic Layer Translator: turns business language into verified semantic model references.
+- NL-to-DAX Guardrails: generates measures only with KPI contracts, tests, and source validation.
+- NL-to-PowerQuery Generator: generates extraction designs with refresh, pagination, typing, and security constraints.
+- AI Report Reviewer: detects misleading visuals, weak layouts, bad axes, and missing decision context.
+- AI Data Steward: routes data defects to accountable owners with evidence and retest plans.
+- AI KPI Negotiator: resolves metric-definition conflicts with certified target definitions.
+- AI Process Advisor: recommends process changes only from validated findings.
+- AI Scenario Planner: creates assumption-based what-if scenarios for planning decisions.
+- AI Model Governance: adds model cards, drift, bias, explainability, and human review.
+- AI Prompt Governance: controls allowed prompts, PII, audit trail, roles, and prompt versions.
+- AI Hallucination Guard: rejects answers not grounded in metadata, tests, KPI contracts, or evidence.
+- AI Insight Confidence: scores every generated insight by data and validation quality.
+- AI Root Cause Investigator: tests hypotheses and counterevidence before claiming causality.
+- AI Auto Documentation: documents reports and models from actual PBIP/TMDL/DAX/M artifacts.
+- AI Training Coach: teaches CFOs, controllers, plant managers, builders, stewards, and admins by role.
+- AI Change Impact Explainer: explains technical and business impact of changes.
+- AI Ticket Resolver: triages refresh, wrong-number, access, performance, and deployment tickets.
+- AI Autonomous BI Sprint: runs intake, requirements, contract, model, DAX, report, tests, quality gate, docs, and handoff.
+- Bilingual Documentation: ensures substantial outputs include aligned `en-US` and `de-DE` documentation with approved terminology.
+- Enterprise Software Source Catalog: covers the full enterprise source-product landscape beyond ERP/CRM.
+- EPM Planning Source Pack: maps planning, budgeting, forecast, consolidation, scenario, and management-commentary systems.
+- Treasury Cash Source Pack: maps cash, bank, liquidity, payments, FX, and treasury sources.
+- Tax Compliance Audit Source Pack: maps tax, controls, audit, GRC, evidence, and remediation data.
+- ESG Compliance Source Pack: maps ESG, CSRD, emissions, energy, waste, supplier ESG, and sustainability evidence.
+- QM QMS EHS Source Pack: maps quality, CAPA, complaints, inspections, defects, audits, EHS incidents, and regulatory quality systems.
+- CX Marketing Commerce Source Pack: maps marketing, commerce, web analytics, consent, campaigns, orders, and attribution.
+- Subscription Revenue Billing Source Pack: maps subscriptions, usage, billing, revenue recognition, churn, NRR, and GRR.
+- Field Service Aftermarket Source Pack: maps installed base, contracts, service work, technicians, spare parts, warranty, and service margin.
+- Procurement Supplier Risk Source Pack: maps sourcing, supplier risk, spend, savings, contracts, ESG supplier risk, and maverick buying.
+- Logistics Visibility Source Pack: maps shipment events, carrier milestones, ETAs, freight, parcel, and delivery reliability.
+- WHS WMS Warehouse Source Pack: maps warehouse orders, waves, pick/pack/putaway, bins, HUs/LPNs, scanners, robotics, inventory, and warehouse automation.
+- APM Observability ITOps Source Pack: maps IT/platform telemetry, logs, metrics, incidents, SLOs, and refresh/root-cause signals.
+- Data Governance MDM Source Pack: maps catalog, glossary, lineage, classifications, policies, master-data records, stewardship, and ownership.
+- ETL Integration Source Pack: maps pipelines, jobs, transformations, runs, errors, freshness, and downstream BI impact.
+- Data Quality Observability Source Pack: maps expectations, tests, anomalies, incidents, rule results, and data-contract compliance.
+- Lakehouse Warehouse Source Pack: maps analytical stores, tables, views, partitions, Delta, Direct Lake, DirectQuery, and serving layers.
+- Document ECM Source Pack: maps document metadata, contracts, invoices, quality documents, versions, approvals, and retention.
+- OCR IDP Invoice Capture Source Pack: maps extracted fields, confidence, validation, invoice exceptions, PO match, and AP automation.
+- Low-Code Workflow RPA Source Pack: maps apps, flows, bots, tasks, approvals, exceptions, and closed-loop automation.
+- Security Identity Source Pack: maps users, groups, entitlements, access reviews, privileged access, RLS/OLS inputs, and security approvals.

@@ -1,0 +1,85 @@
+# Power BI Business Intelligence Codex Plugin
+
+AI-native Codex plugin for building governed Power BI solutions across industrial enterprise processes, source systems, KPIs, semantic models, DAX, Power Query, Fabric architecture, quality gates, and bilingual documentation.
+
+The plugin is designed as a Power BI expert-replacement layer. It captures repeatable senior-expert work as Codex skills so organizations can reduce ad hoc dependency on large Power BI expert teams while improving consistency, validation, governance, and delivery speed.
+
+## What It Does
+
+- Converts business questions into Power BI blueprints, semantic models, DAX catalogs, report layouts, validation plans, and delivery packs.
+- Supports any Power BI-compatible source pattern: ERP, CRM, MES, PLM, WMS/WHS, QMS, EHS, EPM, treasury, ESG, data warehouses, lakehouses, APIs, files, and SaaS platforms.
+- Understands industrial process chains such as Lead2Order, Order2Cash, Procure2Pay, Plan2Produce, Record2Report, Maintain2Operate, Market2Lead, Dock2Stock, Complaint2CAPA, Control2Evidence, and Data2Insight2Action.
+- Adds AI/KI guardrails for NL-to-DAX, NL-to-PowerQuery, RAG grounding, hallucination checks, insight confidence, autonomous BI sprints, and process recommendations.
+- Requires substantial delivery artifacts to include aligned `en-US` and `de-DE` documentation.
+
+## Repository Structure
+
+```text
+.
+├── .agents/plugins/marketplace.json
+├── plugins/powerbi-business-intelligence/
+│   ├── .codex-plugin/plugin.json
+│   ├── README.md
+│   ├── assets/
+│   ├── docs/
+│   └── skills/
+├── docs/
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+├── LICENSE
+└── SECURITY.md
+```
+
+## Quickstart
+
+1. Clone the repository.
+2. Open it in Codex.
+3. Register the local marketplace from `.agents/plugins/marketplace.json`.
+4. Install or enable the `powerbi-business-intelligence` plugin.
+5. Start with one of the example prompts below.
+
+Example prompts:
+
+```text
+Erstelle ein Power BI Modell und Dashboard fuer Customer Churn.
+Plane ein Power BI Reporting fuer SAP FiCO mit Datenmodell, DAX und Seitenlayout.
+Loese eine Order2Cash Fragestellung quellsystemabhaengig fuer SAP, CRM, WMS und Finance.
+Baue Dock2Stock, Pick2Pack2Ship und Return2Disposition als Power BI Data Product.
+Erzeuge ein Control2Evidence Cockpit mit en-US/de-DE Dokumentation.
+Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate durch.
+```
+
+## Core Documentation
+
+- [Installation](docs/INSTALLATION.md)
+- [Usage Guide](docs/USAGE.md)
+- [Architecture](docs/ARCHITECTURE.md)
+- [Skills Catalog](docs/SKILLS_CATALOG.md)
+- [Process Chain KPIs](docs/PROCESS_CHAIN_KPIS.md)
+- [Source System Coverage](docs/SOURCE_SYSTEM_COVERAGE.md)
+- [Expert Reduction USPs](docs/EXPERT_REDUCTION_USPS.md)
+- [Bilingual Documentation](docs/BILINGUAL_DOCUMENTATION.md)
+- [Governance and Quality Gates](docs/GOVERNANCE_AND_QUALITY.md)
+- [Examples](docs/EXAMPLES.md)
+
+## Main Capability Areas
+
+- Power BI reporting, modelling, DAX, Power Query, and Fabric architecture.
+- Business problem factory for Customer Churn, Material Churn, FiCO, sales, supply chain, procurement, service, HR, risk, operations, and executive reporting.
+- Industrial process intelligence and source-system-aware process adapters.
+- ERP/CRM/source-product catalog for SAP, Microsoft Dynamics, Salesforce, Oracle, NetSuite, Infor, IFS, Epicor, QAD, Sage, Workday, ServiceNow, HubSpot, Zendesk, Siemens, PTC, Dassault, MES/SCADA/historians, and modern data platforms.
+- QM/QMS/EHS, WHS/WMS, EPM, treasury, ESG, subscription billing, field service, logistics visibility, MDM, ETL/ELT, data quality, lakehouse, ECM, OCR/IDP, RPA, and identity/security source packs.
+- AI-native BI delivery with Copilot orchestration, RAG, prompt governance, hallucination guard, insight confidence, root-cause investigation, and autonomous BI sprints.
+
+## Design Principles
+
+- Governed reuse beats one-off reports.
+- KPI contracts come before DAX measures.
+- Source-system semantics must be validated before modelling.
+- Every exception KPI needs an accountable owner and action path.
+- AI-generated insights must be grounded in metadata, source totals, tests, and documented assumptions.
+- Large industrial BI artifacts should be documented in both `en-US` and `de-DE`.
+
+## License
+
+MIT. See [LICENSE](LICENSE).

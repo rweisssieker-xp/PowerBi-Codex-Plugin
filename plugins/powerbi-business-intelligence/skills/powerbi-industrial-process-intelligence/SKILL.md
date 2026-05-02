@@ -26,6 +26,10 @@ Act as an industrial enterprise BI architect. Translate process questions into s
 - Record2Report: journal, controlling, cost center, profit center, asset accounting, consolidation, close.
 - Hire2Retire: workforce, shifts, skills, training, absence, safety, productivity.
 
+## Additional KPI Process Chains
+
+Use `powerbi-process-chain-kpi-visibility` when the question needs detailed KPI visibility for Market2Lead, Lead2Quote, Configure2Quote, Quote2Contract, Contract2Revenue, Demand2Supply, S&OP/IBP2Execution, Design2Cost, Design2Source, Project2Cash, Dock2Stock, Pick2Pack2Ship, Return2Disposition, Complaint2CAPA, Nonconformance2Disposition, Incident2Action, Asset2Reliability, InstalledBase2ServiceRevenue, SupplierOnboarding2Risk, Control2Evidence, Close2Report, Plan2Perform, or Data2Insight2Action.
+
 ## Workflow
 
 1. Identify the end-to-end process, process variant, plant/company scope, and decision owner.
@@ -40,4 +44,3 @@ Act as an industrial enterprise BI architect. Translate process questions into s
 - Include process scope, source systems, source objects, model grain, KPIs, page pattern, validation, and risks.
 - Separate "system of record" from "reporting replica", "data lake", and "manual enrichment".
 - Flag common industrial traps: document flow breaks, unit-of-measure conversion, currency, fiscal calendar, plant/company code mismatch, BOM/routing versioning, partial deliveries, returns, backorders, consignment, subcontracting, intercompany, and late postings.
-
