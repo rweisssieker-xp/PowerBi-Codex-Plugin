@@ -1,7 +1,7 @@
 {
   "name": "powerbi-business-intelligence",
   "version": "0.1.0",
-  "description": "Power BI expert-reduction operating model with intake routing, portfolio cleanup, KPI governance, certified datasets, performance, Fabric architecture, migration, cost, acceptance, CoE, and delivery automation.",
+  "description": "Power BI expert-replacement layer for industrial enterprises with end-to-end process intelligence, source-system adapters, virtual expert roles, quality gates, governance, and delivery automation.",
   "author": {
     "name": "Power BI Business Intelligence Maintainers",
     "email": "",
@@ -20,13 +20,22 @@
     "governance",
     "fabric",
     "center-of-excellence",
-    "migration"
+    "migration",
+    "quality-gate",
+    "tenant-governance",
+    "lineage",
+    "agent-workforce"
+    ,
+    "industrial-processes",
+    "order-to-cash",
+    "lead-to-order",
+    "source-system-mapping"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Power BI Business Intelligence",
-    "shortDescription": "Reduce Power BI expert load with intake routing, governed datasets, KPI standards, reviews, CoE automation, and delivery packs.",
-    "longDescription": "A generic Power BI expert-reduction plugin and operating model for turning any supported Power BI data source and business problem into governed semantic models, KPI contracts, certified datasets, DAX catalogs, report pages, validation plans, expert reviews, migration plans, performance fixes, Fabric architecture decisions, cost optimizations, business acceptance packs, and complete delivery packs. Covers customer churn, material churn, FiCO, sales, supply chain, procurement, service, HR, risk, operations, and executive reporting.",
+    "shortDescription": "Replace repeatable Power BI expert work across industrial processes, source systems, quality gates, governance, and delivery packs.",
+    "longDescription": "A generic Power BI expert-replacement layer and operating model for industrial enterprises. It turns any supported Power BI data source, source-system landscape, and business process question into governed semantic models, KPI contracts, certified datasets, DAX catalogs, report pages, validation plans, expert reviews, migration plans, root-cause cockpits, Fabric architecture decisions, cost optimizations, business acceptance packs, compliance evidence, lineage analysis, tenant governance scans, quality gates, training material, backlog items, executive value tracking, and complete delivery packs. Covers Lead2Order, Order2Cash, Source2Contract, Procure2Pay, Forecast2Plan, Plan2Produce, Make2Stock, Engineer2Order, Idea2Launch, Maintain2Operate, Issue2Resolution, Record2Report, Hire2Retire, customer churn, material churn, FiCO, sales, supply chain, procurement, service, HR, risk, operations, and executive reporting.",
     "developerName": "Power BI Business Intelligence Maintainers",
     "category": "Productivity",
     "capabilities": [
@@ -45,7 +54,13 @@
       ,
       "Route diese Power BI Anfrage und entscheide, welcher Expertentyp gebraucht wird.",
       "Rationalisiere unser Power BI Report-Portfolio und finde Konsolidierungsmoeglichkeiten.",
-      "Erstelle ein Power BI Center-of-Excellence Operating Model."
+      "Erstelle ein Power BI Center-of-Excellence Operating Model.",
+      "Erzeuge aus dieser Business-Frage einen verifizierten Power BI Report-Plan.",
+      "Fuehre ein Power BI Quality Gate fuer diesen Report durch.",
+      "Bewerte unseren Power BI Tenant auf Governance-Risiken.",
+      "Loese eine Order2Cash Fragestellung quellsystemabhaengig fuer SAP, CRM, WMS und Finance.",
+      "Erstelle ein Lead2Order Cockpit mit Opportunity, Quote, Order Intake und Margin Leakage.",
+      "Entwirf ein industrielles Root-Cause Cockpit fuer Lieferverzug, Bestand, Produktion und Cash."
     ],
     "brandColor": "#F2C811",
     "composerIcon": "./assets/icon.svg",
