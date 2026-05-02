@@ -70,6 +70,26 @@ The plugin contains more than 100 Codex skills. This catalog groups the most imp
 
 ## Automation and Platform Engineering
 
+- `powerbi-automated-intake-triage`
+- `powerbi-automated-requirement-interview`
+- `powerbi-automated-source-metadata-scan`
+- `powerbi-automated-kpi-contract-generation`
+- `powerbi-automated-semantic-model-drafting`
+- `powerbi-automated-dax-test-generation`
+- `powerbi-automated-powerquery-review`
+- `powerbi-automated-report-ux-review`
+- `powerbi-automated-refresh-failure-triage`
+- `powerbi-automated-schema-drift-alerts`
+- `powerbi-automated-tenant-cleanup`
+- `powerbi-automated-certification-pipeline`
+- `powerbi-automated-release-notes`
+- `powerbi-automated-documentation-refresh`
+- `powerbi-automated-uat-pack-builder`
+- `powerbi-automated-action-creation`
+- `powerbi-automated-adoption-monitoring`
+- `powerbi-automated-capacity-optimization`
+- `powerbi-automated-security-exposure-scan`
+- `powerbi-automated-executive-briefing`
 - `powerbi-live-metadata-scanner`
 - `powerbi-pbip-tmdl-generator`
 - `powerbi-dax-unit-test-runner`
@@ -103,6 +123,46 @@ The plugin contains more than 100 Codex skills. This catalog groups the most imp
 
 ## AI/KI Skills
 
+- `powerbi-ai-kpi-discovery-agent`
+- `powerbi-ai-business-question-generator`
+- `powerbi-ai-semantic-model-refactor-agent`
+- `powerbi-ai-measure-deduplication-agent`
+- `powerbi-ai-dax-explainability-agent`
+- `powerbi-ai-report-personalization-engine`
+- `powerbi-ai-insight-prioritization-engine`
+- `powerbi-ai-causal-hypothesis-tester`
+- `powerbi-ai-data-story-generator`
+- `powerbi-ai-exception-to-action-agent`
+- `powerbi-ai-forecast-explanation-agent`
+- `powerbi-ai-scenario-recommendation-agent`
+- `powerbi-ai-data-contract-negotiator`
+- `powerbi-ai-source-mapping-agent`
+- `powerbi-ai-compliance-reviewer`
+- `powerbi-ai-tenant-risk-predictor`
+- `powerbi-ai-adoption-coach`
+- `powerbi-ai-self-service-copilot-guard`
+- `powerbi-ai-process-digital-twin-advisor`
+- `powerbi-ai-expert-replacement-score`
+- `powerbi-ai-continuous-improvement-agent`
+- `powerbi-ai-bi-memory-agent`
+- `powerbi-ai-governance-drift-detector`
+- `powerbi-ai-schema-drift-resolver`
+- `powerbi-ai-kpi-lifecycle-manager`
+- `powerbi-ai-autonomous-remediation-agent`
+- `powerbi-ai-business-impact-simulator`
+- `powerbi-ai-decision-audit-agent`
+- `powerbi-ai-data-product-owner-copilot`
+- `powerbi-ai-report-retirement-agent`
+- `powerbi-ai-semantic-contract-validator`
+- `powerbi-ai-cross-process-dependency-mapper`
+- `powerbi-ai-root-cause-playbook-generator`
+- `powerbi-ai-enterprise-benchmark-learner`
+- `powerbi-ai-report-test-case-miner`
+- `powerbi-ai-data-steward-workbench`
+- `powerbi-ai-security-exposure-analyzer`
+- `powerbi-ai-capacity-optimization-agent`
+- `powerbi-ai-multi-agent-bi-orchestrator`
+- `powerbi-ai-boardroom-copilot`
 - `powerbi-ai-copilot-orchestrator`
 - `powerbi-rag-knowledge-base`
 - `powerbi-ai-semantic-layer-translator`

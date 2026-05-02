@@ -62,6 +62,46 @@ The plugin reduces dependency on large Power BI expert teams by converting repea
 
 ## AI/KI USPs
 
+- AI KPI Discovery Agent.
+- AI Business Question Generator.
+- AI Semantic Model Refactor Agent.
+- AI Measure Deduplication Agent.
+- AI DAX Explainability Agent.
+- AI Report Personalization Engine.
+- AI Insight Prioritization Engine.
+- AI Causal Hypothesis Tester.
+- AI Data Story Generator.
+- AI Exception-to-Action Agent.
+- AI Forecast Explanation Agent.
+- AI Scenario Recommendation Agent.
+- AI Data Contract Negotiator.
+- AI Source Mapping Agent.
+- AI Compliance Reviewer.
+- AI Tenant Risk Predictor.
+- AI Adoption Coach.
+- AI Self-Service Copilot Guard.
+- AI Process Digital Twin Advisor.
+- AI Expert Replacement Score.
+- AI Continuous Improvement Agent.
+- AI BI Memory Agent.
+- AI Governance Drift Detector.
+- AI Schema Drift Resolver.
+- AI KPI Lifecycle Manager.
+- AI Autonomous Remediation Agent.
+- AI Business Impact Simulator.
+- AI Decision Audit Agent.
+- AI Data Product Owner Copilot.
+- AI Report Retirement Agent.
+- AI Semantic Contract Validator.
+- AI Cross-Process Dependency Mapper.
+- AI Root Cause Playbook Generator.
+- AI Enterprise Benchmark Learner.
+- AI Report Test Case Miner.
+- AI Data Steward Workbench.
+- AI Security Exposure Analyzer.
+- AI Capacity Optimization Agent.
+- AI Multi-Agent BI Orchestrator.
+- AI Boardroom Copilot.
 - AI Copilot Orchestrator.
 - RAG Knowledge Base.
 - AI Semantic Layer Translator.
@@ -103,6 +143,26 @@ The target operating model is:
 
 ## Executable Factory USPs
 
+- Automated Intake Triage.
+- Automated Requirement Interview.
+- Automated Source Metadata Scan.
+- Automated KPI Contract Generation.
+- Automated Semantic Model Drafting.
+- Automated DAX Test Generation.
+- Automated Power Query Review.
+- Automated Report UX Review.
+- Automated Refresh Failure Triage.
+- Automated Schema Drift Alerts.
+- Automated Tenant Cleanup.
+- Automated Certification Pipeline.
+- Automated Release Notes.
+- Automated Documentation Refresh.
+- Automated UAT Pack Builder.
+- Automated Action Creation.
+- Automated Adoption Monitoring.
+- Automated Capacity Optimization.
+- Automated Security Exposure Scan.
+- Automated Executive Briefing.
 - Live Metadata Scanner.
 - PBIP/TMDL Generator.
 - DAX Unit Test Runner.

@@ -12,11 +12,13 @@ The newest layer operationalizes industrial BI end to end: industry vertical pac
 
 The platform layer adds executable operating-system capabilities: live connector discovery, automatic semantic model and report layout generation, DAX and Power Query test harnesses, semantic model regression, KPI knowledge graph, industrial data products, action recommendations, closed-loop process integration, anomaly explanations, executive narratives, usage telemetry, FinOps chargeback, data-quality routing, business glossary, multilingual assets, role-based cockpits, and implementation effort estimation.
 
-The AI/KI layer adds evidence-based Copilot orchestration, RAG grounding, semantic translation, NL-to-DAX and NL-to-PowerQuery guardrails, AI report review, AI data stewardship, KPI negotiation, process advice, scenario planning, AI model governance, prompt governance, hallucination checks, insight confidence scoring, autonomous root-cause investigation, auto documentation, training coaching, change-impact explanation, ticket resolution, and autonomous BI sprints.
+The AI/KI layer adds evidence-based Copilot orchestration, RAG grounding, semantic translation, NL-to-DAX and NL-to-PowerQuery guardrails, AI report review, AI data stewardship, KPI negotiation, process advice, scenario planning, AI model governance, prompt governance, hallucination checks, insight confidence scoring, autonomous root-cause investigation, auto documentation, training coaching, change-impact explanation, ticket resolution, autonomous BI sprints, KPI discovery, business-question generation, semantic-model refactoring, measure deduplication, DAX explainability, report personalization, insight prioritization, causal hypothesis testing, data storytelling, exception-to-action routing, forecast explanation, scenario recommendations, data-contract negotiation, AI source mapping, compliance review, tenant-risk prediction, adoption coaching, self-service copilot guardrails, process digital twin advice, expert-replacement scoring, continuous improvement, BI memory, governance drift detection, schema drift resolution, KPI lifecycle management, autonomous remediation, business impact simulation, decision auditing, data product owner copilots, report retirement, semantic contract validation, cross-process dependency mapping, root-cause playbook generation, enterprise benchmark learning, report test case mining, data steward workbench, security exposure analysis, capacity optimization, multi-agent BI orchestration, and boardroom copilots.
 
 The newest expert-reduction layer adds requirement-to-model autopilot, ERP object resolver, KPI conflict war room, executive question library, process DAX pattern library, auto data contract generation, report consolidation AI, semantic model certification bot, source-system gap detection, industrial KPI benchmarks, value realization tracking, report UX decision coaching, lineage risk scoring, SAP/Fabric migration playbooks, role-based prompt packs, closed-loop action ROI, builder skill assessment, tenant cleanup autopilot, data product marketplace generation, and audit-ready AI evidence trails.
 
 The executable-factory layer adds live metadata scanning, PBIP/TMDL generation, DAX unit test execution planning, Power Query/M code generation, visual layout specs, Fabric deployment blueprints, connector capability decisions, enterprise KPI ontology, industry solution packs, system object dictionaries, golden semantic model templates, automated report review rubrics, data-quality rule libraries, RLS/OLS pattern libraries, Power BI Admin API playbooks, synthetic demo data, acceptance test packs, migration cost estimates, CoE operating handbooks, and machine-readable skill indexes.
+
+The automation layer adds automated intake triage, requirements interviews, source metadata scans, KPI contract generation, semantic model drafting, DAX test generation, Power Query review, report UX review, refresh-failure triage, schema-drift alerts, tenant cleanup, certification pipelines, release notes, documentation refresh, UAT pack building, action creation, adoption monitoring, capacity optimization, security exposure scans, and executive briefings.
 
 All substantial documentation and generated artifacts must include matching `en-US` and `de-DE` documentation. Use [BILINGUAL_DOCUMENTATION_STANDARD.md](C:/tmp/PowerBi-Codex-Plugin/plugins/powerbi-business-intelligence/docs/BILINGUAL_DOCUMENTATION_STANDARD.md) and paired templates in [docs/templates](C:/tmp/PowerBi-Codex-Plugin/plugins/powerbi-business-intelligence/docs/templates).
 
@@ -97,6 +99,26 @@ The enterprise software source layer now covers EPM/planning, treasury/cash, tax
 - `skills/powerbi-benchmark-maturity-assessment`: scores Power BI maturity, data readiness, CoE, process analytics, portfolio health, and expert reduction potential.
 - `skills/powerbi-demo-sample-industry-packs`: creates synthetic demo data, sample DAX, sample blueprints, delivery packs, and quality gates.
 - `skills/powerbi-live-connector-toolkit`: plans live metadata access for SAP, Salesforce, Dataverse, SQL, Fabric, Power BI REST, Snowflake, Databricks, APIs, and warehouses.
+- `skills/powerbi-automated-intake-triage`: classifies requests into build, reuse, consolidate, reject, defer, migrate, certify, or escalate.
+- `skills/powerbi-automated-requirement-interview`: asks structured questions until KPI, source, grain, owner, RLS, audience, and acceptance are clear.
+- `skills/powerbi-automated-source-metadata-scan`: defines repeatable metadata scans across Power BI, Fabric, SAP, Salesforce, SQL, Snowflake, Databricks, APIs, and files.
+- `skills/powerbi-automated-kpi-contract-generation`: generates approval-ready KPI contracts from business questions and process scopes.
+- `skills/powerbi-automated-semantic-model-drafting`: drafts facts, dimensions, relationships, measures, roles, and model structures from metadata.
+- `skills/powerbi-automated-dax-test-generation`: generates DAX test cases, edge cases, reconciliation checks, and RLS contexts.
+- `skills/powerbi-automated-powerquery-review`: reviews M queries for folding, types, nulls, pagination, incremental refresh, gateway, and errors.
+- `skills/powerbi-automated-report-ux-review`: reviews report pages for visual choice, overload, drilldowns, KPI context, accessibility, and actionability.
+- `skills/powerbi-automated-refresh-failure-triage`: classifies refresh failures, routes owners, and creates fix plans.
+- `skills/powerbi-automated-schema-drift-alerts`: alerts impacts from source changes on Power Query, models, DAX, visuals, contracts, tests, and docs.
+- `skills/powerbi-automated-tenant-cleanup`: identifies orphaned, stale, duplicate, failing, risky, expensive, and unmanaged tenant assets.
+- `skills/powerbi-automated-certification-pipeline`: automates certification checks for KPI, DAX, RLS, performance, docs, owner acceptance, and release.
+- `skills/powerbi-automated-release-notes`: creates release notes from PBIP, TMDL, DAX, M, model, report, RLS, and documentation changes.
+- `skills/powerbi-automated-documentation-refresh`: regenerates docs from current models, measures, sources, RLS, lineage, pages, quality gates, and releases.
+- `skills/powerbi-automated-uat-pack-builder`: builds UAT scenarios, expected values, owners, evidence, and sign-off checklists.
+- `skills/powerbi-automated-action-creation`: prepares Jira, ServiceNow, Planner, SAP Workflow, CRM, or operational tasks from KPI exceptions.
+- `skills/powerbi-automated-adoption-monitoring`: monitors usage and recommends training, redesign, consolidation, communication, or retirement.
+- `skills/powerbi-automated-capacity-optimization`: recommends refresh windows, aggregations, model reduction, Direct Lake/Import, and load optimization.
+- `skills/powerbi-automated-security-exposure-scan`: scans RLS, sharing, export, external guests, PII, labels, groups, workspaces, and tenant risk.
+- `skills/powerbi-automated-executive-briefing`: generates executive briefings from governed KPIs, variance, risks, scenarios, and actions.
 - `skills/powerbi-live-metadata-scanner`: defines live metadata scans across Power BI/Fabric, semantic models, SQL, lakehouse, SAP, Salesforce, Dynamics, Snowflake, APIs, and files.
 - `skills/powerbi-pbip-tmdl-generator`: turns designs into PBIP/TMDL-ready model structures, measures, roles, perspectives, and deployment artifacts.
 - `skills/powerbi-dax-unit-test-runner`: designs executable DAX unit tests through DAX queries, XMLA, Tabular Editor, or evidence-backed manual reconciliation.
@@ -137,6 +159,46 @@ The enterprise software source layer now covers EPM/planning, treasury/cash, tax
 - `skills/powerbi-role-based-cockpit-factory`: creates cockpit patterns for CEO, CFO, COO, Sales, Plant, Supply Chain, Controller, Quality, Maintenance, and Service roles.
 - `skills/powerbi-implementation-effort-estimator`: estimates delivery effort by source access, model complexity, KPI conflict, RLS, testing, DevOps, and acceptance.
 - `skills/powerbi-ai-copilot-orchestrator`: routes AI/KI work across Power BI expert roles, skills, source systems, quality gates, and evidence checks.
+- `skills/powerbi-ai-kpi-discovery-agent`: discovers candidate KPIs, missing KPIs, KPI gaps, drivers, and conflicts from process data and metadata.
+- `skills/powerbi-ai-business-question-generator`: generates role-specific management questions from models, process chains, and source metadata.
+- `skills/powerbi-ai-semantic-model-refactor-agent`: refactors weak semantic models into governed star-schema candidates.
+- `skills/powerbi-ai-measure-deduplication-agent`: finds duplicated, near-duplicate, conflicting, and unused DAX measures for consolidation.
+- `skills/powerbi-ai-dax-explainability-agent`: explains DAX logic for business users, developers, auditors, and certification evidence.
+- `skills/powerbi-ai-report-personalization-engine`: creates role-based cockpit variants from shared governed data products.
+- `skills/powerbi-ai-insight-prioritization-engine`: ranks insights by impact, confidence, urgency, actionability, and owner readiness.
+- `skills/powerbi-ai-causal-hypothesis-tester`: tests causal plausibility and counterevidence instead of accepting correlations.
+- `skills/powerbi-ai-data-story-generator`: generates evidence-grounded management narratives, board summaries, and monthly commentary.
+- `skills/powerbi-ai-exception-to-action-agent`: converts KPI exceptions into prioritized actions with owner, due date, impact, and retest condition.
+- `skills/powerbi-ai-forecast-explanation-agent`: explains forecast and plan variance by mix, volume, price, capacity, supply, demand, timing, and data quality.
+- `skills/powerbi-ai-scenario-recommendation-agent`: recommends what-if scenarios for planning, pricing, capacity, inventory, and finance decisions.
+- `skills/powerbi-ai-data-contract-negotiator`: negotiates data-contract tradeoffs between BI, IT, data owners, and business teams.
+- `skills/powerbi-ai-source-mapping-agent`: maps business terms to source systems, tables, APIs, CDS views, fields, model objects, and validation evidence.
+- `skills/powerbi-ai-compliance-reviewer`: reviews reports, models, AI outputs, RLS, labels, exports, GDPR, SOX, and audit evidence.
+- `skills/powerbi-ai-tenant-risk-predictor`: predicts datasets and reports likely to break from refresh, owner, gateway, capacity, schema drift, or usage decay.
+- `skills/powerbi-ai-adoption-coach`: turns usage telemetry into training, redesign, consolidation, communication, or retirement recommendations.
+- `skills/powerbi-ai-self-service-copilot-guard`: guides self-service builders and blocks risky model, DAX, sharing, export, or security decisions.
+- `skills/powerbi-ai-process-digital-twin-advisor`: connects process chains, KPIs, simulations, events, and actions into digital twin roadmaps.
+- `skills/powerbi-ai-expert-replacement-score`: scores whether AI/plugin automation, self-service, CoE, IT, or senior expert work is the right execution path.
+- `skills/powerbi-ai-continuous-improvement-agent`: learns from tickets, UAT defects, reviews, feedback, telemetry, and quality gates to improve standards.
+- `skills/powerbi-ai-bi-memory-agent`: retains reusable decisions, KPI definitions, mappings, incidents, fixes, and best practices without storing secrets.
+- `skills/powerbi-ai-governance-drift-detector`: detects when reports, measures, RLS, sources, labels, owners, or KPI definitions drift from approved standards.
+- `skills/powerbi-ai-schema-drift-resolver`: resolves source schema changes across Power Query, models, DAX, visuals, tests, and data contracts.
+- `skills/powerbi-ai-kpi-lifecycle-manager`: governs KPIs from proposed to approved, certified, deprecated, retired, or replaced.
+- `skills/powerbi-ai-autonomous-remediation-agent`: creates safe remediation plans for refresh, DAX, model, RLS, performance, source, and documentation issues.
+- `skills/powerbi-ai-business-impact-simulator`: estimates financial and operational impact of KPI changes, process actions, DQ issues, and scenarios.
+- `skills/powerbi-ai-decision-audit-agent`: audits decisions made from reports, AI narratives, scenarios, and KPI alerts for traceability and effectiveness.
+- `skills/powerbi-ai-data-product-owner-copilot`: supports data product owners with SLA, quality, roadmap, usage, incidents, certification, and escalation.
+- `skills/powerbi-ai-report-retirement-agent`: assesses reports for retirement, consolidation, replacement, archive, or certification.
+- `skills/powerbi-ai-semantic-contract-validator`: checks whether model, DAX, visuals, docs, and validation match approved KPI/data-product contracts.
+- `skills/powerbi-ai-cross-process-dependency-mapper`: maps dependencies across O2C, P2P, production, quality, finance, service, supply chain, HR, ESG, and maintenance.
+- `skills/powerbi-ai-root-cause-playbook-generator`: creates KPI-specific root-cause paths, drilldowns, hypotheses, driver trees, and standard actions.
+- `skills/powerbi-ai-enterprise-benchmark-learner`: learns internal benchmark bands by plant, region, product, customer, supplier, process, or team.
+- `skills/powerbi-ai-report-test-case-miner`: mines reusable UAT and regression tests from historical anomalies, complaints, postings, CAPAs, returns, and failures.
+- `skills/powerbi-ai-data-steward-workbench`: prioritizes data-quality issues, suggests owners, groups root causes, and creates correction backlogs.
+- `skills/powerbi-ai-security-exposure-analyzer`: analyzes risky combinations of RLS, OLS, sharing, export, labels, external guests, PII, groups, and tenant settings.
+- `skills/powerbi-ai-capacity-optimization-agent`: recommends model splitting, aggregations, Direct Lake/Import, refresh windows, query reduction, and cost optimization.
+- `skills/powerbi-ai-multi-agent-bi-orchestrator`: coordinates source, model, DAX, M, UX, governance, test, release, documentation, and adoption agents.
+- `skills/powerbi-ai-boardroom-copilot`: prepares boardroom material with KPIs, variance, root causes, risks, scenarios, decisions, actions, and evidence.
 - `skills/powerbi-rag-knowledge-base`: grounds AI answers in KPI catalogs, models, docs, source metadata, tickets, and CoE standards.
 - `skills/powerbi-ai-semantic-layer-translator`: maps business language to model objects, facts, dimensions, date roles, measures, and filters.
 - `skills/powerbi-nl-to-dax-guardrails`: generates DAX from natural language with KPI contracts, tests, validation, and semantic guardrails.
@@ -216,6 +278,26 @@ The enterprise software source layer now covers EPM/planning, treasury/cash, tax
 - Entwirf ein Fabric Deployment Blueprint mit Workspaces, Lakehouse, Warehouse, Pipelines, Git und Security.
 - Erzeuge ein Golden Semantic Model Template fuer Order2Cash, FiCO oder Quality.
 - Erstelle einen Power BI Admin API Playbook fuer Tenant Scan, Usage, Refresh Failures und Sharing Risks.
+- Entdecke automatisch moegliche KPIs, KPI-Luecken und Treiber aus diesem Prozessmodell.
+- Refactore dieses Semantic Model mit AI in ein sauberes Star Schema und gib Migration, Tests und Risiken aus.
+- Finde doppelte DAX Measures und erstelle eine konsolidierte zertifizierte Measure-Liste.
+- Erklaere diese DAX Measures fuer Fachbereich, Entwickler und Auditoren.
+- Priorisiere diese Power BI Insights nach Impact, Confidence, Urgency und Actionability.
+- Wandle KPI-Ausnahmen automatisch in Actions mit Owner, Due Date, Impact und Retest Condition um.
+- Pruefe, ob diese Root-Cause-Hypothese kausal plausibel ist oder nur korreliert.
+- Berechne fuer diese Power BI Aufgabe den AI Expert Replacement Score.
+- Erkenne Governance Drift in Reports, Measures, RLS, Labels, Quellen und KPI Definitionen.
+- Loese Schema Drift und gib Fix-Plan fuer Power Query, Modell, DAX, Tests und Doku aus.
+- Validiere, ob Modell, DAX, Visuals und Doku zum KPI Contract passen.
+- Orchestriere Source Mapper, Modeler, DAX Tester, UX Reviewer, Governance Reviewer und Release Manager fuer diesen BI Sprint.
+- Erstelle ein Boardroom Briefing mit KPIs, Abweichungen, Ursachen, Risiken, Szenarien und Entscheidungen.
+- Simuliere den Business Impact dieser Prozessmassnahme und gib Annahmen, Sensitivitaet und Confidence aus.
+- Mine UAT-Testfaelle aus historischen Ausreissern, CAPAs, Buchungen, Reklamationen und Tickets.
+- Triagiere diese neue BI-Anfrage automatisch und entscheide Build, Reuse, Consolidate, Reject oder Escalate.
+- Generiere automatisch KPI Contract, Semantic Model Draft, DAX Tests und UAT Pack fuer diese Anfrage.
+- Analysiere diesen Refresh Failure und gib Failure Class, Owner, Fix Plan und Retest aus.
+- Erzeuge automatisierte Release Notes und aktualisiere die en-US/de-DE Dokumentation aus den Modell- und Reportaenderungen.
+- Scanne Security Exposure durch RLS, Sharing, Export, externe Gaeste, PII und Sensitivity Labels.
 - Erstelle eine Cross-System Master-Data-Strategie fuer Customer, Material, Supplier und Cost Center.
 - Erzeuge ein Order2Cash Process-Mining Event Log mit Case ID, Activity, Timestamp und Variantenanalyse.
 - Fuehre eine Source Metadata Discovery fuer SAP OData, Salesforce Objects und Fabric Semantic Models durch.
@@ -360,6 +442,66 @@ The enterprise software source layer now covers EPM/planning, treasury/cash, tax
 - Role-Based Cockpit Factory: tailors cockpits by executive and operational role.
 - Implementation Effort Estimator: estimates effort, roles, blockers, and reusable-pattern savings.
 - AI Copilot Orchestrator: coordinates AI expert roles and evidence checks across the whole BI lifecycle.
+- AI KPI Discovery Agent: discovers candidate KPIs, KPI gaps, drivers, and conflicts from process data and metadata.
+- AI Business Question Generator: generates role-specific management questions from available data products.
+- AI Semantic Model Refactor Agent: turns weak models into governed star-schema candidates.
+- AI Measure Deduplication Agent: consolidates duplicate and conflicting measures.
+- AI DAX Explainability Agent: explains DAX for business, developer, and audit audiences.
+- AI Report Personalization Engine: creates role-specific cockpit variants from shared certified models.
+- AI Insight Prioritization Engine: ranks insights by impact, confidence, urgency, and actionability.
+- AI Causal Hypothesis Tester: checks causal plausibility before claiming root cause.
+- AI Data Story Generator: generates grounded narratives for monthly, executive, and board reporting.
+- AI Exception-to-Action Agent: converts KPI breaches into prioritized accountable actions.
+- AI Forecast Explanation Agent: explains forecast and plan variance drivers.
+- AI Scenario Recommendation Agent: proposes feasible what-if scenarios.
+- AI Data Contract Negotiator: resolves field, quality, freshness, and ownership tradeoffs.
+- AI Source Mapping Agent: maps business terms to source objects and validation evidence.
+- AI Compliance Reviewer: reviews reports, AI outputs, RLS, labels, exports, GDPR, SOX, and evidence.
+- AI Tenant Risk Predictor: predicts likely refresh, owner, gateway, capacity, schema, or usage failures.
+- AI Adoption Coach: recommends training, redesign, consolidation, or retirement from usage signals.
+- AI Self-Service Copilot Guard: guides builders and blocks risky self-service choices.
+- AI Process Digital Twin Advisor: links events, KPIs, simulations, levers, and action loops.
+- AI Expert Replacement Score: routes BI tasks to AI/plugin, self-service, CoE, IT, or senior expert.
+- AI Continuous Improvement Agent: learns from delivery evidence and improves BI standards.
+- AI BI Memory Agent: preserves reusable BI decisions, fixes, definitions, and patterns.
+- AI Governance Drift Detector: detects standards drift before certification and trust erode.
+- AI Schema Drift Resolver: turns source changes into safe model, DAX, M, and test fixes.
+- AI KPI Lifecycle Manager: governs KPIs from proposal to retirement.
+- AI Autonomous Remediation Agent: creates approval-safe fix plans for BI defects.
+- AI Business Impact Simulator: estimates financial and operational impact.
+- AI Decision Audit Agent: audits whether report-based decisions were effective.
+- AI Data Product Owner Copilot: supports SLA, quality, roadmap, adoption, and escalation.
+- AI Report Retirement Agent: retires or consolidates reports with evidence.
+- AI Semantic Contract Validator: checks implementation against approved KPI contracts.
+- AI Cross-Process Dependency Mapper: maps process dependencies and downstream KPI effects.
+- AI Root Cause Playbook Generator: creates reusable analysis and action paths per KPI.
+- AI Enterprise Benchmark Learner: learns internal benchmark bands from history.
+- AI Report Test Case Miner: mines regression tests from real edge cases.
+- AI Data Steward Workbench: prioritizes DQ issues and correction backlogs.
+- AI Security Exposure Analyzer: detects risky access, export, sharing, label, and PII combinations.
+- AI Capacity Optimization Agent: optimizes Fabric/Power BI capacity and refresh load.
+- AI Multi-Agent BI Orchestrator: coordinates specialized BI agents end to end.
+- AI Boardroom Copilot: prepares evidence-backed executive decision material.
+- Automated Intake Triage: routes new BI requests before expert time is spent.
+- Automated Requirement Interview: completes missing requirements through structured questioning.
+- Automated Source Metadata Scan: schedules repeatable metadata discovery.
+- Automated KPI Contract Generation: drafts approval-ready KPI contracts.
+- Automated Semantic Model Drafting: creates model candidates from metadata and contracts.
+- Automated DAX Test Generation: generates measure tests and reconciliation cases.
+- Automated Power Query Review: checks M reliability, folding, refresh, and errors.
+- Automated Report UX Review: scores report usability and decision usefulness.
+- Automated Refresh Failure Triage: classifies failures and routes remediation.
+- Automated Schema Drift Alerts: detects source changes and downstream impact.
+- Automated Tenant Cleanup: finds stale, duplicate, orphaned, failing, and risky assets.
+- Automated Certification Pipeline: runs evidence-based certification gates.
+- Automated Release Notes: documents BI changes and impact.
+- Automated Documentation Refresh: keeps docs aligned with current artifacts.
+- Automated UAT Pack Builder: creates acceptance tests and sign-off evidence.
+- Automated Action Creation: prepares workflow tasks from KPI exceptions.
+- Automated Adoption Monitoring: triggers training, redesign, consolidation, or retirement.
+- Automated Capacity Optimization: optimizes capacity, refresh, model, and query load.
+- Automated Security Exposure Scan: finds access, export, label, guest, and PII risks.
+- Automated Executive Briefing: prepares periodic executive KPI narratives and actions.
 - RAG Knowledge Base: grounds AI answers in enterprise BI artifacts instead of generic model memory.
 - AI Semantic Layer Translator: turns business language into verified semantic model references.
 - NL-to-DAX Guardrails: generates measures only with KPI contracts, tests, and source validation.
