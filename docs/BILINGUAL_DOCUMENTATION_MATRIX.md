@@ -26,6 +26,10 @@ Diese Matrix zeigt den Status der zweisprachigen Dokumentationsabdeckung im Repo
 | Document | Bilingual status | Notes |
 | --- | --- | --- |
 | `README.md` | Required | Repository entry point; includes English and German positioning |
+| `DOCUMENTATION.md` | Complete | Root documentation navigation |
+| `INSTALLATION.md` | Complete | Root installation entry point |
+| `USAGE.md` | Complete | Root usage entry point |
+| `ARCHITECTURE.md` | Complete | Root architecture entry point |
 | `plugins/powerbi-business-intelligence/README.md` | Required | Plugin entry point; includes English and German positioning |
 | `docs/ARCHITECTURE.md` | Complete | Architecture summary in both languages |
 | `docs/BILINGUAL_DOCUMENTATION.md` | Complete | Defines the bilingual documentation standard |
@@ -47,9 +51,14 @@ Diese Matrix zeigt den Status der zweisprachigen Dokumentationsabdeckung im Repo
 | `docs/SOURCE_SYSTEM_COVERAGE.md` | Complete | Source-system coverage summary in both languages |
 | `docs/USAGE.md` | Complete | Usage guidance summary in both languages |
 | `CODE_OF_CONDUCT.md` | Complete | Collaboration and enforcement standard |
+| `AUTHORS.md` | Complete | Maintainer and contributor authorship note |
+| `NOTICE.md` | Complete | Product and trademark notice |
+| `FAQ.md` | Complete | Root frequently asked questions |
 | `GOVERNANCE.md` | Complete | Repository decision and maintainer governance |
 | `MAINTAINERS.md` | Complete | Maintainer model and review expectations |
 | `RELEASE.md` | Complete | Release readiness and release-note process |
+| `ROADMAP.md` | Complete | Root roadmap entry point |
+| `SUPPORT.md` | Complete | Support and escalation guidance |
 
 ## Machine-Readable Artifacts
 

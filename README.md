@@ -39,11 +39,20 @@ Das Tool uebersetzt Business- und Prozessfragen in validierte semantische Modell
 │   ├── docs/
 │   └── skills/
 ├── docs/
+├── DOCUMENTATION.md
+├── INSTALLATION.md
+├── USAGE.md
+├── ARCHITECTURE.md
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
 ├── GOVERNANCE.md
 ├── MAINTAINERS.md
 ├── RELEASE.md
+├── ROADMAP.md
+├── FAQ.md
+├── AUTHORS.md
+├── NOTICE.md
+├── SUPPORT.md
 ├── CHANGELOG.md
 ├── LICENSE
 └── SECURITY.md
@@ -73,6 +82,9 @@ Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate dur
 - [Installation](docs/INSTALLATION.md)
 - [Usage Guide](docs/USAGE.md)
 - [Architecture](docs/ARCHITECTURE.md)
+- [Root Documentation Index](DOCUMENTATION.md)
+- [Root Roadmap](ROADMAP.md)
+- [FAQ](FAQ.md)
 - [Skills Catalog](docs/SKILLS_CATALOG.md)
 - [Process Chain KPIs](docs/PROCESS_CHAIN_KPIS.md)
 - [Source System Coverage](docs/SOURCE_SYSTEM_COVERAGE.md)
