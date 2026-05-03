@@ -57,6 +57,8 @@ Das Tool uebersetzt Business- und Prozessfragen in validierte semantische Modell
 └── SECURITY.md
 ```
 
+Further topic guides and catalogs (skills catalog, expert-replacement plans, process KPI references, and similar) are linked only from [DOCUMENTATION.md](DOCUMENTATION.md) so the list stays in one place.
+
 ## Quickstart
 
 1. Clone the repository.
@@ -76,31 +78,18 @@ Erzeuge ein Control2Evidence Cockpit mit en-US/de-DE Dokumentation.
 Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate durch.
 ```
 
-## Core Documentation
+## Documentation
+
+The full link index for repository Markdown is **[DOCUMENTATION.md](DOCUMENTATION.md)** (single source of truth). Common entry points:
 
 - [Installation](INSTALLATION.md)
 - [Usage Guide](USAGE.md)
 - [Architecture](ARCHITECTURE.md)
-- [Root Documentation Index](DOCUMENTATION.md)
-- [Root Roadmap](ROADMAP.md)
+- [Contributing](CONTRIBUTING.md)
+- [Security](SECURITY.md)
+- [Roadmap](ROADMAP.md)
 - [FAQ](FAQ.md)
-- [Skills Catalog](SKILLS_CATALOG.md)
-- [Process Chain KPIs](PROCESS_CHAIN_KPIS.md)
-- [Source System Coverage](SOURCE_SYSTEM_COVERAGE.md)
-- [Power BI Native Connector Coverage](POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
-- [Expert Reduction USPs](EXPERT_REDUCTION_USPS.md)
-- [Process Owner AI/KI USPs](PROCESS_OWNER_AI_KI_USPS.md)
-- [Power BI Expert-Replacement Factory Gesamtplan](POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
-- [Power BI Expert-Replacement Skill Map](POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
-- [Power BI Expert-Replacement 20 Feature Rollout](POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
-- [Power BI Expert-Replacement Advanced USP Rollout](POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
-- [Bilingual Documentation](BILINGUAL_DOCUMENTATION.md)
-- [Bilingual Documentation Matrix](BILINGUAL_DOCUMENTATION_MATRIX.md)
-- [GitHub Documentation](GITHUB_DOCUMENTATION.md)
-- [GitHub Workflow](GITHUB_WORKFLOW.md)
-- [Governance and Quality Gates](GOVERNANCE_AND_QUALITY.md)
-- [Examples](EXAMPLES.md)
-- [Simulation Test Report](SIMULATION_TEST_REPORT.md)
+- [Codex plugin README](plugins/powerbi-business-intelligence/README.md)
 
 ## Main Capability Areas
 
