@@ -29,7 +29,7 @@ Each skill should:
 
 - Keep GitHub docs concise and navigable.
 - Put deep plugin-specific details under `plugins/powerbi-business-intelligence/docs`.
-- Put repository-level docs under `docs`.
+- Put repository-level guides as Markdown files in the repository root (see `DOCUMENTATION.md` for the index).
 - For substantial artifacts, maintain aligned `en-US` and `de-DE` versions.
 
 ## Validation Before PR
@@ -73,7 +73,7 @@ Jeder Skill soll:
 
 - GitHub-Doku kurz und navigierbar halten.
 - Tiefe plugin-spezifische Details unter `plugins/powerbi-business-intelligence/docs` pflegen.
-- Repository-Level-Doku unter `docs` pflegen.
+- Repository-weite Guides als Markdown im Repo-Root pflegen (Index in `DOCUMENTATION.md`).
 - Fuer wesentliche Artefakte abgestimmte `en-US`- und `de-DE`-Versionen pflegen.
 
 ## Validation Before PR

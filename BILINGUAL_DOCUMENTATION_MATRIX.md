@@ -48,7 +48,6 @@ Diese Matrix zeigt den Status der zweisprachigen Dokumentationsabdeckung im Repo
 | `SKILLS_CATALOG.md` | Complete | Skills catalog |
 | `SOURCE_SYSTEM_COVERAGE.md` | Complete | Source-system coverage summary |
 | `plugins/powerbi-business-intelligence/README.md` | Required | Plugin entry point; includes English and German positioning |
-| `docs/<mirror>.md` | Complete | Same bilingual Markdown as repo root (`INSTALLATION.md`, `USAGE.md`, topic guides); paths kept for compatibility |
 | `CODE_OF_CONDUCT.md` | Complete | Collaboration and enforcement standard |
 | `AUTHORS.md` | Complete | Maintainer and contributor authorship note |
 | `NOTICE.md` | Complete | Product and trademark notice |

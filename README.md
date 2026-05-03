@@ -38,7 +38,6 @@ Das Tool uebersetzt Business- und Prozessfragen in validierte semantische Modell
 │   ├── assets/
 │   ├── docs/
 │   └── skills/
-├── docs/                          # mirror of root Markdown guides (same filenames)
 ├── DOCUMENTATION.md
 ├── INSTALLATION.md
 ├── USAGE.md
