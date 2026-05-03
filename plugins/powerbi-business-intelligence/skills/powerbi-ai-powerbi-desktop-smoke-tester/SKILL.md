@@ -23,3 +23,7 @@ Use this skill before claiming a generated Power BI artifact works in Desktop.
 - Mark the artifact as `passed`, `failed`, or `inconclusive`.
 - If failed, route to `powerbi-ai-frown-to-fix-triage`.
 
+## Executable Support
+
+- Use `scripts/powerbi_desktop_smoke_test.ps1 -PbipPath <path-to.pbip> -OutJson <evidence.json>` when Power BI Desktop is installed locally.
+- The result is release blocking when a new `FrownSnapShot*.zip` appears after opening the PBIP.

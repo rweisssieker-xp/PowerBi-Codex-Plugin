@@ -1,0 +1,8 @@
+{
+  "name": "Power BI Tenant Governance Scan Plan",
+  "requiresCredentials": true,
+  "scopes": ["Tenant.Read.All", "Dataset.Read.All", "Report.Read.All", "Workspace.Read.All"],
+  "entities": ["workspaces", "datasets", "reports", "refreshSchedules", "endorsements", "permissions"],
+  "riskSignals": ["uncertifiedSharedDataset", "orphanedOwner", "failedRefresh", "publicLink", "unusedReport", "duplicateSemanticModel"],
+  "output": "tenant_governance_scan.json"
+}

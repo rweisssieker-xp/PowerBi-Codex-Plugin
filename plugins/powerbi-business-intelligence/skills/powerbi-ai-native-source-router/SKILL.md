@@ -22,3 +22,7 @@ Use this skill when source access must be generated or reviewed.
 - For every table: source family, connector function, path/endpoint pattern, auth, gateway, privacy, refresh mode, folding expectation, and fallback.
 - Flag missing source objects before generating M.
 
+## Executable Support
+
+- Use `data/powerbi_connector_matrix.json` as the local connector decision source.
+- Use `scripts/powerbi_expert_factory.py validate --project <pbip-folder>` to detect native connector functions, `DATATABLE` demo usage, missing file references, and brittle numeric M navigation.

@@ -1,5 +1,17 @@
 # Power BI Expert-Replacement Factory Gesamtplan
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This is the master plan for the AI/KI Power BI Expert-Replacement Factory. It defines target roles, replacement scope, skill clusters, trust layer, executable engine layer, O2C proof, roadmap, and governance boundary.
+
+## de-DE Dokumentation
+
+Dies ist der Gesamtplan fuer die AI/KI Power BI Expert-Replacement Factory. Er definiert Zielrollen, Ersatzumfang, Skill-Cluster, Trust Layer, ausfuehrbare Engine-Schicht, O2C-Proof, Roadmap und Governance-Grenzen.
+
+<!-- /bilingual-doc-header -->
+
+
 ## en-US Positioning
 
 The product is an AI/KI Power BI Expert-Replacement Factory. It enables Process Owners and Process Managers to create complete governed Power BI solutions without a dedicated expert team for every analysis request. The tool replaces repeatable expert work normally performed by Power BI consultants, semantic modelers, DAX experts, Power Query developers, report designers, data analysts, BI testers, CoE reviewers, and BI documentation owners.
@@ -64,6 +76,40 @@ The expert replacement promise is only valid when generated artifacts are techni
 - Visual bindings resolve to valid model fields or measures.
 - PBIP/PBIR/TMDL structure is compatible with the target Power BI Desktop release.
 - Power BI Desktop opens the reference PBIP without a new Frown snapshot.
+
+## Real Engine Layer: 15 Implemented Capabilities
+
+The first executable layer turns the expert-replacement promise into inspectable artifacts. These capabilities are local-first and credential-free unless tenant/API access is explicitly required.
+
+| # | Real capability | Implemented artifact | Expert work replaced |
+| --- | --- | --- | --- |
+| 1 | Executable validators | `scripts/powerbi_expert_factory.py validate` | BI QA reviewer for PBIP/TMDL/PBIR static checks |
+| 2 | Power BI Desktop automation harness | `scripts/powerbi_desktop_smoke_test.ps1` | Desktop smoke tester and Frown monitor |
+| 3 | TMDL/PBIR parser library | `parse_model()` and visual binding traversal in `scripts/powerbi_expert_factory.py` | Semantic modeler and report binding reviewer |
+| 4 | DAX test execution entry point | `validate_dax_static()` plus KPI contract schema | DAX reviewer baseline before full XMLA/DAX execution |
+| 5 | Power Query/M test execution entry point | `validate_native_sources()` | Power Query reviewer for connector and brittle navigation risks |
+| 6 | KPI contract schema | `schemas/kpi_contract.schema.json` | KPI definition owner and DAX handoff reviewer |
+| 7 | Evidence store event schema | `schemas/evidence_event.schema.json` and `powerbi_expert_factory.py evidence` | CoE evidence and release audit preparation |
+| 8 | Skill orchestrator handoff | `schemas/orchestration_handoff.schema.json` | BI delivery manager handoff discipline |
+| 9 | Real connector matrix | `data/powerbi_connector_matrix.json` | Power Query connector routing advisor |
+| 10 | Report screenshot / visual QA checklist | `templates/report_visual_qa_checklist.json` | Report designer QA checklist |
+| 11 | PBIX/PBIP import/refactor pipeline | `templates/refactor_pipeline.json` | Migration and refactor consultant |
+| 12 | Process pack templates as data | `templates/process_packs/*.json` | Reusable process BI solution architect |
+| 13 | Admin API / tenant scanner plan | `templates/admin_api_tenant_scan_plan.json` | CoE tenant governance analyst |
+| 14 | Security/RLS test harness schema | `schemas/rls_test_case.schema.json` | Security and RLS test reviewer |
+| 15 | Golden acceptance schema | `schemas/golden_acceptance.schema.json` | Release manager and certification gatekeeper |
+
+Minimum command-line acceptance for a PBIP folder:
+
+```powershell
+python scripts\powerbi_expert_factory.py validate --project outputs\powerbi-order2cash-pbip\Order2Cash_NativeExcel --out outputs\powerbi-order2cash-pbip\expert_factory_validation.json
+```
+
+Desktop smoke validation, when Power BI Desktop is available locally:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts\powerbi_desktop_smoke_test.ps1 -PbipPath outputs\powerbi-order2cash-pbip\Order2Cash_NativeExcel\Order2Cash.pbip -OutJson outputs\powerbi-order2cash-pbip\desktop_smoke.json
+```
 
 ## O2C Reference Proof
 

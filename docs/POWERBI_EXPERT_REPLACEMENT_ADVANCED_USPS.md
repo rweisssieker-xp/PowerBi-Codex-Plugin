@@ -1,5 +1,17 @@
 # Power BI Expert-Replacement Advanced USP Rollout
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document tracks the advanced USP skills that expand the product from BI generation into autonomous improvement, governance, memory, benchmarking, and boardroom support.
+
+## de-DE Dokumentation
+
+Dieses Dokument verfolgt die erweiterten USP-Skills, die das Produkt von BI-Generierung zu autonomer Verbesserung, Governance, Memory, Benchmarking und Boardroom-Unterstuetzung ausbauen.
+
+<!-- /bilingual-doc-header -->
+
+
 ## Purpose
 
 This document tracks the second wave of 20 advanced USP skills. These features move the product from expert replacement into a defensible Power BI Operating System: marketplaces, refactoring, lineage, cost-to-value, self-healing refresh, certification, evidence, migration, orchestration, and maturity intelligence.

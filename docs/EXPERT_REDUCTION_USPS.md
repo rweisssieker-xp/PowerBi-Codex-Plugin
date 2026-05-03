@@ -1,5 +1,17 @@
 # Expert Replacement, Expert Reduction, and Process Owner AI/KI USPs
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document describes the expert replacement and expert reduction value proposition. It connects repeatable expert work, process owner autonomy, AI/KI automation, and executable factory quality gates.
+
+## de-DE Dokumentation
+
+Dieses Dokument beschreibt das Nutzenversprechen fuer Expert Replacement und Expert Reduction. Es verbindet wiederholbare Expertenarbeit, Process-Owner-Autonomie, AI/KI-Automation und ausfuehrbare Factory-Quality-Gates.
+
+<!-- /bilingual-doc-header -->
+
+
 The plugin replaces repeatable Power BI expert-team work by converting senior expert judgment into governed Codex skills. Expert reduction is the operating impact; expert replacement with validation and governance is the product mechanism. Its primary product direction is to enable Process Owners and Process Managers to create, validate, and operate complete Power BI process analytics: source mappings, semantic models, KPIs, DAX measures, Power Query logic, report pages, root-cause analysis, and action tracking.
 
 ## de-DE Kurzfassung

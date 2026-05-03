@@ -1,5 +1,9 @@
 # Artifact Title
 
+Language: `en-US`
+
+Paired template: `artifact.de-DE.md`
+
 ## Purpose
 
 ## Scope
@@ -24,4 +28,3 @@
 
 | Term | Approved Translation | Notes |
 | --- | --- | --- |
-

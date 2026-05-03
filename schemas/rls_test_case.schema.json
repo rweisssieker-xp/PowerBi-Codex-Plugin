@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Power BI RLS Test Case",
+  "type": "object",
+  "required": ["role", "identity", "allowedFilters", "deniedFilters", "expectedMeasures"],
+  "properties": {
+    "role": { "type": "string" },
+    "identity": { "type": "string" },
+    "allowedFilters": { "type": "array", "items": { "type": "string" } },
+    "deniedFilters": { "type": "array", "items": { "type": "string" } },
+    "expectedMeasures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["measure", "expectation"],
+        "properties": {
+          "measure": { "type": "string" },
+          "expectation": { "type": "string" }
+        }
+      }
+    }
+  }
+}

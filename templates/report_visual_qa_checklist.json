@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "Every visual binding resolves to a column or measure",
+    "Every KPI visual has title, unit, date basis, and drill path",
+    "No page relies on blank placeholder visuals",
+    "Mobile layout has stable visual order and no overlapping text",
+    "Role pages expose direct actions for process owners and process managers",
+    "Screenshot comparison is required before release"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "PBIX/PBIP Import and Refactor Pipeline",
+  "steps": [
+    "Extract PBIP/PBIR/TMDL structure",
+    "Parse model, relationships, partitions, measures, and visual bindings",
+    "Classify facts, dimensions, measures, pages, and owner roles",
+    "Detect ambiguous paths, fact-to-fact edges, missing fields, and brittle source navigation",
+    "Generate refactor backlog with quality-gate evidence",
+    "Run Desktop smoke test before release"
+  ]
+}

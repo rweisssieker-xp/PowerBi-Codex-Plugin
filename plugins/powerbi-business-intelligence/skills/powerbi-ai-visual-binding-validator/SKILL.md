@@ -21,3 +21,7 @@ Use this skill before claiming report pages are usable.
 - Include page, visual, referenced field, validation result, and fix recommendation.
 - Mark report as `pass`, `pass-with-risk`, or `fail`.
 
+## Executable Support
+
+- Use `scripts/powerbi_expert_factory.py validate --project <pbip-folder>` to parse PBIR `visual.json` files and verify table/column/measure bindings against TMDL.
+- Treat missing visual fields or measures as release-blocking defects.

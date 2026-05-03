@@ -1,5 +1,17 @@
 # Power BI Plugin Simulation Test Report
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document summarizes repository simulation tests and scenario coverage used to validate plugin behavior and documentation consistency.
+
+## de-DE Dokumentation
+
+Dieses Dokument fasst Repository-Simulationstests und Szenarioabdeckung zusammen, mit denen Plugin-Verhalten und Dokumentationskonsistenz validiert werden.
+
+<!-- /bilingual-doc-header -->
+
+
 Generated: 2026-05-02T22:45:35
 Skills simulated: 214
 Checks passed: 20
@@ -22,11 +34,11 @@ Checks failed: 0
 | JSON plugins\powerbi-business-intelligence\.codex-plugin\plugin.json | PASS | ok |
 | JSON .agents\plugins\marketplace.json | PASS | ok |
 | Markdown links | PASS | markdown_files=252; broken_links=0 |
-| Generator business blueprint | PASS | Wrote C:\Users\weiss\AppData\Local\Temp\powerbi-plugin-sim-gb1_m8_f\BLUEPRINT.md |
-| Generator semantic model spec | PASS | Wrote C:\Users\weiss\AppData\Local\Temp\powerbi-plugin-sim-gb1_m8_f\SEMANTIC_MODEL_SPEC.md |
-| Generator report spec | PASS | Wrote C:\Users\weiss\AppData\Local\Temp\powerbi-plugin-sim-gb1_m8_f\REPORT_SPEC.md |
-| Generator dax pack | PASS | Wrote 2 measures to C:\Users\weiss\AppData\Local\Temp\powerbi-plugin-sim-gb1_m8_f\dax-pack |
-| Generator powerbi pack | PASS | Wrote Power BI pack to C:\Users\weiss\AppData\Local\Temp\powerbi-plugin-sim-gb1_m8_f\implementation-pack |
+| Generator business blueprint | PASS | Wrote `<temp>/powerbi-plugin-sim/BLUEPRINT.md` |
+| Generator semantic model spec | PASS | Wrote `<temp>/powerbi-plugin-sim/SEMANTIC_MODEL_SPEC.md` |
+| Generator report spec | PASS | Wrote `<temp>/powerbi-plugin-sim/REPORT_SPEC.md` |
+| Generator dax pack | PASS | Wrote 2 measures to `<temp>/powerbi-plugin-sim/dax-pack` |
+| Generator powerbi pack | PASS | Wrote Power BI pack to `<temp>/powerbi-plugin-sim/implementation-pack` |
 | Generated DAX content | PASS | measure names preserved |
 | Generated Power Query content | PASS | SQL and OData connector patterns generated |
 | Scenario Customer Churn CRM to Power BI | PASS | skills=powerbi-business-problem-factory, powerbi-domain-packs, powerbi-ai-kpi-discovery-agent, powerbi-ai-causal-hypothesis-tester, powerbi-nl-to-dax-guardrails, powerbi-bilingual-documentation |

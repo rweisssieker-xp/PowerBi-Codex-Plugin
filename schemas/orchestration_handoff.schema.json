@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Power BI Expert Factory Orchestration Handoff",
+  "type": "object",
+  "required": ["requestId", "process", "question", "requiredAgents", "artifacts"],
+  "properties": {
+    "requestId": { "type": "string" },
+    "process": { "type": "string" },
+    "question": { "type": "string" },
+    "requiredAgents": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "sourceCandidates": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "path"],
+        "properties": {
+          "type": { "type": "string" },
+          "path": { "type": "string" },
+          "status": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -4,6 +4,12 @@ Codex plugin for replacing repeatable Power BI expert, designer, data analyst, s
 
 The primary positioning is a Power BI Expert-Replacement Factory: Process Owners and Process Managers can turn operational questions into governed Power BI models, KPIs, measures, reports, root-cause analysis, action cockpits, tests, evidence, and Power BI Desktop-validated PBIP/PBIR/TMDL artifacts without a dedicated expert team for every request.
 
+## de-DE Kurzfassung
+
+Dieses Plugin ist als Power BI Expert-Replacement Factory positioniert. Process Owner und Process Manager koennen operative Fragen in governance-faehige Power-BI-Modelle, KPIs, Measures, Reports, Root-Cause-Analysen, Action Cockpits, Tests, Evidence und Power-BI-Desktop-validierte PBIP/PBIR/TMDL-Artefakte uebersetzen lassen, ohne fuer jede Anfrage ein eigenes Expertenteam zu benoetigen.
+
+Die wiederholbare Arbeit von Power BI Consultant, Data Analyst, Power BI Designer, Semantic Modeler, DAX Expert, Power Query/M Developer, Fabric Architect, BI QA, CoE Reviewer und Documentation Owner wird durch Skills, Agenten, Quality Gates und ausfuehrbare Validatoren ersetzt.
+
 The extended positioning is a Power BI process analytics factory: virtual expert roles, readiness scores, risk scores, quality gates, lineage, tenant governance, compliance evidence, enablement, backlog generation, executive value tracking, and process-owner self-service guardrails.
 
 The expert replacement layer covers Power BI Consultant Agent, Data Analyst Agent, Power BI Designer Agent, Semantic Modeler Agent, DAX Expert Agent, Power Query Expert Agent, Fabric Architect Agent, BI QA Agent, Frown-to-Fix Agent, CoE Reviewer Agent, and BI Documentation Owner Agent.
@@ -32,6 +38,8 @@ The AI/KI layer adds evidence-based Copilot orchestration, RAG grounding, semant
 The newest expert-reduction layer adds requirement-to-model autopilot, ERP object resolver, KPI conflict war room, executive question library, process DAX pattern library, auto data contract generation, report consolidation AI, semantic model certification bot, source-system gap detection, industrial KPI benchmarks, value realization tracking, report UX decision coaching, lineage risk scoring, SAP/Fabric migration playbooks, role-based prompt packs, closed-loop action ROI, builder skill assessment, tenant cleanup autopilot, data product marketplace generation, and audit-ready AI evidence trails.
 
 The executable-factory layer adds live metadata scanning, PBIP/TMDL generation, DAX unit test execution planning, Power Query/M code generation, visual layout specs, Fabric deployment blueprints, connector capability decisions, enterprise KPI ontology, industry solution packs, system object dictionaries, golden semantic model templates, automated report review rubrics, data-quality rule libraries, RLS/OLS pattern libraries, Power BI Admin API playbooks, synthetic demo data, acceptance test packs, migration cost estimates, CoE operating handbooks, and machine-readable skill indexes.
+
+The first real engine layer is implemented at repository root with `scripts/powerbi_expert_factory.py`, `scripts/powerbi_desktop_smoke_test.ps1`, `schemas/*.schema.json`, `data/powerbi_connector_matrix.json`, and `templates/process_packs/*.json`. Trust-layer skills should call or reference these artifacts for PBIP/TMDL/PBIR validation, Desktop/Frown smoke evidence, KPI contracts, RLS cases, golden acceptance, connector routing, refactor plans, tenant scans, and report visual QA.
 
 The automation layer adds automated intake triage, requirements interviews, source metadata scans, KPI contract generation, semantic model drafting, DAX test generation, Power Query review, report UX review, refresh-failure triage, schema-drift alerts, tenant cleanup, certification pipelines, release notes, documentation refresh, UAT pack building, action creation, adoption monitoring, capacity optimization, security exposure scans, and executive briefings.
 

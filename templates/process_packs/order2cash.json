@@ -1,0 +1,8 @@
+{
+  "process": "Order2Cash",
+  "facts": ["Fact_SalesOrders", "Fact_Deliveries", "Fact_Billing", "Fact_AR", "Fact_Quotes", "Fact_Order2CashExceptions"],
+  "dimensions": ["Dim_Customer", "Dim_Product", "Dim_Plant", "Dim_Warehouse", "Dim_Calendar"],
+  "kpis": ["Order Value", "Backlog Value", "OTIF %", "Billing Block Value", "Open AR", "Churn Risk Customers", "Quote Conversion %"],
+  "pages": ["Executive Overview", "Customer Risk", "Order Backlog", "Delivery OTIF", "Billing and Cash", "Quote Leakage"],
+  "qualityGates": ["model_graph", "native_sources", "visual_bindings", "dax_static", "desktop_smoke"]
+}

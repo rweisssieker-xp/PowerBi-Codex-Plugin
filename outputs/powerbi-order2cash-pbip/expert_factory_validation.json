@@ -1,0 +1,48 @@
+{
+  "status": "pass",
+  "generatedAt": "2026-05-03T14:19:04.359781+00:00",
+  "project": "outputs\\powerbi-order2cash-pbip\\Order2Cash_NativeExcel",
+  "summary": {
+    "tables": 16,
+    "relationships": 13,
+    "measures": 21,
+    "errors": 0,
+    "warnings": 0
+  },
+  "checks": [
+    {
+      "name": "model_graph",
+      "status": "pass",
+      "errors": [],
+      "warnings": [],
+      "relationships": 13
+    },
+    {
+      "name": "native_sources",
+      "status": "pass",
+      "errors": [],
+      "warnings": [],
+      "connectors": {
+        "Csv.Document": 1,
+        "Excel.Workbook": 15
+      }
+    },
+    {
+      "name": "visual_bindings",
+      "status": "pass",
+      "errors": [],
+      "warnings": [],
+      "visuals": 25,
+      "bindings": 25
+    },
+    {
+      "name": "dax_static",
+      "status": "pass",
+      "errors": [],
+      "warnings": [],
+      "measures": 21
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

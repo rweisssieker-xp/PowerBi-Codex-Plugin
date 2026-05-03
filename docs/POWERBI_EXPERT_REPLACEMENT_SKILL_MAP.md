@@ -1,5 +1,17 @@
 # Power BI Expert-Replacement Skill Map
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document maps replaced expert roles to existing skills, planned AI/KI agent skills, inputs, outputs, and acceptance rules.
+
+## de-DE Dokumentation
+
+Dieses Dokument ordnet ersetzte Expertenrollen den bestehenden Skills, geplanten AI/KI-Agent-Skills, Eingaben, Ergebnissen und Abnahmeregeln zu.
+
+<!-- /bilingual-doc-header -->
+
+
 ## Purpose
 
 This matrix maps the Power BI Expert-Replacement Factory promise to existing, newly implemented, and planned Codex skills. Existing and newly implemented skills represent current coverage. Planned AI/KI expert-agent skills define the remaining roadmap needed to replace repeatable Power BI expert, designer, data analyst, modeling, DAX, M, QA, governance, and documentation work.

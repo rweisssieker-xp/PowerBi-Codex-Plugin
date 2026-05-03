@@ -1,5 +1,17 @@
 # Process Owner AI/KI USPs
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document explains the AI/KI USPs for process owners and process managers: question-to-report, process-to-model, KPI-to-DAX, root cause, actions, governance, and value realization.
+
+## de-DE Dokumentation
+
+Dieses Dokument erklaert die AI/KI-USPs fuer Process Owner und Process Manager: Question-to-Report, Process-to-Model, KPI-to-DAX, Root Cause, Actions, Governance und Value Realization.
+
+<!-- /bilingual-doc-header -->
+
+
 ## Positioning
 
 The product enables Process Owners and Process Managers to build, govern, and operate their own Power BI process analytics. It converts process knowledge into source mappings, semantic models, KPIs, DAX measures, Power Query logic, report pages, root-cause paths, and action cockpits.

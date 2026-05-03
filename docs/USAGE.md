@@ -1,5 +1,17 @@
 # Usage Guide
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document explains how users should prompt and operate the plugin for business-question intake, source-aware process analytics, semantic models, quality gates, and AI-native delivery.
+
+## de-DE Dokumentation
+
+Dieses Dokument erklaert, wie Nutzer das Plugin fuer Business-Question-Intake, source-aware Process Analytics, semantische Modelle, Quality Gates und AI-native Delivery verwenden sollen.
+
+<!-- /bilingual-doc-header -->
+
+
 ## Recommended Prompt Shape
 
 Use a prompt that includes business question, source systems, target audience, process scope, and expected output.

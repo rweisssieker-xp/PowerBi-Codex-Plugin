@@ -22,3 +22,7 @@ Use this skill before publishing or opening generated TMDL models.
 - Include relationship inventory, invalid paths, severity, and remediation.
 - Mark models as `pass`, `pass-with-risk`, or `fail`.
 
+## Executable Support
+
+- Use `scripts/powerbi_expert_factory.py validate --project <pbip-folder>` for the current local static model-graph gate.
+- Treat any `model_graph` error as release blocking.

@@ -4,6 +4,12 @@ AI-native Codex plugin for replacing repeatable Power BI expert, designer, data 
 
 Process Owners and Process Managers can create complete Power BI solutions without needing a dedicated expert team for every analysis request. The tool turns business and process questions into validated semantic models, KPIs, measures, DAX, Power Query/M, report pages, root-cause analysis, action cockpits, governance evidence, tests, documentation, and Power BI Desktop-validated PBIP/PBIR/TMDL artifacts.
 
+## de-DE Kurzfassung
+
+Dieses Repository enthaelt eine AI-native Power BI Expert-Replacement Factory. Process Owner und Process Manager koennen vollstaendige Power-BI-Loesungen erstellen, ohne fuer jede Analyse ein separates Expertenteam aus Power BI Consultant, Designer, Data Analyst, Semantic Modeler, DAX Developer, Power Query Developer, BI Tester und CoE Reviewer zu benoetigen.
+
+Das Tool uebersetzt Business- und Prozessfragen in validierte semantische Modelle, KPI Contracts, Measures, DAX, Power Query/M, Reportseiten, Root-Cause-Analysen, Action Cockpits, Governance Evidence, Tests, Dokumentation und Power-BI-Desktop-validierte PBIP/PBIR/TMDL-Artefakte.
+
 ## What It Does
 
 - Converts business questions into Power BI blueprints, semantic models, DAX catalogs, report layouts, validation plans, and delivery packs.
@@ -74,6 +80,7 @@ Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate dur
 - [Power BI Expert-Replacement 20 Feature Rollout](docs/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
 - [Power BI Expert-Replacement Advanced USP Rollout](docs/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
 - [Bilingual Documentation](docs/BILINGUAL_DOCUMENTATION.md)
+- [Bilingual Documentation Matrix](docs/BILINGUAL_DOCUMENTATION_MATRIX.md)
 - [Governance and Quality Gates](docs/GOVERNANCE_AND_QUALITY.md)
 - [Examples](docs/EXAMPLES.md)
 - [Simulation Test Report](docs/SIMULATION_TEST_REPORT.md)
@@ -81,6 +88,7 @@ Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate dur
 ## Main Capability Areas
 
 - Power BI reporting, modelling, DAX, Power Query, and Fabric architecture.
+- Executable trust layer: `scripts/powerbi_expert_factory.py` for PBIP/TMDL/PBIR validation, `scripts/powerbi_desktop_smoke_test.ps1` for Desktop/Frown smoke checks, schemas for KPI/evidence/RLS/acceptance, and process-pack templates as machine-readable delivery assets.
 - Expert replacement for Power BI consultants, designers, data analysts, semantic modelers, DAX experts, Power Query/M developers, Fabric architects, BI QA, CoE reviewers, and documentation owners.
 - Process Owner and Process Manager self-service analytics for process performance, bottlenecks, exceptions, root cause, and action management.
 - Business problem factory for Customer Churn, Material Churn, FiCO, sales, supply chain, procurement, service, HR, risk, operations, and executive reporting.

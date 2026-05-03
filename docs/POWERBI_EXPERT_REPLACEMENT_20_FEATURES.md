@@ -1,5 +1,17 @@
 # Power BI Expert-Replacement 20 Feature Rollout
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document tracks the first 20 feature skills that make the expert-replacement product operational and testable.
+
+## de-DE Dokumentation
+
+Dieses Dokument verfolgt die ersten 20 Feature-Skills, die das Expert-Replacement-Produkt operativ nutzbar und testbar machen.
+
+<!-- /bilingual-doc-header -->
+
+
 ## Purpose
 
 This document tracks the first 20 concrete features added to make the Power BI Expert-Replacement Factory operationally credible. Each feature is implemented as a dedicated Codex skill so it can be triggered, documented, tested, and expanded independently.
@@ -43,13 +55,13 @@ Each feature skill defines:
 - required outputs;
 - quality or evidence requirements.
 
-## Next Build Step
+## Executable Trust Layer
 
-The next iteration should add executable validators and tests for the first trust-layer skills:
+The first real implementation layer now exists and should be used by the trust-layer skills before claiming a generated artifact is release-ready:
 
-- `powerbi-ai-model-graph-validator`
-- `powerbi-ai-native-source-router`
-- `powerbi-ai-visual-binding-validator`
-- `powerbi-ai-powerbi-desktop-smoke-tester`
-- `powerbi-ai-frown-to-fix-triage`
-
+- `scripts/powerbi_expert_factory.py validate` parses PBIP/TMDL/PBIR projects and validates model graph, native sources, visual bindings, and static DAX risk.
+- `scripts/powerbi_expert_factory.py evidence` writes compact release evidence events.
+- `scripts/powerbi_desktop_smoke_test.ps1` opens a PBIP in Power BI Desktop and checks whether a new Frown snapshot appears.
+- `schemas/kpi_contract.schema.json`, `schemas/evidence_event.schema.json`, `schemas/orchestration_handoff.schema.json`, `schemas/rls_test_case.schema.json`, and `schemas/golden_acceptance.schema.json` define contracts for governed expert replacement.
+- `data/powerbi_connector_matrix.json` provides a real connector decision source for native Power Query routing.
+- `templates/process_packs/*.json`, `templates/refactor_pipeline.json`, `templates/report_visual_qa_checklist.json`, and `templates/admin_api_tenant_scan_plan.json` make process packs, refactoring, visual QA, and tenant scanning machine-readable.

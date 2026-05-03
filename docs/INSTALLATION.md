@@ -1,5 +1,17 @@
 # Installation
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document explains how to install, register, enable, and validate the plugin locally in Codex.
+
+## de-DE Dokumentation
+
+Dieses Dokument erklaert, wie das Plugin lokal in Codex installiert, registriert, aktiviert und validiert wird.
+
+<!-- /bilingual-doc-header -->
+
+
 ## de-DE Kurzfassung
 
 Diese Anleitung beschreibt, wie das lokale Plugin in Codex registriert, aktiviert und validiert wird. Fuer produktive Kundenarbeit duerfen keine Tenant-, Gateway-, Quellsystem- oder Produktionsdaten-Zugangsdaten im Repository gespeichert werden.

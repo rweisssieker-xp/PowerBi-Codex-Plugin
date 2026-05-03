@@ -1,5 +1,17 @@
 # Skills Catalog
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document catalogs all plugin skills by capability area, including core Power BI skills, expert replacement skills, process intelligence, governance, automation, and planned AI/KI agents.
+
+## de-DE Dokumentation
+
+Dieses Dokument katalogisiert alle Plugin-Skills nach Faehigkeitsbereich, einschliesslich Core-Power-BI-Skills, Expert-Replacement-Skills, Process Intelligence, Governance, Automation und geplanten AI/KI-Agenten.
+
+<!-- /bilingual-doc-header -->
+
+
 The plugin currently contains 255 Codex skills. This catalog groups the most important skill families and separates current skills from planned AI/KI expert-agent skills for the Power BI Expert-Replacement Factory.
 
 ## de-DE Kurzfassung
@@ -298,7 +310,7 @@ See [Power BI Expert-Replacement Advanced USP Rollout](POWERBI_EXPERT_REPLACEMEN
 
 ## Planned AI/KI Expert-Agent Skills
 
-These planned skills are not counted in the current 215-skill inventory until implemented. They define the expert-replacement roadmap.
+These planned skills are not counted in the current 255-skill inventory until implemented. They define the expert-replacement roadmap.
 
 ### Power BI Consultant Agent
 

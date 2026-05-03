@@ -1,5 +1,17 @@
 # Examples
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document provides example prompts and expected outputs for common Power BI delivery scenarios such as churn, SAP FiCO, Dock2Stock, Complaint2CAPA, and Control2Evidence.
+
+## de-DE Dokumentation
+
+Dieses Dokument enthaelt Beispielprompts und erwartete Ergebnisse fuer typische Power-BI-Szenarien wie Churn, SAP FiCO, Dock2Stock, Complaint2CAPA und Control2Evidence.
+
+<!-- /bilingual-doc-header -->
+
+
 ## Customer Churn
 
 ```text

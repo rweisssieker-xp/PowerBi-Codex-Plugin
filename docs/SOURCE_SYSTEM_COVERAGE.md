@@ -1,5 +1,17 @@
 # Source System Coverage
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document describes source-system coverage across ERP, CRM, industrial systems, finance, planning, data platforms, documents, workflow, and security tools.
+
+## de-DE Dokumentation
+
+Dieses Dokument beschreibt die Quellsystemabdeckung fuer ERP, CRM, industrielle Systeme, Finance, Planning, Datenplattformen, Dokumente, Workflow und Security-Tools.
+
+<!-- /bilingual-doc-header -->
+
+
 The plugin is source-system-aware. It does not assume that every customer uses the same tables, APIs, extensions, or warehouse naming conventions. Source objects are candidate mappings until validated against metadata.
 
 Native Power BI / Power Query connector use is mandatory for real implementations. The plugin may generate embedded demo data only for offline test fixtures. See [Power BI Native Connector Coverage](POWERBI_NATIVE_CONNECTOR_COVERAGE.md).

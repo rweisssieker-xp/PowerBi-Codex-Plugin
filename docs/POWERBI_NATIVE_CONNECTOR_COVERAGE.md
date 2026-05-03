@@ -1,5 +1,17 @@
 # Power BI Native Connector Coverage
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document defines native Power Query connector coverage and source-routing rules, especially the distinction between production native connectors and offline demo data.
+
+## de-DE Dokumentation
+
+Dieses Dokument definiert die Abdeckung nativer Power-Query-Connectoren und Source-Routing-Regeln, insbesondere die Trennung zwischen produktiven nativen Connectoren und Offline-Demodaten.
+
+<!-- /bilingual-doc-header -->
+
+
 ## en-US
 
 The plugin must treat native Power BI / Power Query connectivity as the default for real implementations. Synthetic `DATATABLE` output is only a test fixture strategy for offline PBIP smoke tests or Power BI Desktop preview limitations.

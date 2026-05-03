@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Power BI Golden Acceptance Pack",
+  "type": "object",
+  "required": ["process", "artifact", "qualityGates"],
+  "properties": {
+    "process": { "type": "string" },
+    "artifact": { "type": "string" },
+    "qualityGates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "requiredStatus"],
+        "properties": {
+          "name": { "type": "string" },
+          "requiredStatus": { "enum": ["pass", "warning", "fail"] },
+          "evidencePath": { "type": "string" }
+        }
+      }
+    },
+    "desktopSmokeTest": { "type": "boolean" },
+    "ownerSignoffRequired": { "type": "boolean" }
+  }
+}

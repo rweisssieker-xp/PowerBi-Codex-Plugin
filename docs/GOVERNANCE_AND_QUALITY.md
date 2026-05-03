@@ -1,5 +1,17 @@
 # Governance and Quality
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document defines governance and quality gates for Power BI artifacts, including KPI contracts, model checks, DAX/M validation, security review, evidence, and release readiness.
+
+## de-DE Dokumentation
+
+Dieses Dokument definiert Governance und Quality Gates fuer Power-BI-Artefakte, einschliesslich KPI Contracts, Modellpruefungen, DAX/M-Validierung, Security Review, Evidence und Release Readiness.
+
+<!-- /bilingual-doc-header -->
+
+
 ## de-DE Kurzfassung
 
 Diese Quality Gates stellen sicher, dass Power BI Artefakte nicht nur technisch funktionieren, sondern fachlich abgenommen, quellsystemseitig validiert, sicher betrieben und auditfaehig dokumentiert sind. Wesentliche Lieferartefakte muessen passend in `en-US` und `de-DE` dokumentiert werden.

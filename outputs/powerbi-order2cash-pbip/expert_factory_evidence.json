@@ -1,0 +1,35 @@
+{
+  "eventType": "powerbi_expert_factory_acceptance",
+  "timestamp": "2026-05-03T13:44:39.271260+00:00",
+  "artifact": "outputs\\powerbi-order2cash-pbip\\Order2Cash_NativeExcel",
+  "status": "pass",
+  "summary": {
+    "tables": 16,
+    "relationships": 13,
+    "measures": 21,
+    "errors": 0,
+    "warnings": 0
+  },
+  "checks": [
+    {
+      "name": "model_graph",
+      "status": "pass",
+      "errorCount": 0
+    },
+    {
+      "name": "native_sources",
+      "status": "pass",
+      "errorCount": 0
+    },
+    {
+      "name": "visual_bindings",
+      "status": "pass",
+      "errorCount": 0
+    },
+    {
+      "name": "dax_static",
+      "status": "pass",
+      "errorCount": 0
+    }
+  ]
+}

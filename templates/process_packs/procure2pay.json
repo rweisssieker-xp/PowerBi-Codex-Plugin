@@ -1,0 +1,8 @@
+{
+  "process": "Procure2Pay",
+  "facts": ["Fact_PurchaseOrders", "Fact_GoodsReceipts", "Fact_Invoices", "Fact_PaymentRuns", "Fact_SupplierExceptions"],
+  "dimensions": ["Dim_Supplier", "Dim_Material", "Dim_Plant", "Dim_Buyer", "Dim_Calendar"],
+  "kpis": ["Spend", "Maverick Spend", "GR/IR Aging", "Invoice Block Value", "Payment Discount Capture", "Supplier OTIF"],
+  "pages": ["Executive Overview", "Supplier Risk", "PO Compliance", "Goods Receipt", "Invoice Blocks", "Cash Impact"],
+  "qualityGates": ["model_graph", "native_sources", "visual_bindings", "dax_static", "rls_tests"]
+}

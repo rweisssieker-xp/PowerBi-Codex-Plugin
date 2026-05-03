@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Power BI Expert Factory Evidence Event",
+  "type": "object",
+  "required": ["eventType", "timestamp", "artifact", "status", "summary"],
+  "properties": {
+    "eventType": { "type": "string" },
+    "timestamp": { "type": "string" },
+    "artifact": { "type": "string" },
+    "status": { "enum": ["pass", "warning", "fail"] },
+    "summary": { "type": "object" },
+    "checks": { "type": "array", "items": { "type": "object" } },
+    "signoff": {
+      "type": "object",
+      "properties": {
+        "processOwner": { "type": "string" },
+        "coeReviewer": { "type": "string" },
+        "decision": { "enum": ["approved", "rejected", "conditional"] }
+      }
+    }
+  }
+}

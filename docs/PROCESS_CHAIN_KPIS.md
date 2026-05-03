@@ -1,5 +1,17 @@
 # Process Chain KPIs
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document lists industrial process chains, KPI themes, report page patterns, and validation expectations for process analytics packs.
+
+## de-DE Dokumentation
+
+Dieses Dokument listet industrielle Prozessketten, KPI-Themen, Reportseitenmuster und Validierungserwartungen fuer Process-Analytics-Packs.
+
+<!-- /bilingual-doc-header -->
+
+
 The plugin treats process chains as Power BI data products, not isolated dashboards. Each chain should define source systems, case IDs, lifecycle events, KPI contracts, semantic model grain, validation, and actions.
 
 ## de-DE Kurzfassung

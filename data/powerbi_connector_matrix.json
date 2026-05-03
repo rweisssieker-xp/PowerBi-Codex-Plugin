@@ -1,0 +1,75 @@
+{
+  "version": "2026-05-03",
+  "connectors": [
+    {
+      "name": "Excel Workbook",
+      "powerQueryFunction": "Excel.Workbook",
+      "nativePattern": "Excel.Workbook(File.Contents(path), null, true)",
+      "family": "File",
+      "supportsGateway": true,
+      "supportsQueryFolding": false,
+      "supportsDirectQuery": false,
+      "recommendedUse": "Owned files, small reference data, controlled process packs"
+    },
+    {
+      "name": "CSV",
+      "powerQueryFunction": "Csv.Document",
+      "nativePattern": "Csv.Document(File.Contents(path), options)",
+      "family": "File",
+      "supportsGateway": true,
+      "supportsQueryFolding": false,
+      "supportsDirectQuery": false,
+      "recommendedUse": "Extract files, reconciliation fixtures, load contracts"
+    },
+    {
+      "name": "SQL Server",
+      "powerQueryFunction": "Sql.Database",
+      "nativePattern": "Sql.Database(server, database, options)",
+      "family": "Database",
+      "supportsGateway": true,
+      "supportsQueryFolding": true,
+      "supportsDirectQuery": true,
+      "recommendedUse": "Enterprise fact and dimension sources"
+    },
+    {
+      "name": "OData",
+      "powerQueryFunction": "OData.Feed",
+      "nativePattern": "OData.Feed(serviceUrl, null, options)",
+      "family": "API",
+      "supportsGateway": true,
+      "supportsQueryFolding": "depends",
+      "supportsDirectQuery": false,
+      "recommendedUse": "ERP and SaaS APIs with governed pagination"
+    },
+    {
+      "name": "SharePoint Files",
+      "powerQueryFunction": "SharePoint.Files",
+      "nativePattern": "SharePoint.Files(siteUrl, options)",
+      "family": "File",
+      "supportsGateway": false,
+      "supportsQueryFolding": false,
+      "supportsDirectQuery": false,
+      "recommendedUse": "OneDrive/SharePoint-hosted Excel and CSV sources"
+    },
+    {
+      "name": "Snowflake",
+      "powerQueryFunction": "Snowflake.Databases",
+      "nativePattern": "Snowflake.Databases(server, warehouse, options)",
+      "family": "Cloud Data Warehouse",
+      "supportsGateway": false,
+      "supportsQueryFolding": true,
+      "supportsDirectQuery": true,
+      "recommendedUse": "Governed cloud warehouse semantic models"
+    },
+    {
+      "name": "Databricks",
+      "powerQueryFunction": "Databricks.Catalogs",
+      "nativePattern": "Databricks.Catalogs(host, httpPath, options)",
+      "family": "Lakehouse",
+      "supportsGateway": false,
+      "supportsQueryFolding": true,
+      "supportsDirectQuery": true,
+      "recommendedUse": "Lakehouse and Direct Lake readiness analysis"
+    }
+  ]
+}

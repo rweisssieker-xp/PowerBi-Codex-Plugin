@@ -1,5 +1,9 @@
 # Artefakttitel
 
+Sprache: `de-DE`
+
+Gekoppeltes Template: `artifact.en-US.md`
+
 ## Zweck
 
 ## Geltungsbereich
@@ -24,4 +28,3 @@
 
 | Begriff | Freigegebene Uebersetzung | Hinweise |
 | --- | --- | --- |
-

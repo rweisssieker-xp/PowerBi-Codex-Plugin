@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Power BI KPI Contract",
+  "type": "object",
+  "required": ["id", "name", "process", "grain", "ownerRole", "numerator", "dateBasis", "daxMeasureName", "acceptance"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "process": { "type": "string" },
+    "grain": { "type": "string" },
+    "ownerRole": { "type": "string" },
+    "businessQuestion": { "type": "string" },
+    "numerator": { "type": "string" },
+    "denominator": { "type": "string" },
+    "filters": { "type": "array", "items": { "type": "string" } },
+    "dateBasis": { "type": "string" },
+    "daxMeasureName": { "type": "string" },
+    "sourceSystem": { "type": "string" },
+    "acceptance": {
+      "type": "object",
+      "required": ["tolerance", "reconciliationSource"],
+      "properties": {
+        "tolerance": { "type": "number" },
+        "reconciliationSource": { "type": "string" },
+        "sampleCases": { "type": "array", "items": { "type": "object" } }
+      }
+    }
+  }
+}

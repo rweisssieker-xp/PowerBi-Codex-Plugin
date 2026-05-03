@@ -1,0 +1,8 @@
+{
+  "process": "Record2Report",
+  "facts": ["Fact_GL", "Fact_CloseTasks", "Fact_Reconciliations", "Fact_JournalEntries", "Fact_ControlExceptions"],
+  "dimensions": ["Dim_Account", "Dim_Entity", "Dim_CostCenter", "Dim_Calendar", "Dim_Control"],
+  "kpis": ["Close Cycle Time", "Late Close Tasks", "Unreconciled Balance", "Manual Journal Rate", "Control Exceptions", "Materiality Exposure"],
+  "pages": ["Executive Overview", "Close Management", "Reconciliations", "Journals", "Controls", "Evidence"],
+  "qualityGates": ["model_graph", "native_sources", "visual_bindings", "dax_static", "security_review"]
+}

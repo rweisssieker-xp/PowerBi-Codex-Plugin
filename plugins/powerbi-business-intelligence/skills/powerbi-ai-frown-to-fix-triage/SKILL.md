@@ -20,3 +20,7 @@ Use this skill to translate Power BI Desktop Frown output into a concrete repair
 - Include failure class, evidence, likely root cause, affected files, fix plan, and retest path.
 - Do not guess silently; mark low-confidence diagnoses and required evidence.
 
+## Executable Support
+
+- Use `scripts/powerbi_desktop_smoke_test.ps1` to capture before/after Frown evidence.
+- Use `scripts/powerbi_expert_factory.py validate` first to catch common causes before reopening Desktop: ambiguous paths, missing visual bindings, brittle M navigation, and unsupported demo source patterns.

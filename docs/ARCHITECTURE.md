@@ -1,5 +1,17 @@
 # Architecture
 
+<!-- bilingual-doc-header -->
+## en-US Documentation
+
+This document explains the layered architecture of the Power BI Expert-Replacement Factory: intake, source intelligence, KPI governance, semantic modelling, AI/KI guardrails, delivery, documentation, and the executable factory layer. Use it when designing or reviewing the overall product architecture.
+
+## de-DE Dokumentation
+
+Dieses Dokument erklaert die Schichtenarchitektur der Power BI Expert-Replacement Factory: Intake, Quellenintelligenz, KPI-Governance, semantische Modellierung, AI/KI-Guardrails, Delivery, Dokumentation und die ausfuehrbare Factory-Schicht. Nutze es fuer Architekturdesign und Architektur-Reviews.
+
+<!-- /bilingual-doc-header -->
+
+
 ## Layered Plugin Model
 
 ```mermaid
