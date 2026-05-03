@@ -1,0 +1,65 @@
+table Fact_SalesOrders
+	lineageTag: generated-order2cash-demo
+
+	column SalesOrderID
+		dataType: string
+		sourceColumn: SalesOrderID
+
+	column QuoteID
+		dataType: string
+		sourceColumn: QuoteID
+
+	column CustomerID
+		dataType: string
+		sourceColumn: CustomerID
+
+	column ProductID
+		dataType: string
+		sourceColumn: ProductID
+
+	column PlantID
+		dataType: string
+		sourceColumn: PlantID
+
+	column OrderDate
+		dataType: dateTime
+		sourceColumn: OrderDate
+
+	column RequestedDate
+		dataType: dateTime
+		sourceColumn: RequestedDate
+
+	column ConfirmedDate
+		dataType: dateTime
+		sourceColumn: ConfirmedDate
+
+	column OrderQty
+		dataType: int64
+		sourceColumn: OrderQty
+
+	column NetPrice
+		dataType: double
+		sourceColumn: NetPrice
+
+	column OrderValue
+		dataType: double
+		sourceColumn: OrderValue
+
+	column Status
+		dataType: string
+		sourceColumn: Status
+
+	column ATPStatus
+		dataType: string
+		sourceColumn: ATPStatus
+
+	partition Fact_SalesOrders = m
+		mode: import
+		source =
+			// Power Query M - import Fact_SalesOrders from the industrial demo workbook.
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Fact_SalesOrders", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true])
+			in
+			    PromotedHeaders

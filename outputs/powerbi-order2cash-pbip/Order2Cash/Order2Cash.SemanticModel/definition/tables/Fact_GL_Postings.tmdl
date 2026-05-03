@@ -1,0 +1,29 @@
+table Fact_GL_Postings
+	lineageTag: generated-order2cash-demo
+
+	column ID
+		dataType: string
+		sourceColumn: ID
+
+	column Name
+		dataType: string
+		sourceColumn: Name
+
+	column Date
+		dataType: dateTime
+		sourceColumn: Date
+
+	column Amount
+		dataType: double
+		sourceColumn: Amount
+
+	partition Fact_GL_Postings = m
+		mode: import
+		source =
+			// Power Query M - import Fact_GL_Postings from the industrial demo workbook.
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Fact_GL_Postings", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true])
+			in
+			    PromotedHeaders

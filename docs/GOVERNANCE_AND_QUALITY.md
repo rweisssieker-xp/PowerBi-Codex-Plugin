@@ -1,5 +1,9 @@
 # Governance and Quality
 
+## de-DE Kurzfassung
+
+Diese Quality Gates stellen sicher, dass Power BI Artefakte nicht nur technisch funktionieren, sondern fachlich abgenommen, quellsystemseitig validiert, sicher betrieben und auditfaehig dokumentiert sind. Wesentliche Lieferartefakte muessen passend in `en-US` und `de-DE` dokumentiert werden.
+
 ## Quality Gate Areas
 
 Before a Power BI artifact is published, certified, migrated, or handed over, validate:

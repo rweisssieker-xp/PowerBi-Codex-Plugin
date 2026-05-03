@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/pagesMetadata/1.0.0/schema.json",
+  "pageOrder": [
+    "p01_o2c_overview",
+    "p02_customer_churn",
+    "p03_order_backlog",
+    "p04_delivery_otif",
+    "p05_billing_cash",
+    "p06_quote_margin"
+  ],
+  "activePageName": "p01_o2c_overview"
+}

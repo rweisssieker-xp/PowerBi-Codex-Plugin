@@ -1,0 +1,78 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "v04_otif_backlog",
+  "position": {
+    "x": 590,
+    "y": 160,
+    "z": 0,
+    "height": 320,
+    "width": 550,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Fact_Order2CashExceptions"
+                    }
+                  },
+                  "Property": "ProblemType"
+                }
+              },
+              "queryRef": "Fact_Order2CashExceptions.ProblemType",
+              "nativeQueryRef": "ProblemType"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Late/short action backlog'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "annotations": [
+    {
+      "name": "generatedBy",
+      "value": "build_order2cash_pbip_project.py"
+    },
+    {
+      "name": "businessPurpose",
+      "value": "Late/short action backlog"
+    },
+    {
+      "name": "sourceTable",
+      "value": "Fact_Order2CashExceptions"
+    },
+    {
+      "name": "sourceFieldOrMeasure",
+      "value": "ProblemType"
+    }
+  ]
+}

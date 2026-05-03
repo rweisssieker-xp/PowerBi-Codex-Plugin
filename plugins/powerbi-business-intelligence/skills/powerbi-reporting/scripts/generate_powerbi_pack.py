@@ -44,7 +44,7 @@ def powerquery_for_table(row: dict[str, str]) -> str:
 
 
 def dax_measure(row: dict[str, str]) -> str:
-    name = row.get("name") or "Measure"
+    name = row.get("name") or row.get("measure") or "Measure"
     expression = row.get("expression") or "BLANK()"
     description = row.get("description", "")
     prefix = f"-- {description}\n" if description else ""
@@ -71,4 +71,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

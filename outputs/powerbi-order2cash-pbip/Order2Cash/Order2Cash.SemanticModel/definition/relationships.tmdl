@@ -1,0 +1,66 @@
+// Generated Order2Cash relationships
+relationship rel_1_Fact_SalesOrders_Dim_Customer
+	fromColumn: Fact_SalesOrders.CustomerID
+	toColumn: Dim_Customer.CustomerID
+	cardinality: manyToOne
+	crossFilteringBehavior: oneDirection
+
+relationship rel_2_Fact_SalesOrders_Dim_Product
+	fromColumn: Fact_SalesOrders.ProductID
+	toColumn: Dim_Product.ProductID
+	cardinality: manyToOne
+	crossFilteringBehavior: oneDirection
+
+relationship rel_3_Fact_SalesOrders_Dim_Plant
+	fromColumn: Fact_SalesOrders.PlantID
+	toColumn: Dim_Plant.PlantID
+	cardinality: manyToOne
+	crossFilteringBehavior: oneDirection
+
+relationship rel_4_Fact_Deliveries_Dim_Customer
+	fromColumn: Fact_Deliveries.CustomerID
+	toColumn: Dim_Customer.CustomerID
+	cardinality: manyToOne
+	crossFilteringBehavior: oneDirection
+
+relationship rel_5_Fact_Deliveries_Dim_Product
+	fromColumn: Fact_Deliveries.ProductID
+	toColumn: Dim_Product.ProductID
+	cardinality: manyToOne
+	crossFilteringBehavior: oneDirection
+
+relationship rel_6_Fact_Deliveries_Dim_Warehouse
+	fromColumn: Fact_Deliveries.WarehouseID
+	toColumn: Dim_Warehouse.WarehouseID
+	cardinality: manyToOne
+	crossFilteringBehavior: oneDirection
+
+relationship rel_7_Fact_Billing_Dim_Customer
+	fromColumn: Fact_Billing.CustomerID
+	toColumn: Dim_Customer.CustomerID
+	cardinality: manyToOne
+	crossFilteringBehavior: oneDirection
+
+relationship rel_8_Fact_AR_Dim_Customer
+	fromColumn: Fact_AR.CustomerID
+	toColumn: Dim_Customer.CustomerID
+	cardinality: manyToOne
+	crossFilteringBehavior: oneDirection
+
+relationship rel_9_Fact_Quotes_Dim_Customer
+	fromColumn: Fact_Quotes.CustomerID
+	toColumn: Dim_Customer.CustomerID
+	cardinality: manyToOne
+	crossFilteringBehavior: oneDirection
+
+relationship rel_10_Fact_Order2CashExceptions_Dim_Customer
+	fromColumn: Fact_Order2CashExceptions.CustomerID
+	toColumn: Dim_Customer.CustomerID
+	cardinality: manyToOne
+	crossFilteringBehavior: oneDirection
+
+relationship rel_11_Fact_Order2CashExceptions_Dim_Product
+	fromColumn: Fact_Order2CashExceptions.ProductID
+	toColumn: Dim_Product.ProductID
+	cardinality: manyToOne
+	crossFilteringBehavior: oneDirection

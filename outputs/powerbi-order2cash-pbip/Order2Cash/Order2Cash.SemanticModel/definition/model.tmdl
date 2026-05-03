@@ -1,0 +1,8 @@
+model Order2Cash
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	discourageImplicitMeasures
+
+annotation SourceWorkbook = "C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"
+annotation BusinessProcess = "Order2Cash"
+annotation Documentation = "Generated PBIP/TMDL scaffold from industrial demo data"

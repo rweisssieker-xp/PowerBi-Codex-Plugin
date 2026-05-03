@@ -1,0 +1,49 @@
+table Fact_Billing
+	lineageTag: generated-order2cash-demo
+
+	column InvoiceID
+		dataType: string
+		sourceColumn: InvoiceID
+
+	column DeliveryID
+		dataType: string
+		sourceColumn: DeliveryID
+
+	column SalesOrderID
+		dataType: string
+		sourceColumn: SalesOrderID
+
+	column CustomerID
+		dataType: string
+		sourceColumn: CustomerID
+
+	column InvoiceDate
+		dataType: dateTime
+		sourceColumn: InvoiceDate
+
+	column DueDate
+		dataType: dateTime
+		sourceColumn: DueDate
+
+	column InvoiceAmount
+		dataType: double
+		sourceColumn: InvoiceAmount
+
+	column TaxAmount
+		dataType: double
+		sourceColumn: TaxAmount
+
+	column BillingBlockFlag
+		dataType: boolean
+		sourceColumn: BillingBlockFlag
+
+	partition Fact_Billing = m
+		mode: import
+		source =
+			// Power Query M - import Fact_Billing from the industrial demo workbook.
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Fact_Billing", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true])
+			in
+			    PromotedHeaders

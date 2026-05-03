@@ -1,0 +1,95 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "v03_order_status",
+  "position": {
+    "x": 24,
+    "y": 160,
+    "z": 0,
+    "height": 320,
+    "width": 540,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Fact_SalesOrders"
+                    }
+                  },
+                  "Property": "Status"
+                }
+              },
+              "queryRef": "Fact_SalesOrders.Status",
+              "nativeQueryRef": "Status"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Order Value"
+                }
+              },
+              "queryRef": "_Measures.Order Value"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "objects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Order status and ATP'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "annotations": [
+    {
+      "name": "generatedBy",
+      "value": "build_order2cash_pbip_project.py"
+    },
+    {
+      "name": "businessPurpose",
+      "value": "Order status and ATP"
+    },
+    {
+      "name": "sourceTable",
+      "value": "Fact_SalesOrders"
+    },
+    {
+      "name": "sourceFieldOrMeasure",
+      "value": "Status"
+    }
+  ]
+}

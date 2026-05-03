@@ -66,6 +66,7 @@ Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate dur
 - [Bilingual Documentation](docs/BILINGUAL_DOCUMENTATION.md)
 - [Governance and Quality Gates](docs/GOVERNANCE_AND_QUALITY.md)
 - [Examples](docs/EXAMPLES.md)
+- [Simulation Test Report](docs/SIMULATION_TEST_REPORT.md)
 
 ## Main Capability Areas
 

@@ -1,5 +1,9 @@
 # Installation
 
+## de-DE Kurzfassung
+
+Diese Anleitung beschreibt, wie das lokale Plugin in Codex registriert, aktiviert und validiert wird. Fuer produktive Kundenarbeit duerfen keine Tenant-, Gateway-, Quellsystem- oder Produktionsdaten-Zugangsdaten im Repository gespeichert werden.
+
 ## Prerequisites
 
 - Codex desktop or a Codex environment that supports local plugins.
@@ -46,7 +50,7 @@ python -m json.tool plugins/powerbi-business-intelligence/.codex-plugin/plugin.j
 Expected result:
 
 - JSON validation succeeds.
-- Skill count is greater than 100.
+- Skill count is 214 or higher when new skills are added later.
 
 ## Notes
 

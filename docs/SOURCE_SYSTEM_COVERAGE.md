@@ -2,6 +2,10 @@
 
 The plugin is source-system-aware. It does not assume that every customer uses the same tables, APIs, extensions, or warehouse naming conventions. Source objects are candidate mappings until validated against metadata.
 
+## de-DE Kurzfassung
+
+Das Plugin kennt typische ERP-, CRM-, Industrie-, QM-, WHS-, Finance-, Planning-, Compliance-, Datenplattform- und Integrationssysteme. Konkrete Tabellen, APIs, Views und Felder gelten immer nur als Kandidaten, bis sie gegen Kunden-Metadaten, Quellsysteme oder replizierte Daten validiert wurden.
+
 ## ERP and CRM
 
 - SAP ECC, SAP S/4HANA, SAP BW/4HANA, SAP Datasphere.

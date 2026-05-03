@@ -1,0 +1,41 @@
+table Dim_Product
+	lineageTag: generated-order2cash-demo
+
+	column ProductID
+		dataType: string
+		sourceColumn: ProductID
+
+	column ProductName
+		dataType: string
+		sourceColumn: ProductName
+
+	column ProductFamily
+		dataType: string
+		sourceColumn: ProductFamily
+
+	column ProductLine
+		dataType: string
+		sourceColumn: ProductLine
+
+	column LifecycleStatus
+		dataType: string
+		sourceColumn: LifecycleStatus
+
+	column StandardCost
+		dataType: double
+		sourceColumn: StandardCost
+
+	column ListPrice
+		dataType: double
+		sourceColumn: ListPrice
+
+	partition Dim_Product = m
+		mode: import
+		source =
+			// Power Query M - import Dim_Product from the industrial demo workbook.
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Dim_Product", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true])
+			in
+			    PromotedHeaders

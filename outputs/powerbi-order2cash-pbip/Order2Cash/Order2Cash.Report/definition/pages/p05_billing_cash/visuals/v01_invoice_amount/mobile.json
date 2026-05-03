@@ -1,0 +1,10 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainerMobileState/1.0.0/schema.json",
+  "name": "v01_invoice_amount",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "width": 300,
+    "height": 120
+  }
+}

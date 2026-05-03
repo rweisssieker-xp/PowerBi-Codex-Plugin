@@ -1,6 +1,10 @@
 # Skills Catalog
 
-The plugin contains more than 100 Codex skills. This catalog groups the most important skill families.
+The plugin currently contains 214 Codex skills. This catalog groups the most important skill families.
+
+## de-DE Kurzfassung
+
+Das Plugin enthaelt aktuell 214 Codex-Skills fuer Power BI, Fabric, Industrieprozesse, Quellsysteme, AI/KI, Governance, Automatisierung und Expert-Reduction. Dieser Katalog ist die GitHub-Uebersicht; konkrete Lieferartefakte muessen weiterhin in `en-US` und `de-DE` erstellt werden.
 
 ## Core Power BI
 

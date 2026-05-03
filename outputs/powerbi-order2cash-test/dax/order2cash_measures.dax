@@ -1,0 +1,103 @@
+-- Order2Cash Power BI measures for the industrial demo workbook.
+
+Order Count =
+COUNTROWS ( Fact_SalesOrders )
+
+Order Value =
+SUM ( Fact_SalesOrders[OrderValue] )
+
+Open Backlog Value =
+CALCULATE (
+    [Order Value],
+    Fact_SalesOrders[Status] IN { "Open", "Partially Delivered" }
+)
+
+ATP Issue Count =
+CALCULATE (
+    [Order Count],
+    Fact_SalesOrders[ATPStatus] <> "Confirmed"
+)
+
+ATP Issue Rate =
+DIVIDE ( [ATP Issue Count], [Order Count] )
+
+Delivered Quantity =
+SUM ( Fact_Deliveries[DeliveredQty] )
+
+Late Or Short Deliveries =
+CALCULATE (
+    COUNTROWS ( Fact_Deliveries ),
+    Fact_Deliveries[OTIFStatus] <> "OTIF"
+)
+
+Late Or Short Delivery Rate =
+DIVIDE ( [Late Or Short Deliveries], COUNTROWS ( Fact_Deliveries ) )
+
+Invoice Amount =
+SUM ( Fact_Billing[InvoiceAmount] )
+
+Billing Block Count =
+CALCULATE (
+    COUNTROWS ( Fact_Billing ),
+    Fact_Billing[BillingBlockFlag] = TRUE ()
+)
+
+Billing Block Rate =
+DIVIDE ( [Billing Block Count], COUNTROWS ( Fact_Billing ) )
+
+Open AR Amount =
+SUM ( Fact_AR[OpenAmount] )
+
+Dispute Count =
+CALCULATE (
+    COUNTROWS ( Fact_AR ),
+    Fact_AR[DisputeFlag] = TRUE ()
+)
+
+O2C Exception Count =
+COUNTROWS ( Fact_Order2CashExceptions )
+
+O2C Exception Exposure =
+SUM ( Fact_Order2CashExceptions[AmountExposure] )
+
+High Severity Exceptions =
+CALCULATE (
+    [O2C Exception Count],
+    Fact_Order2CashExceptions[Severity] = "High"
+)
+
+Dunning Customers =
+CALCULATE (
+    DISTINCTCOUNT ( Fact_AR[CustomerID] ),
+    Fact_AR[DunningLevel] > 0
+)
+
+Quote Value =
+SUM ( Fact_Quotes[QuoteValue] )
+
+Discount Leakage =
+SUMX ( Fact_Quotes, Fact_Quotes[QuoteValue] * Fact_Quotes[DiscountPct] / 100 )
+
+Churn Risk Customers =
+CALCULATE (
+    DISTINCTCOUNT ( Dim_Customer[CustomerID] ),
+    Dim_Customer[ActiveFlag] = FALSE ()
+)
+
+Customer Churn Risk Score =
+VAR DaysSinceLastOrder =
+    DATEDIFF (
+        CALCULATE ( MAX ( Fact_SalesOrders[OrderDate] ) ),
+        TODAY (),
+        DAY
+    )
+VAR LateEvents =
+    CALCULATE ( [ATP Issue Count] + [Late Or Short Deliveries] )
+VAR Disputes = [Dispute Count]
+RETURN
+    MIN (
+        100,
+        IF ( DaysSinceLastOrder > 180, 35, IF ( DaysSinceLastOrder > 120, 15, 0 ) )
+            + MIN ( 25, LateEvents * 5 )
+            + MIN ( 20, Disputes * 10 )
+    )

@@ -2,6 +2,10 @@
 
 The plugin reduces dependency on large Power BI expert teams by converting repeatable expert judgment into governed Codex skills.
 
+## de-DE Kurzfassung
+
+Ziel ist die Reduktion grosser Power BI Expertenteams durch wiederverwendbare Skills, Standards, Automatisierung, AI/KI-Guardrails, Quality Gates und auditfaehige Lieferartefakte. Expertenarbeit wird nicht blind ersetzt, sondern in pruefbare, wiederholbare und steuerbare Arbeitsablaeufe ueberfuehrt.
+
 ## Primary USPs
 
 - Requirement-to-Model Autopilot.

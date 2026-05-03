@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/1.0.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU10",
+      "type": "SharedResources"
+    }
+  },
+  "annotations": [
+    {
+      "name": "defaultPage",
+      "value": "p01_o2c_overview"
+    },
+    {
+      "name": "generatedBy",
+      "value": "build_order2cash_pbip_project.py"
+    }
+  ]
+}

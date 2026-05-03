@@ -2,6 +2,10 @@
 
 The plugin treats process chains as Power BI data products, not isolated dashboards. Each chain should define source systems, case IDs, lifecycle events, KPI contracts, semantic model grain, validation, and actions.
 
+## de-DE Kurzfassung
+
+Das Plugin macht Prozessketten als Power BI KPI-Produkte sichtbar, nicht als einzelne Dashboards. Jede Prozesskette braucht Quellsysteme, Case IDs, Events, KPI-Vertraege, Modell-Grain, Validierung, Verantwortliche und konkrete Massnahmen.
+
 ## Main Industrial Chains
 
 | Chain | Typical focus |
