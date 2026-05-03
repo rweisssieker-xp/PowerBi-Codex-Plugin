@@ -28,6 +28,10 @@ Expected output:
 - Driver views by segment, product, region, service quality, price, and usage.
 - Action list for retention owners.
 
+## Process Owner Use Cases
+
+For at least one use case per supported process chain, see [Process Chain KPIs](PROCESS_CHAIN_KPIS.md#process-use-case-matrix). The matrix defines the Process Owner question, expected Power BI output, and the decision each cockpit should enable in `en-US` and `de-DE`.
+
 ## SAP FiCO
 
 ```text
