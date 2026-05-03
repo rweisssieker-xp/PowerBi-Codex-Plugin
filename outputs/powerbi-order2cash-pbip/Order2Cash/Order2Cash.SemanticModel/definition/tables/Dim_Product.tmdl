@@ -1,41 +1,81 @@
 table Dim_Product
-	lineageTag: generated-order2cash-demo
+	lineageTag: a0dff1fd-a643-55c4-bbd1-1d063807a9ff
 
 	column ProductID
 		dataType: string
-		sourceColumn: ProductID
+		sourceColumn: [ProductID]
 
 	column ProductName
 		dataType: string
-		sourceColumn: ProductName
+		sourceColumn: [ProductName]
 
 	column ProductFamily
 		dataType: string
-		sourceColumn: ProductFamily
+		sourceColumn: [ProductFamily]
 
 	column ProductLine
 		dataType: string
-		sourceColumn: ProductLine
+		sourceColumn: [ProductLine]
 
 	column LifecycleStatus
 		dataType: string
-		sourceColumn: LifecycleStatus
+		sourceColumn: [LifecycleStatus]
 
 	column StandardCost
 		dataType: double
-		sourceColumn: StandardCost
+		sourceColumn: [StandardCost]
 
 	column ListPrice
 		dataType: double
-		sourceColumn: ListPrice
+		sourceColumn: [ListPrice]
 
-	partition Dim_Product = m
+	partition Dim_Product = calculated
 		mode: import
 		source =
-			// Power Query M - import Dim_Product from the industrial demo workbook.
-			let
-			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
-			    Raw = Source{[Item="Dim_Product", Kind="Sheet"]}[Data],
-			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true])
-			in
-			    PromotedHeaders
+			DATATABLE(
+				"ProductID", STRING,
+				"ProductName", STRING,
+				"ProductFamily", STRING,
+				"ProductLine", STRING,
+				"LifecycleStatus", STRING,
+				"StandardCost", DOUBLE,
+				"ListPrice", DOUBLE,
+				{
+					{ "P0001", "Service Kit Standard 100", "Service Kit", "Service", "Active", 1094.13, 832.94 },
+					{ "P0002", "Sensor Module Pro 101", "Sensor Module", "Service", "Launch", 3250.03, 8455.29 },
+					{ "P0003", "Drive Unit Standard 102", "Drive Unit", "Make-to-Stock", "Active", 2936.56, 6608.56 },
+					{ "P0004", "Hydraulic Pump Eco 103", "Hydraulic Pump", "Make-to-Stock", "Launch", 3183.89, 7708.19 },
+					{ "P0005", "Control Cabinet Eco 104", "Control Cabinet", "Make-to-Order", "Active", 3252.96, 5501.63 },
+					{ "P0006", "Service Kit Plus 105", "Service Kit", "Make-to-Stock", "Active", 2766.9, 2945.92 },
+					{ "P0007", "Hydraulic Pump Eco 106", "Hydraulic Pump", "Make-to-Order", "Phase-out", 3858.04, 3771.95 },
+					{ "P0008", "Precision Motor Heavy Duty 107", "Precision Motor", "Engineer-to-Order", "Active", 3974.94, 1617.12 },
+					{ "P0009", "Valve Block Heavy Duty 108", "Valve Block", "Make-to-Order", "Active", 1413.74, 1510.24 },
+					{ "P0010", "Service Kit Plus 109", "Service Kit", "Make-to-Order", "Phase-out", 2940.93, 7653.74 },
+					{ "P0011", "Valve Block Pro 110", "Valve Block", "Engineer-to-Order", "Phase-out", 3111.83, 3672.0 },
+					{ "P0012", "Sensor Module Heavy Duty 111", "Sensor Module", "Engineer-to-Order", "Phase-out", 3299.5, 6251.62 },
+					{ "P0013", "Valve Block Eco 112", "Valve Block", "Service", "Active", 574.55, 1350.89 },
+					{ "P0014", "Precision Motor Pro 113", "Precision Motor", "Service", "Launch", 3031.88, 435.39 },
+					{ "P0015", "Precision Motor Pro 114", "Precision Motor", "Make-to-Order", "Active", 2743.33, 1476.31 },
+					{ "P0016", "Drive Unit Plus 115", "Drive Unit", "Make-to-Stock", "Phase-out", 3376.11, 5820.25 },
+					{ "P0017", "Valve Block Pro 116", "Valve Block", "Engineer-to-Order", "Launch", 1038.29, 672.6 },
+					{ "P0018", "Sensor Module Pro 117", "Sensor Module", "Service", "Active", 1910.53, 4241.46 },
+					{ "P0019", "Valve Block Plus 118", "Valve Block", "Engineer-to-Order", "Active", 1258.57, 1787.44 },
+					{ "P0020", "Sensor Module Heavy Duty 119", "Sensor Module", "Make-to-Stock", "Active", 980.03, 6957.11 },
+					{ "P0021", "Valve Block Standard 120", "Valve Block", "Make-to-Order", "Active", 3131.91, 5581.93 },
+					{ "P0022", "Drive Unit Pro 121", "Drive Unit", "Make-to-Stock", "Launch", 2888.42, 3072.94 },
+					{ "P0023", "Service Kit Standard 122", "Service Kit", "Make-to-Stock", "Active", 1206.27, 2095.57 },
+					{ "P0024", "Control Cabinet Eco 123", "Control Cabinet", "Make-to-Order", "Phase-out", 2443.08, 7301.69 },
+					{ "P0025", "Sensor Module Standard 124", "Sensor Module", "Make-to-Stock", "Active", 2080.26, 1204.07 },
+					{ "P0026", "Sensor Module Standard 125", "Sensor Module", "Make-to-Stock", "Active", 303.24, 6435.5 },
+					{ "P0027", "Service Kit Plus 126", "Service Kit", "Engineer-to-Order", "Active", 2930.05, 5596.68 },
+					{ "P0028", "Hydraulic Pump Pro 127", "Hydraulic Pump", "Make-to-Stock", "Active", 1507.3, 8039.52 },
+					{ "P0029", "Sensor Module Eco 128", "Sensor Module", "Make-to-Stock", "Launch", 2040.77, 1911.51 },
+					{ "P0030", "Control Cabinet Pro 129", "Control Cabinet", "Make-to-Order", "Phase-out", 1090.98, 2451.78 },
+					{ "P0031", "Drive Unit Heavy Duty 130", "Drive Unit", "Make-to-Order", "Launch", 3807.17, 8202.13 },
+					{ "P0032", "Control Cabinet Pro 131", "Control Cabinet", "Make-to-Order", "Active", 2333.45, 4007.3 },
+					{ "P0033", "Precision Motor Standard 132", "Precision Motor", "Engineer-to-Order", "Active", 1805.34, 864.68 },
+					{ "P0034", "Service Kit Plus 133", "Service Kit", "Service", "Active", 956.14, 3629.21 },
+					{ "P0035", "Hydraulic Pump Heavy Duty 134", "Hydraulic Pump", "Engineer-to-Order", "Launch", 2910.02, 752.91 },
+					{ "P0036", "Valve Block Heavy Duty 135", "Valve Block", "Engineer-to-Order", "Active", 3705.69, 6804.13 }
+				}
+			)

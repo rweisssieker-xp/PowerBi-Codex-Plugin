@@ -1,29 +1,210 @@
 table Fact_Leads
-	lineageTag: generated-order2cash-demo
+	lineageTag: a52620ba-a6b9-5a16-859a-1ebca0064d10
 
-	column ID
+	column LeadID
 		dataType: string
-		sourceColumn: ID
+		sourceColumn: [LeadID]
 
-	column Name
-		dataType: string
-		sourceColumn: Name
-
-	column Date
+	column CreatedDate
 		dataType: dateTime
-		sourceColumn: Date
+		sourceColumn: [CreatedDate]
 
-	column Amount
-		dataType: double
-		sourceColumn: Amount
+	column Source
+		dataType: string
+		sourceColumn: [Source]
 
-	partition Fact_Leads = m
+	column Industry
+		dataType: string
+		sourceColumn: [Industry]
+
+	column Country
+		dataType: string
+		sourceColumn: [Country]
+
+	column LeadScore
+		dataType: int64
+		sourceColumn: [LeadScore]
+
+	column Status
+		dataType: string
+		sourceColumn: [Status]
+
+	column OwnerID
+		dataType: string
+		sourceColumn: [OwnerID]
+
+	partition Fact_Leads = calculated
 		mode: import
 		source =
-			// Power Query M - import Fact_Leads from the industrial demo workbook.
-			let
-			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
-			    Raw = Source{[Item="Fact_Leads", Kind="Sheet"]}[Data],
-			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true])
-			in
-			    PromotedHeaders
+			DATATABLE(
+				"LeadID", STRING,
+				"CreatedDate", DATETIME,
+				"Source", STRING,
+				"Industry", STRING,
+				"Country", STRING,
+				"LeadScore", INTEGER,
+				"Status", STRING,
+				"OwnerID", STRING,
+				{
+					{ "L00001", dt"2026-02-10", "Web", "Aerospace", "ES", 49, "New", "E0021" },
+					{ "L00002", dt"2026-03-18", "Trade Fair", "Machinery", "ES", 42, "Converted", "E0030" },
+					{ "L00003", dt"2025-11-09", "Partner", "Food", "ES", 41, "Converted", "E0024" },
+					{ "L00004", dt"2025-09-24", "Web", "Machinery", "IT", 73, "Qualified", "E0077" },
+					{ "L00005", dt"2025-02-15", "Partner", "Aerospace", "CN", 13, "New", "E0040" },
+					{ "L00006", dt"2025-04-08", "Existing Customer", "Automotive", "DE", 85, "New", "E0040" },
+					{ "L00007", dt"2025-05-07", "Partner", "Aerospace", "FR", 51, "New", "E0077" },
+					{ "L00008", dt"2025-04-03", "Partner", "Pharma", "IT", 11, "Converted", "E0077" },
+					{ "L00009", dt"2025-03-16", "Partner", "Aerospace", "PL", 13, "New", "E0025" },
+					{ "L00010", dt"2025-12-30", "Partner", "Electronics", "GB", 82, "Converted", "E0004" },
+					{ "L00011", dt"2026-01-16", "Trade Fair", "Food", "US", 65, "New", "E0030" },
+					{ "L00012", dt"2025-12-30", "Trade Fair", "Automotive", "SG", 33, "New", "E0072" },
+					{ "L00013", dt"2025-06-14", "Web", "Machinery", "FR", 74, "New", "E0077" },
+					{ "L00014", dt"2025-02-10", "Partner", "Aerospace", "US", 30, "Qualified", "E0072" },
+					{ "L00015", dt"2025-01-26", "Trade Fair", "Food", "PL", 82, "Disqualified", "E0021" },
+					{ "L00016", dt"2026-04-08", "Existing Customer", "Machinery", "PL", 18, "Qualified", "E0040" },
+					{ "L00017", dt"2025-10-31", "Existing Customer", "Automotive", "DE", 86, "Converted", "E0040" },
+					{ "L00018", dt"2025-02-18", "Existing Customer", "Electronics", "CN", 72, "New", "E0004" },
+					{ "L00019", dt"2025-05-27", "Outbound", "Electronics", "GB", 17, "Converted", "E0072" },
+					{ "L00020", dt"2025-11-23", "Trade Fair", "Food", "NL", 17, "Qualified", "E0021" },
+					{ "L00021", dt"2026-01-01", "Trade Fair", "Electronics", "PL", 42, "New", "E0030" },
+					{ "L00022", dt"2025-10-23", "Existing Customer", "Electronics", "NL", 32, "Disqualified", "E0004" },
+					{ "L00023", dt"2025-10-30", "Outbound", "Machinery", "DE", 37, "Qualified", "E0039" },
+					{ "L00024", dt"2025-06-01", "Partner", "Machinery", "FR", 46, "Converted", "E0039" },
+					{ "L00025", dt"2025-12-16", "Existing Customer", "Electronics", "PL", 92, "Converted", "E0024" },
+					{ "L00026", dt"2025-08-26", "Web", "Aerospace", "FR", 73, "Disqualified", "E0025" },
+					{ "L00027", dt"2025-12-24", "Outbound", "Chemicals", "PL", 31, "New", "E0065" },
+					{ "L00028", dt"2025-10-06", "Outbound", "Pharma", "DE", 63, "Qualified", "E0021" },
+					{ "L00029", dt"2025-06-21", "Outbound", "Chemicals", "IT", 12, "Qualified", "E0031" },
+					{ "L00030", dt"2025-10-22", "Trade Fair", "Electronics", "PL", 100, "Converted", "E0030" },
+					{ "L00031", dt"2025-11-16", "Outbound", "Automotive", "US", 47, "Qualified", "E0030" },
+					{ "L00032", dt"2026-02-09", "Trade Fair", "Automotive", "NL", 17, "Qualified", "E0031" },
+					{ "L00033", dt"2026-04-17", "Trade Fair", "Aerospace", "US", 45, "Disqualified", "E0039" },
+					{ "L00034", dt"2025-02-05", "Web", "Food", "PL", 32, "Disqualified", "E0021" },
+					{ "L00035", dt"2025-12-21", "Web", "Food", "DE", 78, "Converted", "E0025" },
+					{ "L00036", dt"2025-11-06", "Partner", "Chemicals", "ES", 31, "Converted", "E0004" },
+					{ "L00037", dt"2025-07-04", "Outbound", "Food", "ES", 46, "Converted", "E0004" },
+					{ "L00038", dt"2025-06-03", "Outbound", "Machinery", "FR", 50, "Qualified", "E0072" },
+					{ "L00039", dt"2026-04-12", "Outbound", "Pharma", "IT", 87, "Qualified", "E0077" },
+					{ "L00040", dt"2025-04-18", "Web", "Food", "NL", 91, "Converted", "E0030" },
+					{ "L00041", dt"2025-10-10", "Web", "Aerospace", "DE", 17, "Qualified", "E0030" },
+					{ "L00042", dt"2025-02-15", "Existing Customer", "Food", "ES", 86, "Disqualified", "E0040" },
+					{ "L00043", dt"2025-12-28", "Existing Customer", "Pharma", "ES", 59, "Qualified", "E0077" },
+					{ "L00044", dt"2025-01-12", "Existing Customer", "Electronics", "GB", 75, "Converted", "E0021" },
+					{ "L00045", dt"2025-03-14", "Web", "Food", "SG", 13, "Qualified", "E0021" },
+					{ "L00046", dt"2025-06-30", "Web", "Food", "US", 75, "New", "E0025" },
+					{ "L00047", dt"2025-05-15", "Web", "Chemicals", "GB", 19, "New", "E0072" },
+					{ "L00048", dt"2025-08-18", "Existing Customer", "Aerospace", "SG", 17, "Converted", "E0040" },
+					{ "L00049", dt"2026-04-15", "Web", "Automotive", "FR", 96, "Converted", "E0030" },
+					{ "L00050", dt"2026-01-15", "Existing Customer", "Food", "GB", 83, "Qualified", "E0021" },
+					{ "L00051", dt"2025-07-10", "Trade Fair", "Chemicals", "GB", 31, "Qualified", "E0030" },
+					{ "L00052", dt"2025-12-19", "Existing Customer", "Chemicals", "GB", 90, "New", "E0021" },
+					{ "L00053", dt"2026-03-13", "Partner", "Pharma", "GB", 79, "Converted", "E0004" },
+					{ "L00054", dt"2025-01-30", "Existing Customer", "Electronics", "IT", 76, "Converted", "E0025" },
+					{ "L00055", dt"2025-10-07", "Partner", "Machinery", "IT", 58, "New", "E0031" },
+					{ "L00056", dt"2026-03-27", "Existing Customer", "Electronics", "DE", 94, "Disqualified", "E0031" },
+					{ "L00057", dt"2025-08-27", "Outbound", "Chemicals", "FR", 82, "Converted", "E0025" },
+					{ "L00058", dt"2025-09-13", "Web", "Aerospace", "IT", 33, "Converted", "E0004" },
+					{ "L00059", dt"2025-05-26", "Outbound", "Machinery", "GB", 38, "Disqualified", "E0072" },
+					{ "L00060", dt"2025-05-24", "Web", "Machinery", "US", 54, "Converted", "E0040" },
+					{ "L00061", dt"2026-01-27", "Outbound", "Food", "CN", 17, "Converted", "E0065" },
+					{ "L00062", dt"2026-02-19", "Web", "Electronics", "NL", 16, "New", "E0077" },
+					{ "L00063", dt"2025-01-15", "Outbound", "Chemicals", "CN", 92, "Qualified", "E0004" },
+					{ "L00064", dt"2025-02-20", "Trade Fair", "Automotive", "ES", 33, "Converted", "E0039" },
+					{ "L00065", dt"2025-03-14", "Existing Customer", "Automotive", "PL", 97, "Disqualified", "E0030" },
+					{ "L00066", dt"2025-05-29", "Partner", "Food", "US", 51, "Converted", "E0030" },
+					{ "L00067", dt"2025-09-19", "Trade Fair", "Automotive", "GB", 74, "Qualified", "E0024" },
+					{ "L00068", dt"2025-05-13", "Existing Customer", "Electronics", "CN", 87, "Converted", "E0040" },
+					{ "L00069", dt"2026-03-30", "Trade Fair", "Food", "US", 67, "New", "E0025" },
+					{ "L00070", dt"2025-06-23", "Existing Customer", "Machinery", "NL", 28, "Disqualified", "E0065" },
+					{ "L00071", dt"2025-07-13", "Web", "Pharma", "FR", 72, "Qualified", "E0025" },
+					{ "L00072", dt"2025-05-26", "Existing Customer", "Chemicals", "ES", 64, "Disqualified", "E0030" },
+					{ "L00073", dt"2025-06-30", "Partner", "Aerospace", "NL", 17, "Qualified", "E0039" },
+					{ "L00074", dt"2025-08-31", "Outbound", "Chemicals", "GB", 45, "New", "E0004" },
+					{ "L00075", dt"2025-11-09", "Existing Customer", "Machinery", "ES", 19, "Qualified", "E0040" },
+					{ "L00076", dt"2025-09-09", "Partner", "Machinery", "DE", 25, "New", "E0031" },
+					{ "L00077", dt"2025-06-22", "Web", "Food", "CN", 80, "New", "E0065" },
+					{ "L00078", dt"2025-07-27", "Partner", "Machinery", "SG", 14, "New", "E0065" },
+					{ "L00079", dt"2025-03-13", "Outbound", "Automotive", "NL", 74, "New", "E0025" },
+					{ "L00080", dt"2025-03-02", "Existing Customer", "Aerospace", "SG", 37, "New", "E0024" },
+					{ "L00081", dt"2026-03-23", "Existing Customer", "Aerospace", "FR", 93, "Converted", "E0021" },
+					{ "L00082", dt"2025-01-03", "Trade Fair", "Machinery", "DE", 81, "Converted", "E0025" },
+					{ "L00083", dt"2025-03-16", "Web", "Food", "US", 65, "New", "E0025" },
+					{ "L00084", dt"2025-06-13", "Outbound", "Electronics", "US", 82, "New", "E0031" },
+					{ "L00085", dt"2025-04-30", "Partner", "Chemicals", "ES", 26, "Disqualified", "E0077" },
+					{ "L00086", dt"2025-12-18", "Outbound", "Food", "ES", 86, "Qualified", "E0065" },
+					{ "L00087", dt"2026-04-06", "Outbound", "Aerospace", "FR", 56, "Disqualified", "E0040" },
+					{ "L00088", dt"2025-12-07", "Trade Fair", "Machinery", "US", 43, "Qualified", "E0039" },
+					{ "L00089", dt"2026-01-04", "Outbound", "Chemicals", "CN", 31, "Qualified", "E0039" },
+					{ "L00090", dt"2025-10-16", "Existing Customer", "Food", "GB", 35, "New", "E0024" },
+					{ "L00091", dt"2025-12-19", "Outbound", "Electronics", "ES", 27, "New", "E0030" },
+					{ "L00092", dt"2025-07-02", "Trade Fair", "Pharma", "US", 28, "Qualified", "E0025" },
+					{ "L00093", dt"2025-03-08", "Web", "Pharma", "FR", 54, "Converted", "E0040" },
+					{ "L00094", dt"2025-09-09", "Existing Customer", "Chemicals", "NL", 28, "Disqualified", "E0024" },
+					{ "L00095", dt"2026-03-26", "Trade Fair", "Chemicals", "CN", 31, "Qualified", "E0031" },
+					{ "L00096", dt"2026-01-30", "Web", "Chemicals", "SG", 21, "New", "E0030" },
+					{ "L00097", dt"2025-02-01", "Partner", "Food", "US", 81, "New", "E0065" },
+					{ "L00098", dt"2025-12-16", "Web", "Automotive", "NL", 17, "New", "E0031" },
+					{ "L00099", dt"2026-02-25", "Web", "Pharma", "FR", 58, "Qualified", "E0031" },
+					{ "L00100", dt"2025-07-12", "Partner", "Pharma", "US", 87, "New", "E0065" },
+					{ "L00101", dt"2025-03-07", "Partner", "Machinery", "PL", 15, "Disqualified", "E0039" },
+					{ "L00102", dt"2026-02-02", "Outbound", "Pharma", "NL", 78, "New", "E0040" },
+					{ "L00103", dt"2025-05-24", "Trade Fair", "Automotive", "US", 10, "Qualified", "E0030" },
+					{ "L00104", dt"2025-12-28", "Existing Customer", "Pharma", "DE", 77, "Qualified", "E0021" },
+					{ "L00105", dt"2025-04-28", "Partner", "Electronics", "ES", 33, "New", "E0072" },
+					{ "L00106", dt"2025-08-21", "Partner", "Pharma", "FR", 78, "New", "E0024" },
+					{ "L00107", dt"2025-03-05", "Trade Fair", "Chemicals", "GB", 55, "Converted", "E0004" },
+					{ "L00108", dt"2026-01-28", "Partner", "Chemicals", "ES", 87, "Qualified", "E0040" },
+					{ "L00109", dt"2025-05-15", "Outbound", "Pharma", "PL", 79, "Converted", "E0024" },
+					{ "L00110", dt"2026-02-02", "Existing Customer", "Aerospace", "PL", 79, "Converted", "E0039" },
+					{ "L00111", dt"2025-11-22", "Trade Fair", "Machinery", "PL", 98, "Qualified", "E0065" },
+					{ "L00112", dt"2025-01-14", "Outbound", "Machinery", "GB", 55, "Qualified", "E0072" },
+					{ "L00113", dt"2025-02-10", "Partner", "Food", "NL", 47, "Qualified", "E0039" },
+					{ "L00114", dt"2025-01-04", "Web", "Aerospace", "IT", 55, "Qualified", "E0004" },
+					{ "L00115", dt"2026-03-30", "Outbound", "Food", "DE", 28, "New", "E0065" },
+					{ "L00116", dt"2025-01-25", "Partner", "Pharma", "NL", 43, "Converted", "E0039" },
+					{ "L00117", dt"2026-03-17", "Existing Customer", "Electronics", "CN", 83, "Qualified", "E0031" },
+					{ "L00118", dt"2025-11-15", "Existing Customer", "Automotive", "ES", 42, "Converted", "E0031" },
+					{ "L00119", dt"2026-03-28", "Trade Fair", "Electronics", "FR", 88, "New", "E0004" },
+					{ "L00120", dt"2026-03-26", "Partner", "Aerospace", "GB", 95, "New", "E0040" },
+					{ "L00121", dt"2026-03-03", "Existing Customer", "Automotive", "US", 30, "Disqualified", "E0024" },
+					{ "L00122", dt"2025-02-19", "Trade Fair", "Food", "DE", 64, "Converted", "E0021" },
+					{ "L00123", dt"2026-04-24", "Outbound", "Aerospace", "GB", 59, "New", "E0072" },
+					{ "L00124", dt"2025-12-17", "Web", "Pharma", "NL", 94, "Disqualified", "E0039" },
+					{ "L00125", dt"2025-03-10", "Partner", "Chemicals", "GB", 76, "New", "E0030" },
+					{ "L00126", dt"2025-08-14", "Existing Customer", "Electronics", "GB", 88, "Converted", "E0024" },
+					{ "L00127", dt"2025-10-13", "Web", "Pharma", "GB", 18, "New", "E0004" },
+					{ "L00128", dt"2026-02-07", "Existing Customer", "Electronics", "NL", 80, "New", "E0039" },
+					{ "L00129", dt"2025-12-10", "Partner", "Machinery", "SG", 13, "Converted", "E0004" },
+					{ "L00130", dt"2025-04-27", "Trade Fair", "Aerospace", "ES", 35, "New", "E0065" },
+					{ "L00131", dt"2025-03-18", "Web", "Machinery", "IT", 47, "New", "E0025" },
+					{ "L00132", dt"2025-11-15", "Outbound", "Machinery", "US", 57, "Disqualified", "E0039" },
+					{ "L00133", dt"2025-06-12", "Trade Fair", "Machinery", "IT", 36, "New", "E0040" },
+					{ "L00134", dt"2026-01-13", "Trade Fair", "Aerospace", "NL", 61, "Disqualified", "E0077" },
+					{ "L00135", dt"2026-01-13", "Outbound", "Chemicals", "SG", 53, "Converted", "E0072" },
+					{ "L00136", dt"2025-06-16", "Trade Fair", "Pharma", "IT", 67, "New", "E0039" },
+					{ "L00137", dt"2025-11-25", "Outbound", "Chemicals", "DE", 86, "New", "E0040" },
+					{ "L00138", dt"2026-02-13", "Existing Customer", "Electronics", "PL", 81, "Qualified", "E0024" },
+					{ "L00139", dt"2026-04-18", "Web", "Chemicals", "PL", 42, "Qualified", "E0039" },
+					{ "L00140", dt"2025-11-11", "Outbound", "Pharma", "CN", 51, "Disqualified", "E0031" },
+					{ "L00141", dt"2025-12-19", "Trade Fair", "Machinery", "PL", 63, "Converted", "E0021" },
+					{ "L00142", dt"2025-04-14", "Trade Fair", "Chemicals", "FR", 75, "Converted", "E0040" },
+					{ "L00143", dt"2026-01-10", "Outbound", "Automotive", "PL", 48, "Qualified", "E0021" },
+					{ "L00144", dt"2025-05-09", "Outbound", "Food", "GB", 63, "Disqualified", "E0004" },
+					{ "L00145", dt"2025-06-03", "Partner", "Aerospace", "FR", 67, "Qualified", "E0021" },
+					{ "L00146", dt"2026-03-02", "Web", "Automotive", "NL", 91, "Disqualified", "E0024" },
+					{ "L00147", dt"2026-01-09", "Existing Customer", "Food", "FR", 94, "Qualified", "E0024" },
+					{ "L00148", dt"2025-02-20", "Outbound", "Electronics", "NL", 18, "Disqualified", "E0065" },
+					{ "L00149", dt"2025-01-18", "Web", "Aerospace", "GB", 22, "Converted", "E0040" },
+					{ "L00150", dt"2025-08-13", "Partner", "Pharma", "SG", 95, "Disqualified", "E0025" },
+					{ "L00151", dt"2025-02-13", "Partner", "Aerospace", "IT", 84, "Qualified", "E0040" },
+					{ "L00152", dt"2025-06-25", "Partner", "Chemicals", "NL", 61, "Disqualified", "E0030" },
+					{ "L00153", dt"2026-04-19", "Trade Fair", "Pharma", "SG", 78, "Disqualified", "E0040" },
+					{ "L00154", dt"2026-01-07", "Outbound", "Chemicals", "GB", 66, "Converted", "E0072" },
+					{ "L00155", dt"2025-04-06", "Web", "Food", "CN", 50, "New", "E0004" },
+					{ "L00156", dt"2025-08-05", "Existing Customer", "Chemicals", "NL", 42, "Disqualified", "E0031" },
+					{ "L00157", dt"2025-03-17", "Partner", "Food", "ES", 11, "Disqualified", "E0030" },
+					{ "L00158", dt"2025-11-07", "Outbound", "Chemicals", "DE", 84, "Disqualified", "E0025" },
+					{ "L00159", dt"2025-02-27", "Web", "Chemicals", "IT", 40, "Disqualified", "E0040" },
+					{ "L00160", dt"2026-04-08", "Trade Fair", "Automotive", "IT", 54, "Disqualified", "E0025" }
+				}
+			)

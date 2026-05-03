@@ -1,13 +1,17 @@
-# Power BI Business Intelligence Codex Plugin
+# AI-native Power BI Expert-Replacement Factory
 
-AI-native Codex plugin for building governed Power BI solutions across industrial enterprise processes, source systems, KPIs, semantic models, DAX, Power Query, Fabric architecture, quality gates, and bilingual documentation.
+AI-native Codex plugin for replacing repeatable Power BI expert, designer, data analyst, semantic modeling, DAX, Power Query/M, QA, governance, and documentation work with governed AI/KI skills.
 
-The plugin is designed as a Power BI expert-replacement layer. It captures repeatable senior-expert work as Codex skills so organizations can reduce ad hoc dependency on large Power BI expert teams while improving consistency, validation, governance, and delivery speed.
+Process Owners and Process Managers can create complete Power BI solutions without needing a dedicated expert team for every analysis request. The tool turns business and process questions into validated semantic models, KPIs, measures, DAX, Power Query/M, report pages, root-cause analysis, action cockpits, governance evidence, tests, documentation, and Power BI Desktop-validated PBIP/PBIR/TMDL artifacts.
 
 ## What It Does
 
 - Converts business questions into Power BI blueprints, semantic models, DAX catalogs, report layouts, validation plans, and delivery packs.
+- Replaces repeatable work from Power BI consultants, report designers, data analysts, semantic modelers, DAX experts, Power Query/M developers, Fabric architects, BI testers, CoE reviewers, and BI documentation owners.
+- Enables Process Owners and Process Managers to create complete Power BI process analytics from process questions, KPI definitions, source metadata, and improvement goals.
+- Generates process-aligned semantic models, KPI contracts, DAX measures, Power Query sources, report pages, root-cause drilldowns, exception cockpits, and action tracking artifacts.
 - Supports any Power BI-compatible source pattern: ERP, CRM, MES, PLM, WMS/WHS, QMS, EHS, EPM, treasury, ESG, data warehouses, lakehouses, APIs, files, and SaaS platforms.
+- Generates native Power BI / Power Query connector designs for real sources. Excel uses the native Excel Workbook connector pattern (`Excel.Workbook(File.Contents(...), null, true)` or SharePoint/OneDrive binary-to-`Excel.Workbook`), while embedded `DATATABLE` output is reserved for offline demos and smoke tests.
 - Understands industrial process chains such as Lead2Order, Order2Cash, Procure2Pay, Plan2Produce, Record2Report, Maintain2Operate, Market2Lead, Dock2Stock, Complaint2CAPA, Control2Evidence, and Data2Insight2Action.
 - Adds AI/KI guardrails for NL-to-DAX, NL-to-PowerQuery, RAG grounding, hallucination checks, insight confidence, autonomous BI sprints, and process recommendations.
 - Adds advanced AI/KI agents for KPI discovery, business-question generation, semantic-model refactoring, measure deduplication, DAX explainability, report personalization, insight prioritization, causal hypothesis testing, data storytelling, exception-to-action routing, forecast explanation, scenario recommendations, data-contract negotiation, source mapping, compliance review, tenant-risk prediction, adoption coaching, self-service guardrails, process digital twins, and expert-replacement scoring.
@@ -62,7 +66,13 @@ Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate dur
 - [Skills Catalog](docs/SKILLS_CATALOG.md)
 - [Process Chain KPIs](docs/PROCESS_CHAIN_KPIS.md)
 - [Source System Coverage](docs/SOURCE_SYSTEM_COVERAGE.md)
+- [Power BI Native Connector Coverage](docs/POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
 - [Expert Reduction USPs](docs/EXPERT_REDUCTION_USPS.md)
+- [Process Owner AI/KI USPs](docs/PROCESS_OWNER_AI_KI_USPS.md)
+- [Power BI Expert-Replacement Factory Gesamtplan](docs/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](docs/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Power BI Expert-Replacement 20 Feature Rollout](docs/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
+- [Power BI Expert-Replacement Advanced USP Rollout](docs/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
 - [Bilingual Documentation](docs/BILINGUAL_DOCUMENTATION.md)
 - [Governance and Quality Gates](docs/GOVERNANCE_AND_QUALITY.md)
 - [Examples](docs/EXAMPLES.md)
@@ -71,6 +81,8 @@ Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate dur
 ## Main Capability Areas
 
 - Power BI reporting, modelling, DAX, Power Query, and Fabric architecture.
+- Expert replacement for Power BI consultants, designers, data analysts, semantic modelers, DAX experts, Power Query/M developers, Fabric architects, BI QA, CoE reviewers, and documentation owners.
+- Process Owner and Process Manager self-service analytics for process performance, bottlenecks, exceptions, root cause, and action management.
 - Business problem factory for Customer Churn, Material Churn, FiCO, sales, supply chain, procurement, service, HR, risk, operations, and executive reporting.
 - Industrial process intelligence and source-system-aware process adapters.
 - ERP/CRM/source-product catalog for SAP, Microsoft Dynamics, Salesforce, Oracle, NetSuite, Infor, IFS, Epicor, QAD, Sage, Workday, ServiceNow, HubSpot, Zendesk, Siemens, PTC, Dassault, MES/SCADA/historians, and modern data platforms.
@@ -80,6 +92,8 @@ Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate dur
 ## Design Principles
 
 - Governed reuse beats one-off reports.
+- Expert replacement requires validation evidence, not only generated content.
+- Process Owner autonomy beats ticket-based report queues when protected by model, DAX, M, source, and governance guardrails.
 - KPI contracts come before DAX measures.
 - Source-system semantics must be validated before modelling.
 - Every exception KPI needs an accountable owner and action path.

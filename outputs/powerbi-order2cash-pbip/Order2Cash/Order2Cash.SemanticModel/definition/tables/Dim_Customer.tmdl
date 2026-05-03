@@ -1,45 +1,110 @@
 table Dim_Customer
-	lineageTag: generated-order2cash-demo
+	lineageTag: 8f69c675-2069-5158-9bec-b8c4f79fa1da
 
 	column CustomerID
 		dataType: string
-		sourceColumn: CustomerID
+		sourceColumn: [CustomerID]
 
 	column CustomerName
 		dataType: string
-		sourceColumn: CustomerName
+		sourceColumn: [CustomerName]
 
 	column Segment
 		dataType: string
-		sourceColumn: Segment
+		sourceColumn: [Segment]
 
 	column Industry
 		dataType: string
-		sourceColumn: Industry
+		sourceColumn: [Industry]
 
 	column Country
 		dataType: string
-		sourceColumn: Country
+		sourceColumn: [Country]
 
 	column SalesRegion
 		dataType: string
-		sourceColumn: SalesRegion
+		sourceColumn: [SalesRegion]
 
 	column RiskClass
 		dataType: string
-		sourceColumn: RiskClass
+		sourceColumn: [RiskClass]
 
 	column ActiveFlag
 		dataType: boolean
-		sourceColumn: ActiveFlag
+		sourceColumn: [ActiveFlag]
 
-	partition Dim_Customer = m
+	partition Dim_Customer = calculated
 		mode: import
 		source =
-			// Power Query M - import Dim_Customer from the industrial demo workbook.
-			let
-			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
-			    Raw = Source{[Item="Dim_Customer", Kind="Sheet"]}[Data],
-			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true])
-			in
-			    PromotedHeaders
+			DATATABLE(
+				"CustomerID", STRING,
+				"CustomerName", STRING,
+				"Segment", STRING,
+				"Industry", STRING,
+				"Country", STRING,
+				"SalesRegion", STRING,
+				"RiskClass", STRING,
+				"ActiveFlag", BOOLEAN,
+				{
+					{ "C0001", "Vector Components 1", "Public Sector", "Electronics", "NL", "APAC", "A", TRUE },
+					{ "C0002", "Vector Systems 2", "Public Sector", "Automotive", "ES", "Southern Europe", "A", TRUE },
+					{ "C0003", "Prime Systems 3", "Strategic Account", "Automotive", "FR", "Benelux", "A", TRUE },
+					{ "C0004", "Apex Industries 4", "Public Sector", "Electronics", "IT", "APAC", "C", TRUE },
+					{ "C0005", "Prime Components 5", "Public Sector", "Chemicals", "DE", "Southern Europe", "C", TRUE },
+					{ "C0006", "Apex Components 6", "Aftermarket", "Food", "FR", "North America", "B", TRUE },
+					{ "C0007", "Vector Technologies 7", "Aftermarket", "Machinery", "ES", "North America", "B", TRUE },
+					{ "C0008", "Vector Mobility 8", "Public Sector", "Aerospace", "FR", "Southern Europe", "C", TRUE },
+					{ "C0009", "Orion Components 9", "OEM", "Automotive", "US", "Southern Europe", "A", TRUE },
+					{ "C0010", "Nova Technologies 10", "Distributor", "Machinery", "CN", "Benelux", "Watch", TRUE },
+					{ "C0011", "Vector Technologies 11", "Public Sector", "Food", "CN", "DACH", "Watch", TRUE },
+					{ "C0012", "Orion Systems 12", "OEM", "Aerospace", "PL", "APAC", "C", TRUE },
+					{ "C0013", "Orion Technologies 13", "Strategic Account", "Aerospace", "DE", "APAC", "B", TRUE },
+					{ "C0014", "Prime Mobility 14", "Distributor", "Machinery", "ES", "Benelux", "C", FALSE },
+					{ "C0015", "Orion Components 15", "Strategic Account", "Automotive", "CN", "DACH", "B", TRUE },
+					{ "C0016", "Orion Mobility 16", "Strategic Account", "Aerospace", "IT", "Benelux", "Watch", TRUE },
+					{ "C0017", "Vector Mobility 17", "OEM", "Chemicals", "PL", "Benelux", "A", TRUE },
+					{ "C0018", "Apex Technologies 18", "Public Sector", "Food", "IT", "APAC", "B", FALSE },
+					{ "C0019", "Apex Systems 19", "Public Sector", "Machinery", "ES", "North America", "C", TRUE },
+					{ "C0020", "Atlas Mobility 20", "Distributor", "Automotive", "FR", "DACH", "Watch", TRUE },
+					{ "C0021", "Vector Systems 21", "Strategic Account", "Aerospace", "US", "DACH", "A", TRUE },
+					{ "C0022", "Prime Technologies 22", "Strategic Account", "Chemicals", "US", "Southern Europe", "C", TRUE },
+					{ "C0023", "Prime Industries 23", "Strategic Account", "Chemicals", "ES", "APAC", "Watch", FALSE },
+					{ "C0024", "Apex Components 24", "Strategic Account", "Machinery", "ES", "Southern Europe", "C", TRUE },
+					{ "C0025", "Orion Mobility 25", "OEM", "Chemicals", "CN", "Southern Europe", "B", TRUE },
+					{ "C0026", "Apex Mobility 26", "OEM", "Electronics", "US", "Southern Europe", "C", TRUE },
+					{ "C0027", "Apex Systems 27", "Distributor", "Aerospace", "CN", "Southern Europe", "Watch", TRUE },
+					{ "C0028", "Orion Industries 28", "OEM", "Aerospace", "PL", "North America", "Watch", TRUE },
+					{ "C0029", "Helio Mobility 29", "Aftermarket", "Automotive", "IT", "Southern Europe", "Watch", TRUE },
+					{ "C0030", "Vector Mobility 30", "Strategic Account", "Food", "PL", "Benelux", "C", TRUE },
+					{ "C0031", "Vector Industries 31", "Strategic Account", "Automotive", "US", "Benelux", "Watch", FALSE },
+					{ "C0032", "Orion Components 32", "Public Sector", "Machinery", "SG", "DACH", "C", TRUE },
+					{ "C0033", "Helio Mobility 33", "Strategic Account", "Chemicals", "US", "Southern Europe", "B", TRUE },
+					{ "C0034", "Vector Components 34", "Strategic Account", "Machinery", "US", "Benelux", "A", TRUE },
+					{ "C0035", "Global Technologies 35", "Aftermarket", "Automotive", "DE", "North America", "Watch", TRUE },
+					{ "C0036", "Apex Mobility 36", "Distributor", "Food", "CN", "Benelux", "Watch", TRUE },
+					{ "C0037", "Helio Industries 37", "Aftermarket", "Food", "SG", "APAC", "A", TRUE },
+					{ "C0038", "Prime Components 38", "Distributor", "Aerospace", "SG", "APAC", "C", TRUE },
+					{ "C0039", "Helio Industries 39", "Aftermarket", "Food", "US", "Southern Europe", "A", TRUE },
+					{ "C0040", "Vector Systems 40", "OEM", "Electronics", "ES", "North America", "C", TRUE },
+					{ "C0041", "Vector Components 41", "Distributor", "Automotive", "IT", "Benelux", "A", TRUE },
+					{ "C0042", "Global Industries 42", "Strategic Account", "Chemicals", "NL", "Southern Europe", "C", TRUE },
+					{ "C0043", "Nova Components 43", "Strategic Account", "Chemicals", "NL", "North America", "C", TRUE },
+					{ "C0044", "Helio Technologies 44", "OEM", "Automotive", "FR", "APAC", "A", TRUE },
+					{ "C0045", "Helio Systems 45", "OEM", "Machinery", "SG", "North America", "C", TRUE },
+					{ "C0046", "Atlas Technologies 46", "Strategic Account", "Automotive", "ES", "Southern Europe", "B", FALSE },
+					{ "C0047", "Atlas Mobility 47", "Strategic Account", "Aerospace", "CN", "Southern Europe", "Watch", TRUE },
+					{ "C0048", "Nova Technologies 48", "Public Sector", "Aerospace", "PL", "North America", "C", TRUE },
+					{ "C0049", "Global Systems 49", "Distributor", "Machinery", "IT", "North America", "Watch", TRUE },
+					{ "C0050", "Helio Systems 50", "Distributor", "Food", "GB", "Southern Europe", "B", TRUE },
+					{ "C0051", "Helio Components 51", "OEM", "Food", "ES", "Southern Europe", "A", TRUE },
+					{ "C0052", "Global Components 52", "Public Sector", "Pharma", "US", "DACH", "C", TRUE },
+					{ "C0053", "Apex Mobility 53", "Strategic Account", "Pharma", "DE", "North America", "A", TRUE },
+					{ "C0054", "Orion Components 54", "Aftermarket", "Chemicals", "IT", "Benelux", "B", TRUE },
+					{ "C0055", "Apex Mobility 55", "OEM", "Pharma", "NL", "Benelux", "A", TRUE },
+					{ "C0056", "Global Mobility 56", "Strategic Account", "Pharma", "FR", "APAC", "A", TRUE },
+					{ "C0057", "Global Technologies 57", "Distributor", "Food", "PL", "North America", "C", TRUE },
+					{ "C0058", "Orion Mobility 58", "Aftermarket", "Pharma", "ES", "APAC", "Watch", TRUE },
+					{ "C0059", "Orion Components 59", "Aftermarket", "Chemicals", "GB", "Southern Europe", "B", TRUE },
+					{ "C0060", "Global Systems 60", "Distributor", "Electronics", "US", "Southern Europe", "A", TRUE }
+				}
+			)

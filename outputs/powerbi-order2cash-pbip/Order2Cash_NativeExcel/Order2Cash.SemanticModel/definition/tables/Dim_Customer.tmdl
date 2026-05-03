@@ -1,0 +1,45 @@
+table Dim_Customer
+	lineageTag: 8f69c675-2069-5158-9bec-b8c4f79fa1da
+
+	column CustomerID
+		dataType: string
+		sourceColumn: [CustomerID]
+
+	column CustomerName
+		dataType: string
+		sourceColumn: [CustomerName]
+
+	column Segment
+		dataType: string
+		sourceColumn: [Segment]
+
+	column Industry
+		dataType: string
+		sourceColumn: [Industry]
+
+	column Country
+		dataType: string
+		sourceColumn: [Country]
+
+	column SalesRegion
+		dataType: string
+		sourceColumn: [SalesRegion]
+
+	column RiskClass
+		dataType: string
+		sourceColumn: [RiskClass]
+
+	column ActiveFlag
+		dataType: boolean
+		sourceColumn: [ActiveFlag]
+
+	partition Dim_Customer = m
+		mode: import
+		source =
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Dim_Customer", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true]),
+			    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"CustomerID", type text}, {"CustomerName", type text}, {"Segment", type text}, {"Industry", type text}, {"Country", type text}, {"SalesRegion", type text}, {"RiskClass", type text}, {"ActiveFlag", type logical}}, "en-US")
+			in
+			    ChangedType

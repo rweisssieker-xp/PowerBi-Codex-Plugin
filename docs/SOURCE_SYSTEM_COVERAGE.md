@@ -2,9 +2,13 @@
 
 The plugin is source-system-aware. It does not assume that every customer uses the same tables, APIs, extensions, or warehouse naming conventions. Source objects are candidate mappings until validated against metadata.
 
+Native Power BI / Power Query connector use is mandatory for real implementations. The plugin may generate embedded demo data only for offline test fixtures. See [Power BI Native Connector Coverage](POWERBI_NATIVE_CONNECTOR_COVERAGE.md).
+
 ## de-DE Kurzfassung
 
 Das Plugin kennt typische ERP-, CRM-, Industrie-, QM-, WHS-, Finance-, Planning-, Compliance-, Datenplattform- und Integrationssysteme. Konkrete Tabellen, APIs, Views und Felder gelten immer nur als Kandidaten, bis sie gegen Kunden-Metadaten, Quellsysteme oder replizierte Daten validiert wurden.
+
+Fuer echte Implementierungen muessen native Power BI / Power Query Connectoren genutzt werden. Eingebettete Demo-Daten sind nur fuer Offline-Testartefakte erlaubt. Siehe [Power BI Native Connector Coverage](POWERBI_NATIVE_CONNECTOR_COVERAGE.md).
 
 ## ERP and CRM
 

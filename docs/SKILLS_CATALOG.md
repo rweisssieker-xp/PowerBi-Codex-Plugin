@@ -1,10 +1,77 @@
 # Skills Catalog
 
-The plugin currently contains 214 Codex skills. This catalog groups the most important skill families.
+The plugin currently contains 255 Codex skills. This catalog groups the most important skill families and separates current skills from planned AI/KI expert-agent skills for the Power BI Expert-Replacement Factory.
 
 ## de-DE Kurzfassung
 
-Das Plugin enthaelt aktuell 214 Codex-Skills fuer Power BI, Fabric, Industrieprozesse, Quellsysteme, AI/KI, Governance, Automatisierung und Expert-Reduction. Dieser Katalog ist die GitHub-Uebersicht; konkrete Lieferartefakte muessen weiterhin in `en-US` und `de-DE` erstellt werden.
+Das Plugin enthaelt aktuell 255 Codex-Skills fuer Power BI, Fabric, Industrieprozesse, Quellsysteme, AI/KI, Governance, Automatisierung und Expert-Replacement. Dieser Katalog ist die GitHub-Uebersicht; konkrete Lieferartefakte muessen weiterhin in `en-US` und `de-DE` erstellt werden.
+
+## Power BI Expert-Replacement Factory
+
+The factory replaces repeatable expert work through governed skill clusters. Current skills provide partial coverage; planned AI/KI expert-agent skills define the roadmap for complete replacement.
+
+- Power BI Consultant Replacement.
+- Data Analyst Replacement.
+- Power BI Designer Replacement.
+- Semantic Modeler Replacement.
+- DAX Expert Replacement.
+- Power Query/M Developer Replacement.
+- Fabric Architect Replacement.
+- BI Tester and Reviewer Replacement.
+- CoE and Governance Reviewer Replacement.
+- BI Documentation Owner Replacement.
+
+See [Power BI Expert-Replacement Factory Gesamtplan](POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md) and [Power BI Expert-Replacement Skill Map](POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md).
+
+## Implemented 20-Feature Expert-Replacement Rollout
+
+See [Power BI Expert-Replacement 20 Feature Rollout](POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md).
+
+- `powerbi-ai-powerbi-desktop-smoke-tester`
+- `powerbi-ai-frown-to-fix-triage`
+- `powerbi-ai-model-graph-validator`
+- `powerbi-ai-native-source-router`
+- `powerbi-ai-visual-binding-validator`
+- `powerbi-ai-dax-measure-test-harness`
+- `powerbi-ai-kpi-contract-compiler`
+- `powerbi-ai-powerquery-load-contract`
+- `powerbi-ai-semantic-model-diff-regression`
+- `powerbi-ai-report-ux-critic`
+- `powerbi-process-owner-interview-wizard`
+- `powerbi-ai-business-question-to-model`
+- `powerbi-ai-exception-to-action-workflow`
+- `powerbi-ai-process-pack-generator`
+- `powerbi-ai-owner-acceptance-pack`
+- `powerbi-ai-certification-readiness-bot`
+- `powerbi-ai-tenant-cleanup-consolidation-agent`
+- `powerbi-ai-powerbi-release-evidence-pack`
+- `powerbi-ai-governed-role-prompt-packs`
+- `powerbi-ai-expert-replacement-scorecard`
+
+## Implemented Advanced USP Rollout
+
+See [Power BI Expert-Replacement Advanced USP Rollout](POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md).
+
+- `powerbi-ai-autopilot-evidence-explainer`
+- `powerbi-ai-kpi-contract-marketplace`
+- `powerbi-ai-semantic-model-pattern-marketplace`
+- `powerbi-ai-powerbi-refactoring-agent`
+- `powerbi-ai-report-consolidation-retirement-autopilot`
+- `powerbi-ai-kpi-conflict-resolution-room`
+- `powerbi-ai-data-quality-business-impact`
+- `powerbi-ai-lineage-blast-radius`
+- `powerbi-ai-cost-to-value-optimizer`
+- `powerbi-ai-self-healing-refresh-agent`
+- `powerbi-ai-data-product-certification-pipeline`
+- `powerbi-ai-process-digital-twin-powerbi`
+- `powerbi-ai-action-effectiveness-learning`
+- `powerbi-ai-executive-boardroom-autopilot`
+- `powerbi-ai-regulated-bi-evidence-vault`
+- `powerbi-ai-source-system-object-intelligence`
+- `powerbi-ai-business-model-explainability`
+- `powerbi-ai-migration-autopilot`
+- `powerbi-ai-agent-workforce-orchestrator`
+- `powerbi-ai-benchmark-maturity-intelligence`
 
 ## Core Power BI
 
@@ -98,6 +165,7 @@ Das Plugin enthaelt aktuell 214 Codex-Skills fuer Power BI, Fabric, Industriepro
 - `powerbi-pbip-tmdl-generator`
 - `powerbi-dax-unit-test-runner`
 - `powerbi-powerquery-code-generator`
+- `powerbi-native-source-connector-factory`
 - `powerbi-visual-layout-spec-generator`
 - `powerbi-fabric-deployment-blueprint`
 - `powerbi-connector-capability-matrix`
@@ -187,6 +255,122 @@ Das Plugin enthaelt aktuell 214 Codex-Skills fuer Power BI, Fabric, Industriepro
 - `powerbi-ai-change-impact-explainer`
 - `powerbi-ai-ticket-resolver`
 - `powerbi-ai-autonomous-bi-sprint`
+- `powerbi-ai-powerbi-desktop-smoke-tester`
+- `powerbi-ai-frown-to-fix-triage`
+- `powerbi-ai-model-graph-validator`
+- `powerbi-ai-native-source-router`
+- `powerbi-ai-visual-binding-validator`
+- `powerbi-ai-dax-measure-test-harness`
+- `powerbi-ai-kpi-contract-compiler`
+- `powerbi-ai-powerquery-load-contract`
+- `powerbi-ai-semantic-model-diff-regression`
+- `powerbi-ai-report-ux-critic`
+- `powerbi-process-owner-interview-wizard`
+- `powerbi-ai-business-question-to-model`
+- `powerbi-ai-exception-to-action-workflow`
+- `powerbi-ai-process-pack-generator`
+- `powerbi-ai-owner-acceptance-pack`
+- `powerbi-ai-certification-readiness-bot`
+- `powerbi-ai-tenant-cleanup-consolidation-agent`
+- `powerbi-ai-powerbi-release-evidence-pack`
+- `powerbi-ai-governed-role-prompt-packs`
+- `powerbi-ai-expert-replacement-scorecard`
+- `powerbi-ai-autopilot-evidence-explainer`
+- `powerbi-ai-kpi-contract-marketplace`
+- `powerbi-ai-semantic-model-pattern-marketplace`
+- `powerbi-ai-powerbi-refactoring-agent`
+- `powerbi-ai-report-consolidation-retirement-autopilot`
+- `powerbi-ai-kpi-conflict-resolution-room`
+- `powerbi-ai-data-quality-business-impact`
+- `powerbi-ai-lineage-blast-radius`
+- `powerbi-ai-cost-to-value-optimizer`
+- `powerbi-ai-self-healing-refresh-agent`
+- `powerbi-ai-data-product-certification-pipeline`
+- `powerbi-ai-process-digital-twin-powerbi`
+- `powerbi-ai-action-effectiveness-learning`
+- `powerbi-ai-executive-boardroom-autopilot`
+- `powerbi-ai-regulated-bi-evidence-vault`
+- `powerbi-ai-source-system-object-intelligence`
+- `powerbi-ai-business-model-explainability`
+- `powerbi-ai-migration-autopilot`
+- `powerbi-ai-agent-workforce-orchestrator`
+- `powerbi-ai-benchmark-maturity-intelligence`
+
+## Planned AI/KI Expert-Agent Skills
+
+These planned skills are not counted in the current 215-skill inventory until implemented. They define the expert-replacement roadmap.
+
+### Power BI Consultant Agent
+
+- `powerbi-ai-powerbi-consultant-agent`
+- `powerbi-ai-solution-scope-agent`
+- `powerbi-ai-requirement-to-delivery-plan`
+
+### Data Analyst Agent
+
+- `powerbi-ai-data-analyst-agent`
+- `powerbi-ai-analysis-plan-builder`
+- `powerbi-ai-insight-to-measure-translator`
+- `powerbi-ai-statistical-interpretation-guard`
+
+### Power BI Designer Agent
+
+- `powerbi-ai-powerbi-designer-agent`
+- `powerbi-ai-visual-binding-validator`
+- `powerbi-ai-report-page-composer`
+- `powerbi-ai-drillthrough-designer`
+- `powerbi-ai-mobile-layout-designer`
+
+### Semantic Modeler Agent
+
+- `powerbi-ai-semantic-modeler-agent`
+- `powerbi-ai-model-graph-validator`
+- `powerbi-ai-ambiguous-path-preventer`
+- `powerbi-ai-star-schema-coach`
+- `powerbi-ai-relationship-cardinality-advisor`
+
+### DAX Expert Agent
+
+- `powerbi-ai-dax-expert-agent`
+- `powerbi-ai-dax-risk-scorer`
+- `powerbi-ai-measure-regression-tester`
+- `powerbi-ai-kpi-to-dax-generator`
+
+### Power Query Expert Agent
+
+- `powerbi-ai-powerquery-expert-agent`
+- `powerbi-ai-native-source-router`
+- `powerbi-ai-powerquery-load-contract`
+- `powerbi-ai-query-folding-verifier`
+- `powerbi-ai-refresh-contract-builder`
+
+### Fabric Architect Agent
+
+- `powerbi-ai-fabric-architect-agent`
+- `powerbi-ai-storage-mode-advisor`
+- `powerbi-ai-directlake-readiness-advisor`
+- `powerbi-ai-capacity-cost-architect`
+
+### BI QA and Reviewer Agent
+
+- `powerbi-ai-bi-qa-agent`
+- `powerbi-ai-powerbi-desktop-smoke-tester`
+- `powerbi-ai-frown-to-fix-triage`
+- `powerbi-ai-pbip-compatibility-validator`
+- `powerbi-ai-pbir-visual-validator`
+
+### CoE and Governance Reviewer Agent
+
+- `powerbi-ai-coe-reviewer-agent`
+- `powerbi-ai-certification-decision-agent`
+- `powerbi-ai-release-evidence-builder`
+- `powerbi-ai-process-owner-signoff-pack`
+
+### BI Documentation Owner Agent
+
+- `powerbi-ai-bi-documentation-owner-agent`
+- `powerbi-ai-model-documentation-auditor`
+- `powerbi-ai-release-notes-evidence-agent`
 
 ## Enterprise Source Packs
 

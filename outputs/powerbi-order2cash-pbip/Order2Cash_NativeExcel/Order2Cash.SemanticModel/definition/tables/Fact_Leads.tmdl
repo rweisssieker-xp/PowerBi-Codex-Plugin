@@ -1,0 +1,45 @@
+table Fact_Leads
+	lineageTag: a52620ba-a6b9-5a16-859a-1ebca0064d10
+
+	column LeadID
+		dataType: string
+		sourceColumn: [LeadID]
+
+	column CreatedDate
+		dataType: dateTime
+		sourceColumn: [CreatedDate]
+
+	column Source
+		dataType: string
+		sourceColumn: [Source]
+
+	column Industry
+		dataType: string
+		sourceColumn: [Industry]
+
+	column Country
+		dataType: string
+		sourceColumn: [Country]
+
+	column LeadScore
+		dataType: int64
+		sourceColumn: [LeadScore]
+
+	column Status
+		dataType: string
+		sourceColumn: [Status]
+
+	column OwnerID
+		dataType: string
+		sourceColumn: [OwnerID]
+
+	partition Fact_Leads = m
+		mode: import
+		source =
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Fact_Leads", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true]),
+			    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"LeadID", type text}, {"CreatedDate", type date}, {"Source", type text}, {"Industry", type text}, {"Country", type text}, {"LeadScore", Int64.Type}, {"Status", type text}, {"OwnerID", type text}}, "en-US")
+			in
+			    ChangedType

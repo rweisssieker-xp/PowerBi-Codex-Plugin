@@ -1,33 +1,39 @@
 table Dim_Plant
-	lineageTag: generated-order2cash-demo
+	lineageTag: f94e8f32-bc57-5835-b88c-70701e972695
 
 	column PlantID
 		dataType: string
-		sourceColumn: PlantID
+		sourceColumn: [PlantID]
 
 	column CompanyCode
 		dataType: string
-		sourceColumn: CompanyCode
+		sourceColumn: [CompanyCode]
 
 	column PlantName
 		dataType: string
-		sourceColumn: PlantName
+		sourceColumn: [PlantName]
 
 	column Country
 		dataType: string
-		sourceColumn: Country
+		sourceColumn: [Country]
 
 	column IndustryFocus
 		dataType: string
-		sourceColumn: IndustryFocus
+		sourceColumn: [IndustryFocus]
 
-	partition Dim_Plant = m
+	partition Dim_Plant = calculated
 		mode: import
 		source =
-			// Power Query M - import Dim_Plant from the industrial demo workbook.
-			let
-			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
-			    Raw = Source{[Item="Dim_Plant", Kind="Sheet"]}[Data],
-			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true])
-			in
-			    PromotedHeaders
+			DATATABLE(
+				"PlantID", STRING,
+				"CompanyCode", STRING,
+				"PlantName", STRING,
+				"Country", STRING,
+				"IndustryFocus", STRING,
+				{
+					{ "DE10", "1000", "Hamburg Assembly", "DE", "Machinery" },
+					{ "DE20", "1000", "Stuttgart Components", "DE", "Automotive" },
+					{ "US10", "2000", "Ohio Fabrication", "US", "Industrial Equipment" },
+					{ "SG10", "3000", "Singapore Electronics", "SG", "Electronics" }
+				}
+			)

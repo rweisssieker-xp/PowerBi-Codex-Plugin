@@ -1,0 +1,49 @@
+table Fact_Quotes
+	lineageTag: 88448217-ee07-5003-b30b-ee5eef227a88
+
+	column QuoteID
+		dataType: string
+		sourceColumn: [QuoteID]
+
+	column OpportunityID
+		dataType: string
+		sourceColumn: [OpportunityID]
+
+	column CustomerID
+		dataType: string
+		sourceColumn: [CustomerID]
+
+	column QuoteDate
+		dataType: dateTime
+		sourceColumn: [QuoteDate]
+
+	column QuoteStatus
+		dataType: string
+		sourceColumn: [QuoteStatus]
+
+	column QuoteValue
+		dataType: double
+		sourceColumn: [QuoteValue]
+
+	column DiscountPct
+		dataType: double
+		sourceColumn: [DiscountPct]
+
+	column ApprovalCycleDays
+		dataType: int64
+		sourceColumn: [ApprovalCycleDays]
+
+	column LegalLoopCount
+		dataType: int64
+		sourceColumn: [LegalLoopCount]
+
+	partition Fact_Quotes = m
+		mode: import
+		source =
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Fact_Quotes", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true]),
+			    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"QuoteID", type text}, {"OpportunityID", type text}, {"CustomerID", type text}, {"QuoteDate", type date}, {"QuoteStatus", type text}, {"QuoteValue", type number}, {"DiscountPct", type number}, {"ApprovalCycleDays", Int64.Type}, {"LegalLoopCount", Int64.Type}}, "en-US")
+			in
+			    ChangedType

@@ -1,0 +1,53 @@
+table Fact_ServiceTickets
+	lineageTag: 105d47ca-fcb9-5388-a9e7-26d5cd05d0a8
+
+	column ServiceTicketID
+		dataType: string
+		sourceColumn: [ServiceTicketID]
+
+	column CustomerID
+		dataType: string
+		sourceColumn: [CustomerID]
+
+	column ProductID
+		dataType: string
+		sourceColumn: [ProductID]
+
+	column InstalledBaseID
+		dataType: string
+		sourceColumn: [InstalledBaseID]
+
+	column OpenDate
+		dataType: dateTime
+		sourceColumn: [OpenDate]
+
+	column CloseDate
+		dataType: dateTime
+		sourceColumn: [CloseDate]
+
+	column Priority
+		dataType: string
+		sourceColumn: [Priority]
+
+	column SLAStatus
+		dataType: string
+		sourceColumn: [SLAStatus]
+
+	column WarrantyFlag
+		dataType: boolean
+		sourceColumn: [WarrantyFlag]
+
+	column ServiceCost
+		dataType: double
+		sourceColumn: [ServiceCost]
+
+	partition Fact_ServiceTickets = m
+		mode: import
+		source =
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Fact_ServiceTickets", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true]),
+			    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"ServiceTicketID", type text}, {"CustomerID", type text}, {"ProductID", type text}, {"InstalledBaseID", type text}, {"OpenDate", type date}, {"CloseDate", type date}, {"Priority", type text}, {"SLAStatus", type text}, {"WarrantyFlag", type logical}, {"ServiceCost", type number}}, "en-US")
+			in
+			    ChangedType

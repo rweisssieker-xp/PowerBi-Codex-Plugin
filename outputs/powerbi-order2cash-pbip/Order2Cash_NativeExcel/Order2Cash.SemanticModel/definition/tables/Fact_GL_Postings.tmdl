@@ -1,0 +1,53 @@
+table Fact_GL_Postings
+	lineageTag: 522c50e1-010a-576f-a016-b5d46a81f353
+
+	column GLDocumentID
+		dataType: string
+		sourceColumn: [GLDocumentID]
+
+	column CompanyCode
+		dataType: string
+		sourceColumn: [CompanyCode]
+
+	column PostingDate
+		dataType: dateTime
+		sourceColumn: [PostingDate]
+
+	column FiscalYear
+		dataType: int64
+		sourceColumn: [FiscalYear]
+
+	column GLAccount
+		dataType: string
+		sourceColumn: [GLAccount]
+
+	column CostCenter
+		dataType: string
+		sourceColumn: [CostCenter]
+
+	column ProfitCenter
+		dataType: string
+		sourceColumn: [ProfitCenter]
+
+	column Amount
+		dataType: double
+		sourceColumn: [Amount]
+
+	column Currency
+		dataType: string
+		sourceColumn: [Currency]
+
+	column SourceProcess
+		dataType: string
+		sourceColumn: [SourceProcess]
+
+	partition Fact_GL_Postings = m
+		mode: import
+		source =
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Fact_GL_Postings", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true]),
+			    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"GLDocumentID", type text}, {"CompanyCode", type text}, {"PostingDate", type date}, {"FiscalYear", Int64.Type}, {"GLAccount", type text}, {"CostCenter", type text}, {"ProfitCenter", type text}, {"Amount", type number}, {"Currency", type text}, {"SourceProcess", type text}}, "en-US")
+			in
+			    ChangedType

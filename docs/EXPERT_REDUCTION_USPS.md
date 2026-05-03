@@ -1,10 +1,54 @@
-# Expert Reduction USPs
+# Expert Replacement, Expert Reduction, and Process Owner AI/KI USPs
 
-The plugin reduces dependency on large Power BI expert teams by converting repeatable expert judgment into governed Codex skills.
+The plugin replaces repeatable Power BI expert-team work by converting senior expert judgment into governed Codex skills. Expert reduction is the operating impact; expert replacement with validation and governance is the product mechanism. Its primary product direction is to enable Process Owners and Process Managers to create, validate, and operate complete Power BI process analytics: source mappings, semantic models, KPIs, DAX measures, Power Query logic, report pages, root-cause analysis, and action tracking.
 
 ## de-DE Kurzfassung
 
-Ziel ist die Reduktion grosser Power BI Expertenteams durch wiederverwendbare Skills, Standards, Automatisierung, AI/KI-Guardrails, Quality Gates und auditfaehige Lieferartefakte. Expertenarbeit wird nicht blind ersetzt, sondern in pruefbare, wiederholbare und steuerbare Arbeitsablaeufe ueberfuehrt.
+Ziel ist der Ersatz wiederholbarer Power BI Expertenarbeit durch wiederverwendbare Skills, Standards, Automatisierung, AI/KI-Guardrails, Quality Gates und auditfaehige Lieferartefakte. Process Owner und Process Manager sollen in die Lage versetzt werden, Prozessfragen selbst in Power BI Analysen, Modelle, KPIs, Measures, Reports, Ursachenanalysen und Massnahmen-Cockpits zu ueberfuehren. Expertenarbeit wird nicht unkontrolliert ersetzt, sondern in pruefbare, wiederholbare und steuerbare Arbeitsablaeufe ueberfuehrt.
+
+## Main References
+
+- [Power BI Expert-Replacement Factory Gesamtplan](POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Process Owner AI/KI USPs](PROCESS_OWNER_AI_KI_USPS.md)
+
+## Expert Replacement Product USPs
+
+- Fully Replaces Power BI Expert Teams for repeatable BI delivery.
+- Power BI Consultant Agent for scope, backlog, solution framing, and delivery plan.
+- Data Analyst Agent for business-question decomposition, insight generation, and root-cause logic.
+- Power BI Designer Agent for report layout, visual choice, drilldowns, mobile layout, and storytelling.
+- Semantic Modeler Agent for facts, dimensions, relationships, RLS/OLS, and calculation patterns.
+- DAX Expert Agent for KPI-to-measure generation, test cases, explanation, and optimization.
+- Power Query Expert Agent for native connector routing, M generation, folding, and refresh design.
+- Fabric Architect Agent for Import, DirectQuery, Direct Lake, Lakehouse, Warehouse, Dataflow, and capacity choices.
+- BI QA Agent for model graph, visual bindings, DAX tests, M tests, PBIP validation, and Desktop smoke tests.
+- Frown-to-Fix Agent for Power BI Desktop error diagnosis and repair planning.
+- CoE Reviewer Agent for certification, governance, tenant risk, evidence, and release readiness.
+- BI Documentation Owner Agent for bilingual documentation, release notes, model docs, KPI docs, lineage, and handover.
+
+## Process Owner Product USPs
+
+- Process Owner Analytics Workbench.
+- Process Manager Power BI Autopilot.
+- Business Question to Power BI Report.
+- Process-to-PowerBI Factory.
+- Process-to-Semantic-Model Generator.
+- Process-to-KPI Contract Generator.
+- Process-to-DAX Measure Factory.
+- Process-to-PowerQuery Factory.
+- Process-to-Report Page Factory.
+- Process-to-Root-Cause Cockpit.
+- Process-to-Action Management.
+- No-Code Semantic Model Builder.
+- No-Code KPI and Measure Builder.
+- Process Analytics Self-Service Guardrails.
+- Exception-to-Action Cockpit.
+- Root-Cause Analytics for Process Owners.
+- Owner Acceptance Workflow.
+- Process Improvement Backlog Generator.
+- Process Analytics Certification Assistant.
+- Process Owner Value Realization Tracker.
 
 ## Primary USPs
 

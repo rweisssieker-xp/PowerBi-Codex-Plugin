@@ -1,0 +1,29 @@
+table Dim_Warehouse
+	lineageTag: 8007be64-a416-5a11-9229-a28c88d9c469
+
+	column WarehouseID
+		dataType: string
+		sourceColumn: [WarehouseID]
+
+	column PlantID
+		dataType: string
+		sourceColumn: [PlantID]
+
+	column WarehouseType
+		dataType: string
+		sourceColumn: [WarehouseType]
+
+	column WarehouseName
+		dataType: string
+		sourceColumn: [WarehouseName]
+
+	partition Dim_Warehouse = m
+		mode: import
+		source =
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Dim_Warehouse", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true]),
+			    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"WarehouseID", type text}, {"PlantID", type text}, {"WarehouseType", type text}, {"WarehouseName", type text}}, "en-US")
+			in
+			    ChangedType

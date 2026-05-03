@@ -1,0 +1,33 @@
+table Dim_Plant
+	lineageTag: f94e8f32-bc57-5835-b88c-70701e972695
+
+	column PlantID
+		dataType: string
+		sourceColumn: [PlantID]
+
+	column CompanyCode
+		dataType: string
+		sourceColumn: [CompanyCode]
+
+	column PlantName
+		dataType: string
+		sourceColumn: [PlantName]
+
+	column Country
+		dataType: string
+		sourceColumn: [Country]
+
+	column IndustryFocus
+		dataType: string
+		sourceColumn: [IndustryFocus]
+
+	partition Dim_Plant = m
+		mode: import
+		source =
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Dim_Plant", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true]),
+			    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"PlantID", type text}, {"CompanyCode", type text}, {"PlantName", type text}, {"Country", type text}, {"IndustryFocus", type text}}, "en-US")
+			in
+			    ChangedType

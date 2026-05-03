@@ -1,0 +1,49 @@
+table Fact_Opportunities
+	lineageTag: ca809769-717c-5a49-9ee9-01581c5b466d
+
+	column OpportunityID
+		dataType: string
+		sourceColumn: [OpportunityID]
+
+	column LeadID
+		dataType: string
+		sourceColumn: [LeadID]
+
+	column CustomerID
+		dataType: string
+		sourceColumn: [CustomerID]
+
+	column CreatedDate
+		dataType: dateTime
+		sourceColumn: [CreatedDate]
+
+	column Stage
+		dataType: string
+		sourceColumn: [Stage]
+
+	column ProbabilityPct
+		dataType: double
+		sourceColumn: [ProbabilityPct]
+
+	column ExpectedValue
+		dataType: double
+		sourceColumn: [ExpectedValue]
+
+	column ExpectedCloseDate
+		dataType: dateTime
+		sourceColumn: [ExpectedCloseDate]
+
+	column SalesOwnerID
+		dataType: string
+		sourceColumn: [SalesOwnerID]
+
+	partition Fact_Opportunities = m
+		mode: import
+		source =
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Fact_Opportunities", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true]),
+			    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"OpportunityID", type text}, {"LeadID", type text}, {"CustomerID", type text}, {"CreatedDate", type date}, {"Stage", type text}, {"ProbabilityPct", type number}, {"ExpectedValue", type number}, {"ExpectedCloseDate", type date}, {"SalesOwnerID", type text}}, "en-US")
+			in
+			    ChangedType

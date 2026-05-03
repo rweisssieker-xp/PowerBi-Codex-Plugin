@@ -1,0 +1,188 @@
+table Fact_SalesOrders
+	lineageTag: bc4e3e91-4b7f-5cf5-bd4b-cf5910bc287f
+
+	column SalesOrderID
+		dataType: string
+		sourceColumn: [SalesOrderID]
+
+	column QuoteID
+		dataType: string
+		sourceColumn: [QuoteID]
+
+	column CustomerID
+		dataType: string
+		sourceColumn: [CustomerID]
+
+	column ProductID
+		dataType: string
+		sourceColumn: [ProductID]
+
+	column PlantID
+		dataType: string
+		sourceColumn: [PlantID]
+
+	column OrderDate
+		dataType: dateTime
+		sourceColumn: [OrderDate]
+
+	column RequestedDate
+		dataType: dateTime
+		sourceColumn: [RequestedDate]
+
+	column ConfirmedDate
+		dataType: dateTime
+		sourceColumn: [ConfirmedDate]
+
+	column OrderQty
+		dataType: int64
+		sourceColumn: [OrderQty]
+
+	column NetPrice
+		dataType: double
+		sourceColumn: [NetPrice]
+
+	column OrderValue
+		dataType: double
+		sourceColumn: [OrderValue]
+
+	column Status
+		dataType: string
+		sourceColumn: [Status]
+
+	column ATPStatus
+		dataType: string
+		sourceColumn: [ATPStatus]
+
+	partition Fact_SalesOrders = m
+		mode: import
+		source =
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Fact_SalesOrders", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true]),
+			    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"SalesOrderID", type text}, {"QuoteID", type text}, {"CustomerID", type text}, {"ProductID", type text}, {"PlantID", type text}, {"OrderDate", type date}, {"RequestedDate", type date}, {"ConfirmedDate", type date}, {"OrderQty", Int64.Type}, {"NetPrice", type number}, {"OrderValue", type number}, {"Status", type text}, {"ATPStatus", type text}}, "en-US")
+			in
+			    ChangedType
+
+	measure 'Order Count' =
+			COUNTROWS ( Fact_SalesOrders )
+		formatString: #,0.00
+
+	measure 'Order Value' =
+			SUM ( Fact_SalesOrders[OrderValue] )
+		formatString: #,0.00
+
+	measure 'Open Backlog Value' =
+			CALCULATE (
+			    [Order Value],
+			    Fact_SalesOrders[Status] IN { "Open", "Partially Delivered" }
+			)
+		formatString: #,0.00
+
+	measure 'ATP Issue Count' =
+			CALCULATE (
+			    [Order Count],
+			    Fact_SalesOrders[ATPStatus] <> "Confirmed"
+			)
+		formatString: #,0.00
+
+	measure 'ATP Issue Rate' =
+			DIVIDE ( [ATP Issue Count], [Order Count] )
+		formatString: #,0.00
+
+	measure 'Delivered Quantity' =
+			SUM ( Fact_Deliveries[DeliveredQty] )
+		formatString: #,0.00
+
+	measure 'Late Or Short Deliveries' =
+			CALCULATE (
+			    COUNTROWS ( Fact_Deliveries ),
+			    Fact_Deliveries[OTIFStatus] <> "OTIF"
+			)
+		formatString: #,0.00
+
+	measure 'Late Or Short Delivery Rate' =
+			DIVIDE ( [Late Or Short Deliveries], COUNTROWS ( Fact_Deliveries ) )
+		formatString: #,0.00
+
+	measure 'Invoice Amount' =
+			SUM ( Fact_Billing[InvoiceAmount] )
+		formatString: #,0.00
+
+	measure 'Billing Block Count' =
+			CALCULATE (
+			    COUNTROWS ( Fact_Billing ),
+			    Fact_Billing[BillingBlockFlag] = TRUE ()
+			)
+		formatString: #,0.00
+
+	measure 'Billing Block Rate' =
+			DIVIDE ( [Billing Block Count], COUNTROWS ( Fact_Billing ) )
+		formatString: #,0.00
+
+	measure 'Open AR Amount' =
+			SUM ( Fact_AR[OpenAmount] )
+		formatString: #,0.00
+
+	measure 'Dispute Count' =
+			CALCULATE (
+			    COUNTROWS ( Fact_AR ),
+			    Fact_AR[DisputeFlag] = TRUE ()
+			)
+		formatString: #,0.00
+
+	measure 'O2C Exception Count' =
+			COUNTROWS ( Fact_Order2CashExceptions )
+		formatString: #,0.00
+
+	measure 'O2C Exception Exposure' =
+			SUM ( Fact_Order2CashExceptions[AmountExposure] )
+		formatString: #,0.00
+
+	measure 'High Severity Exceptions' =
+			CALCULATE (
+			    [O2C Exception Count],
+			    Fact_Order2CashExceptions[Severity] = "High"
+			)
+		formatString: #,0.00
+
+	measure 'Dunning Customers' =
+			CALCULATE (
+			    DISTINCTCOUNT ( Fact_AR[CustomerID] ),
+			    Fact_AR[DunningLevel] > 0
+			)
+		formatString: #,0.00
+
+	measure 'Quote Value' =
+			SUM ( Fact_Quotes[QuoteValue] )
+		formatString: #,0.00
+
+	measure 'Discount Leakage' =
+			SUMX ( Fact_Quotes, Fact_Quotes[QuoteValue] * Fact_Quotes[DiscountPct] / 100 )
+		formatString: #,0.00
+
+	measure 'Churn Risk Customers' =
+			CALCULATE (
+			    DISTINCTCOUNT ( Dim_Customer[CustomerID] ),
+			    Dim_Customer[ActiveFlag] = FALSE ()
+			)
+		formatString: #,0.00
+
+	measure 'Customer Churn Risk Score' =
+			VAR DaysSinceLastOrder =
+			    DATEDIFF (
+			        CALCULATE ( MAX ( Fact_SalesOrders[OrderDate] ) ),
+			        TODAY (),
+			        DAY
+			    )
+			VAR LateEvents =
+			    CALCULATE ( [ATP Issue Count] + [Late Or Short Deliveries] )
+			VAR Disputes = [Dispute Count]
+			RETURN
+			    MIN (
+			        100,
+			        IF ( DaysSinceLastOrder > 180, 35, IF ( DaysSinceLastOrder > 120, 15, 0 ) )
+			            + MIN ( 25, LateEvents * 5 )
+			            + MIN ( 20, Disputes * 10 )
+			    )
+		formatString: #,0.00

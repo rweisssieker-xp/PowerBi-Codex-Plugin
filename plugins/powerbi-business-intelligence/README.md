@@ -1,8 +1,23 @@
-# Power BI Business Intelligence Plugin
+# AI-native Power BI Expert-Replacement Factory Plugin
 
-Generic Codex plugin for Power BI work across data sources, domains, and report types. The primary positioning is expert reduction: repeatable blueprints, domain packs, reviews, and delivery artifacts replace ad hoc senior expert effort.
+Codex plugin for replacing repeatable Power BI expert, designer, data analyst, semantic modeling, DAX, Power Query/M, QA, governance, and documentation work with governed AI/KI skills.
 
-The extended positioning is a Power BI expert-replacement layer: virtual expert roles, readiness scores, risk scores, quality gates, lineage, tenant governance, compliance evidence, enablement, backlog generation, and executive value tracking.
+The primary positioning is a Power BI Expert-Replacement Factory: Process Owners and Process Managers can turn operational questions into governed Power BI models, KPIs, measures, reports, root-cause analysis, action cockpits, tests, evidence, and Power BI Desktop-validated PBIP/PBIR/TMDL artifacts without a dedicated expert team for every request.
+
+The extended positioning is a Power BI process analytics factory: virtual expert roles, readiness scores, risk scores, quality gates, lineage, tenant governance, compliance evidence, enablement, backlog generation, executive value tracking, and process-owner self-service guardrails.
+
+The expert replacement layer covers Power BI Consultant Agent, Data Analyst Agent, Power BI Designer Agent, Semantic Modeler Agent, DAX Expert Agent, Power Query Expert Agent, Fabric Architect Agent, BI QA Agent, Frown-to-Fix Agent, CoE Reviewer Agent, and BI Documentation Owner Agent.
+
+Primary product references:
+
+- [Power BI Expert-Replacement Factory Gesamtplan](../../docs/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](../../docs/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Power BI Expert-Replacement 20 Feature Rollout](../../docs/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
+- [Power BI Expert-Replacement Advanced USP Rollout](../../docs/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
+
+The Process Owner AI/KI layer adds Process Owner Analytics Workbench, Process Manager Power BI Autopilot, Business Question to Power BI Report, Process-to-PowerBI Factory, Process-to-Semantic-Model Generator, Process-to-KPI Contract Generator, Process-to-DAX Measure Factory, Process-to-PowerQuery Factory, Process-to-Report Page Factory, Process-to-Root-Cause Cockpit, Process-to-Action Management, No-Code Semantic Model Builder, No-Code KPI and Measure Builder, Exception-to-Action Cockpit, Root-Cause Analytics for Process Owners, Owner Acceptance Workflow, Process Improvement Backlog Generator, Process Analytics Certification Assistant, and Process Owner Value Realization Tracking.
+
+The maximum AI/KI USP set covers process discovery, process variant detection, bottleneck discovery, event modeling, KPI recommendation, KPI contract negotiation, KPI ontology mapping, DAX generation, measure deduplication, semantic model architecture, relationship graph validation, ambiguous path prevention, native source connector routing, Power Query generation, query folding advice, schema drift resolution, visual binding validation, report UX review, root-cause hypothesis generation, causal testing, action recommendation, evidence trails, confidence scoring, Power BI Desktop smoke testing, PBIP/TMDL compatibility validation, and Frown-to-Fix triage.
 
 For industrial enterprises it now adds end-to-end process intelligence: Lead2Order, Order2Cash, Source2Contract, Procure2Pay, Forecast2Plan, Plan2Produce, Make2Stock, Engineer2Order, Idea2Launch, Maintain2Operate, Issue2Resolution, Record2Report, Hire2Retire, Market2Lead, Lead2Quote, Configure2Quote, Quote2Contract, Contract2Revenue, Demand2Supply, S&OP/IBP2Execution, Design2Cost, Design2Source, Project2Cash, Dock2Stock, Pick2Pack2Ship, Return2Disposition, Complaint2CAPA, Nonconformance2Disposition, Incident2Action, Asset2Reliability, InstalledBase2ServiceRevenue, SupplierOnboarding2Risk, Control2Evidence, Close2Report, Plan2Perform, Data2Insight2Action, and cross-process root-cause cockpits. It adapts solutions to the actual source-system landscape, including SAP, Salesforce, Dynamics, MES, PLM, WMS, TMS, ServiceNow, Fabric, data warehouses, APIs, and files.
 

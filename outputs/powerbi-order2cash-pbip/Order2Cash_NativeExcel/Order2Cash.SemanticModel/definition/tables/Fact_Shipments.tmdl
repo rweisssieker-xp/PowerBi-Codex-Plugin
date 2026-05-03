@@ -1,0 +1,53 @@
+table Fact_Shipments
+	lineageTag: cb9f1029-2375-5fe2-95ce-45030a8eb114
+
+	column ShipmentID
+		dataType: string
+		sourceColumn: [ShipmentID]
+
+	column DeliveryID
+		dataType: string
+		sourceColumn: [DeliveryID]
+
+	column Carrier
+		dataType: string
+		sourceColumn: [Carrier]
+
+	column Mode
+		dataType: string
+		sourceColumn: [Mode]
+
+	column PlannedPickup
+		dataType: dateTime
+		sourceColumn: [PlannedPickup]
+
+	column ActualPickup
+		dataType: dateTime
+		sourceColumn: [ActualPickup]
+
+	column PlannedDelivery
+		dataType: dateTime
+		sourceColumn: [PlannedDelivery]
+
+	column ActualDelivery
+		dataType: dateTime
+		sourceColumn: [ActualDelivery]
+
+	column FreightCost
+		dataType: double
+		sourceColumn: [FreightCost]
+
+	column CO2eKg
+		dataType: double
+		sourceColumn: [CO2eKg]
+
+	partition Fact_Shipments = m
+		mode: import
+		source =
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Fact_Shipments", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true]),
+			    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"ShipmentID", type text}, {"DeliveryID", type text}, {"Carrier", type text}, {"Mode", type text}, {"PlannedPickup", type date}, {"ActualPickup", type date}, {"PlannedDelivery", type date}, {"ActualDelivery", type date}, {"FreightCost", type number}, {"CO2eKg", type number}}, "en-US")
+			in
+			    ChangedType

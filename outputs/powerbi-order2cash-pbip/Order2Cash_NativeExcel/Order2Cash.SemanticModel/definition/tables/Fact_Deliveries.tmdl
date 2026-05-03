@@ -1,0 +1,57 @@
+table Fact_Deliveries
+	lineageTag: a65f99b9-275b-5ee3-84c4-0c7005a0cda3
+
+	column DeliveryID
+		dataType: string
+		sourceColumn: [DeliveryID]
+
+	column SalesOrderID
+		dataType: string
+		sourceColumn: [SalesOrderID]
+
+	column CustomerID
+		dataType: string
+		sourceColumn: [CustomerID]
+
+	column ProductID
+		dataType: string
+		sourceColumn: [ProductID]
+
+	column WarehouseID
+		dataType: string
+		sourceColumn: [WarehouseID]
+
+	column PickDate
+		dataType: dateTime
+		sourceColumn: [PickDate]
+
+	column ShipDate
+		dataType: dateTime
+		sourceColumn: [ShipDate]
+
+	column DeliveryDate
+		dataType: dateTime
+		sourceColumn: [DeliveryDate]
+
+	column DeliveredQty
+		dataType: int64
+		sourceColumn: [DeliveredQty]
+
+	column OTIFStatus
+		dataType: string
+		sourceColumn: [OTIFStatus]
+
+	column Carrier
+		dataType: string
+		sourceColumn: [Carrier]
+
+	partition Fact_Deliveries = m
+		mode: import
+		source =
+			let
+			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
+			    Raw = Source{[Item="Fact_Deliveries", Kind="Sheet"]}[Data],
+			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true]),
+			    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"DeliveryID", type text}, {"SalesOrderID", type text}, {"CustomerID", type text}, {"ProductID", type text}, {"WarehouseID", type text}, {"PickDate", type date}, {"ShipDate", type date}, {"DeliveryDate", type date}, {"DeliveredQty", Int64.Type}, {"OTIFStatus", type text}, {"Carrier", type text}}, "en-US")
+			in
+			    ChangedType

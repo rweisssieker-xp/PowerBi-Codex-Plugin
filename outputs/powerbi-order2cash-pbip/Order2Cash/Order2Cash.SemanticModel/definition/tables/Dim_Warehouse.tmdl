@@ -1,29 +1,42 @@
 table Dim_Warehouse
-	lineageTag: generated-order2cash-demo
+	lineageTag: 8007be64-a416-5a11-9229-a28c88d9c469
 
 	column WarehouseID
 		dataType: string
-		sourceColumn: WarehouseID
+		sourceColumn: [WarehouseID]
 
 	column PlantID
 		dataType: string
-		sourceColumn: PlantID
+		sourceColumn: [PlantID]
 
 	column WarehouseType
 		dataType: string
-		sourceColumn: WarehouseType
+		sourceColumn: [WarehouseType]
 
 	column WarehouseName
 		dataType: string
-		sourceColumn: WarehouseName
+		sourceColumn: [WarehouseName]
 
-	partition Dim_Warehouse = m
+	partition Dim_Warehouse = calculated
 		mode: import
 		source =
-			// Power Query M - import Dim_Warehouse from the industrial demo workbook.
-			let
-			    Source = Excel.Workbook(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-industrial-demo/powerbi_industrial_demo_data.xlsx"), null, true),
-			    Raw = Source{[Item="Dim_Warehouse", Kind="Sheet"]}[Data],
-			    PromotedHeaders = Table.PromoteHeaders(Raw, [PromoteAllScalars = true])
-			in
-			    PromotedHeaders
+			DATATABLE(
+				"WarehouseID", STRING,
+				"PlantID", STRING,
+				"WarehouseType", STRING,
+				"WarehouseName", STRING,
+				{
+					{ "DE10-RAW", "DE10", "RAW", "Hamburg Assembly Raw Materials" },
+					{ "DE10-FG", "DE10", "FG", "Hamburg Assembly Finished Goods" },
+					{ "DE10-QI", "DE10", "QUALITY", "Hamburg Assembly Quality Hold" },
+					{ "DE20-RAW", "DE20", "RAW", "Stuttgart Components Raw Materials" },
+					{ "DE20-FG", "DE20", "FG", "Stuttgart Components Finished Goods" },
+					{ "DE20-QI", "DE20", "QUALITY", "Stuttgart Components Quality Hold" },
+					{ "US10-RAW", "US10", "RAW", "Ohio Fabrication Raw Materials" },
+					{ "US10-FG", "US10", "FG", "Ohio Fabrication Finished Goods" },
+					{ "US10-QI", "US10", "QUALITY", "Ohio Fabrication Quality Hold" },
+					{ "SG10-RAW", "SG10", "RAW", "Singapore Electronics Raw Materials" },
+					{ "SG10-FG", "SG10", "FG", "Singapore Electronics Finished Goods" },
+					{ "SG10-QI", "SG10", "QUALITY", "Singapore Electronics Quality Hold" }
+				}
+			)
