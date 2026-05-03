@@ -57,7 +57,11 @@ Das Tool uebersetzt Business- und Prozessfragen in validierte semantische Modell
 └── SECURITY.md
 ```
 
-Further topic guides and catalogs (skills catalog, expert-replacement plans, process KPI references, and similar) are linked only from [DOCUMENTATION.md](DOCUMENTATION.md) so the list stays in one place.
+## Documentation
+
+Use **[DOCUMENTATION.md](DOCUMENTATION.md)** as the only navigation index for repository-level Markdown (installation, usage, architecture, contributing, security, catalogs, expert-replacement references, plugin overview, and everything else).
+
+Die vollstaendige Navigationsliste liegt in **[DOCUMENTATION.md](DOCUMENTATION.md)**.
 
 ## Quickstart
 
@@ -77,19 +81,6 @@ Baue Dock2Stock, Pick2Pack2Ship und Return2Disposition als Power BI Data Product
 Erzeuge ein Control2Evidence Cockpit mit en-US/de-DE Dokumentation.
 Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate durch.
 ```
-
-## Documentation
-
-The full link index for repository Markdown is **[DOCUMENTATION.md](DOCUMENTATION.md)** (single source of truth). Common entry points:
-
-- [Installation](INSTALLATION.md)
-- [Usage Guide](USAGE.md)
-- [Architecture](ARCHITECTURE.md)
-- [Contributing](CONTRIBUTING.md)
-- [Security](SECURITY.md)
-- [Roadmap](ROADMAP.md)
-- [FAQ](FAQ.md)
-- [Codex plugin README](plugins/powerbi-business-intelligence/README.md)
 
 ## Main Capability Areas
 

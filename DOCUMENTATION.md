@@ -3,11 +3,11 @@
 <!-- bilingual-doc-header -->
 ## en-US Documentation
 
-This file is the single navigation index for **repository-level** documentation. All guides live as Markdown in the **repository root**. Plugin-specific material stays under `plugins/powerbi-business-intelligence/` (including that plugin’s `docs/` folder). [README.md](README.md) keeps a short entry-point list; every repository-level guide is linked below.
+This file is the single navigation index for **repository-level** documentation. All guides live as Markdown in the **repository root**. Plugin-specific material stays under `plugins/powerbi-business-intelligence/` (including that plugin’s `docs/` folder). [README.md](README.md) links here for all navigation; every repository-level guide is listed below.
 
 ## de-DE Dokumentation
 
-Diese Datei ist der **einzige Navigationsindex** fuer **Repository-weite** Dokumentation. Alle Guides liegen als Markdown im **Repo-Root**. Plugin-spezifisches Material bleibt unter `plugins/powerbi-business-intelligence/` (einschliesslich des Plugin-Ordners `docs/`). [README.md](README.md) enthaelt nur Kurzlinks; die vollstaendige Liste folgt unten.
+Diese Datei ist der **einzige Navigationsindex** fuer **Repository-weite** Dokumentation. Alle Guides liegen als Markdown im **Repo-Root**. Plugin-spezifisches Material bleibt unter `plugins/powerbi-business-intelligence/` (einschliesslich des Plugin-Ordners `docs/`). [README.md](README.md) verweist fuer die Navigation hierher; die vollstaendige Liste folgt unten.
 
 <!-- /bilingual-doc-header -->
 
