@@ -1,0 +1,73 @@
+{
+  "process": "Lead2Order",
+  "contracts": [
+    {
+      "id": "L2O-001",
+      "name": "Lead Volume",
+      "grain": "Lead",
+      "ownerRole": "Lead2Order Process Owner",
+      "numerator": "Distinct leads created in selected period",
+      "dateBasis": "Lead Created Date",
+      "daxMeasureName": "Lead Volume",
+      "acceptance": {
+        "tolerance": 0,
+        "reconciliationSource": "CRM lead extract"
+      }
+    },
+    {
+      "id": "L2O-002",
+      "name": "MQL Rate",
+      "grain": "Lead",
+      "ownerRole": "Marketing Operations",
+      "numerator": "Leads that reached MQL",
+      "denominator": "All leads created",
+      "dateBasis": "Lead Created Date",
+      "daxMeasureName": "MQL Rate",
+      "acceptance": {
+        "tolerance": 0.005,
+        "reconciliationSource": "CRM funnel report"
+      }
+    },
+    {
+      "id": "L2O-003",
+      "name": "Order Conversion Rate",
+      "grain": "Lead",
+      "ownerRole": "Lead2Order Process Owner",
+      "numerator": "Leads linked to booked orders",
+      "denominator": "All accepted leads",
+      "dateBasis": "Lead Created Date",
+      "daxMeasureName": "Order Conversion Rate",
+      "acceptance": {
+        "tolerance": 0.005,
+        "reconciliationSource": "CRM-to-ERP lead/order bridge"
+      }
+    },
+    {
+      "id": "L2O-004",
+      "name": "Lead Response SLA %",
+      "grain": "Lead",
+      "ownerRole": "Sales Development Manager",
+      "numerator": "Leads contacted within SLA target",
+      "denominator": "Leads requiring contact",
+      "dateBasis": "Lead Created Date",
+      "daxMeasureName": "Lead Response SLA %",
+      "acceptance": {
+        "tolerance": 0.005,
+        "reconciliationSource": "CRM activity history"
+      }
+    },
+    {
+      "id": "L2O-005",
+      "name": "Lead-to-Order Cycle Time",
+      "grain": "Lead",
+      "ownerRole": "Lead2Order Process Owner",
+      "numerator": "Days between lead created date and booked order date",
+      "dateBasis": "Order Booked Date",
+      "daxMeasureName": "Lead-to-Order Cycle Time",
+      "acceptance": {
+        "tolerance": 0.1,
+        "reconciliationSource": "CRM and ERP date reconciliation"
+      }
+    }
+  ]
+}

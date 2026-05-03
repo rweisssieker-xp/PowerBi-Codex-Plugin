@@ -1,0 +1,86 @@
+Lead Volume =
+DISTINCTCOUNT ( Fact_Leads[LeadID] )
+
+MQL Count =
+CALCULATE (
+    DISTINCTCOUNT ( Fact_Leads[LeadID] ),
+    Fact_Leads[CurrentStage] IN { "MQL", "SQL", "Opportunity", "Quote", "Order" }
+)
+
+MQL Rate =
+DIVIDE ( [MQL Count], [Lead Volume] )
+
+SQL Count =
+CALCULATE (
+    DISTINCTCOUNT ( Fact_Leads[LeadID] ),
+    Fact_Leads[CurrentStage] IN { "SQL", "Opportunity", "Quote", "Order" }
+)
+
+SQL Rate =
+DIVIDE ( [SQL Count], [Lead Volume] )
+
+Opportunity Count =
+DISTINCTCOUNT ( Fact_Opportunities[OpportunityID] )
+
+Opportunity Conversion Rate =
+DIVIDE ( [Opportunity Count], [SQL Count] )
+
+Quote Count =
+DISTINCTCOUNT ( Fact_Quotes[QuoteID] )
+
+Quote Conversion Rate =
+DIVIDE (
+    CALCULATE ( DISTINCTCOUNT ( Fact_Quotes[QuoteID] ), Fact_Quotes[QuoteStatus] = "Accepted" ),
+    [Quote Count]
+)
+
+Order Count =
+DISTINCTCOUNT ( Fact_Orders[OrderID] )
+
+Order Value =
+SUM ( Fact_Orders[OrderValue] )
+
+Order Conversion Rate =
+DIVIDE ( [Order Count], [Lead Volume] )
+
+Pipeline Value =
+SUM ( Fact_Opportunities[ExpectedValue] )
+
+Weighted Pipeline =
+SUMX ( Fact_Opportunities, Fact_Opportunities[ExpectedValue] * Fact_Opportunities[Probability] )
+
+Win Rate =
+DIVIDE (
+    CALCULATE ( DISTINCTCOUNT ( Fact_Opportunities[OpportunityID] ), Fact_Opportunities[OpportunityStatus] = "Won" ),
+    DISTINCTCOUNT ( Fact_Opportunities[OpportunityID] )
+)
+
+Lost Value =
+CALCULATE (
+    SUM ( Fact_Opportunities[ExpectedValue] ),
+    Fact_Opportunities[OpportunityStatus] = "Lost"
+)
+
+Lead Response SLA % =
+DIVIDE (
+    CALCULATE ( DISTINCTCOUNT ( Fact_Leads[LeadID] ), Fact_Leads[ResponseSLAFlag] = TRUE () ),
+    CALCULATE ( DISTINCTCOUNT ( Fact_Leads[LeadID] ), NOT ISBLANK ( Fact_Leads[FirstResponseDate] ) )
+)
+
+Lead-to-Order Cycle Time =
+AVERAGEX (
+    FILTER ( Fact_Leads, NOT ISBLANK ( Fact_Leads[OrderBookedDate] ) ),
+    DATEDIFF ( Fact_Leads[CreatedDate], Fact_Leads[OrderBookedDate], DAY )
+)
+
+Stale Lead Count =
+CALCULATE (
+    DISTINCTCOUNT ( Fact_Leads[LeadID] ),
+    Fact_Leads[IsStale] = TRUE ()
+)
+
+Exception Backlog =
+CALCULATE (
+    COUNTROWS ( Fact_Lead2OrderExceptions ),
+    Fact_Lead2OrderExceptions[ExceptionStatus] <> "Closed"
+)

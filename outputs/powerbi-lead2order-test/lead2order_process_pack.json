@@ -1,0 +1,43 @@
+{
+  "process": "Lead2Order",
+  "persona": "Lead2Order Process Owner",
+  "facts": [
+    "Fact_Leads",
+    "Fact_LeadStageHistory",
+    "Fact_Opportunities",
+    "Fact_Quotes",
+    "Fact_Orders",
+    "Fact_Lead2OrderExceptions"
+  ],
+  "dimensions": [
+    "Dim_Account",
+    "Dim_Contact",
+    "Dim_Product",
+    "Dim_Channel",
+    "Dim_Campaign",
+    "Dim_SalesOwner",
+    "Dim_Region",
+    "Dim_Calendar",
+    "Dim_LostReason"
+  ],
+  "reportPages": [
+    "Executive Overview",
+    "Funnel Conversion",
+    "Lead Quality and Source ROI",
+    "Response SLA and Stage Aging",
+    "Opportunity and Quote Performance",
+    "Lost Reason and Leakage",
+    "Sales Owner Action Cockpit",
+    "Data Quality and Governance"
+  ],
+  "qualityGates": [
+    "kpi_contracts",
+    "model_graph",
+    "native_sources",
+    "visual_bindings",
+    "dax_static",
+    "rls_tests",
+    "owner_acceptance",
+    "desktop_smoke"
+  ]
+}

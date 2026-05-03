@@ -1,0 +1,33 @@
+{
+  "process": "Lead2Order",
+  "artifact": "outputs/powerbi-lead2order-test",
+  "qualityGates": [
+    {
+      "name": "kpi_contracts",
+      "requiredStatus": "pass",
+      "evidencePath": "kpi_contracts.json"
+    },
+    {
+      "name": "semantic_model_review",
+      "requiredStatus": "pass",
+      "evidencePath": "semantic_model.md"
+    },
+    {
+      "name": "dax_static_review",
+      "requiredStatus": "pass",
+      "evidencePath": "dax_measures.dax"
+    },
+    {
+      "name": "visual_design_review",
+      "requiredStatus": "pass",
+      "evidencePath": "LEAD2ORDER_PROCESS_OWNER_ANALYTICS.md"
+    },
+    {
+      "name": "owner_acceptance",
+      "requiredStatus": "pass",
+      "evidencePath": "README.md"
+    }
+  ],
+  "desktopSmokeTest": false,
+  "ownerSignoffRequired": true
+}

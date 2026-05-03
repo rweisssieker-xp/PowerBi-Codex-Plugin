@@ -1,0 +1,63 @@
+{
+  "process": "Lead2Order",
+  "facts": [
+    "Fact_Leads",
+    "Fact_LeadStageHistory",
+    "Fact_Opportunities",
+    "Fact_Quotes",
+    "Fact_Orders",
+    "Fact_Lead2OrderExceptions"
+  ],
+  "dimensions": [
+    "Dim_Account",
+    "Dim_Contact",
+    "Dim_Product",
+    "Dim_Channel",
+    "Dim_Campaign",
+    "Dim_SalesOwner",
+    "Dim_Region",
+    "Dim_Calendar",
+    "Dim_LostReason"
+  ],
+  "kpis": [
+    "Lead Volume",
+    "MQL Rate",
+    "SQL Rate",
+    "Opportunity Conversion Rate",
+    "Quote Conversion Rate",
+    "Order Conversion Rate",
+    "Lead-to-Order Cycle Time",
+    "Pipeline Value",
+    "Weighted Pipeline",
+    "Order Value",
+    "Win Rate",
+    "Lost Value",
+    "Lead Response SLA %",
+    "Stale Lead Count",
+    "Handoff Breach Count",
+    "Campaign ROI",
+    "Channel Conversion Rate",
+    "Data Quality Issue Rate",
+    "Exception Backlog"
+  ],
+  "pages": [
+    "Executive Overview",
+    "Funnel Conversion",
+    "Lead Quality and Source ROI",
+    "Response SLA and Stage Aging",
+    "Opportunity and Quote Performance",
+    "Lost Reason and Leakage",
+    "Sales Owner Action Cockpit",
+    "Data Quality and Governance"
+  ],
+  "qualityGates": [
+    "kpi_contracts",
+    "model_graph",
+    "native_sources",
+    "visual_bindings",
+    "dax_static",
+    "rls_tests",
+    "owner_acceptance",
+    "desktop_smoke"
+  ]
+}
