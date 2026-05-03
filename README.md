@@ -41,7 +41,7 @@ The product turns business and process questions into validated Power BI deliver
 
 ## Documentation
 
-Start with [DOCUMENTATION.md](DOCUMENTATION.md). It is the single navigation index for repository-level documentation.
+Start with [DOCUMENTATION.md](DOCUMENTATION.md). It is the single navigation index for repository-level documentation. Detailed product documentation lives under [docs/product](docs/product/README.md); maintainer-oriented internal notes live under [docs/internal](docs/internal/README.md).
 
 Key guides:
 

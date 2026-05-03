@@ -13,6 +13,7 @@ This is the single navigation index for repository-level documentation. Root fil
 
 ## Product And Capability Guides
 
+- [Product Documentation Index](docs/product/README.md)
 - [Power BI Expert-Replacement Factory Plan](docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
 - [Power BI Expert-Replacement Skill Map](docs/product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
 - [Skills Catalog](docs/product/SKILLS_CATALOG.md)
@@ -38,6 +39,7 @@ This is the single navigation index for repository-level documentation. Root fil
 
 These files are useful for maintainers and roadmap work, but they are intentionally outside the root to keep the GitHub landing page focused.
 
+- [Internal Documentation Index](docs/internal/README.md)
 - [Bilingual Documentation](docs/internal/BILINGUAL_DOCUMENTATION.md)
 - [Bilingual Documentation Matrix](docs/internal/BILINGUAL_DOCUMENTATION_MATRIX.md)
 - [GitHub Documentation](docs/internal/GITHUB_DOCUMENTATION.md)
