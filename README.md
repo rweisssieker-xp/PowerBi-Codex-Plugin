@@ -39,23 +39,17 @@ Das Tool uebersetzt Business- und Prozessfragen in validierte semantische Modell
 │   ├── docs/
 │   └── skills/
 ├── DOCUMENTATION.md
-├── INSTALLATION.md
-├── USAGE.md
-├── ARCHITECTURE.md
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-├── GOVERNANCE.md
-├── MAINTAINERS.md
-├── RELEASE.md
-├── ROADMAP.md
-├── FAQ.md
-├── AUTHORS.md
-├── NOTICE.md
-├── SUPPORT.md
-├── CHANGELOG.md
+├── schemas/
+├── templates/
+├── scripts/
+├── tests/
+├── data/
+├── outputs/
 ├── LICENSE
-└── SECURITY.md
+└── *.md
 ```
+
+Additional Markdown guides at the repository root (installation, architecture, catalogs, governance, and similar) are listed in [DOCUMENTATION.md](DOCUMENTATION.md).
 
 ## Documentation
 
