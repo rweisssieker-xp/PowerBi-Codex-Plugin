@@ -38,7 +38,7 @@ Das Tool uebersetzt Business- und Prozessfragen in validierte semantische Modell
 │   ├── assets/
 │   ├── docs/
 │   └── skills/
-├── docs/
+├── docs/                          # mirror of root Markdown guides (same filenames)
 ├── DOCUMENTATION.md
 ├── INSTALLATION.md
 ├── USAGE.md
@@ -79,29 +79,29 @@ Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate dur
 
 ## Core Documentation
 
-- [Installation](docs/INSTALLATION.md)
-- [Usage Guide](docs/USAGE.md)
-- [Architecture](docs/ARCHITECTURE.md)
+- [Installation](INSTALLATION.md)
+- [Usage Guide](USAGE.md)
+- [Architecture](ARCHITECTURE.md)
 - [Root Documentation Index](DOCUMENTATION.md)
 - [Root Roadmap](ROADMAP.md)
 - [FAQ](FAQ.md)
-- [Skills Catalog](docs/SKILLS_CATALOG.md)
-- [Process Chain KPIs](docs/PROCESS_CHAIN_KPIS.md)
-- [Source System Coverage](docs/SOURCE_SYSTEM_COVERAGE.md)
-- [Power BI Native Connector Coverage](docs/POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
-- [Expert Reduction USPs](docs/EXPERT_REDUCTION_USPS.md)
-- [Process Owner AI/KI USPs](docs/PROCESS_OWNER_AI_KI_USPS.md)
-- [Power BI Expert-Replacement Factory Gesamtplan](docs/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
-- [Power BI Expert-Replacement Skill Map](docs/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
-- [Power BI Expert-Replacement 20 Feature Rollout](docs/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
-- [Power BI Expert-Replacement Advanced USP Rollout](docs/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
-- [Bilingual Documentation](docs/BILINGUAL_DOCUMENTATION.md)
-- [Bilingual Documentation Matrix](docs/BILINGUAL_DOCUMENTATION_MATRIX.md)
-- [GitHub Documentation](docs/GITHUB_DOCUMENTATION.md)
-- [GitHub Workflow](docs/GITHUB_WORKFLOW.md)
-- [Governance and Quality Gates](docs/GOVERNANCE_AND_QUALITY.md)
-- [Examples](docs/EXAMPLES.md)
-- [Simulation Test Report](docs/SIMULATION_TEST_REPORT.md)
+- [Skills Catalog](SKILLS_CATALOG.md)
+- [Process Chain KPIs](PROCESS_CHAIN_KPIS.md)
+- [Source System Coverage](SOURCE_SYSTEM_COVERAGE.md)
+- [Power BI Native Connector Coverage](POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
+- [Expert Reduction USPs](EXPERT_REDUCTION_USPS.md)
+- [Process Owner AI/KI USPs](PROCESS_OWNER_AI_KI_USPS.md)
+- [Power BI Expert-Replacement Factory Gesamtplan](POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Power BI Expert-Replacement 20 Feature Rollout](POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
+- [Power BI Expert-Replacement Advanced USP Rollout](POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
+- [Bilingual Documentation](BILINGUAL_DOCUMENTATION.md)
+- [Bilingual Documentation Matrix](BILINGUAL_DOCUMENTATION_MATRIX.md)
+- [GitHub Documentation](GITHUB_DOCUMENTATION.md)
+- [GitHub Workflow](GITHUB_WORKFLOW.md)
+- [Governance and Quality Gates](GOVERNANCE_AND_QUALITY.md)
+- [Examples](EXAMPLES.md)
+- [Simulation Test Report](SIMULATION_TEST_REPORT.md)
 
 ## Main Capability Areas
 

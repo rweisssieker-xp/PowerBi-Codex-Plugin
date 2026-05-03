@@ -6,10 +6,10 @@ The roadmap is driven by the Power BI Expert-Replacement Factory plan.
 
 Primary roadmap references:
 
-- [Power BI Expert-Replacement Factory Gesamtplan](docs/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
-- [Power BI Expert-Replacement Skill Map](docs/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
-- [Power BI Expert-Replacement 20 Feature Rollout](docs/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
-- [Power BI Expert-Replacement Advanced USP Rollout](docs/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
+- [Power BI Expert-Replacement Factory Gesamtplan](POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Power BI Expert-Replacement 20 Feature Rollout](POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
+- [Power BI Expert-Replacement Advanced USP Rollout](POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
 
 Current priorities:
 
@@ -24,10 +24,10 @@ Die Roadmap wird durch den Power BI Expert-Replacement Factory Plan gesteuert.
 
 Primaere Roadmap-Referenzen:
 
-- [Power BI Expert-Replacement Factory Gesamtplan](docs/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
-- [Power BI Expert-Replacement Skill Map](docs/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
-- [Power BI Expert-Replacement 20 Feature Rollout](docs/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
-- [Power BI Expert-Replacement Advanced USP Rollout](docs/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
+- [Power BI Expert-Replacement Factory Gesamtplan](POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Power BI Expert-Replacement 20 Feature Rollout](POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
+- [Power BI Expert-Replacement Advanced USP Rollout](POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
 
 Aktuelle Prioritaeten:
 

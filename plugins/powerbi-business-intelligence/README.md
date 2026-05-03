@@ -16,10 +16,10 @@ The expert replacement layer covers Power BI Consultant Agent, Data Analyst Agen
 
 Primary product references:
 
-- [Power BI Expert-Replacement Factory Gesamtplan](../../docs/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
-- [Power BI Expert-Replacement Skill Map](../../docs/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
-- [Power BI Expert-Replacement 20 Feature Rollout](../../docs/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
-- [Power BI Expert-Replacement Advanced USP Rollout](../../docs/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
+- [Power BI Expert-Replacement Factory Gesamtplan](../../POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](../../POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Power BI Expert-Replacement 20 Feature Rollout](../../POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
+- [Power BI Expert-Replacement Advanced USP Rollout](../../POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
 
 The Process Owner AI/KI layer adds Process Owner Analytics Workbench, Process Manager Power BI Autopilot, Business Question to Power BI Report, Process-to-PowerBI Factory, Process-to-Semantic-Model Generator, Process-to-KPI Contract Generator, Process-to-DAX Measure Factory, Process-to-PowerQuery Factory, Process-to-Report Page Factory, Process-to-Root-Cause Cockpit, Process-to-Action Management, No-Code Semantic Model Builder, No-Code KPI and Measure Builder, Exception-to-Action Cockpit, Root-Cause Analytics for Process Owners, Owner Acceptance Workflow, Process Improvement Backlog Generator, Process Analytics Certification Assistant, and Process Owner Value Realization Tracking.
 
@@ -43,7 +43,7 @@ The first real engine layer is implemented at repository root with `scripts/powe
 
 The automation layer adds automated intake triage, requirements interviews, source metadata scans, KPI contract generation, semantic model drafting, DAX test generation, Power Query review, report UX review, refresh-failure triage, schema-drift alerts, tenant cleanup, certification pipelines, release notes, documentation refresh, UAT pack building, action creation, adoption monitoring, capacity optimization, security exposure scans, and executive briefings.
 
-All substantial documentation and generated artifacts must include matching `en-US` and `de-DE` documentation. Use [BILINGUAL_DOCUMENTATION_STANDARD.md](C:/tmp/PowerBi-Codex-Plugin/plugins/powerbi-business-intelligence/docs/BILINGUAL_DOCUMENTATION_STANDARD.md) and paired templates in [docs/templates](C:/tmp/PowerBi-Codex-Plugin/plugins/powerbi-business-intelligence/docs/templates).
+All substantial documentation and generated artifacts must include matching `en-US` and `de-DE` documentation. Use [BILINGUAL_DOCUMENTATION_STANDARD.md](docs/BILINGUAL_DOCUMENTATION_STANDARD.md) and paired templates in [docs/templates](docs/templates).
 
 The enterprise software source layer now covers EPM/planning, treasury/cash, tax/compliance/audit, ESG, QM/QMS/EHS, CX/commerce, subscription billing, field service/aftermarket, procurement/supplier risk, logistics visibility, WHS/WMS/warehouse automation, APM/observability, MDM/governance, ETL/ELT, data quality observability, lakehouse/warehouse, ECM, OCR/IDP, workflow/RPA, and identity/security platforms.
 

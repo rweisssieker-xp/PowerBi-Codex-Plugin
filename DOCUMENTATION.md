@@ -10,10 +10,10 @@ Start here:
 - [Installation](INSTALLATION.md)
 - [Usage](USAGE.md)
 - [Architecture](ARCHITECTURE.md)
-- [GitHub Documentation](docs/GITHUB_DOCUMENTATION.md)
-- [Bilingual Documentation Matrix](docs/BILINGUAL_DOCUMENTATION_MATRIX.md)
+- [GitHub Documentation](GITHUB_DOCUMENTATION.md)
+- [Bilingual Documentation Matrix](BILINGUAL_DOCUMENTATION_MATRIX.md)
 
-Detailed documentation lives under [docs](docs).
+Detailed guides and topic docs live as Markdown files in the **repository root** (same filenames are also mirrored under [docs](docs) for compatibility).
 
 ## de-DE
 
@@ -25,8 +25,7 @@ Starte hier:
 - [Installation](INSTALLATION.md)
 - [Nutzung](USAGE.md)
 - [Architektur](ARCHITECTURE.md)
-- [GitHub-Dokumentation](docs/GITHUB_DOCUMENTATION.md)
-- [Bilinguale Dokumentationsmatrix](docs/BILINGUAL_DOCUMENTATION_MATRIX.md)
+- [GitHub-Dokumentation](GITHUB_DOCUMENTATION.md)
+- [Bilinguale Dokumentationsmatrix](BILINGUAL_DOCUMENTATION_MATRIX.md)
 
-Die Detaildokumentation liegt unter [docs](docs).
-
+Ausfuehrliche Guides und Themen liegen als Markdown-Dateien im **Repo-Root** (gleiche Dateinamen sind zusaetzlich unter [docs](docs) gespiegelt).

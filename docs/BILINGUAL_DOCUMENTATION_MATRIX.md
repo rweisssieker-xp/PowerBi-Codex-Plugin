@@ -30,26 +30,25 @@ Diese Matrix zeigt den Status der zweisprachigen Dokumentationsabdeckung im Repo
 | `INSTALLATION.md` | Complete | Root installation entry point |
 | `USAGE.md` | Complete | Root usage entry point |
 | `ARCHITECTURE.md` | Complete | Root architecture entry point |
+| `BILINGUAL_DOCUMENTATION.md` | Complete | Bilingual documentation standard |
+| `BILINGUAL_DOCUMENTATION_MATRIX.md` | Complete | Coverage matrix |
+| `EXAMPLES.md` | Complete | Example usage scope |
+| `EXPERT_REDUCTION_USPS.md` | Complete | Expert replacement/reduction summary |
+| `GITHUB_DOCUMENTATION.md` | Complete | GitHub standard document and template inventory |
+| `GITHUB_WORKFLOW.md` | Complete | GitHub issue, PR, review, and repository governance workflow |
+| `GOVERNANCE_AND_QUALITY.md` | Complete | Governance summary |
+| `POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md` | Complete | Feature rollout summary |
+| `POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md` | Complete | Advanced USP rollout summary |
+| `POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md` | Complete | Master plan summary |
+| `POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md` | Complete | Skill map summary |
+| `POWERBI_NATIVE_CONNECTOR_COVERAGE.md` | Complete | Native connector rules |
+| `PROCESS_CHAIN_KPIS.md` | Complete | Process-chain KPI summary |
+| `PROCESS_OWNER_AI_KI_USPS.md` | Complete | Process-owner AI/KI USP summary |
+| `SIMULATION_TEST_REPORT.md` | Complete | Simulation test report |
+| `SKILLS_CATALOG.md` | Complete | Skills catalog |
+| `SOURCE_SYSTEM_COVERAGE.md` | Complete | Source-system coverage summary |
 | `plugins/powerbi-business-intelligence/README.md` | Required | Plugin entry point; includes English and German positioning |
-| `docs/ARCHITECTURE.md` | Complete | Architecture summary in both languages |
-| `docs/BILINGUAL_DOCUMENTATION.md` | Complete | Defines the bilingual documentation standard |
-| `docs/EXAMPLES.md` | Complete | Example usage scope in both languages |
-| `docs/EXPERT_REDUCTION_USPS.md` | Complete | Expert replacement/reduction summary in both languages |
-| `docs/GITHUB_DOCUMENTATION.md` | Complete | GitHub standard document and template inventory |
-| `docs/GITHUB_WORKFLOW.md` | Complete | GitHub issue, PR, review, and repository governance workflow |
-| `docs/GOVERNANCE_AND_QUALITY.md` | Complete | Governance summary in both languages |
-| `docs/INSTALLATION.md` | Complete | Installation summary in both languages |
-| `docs/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md` | Complete | Feature rollout summary in both languages |
-| `docs/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md` | Complete | Advanced USP rollout summary in both languages |
-| `docs/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md` | Complete | Master plan summary in both languages |
-| `docs/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md` | Complete | Skill map summary in both languages |
-| `docs/POWERBI_NATIVE_CONNECTOR_COVERAGE.md` | Complete | Native connector rules in both languages |
-| `docs/PROCESS_CHAIN_KPIS.md` | Complete | Process-chain KPI summary in both languages |
-| `docs/PROCESS_OWNER_AI_KI_USPS.md` | Complete | Process-owner AI/KI USP summary in both languages |
-| `docs/SIMULATION_TEST_REPORT.md` | Complete | Test report summary in both languages |
-| `docs/SKILLS_CATALOG.md` | Complete | Skills catalog summary in both languages |
-| `docs/SOURCE_SYSTEM_COVERAGE.md` | Complete | Source-system coverage summary in both languages |
-| `docs/USAGE.md` | Complete | Usage guidance summary in both languages |
+| `docs/<mirror>.md` | Complete | Same bilingual Markdown as repo root (`INSTALLATION.md`, `USAGE.md`, topic guides); paths kept for compatibility |
 | `CODE_OF_CONDUCT.md` | Complete | Collaboration and enforcement standard |
 | `AUTHORS.md` | Complete | Maintainer and contributor authorship note |
 | `NOTICE.md` | Complete | Product and trademark notice |
