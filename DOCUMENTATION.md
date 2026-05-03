@@ -8,17 +8,17 @@ This is the single navigation index for repository-level documentation. Root fil
 - [Installation](INSTALLATION.md)
 - [Usage](USAGE.md)
 - [Architecture](ARCHITECTURE.md)
-- [Examples](EXAMPLES.md)
+- [Examples](docs/product/EXAMPLES.md)
 - [FAQ](FAQ.md)
 
 ## Product And Capability Guides
 
-- [Power BI Expert-Replacement Factory Plan](POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
-- [Power BI Expert-Replacement Skill Map](POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
-- [Skills Catalog](SKILLS_CATALOG.md)
-- [Process Chain KPIs](PROCESS_CHAIN_KPIS.md)
-- [Source System Coverage](SOURCE_SYSTEM_COVERAGE.md)
-- [Power BI Native Connector Coverage](POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
+- [Power BI Expert-Replacement Factory Plan](docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](docs/product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Skills Catalog](docs/product/SKILLS_CATALOG.md)
+- [Process Chain KPIs](docs/product/PROCESS_CHAIN_KPIS.md)
+- [Source System Coverage](docs/product/SOURCE_SYSTEM_COVERAGE.md)
+- [Power BI Native Connector Coverage](docs/product/POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
 
 ## GitHub And Repository Governance
 

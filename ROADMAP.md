@@ -4,8 +4,8 @@ The roadmap is driven by the Power BI Expert-Replacement Factory plan.
 
 Primary roadmap references:
 
-- [Power BI Expert-Replacement Factory Plan](POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
-- [Power BI Expert-Replacement Skill Map](POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Power BI Expert-Replacement Factory Plan](docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](docs/product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
 - [Power BI Expert-Replacement 20 Feature Rollout](docs/internal/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
 - [Power BI Expert-Replacement Advanced USP Rollout](docs/internal/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
 

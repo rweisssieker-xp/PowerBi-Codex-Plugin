@@ -25,7 +25,9 @@ The product turns business and process questions into validated Power BI deliver
 │   ├── assets/
 │   ├── docs/
 │   └── skills/
-├── docs/internal/
+├── docs/
+│   ├── product/
+│   └── internal/
 ├── schemas/
 ├── templates/
 ├── scripts/
@@ -46,10 +48,10 @@ Key guides:
 - [Installation](INSTALLATION.md)
 - [Usage](USAGE.md)
 - [Architecture](ARCHITECTURE.md)
-- [Process Chain KPIs](PROCESS_CHAIN_KPIS.md)
-- [Skills Catalog](SKILLS_CATALOG.md)
-- [Power BI Expert-Replacement Factory Plan](POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
-- [Power BI Expert-Replacement Skill Map](POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Process Chain KPIs](docs/product/PROCESS_CHAIN_KPIS.md)
+- [Skills Catalog](docs/product/SKILLS_CATALOG.md)
+- [Power BI Expert-Replacement Factory Plan](docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](docs/product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
 
 ## Quickstart
 

@@ -1,91 +1,71 @@
 # Usage Guide
 
-<!-- bilingual-doc-header -->
-## en-US Documentation
-
-This document explains how users should prompt and operate the plugin for business-question intake, source-aware process analytics, semantic models, quality gates, and AI-native delivery.
-
-## de-DE Dokumentation
-
-Dieses Dokument erklaert, wie Nutzer das Plugin fuer Business-Question-Intake, source-aware Process Analytics, semantische Modelle, Quality Gates und AI-native Delivery verwenden sollen.
-
-<!-- /bilingual-doc-header -->
-
+Use the plugin when you want to turn a business or process question into governed Power BI delivery artifacts.
 
 ## Recommended Prompt Shape
 
-Use a prompt that includes business question, source systems, target audience, process scope, and expected output.
+Include:
+
+- Business question.
+- Process scope.
+- Source systems.
+- Target audience.
+- Expected output.
+- Validation expectations.
+
+Example:
 
 ```text
-Erstelle ein Power BI Cockpit fuer Order2Cash.
-Quellsysteme: SAP S/4HANA SD/FI, Salesforce, SAP EWM, Snowflake.
-Zielgruppe: CFO, COO, O2C Process Owner.
-Output: KPI tree, semantic model, DAX catalog, report pages, validation, en-US/de-DE Doku.
+Create an Order2Cash Power BI cockpit.
+Sources: SAP S/4HANA SD/FI, Salesforce, SAP EWM, Snowflake.
+Audience: CFO, COO, O2C Process Owner.
+Output: KPI tree, semantic model, DAX catalog, report pages, validation plan, and release evidence.
 ```
 
 ## Common Workflows
 
-### Business Problem to Blueprint
+### Business Problem To Blueprint
 
-Use when the user has a business problem but no clear BI design.
-
-Example:
+Use this when the business problem is clear but the BI design is not.
 
 ```text
-Warum verlieren wir Materialbestand durch Obsolescence, Scrap und Umlagerungen?
-Erstelle ein Power BI Blueprint mit Quellen, Modell, KPIs und Cockpit.
+Why are we losing material value through obsolescence, scrap, and transfers?
+Create a Power BI blueprint with sources, model, KPIs, and cockpit pages.
 ```
 
-### Source-System-Aware Process Analytics
+### Source-Aware Process Analytics
 
-Use when a question spans ERP, CRM, WMS, MES, QMS, EPM, or lakehouse data.
-
-Example:
+Use this when a question spans ERP, CRM, WMS, MES, QMS, EPM, APIs, files, or lakehouse data.
 
 ```text
-Loese eine Quote2Contract Frage fuer Salesforce, SAP S/4HANA und DocuSign.
-Zeige Bottlenecks, Legal Loops, Approval Aging und Contract Value at Risk.
+Build a Quote2Contract analytics design for Salesforce, SAP S/4HANA, and DocuSign.
+Show bottlenecks, approval aging, legal loops, and contract value at risk.
 ```
 
 ### Governed Semantic Model
 
-Use when report sprawl or KPI conflict needs consolidation.
-
-Example:
+Use this when report sprawl or KPI conflict needs consolidation.
 
 ```text
-Konsolidiere 12 lokale Sales Reports in ein zertifiziertes Sales Semantic Model.
-Beruecksichtige KPI-Konflikte, RLS, DAX Tests und Owner Acceptance.
+Consolidate 12 local sales reports into one certified sales semantic model.
+Include KPI conflict handling, RLS, DAX tests, and owner acceptance.
 ```
 
 ### Quality Gate
 
-Use before publishing, certifying, migrating, or handing over a report.
-
-Example:
+Use this before publishing, certifying, migrating, or handing over a report.
 
 ```text
-Fuehre ein Power BI Quality Gate fuer dieses Modell durch:
-KPI Definitionen, DAX, RLS, Refresh, Performance, Lineage, Dokumentation, UAT.
-```
-
-### AI-Native Delivery
-
-Use when the plugin should orchestrate multiple BI expert roles.
-
-Example:
-
-```text
-Fuehre einen autonomen BI Sprint fuer Dock2Stock durch.
-Starte mit Intake, erstelle Data Contract, Modell, KPI Tree, Report Spec, Tests, Quality Gate und en-US/de-DE Doku.
+Run a Power BI quality gate for this model:
+KPI definitions, DAX, RLS, refresh, performance, lineage, documentation, and UAT.
 ```
 
 ## Expected Outputs
 
 Depending on the request, the plugin can produce:
 
-- Process and business scope.
-- Source-system mapping and metadata assumptions.
+- Business and process scope.
+- Source-system mapping.
 - KPI contracts.
 - Semantic model design.
 - DAX measure catalog.
@@ -96,21 +76,3 @@ Depending on the request, the plugin can produce:
 - Validation and reconciliation plan.
 - Quality gate checklist.
 - Delivery runbook.
-- Bilingual documentation in `en-US` and `de-DE`.
-
-## Prompt Anti-Patterns
-
-Avoid prompts like:
-
-```text
-Mach ein Dashboard.
-```
-
-Better:
-
-```text
-Baue ein CFO Cockpit fuer Contract2Revenue.
-Quellen: Salesforce Revenue Cloud, SAP FI/CO, Snowflake.
-KPIs: Revenue Leakage, Deferred Revenue, Billing Readiness, Renewal Risk.
-Output: KPI tree, Modell, DAX, Visuals, Validierung, en-US/de-DE Doku.
-```

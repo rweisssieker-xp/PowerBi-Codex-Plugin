@@ -30,8 +30,8 @@ Das Produkt befähigt Process Owner und Process Manager, alle relevanten Prozess
 
 ## Expert-Replacement References
 
-- [Power BI Expert-Replacement Factory Gesamtplan](../../POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
-- [Power BI Expert-Replacement Skill Map](../../POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Power BI Expert-Replacement Factory Gesamtplan](../product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](../product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
 
 Process Owner enablement is the user-facing outcome. Expert replacement is the delivery mechanism: the tool takes over repeatable work normally performed by Power BI consultants, data analysts, report designers, semantic modelers, DAX experts, Power Query/M developers, Fabric architects, BI testers, CoE reviewers, and BI documentation owners.
 

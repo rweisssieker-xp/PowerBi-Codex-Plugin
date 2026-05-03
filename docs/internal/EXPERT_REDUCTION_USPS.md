@@ -20,8 +20,8 @@ Ziel ist der Ersatz wiederholbarer Power BI Expertenarbeit durch wiederverwendba
 
 ## Main References
 
-- [Power BI Expert-Replacement Factory Gesamtplan](../../POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
-- [Power BI Expert-Replacement Skill Map](../../POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Power BI Expert-Replacement Factory Gesamtplan](../product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](../product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
 - [Process Owner AI/KI USPs](PROCESS_OWNER_AI_KI_USPS.md)
 
 ## Expert Replacement Product USPs

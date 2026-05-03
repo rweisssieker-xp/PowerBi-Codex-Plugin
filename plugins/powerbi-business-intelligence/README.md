@@ -16,8 +16,8 @@ The expert replacement layer covers Power BI Consultant Agent, Data Analyst Agen
 
 Primary product references:
 
-- [Power BI Expert-Replacement Factory Gesamtplan](../../POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
-- [Power BI Expert-Replacement Skill Map](../../POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Power BI Expert-Replacement Factory Gesamtplan](../../docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](../../docs/product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
 - [Power BI Expert-Replacement 20 Feature Rollout](../../docs/internal/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
 - [Power BI Expert-Replacement Advanced USP Rollout](../../docs/internal/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
 

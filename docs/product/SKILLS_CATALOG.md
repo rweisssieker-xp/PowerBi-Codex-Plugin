@@ -37,7 +37,7 @@ See [Power BI Expert-Replacement Factory Gesamtplan](POWERBI_EXPERT_REPLACEMENT_
 
 ## Implemented 20-Feature Expert-Replacement Rollout
 
-See [Power BI Expert-Replacement 20 Feature Rollout](docs/internal/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md).
+See [Power BI Expert-Replacement 20 Feature Rollout](../internal/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md).
 
 - `powerbi-ai-powerbi-desktop-smoke-tester`
 - `powerbi-ai-frown-to-fix-triage`
@@ -62,7 +62,7 @@ See [Power BI Expert-Replacement 20 Feature Rollout](docs/internal/POWERBI_EXPER
 
 ## Implemented Advanced USP Rollout
 
-See [Power BI Expert-Replacement Advanced USP Rollout](docs/internal/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md).
+See [Power BI Expert-Replacement Advanced USP Rollout](../internal/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md).
 
 - `powerbi-ai-autopilot-evidence-explainer`
 - `powerbi-ai-kpi-contract-marketplace`
