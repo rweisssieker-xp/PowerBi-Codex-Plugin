@@ -16,6 +16,8 @@ Dies ist der Gesamtplan fuer die AI/KI Power BI Expert-Replacement Factory. Er d
 
 The product is an AI/KI Power BI Expert-Replacement Factory. It enables Process Owners and Process Managers to create complete governed Power BI solutions without a dedicated expert team for every analysis request. The tool replaces repeatable expert work normally performed by Power BI consultants, semantic modelers, DAX experts, Power Query developers, report designers, data analysts, BI testers, CoE reviewers, and BI documentation owners.
 
+Terminology note: `Expert-Replacement` and `Expert Replacement` describe the same product mechanism in this documentation.
+
 The operating promise is: business or process question in, validated Power BI artifact out. The artifact includes source analysis, native connector design, semantic model, KPI contracts, measures, DAX, Power Query/M, report pages, visuals, root-cause paths, action cockpit, governance evidence, tests, documentation, and Power BI Desktop-validated PBIP/PBIR/TMDL output.
 
 ## de-DE Positionierung
