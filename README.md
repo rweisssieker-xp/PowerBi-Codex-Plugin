@@ -40,6 +40,10 @@ Das Tool uebersetzt Business- und Prozessfragen in validierte semantische Modell
 │   └── skills/
 ├── docs/
 ├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── GOVERNANCE.md
+├── MAINTAINERS.md
+├── RELEASE.md
 ├── CHANGELOG.md
 ├── LICENSE
 └── SECURITY.md
@@ -81,6 +85,7 @@ Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate dur
 - [Power BI Expert-Replacement Advanced USP Rollout](docs/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
 - [Bilingual Documentation](docs/BILINGUAL_DOCUMENTATION.md)
 - [Bilingual Documentation Matrix](docs/BILINGUAL_DOCUMENTATION_MATRIX.md)
+- [GitHub Documentation](docs/GITHUB_DOCUMENTATION.md)
 - [GitHub Workflow](docs/GITHUB_WORKFLOW.md)
 - [Governance and Quality Gates](docs/GOVERNANCE_AND_QUALITY.md)
 - [Examples](docs/EXAMPLES.md)

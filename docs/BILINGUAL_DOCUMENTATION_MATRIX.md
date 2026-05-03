@@ -31,6 +31,7 @@ Diese Matrix zeigt den Status der zweisprachigen Dokumentationsabdeckung im Repo
 | `docs/BILINGUAL_DOCUMENTATION.md` | Complete | Defines the bilingual documentation standard |
 | `docs/EXAMPLES.md` | Complete | Example usage scope in both languages |
 | `docs/EXPERT_REDUCTION_USPS.md` | Complete | Expert replacement/reduction summary in both languages |
+| `docs/GITHUB_DOCUMENTATION.md` | Complete | GitHub standard document and template inventory |
 | `docs/GITHUB_WORKFLOW.md` | Complete | GitHub issue, PR, review, and repository governance workflow |
 | `docs/GOVERNANCE_AND_QUALITY.md` | Complete | Governance summary in both languages |
 | `docs/INSTALLATION.md` | Complete | Installation summary in both languages |
@@ -45,6 +46,10 @@ Diese Matrix zeigt den Status der zweisprachigen Dokumentationsabdeckung im Repo
 | `docs/SKILLS_CATALOG.md` | Complete | Skills catalog summary in both languages |
 | `docs/SOURCE_SYSTEM_COVERAGE.md` | Complete | Source-system coverage summary in both languages |
 | `docs/USAGE.md` | Complete | Usage guidance summary in both languages |
+| `CODE_OF_CONDUCT.md` | Complete | Collaboration and enforcement standard |
+| `GOVERNANCE.md` | Complete | Repository decision and maintainer governance |
+| `MAINTAINERS.md` | Complete | Maintainer model and review expectations |
+| `RELEASE.md` | Complete | Release readiness and release-note process |
 
 ## Machine-Readable Artifacts
 
