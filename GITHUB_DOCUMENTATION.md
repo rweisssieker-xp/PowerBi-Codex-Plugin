@@ -66,3 +66,11 @@ Dieses Dokument listet die GitHub-Standarddokumente und Templates des Repository
 | `.github/CODEOWNERS` | Review-Ownership-Routing |
 | `.github/SUPPORT.md` | Support- und Eskalationshinweise |
 | `.github/DISCUSSION_TEMPLATE.md` | Discussion-Struktur |
+
+## Additional repository Markdown
+
+Large topic guides (for example `SKILLS_CATALOG.md`, expert-replacement plans, and process KPI references) live alongside these files in the repository root. Use [`DOCUMENTATION.md`](DOCUMENTATION.md) as the single index.
+
+## Zusaetzliche Markdown-Dateien im Root
+
+Grosse Themen- und Katalogdateien (zum Beispiel `SKILLS_CATALOG.md`, Expert-Replacement-Plaene und Process-KPI-Referenzen) liegen ebenfalls im Repository-Root. Als einzigen Index verwendet [`DOCUMENTATION.md`](DOCUMENTATION.md).
