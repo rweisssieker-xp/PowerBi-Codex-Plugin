@@ -1,5 +1,7 @@
 # Contributing
 
+## en-US
+
 ## Contribution Scope
 
 Contributions should improve the Power BI expert-replacement layer through:
@@ -41,3 +43,47 @@ python -m json.tool plugins/powerbi-business-intelligence/.codex-plugin/plugin.j
 ```
 
 Also search for accidental vendor-specific leftovers or sensitive data before committing.
+
+## de-DE
+
+## Contribution Scope
+
+Beitraege sollen die Power BI Expert-Replacement-Schicht verbessern durch:
+
+- Neue oder verbesserte Codex Skills.
+- Bessere Quellsystem-Mappings.
+- Bessere KPI Contracts.
+- Bessere Prozesskettenabdeckung.
+- Bessere Validierungs-, Governance- und Dokumentationsmuster.
+- Bessere Beispiele und Tests.
+
+## Skill Guidelines
+
+Jeder Skill soll:
+
+- Ein gueltiges `SKILL.md` mit YAML-Frontmatter nutzen.
+- Die Beschreibung mit `Use when` beginnen.
+- Wiederverwendbares Verhalten beschreiben, keine einmaligen Projektnotizen.
+- Klare Triggerbedingungen enthalten.
+- Erwartete Outputs definieren.
+- Validierung und typische Fallen enthalten, wo relevant.
+- Keine Secrets, tenant-spezifischen Daten oder kundensensitiven Details speichern.
+
+## Documentation Guidelines
+
+- GitHub-Doku kurz und navigierbar halten.
+- Tiefe plugin-spezifische Details unter `plugins/powerbi-business-intelligence/docs` pflegen.
+- Repository-Level-Doku unter `docs` pflegen.
+- Fuer wesentliche Artefakte abgestimmte `en-US`- und `de-DE`-Versionen pflegen.
+
+## Validation Before PR
+
+Ausfuehren:
+
+```powershell
+python -m json.tool .agents/plugins/marketplace.json > $null
+python -m json.tool plugins/powerbi-business-intelligence/.codex-plugin/plugin.json > $null
+(Get-ChildItem plugins/powerbi-business-intelligence/skills -Recurse -Filter SKILL.md | Measure-Object).Count
+```
+
+Vor dem Commit ausserdem nach versehentlichen vendor-spezifischen Resten oder sensiblen Daten suchen.
