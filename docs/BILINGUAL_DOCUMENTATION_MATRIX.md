@@ -31,6 +31,7 @@ Diese Matrix zeigt den Status der zweisprachigen Dokumentationsabdeckung im Repo
 | `docs/BILINGUAL_DOCUMENTATION.md` | Complete | Defines the bilingual documentation standard |
 | `docs/EXAMPLES.md` | Complete | Example usage scope in both languages |
 | `docs/EXPERT_REDUCTION_USPS.md` | Complete | Expert replacement/reduction summary in both languages |
+| `docs/GITHUB_WORKFLOW.md` | Complete | GitHub issue, PR, review, and repository governance workflow |
 | `docs/GOVERNANCE_AND_QUALITY.md` | Complete | Governance summary in both languages |
 | `docs/INSTALLATION.md` | Complete | Installation summary in both languages |
 | `docs/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md` | Complete | Feature rollout summary in both languages |
@@ -59,4 +60,3 @@ Diese Matrix zeigt den Status der zweisprachigen Dokumentationsabdeckung im Repo
 - Fachliche Erklaerungen werden deutsch ergaenzt.
 - Technische Namen werden nicht uebersetzt, damit Power BI, TMDL, PBIR, DAX und M stabil bleiben.
 - Fuer Kundenartefakte sollen `artifact.en-US.md` und `artifact.de-DE.md` parallel erzeugt werden.
-

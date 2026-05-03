@@ -1,0 +1,52 @@
+name: Bug report
+description: Report a reproducible defect in docs, skills, scripts, schemas, or generated Power BI artifacts.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## en-US
+        Use this form for reproducible defects.
+
+        ## de-DE
+        Nutze dieses Formular fuer reproduzierbare Fehler.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary / Zusammenfassung
+      description: What is broken?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps / Reproduktionsschritte
+      description: Exact steps, command, prompt, or file path.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result / Erwartetes Ergebnis
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result / Tatsaechliches Ergebnis
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence / Nachweis
+      description: Logs, validation output, screenshots without sensitive data, or Power BI error text.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety / Sicherheit
+      options:
+        - label: I did not include secrets, credentials, tenant IDs, or customer-sensitive data.
+          required: true
+

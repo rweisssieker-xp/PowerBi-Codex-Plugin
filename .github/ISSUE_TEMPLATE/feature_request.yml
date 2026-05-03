@@ -1,0 +1,48 @@
+name: Feature request
+description: Propose a new capability, skill, process pack, validator, or documentation improvement.
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## en-US
+        Describe the business/process problem first, then the requested implementation.
+
+        ## de-DE
+        Beschreibe zuerst das Business-/Prozessproblem, danach die gewuenschte Umsetzung.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Problemstellung
+      description: Which Process Owner, expert role, or Power BI delivery gap is affected?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal / Vorschlag
+      description: What should be added or changed?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area / Bereich
+      options:
+        - Skill
+        - Documentation
+        - Script or validator
+        - Schema or template
+        - Process pack
+        - Power BI artifact
+        - Governance or security
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria / Abnahmekriterien
+      description: What must be true for this to be accepted?
+

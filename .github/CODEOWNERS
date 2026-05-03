@@ -1,0 +1,11 @@
+# en-US: Default review owners for repository areas.
+# de-DE: Standard-Reviewer fuer Repository-Bereiche.
+
+* @maintainers
+
+/plugins/powerbi-business-intelligence/skills/ @maintainers
+/docs/ @maintainers
+/schemas/ @maintainers
+/templates/ @maintainers
+/scripts/ @maintainers
+
