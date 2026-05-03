@@ -1,6 +1,6 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Security issue / Sicherheitsproblem
+  - name: Security issue
     url: https://github.com/
     about: Do not open public issues for secrets, vulnerabilities, or customer-sensitive data. Follow SECURITY.md.
 

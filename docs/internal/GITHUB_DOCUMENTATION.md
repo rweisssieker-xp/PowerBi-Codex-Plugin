@@ -3,17 +3,17 @@
 <!-- bilingual-doc-header -->
 ## en-US Documentation
 
-Explains repository files that support GitHub workflows (templates, code ownership). Root Markdown filenames follow common GitHub/Open Source conventions; navigation links live in [DOCUMENTATION.md](DOCUMENTATION.md).
+Explains repository files that support GitHub workflows (templates, code ownership). Root Markdown filenames follow common GitHub/Open Source conventions; navigation links live in [DOCUMENTATION.md](../../DOCUMENTATION.md).
 
 ## de-DE Dokumentation
 
-Erklaert Dateien fuer GitHub-Workflows (Templates, Code Ownership). Root-Markdown folgt ueblichen OSS-Konventionen; Links zur Navigation stehen in [DOCUMENTATION.md](DOCUMENTATION.md).
+Erklaert Dateien fuer GitHub-Workflows (Templates, Code Ownership). Root-Markdown folgt ueblichen OSS-Konventionen; Links zur Navigation stehen in [DOCUMENTATION.md](../../DOCUMENTATION.md).
 
 <!-- /bilingual-doc-header -->
 
 ## Standard root files
 
-These paths are linked from [DOCUMENTATION.md](DOCUMENTATION.md) (Governance / Contributing / GitHub sections). Roles at a glance:
+These paths are linked from [DOCUMENTATION.md](../../DOCUMENTATION.md) (Governance / Contributing / GitHub sections). Roles at a glance:
 
 | File | Role |
 | --- | --- |
@@ -48,4 +48,4 @@ These paths are linked from [DOCUMENTATION.md](DOCUMENTATION.md) (Governance / C
 
 ## de-DE
 
-Die Tabellen oben gelten unveraendert fuer deutschsprachige Nutzer; Zweckbeschreibungen sind nur einmal gefuehrt. Vollstaendige Links: [DOCUMENTATION.md](DOCUMENTATION.md).
+Die Tabellen oben gelten unveraendert fuer deutschsprachige Nutzer; Zweckbeschreibungen sind nur einmal gefuehrt. Vollstaendige Links: [DOCUMENTATION.md](../../DOCUMENTATION.md).

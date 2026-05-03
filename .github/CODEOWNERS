@@ -1,5 +1,4 @@
-# en-US: Default review owners for repository areas.
-# de-DE: Standard-Reviewer fuer Repository-Bereiche.
+# Default review owners for repository areas.
 
 * @maintainers
 
@@ -7,4 +6,3 @@
 /schemas/ @maintainers
 /templates/ @maintainers
 /scripts/ @maintainers
-

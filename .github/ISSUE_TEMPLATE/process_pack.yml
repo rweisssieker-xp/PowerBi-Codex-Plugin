@@ -6,37 +6,33 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## en-US
         Use this for Lead2Order, Order2Cash, Procure2Pay, Record2Report, and other process analytics packs.
-
-        ## de-DE
-        Nutze dies fuer Lead2Order, Order2Cash, Procure2Pay, Record2Report und weitere Process-Analytics-Packs.
   - type: input
     id: process
     attributes:
-      label: Process / Prozess
+      label: Process
       placeholder: Lead2Order, Order2Cash, Procure2Pay, ...
     validations:
       required: true
   - type: textarea
     id: owner_question
     attributes:
-      label: Process Owner question / Process-Owner-Frage
+      label: Process Owner question
       description: Which decision should Power BI enable?
     validations:
       required: true
   - type: textarea
     id: sources
     attributes:
-      label: Source systems / Quellsysteme
+      label: Source systems
       description: CRM, ERP, WMS, MES, QMS, data warehouse, files, APIs, etc.
   - type: textarea
     id: kpis
     attributes:
-      label: KPIs and report pages / KPIs und Reportseiten
+      label: KPIs and report pages
   - type: textarea
     id: validation
     attributes:
-      label: Validation needs / Validierungsbedarf
+      label: Validation needs
       description: Reconciliation, RLS, Desktop smoke, visual binding, DAX tests, M tests, owner acceptance.
 

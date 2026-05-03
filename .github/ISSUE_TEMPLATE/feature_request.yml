@@ -6,29 +6,25 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## en-US
         Describe the business/process problem first, then the requested implementation.
-
-        ## de-DE
-        Beschreibe zuerst das Business-/Prozessproblem, danach die gewuenschte Umsetzung.
   - type: textarea
     id: problem
     attributes:
-      label: Problem / Problemstellung
+      label: Problem
       description: Which Process Owner, expert role, or Power BI delivery gap is affected?
     validations:
       required: true
   - type: textarea
     id: proposal
     attributes:
-      label: Proposal / Vorschlag
+      label: Proposal
       description: What should be added or changed?
     validations:
       required: true
   - type: dropdown
     id: area
     attributes:
-      label: Area / Bereich
+      label: Area
       options:
         - Skill
         - Documentation
@@ -43,6 +39,6 @@ body:
   - type: textarea
     id: acceptance
     attributes:
-      label: Acceptance criteria / Abnahmekriterien
+      label: Acceptance criteria
       description: What must be true for this to be accepted?
 

@@ -23,7 +23,7 @@ Diese Matrix zeigt den Status der zweisprachigen Dokumentationsabdeckung im Repo
 
 ## Repository Documentation
 
-Same Markdown paths as [DOCUMENTATION.md](DOCUMENTATION.md); this table tracks **bilingual coverage only** (not navigation).
+Same Markdown paths as [DOCUMENTATION.md](../../DOCUMENTATION.md); this table tracks **bilingual coverage only** (not navigation).
 
 | Document | Bilingual status | Notes |
 | --- | --- | --- |

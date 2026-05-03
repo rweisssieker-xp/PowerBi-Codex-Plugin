@@ -1,67 +1,54 @@
 # Documentation
 
-<!-- bilingual-doc-header -->
-## en-US Documentation
+This is the single navigation index for repository-level documentation. Root files are kept focused for GitHub readers. Deep planning notes, bilingual documentation policy, simulation notes, and internal USP rollouts live under [docs/internal](docs/internal/).
 
-Single navigation index for **repository-level** Markdown. Guides live in the **repository root**. Plugin-specific files live under `plugins/powerbi-business-intelligence/` (including that plugin’s internal `docs/`). [README.md](README.md) links here for navigation.
-
-## de-DE Dokumentation
-
-Einziger Navigationsindex fuer **Repository-weite** Markdown-Dateien im **Repo-Root**. Plugin-Inhalte liegen unter `plugins/powerbi-business-intelligence/` (inkl. Plugin-`docs/`). [README.md](README.md) verweist fuer Navigation hierher.
-
-<!-- /bilingual-doc-header -->
-
-## Navigation
-
-File names are language-neutral; linked guides use bilingual `en-US` / `de-DE` sections where required.
-
-Dateinamen sind sprachneutral; die verlinkten Guides enthalten wo noetig zweisprachige `en-US`- und `de-DE`-Abschnitte.
-
-### Start
+## Start Here
 
 - [README](README.md)
 - [Installation](INSTALLATION.md)
 - [Usage](USAGE.md)
 - [Architecture](ARCHITECTURE.md)
+- [Examples](EXAMPLES.md)
+- [FAQ](FAQ.md)
 
-### Governance, contributing, releases
+## Product And Capability Guides
+
+- [Power BI Expert-Replacement Factory Plan](POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Skills Catalog](SKILLS_CATALOG.md)
+- [Process Chain KPIs](PROCESS_CHAIN_KPIS.md)
+- [Source System Coverage](SOURCE_SYSTEM_COVERAGE.md)
+- [Power BI Native Connector Coverage](POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
+
+## GitHub And Repository Governance
 
 - [Contributing](CONTRIBUTING.md)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
 - [Security](SECURITY.md)
 - [Support](SUPPORT.md)
 - [Governance](GOVERNANCE.md)
-- [Governance and Quality Gates](GOVERNANCE_AND_QUALITY.md)
 - [Maintainers](MAINTAINERS.md)
-- [Release](RELEASE.md)
+- [Release Process](RELEASE.md)
 - [Roadmap](ROADMAP.md)
 - [Changelog](CHANGELOG.md)
-- [FAQ](FAQ.md)
 - [Authors](AUTHORS.md)
 - [Notice](NOTICE.md)
 
-### GitHub workflow and bilingual rules
+## Internal Documentation
 
-- [GitHub Documentation](GITHUB_DOCUMENTATION.md)
-- [GitHub Workflow](GITHUB_WORKFLOW.md)
-- [Bilingual Documentation](BILINGUAL_DOCUMENTATION.md)
-- [Bilingual Documentation Matrix](BILINGUAL_DOCUMENTATION_MATRIX.md)
+These files are useful for maintainers and roadmap work, but they are intentionally outside the root to keep the GitHub landing page focused.
 
-### Topic guides and catalogs
+- [Bilingual Documentation](docs/internal/BILINGUAL_DOCUMENTATION.md)
+- [Bilingual Documentation Matrix](docs/internal/BILINGUAL_DOCUMENTATION_MATRIX.md)
+- [GitHub Documentation](docs/internal/GITHUB_DOCUMENTATION.md)
+- [GitHub Workflow](docs/internal/GITHUB_WORKFLOW.md)
+- [Governance and Quality Gates](docs/internal/GOVERNANCE_AND_QUALITY.md)
+- [Expert Reduction USPs](docs/internal/EXPERT_REDUCTION_USPS.md)
+- [Process Owner AI/KI USPs](docs/internal/PROCESS_OWNER_AI_KI_USPS.md)
+- [Power BI Expert-Replacement 20 Feature Rollout](docs/internal/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
+- [Power BI Expert-Replacement Advanced USP Rollout](docs/internal/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
+- [Simulation Test Report](docs/internal/SIMULATION_TEST_REPORT.md)
 
-- [Examples](EXAMPLES.md)
-- [Skills Catalog](SKILLS_CATALOG.md)
-- [Process Chain KPIs](PROCESS_CHAIN_KPIS.md)
-- [Source System Coverage](SOURCE_SYSTEM_COVERAGE.md)
-- [Power BI Native Connector Coverage](POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
-- [Expert Reduction USPs](EXPERT_REDUCTION_USPS.md)
-- [Process Owner AI/KI USPs](PROCESS_OWNER_AI_KI_USPS.md)
-- [Power BI Expert-Replacement Factory Gesamtplan](POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
-- [Power BI Expert-Replacement Skill Map](POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
-- [Power BI Expert-Replacement 20 Features](POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
-- [Power BI Expert-Replacement Advanced USPs](POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
-- [Simulation Test Report](SIMULATION_TEST_REPORT.md)
+## Codex Plugin
 
-### Codex plugin
-
-- [plugins/powerbi-business-intelligence/README.md](plugins/powerbi-business-intelligence/README.md)
+- [Power BI Business Intelligence Plugin README](plugins/powerbi-business-intelligence/README.md)

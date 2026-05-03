@@ -1,61 +1,55 @@
 # AI-native Power BI Expert-Replacement Factory
 
-AI-native Codex plugin for replacing repeatable Power BI expert, designer, data analyst, semantic modeling, DAX, Power Query/M, QA, governance, and documentation work with governed AI/KI skills.
+Codex plugin for replacing repeatable Power BI expert, designer, data analyst, semantic modeling, DAX, Power Query/M, QA, governance, and documentation work with governed AI skills.
 
-Process Owners and Process Managers can create complete Power BI solutions without needing a dedicated expert team for every analysis request. The tool turns business and process questions into validated semantic models, KPIs, measures, DAX, Power Query/M, report pages, root-cause analysis, action cockpits, governance evidence, tests, documentation, and Power BI Desktop-validated PBIP/PBIR/TMDL artifacts.
-
-## de-DE Kurzfassung
-
-Dieses Repository enthaelt eine AI-native Power BI Expert-Replacement Factory. Process Owner und Process Manager koennen vollstaendige Power-BI-Loesungen erstellen, ohne fuer jede Analyse ein separates Expertenteam aus Power BI Consultant, Designer, Data Analyst, Semantic Modeler, DAX Developer, Power Query Developer, BI Tester und CoE Reviewer zu benoetigen.
-
-Das Tool uebersetzt Business- und Prozessfragen in validierte semantische Modelle, KPI Contracts, Measures, DAX, Power Query/M, Reportseiten, Root-Cause-Analysen, Action Cockpits, Governance Evidence, Tests, Dokumentation und Power-BI-Desktop-validierte PBIP/PBIR/TMDL-Artefakte.
+The product turns business and process questions into validated Power BI delivery artifacts: source analysis, semantic models, KPI contracts, DAX measures, Power Query/M designs, report layouts, root-cause paths, action cockpits, governance evidence, tests, documentation, and PBIP/PBIR/TMDL output.
 
 ## What It Does
 
-- Converts business questions into Power BI blueprints, semantic models, DAX catalogs, report layouts, validation plans, and delivery packs.
-- Replaces repeatable work from Power BI consultants, report designers, data analysts, semantic modelers, DAX experts, Power Query/M developers, Fabric architects, BI testers, CoE reviewers, and BI documentation owners.
-- Enables Process Owners and Process Managers to create complete Power BI process analytics from process questions, KPI definitions, source metadata, and improvement goals.
-- Generates process-aligned semantic models, KPI contracts, DAX measures, Power Query sources, report pages, root-cause drilldowns, exception cockpits, and action tracking artifacts.
-- Supports any Power BI-compatible source pattern: ERP, CRM, MES, PLM, WMS/WHS, QMS, EHS, EPM, treasury, ESG, data warehouses, lakehouses, APIs, files, and SaaS platforms.
-- Generates native Power BI / Power Query connector designs for real sources. Excel uses the native Excel Workbook connector pattern (`Excel.Workbook(File.Contents(...), null, true)` or SharePoint/OneDrive binary-to-`Excel.Workbook`), while embedded `DATATABLE` output is reserved for offline demos and smoke tests.
-- Understands industrial process chains such as Lead2Order, Order2Cash, Procure2Pay, Plan2Produce, Record2Report, Maintain2Operate, Market2Lead, Dock2Stock, Complaint2CAPA, Control2Evidence, and Data2Insight2Action.
-- Adds AI/KI guardrails for NL-to-DAX, NL-to-PowerQuery, RAG grounding, hallucination checks, insight confidence, autonomous BI sprints, and process recommendations.
-- Adds advanced AI/KI agents for KPI discovery, business-question generation, semantic-model refactoring, measure deduplication, DAX explainability, report personalization, insight prioritization, causal hypothesis testing, data storytelling, exception-to-action routing, forecast explanation, scenario recommendations, data-contract negotiation, source mapping, compliance review, tenant-risk prediction, adoption coaching, self-service guardrails, process digital twins, and expert-replacement scoring.
-- Adds autonomous AI/KI operations for continuous improvement, BI memory, governance drift, schema drift, KPI lifecycle, remediation, business impact simulation, decision audits, data product ownership, report retirement, semantic contract validation, cross-process dependencies, root-cause playbooks, internal benchmark learning, test case mining, data stewardship, security exposure, capacity optimization, multi-agent BI orchestration, and boardroom preparation.
-- Adds expert-reduction USPs for requirement-to-model automation, ERP object resolution, KPI conflict resolution, report consolidation, model certification, tenant cleanup, role prompt packs, value realization, and audit-ready AI evidence trails.
-- Adds executable-factory capabilities for live metadata scanning, PBIP/TMDL generation, DAX test execution, Power Query/M generation, visual layout specs, Fabric deployment blueprints, connector capability decisions, golden semantic model templates, RLS/OLS patterns, Admin API playbooks, synthetic demo data, acceptance testing, migration cost estimates, CoE handbooks, and machine-readable skill indexing.
-- Adds automation features for intake triage, requirements interviews, source metadata scans, KPI contract generation, semantic model drafting, DAX test generation, Power Query review, UX review, refresh-failure triage, schema-drift alerts, tenant cleanup, certification pipelines, release notes, documentation refresh, UAT packs, action creation, adoption monitoring, capacity optimization, security exposure scans, and executive briefings.
-- Requires substantial delivery artifacts to include aligned `en-US` and `de-DE` documentation.
+- Converts process questions into Power BI blueprints, semantic models, KPI contracts, DAX catalogs, report layouts, and validation packs.
+- Supports Process Owners and Process Managers without requiring a dedicated Power BI expert team for every analysis request.
+- Replaces repeatable delivery work from Power BI consultants, report designers, data analysts, semantic modelers, DAX experts, Power Query/M developers, Fabric architects, BI testers, CoE reviewers, and documentation owners.
+- Generates native Power BI / Power Query connector designs for real sources. Excel uses native `Excel.Workbook(File.Contents(...), null, true)` or SharePoint/OneDrive binary-to-`Excel.Workbook` patterns.
+- Covers industrial process chains such as Lead2Order, Order2Cash, Procure2Pay, Plan2Produce, Record2Report, Maintain2Operate, Market2Lead, Dock2Stock, Complaint2CAPA, Control2Evidence, and Data2Insight2Action.
+- Adds executable trust checks for model graph quality, native source routing, visual bindings, DAX static checks, and Power BI Desktop smoke validation workflows.
 
 ## Repository Structure
 
 ```text
 .
 ├── .agents/plugins/marketplace.json
+├── .github/
 ├── plugins/powerbi-business-intelligence/
 │   ├── .codex-plugin/plugin.json
 │   ├── README.md
 │   ├── assets/
 │   ├── docs/
 │   └── skills/
-├── DOCUMENTATION.md
+├── docs/internal/
 ├── schemas/
 ├── templates/
 ├── scripts/
 ├── tests/
 ├── data/
 ├── outputs/
+├── DOCUMENTATION.md
 ├── LICENSE
 └── *.md
 ```
 
-Additional Markdown guides at the repository root (installation, architecture, catalogs, governance, and similar) are listed in [DOCUMENTATION.md](DOCUMENTATION.md).
-
 ## Documentation
 
-Use **[DOCUMENTATION.md](DOCUMENTATION.md)** as the only navigation index for repository-level Markdown (installation, usage, architecture, contributing, security, catalogs, expert-replacement references, plugin overview, and everything else).
+Start with [DOCUMENTATION.md](DOCUMENTATION.md). It is the single navigation index for repository-level documentation.
 
-Die vollstaendige Navigationsliste liegt in **[DOCUMENTATION.md](DOCUMENTATION.md)**.
+Key guides:
+
+- [Installation](INSTALLATION.md)
+- [Usage](USAGE.md)
+- [Architecture](ARCHITECTURE.md)
+- [Process Chain KPIs](PROCESS_CHAIN_KPIS.md)
+- [Skills Catalog](SKILLS_CATALOG.md)
+- [Power BI Expert-Replacement Factory Plan](POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
+- [Power BI Expert-Replacement Skill Map](POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
 
 ## Quickstart
 
@@ -63,41 +57,41 @@ Die vollstaendige Navigationsliste liegt in **[DOCUMENTATION.md](DOCUMENTATION.m
 2. Open it in Codex.
 3. Register the local marketplace from `.agents/plugins/marketplace.json`.
 4. Install or enable the `powerbi-business-intelligence` plugin.
-5. Start with one of the example prompts below.
+5. Start with a process analytics request.
 
 Example prompts:
 
 ```text
-Erstelle ein Power BI Modell und Dashboard fuer Customer Churn.
-Plane ein Power BI Reporting fuer SAP FiCO mit Datenmodell, DAX und Seitenlayout.
-Loese eine Order2Cash Fragestellung quellsystemabhaengig fuer SAP, CRM, WMS und Finance.
-Baue Dock2Stock, Pick2Pack2Ship und Return2Disposition als Power BI Data Product.
-Erzeuge ein Control2Evidence Cockpit mit en-US/de-DE Dokumentation.
-Fuehre einen autonomen BI Sprint fuer Order2Cash von Intake bis Quality Gate durch.
+Create a Power BI model and dashboard for customer churn.
+Plan a Power BI reporting solution for SAP FiCO with data model, DAX, and page layout.
+Build a source-aware Order2Cash analytics pack for SAP, CRM, WMS, and Finance.
+Create a Control2Evidence cockpit with KPI contracts, DAX measures, and validation gates.
+Run an autonomous BI sprint for Order2Cash from intake to quality gate.
 ```
 
-## Main Capability Areas
+## Validation
 
-- Power BI reporting, modelling, DAX, Power Query, and Fabric architecture.
-- Executable trust layer: `scripts/powerbi_expert_factory.py` for PBIP/TMDL/PBIR validation, `scripts/powerbi_desktop_smoke_test.ps1` for Desktop/Frown smoke checks, schemas for KPI/evidence/RLS/acceptance, and process-pack templates as machine-readable delivery assets.
-- Expert replacement for Power BI consultants, designers, data analysts, semantic modelers, DAX experts, Power Query/M developers, Fabric architects, BI QA, CoE reviewers, and documentation owners.
-- Process Owner and Process Manager self-service analytics for process performance, bottlenecks, exceptions, root cause, and action management.
-- Business problem factory for Customer Churn, Material Churn, FiCO, sales, supply chain, procurement, service, HR, risk, operations, and executive reporting.
-- Industrial process intelligence and source-system-aware process adapters.
-- ERP/CRM/source-product catalog for SAP, Microsoft Dynamics, Salesforce, Oracle, NetSuite, Infor, IFS, Epicor, QAD, Sage, Workday, ServiceNow, HubSpot, Zendesk, Siemens, PTC, Dassault, MES/SCADA/historians, and modern data platforms.
-- QM/QMS/EHS, WHS/WMS, EPM, treasury, ESG, subscription billing, field service, logistics visibility, MDM, ETL/ELT, data quality, lakehouse, ECM, OCR/IDP, RPA, and identity/security source packs.
-- AI-native BI delivery with Copilot orchestration, RAG, prompt governance, hallucination guard, insight confidence, root-cause investigation, and autonomous BI sprints.
+Run the core test suite:
+
+```powershell
+python -m unittest tests\test_powerbi_expert_factory.py -v
+```
+
+Run the sample PBIP validation:
+
+```powershell
+python scripts\powerbi_expert_factory.py validate --project outputs\powerbi-order2cash-pbip\Order2Cash_NativeExcel --out outputs\powerbi-order2cash-pbip\expert_factory_validation.json
+```
 
 ## Design Principles
 
 - Governed reuse beats one-off reports.
 - Expert replacement requires validation evidence, not only generated content.
-- Process Owner autonomy beats ticket-based report queues when protected by model, DAX, M, source, and governance guardrails.
 - KPI contracts come before DAX measures.
-- Source-system semantics must be validated before modelling.
+- Source-system semantics must be validated before modeling.
+- Star-schema model quality comes before report design.
 - Every exception KPI needs an accountable owner and action path.
 - AI-generated insights must be grounded in metadata, source totals, tests, and documented assumptions.
-- Large industrial BI artifacts should be documented in both `en-US` and `de-DE`.
 
 ## License
 

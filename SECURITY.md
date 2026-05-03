@@ -1,8 +1,6 @@
 # Security Policy
 
-## en-US
-
-## Supported Version
+## Supported Versions
 
 | Version | Supported |
 |---|---|
@@ -10,7 +8,7 @@
 
 ## Reporting Security Issues
 
-Do not open public issues for vulnerabilities or accidental exposure of secrets. Contact the repository maintainers privately.
+Do not open public issues for vulnerabilities, exposed secrets, tenant identifiers, gateway details, customer data, or confidential Power BI artifacts. Contact the repository maintainers privately.
 
 ## Data Handling
 
@@ -24,34 +22,6 @@ Do not commit:
 - PBIX/PBIP artifacts with confidential production data.
 - Screenshots containing sensitive business data.
 
-## AI/KI Output Safety
+## AI Output Safety
 
-AI-generated Power BI guidance should be validated before operational use. Validate source metadata, KPI definitions, access rules, reconciliation totals, and data privacy constraints.
-
-## de-DE
-
-## Unterstuetzte Version
-
-| Version | Unterstuetzt |
-|---|---|
-| 0.1.x | Ja |
-
-## Sicherheitsprobleme melden
-
-Oeffne keine oeffentlichen Issues fuer Schwachstellen oder versehentliche Offenlegung von Secrets. Kontaktiere die Repository-Maintainer privat.
-
-## Umgang mit Daten
-
-Nicht committen:
-
-- Power-BI-Tenant-Secrets.
-- Gateway-Credentials.
-- OAuth Tokens.
-- API Keys.
-- Kundendatenextrakte.
-- PBIX/PBIP-Artefakte mit vertraulichen Produktionsdaten.
-- Screenshots mit sensiblen Business-Daten.
-
-## AI/KI Output Safety
-
-AI-generierte Power-BI-Empfehlungen muessen vor operativer Nutzung validiert werden. Validiere Source Metadata, KPI-Definitionen, Zugriffsregeln, Reconciliation Totals und Datenschutzanforderungen.
+AI-generated Power BI guidance must be validated before operational use. Validate source metadata, KPI definitions, access rules, reconciliation totals, data privacy constraints, DAX behavior, Power Query refresh behavior, and model relationships before release.

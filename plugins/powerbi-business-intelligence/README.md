@@ -18,8 +18,8 @@ Primary product references:
 
 - [Power BI Expert-Replacement Factory Gesamtplan](../../POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
 - [Power BI Expert-Replacement Skill Map](../../POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
-- [Power BI Expert-Replacement 20 Feature Rollout](../../POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
-- [Power BI Expert-Replacement Advanced USP Rollout](../../POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
+- [Power BI Expert-Replacement 20 Feature Rollout](../../docs/internal/POWERBI_EXPERT_REPLACEMENT_20_FEATURES.md)
+- [Power BI Expert-Replacement Advanced USP Rollout](../../docs/internal/POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md)
 
 The Process Owner AI/KI layer adds Process Owner Analytics Workbench, Process Manager Power BI Autopilot, Business Question to Power BI Report, Process-to-PowerBI Factory, Process-to-Semantic-Model Generator, Process-to-KPI Contract Generator, Process-to-DAX Measure Factory, Process-to-PowerQuery Factory, Process-to-Report Page Factory, Process-to-Root-Cause Cockpit, Process-to-Action Management, No-Code Semantic Model Builder, No-Code KPI and Measure Builder, Exception-to-Action Cockpit, Root-Cause Analytics for Process Owners, Owner Acceptance Workflow, Process Improvement Backlog Generator, Process Analytics Certification Assistant, and Process Owner Value Realization Tracking.
 
