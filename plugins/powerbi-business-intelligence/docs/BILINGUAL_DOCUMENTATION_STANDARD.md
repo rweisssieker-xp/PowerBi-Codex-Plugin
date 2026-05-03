@@ -2,6 +2,8 @@
 
 All substantial outputs should be documented in `en-US` and `de-DE`.
 
+Locale rule: use `en-US` for US English and `de-DE` for German. Do not use variants such as `us-en`, `en_US`, or `de_DE` in documentation headers.
+
 ## en-US
 
 Use `en-US` for international enterprise documentation, technical handover, architecture, governance, and audit evidence.
@@ -42,4 +44,3 @@ Pflichtabschnitte:
 - Translate business-facing KPI labels only when an approved term exists.
 - Keep both language versions semantically equivalent.
 - Add `Translation review required` when a business term has no approved translation.
-
