@@ -1,0 +1,14 @@
+-- Contract2Revenue generated DAX measure catalog
+-- Demo value column: ProcessCases[RevenueValue]
+
+Case Count = COUNTROWS('ProcessCases')
+SLA Breach Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = TRUE())
+SLA Breach Rate = DIVIDE([SLA Breach Count], [Case Count])
+Action Required Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[ActionRequired] = TRUE())
+Total RevenueValue = SUM('ProcessCases'[RevenueValue])
+
+Billing Readiness = SUM('ProcessCases'[RevenueValue])
+Revenue Leakage = SUM('ProcessCases'[RevenueValue])
+Deferred Revenue = SUM('ProcessCases'[RevenueValue])
+Renewal Risk = AVERAGE('ProcessCases'[RiskScore])
+Missing Billing Data = SUM('ProcessCases'[RevenueValue])

@@ -1,0 +1,70 @@
+{
+  "processId": "contract2revenue",
+  "processName": "Contract2Revenue",
+  "pages": [
+    {
+      "name": "Executive Overview",
+      "purpose": "Show KPI status, value at risk, SLA breach rate, and action backlog.",
+      "visuals": [
+        "KPI cards",
+        "Status trend",
+        "Value at risk bar",
+        "Top exceptions table"
+      ],
+      "requiredMeasures": [
+        "Billing Readiness",
+        "Revenue Leakage",
+        "Deferred Revenue",
+        "Renewal Risk"
+      ]
+    },
+    {
+      "name": "Process Flow And Aging",
+      "purpose": "Explain stage progress, bottlenecks, rework, and cycle-time aging.",
+      "visuals": [
+        "Stage funnel",
+        "Cycle-time histogram",
+        "Event sequence matrix",
+        "Aging heatmap"
+      ],
+      "requiredFields": [
+        "CurrentStage",
+        "ActualCycleDays",
+        "EventName",
+        "EventDate"
+      ]
+    },
+    {
+      "name": "Exception And Root Cause",
+      "purpose": "Prioritize SLA breaches, root causes, and financial exposure.",
+      "visuals": [
+        "Root cause matrix",
+        "Exception list",
+        "Risk scatter",
+        "Owner ranking"
+      ],
+      "requiredFields": [
+        "SlaBreached",
+        "RootCause",
+        "RiskScore",
+        "OwnerName"
+      ]
+    },
+    {
+      "name": "Owner Action Cockpit",
+      "purpose": "Turn insights into accountable process actions.",
+      "visuals": [
+        "Action backlog",
+        "Owner workload",
+        "High-risk cases",
+        "Drillthrough case detail"
+      ],
+      "requiredFields": [
+        "ActionRequired",
+        "OwnerRole",
+        "OwnerName",
+        "CaseID"
+      ]
+    }
+  ]
+}

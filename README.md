@@ -17,6 +17,7 @@ The product turns business and process questions into validated Power BI deliver
 - Generates native Power BI / Power Query connector designs for real sources. Excel uses native `Excel.Workbook(File.Contents(...), null, true)` or SharePoint/OneDrive binary-to-`Excel.Workbook` patterns.
 - Covers industrial process chains such as Lead2Order, Order2Cash, Procure2Pay, Plan2Produce, Record2Report, Maintain2Operate, Market2Lead, Dock2Stock, Complaint2CAPA, Control2Evidence, and Data2Insight2Action.
 - Provides a machine-readable industrial process catalog and synthetic demo data for 32 process chains under `data/industry_process_catalog.json` and `outputs/industry-demo-data/`.
+- Provides generated Power BI process-pack specifications for all 32 process chains under `outputs/industry-process-packs/`.
 - Adds executable trust checks for model graph quality, native source routing, visual bindings, DAX static checks, and Power BI Desktop smoke validation workflows.
 
 ## Repository Structure
@@ -56,6 +57,7 @@ Key guides:
 - [Architecture](ARCHITECTURE.md)
 - [Process Chain KPIs](docs/product/PROCESS_CHAIN_KPIS.md)
 - [Industry Demo Data](outputs/industry-demo-data/README.md)
+- [Industry Process Packs](outputs/industry-process-packs/README.md)
 - [Skills Catalog](docs/product/SKILLS_CATALOG.md)
 - [Power BI Expert-Replacement Factory Plan](docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
 - [Power BI Expert-Replacement Skill Map](docs/product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
@@ -90,6 +92,13 @@ Run repository checks:
 
 ```powershell
 python scripts\ci_repository_checks.py
+```
+
+Regenerate industrial process demo data and pack specifications:
+
+```powershell
+python scripts\build_industry_process_demo_data.py
+python scripts\build_industry_process_packs.py
 ```
 
 Run the sample PBIP validation:

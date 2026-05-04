@@ -14,7 +14,7 @@ Dieses Dokument listet industrielle Prozessketten, KPI-Themen, Reportseitenmuste
 
 The plugin treats process chains as Power BI data products, not isolated dashboards. Each chain should define source systems, case IDs, lifecycle events, KPI contracts, semantic model grain, validation, and actions.
 
-The machine-readable catalog is maintained in [industry_process_catalog.json](../../data/industry_process_catalog.json). Synthetic demo data for every listed process is available in [outputs/industry-demo-data](../../outputs/industry-demo-data/README.md). Each process has case-level records, event logs, and KPI snapshots for Power BI file/folder ingestion.
+The machine-readable catalog is maintained in [industry_process_catalog.json](../../data/industry_process_catalog.json). Synthetic demo data for every listed process is available in [outputs/industry-demo-data](../../outputs/industry-demo-data/README.md). Generated Power BI process-pack specifications are available in [outputs/industry-process-packs](../../outputs/industry-process-packs/README.md). Each process has case-level records, event logs, KPI snapshots, model specs, DAX measures, report page specs, and quality gates.
 
 ## de-DE Kurzfassung
 

@@ -1,0 +1,14 @@
+-- Make2Stock / Make2Order / Engineer2Order generated DAX measure catalog
+-- Demo value column: ProcessCases[CommitmentValue]
+
+Case Count = COUNTROWS('ProcessCases')
+SLA Breach Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = TRUE())
+SLA Breach Rate = DIVIDE([SLA Breach Count], [Case Count])
+Action Required Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[ActionRequired] = TRUE())
+Total CommitmentValue = SUM('ProcessCases'[CommitmentValue])
+
+Lead Time = AVERAGE('ProcessCases'[ActualCycleDays])
+WIP Value = SUM('ProcessCases'[CommitmentValue])
+Stock Cover = SUM('ProcessCases'[CommitmentValue])
+Milestone Adherence = DIVIDE(CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = FALSE()), COUNTROWS('ProcessCases'))
+Expedite Count = COUNTROWS('ProcessCases')

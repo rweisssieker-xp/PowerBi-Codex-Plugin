@@ -1,0 +1,14 @@
+-- S&OP / IBP2Execution generated DAX measure catalog
+-- Demo value column: ProcessCases[PlanGapValue]
+
+Case Count = COUNTROWS('ProcessCases')
+SLA Breach Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = TRUE())
+SLA Breach Rate = DIVIDE([SLA Breach Count], [Case Count])
+Action Required Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[ActionRequired] = TRUE())
+Total PlanGapValue = SUM('ProcessCases'[PlanGapValue])
+
+Plan Adherence = DIVIDE(CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = FALSE()), COUNTROWS('ProcessCases'))
+Constrained Gap = SUM('ProcessCases'[PlanGapValue])
+Capacity Overload = SUM('ProcessCases'[PlanGapValue])
+Inventory Target Adherence = DIVIDE(CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = FALSE()), COUNTROWS('ProcessCases'))
+Plan Change Count = COUNTROWS('ProcessCases')

@@ -1,0 +1,14 @@
+-- Close2Report / Plan2Perform generated DAX measure catalog
+-- Demo value column: ProcessCases[VarianceValue]
+
+Case Count = COUNTROWS('ProcessCases')
+SLA Breach Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = TRUE())
+SLA Breach Rate = DIVIDE([SLA Breach Count], [Case Count])
+Action Required Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[ActionRequired] = TRUE())
+Total VarianceValue = SUM('ProcessCases'[VarianceValue])
+
+Close Cycle = AVERAGE('ProcessCases'[ActualCycleDays])
+Late Postings = SUM('ProcessCases'[VarianceValue])
+Reconciliation Breaks = SUM('ProcessCases'[VarianceValue])
+Forecast Variance = SUM('ProcessCases'[VarianceValue])
+Planning Assumption Drift = SUM('ProcessCases'[VarianceValue])

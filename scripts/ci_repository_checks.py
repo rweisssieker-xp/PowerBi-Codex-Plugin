@@ -136,6 +136,68 @@ def check_industry_demo_data(root: Path) -> list[str]:
     return errors
 
 
+def check_industry_process_packs(root: Path) -> list[str]:
+    errors: list[str] = []
+    catalog_path = root / "data/industry_process_catalog.json"
+    if not catalog_path.exists():
+        return ["data/industry_process_catalog.json: required process catalog is missing"]
+
+    catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+    for process in catalog.get("processes", []):
+        process_id = process.get("processId")
+        if not process_id:
+            continue
+        folder = root / "outputs" / "industry-process-packs" / str(process_id)
+        required_files = [
+            "model_spec.json",
+            "dax_measures.dax",
+            "report_pages.json",
+            "quality_gate.json",
+            "README.md",
+        ]
+        for filename in required_files:
+            path = folder / filename
+            if not path.exists():
+                errors.append(f"{path}: required process-pack file is missing")
+
+        model_path = folder / "model_spec.json"
+        if model_path.exists():
+            model = json.loads(model_path.read_text(encoding="utf-8"))
+            if len(model.get("tables", [])) < 5:
+                errors.append(f"{model_path}: expected at least 5 semantic model tables")
+            if not model.get("relationships"):
+                errors.append(f"{model_path}: expected relationships")
+            source_pattern = model.get("nativeSourcePattern", {})
+            if source_pattern.get("connector") != "Folder.Files + Csv.Document":
+                errors.append(f"{model_path}: demo source connector pattern is not declared")
+
+        dax_path = folder / "dax_measures.dax"
+        if dax_path.exists():
+            text = dax_path.read_text(encoding="utf-8")
+            expected_min = len(process.get("kpis", [])) + 4
+            measure_count = len([line for line in text.splitlines() if " = " in line and not line.strip().startswith("--")])
+            if measure_count < expected_min:
+                errors.append(f"{dax_path}: expected at least {expected_min} measures, found {measure_count}")
+
+        pages_path = folder / "report_pages.json"
+        if pages_path.exists():
+            pages = json.loads(pages_path.read_text(encoding="utf-8")).get("pages", [])
+            if len(pages) < 4:
+                errors.append(f"{pages_path}: expected at least 4 report page specs")
+
+        gate_path = folder / "quality_gate.json"
+        if gate_path.exists():
+            checks = json.loads(gate_path.read_text(encoding="utf-8")).get("requiredChecks", [])
+            for required_check in ["model_spec_valid", "dax_measures_present", "report_pages_present"]:
+                if required_check not in checks:
+                    errors.append(f"{gate_path}: missing required check {required_check}")
+
+    index_path = root / "outputs" / "industry-process-packs" / "index.csv"
+    if not index_path.exists():
+        errors.append(f"{index_path}: industry process-pack index is missing")
+    return errors
+
+
 def run(root: Path) -> int:
     errors: list[str] = []
     errors.extend(check_required_files(root))
@@ -151,6 +213,7 @@ def run(root: Path) -> int:
     errors.extend(check_markdown_links(root))
     errors.extend(check_root_english(root))
     errors.extend(check_industry_demo_data(root))
+    errors.extend(check_industry_process_packs(root))
 
     if errors:
         for error in errors:

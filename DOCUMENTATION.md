@@ -19,6 +19,7 @@ This is the single navigation index for repository-level documentation. Root fil
 - [Skills Catalog](docs/product/SKILLS_CATALOG.md)
 - [Process Chain KPIs](docs/product/PROCESS_CHAIN_KPIS.md)
 - [Industry Demo Data](outputs/industry-demo-data/README.md)
+- [Industry Process Packs](outputs/industry-process-packs/README.md)
 - [Source System Coverage](docs/product/SOURCE_SYSTEM_COVERAGE.md)
 - [Power BI Native Connector Coverage](docs/product/POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
 

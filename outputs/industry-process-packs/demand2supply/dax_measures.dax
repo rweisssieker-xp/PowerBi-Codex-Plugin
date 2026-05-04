@@ -1,0 +1,14 @@
+-- Demand2Supply generated DAX measure catalog
+-- Demo value column: ProcessCases[ShortageValue]
+
+Case Count = COUNTROWS('ProcessCases')
+SLA Breach Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = TRUE())
+SLA Breach Rate = DIVIDE([SLA Breach Count], [Case Count])
+Action Required Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[ActionRequired] = TRUE())
+Total ShortageValue = SUM('ProcessCases'[ShortageValue])
+
+Shortage Value = SUM('ProcessCases'[ShortageValue])
+ATP Failure Rate = DIVIDE(CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = FALSE()), COUNTROWS('ProcessCases'))
+Lost Sales = SUM('ProcessCases'[ShortageValue])
+Supply Gap = SUM('ProcessCases'[ShortageValue])
+Allocation Aging = AVERAGE('ProcessCases'[ActualCycleDays])

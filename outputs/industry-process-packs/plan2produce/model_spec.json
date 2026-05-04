@@ -1,0 +1,138 @@
+{
+  "processId": "plan2produce",
+  "processName": "Plan2Produce",
+  "grain": "One row per process case in ProcessCases; one row per lifecycle event in ProcessEvents; one row per KPI/month in ProcessKpiSnapshots.",
+  "storageMode": "Import",
+  "nativeSourcePattern": {
+    "connector": "Folder.Files + Csv.Document",
+    "demoPath": "outputs/industry-demo-data/plan2produce",
+    "productionRouting": "Replace CSV folder with validated native ERP/CRM/WMS/MES/QMS/EPM/Fabric connector according to source metadata."
+  },
+  "tables": [
+    {
+      "name": "ProcessCases",
+      "sourceFile": "cases.csv",
+      "type": "fact",
+      "key": "CaseID",
+      "valueColumn": "ProductionValue",
+      "columns": [
+        "ProcessID",
+        "ProcessName",
+        "CaseID",
+        "CaseName",
+        "Domain",
+        "OwnerRole",
+        "OwnerName",
+        "Region",
+        "PlantID",
+        "BusinessPartner",
+        "CurrentStage",
+        "StartDate",
+        "TargetDate",
+        "ActualOrForecastDate",
+        "TargetCycleDays",
+        "ActualCycleDays",
+        "SlaBreached",
+        "RootCause",
+        "ProductionValue",
+        "RiskScore",
+        "ActionRequired"
+      ]
+    },
+    {
+      "name": "ProcessEvents",
+      "sourceFile": "events.csv",
+      "type": "fact",
+      "key": "CaseID|EventSequence",
+      "columns": [
+        "ProcessID",
+        "ProcessName",
+        "CaseID",
+        "EventSequence",
+        "EventName",
+        "EventDate",
+        "SourceSystem",
+        "TouchedBy",
+        "AutomationFlag",
+        "ReworkFlag",
+        "EventCost"
+      ]
+    },
+    {
+      "name": "ProcessKpiSnapshots",
+      "sourceFile": "kpi_snapshots.csv",
+      "type": "fact",
+      "key": "ProcessID|Period|KPIName",
+      "columns": [
+        "ProcessID",
+        "ProcessName",
+        "Period",
+        "KPIName",
+        "ActualValue",
+        "TargetValue",
+        "Tolerance",
+        "Status",
+        "OwnerRole",
+        "SourceSystems"
+      ]
+    },
+    {
+      "name": "DimProcess",
+      "type": "dimension",
+      "columns": [
+        "ProcessID",
+        "ProcessName",
+        "Domain",
+        "OwnerRole"
+      ]
+    },
+    {
+      "name": "DimCalendar",
+      "type": "dimension",
+      "columns": [
+        "Date",
+        "Year",
+        "Quarter",
+        "Month",
+        "FiscalPeriod"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "fromTable": "ProcessEvents",
+      "fromColumn": "CaseID",
+      "toTable": "ProcessCases",
+      "toColumn": "CaseID",
+      "cardinality": "many-to-one",
+      "crossFilter": "single",
+      "active": true
+    },
+    {
+      "fromTable": "ProcessKpiSnapshots",
+      "fromColumn": "ProcessID",
+      "toTable": "DimProcess",
+      "toColumn": "ProcessID",
+      "cardinality": "many-to-one",
+      "crossFilter": "single",
+      "active": true
+    },
+    {
+      "fromTable": "ProcessCases",
+      "fromColumn": "ProcessID",
+      "toTable": "DimProcess",
+      "toColumn": "ProcessID",
+      "cardinality": "many-to-one",
+      "crossFilter": "single",
+      "active": true
+    }
+  ],
+  "rls": [
+    {
+      "role": "ProcessOwner",
+      "table": "ProcessCases",
+      "filter": "[OwnerRole] = USERPRINCIPALNAME() or [OwnerName] = USERPRINCIPALNAME()",
+      "note": "Replace with enterprise identity mapping before production."
+    }
+  ]
+}

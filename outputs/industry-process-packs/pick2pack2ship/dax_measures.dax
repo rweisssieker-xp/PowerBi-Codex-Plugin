@@ -1,0 +1,14 @@
+-- Pick2Pack2Ship generated DAX measure catalog
+-- Demo value column: ProcessCases[ShipmentValue]
+
+Case Count = COUNTROWS('ProcessCases')
+SLA Breach Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = TRUE())
+SLA Breach Rate = DIVIDE([SLA Breach Count], [Case Count])
+Action Required Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[ActionRequired] = TRUE())
+Total ShipmentValue = SUM('ProcessCases'[ShipmentValue])
+
+Pick Accuracy = DIVIDE(CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = FALSE()), COUNTROWS('ProcessCases'))
+Lines Per Hour = SUM('ProcessCases'[ShipmentValue])
+Wave Adherence = DIVIDE(CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = FALSE()), COUNTROWS('ProcessCases'))
+Pack Backlog = SUM('ProcessCases'[ShipmentValue])
+Cut-Off Misses = SUM('ProcessCases'[ShipmentValue])

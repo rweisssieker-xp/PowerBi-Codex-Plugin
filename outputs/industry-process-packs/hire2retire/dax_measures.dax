@@ -1,0 +1,14 @@
+-- Hire2Retire generated DAX measure catalog
+-- Demo value column: ProcessCases[WorkforceCost]
+
+Case Count = COUNTROWS('ProcessCases')
+SLA Breach Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = TRUE())
+SLA Breach Rate = DIVIDE([SLA Breach Count], [Case Count])
+Action Required Count = CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[ActionRequired] = TRUE())
+Total WorkforceCost = SUM('ProcessCases'[WorkforceCost])
+
+Time To Hire = AVERAGE('ProcessCases'[ActualCycleDays])
+Absence Rate = DIVIDE(CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = FALSE()), COUNTROWS('ProcessCases'))
+Skill Gap = SUM('ProcessCases'[WorkforceCost])
+Training Compliance = DIVIDE(CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = FALSE()), COUNTROWS('ProcessCases'))
+Safety Incident Rate = DIVIDE(CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = FALSE()), COUNTROWS('ProcessCases'))
