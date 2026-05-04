@@ -1,0 +1,29 @@
+{
+  "sequence": 15,
+  "id": "action_recommendation_engine",
+  "name": "Action Recommendation Engine",
+  "summary": "Recommend actions from root cause, value impact, risk, owner capacity, and SLA pressure.",
+  "capabilityType": "action-ai",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/action_recommendation_engine/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/action_recommendation_engine/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/action_recommendation_engine/evidence_contract.json"
+}

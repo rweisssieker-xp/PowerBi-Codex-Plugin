@@ -18,6 +18,7 @@ Detailed product documentation for the Power BI Expert-Replacement Factory.
 - [USP Capability Coverage](../../outputs/usp-capability-coverage/README.md)
 - [Power BI Feature Factory](../../outputs/powerbi-feature-factory/README.md)
 - [Power BI Execution Layer](../../outputs/powerbi-execution-layer/README.md)
+- [Power BI Premium USP Layer](../../outputs/powerbi-premium-usp-layer/README.md)
 
 ## Scope
 

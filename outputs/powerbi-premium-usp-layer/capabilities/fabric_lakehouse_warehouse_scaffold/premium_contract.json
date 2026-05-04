@@ -1,0 +1,29 @@
+{
+  "sequence": 25,
+  "id": "fabric_lakehouse_warehouse_scaffold",
+  "name": "Fabric Lakehouse/Warehouse Scaffold",
+  "summary": "Generate optional Fabric Lakehouse, Warehouse, Notebook, and Pipeline architecture scaffolds.",
+  "capabilityType": "fabric-architecture",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/fabric_lakehouse_warehouse_scaffold/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/fabric_lakehouse_warehouse_scaffold/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/fabric_lakehouse_warehouse_scaffold/evidence_contract.json"
+}

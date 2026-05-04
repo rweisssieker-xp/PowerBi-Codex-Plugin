@@ -1,0 +1,29 @@
+{
+  "sequence": 23,
+  "id": "industry_compliance_packs",
+  "name": "Industry Compliance Packs",
+  "summary": "Add SOX, GMP, ESG/CSRD, IATF, ISO 9001, and audit evidence requirements.",
+  "capabilityType": "compliance",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/industry_compliance_packs/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/industry_compliance_packs/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/industry_compliance_packs/evidence_contract.json"
+}

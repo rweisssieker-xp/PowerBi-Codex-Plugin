@@ -1,0 +1,29 @@
+{
+  "sequence": 7,
+  "id": "semantic_model_auto_repair",
+  "name": "Semantic Model Auto-Repair",
+  "summary": "Generate repair patches for TMDL relationships, tables, measures, and naming issues.",
+  "capabilityType": "model-repair",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/semantic_model_auto_repair/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/semantic_model_auto_repair/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/semantic_model_auto_repair/evidence_contract.json"
+}

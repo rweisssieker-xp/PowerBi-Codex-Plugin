@@ -1,0 +1,16 @@
+{
+  "id": "multi_agent_bi_sprint_orchestrator",
+  "name": "Multi-Agent BI Sprint Orchestrator",
+  "requiredEvidence": [
+    "input metadata snapshot",
+    "generated decision output",
+    "validation result",
+    "owner or CoE acceptance note"
+  ],
+  "blockingRules": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ]
+}

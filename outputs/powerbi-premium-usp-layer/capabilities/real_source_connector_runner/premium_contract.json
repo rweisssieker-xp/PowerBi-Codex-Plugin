@@ -1,0 +1,29 @@
+{
+  "sequence": 1,
+  "id": "real_source_connector_runner",
+  "name": "Real Source Connector Runner",
+  "summary": "Execute real source profiling through native Power BI connector families without storing credentials.",
+  "capabilityType": "connector-runtime",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/real_source_connector_runner/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/real_source_connector_runner/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/real_source_connector_runner/evidence_contract.json"
+}

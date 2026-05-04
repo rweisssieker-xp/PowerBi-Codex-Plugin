@@ -1,0 +1,29 @@
+{
+  "sequence": 24,
+  "id": "automated_documentation_publisher",
+  "name": "Automated Documentation Publisher",
+  "summary": "Publish owner handbook, CoE pack, model docs, KPI glossary, and release notes.",
+  "capabilityType": "documentation-automation",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/automated_documentation_publisher/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/automated_documentation_publisher/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/automated_documentation_publisher/evidence_contract.json"
+}

@@ -1,0 +1,732 @@
+{
+  "version": "2026-05-04",
+  "description": "Twenty-five premium USP features above the core Power BI Expert-Replacement Factory layer.",
+  "capabilityCount": 25,
+  "capabilities": [
+    {
+      "sequence": 1,
+      "id": "real_source_connector_runner",
+      "name": "Real Source Connector Runner",
+      "summary": "Execute real source profiling through native Power BI connector families without storing credentials.",
+      "capabilityType": "connector-runtime",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/real_source_connector_runner/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/real_source_connector_runner/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/real_source_connector_runner/evidence_contract.json"
+    },
+    {
+      "sequence": 2,
+      "id": "credential_safe_source_session",
+      "name": "Credential-Safe Source Session",
+      "summary": "Run source checks through ephemeral credential sessions and persist only metadata and evidence.",
+      "capabilityType": "security-runtime",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/credential_safe_source_session/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/credential_safe_source_session/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/credential_safe_source_session/evidence_contract.json"
+    },
+    {
+      "sequence": 3,
+      "id": "auto_field_mapping_ai",
+      "name": "Auto Field Mapping AI",
+      "summary": "Map source-specific fields such as KUNNR, CustomerNo, and AccountId to governed semantic fields.",
+      "capabilityType": "mapping-ai",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/auto_field_mapping_ai/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/auto_field_mapping_ai/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/auto_field_mapping_ai/evidence_contract.json"
+    },
+    {
+      "sequence": 4,
+      "id": "process_mining_import",
+      "name": "Process Mining Import",
+      "summary": "Import event-log structures from Celonis, SAP Signavio, UiPath Process Mining, and ServiceNow.",
+      "capabilityType": "process-mining",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/process_mining_import/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/process_mining_import/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/process_mining_import/evidence_contract.json"
+    },
+    {
+      "sequence": 5,
+      "id": "kpi_ontology_graph",
+      "name": "KPI Ontology / KPI Knowledge Graph",
+      "summary": "Maintain KPI definitions, synonyms, formulas, owners, and comparability across processes.",
+      "capabilityType": "knowledge-graph",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/kpi_ontology_graph/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/kpi_ontology_graph/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/kpi_ontology_graph/evidence_contract.json"
+    },
+    {
+      "sequence": 6,
+      "id": "business_question_router",
+      "name": "Business Question Router",
+      "summary": "Route natural-language business questions to process packs, KPIs, data sources, measures, and visuals.",
+      "capabilityType": "intake-ai",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/business_question_router/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/business_question_router/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/business_question_router/evidence_contract.json"
+    },
+    {
+      "sequence": 7,
+      "id": "semantic_model_auto_repair",
+      "name": "Semantic Model Auto-Repair",
+      "summary": "Generate repair patches for TMDL relationships, tables, measures, and naming issues.",
+      "capabilityType": "model-repair",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/semantic_model_auto_repair/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/semantic_model_auto_repair/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/semantic_model_auto_repair/evidence_contract.json"
+    },
+    {
+      "sequence": 8,
+      "id": "pbir_visual_materializer",
+      "name": "PBIR Visual Materializer",
+      "summary": "Create PBIR visual containers from report specs and semantic bindings.",
+      "capabilityType": "report-runtime",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/pbir_visual_materializer/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/pbir_visual_materializer/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/pbir_visual_materializer/evidence_contract.json"
+    },
+    {
+      "sequence": 9,
+      "id": "full_pbip_generator_all_processes",
+      "name": "Full PBIP Generator For All Processes",
+      "summary": "Generate PBIP/PBIR/TMDL project skeletons for every industrial process pack.",
+      "capabilityType": "pbip-runtime",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/full_pbip_generator_all_processes/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/full_pbip_generator_all_processes/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/full_pbip_generator_all_processes/evidence_contract.json"
+    },
+    {
+      "sequence": 10,
+      "id": "powerbi_desktop_log_parser",
+      "name": "Power BI Desktop Log Parser",
+      "summary": "Parse Desktop traces and Frown snapshots and connect them to repair knowledge.",
+      "capabilityType": "desktop-qa",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/powerbi_desktop_log_parser/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/powerbi_desktop_log_parser/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/powerbi_desktop_log_parser/evidence_contract.json"
+    },
+    {
+      "sequence": 11,
+      "id": "measure_benchmark_engine",
+      "name": "Measure Benchmark Engine",
+      "summary": "Score DAX measures for complexity, dependencies, redundancy, and regression risk.",
+      "capabilityType": "dax-performance",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/measure_benchmark_engine/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/measure_benchmark_engine/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/measure_benchmark_engine/evidence_contract.json"
+    },
+    {
+      "sequence": 12,
+      "id": "ai_report_critic_designer_scoring",
+      "name": "AI Report Critic / Designer Scoring",
+      "summary": "Score report pages for UX, layout, visual choice, density, and executive readability.",
+      "capabilityType": "design-qa",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/ai_report_critic_designer_scoring/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/ai_report_critic_designer_scoring/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/ai_report_critic_designer_scoring/evidence_contract.json"
+    },
+    {
+      "sequence": 13,
+      "id": "natural_language_dax_explainer",
+      "name": "Natural Language DAX Explainer",
+      "summary": "Explain every DAX measure in business and technical language.",
+      "capabilityType": "dax-explainability",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/natural_language_dax_explainer/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/natural_language_dax_explainer/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/natural_language_dax_explainer/evidence_contract.json"
+    },
+    {
+      "sequence": 14,
+      "id": "what_if_scenario_generator",
+      "name": "What-if Scenario Generator",
+      "summary": "Generate scenario models for SLA, capacity, cost, conversion, backlog, and risk changes.",
+      "capabilityType": "simulation",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/what_if_scenario_generator/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/what_if_scenario_generator/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/what_if_scenario_generator/evidence_contract.json"
+    },
+    {
+      "sequence": 15,
+      "id": "action_recommendation_engine",
+      "name": "Action Recommendation Engine",
+      "summary": "Recommend actions from root cause, value impact, risk, owner capacity, and SLA pressure.",
+      "capabilityType": "action-ai",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/action_recommendation_engine/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/action_recommendation_engine/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/action_recommendation_engine/evidence_contract.json"
+    },
+    {
+      "sequence": 16,
+      "id": "value_case_calculator",
+      "name": "Value Case Calculator",
+      "summary": "Calculate opportunity value, effort, expected benefit, and confidence for each process initiative.",
+      "capabilityType": "value-management",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/value_case_calculator/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/value_case_calculator/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/value_case_calculator/evidence_contract.json"
+    },
+    {
+      "sequence": 17,
+      "id": "tenant_readiness_scanner",
+      "name": "Tenant Readiness Scanner",
+      "summary": "Check tenant prerequisites for gateway, sensitivity labels, deployment pipelines, capacity, and RLS.",
+      "capabilityType": "tenant-governance",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/tenant_readiness_scanner/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/tenant_readiness_scanner/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/tenant_readiness_scanner/evidence_contract.json"
+    },
+    {
+      "sequence": 18,
+      "id": "deployment_pipeline_generator",
+      "name": "Deployment Pipeline Generator",
+      "summary": "Generate Dev/Test/Prod deployment, release evidence, rollback, and approval plans.",
+      "capabilityType": "release-automation",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/deployment_pipeline_generator/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/deployment_pipeline_generator/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/deployment_pipeline_generator/evidence_contract.json"
+    },
+    {
+      "sequence": 19,
+      "id": "data_contract_generator",
+      "name": "Data Contract Generator",
+      "summary": "Generate source-owner to process-owner contracts for fields, types, refresh SLA, drift, and ownership.",
+      "capabilityType": "data-contracts",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/data_contract_generator/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/data_contract_generator/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/data_contract_generator/evidence_contract.json"
+    },
+    {
+      "sequence": 20,
+      "id": "multi_agent_bi_sprint_orchestrator",
+      "name": "Multi-Agent BI Sprint Orchestrator",
+      "summary": "Coordinate consultant, modeler, DAX, designer, QA, and CoE agents with evidence handoffs.",
+      "capabilityType": "agent-orchestration",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/multi_agent_bi_sprint_orchestrator/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/multi_agent_bi_sprint_orchestrator/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/multi_agent_bi_sprint_orchestrator/evidence_contract.json"
+    },
+    {
+      "sequence": 21,
+      "id": "report_portfolio_rationalizer",
+      "name": "Report Portfolio Rationalizer",
+      "summary": "Analyze existing reports, detect duplicates, and propose reusable target process packs.",
+      "capabilityType": "portfolio-optimization",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/report_portfolio_rationalizer/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/report_portfolio_rationalizer/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/report_portfolio_rationalizer/evidence_contract.json"
+    },
+    {
+      "sequence": 22,
+      "id": "process_pack_marketplace_ui",
+      "name": "Process Pack Marketplace UI",
+      "summary": "Define a UI-ready catalog for selecting, comparing, installing, and versioning process packs.",
+      "capabilityType": "marketplace-ui",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/process_pack_marketplace_ui/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/process_pack_marketplace_ui/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/process_pack_marketplace_ui/evidence_contract.json"
+    },
+    {
+      "sequence": 23,
+      "id": "industry_compliance_packs",
+      "name": "Industry Compliance Packs",
+      "summary": "Add SOX, GMP, ESG/CSRD, IATF, ISO 9001, and audit evidence requirements.",
+      "capabilityType": "compliance",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/industry_compliance_packs/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/industry_compliance_packs/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/industry_compliance_packs/evidence_contract.json"
+    },
+    {
+      "sequence": 24,
+      "id": "automated_documentation_publisher",
+      "name": "Automated Documentation Publisher",
+      "summary": "Publish owner handbook, CoE pack, model docs, KPI glossary, and release notes.",
+      "capabilityType": "documentation-automation",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/automated_documentation_publisher/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/automated_documentation_publisher/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/automated_documentation_publisher/evidence_contract.json"
+    },
+    {
+      "sequence": 25,
+      "id": "fabric_lakehouse_warehouse_scaffold",
+      "name": "Fabric Lakehouse/Warehouse Scaffold",
+      "summary": "Generate optional Fabric Lakehouse, Warehouse, Notebook, and Pipeline architecture scaffolds.",
+      "capabilityType": "fabric-architecture",
+      "implementationStatus": "implemented_as_premium_usp_contract",
+      "inputs": [
+        "process context",
+        "source profile or metadata",
+        "semantic model contract",
+        "governance policy"
+      ],
+      "outputs": [
+        "premium capability contract",
+        "execution recipe",
+        "acceptance evidence contract",
+        "process mapping"
+      ],
+      "acceptanceChecks": [
+        "contract exists",
+        "process mapping exists",
+        "evidence requirements are explicit",
+        "no credentials or tenant secrets are persisted"
+      ],
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/fabric_lakehouse_warehouse_scaffold/premium_contract.json",
+      "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/fabric_lakehouse_warehouse_scaffold/execution_recipe.md",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/fabric_lakehouse_warehouse_scaffold/evidence_contract.json"
+    }
+  ]
+}

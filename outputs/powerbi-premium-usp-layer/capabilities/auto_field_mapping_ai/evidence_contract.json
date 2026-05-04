@@ -1,0 +1,16 @@
+{
+  "id": "auto_field_mapping_ai",
+  "name": "Auto Field Mapping AI",
+  "requiredEvidence": [
+    "input metadata snapshot",
+    "generated decision output",
+    "validation result",
+    "owner or CoE acceptance note"
+  ],
+  "blockingRules": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ]
+}

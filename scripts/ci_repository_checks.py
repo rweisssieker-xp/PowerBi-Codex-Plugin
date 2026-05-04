@@ -431,6 +431,72 @@ def check_powerbi_execution_layer(root: Path) -> list[str]:
     return errors
 
 
+def check_powerbi_premium_usp_layer(root: Path) -> list[str]:
+    errors: list[str] = []
+    catalog_path = root / "data/powerbi_premium_usp_catalog.json"
+    output_root = root / "outputs/powerbi-premium-usp-layer"
+    process_catalog_path = root / "data/industry_process_catalog.json"
+
+    if not catalog_path.exists():
+        return [f"{catalog_path}: premium USP catalog is missing"]
+    if not output_root.exists():
+        return [f"{output_root}: premium USP output folder is missing"]
+
+    catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+    capabilities = catalog.get("capabilities", [])
+    if catalog.get("capabilityCount") != 25 or len(capabilities) != 25:
+        errors.append(f"{catalog_path}: expected exactly 25 premium USP capabilities")
+
+    required_fields = [
+        "id",
+        "name",
+        "summary",
+        "capabilityType",
+        "implementationStatus",
+        "inputs",
+        "outputs",
+        "acceptanceChecks",
+        "contractPath",
+        "recipePath",
+        "evidencePath",
+    ]
+    for capability in capabilities:
+        for field in required_fields:
+            if not capability.get(field):
+                errors.append(f"{catalog_path}: premium USP {capability.get('id')} missing {field}")
+        if capability.get("implementationStatus") != "implemented_as_premium_usp_contract":
+            errors.append(f"{catalog_path}: premium USP {capability.get('id')} has invalid status")
+        for key in ["contractPath", "recipePath", "evidencePath"]:
+            path = root / capability.get(key, "")
+            if not path.exists():
+                errors.append(f"{path}: premium USP artifact is missing")
+
+    processes = json.loads(process_catalog_path.read_text(encoding="utf-8")).get("processes", [])
+    for process in processes:
+        process_id = process.get("processId")
+        plan_path = output_root / "processes" / str(process_id) / "premium_usp_plan.json"
+        if not plan_path.exists():
+            errors.append(f"{plan_path}: process premium USP plan is missing")
+            continue
+        plan = json.loads(plan_path.read_text(encoding="utf-8"))
+        if plan.get("premiumUspCount") != 25 or len(plan.get("premiumUsps", [])) != 25:
+            errors.append(f"{plan_path}: expected 25 premium USPs")
+
+    matrix_path = output_root / "process_premium_usp_matrix.csv"
+    if not matrix_path.exists():
+        errors.append(f"{matrix_path}: process premium USP matrix is missing")
+    else:
+        row_count = max(0, len(matrix_path.read_text(encoding="utf-8").splitlines()) - 1)
+        expected = len(processes) * 25
+        if row_count != expected:
+            errors.append(f"{matrix_path}: expected {expected} rows, found {row_count}")
+    if not (output_root / "premium_usp_index.csv").exists():
+        errors.append(f"{output_root / 'premium_usp_index.csv'}: premium USP index is missing")
+    if not (output_root / "README.md").exists():
+        errors.append(f"{output_root / 'README.md'}: premium USP README is missing")
+    return errors
+
+
 def run(root: Path) -> int:
     errors: list[str] = []
     errors.extend(check_required_files(root))
@@ -451,6 +517,7 @@ def run(root: Path) -> int:
     errors.extend(check_usp_capability_coverage(root))
     errors.extend(check_powerbi_feature_factory(root))
     errors.extend(check_powerbi_execution_layer(root))
+    errors.extend(check_powerbi_premium_usp_layer(root))
 
     if errors:
         for error in errors:

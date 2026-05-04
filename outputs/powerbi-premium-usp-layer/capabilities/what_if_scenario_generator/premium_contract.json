@@ -1,0 +1,29 @@
+{
+  "sequence": 14,
+  "id": "what_if_scenario_generator",
+  "name": "What-if Scenario Generator",
+  "summary": "Generate scenario models for SLA, capacity, cost, conversion, backlog, and risk changes.",
+  "capabilityType": "simulation",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/what_if_scenario_generator/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/what_if_scenario_generator/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/what_if_scenario_generator/evidence_contract.json"
+}

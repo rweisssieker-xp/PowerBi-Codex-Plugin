@@ -1,0 +1,16 @@
+{
+  "id": "tenant_readiness_scanner",
+  "name": "Tenant Readiness Scanner",
+  "requiredEvidence": [
+    "input metadata snapshot",
+    "generated decision output",
+    "validation result",
+    "owner or CoE acceptance note"
+  ],
+  "blockingRules": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ]
+}

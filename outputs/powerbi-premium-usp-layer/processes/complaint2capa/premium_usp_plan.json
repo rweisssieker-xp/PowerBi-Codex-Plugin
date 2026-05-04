@@ -1,0 +1,213 @@
+{
+  "processId": "complaint2capa",
+  "processName": "Complaint2CAPA",
+  "domain": "Quality",
+  "premiumUspCount": 25,
+  "premiumUsps": [
+    {
+      "id": "real_source_connector_runner",
+      "name": "Real Source Connector Runner",
+      "capabilityType": "connector-runtime",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/real_source_connector_runner/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/real_source_connector_runner/evidence_contract.json"
+    },
+    {
+      "id": "credential_safe_source_session",
+      "name": "Credential-Safe Source Session",
+      "capabilityType": "security-runtime",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/credential_safe_source_session/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/credential_safe_source_session/evidence_contract.json"
+    },
+    {
+      "id": "auto_field_mapping_ai",
+      "name": "Auto Field Mapping AI",
+      "capabilityType": "mapping-ai",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/auto_field_mapping_ai/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/auto_field_mapping_ai/evidence_contract.json"
+    },
+    {
+      "id": "process_mining_import",
+      "name": "Process Mining Import",
+      "capabilityType": "process-mining",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/process_mining_import/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/process_mining_import/evidence_contract.json"
+    },
+    {
+      "id": "kpi_ontology_graph",
+      "name": "KPI Ontology / KPI Knowledge Graph",
+      "capabilityType": "knowledge-graph",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/kpi_ontology_graph/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/kpi_ontology_graph/evidence_contract.json"
+    },
+    {
+      "id": "business_question_router",
+      "name": "Business Question Router",
+      "capabilityType": "intake-ai",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/business_question_router/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/business_question_router/evidence_contract.json"
+    },
+    {
+      "id": "semantic_model_auto_repair",
+      "name": "Semantic Model Auto-Repair",
+      "capabilityType": "model-repair",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/semantic_model_auto_repair/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/semantic_model_auto_repair/evidence_contract.json"
+    },
+    {
+      "id": "pbir_visual_materializer",
+      "name": "PBIR Visual Materializer",
+      "capabilityType": "report-runtime",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/pbir_visual_materializer/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/pbir_visual_materializer/evidence_contract.json"
+    },
+    {
+      "id": "full_pbip_generator_all_processes",
+      "name": "Full PBIP Generator For All Processes",
+      "capabilityType": "pbip-runtime",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/full_pbip_generator_all_processes/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/full_pbip_generator_all_processes/evidence_contract.json"
+    },
+    {
+      "id": "powerbi_desktop_log_parser",
+      "name": "Power BI Desktop Log Parser",
+      "capabilityType": "desktop-qa",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/powerbi_desktop_log_parser/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/powerbi_desktop_log_parser/evidence_contract.json"
+    },
+    {
+      "id": "measure_benchmark_engine",
+      "name": "Measure Benchmark Engine",
+      "capabilityType": "dax-performance",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/measure_benchmark_engine/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/measure_benchmark_engine/evidence_contract.json"
+    },
+    {
+      "id": "ai_report_critic_designer_scoring",
+      "name": "AI Report Critic / Designer Scoring",
+      "capabilityType": "design-qa",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/ai_report_critic_designer_scoring/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/ai_report_critic_designer_scoring/evidence_contract.json"
+    },
+    {
+      "id": "natural_language_dax_explainer",
+      "name": "Natural Language DAX Explainer",
+      "capabilityType": "dax-explainability",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/natural_language_dax_explainer/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/natural_language_dax_explainer/evidence_contract.json"
+    },
+    {
+      "id": "what_if_scenario_generator",
+      "name": "What-if Scenario Generator",
+      "capabilityType": "simulation",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/what_if_scenario_generator/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/what_if_scenario_generator/evidence_contract.json"
+    },
+    {
+      "id": "action_recommendation_engine",
+      "name": "Action Recommendation Engine",
+      "capabilityType": "action-ai",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/action_recommendation_engine/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/action_recommendation_engine/evidence_contract.json"
+    },
+    {
+      "id": "value_case_calculator",
+      "name": "Value Case Calculator",
+      "capabilityType": "value-management",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/value_case_calculator/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/value_case_calculator/evidence_contract.json"
+    },
+    {
+      "id": "tenant_readiness_scanner",
+      "name": "Tenant Readiness Scanner",
+      "capabilityType": "tenant-governance",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/tenant_readiness_scanner/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/tenant_readiness_scanner/evidence_contract.json"
+    },
+    {
+      "id": "deployment_pipeline_generator",
+      "name": "Deployment Pipeline Generator",
+      "capabilityType": "release-automation",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/deployment_pipeline_generator/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/deployment_pipeline_generator/evidence_contract.json"
+    },
+    {
+      "id": "data_contract_generator",
+      "name": "Data Contract Generator",
+      "capabilityType": "data-contracts",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/data_contract_generator/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/data_contract_generator/evidence_contract.json"
+    },
+    {
+      "id": "multi_agent_bi_sprint_orchestrator",
+      "name": "Multi-Agent BI Sprint Orchestrator",
+      "capabilityType": "agent-orchestration",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/multi_agent_bi_sprint_orchestrator/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/multi_agent_bi_sprint_orchestrator/evidence_contract.json"
+    },
+    {
+      "id": "report_portfolio_rationalizer",
+      "name": "Report Portfolio Rationalizer",
+      "capabilityType": "portfolio-optimization",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/report_portfolio_rationalizer/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/report_portfolio_rationalizer/evidence_contract.json"
+    },
+    {
+      "id": "process_pack_marketplace_ui",
+      "name": "Process Pack Marketplace UI",
+      "capabilityType": "marketplace-ui",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/process_pack_marketplace_ui/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/process_pack_marketplace_ui/evidence_contract.json"
+    },
+    {
+      "id": "industry_compliance_packs",
+      "name": "Industry Compliance Packs",
+      "capabilityType": "compliance",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/industry_compliance_packs/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/industry_compliance_packs/evidence_contract.json"
+    },
+    {
+      "id": "automated_documentation_publisher",
+      "name": "Automated Documentation Publisher",
+      "capabilityType": "documentation-automation",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/automated_documentation_publisher/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/automated_documentation_publisher/evidence_contract.json"
+    },
+    {
+      "id": "fabric_lakehouse_warehouse_scaffold",
+      "name": "Fabric Lakehouse/Warehouse Scaffold",
+      "capabilityType": "fabric-architecture",
+      "status": "planned_with_contract",
+      "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/fabric_lakehouse_warehouse_scaffold/premium_contract.json",
+      "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/fabric_lakehouse_warehouse_scaffold/evidence_contract.json"
+    }
+  ],
+  "dependsOn": {
+    "coreFeatureContracts": "outputs/powerbi-feature-factory",
+    "executionLayer": "outputs/powerbi-execution-layer/processes/complaint2capa",
+    "processPack": "outputs/industry-process-packs/complaint2capa"
+  }
+}

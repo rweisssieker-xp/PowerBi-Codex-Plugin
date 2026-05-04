@@ -1,0 +1,29 @@
+{
+  "sequence": 19,
+  "id": "data_contract_generator",
+  "name": "Data Contract Generator",
+  "summary": "Generate source-owner to process-owner contracts for fields, types, refresh SLA, drift, and ownership.",
+  "capabilityType": "data-contracts",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/data_contract_generator/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/data_contract_generator/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/data_contract_generator/evidence_contract.json"
+}

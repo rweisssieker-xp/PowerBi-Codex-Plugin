@@ -1,0 +1,16 @@
+{
+  "id": "industry_compliance_packs",
+  "name": "Industry Compliance Packs",
+  "requiredEvidence": [
+    "input metadata snapshot",
+    "generated decision output",
+    "validation result",
+    "owner or CoE acceptance note"
+  ],
+  "blockingRules": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ]
+}

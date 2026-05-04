@@ -1,0 +1,29 @@
+{
+  "sequence": 16,
+  "id": "value_case_calculator",
+  "name": "Value Case Calculator",
+  "summary": "Calculate opportunity value, effort, expected benefit, and confidence for each process initiative.",
+  "capabilityType": "value-management",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/value_case_calculator/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/value_case_calculator/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/value_case_calculator/evidence_contract.json"
+}

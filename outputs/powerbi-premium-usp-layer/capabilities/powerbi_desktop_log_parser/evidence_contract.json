@@ -1,0 +1,16 @@
+{
+  "id": "powerbi_desktop_log_parser",
+  "name": "Power BI Desktop Log Parser",
+  "requiredEvidence": [
+    "input metadata snapshot",
+    "generated decision output",
+    "validation result",
+    "owner or CoE acceptance note"
+  ],
+  "blockingRules": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ]
+}

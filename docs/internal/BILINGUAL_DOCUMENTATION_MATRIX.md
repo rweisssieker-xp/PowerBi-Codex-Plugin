@@ -70,6 +70,7 @@ Same Markdown paths as [DOCUMENTATION.md](../../DOCUMENTATION.md); this table tr
 | `data/powerbi_source_capability_matrix.json` | Language-neutral with English labels | Power BI connector categories, modes, and M functions are technical identifiers |
 | `data/powerbi_usp_capability_catalog.json` | Language-neutral with English labels | USP IDs, generated artifact names, and evidence keys are consumed by automation |
 | `data/powerbi_feature_catalog.json` | Language-neutral with English labels | Executable feature contracts are consumed by CLI and CI tooling |
+| `data/powerbi_premium_usp_catalog.json` | Language-neutral with English labels | Premium USP contracts are consumed by CLI and CI tooling |
 | `data/powerbi_frown_knowledge_base.json` | Language-neutral with English labels | Frown-to-Fix rules are consumed by validation and triage tooling |
 | `data/industry_process_catalog.json` | Language-neutral with English labels | Process IDs, source systems, KPIs, and table names are consumed by automation |
 | `templates/process_packs/*.json` | Language-neutral with business labels | Process pack fields are consumed by automation |
@@ -79,6 +80,7 @@ Same Markdown paths as [DOCUMENTATION.md](../../DOCUMENTATION.md); this table tr
 | `outputs/usp-capability-coverage/**/*` | Language-neutral with English labels | Generated USP coverage evidence for all process packs |
 | `outputs/powerbi-feature-factory/**/*` | Language-neutral with English labels | Generated executable feature contracts, CLI recipes, and validation contracts |
 | `outputs/powerbi-execution-layer/**/*` | Language-neutral with English labels | Generated execution artifacts for all feature contracts and processes |
+| `outputs/powerbi-premium-usp-layer/**/*` | Language-neutral with English labels | Generated premium USP contracts, recipes, evidence requirements, and process plans |
 | `outputs/local-builds/**/*` | Language-neutral with English labels | Generated local delivery bundles for CLI smoke testing |
 | `scripts/*.py`, `scripts/*.ps1` | Language-neutral | Executable scripts use stable command and JSON names |
 

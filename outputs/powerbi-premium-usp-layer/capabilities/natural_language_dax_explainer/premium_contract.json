@@ -1,0 +1,29 @@
+{
+  "sequence": 13,
+  "id": "natural_language_dax_explainer",
+  "name": "Natural Language DAX Explainer",
+  "summary": "Explain every DAX measure in business and technical language.",
+  "capabilityType": "dax-explainability",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/natural_language_dax_explainer/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/natural_language_dax_explainer/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/natural_language_dax_explainer/evidence_contract.json"
+}

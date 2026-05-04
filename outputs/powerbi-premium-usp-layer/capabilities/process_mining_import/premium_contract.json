@@ -1,0 +1,29 @@
+{
+  "sequence": 4,
+  "id": "process_mining_import",
+  "name": "Process Mining Import",
+  "summary": "Import event-log structures from Celonis, SAP Signavio, UiPath Process Mining, and ServiceNow.",
+  "capabilityType": "process-mining",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/process_mining_import/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/process_mining_import/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/process_mining_import/evidence_contract.json"
+}

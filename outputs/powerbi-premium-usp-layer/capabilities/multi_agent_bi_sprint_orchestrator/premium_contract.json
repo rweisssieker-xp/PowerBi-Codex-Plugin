@@ -1,0 +1,29 @@
+{
+  "sequence": 20,
+  "id": "multi_agent_bi_sprint_orchestrator",
+  "name": "Multi-Agent BI Sprint Orchestrator",
+  "summary": "Coordinate consultant, modeler, DAX, designer, QA, and CoE agents with evidence handoffs.",
+  "capabilityType": "agent-orchestration",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/multi_agent_bi_sprint_orchestrator/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/multi_agent_bi_sprint_orchestrator/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/multi_agent_bi_sprint_orchestrator/evidence_contract.json"
+}

@@ -1,0 +1,29 @@
+{
+  "sequence": 18,
+  "id": "deployment_pipeline_generator",
+  "name": "Deployment Pipeline Generator",
+  "summary": "Generate Dev/Test/Prod deployment, release evidence, rollback, and approval plans.",
+  "capabilityType": "release-automation",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/deployment_pipeline_generator/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/deployment_pipeline_generator/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/deployment_pipeline_generator/evidence_contract.json"
+}

@@ -8,6 +8,8 @@ Executable feature contracts are generated in [powerbi-feature-factory](../../ou
 
 The concrete execution layer is generated in [powerbi-execution-layer](../../outputs/powerbi-execution-layer/README.md). It materializes all 20 feature contracts for every process into source profiles, native M templates, schema drift contracts, semantic compile plans, report materialization plans, DAX expected-result plans, lineage, security plans, performance budgets, acceptance packs, and build manifests.
 
+The premium USP layer is generated in [powerbi-premium-usp-layer](../../outputs/powerbi-premium-usp-layer/README.md). It adds 25 higher-order differentiators such as real connector runtime, credential-safe profiling, AI field mapping, process-mining import, KPI ontology, PBIR materialization, full PBIP generation, Power BI Desktop log parsing, report scoring, tenant readiness, deployment automation, data contracts, compliance packs, and Fabric scaffolds.
+
 ## The 20 USP Capabilities
 
 1. One-Click Process-to-PBIP
@@ -64,4 +66,10 @@ Use the CLI to create a local delivery bundle from the execution layer:
 
 ```powershell
 python scripts\powerbi_expert_factory.py build --process lead-to-order --source demo --out outputs\local-builds\lead-to-order
+```
+
+Use the CLI to create a process-specific premium USP plan:
+
+```powershell
+python scripts\powerbi_expert_factory.py premium-usp-plan --process lead-to-order --out outputs\powerbi-premium-usp-layer\lead-to-order-premium-usp-plan.json
 ```

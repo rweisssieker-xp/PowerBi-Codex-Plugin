@@ -5,8 +5,10 @@ from pathlib import Path
 
 from scripts.powerbi_expert_factory import (
     build_feature_delivery_plan,
+    build_premium_usp_plan,
     build_process_delivery,
     load_feature_catalog,
+    load_premium_usp_catalog,
     parse_model,
     run_acceptance,
     validate_model_graph,
@@ -225,6 +227,25 @@ relationship rel_returns_customer
         self.assertTrue((out / "m_query_templates.json").exists())
         self.assertTrue((out / "demo-data" / "cases.csv").exists())
         self.assertTrue((out / "process-pack" / "model_spec.json").exists())
+
+    def test_premium_usp_catalog_exposes_all_twenty_five_contracts(self):
+        catalog = load_premium_usp_catalog()
+
+        self.assertEqual(catalog["capabilityCount"], 25)
+        self.assertEqual(len(catalog["capabilities"]), 25)
+        for capability in catalog["capabilities"]:
+            self.assertEqual(capability["implementationStatus"], "implemented_as_premium_usp_contract")
+            self.assertTrue(capability["inputs"])
+            self.assertTrue(capability["outputs"])
+            self.assertTrue(capability["acceptanceChecks"])
+
+    def test_premium_usp_plan_maps_all_contracts_to_process(self):
+        result = build_premium_usp_plan("lead-to-order")
+
+        self.assertEqual(result["requestedProcessId"], "lead-to-order")
+        self.assertEqual(result["processId"], "lead2order")
+        self.assertEqual(result["premiumUspCount"], 25)
+        self.assertEqual(len(result["premiumUsps"]), 25)
 
 
 if __name__ == "__main__":

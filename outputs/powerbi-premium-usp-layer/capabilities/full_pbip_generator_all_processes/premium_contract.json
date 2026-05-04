@@ -1,0 +1,29 @@
+{
+  "sequence": 9,
+  "id": "full_pbip_generator_all_processes",
+  "name": "Full PBIP Generator For All Processes",
+  "summary": "Generate PBIP/PBIR/TMDL project skeletons for every industrial process pack.",
+  "capabilityType": "pbip-runtime",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/full_pbip_generator_all_processes/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/full_pbip_generator_all_processes/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/full_pbip_generator_all_processes/evidence_contract.json"
+}

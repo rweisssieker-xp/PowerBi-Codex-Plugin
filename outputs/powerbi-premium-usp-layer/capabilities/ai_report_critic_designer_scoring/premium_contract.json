@@ -1,0 +1,29 @@
+{
+  "sequence": 12,
+  "id": "ai_report_critic_designer_scoring",
+  "name": "AI Report Critic / Designer Scoring",
+  "summary": "Score report pages for UX, layout, visual choice, density, and executive readability.",
+  "capabilityType": "design-qa",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/ai_report_critic_designer_scoring/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/ai_report_critic_designer_scoring/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/ai_report_critic_designer_scoring/evidence_contract.json"
+}

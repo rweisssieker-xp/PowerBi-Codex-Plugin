@@ -1,0 +1,29 @@
+{
+  "sequence": 3,
+  "id": "auto_field_mapping_ai",
+  "name": "Auto Field Mapping AI",
+  "summary": "Map source-specific fields such as KUNNR, CustomerNo, and AccountId to governed semantic fields.",
+  "capabilityType": "mapping-ai",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/auto_field_mapping_ai/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/auto_field_mapping_ai/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/auto_field_mapping_ai/evidence_contract.json"
+}

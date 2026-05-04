@@ -1,0 +1,29 @@
+{
+  "sequence": 6,
+  "id": "business_question_router",
+  "name": "Business Question Router",
+  "summary": "Route natural-language business questions to process packs, KPIs, data sources, measures, and visuals.",
+  "capabilityType": "intake-ai",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/business_question_router/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/business_question_router/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/business_question_router/evidence_contract.json"
+}

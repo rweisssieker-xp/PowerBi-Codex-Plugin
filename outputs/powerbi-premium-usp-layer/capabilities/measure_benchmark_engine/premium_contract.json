@@ -1,0 +1,29 @@
+{
+  "sequence": 11,
+  "id": "measure_benchmark_engine",
+  "name": "Measure Benchmark Engine",
+  "summary": "Score DAX measures for complexity, dependencies, redundancy, and regression risk.",
+  "capabilityType": "dax-performance",
+  "implementationStatus": "implemented_as_premium_usp_contract",
+  "inputs": [
+    "process context",
+    "source profile or metadata",
+    "semantic model contract",
+    "governance policy"
+  ],
+  "outputs": [
+    "premium capability contract",
+    "execution recipe",
+    "acceptance evidence contract",
+    "process mapping"
+  ],
+  "acceptanceChecks": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ],
+  "contractPath": "outputs/powerbi-premium-usp-layer/capabilities/measure_benchmark_engine/premium_contract.json",
+  "recipePath": "outputs/powerbi-premium-usp-layer/capabilities/measure_benchmark_engine/execution_recipe.md",
+  "evidencePath": "outputs/powerbi-premium-usp-layer/capabilities/measure_benchmark_engine/evidence_contract.json"
+}

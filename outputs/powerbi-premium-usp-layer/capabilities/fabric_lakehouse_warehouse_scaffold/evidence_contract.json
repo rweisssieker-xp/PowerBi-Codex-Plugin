@@ -1,0 +1,16 @@
+{
+  "id": "fabric_lakehouse_warehouse_scaffold",
+  "name": "Fabric Lakehouse/Warehouse Scaffold",
+  "requiredEvidence": [
+    "input metadata snapshot",
+    "generated decision output",
+    "validation result",
+    "owner or CoE acceptance note"
+  ],
+  "blockingRules": [
+    "contract exists",
+    "process mapping exists",
+    "evidence requirements are explicit",
+    "no credentials or tenant secrets are persisted"
+  ]
+}
