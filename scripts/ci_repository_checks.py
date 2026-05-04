@@ -248,6 +248,49 @@ def check_industry_process_packs(root: Path) -> list[str]:
     return errors
 
 
+def check_usp_capability_coverage(root: Path) -> list[str]:
+    errors: list[str] = []
+    catalog_path = root / "data/powerbi_usp_capability_catalog.json"
+    coverage_root = root / "outputs/usp-capability-coverage"
+    process_catalog_path = root / "data/industry_process_catalog.json"
+
+    if not catalog_path.exists():
+        return [f"{catalog_path}: USP capability catalog is missing"]
+    if not coverage_root.exists():
+        return [f"{coverage_root}: USP coverage output folder is missing"]
+
+    catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+    capabilities = catalog.get("capabilities", [])
+    capability_ids = {capability.get("id") for capability in capabilities}
+    if len(capabilities) != 20:
+        errors.append(f"{catalog_path}: expected exactly 20 USP capabilities, found {len(capabilities)}")
+    for capability in capabilities:
+        for field in ["id", "name", "summary", "requiredArtifacts", "evidence"]:
+            if not capability.get(field):
+                errors.append(f"{catalog_path}: capability {capability.get('id')} missing {field}")
+
+    processes = json.loads(process_catalog_path.read_text(encoding="utf-8")).get("processes", [])
+    for process in processes:
+        process_id = process.get("processId")
+        path = coverage_root / str(process_id) / "usp_coverage.json"
+        if not path.exists():
+            errors.append(f"{path}: USP coverage file is missing")
+            continue
+        coverage = json.loads(path.read_text(encoding="utf-8"))
+        covered_ids = {capability.get("id") for capability in coverage.get("capabilities", [])}
+        if covered_ids != capability_ids:
+            missing = capability_ids - covered_ids
+            extra = covered_ids - capability_ids
+            errors.append(f"{path}: USP coverage mismatch; missing={sorted(missing)}, extra={sorted(extra)}")
+        if coverage.get("capabilityCount") != 20:
+            errors.append(f"{path}: expected capabilityCount 20")
+
+    index_path = coverage_root / "index.csv"
+    if not index_path.exists():
+        errors.append(f"{index_path}: USP coverage index is missing")
+    return errors
+
+
 def run(root: Path) -> int:
     errors: list[str] = []
     errors.extend(check_required_files(root))
@@ -265,6 +308,7 @@ def run(root: Path) -> int:
     errors.extend(check_industry_demo_data(root))
     errors.extend(check_powerbi_source_routing(root))
     errors.extend(check_industry_process_packs(root))
+    errors.extend(check_usp_capability_coverage(root))
 
     if errors:
         for error in errors:

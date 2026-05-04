@@ -16,11 +16,13 @@ This is the single navigation index for repository-level documentation. Root fil
 - [Product Documentation Index](docs/product/README.md)
 - [Power BI Expert-Replacement Factory Plan](docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
 - [Power BI Expert-Replacement Skill Map](docs/product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Power BI Expert-Replacement USP Coverage](docs/product/POWERBI_EXPERT_REPLACEMENT_USP_COVERAGE.md)
 - [Skills Catalog](docs/product/SKILLS_CATALOG.md)
 - [Process Chain KPIs](docs/product/PROCESS_CHAIN_KPIS.md)
 - [Industry Demo Data](outputs/industry-demo-data/README.md)
 - [Industry Process Packs](outputs/industry-process-packs/README.md)
 - [Power BI Source Routing](outputs/source-routing/README.md)
+- [USP Capability Coverage](outputs/usp-capability-coverage/README.md)
 - [Source System Coverage](docs/product/SOURCE_SYSTEM_COVERAGE.md)
 - [Power BI Native Connector Coverage](docs/product/POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
 

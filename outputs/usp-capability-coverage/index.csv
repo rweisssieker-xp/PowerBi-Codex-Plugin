@@ -1,0 +1,33 @@
+ProcessID,ProcessName,Domain,CapabilityCount,CoverageFile
+lead2order,Lead2Order,Commercial,20,outputs/usp-capability-coverage/lead2order/usp_coverage.json
+order2cash,Order2Cash,Commercial,20,outputs/usp-capability-coverage/order2cash/usp_coverage.json
+source2contract,Source2Contract,Procurement,20,outputs/usp-capability-coverage/source2contract/usp_coverage.json
+procure2pay,Procure2Pay,Procurement,20,outputs/usp-capability-coverage/procure2pay/usp_coverage.json
+forecast2plan,Forecast2Plan,Supply Chain,20,outputs/usp-capability-coverage/forecast2plan/usp_coverage.json
+plan2produce,Plan2Produce,Manufacturing,20,outputs/usp-capability-coverage/plan2produce/usp_coverage.json
+make_strategy,Make2Stock / Make2Order / Engineer2Order,Manufacturing,20,outputs/usp-capability-coverage/make_strategy/usp_coverage.json
+idea2launch,Idea2Launch / Engineer2Release,Engineering,20,outputs/usp-capability-coverage/idea2launch/usp_coverage.json
+maintain2operate,Maintain2Operate,Maintenance,20,outputs/usp-capability-coverage/maintain2operate/usp_coverage.json
+issue2resolution,Issue2Resolution,Service,20,outputs/usp-capability-coverage/issue2resolution/usp_coverage.json
+record2report,Record2Report,Finance,20,outputs/usp-capability-coverage/record2report/usp_coverage.json
+hire2retire,Hire2Retire,Workforce,20,outputs/usp-capability-coverage/hire2retire/usp_coverage.json
+market2lead,Market2Lead,Commercial,20,outputs/usp-capability-coverage/market2lead/usp_coverage.json
+lead2quote,Lead2Quote / Configure2Quote,Commercial,20,outputs/usp-capability-coverage/lead2quote/usp_coverage.json
+quote2contract,Quote2Contract,Commercial,20,outputs/usp-capability-coverage/quote2contract/usp_coverage.json
+contract2revenue,Contract2Revenue,Finance,20,outputs/usp-capability-coverage/contract2revenue/usp_coverage.json
+demand2supply,Demand2Supply,Supply Chain,20,outputs/usp-capability-coverage/demand2supply/usp_coverage.json
+sop_ibp2execution,S&OP / IBP2Execution,Supply Chain,20,outputs/usp-capability-coverage/sop_ibp2execution/usp_coverage.json
+design2cost,Design2Cost / Design2Source,Engineering,20,outputs/usp-capability-coverage/design2cost/usp_coverage.json
+project2cash,Engineer2Order / Project2Cash,Projects,20,outputs/usp-capability-coverage/project2cash/usp_coverage.json
+dock2stock,Dock2Stock,Warehouse,20,outputs/usp-capability-coverage/dock2stock/usp_coverage.json
+pick2pack2ship,Pick2Pack2Ship,Warehouse,20,outputs/usp-capability-coverage/pick2pack2ship/usp_coverage.json
+return2disposition,Return2Disposition,Service,20,outputs/usp-capability-coverage/return2disposition/usp_coverage.json
+complaint2capa,Complaint2CAPA,Quality,20,outputs/usp-capability-coverage/complaint2capa/usp_coverage.json
+nonconformance2disposition,Nonconformance2Disposition,Quality,20,outputs/usp-capability-coverage/nonconformance2disposition/usp_coverage.json
+incident2action,Incident2Action,EHS,20,outputs/usp-capability-coverage/incident2action/usp_coverage.json
+asset2reliability,Asset2Reliability,Maintenance,20,outputs/usp-capability-coverage/asset2reliability/usp_coverage.json
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,Service,20,outputs/usp-capability-coverage/installedbase2servicerevenue/usp_coverage.json
+supplieronboarding2risk,SupplierOnboarding2Risk,Procurement,20,outputs/usp-capability-coverage/supplieronboarding2risk/usp_coverage.json
+control2evidence,Control2Evidence,Governance,20,outputs/usp-capability-coverage/control2evidence/usp_coverage.json
+close2report_plan2perform,Close2Report / Plan2Perform,Finance,20,outputs/usp-capability-coverage/close2report_plan2perform/usp_coverage.json
+data2insight2action,Data2Insight2Action,Analytics,20,outputs/usp-capability-coverage/data2insight2action/usp_coverage.json

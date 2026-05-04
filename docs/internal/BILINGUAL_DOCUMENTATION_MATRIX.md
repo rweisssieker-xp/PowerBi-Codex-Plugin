@@ -43,6 +43,7 @@ Same Markdown paths as [DOCUMENTATION.md](../../DOCUMENTATION.md); this table tr
 | `POWERBI_EXPERT_REPLACEMENT_ADVANCED_USPS.md` | Complete | Advanced USP rollout summary |
 | `POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md` | Complete | Master plan summary |
 | `POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md` | Complete | Skill map summary |
+| `POWERBI_EXPERT_REPLACEMENT_USP_COVERAGE.md` | English product guide | USP catalog and process coverage entry point |
 | `POWERBI_NATIVE_CONNECTOR_COVERAGE.md` | Complete | Native connector rules |
 | `PROCESS_CHAIN_KPIS.md` | Complete | Process-chain KPI summary |
 | `PROCESS_OWNER_AI_KI_USPS.md` | Complete | Process-owner AI/KI USP summary |
@@ -67,11 +68,13 @@ Same Markdown paths as [DOCUMENTATION.md](../../DOCUMENTATION.md); this table tr
 | `schemas/*.schema.json` | Language-neutral | JSON schema keys must remain stable |
 | `data/powerbi_connector_matrix.json` | Language-neutral with English labels | Connector names and M functions are technical identifiers |
 | `data/powerbi_source_capability_matrix.json` | Language-neutral with English labels | Power BI connector categories, modes, and M functions are technical identifiers |
+| `data/powerbi_usp_capability_catalog.json` | Language-neutral with English labels | USP IDs, generated artifact names, and evidence keys are consumed by automation |
 | `data/industry_process_catalog.json` | Language-neutral with English labels | Process IDs, source systems, KPIs, and table names are consumed by automation |
 | `templates/process_packs/*.json` | Language-neutral with business labels | Process pack fields are consumed by automation |
 | `outputs/industry-demo-data/**/*.csv` | Language-neutral with English labels | Synthetic test fixtures for native file/folder ingestion |
 | `outputs/industry-process-packs/**/*` | Language-neutral with English labels | Generated model, DAX, report, and quality-gate specs |
 | `outputs/source-routing/**/*` | Language-neutral with English labels | Generated production source-routing recommendations |
+| `outputs/usp-capability-coverage/**/*` | Language-neutral with English labels | Generated USP coverage evidence for all process packs |
 | `scripts/*.py`, `scripts/*.ps1` | Language-neutral | Executable scripts use stable command and JSON names |
 
 ## de-DE Hinweise

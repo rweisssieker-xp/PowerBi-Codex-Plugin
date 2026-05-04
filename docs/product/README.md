@@ -7,6 +7,7 @@ Detailed product documentation for the Power BI Expert-Replacement Factory.
 - [Examples](EXAMPLES.md)
 - [Power BI Expert-Replacement Factory Plan](POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
 - [Power BI Expert-Replacement Skill Map](POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
+- [Power BI Expert-Replacement USP Coverage](POWERBI_EXPERT_REPLACEMENT_USP_COVERAGE.md)
 - [Power BI Native Connector Coverage](POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
 - [Process Chain KPIs](PROCESS_CHAIN_KPIS.md)
 - [Skills Catalog](SKILLS_CATALOG.md)
@@ -14,6 +15,7 @@ Detailed product documentation for the Power BI Expert-Replacement Factory.
 - [Industry Demo Data](../../outputs/industry-demo-data/README.md)
 - [Industry Process Packs](../../outputs/industry-process-packs/README.md)
 - [Power BI Source Routing](../../outputs/source-routing/README.md)
+- [USP Capability Coverage](../../outputs/usp-capability-coverage/README.md)
 
 ## Scope
 

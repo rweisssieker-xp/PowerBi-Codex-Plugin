@@ -19,6 +19,7 @@ The product turns business and process questions into validated Power BI deliver
 - Provides a machine-readable industrial process catalog and synthetic demo data for 32 process chains under `data/industry_process_catalog.json` and `outputs/industry-demo-data/`.
 - Provides generated Power BI process-pack specifications for all 32 process chains under `outputs/industry-process-packs/`.
 - Provides production source-routing recommendations for native Power BI sources under `data/powerbi_source_capability_matrix.json` and `outputs/source-routing/`.
+- Provides a 20-USP capability catalog and process-level coverage evidence under `data/powerbi_usp_capability_catalog.json` and `outputs/usp-capability-coverage/`.
 - Adds executable trust checks for model graph quality, native source routing, visual bindings, DAX static checks, and Power BI Desktop smoke validation workflows.
 
 ## Repository Structure
@@ -60,6 +61,7 @@ Key guides:
 - [Industry Demo Data](outputs/industry-demo-data/README.md)
 - [Industry Process Packs](outputs/industry-process-packs/README.md)
 - [Power BI Source Routing](outputs/source-routing/README.md)
+- [USP Capability Coverage](outputs/usp-capability-coverage/README.md)
 - [Skills Catalog](docs/product/SKILLS_CATALOG.md)
 - [Power BI Expert-Replacement Factory Plan](docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
 - [Power BI Expert-Replacement Skill Map](docs/product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
@@ -101,6 +103,8 @@ Regenerate industrial process demo data and pack specifications:
 ```powershell
 python scripts\build_industry_process_demo_data.py
 python scripts\build_industry_process_packs.py
+python scripts\build_powerbi_source_routing.py
+python scripts\build_usp_capability_coverage.py
 ```
 
 Run the sample PBIP validation:

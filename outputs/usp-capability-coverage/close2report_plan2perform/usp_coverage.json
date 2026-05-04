@@ -1,0 +1,217 @@
+{
+  "processId": "close2report_plan2perform",
+  "processName": "Close2Report / Plan2Perform",
+  "domain": "Finance",
+  "capabilityCount": 20,
+  "capabilities": [
+    {
+      "id": "one_click_process_to_pbip",
+      "name": "One-Click Process-to-PBIP",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Turn a selected process pack into a PBIP/TMDL/PBIR generation target.",
+      "evidence": [
+        "process pack exists",
+        "model spec declares tables and relationships",
+        "report pages declared"
+      ]
+    },
+    {
+      "id": "connector_aware_source_interview",
+      "name": "Connector-Aware Source Interview",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Ask source-specific questions and route to native Power BI connectors and modes.",
+      "evidence": [
+        "source-routing map",
+        "Power BI capability matrix"
+      ]
+    },
+    {
+      "id": "kpi_contract_negotiator",
+      "name": "KPI Contract Negotiator",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Force KPI grain, date basis, numerator, denominator, exclusions, owner, and tolerance decisions before DAX.",
+      "evidence": [
+        "KPI list",
+        "owner acceptance criteria"
+      ]
+    },
+    {
+      "id": "ambiguous_path_prevention_engine",
+      "name": "Ambiguous-Path Prevention Engine",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Check model relationships for ambiguity before Power BI Desktop load.",
+      "evidence": [
+        "relationship list",
+        "no ambiguous relationship paths check"
+      ]
+    },
+    {
+      "id": "frown_to_fix_knowledge_loop",
+      "name": "Frown-to-Fix Knowledge Loop",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Classify Power BI Desktop errors and map them to repair and validation steps.",
+      "evidence": [
+        "manual Desktop checks",
+        "repair checklist"
+      ]
+    },
+    {
+      "id": "visual_binding_compiler",
+      "name": "Visual Binding Compiler",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Verify report-page specs bind only to generated fields and measures.",
+      "evidence": [
+        "required fields",
+        "required measures"
+      ]
+    },
+    {
+      "id": "measure_test_harness",
+      "name": "Measure Test Harness",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Attach test/reconciliation strategy to every generated KPI measure.",
+      "evidence": [
+        "DAX catalog",
+        "acceptance criteria"
+      ]
+    },
+    {
+      "id": "process_digital_twin_layer",
+      "name": "Process Digital Twin Layer",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Use case/event/KPI structures to simulate and compare process-flow scenarios.",
+      "evidence": [
+        "event log",
+        "case cycle times",
+        "KPI snapshots"
+      ]
+    },
+    {
+      "id": "action_cockpit_generator",
+      "name": "Action Cockpit Generator",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Generate owner/action cockpit specs from exceptions, root causes, risk, and value.",
+      "evidence": [
+        "Owner Action Cockpit page",
+        "ActionRequired field"
+      ]
+    },
+    {
+      "id": "rls_ols_policy_generator",
+      "name": "RLS/OLS Policy Generator",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Generate process-owner role policy and note required enterprise identity mapping.",
+      "evidence": [
+        "rls section",
+        "ProcessOwner role"
+      ]
+    },
+    {
+      "id": "source_to_kpi_lineage",
+      "name": "Source-to-KPI Lineage",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Connect source systems, model tables, measures, and visuals for governance.",
+      "evidence": [
+        "source systems",
+        "table list",
+        "required measures"
+      ]
+    },
+    {
+      "id": "process_pack_marketplace",
+      "name": "Process Pack Marketplace",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Expose each process as a cataloged reusable Power BI data product.",
+      "evidence": [
+        "process catalog",
+        "process-pack index"
+      ]
+    },
+    {
+      "id": "industry_variant_packs",
+      "name": "Industry Variant Packs",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Support industry-specific process variants through domain, plant, source, and KPI metadata.",
+      "evidence": [
+        "domain",
+        "plant",
+        "source systems",
+        "KPIs"
+      ]
+    },
+    {
+      "id": "coe_certification_bot",
+      "name": "Power BI CoE Certification Bot",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Evaluate process packs against certification gates and evidence requirements.",
+      "evidence": [
+        "required checks",
+        "acceptance criteria"
+      ]
+    },
+    {
+      "id": "report_consolidation_ai",
+      "name": "Report Consolidation AI",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Detect duplicate KPI/report intents and route them to the reusable process pack.",
+      "evidence": [
+        "KPI names",
+        "measure names"
+      ]
+    },
+    {
+      "id": "semantic_model_refactoring",
+      "name": "Semantic Model Refactoring",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Refactor poor models into declared facts, dimensions, and many-to-one relationships.",
+      "evidence": [
+        "fact tables",
+        "dimensions",
+        "relationship cardinalities"
+      ]
+    },
+    {
+      "id": "query_folding_verifier",
+      "name": "Query Folding Verifier",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Record folding expectations for native production connectors and route risky sources.",
+      "evidence": [
+        "queryFolding property",
+        "connector mode"
+      ]
+    },
+    {
+      "id": "refresh_failure_triage",
+      "name": "Refresh Failure Triage",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Map gateway, auth, schema, privacy, folding, timeout, and source errors to repair decisions.",
+      "evidence": [
+        "gateway decision",
+        "schema drift handling",
+        "refresh checks"
+      ]
+    },
+    {
+      "id": "business_value_realization_tracker",
+      "name": "Business Value Realization Tracker",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Track insight-to-action-to-value using action count, risk, and value fields.",
+      "evidence": [
+        "ActionRequired",
+        "value column",
+        "Owner Action Cockpit"
+      ]
+    },
+    {
+      "id": "boardroom_narrative_generator",
+      "name": "Boardroom Narrative Generator",
+      "status": "covered_by_generated_factory_artifacts",
+      "summary": "Generate executive storyline from KPI status, root causes, financial impact, and decisions needed.",
+      "evidence": [
+        "Executive Overview",
+        "KPI status",
+        "financial value field"
+      ]
+    }
+  ]
+}
