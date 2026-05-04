@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.681305+00:00",
+  "processId": "nonconformance2disposition",
+  "processName": "Nonconformance2Disposition",
+  "domain": "Quality",
+  "ownerRole": "Nonconformance Process Owner",
+  "capabilityId": "report_portfolio_rationalizer",
+  "capabilityName": "Report Portfolio Rationalizer",
+  "primaryPersona": "CoE Reviewer",
+  "operationsArtifact": "portfolio rationalization",
+  "operationsScope": {
+    "caseName": "Nonconformance",
+    "valueLabel": "BlockedValue",
+    "kpis": [
+      "Defect Rate",
+      "Blocked Stock Value",
+      "Rework Cost",
+      "Supplier PPM",
+      "Disposition Aging"
+    ],
+    "sourceSystems": [
+      "QMS",
+      "ERP QM",
+      "WMS",
+      "Supplier Portal"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "portfolio rationalization",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/nonconformance2disposition/report_portfolio_rationalizer.json",
+  "status": "evidence-ready"
+}

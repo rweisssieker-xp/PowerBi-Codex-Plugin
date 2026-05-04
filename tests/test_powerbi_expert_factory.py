@@ -7,6 +7,7 @@ from unittest.mock import patch
 
 from scripts.powerbi_expert_factory import (
     build_dax_query_run_request,
+    build_autonomous_operations_usp_plan,
     build_decision_intelligence_usp_plan,
     build_feature_delivery_plan,
     build_gateway_audit_request,
@@ -21,6 +22,7 @@ from scripts.powerbi_expert_factory import (
     build_process_delivery,
     build_tenant_scan_request,
     load_feature_catalog,
+    load_autonomous_operations_usp_catalog,
     load_decision_intelligence_usp_catalog,
     load_market_differentiator_usp_catalog,
     load_premium_usp_catalog,
@@ -332,6 +334,28 @@ relationship rel_returns_customer
         self.assertEqual(result["capabilityCount"], 20)
         self.assertEqual(len(result["decisionIntelligenceUsps"]), 20)
         self.assertTrue(all(usp["artifactExists"] for usp in result["decisionIntelligenceUsps"]))
+
+    def test_autonomous_operations_usps_cover_all_eighteen_capabilities(self):
+        catalog = load_autonomous_operations_usp_catalog()
+
+        self.assertEqual(catalog["capabilityCount"], 18)
+        self.assertEqual(len(catalog["capabilities"]), 18)
+        for capability in catalog["capabilities"]:
+            self.assertEqual(capability["implementationStatus"], "implemented_as_autonomous_operations_evidence")
+            self.assertTrue(capability["primaryPersona"])
+            self.assertTrue(capability["operationsArtifact"])
+            self.assertTrue(capability["operationalSignals"])
+            self.assertTrue(capability["outputs"])
+            self.assertTrue(capability["acceptanceChecks"])
+
+    def test_autonomous_operations_usp_plan_maps_to_process(self):
+        result = build_autonomous_operations_usp_plan("lead-to-order")
+
+        self.assertEqual(result["requestedProcessId"], "lead-to-order")
+        self.assertEqual(result["processId"], "lead2order")
+        self.assertEqual(result["capabilityCount"], 18)
+        self.assertEqual(len(result["autonomousOperationsUsps"]), 18)
+        self.assertTrue(all(usp["artifactExists"] for usp in result["autonomousOperationsUsps"]))
 
     def test_runtime_max_catalog_exposes_max_usp_replacement_capabilities(self):
         catalog = load_runtime_max_catalog()

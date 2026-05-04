@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.481548+00:00",
+  "processId": "maintain2operate",
+  "processName": "Maintain2Operate",
+  "domain": "Maintenance",
+  "ownerRole": "Maintenance Process Owner",
+  "capabilityId": "semantic_drift_monitor",
+  "capabilityName": "Semantic Drift Monitor",
+  "primaryPersona": "Semantic Model Owner",
+  "operationsArtifact": "semantic drift evidence",
+  "operationsScope": {
+    "caseName": "Work Order",
+    "valueLabel": "DowntimeCost",
+    "kpis": [
+      "PM Compliance",
+      "Downtime Cost",
+      "MTBF",
+      "MTTR",
+      "Maintenance Backlog"
+    ],
+    "sourceSystems": [
+      "EAM",
+      "CMMS",
+      "MES",
+      "Historian"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "semantic drift evidence",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/maintain2operate/semantic_drift_monitor.json",
+  "status": "evidence-ready"
+}

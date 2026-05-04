@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.437831+00:00",
+  "processId": "forecast2plan",
+  "processName": "Forecast2Plan",
+  "domain": "Supply Chain",
+  "ownerRole": "Demand Planning Process Owner",
+  "capabilityId": "usage_adoption_optimizer",
+  "capabilityName": "Usage Adoption Optimizer",
+  "primaryPersona": "BI Adoption Lead",
+  "operationsArtifact": "adoption plan",
+  "operationsScope": {
+    "caseName": "Planning Item",
+    "valueLabel": "ForecastValue",
+    "kpis": [
+      "Forecast Accuracy",
+      "Forecast Bias",
+      "S&OP Gap",
+      "Inventory Target Gap",
+      "Demand Volatility"
+    ],
+    "sourceSystems": [
+      "Demand Planning",
+      "IBP",
+      "ERP PP",
+      "Data Warehouse"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "adoption plan",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/forecast2plan/usage_adoption_optimizer.json",
+  "status": "evidence-ready"
+}

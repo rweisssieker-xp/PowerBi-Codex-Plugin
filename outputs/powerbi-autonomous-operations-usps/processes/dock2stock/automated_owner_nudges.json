@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.619522+00:00",
+  "processId": "dock2stock",
+  "processName": "Dock2Stock",
+  "domain": "Warehouse",
+  "ownerRole": "Inbound Warehouse Process Owner",
+  "capabilityId": "automated_owner_nudges",
+  "capabilityName": "Automated Owner Nudges",
+  "primaryPersona": "Process Owner",
+  "operationsArtifact": "owner nudge queue",
+  "operationsScope": {
+    "caseName": "Inbound Receipt",
+    "valueLabel": "InboundValue",
+    "kpis": [
+      "Dock-to-Stock Time",
+      "GR Accuracy",
+      "Inspection Aging",
+      "Putaway Backlog",
+      "Blocked Stock Value"
+    ],
+    "sourceSystems": [
+      "WMS",
+      "ERP MM",
+      "QMS",
+      "Yard Management"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "owner nudge queue",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/dock2stock/automated_owner_nudges.json",
+  "status": "evidence-ready"
+}

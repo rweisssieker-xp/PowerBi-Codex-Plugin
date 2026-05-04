@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.427436+00:00",
+  "processId": "procure2pay",
+  "processName": "Procure2Pay",
+  "domain": "Procurement",
+  "ownerRole": "Procure-to-Pay Process Owner",
+  "capabilityId": "incident_to_fix_autopilot",
+  "capabilityName": "Incident-to-Fix Autopilot",
+  "primaryPersona": "Support Lead",
+  "operationsArtifact": "repair plan",
+  "operationsScope": {
+    "caseName": "Purchase Order",
+    "valueLabel": "SpendValue",
+    "kpis": [
+      "Spend Value",
+      "Invoice Block Value",
+      "GR/IR Aging",
+      "Discount Capture %",
+      "Supplier On-Time %"
+    ],
+    "sourceSystems": [
+      "ERP MM",
+      "Supplier Portal",
+      "WMS",
+      "ERP FI-AP"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "repair plan",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/procure2pay/incident_to_fix_autopilot.json",
+  "status": "evidence-ready"
+}

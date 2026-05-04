@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.609487+00:00",
+  "processId": "project2cash",
+  "processName": "Engineer2Order / Project2Cash",
+  "domain": "Projects",
+  "ownerRole": "Project-to-Cash Process Owner",
+  "capabilityId": "production_readiness_sentinel",
+  "capabilityName": "Production Readiness Sentinel",
+  "primaryPersona": "CoE Reviewer",
+  "operationsArtifact": "readiness sentinel",
+  "operationsScope": {
+    "caseName": "Customer Project",
+    "valueLabel": "ProjectValue",
+    "kpis": [
+      "Milestone Adherence",
+      "Project Margin",
+      "WIP Value",
+      "Billing Readiness",
+      "Cash Exposure"
+    ],
+    "sourceSystems": [
+      "Project System",
+      "ERP CO",
+      "Billing",
+      "PLM"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "readiness sentinel",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/project2cash/production_readiness_sentinel.json",
+  "status": "evidence-ready"
+}

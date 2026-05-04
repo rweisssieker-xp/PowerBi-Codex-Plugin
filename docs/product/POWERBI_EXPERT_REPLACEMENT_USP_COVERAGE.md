@@ -18,6 +18,8 @@ The market differentiator USP layer is generated in [powerbi-market-differentiat
 
 The decision intelligence USP layer is generated in [powerbi-decision-intelligence-usps](../../outputs/powerbi-decision-intelligence-usps/README.md). It adds 20 decision-facing proof points such as decision-room copilots, scenario option generation, tradeoff matrices, decision confidence scoring, action ROI estimates, counterfactual explanations, decision audit trails, accountability mapping, next-best-action ranking, decision-page composition, target negotiation, bottleneck detection, intervention simulation, dependency graphs, risk-adjusted prioritization, policy guards, business-case storyboards, and decision learning memory.
 
+The autonomous operations USP layer is generated in [powerbi-autonomous-operations-usps](../../outputs/powerbi-autonomous-operations-usps/README.md). It adds 18 post-release operating proof points such as refresh failure triage, semantic drift monitoring, visual breakage monitoring, usage adoption optimization, capacity cost watchdogs, release ring orchestration, incident-to-fix autopilot, SLA monitoring, owner nudges, self-healing model patch queues, access review automation, gateway health command centers, data-quality SLO monitoring, report portfolio rationalization, AI ops runbooks, production readiness sentinels, and closed-loop value realization.
+
 The runtime executor entrypoints in [powerbi_expert_factory.py](../../scripts/powerbi_expert_factory.py) turn the highest-leverage enterprise USPs into executable local or credential-safe runtime requests: PBIX/PBIT binary intake, tenant scanning, DAX query execution, Power BI REST deployment, and gateway configuration audit.
 
 The `report-package` command is the primary request-to-delivery path for generated Power BI work. It creates a PBIP/PBIR/TMDL report package plus source profile, model build plan, DAX measure plan, Power Query/M plan, report page plan, model improvement plan, validation plan, and a manifest for the requested process and source description.
@@ -108,4 +110,10 @@ Use the CLI to inspect decision intelligence USP evidence:
 
 ```powershell
 python scripts\powerbi_expert_factory.py decision-usp-plan --process lead-to-order --out outputs\powerbi-decision-intelligence-usps\lead-to-order-decision-usp-plan.json
+```
+
+Use the CLI to inspect autonomous operations USP evidence:
+
+```powershell
+python scripts\powerbi_expert_factory.py operations-usp-plan --process lead-to-order --out outputs\powerbi-autonomous-operations-usps\lead-to-order-operations-usp-plan.json
 ```

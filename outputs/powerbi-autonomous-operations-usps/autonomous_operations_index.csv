@@ -1,0 +1,33 @@
+ProcessID,ProcessName,Domain,CapabilityCount,Plan
+lead2order,Lead2Order,Commercial,18,outputs/powerbi-autonomous-operations-usps/processes/lead2order/autonomous_operations_plan.json
+order2cash,Order2Cash,Commercial,18,outputs/powerbi-autonomous-operations-usps/processes/order2cash/autonomous_operations_plan.json
+source2contract,Source2Contract,Procurement,18,outputs/powerbi-autonomous-operations-usps/processes/source2contract/autonomous_operations_plan.json
+procure2pay,Procure2Pay,Procurement,18,outputs/powerbi-autonomous-operations-usps/processes/procure2pay/autonomous_operations_plan.json
+forecast2plan,Forecast2Plan,Supply Chain,18,outputs/powerbi-autonomous-operations-usps/processes/forecast2plan/autonomous_operations_plan.json
+plan2produce,Plan2Produce,Manufacturing,18,outputs/powerbi-autonomous-operations-usps/processes/plan2produce/autonomous_operations_plan.json
+make_strategy,Make2Stock / Make2Order / Engineer2Order,Manufacturing,18,outputs/powerbi-autonomous-operations-usps/processes/make_strategy/autonomous_operations_plan.json
+idea2launch,Idea2Launch / Engineer2Release,Engineering,18,outputs/powerbi-autonomous-operations-usps/processes/idea2launch/autonomous_operations_plan.json
+maintain2operate,Maintain2Operate,Maintenance,18,outputs/powerbi-autonomous-operations-usps/processes/maintain2operate/autonomous_operations_plan.json
+issue2resolution,Issue2Resolution,Service,18,outputs/powerbi-autonomous-operations-usps/processes/issue2resolution/autonomous_operations_plan.json
+record2report,Record2Report,Finance,18,outputs/powerbi-autonomous-operations-usps/processes/record2report/autonomous_operations_plan.json
+hire2retire,Hire2Retire,Workforce,18,outputs/powerbi-autonomous-operations-usps/processes/hire2retire/autonomous_operations_plan.json
+market2lead,Market2Lead,Commercial,18,outputs/powerbi-autonomous-operations-usps/processes/market2lead/autonomous_operations_plan.json
+lead2quote,Lead2Quote / Configure2Quote,Commercial,18,outputs/powerbi-autonomous-operations-usps/processes/lead2quote/autonomous_operations_plan.json
+quote2contract,Quote2Contract,Commercial,18,outputs/powerbi-autonomous-operations-usps/processes/quote2contract/autonomous_operations_plan.json
+contract2revenue,Contract2Revenue,Finance,18,outputs/powerbi-autonomous-operations-usps/processes/contract2revenue/autonomous_operations_plan.json
+demand2supply,Demand2Supply,Supply Chain,18,outputs/powerbi-autonomous-operations-usps/processes/demand2supply/autonomous_operations_plan.json
+sop_ibp2execution,S&OP / IBP2Execution,Supply Chain,18,outputs/powerbi-autonomous-operations-usps/processes/sop_ibp2execution/autonomous_operations_plan.json
+design2cost,Design2Cost / Design2Source,Engineering,18,outputs/powerbi-autonomous-operations-usps/processes/design2cost/autonomous_operations_plan.json
+project2cash,Engineer2Order / Project2Cash,Projects,18,outputs/powerbi-autonomous-operations-usps/processes/project2cash/autonomous_operations_plan.json
+dock2stock,Dock2Stock,Warehouse,18,outputs/powerbi-autonomous-operations-usps/processes/dock2stock/autonomous_operations_plan.json
+pick2pack2ship,Pick2Pack2Ship,Warehouse,18,outputs/powerbi-autonomous-operations-usps/processes/pick2pack2ship/autonomous_operations_plan.json
+return2disposition,Return2Disposition,Service,18,outputs/powerbi-autonomous-operations-usps/processes/return2disposition/autonomous_operations_plan.json
+complaint2capa,Complaint2CAPA,Quality,18,outputs/powerbi-autonomous-operations-usps/processes/complaint2capa/autonomous_operations_plan.json
+nonconformance2disposition,Nonconformance2Disposition,Quality,18,outputs/powerbi-autonomous-operations-usps/processes/nonconformance2disposition/autonomous_operations_plan.json
+incident2action,Incident2Action,EHS,18,outputs/powerbi-autonomous-operations-usps/processes/incident2action/autonomous_operations_plan.json
+asset2reliability,Asset2Reliability,Maintenance,18,outputs/powerbi-autonomous-operations-usps/processes/asset2reliability/autonomous_operations_plan.json
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,Service,18,outputs/powerbi-autonomous-operations-usps/processes/installedbase2servicerevenue/autonomous_operations_plan.json
+supplieronboarding2risk,SupplierOnboarding2Risk,Procurement,18,outputs/powerbi-autonomous-operations-usps/processes/supplieronboarding2risk/autonomous_operations_plan.json
+control2evidence,Control2Evidence,Governance,18,outputs/powerbi-autonomous-operations-usps/processes/control2evidence/autonomous_operations_plan.json
+close2report_plan2perform,Close2Report / Plan2Perform,Finance,18,outputs/powerbi-autonomous-operations-usps/processes/close2report_plan2perform/autonomous_operations_plan.json
+data2insight2action,Data2Insight2Action,Analytics,18,outputs/powerbi-autonomous-operations-usps/processes/data2insight2action/autonomous_operations_plan.json

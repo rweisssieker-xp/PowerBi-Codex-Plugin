@@ -32,6 +32,7 @@ RUNTIME_MAX_CATALOG_PATH = ROOT / "data" / "powerbi_runtime_max_catalog.json"
 PRODUCTION_HARDENING_CATALOG_PATH = ROOT / "data" / "powerbi_production_hardening_catalog.json"
 MARKET_DIFFERENTIATOR_USP_CATALOG_PATH = ROOT / "data" / "powerbi_market_differentiator_usp_catalog.json"
 DECISION_INTELLIGENCE_USP_CATALOG_PATH = ROOT / "data" / "powerbi_decision_intelligence_usp_catalog.json"
+AUTONOMOUS_OPERATIONS_USP_CATALOG_PATH = ROOT / "data" / "powerbi_autonomous_operations_usp_catalog.json"
 
 TABLE_RE = re.compile(r"^table\s+(.+?)\s*$")
 COLUMN_RE = re.compile(r"^\s*column\s+(.+?)\s*$")
@@ -478,6 +479,15 @@ def load_decision_intelligence_usp_catalog(root: Path = ROOT) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_autonomous_operations_usp_catalog(root: Path = ROOT) -> dict[str, Any]:
+    path = root / "data" / "powerbi_autonomous_operations_usp_catalog.json"
+    if not path.exists():
+        raise FileNotFoundError(
+            f"{path} does not exist; run scripts\\build_powerbi_autonomous_operations_usps.py first."
+        )
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 def build_market_differentiator_usp_plan(process_id: str, root: Path = ROOT) -> dict[str, Any]:
     catalog = load_market_differentiator_usp_catalog(root)
     process_catalog = json.loads((root / "data" / "industry_process_catalog.json").read_text(encoding="utf-8"))
@@ -523,6 +533,32 @@ def build_decision_intelligence_usp_plan(process_id: str, root: Path = ROOT) -> 
     if not plan_path.exists():
         raise FileNotFoundError(
             f"{plan_path} does not exist; run scripts\\build_powerbi_decision_intelligence_usps.py first."
+        )
+    plan = json.loads(plan_path.read_text(encoding="utf-8"))
+    plan["requestedProcessId"] = process_id
+    plan["catalogCapabilityCount"] = catalog.get("capabilityCount")
+    return plan
+
+
+def build_autonomous_operations_usp_plan(process_id: str, root: Path = ROOT) -> dict[str, Any]:
+    catalog = load_autonomous_operations_usp_catalog(root)
+    process_catalog = json.loads((root / "data" / "industry_process_catalog.json").read_text(encoding="utf-8"))
+    processes = {process["processId"]: process for process in process_catalog.get("processes", [])}
+    normalized_process_id = _normalize_process_id(process_id, processes)
+    if normalized_process_id not in processes:
+        known = ", ".join(sorted(processes)[:8])
+        raise ValueError(f"Unknown processId '{process_id}'. Known examples: {known}")
+    plan_path = (
+        root
+        / "outputs"
+        / "powerbi-autonomous-operations-usps"
+        / "processes"
+        / normalized_process_id
+        / "autonomous_operations_plan.json"
+    )
+    if not plan_path.exists():
+        raise FileNotFoundError(
+            f"{plan_path} does not exist; run scripts\\build_powerbi_autonomous_operations_usps.py first."
         )
     plan = json.loads(plan_path.read_text(encoding="utf-8"))
     plan["requestedProcessId"] = process_id
@@ -1329,6 +1365,9 @@ def main() -> int:
     decision_usps = sub.add_parser("decision-usps", help="List the 20 decision intelligence USP capabilities.")
     decision_usps.add_argument("--out")
 
+    operations_usps = sub.add_parser("operations-usps", help="List the 18 autonomous operations USP capabilities.")
+    operations_usps.add_argument("--out")
+
     feature_plan = sub.add_parser("feature-plan", help="Create a 20-feature delivery plan for a process.")
     feature_plan.add_argument("--process", required=True)
     feature_plan.add_argument("--out")
@@ -1352,6 +1391,10 @@ def main() -> int:
     decision_plan = sub.add_parser("decision-usp-plan", help="Create a 20-USP decision intelligence plan for a process.")
     decision_plan.add_argument("--process", required=True)
     decision_plan.add_argument("--out")
+
+    operations_plan = sub.add_parser("operations-usp-plan", help="Create an 18-USP autonomous operations plan for a process.")
+    operations_plan.add_argument("--process", required=True)
+    operations_plan.add_argument("--out")
 
     build = sub.add_parser("build", help="Build a local process delivery bundle from the execution layer.")
     build.add_argument("--process", required=True)
@@ -1482,6 +1525,14 @@ def main() -> int:
             Path(args.out).write_text(text, encoding="utf-8")
         print(text)
         return 0
+    if args.command == "operations-usps":
+        result = load_autonomous_operations_usp_catalog()
+        text = json.dumps(result, indent=2)
+        if args.out:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.out).write_text(text, encoding="utf-8")
+        print(text)
+        return 0
     if args.command == "feature-plan":
         result = build_feature_delivery_plan(args.process)
         text = json.dumps(result, indent=2)
@@ -1524,6 +1575,14 @@ def main() -> int:
         return 0
     if args.command == "decision-usp-plan":
         result = build_decision_intelligence_usp_plan(args.process)
+        text = json.dumps(result, indent=2)
+        if args.out:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.out).write_text(text, encoding="utf-8")
+        print(text)
+        return 0
+    if args.command == "operations-usp-plan":
+        result = build_autonomous_operations_usp_plan(args.process)
         text = json.dumps(result, indent=2)
         if args.out:
             Path(args.out).parent.mkdir(parents=True, exist_ok=True)

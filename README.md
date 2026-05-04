@@ -29,6 +29,7 @@ The product turns business and process questions into validated Power BI deliver
 - Provides a 15-capability Production Hardening layer under `data/powerbi_production_hardening_catalog.json` and `outputs/powerbi-production-hardening/`, including Desktop smoke contracts, live connector execution contracts, credential-safe runtime policy, PBIP/PBIR schema validation, DAX evaluation contracts, layout scoring, auto-repair patches, Frown ZIP parsing, source-to-PBIP evidence, plugin UX workflow, Fabric deployment, RLS role generation, process-mining adapters, data contract enforcement, and release dashboards.
 - Provides a 30-USP Market Differentiator layer under `data/powerbi_market_differentiator_usp_catalog.json` and `outputs/powerbi-market-differentiator-usps/`, including process digital twin, KPI contract negotiation, root-cause narrative, value-at-risk prioritization, autonomous action boards, benchmark twins, evidence vaults, process mining bridges, predictive SLA radar, what-if simulation, governance-by-design, and board-to-action cascade evidence.
 - Provides a 20-USP Decision Intelligence layer under `data/powerbi_decision_intelligence_usp_catalog.json` and `outputs/powerbi-decision-intelligence-usps/`, including decision-room copilots, scenario option generation, tradeoff matrices, decision confidence scoring, action ROI estimates, counterfactual explanations, decision audit trails, accountability mapping, next-best-action ranking, decision-page composition, target negotiation, bottleneck detection, intervention simulation, dependency graphs, and decision feedback loops.
+- Provides an 18-USP Autonomous Operations layer under `data/powerbi_autonomous_operations_usp_catalog.json` and `outputs/powerbi-autonomous-operations-usps/`, including refresh failure triage, semantic drift monitoring, visual breakage monitoring, adoption optimization, capacity cost watchdogs, release ring orchestration, incident-to-fix autopilot, SLA monitoring, self-healing patch queues, gateway health command centers, report portfolio rationalization, and closed-loop value realization.
 - Provides a concrete Lead2Order Power BI analysis package under `outputs/lead2order-powerbi-analysis/`, including PBIP/PBIR/TMDL output, 30 governed DAX measures, 10 process-owner problem questions, 6 report pages, and zero-warning static validation evidence.
 - Adds executable trust checks for model graph quality, native source routing, visual bindings, DAX static checks, and Power BI Desktop smoke validation workflows.
 
@@ -79,6 +80,7 @@ Key guides:
 - [Power BI Production Hardening](outputs/powerbi-production-hardening/README.md)
 - [Power BI Market Differentiator USPs](outputs/powerbi-market-differentiator-usps/README.md)
 - [Power BI Decision Intelligence USPs](outputs/powerbi-decision-intelligence-usps/README.md)
+- [Power BI Autonomous Operations USPs](outputs/powerbi-autonomous-operations-usps/README.md)
 - [Lead2Order Power BI Analysis Package](outputs/lead2order-powerbi-analysis/README.md)
 - [Skills Catalog](docs/product/SKILLS_CATALOG.md)
 - [Power BI Expert-Replacement Factory Plan](docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
@@ -130,6 +132,7 @@ python scripts\build_powerbi_runtime_max_layer.py
 python scripts\build_powerbi_production_hardening_layer.py
 python scripts\build_powerbi_market_differentiator_usps.py
 python scripts\build_powerbi_decision_intelligence_usps.py
+python scripts\build_powerbi_autonomous_operations_usps.py
 python scripts\build_lead2order_powerbi_analysis.py
 ```
 
@@ -145,6 +148,7 @@ python scripts\powerbi_expert_factory.py runtime-max-plan --process lead-to-orde
 python scripts\powerbi_expert_factory.py hardening-plan --process lead-to-order --out outputs\powerbi-production-hardening\lead-to-order-hardening-plan.json
 python scripts\powerbi_expert_factory.py market-usp-plan --process lead-to-order --out outputs\powerbi-market-differentiator-usps\lead-to-order-market-usp-plan.json
 python scripts\powerbi_expert_factory.py decision-usp-plan --process lead-to-order --out outputs\powerbi-decision-intelligence-usps\lead-to-order-decision-usp-plan.json
+python scripts\powerbi_expert_factory.py operations-usp-plan --process lead-to-order --out outputs\powerbi-autonomous-operations-usps\lead-to-order-operations-usp-plan.json
 python scripts\powerbi_expert_factory.py validate --project outputs\lead2order-powerbi-analysis\pbip\Lead2OrderAnalysis --out outputs\lead2order-powerbi-analysis\validation_result.json
 ```
 

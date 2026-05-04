@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.420546+00:00",
+  "processId": "source2contract",
+  "processName": "Source2Contract",
+  "domain": "Procurement",
+  "ownerRole": "Source-to-Contract Process Owner",
+  "capabilityId": "ai_ops_runbook_generator",
+  "capabilityName": "AI Ops Runbook Generator",
+  "primaryPersona": "BI Operations Owner",
+  "operationsArtifact": "runbook",
+  "operationsScope": {
+    "caseName": "Sourcing Event",
+    "valueLabel": "ContractValue",
+    "kpis": [
+      "Sourcing Cycle Time",
+      "Contract Value At Risk",
+      "Supplier Compliance %",
+      "Legal Loop Count",
+      "Savings Value"
+    ],
+    "sourceSystems": [
+      "Sourcing Suite",
+      "CLM",
+      "Supplier Portal",
+      "ERP MM"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "runbook",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/source2contract/ai_ops_runbook_generator.json",
+  "status": "evidence-ready"
+}

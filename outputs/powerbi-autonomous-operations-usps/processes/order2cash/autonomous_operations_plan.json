@@ -1,0 +1,174 @@
+{
+  "eventType": "powerbi_autonomous_operations_process_plan",
+  "generatedAt": "2026-05-04T16:16:22.412886+00:00",
+  "processId": "order2cash",
+  "processName": "Order2Cash",
+  "domain": "Commercial",
+  "ownerRole": "Order-to-Cash Process Owner",
+  "capabilityCount": 18,
+  "autonomousOperationsUsps": [
+    {
+      "sequence": 1,
+      "capabilityId": "refresh_failure_triage_agent",
+      "capabilityName": "Refresh Failure Triage Agent",
+      "primaryPersona": "BI Operations Owner",
+      "operationsArtifact": "refresh triage",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/refresh_failure_triage_agent.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 2,
+      "capabilityId": "semantic_drift_monitor",
+      "capabilityName": "Semantic Drift Monitor",
+      "primaryPersona": "Semantic Model Owner",
+      "operationsArtifact": "semantic drift evidence",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/semantic_drift_monitor.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 3,
+      "capabilityId": "visual_breakage_monitor",
+      "capabilityName": "Visual Breakage Monitor",
+      "primaryPersona": "Power BI Designer",
+      "operationsArtifact": "visual health evidence",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/visual_breakage_monitor.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 4,
+      "capabilityId": "usage_adoption_optimizer",
+      "capabilityName": "Usage Adoption Optimizer",
+      "primaryPersona": "BI Adoption Lead",
+      "operationsArtifact": "adoption plan",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/usage_adoption_optimizer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 5,
+      "capabilityId": "capacity_cost_watchdog",
+      "capabilityName": "Capacity Cost Watchdog",
+      "primaryPersona": "Fabric Capacity Owner",
+      "operationsArtifact": "cost watchdog",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/capacity_cost_watchdog.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 6,
+      "capabilityId": "release_ring_orchestrator",
+      "capabilityName": "Release Ring Orchestrator",
+      "primaryPersona": "BI Release Manager",
+      "operationsArtifact": "release ring plan",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/release_ring_orchestrator.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 7,
+      "capabilityId": "incident_to_fix_autopilot",
+      "capabilityName": "Incident-to-Fix Autopilot",
+      "primaryPersona": "Support Lead",
+      "operationsArtifact": "repair plan",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/incident_to_fix_autopilot.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 8,
+      "capabilityId": "sla_monitoring_pack",
+      "capabilityName": "SLA Monitoring Pack",
+      "primaryPersona": "Operations Lead",
+      "operationsArtifact": "SLA pack",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/sla_monitoring_pack.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 9,
+      "capabilityId": "continuous_improvement_backlog",
+      "capabilityName": "Continuous Improvement Backlog",
+      "primaryPersona": "Transformation Lead",
+      "operationsArtifact": "improvement backlog",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/continuous_improvement_backlog.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 10,
+      "capabilityId": "automated_owner_nudges",
+      "capabilityName": "Automated Owner Nudges",
+      "primaryPersona": "Process Owner",
+      "operationsArtifact": "owner nudge queue",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/automated_owner_nudges.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 11,
+      "capabilityId": "self_healing_model_patch_queue",
+      "capabilityName": "Self-Healing Model Patch Queue",
+      "primaryPersona": "Power BI Expert",
+      "operationsArtifact": "patch queue",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/self_healing_model_patch_queue.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 12,
+      "capabilityId": "access_review_automation",
+      "capabilityName": "Access Review Automation",
+      "primaryPersona": "Security Owner",
+      "operationsArtifact": "access review",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/access_review_automation.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 13,
+      "capabilityId": "gateway_health_command_center",
+      "capabilityName": "Gateway Health Command Center",
+      "primaryPersona": "Gateway Admin",
+      "operationsArtifact": "gateway command center",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/gateway_health_command_center.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 14,
+      "capabilityId": "data_quality_slo_monitor",
+      "capabilityName": "Data Quality SLO Monitor",
+      "primaryPersona": "Data Owner",
+      "operationsArtifact": "DQ SLO evidence",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/data_quality_slo_monitor.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 15,
+      "capabilityId": "report_portfolio_rationalizer",
+      "capabilityName": "Report Portfolio Rationalizer",
+      "primaryPersona": "CoE Reviewer",
+      "operationsArtifact": "portfolio rationalization",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/report_portfolio_rationalizer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 16,
+      "capabilityId": "ai_ops_runbook_generator",
+      "capabilityName": "AI Ops Runbook Generator",
+      "primaryPersona": "BI Operations Owner",
+      "operationsArtifact": "runbook",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/ai_ops_runbook_generator.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 17,
+      "capabilityId": "production_readiness_sentinel",
+      "capabilityName": "Production Readiness Sentinel",
+      "primaryPersona": "CoE Reviewer",
+      "operationsArtifact": "readiness sentinel",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/production_readiness_sentinel.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 18,
+      "capabilityId": "closed_loop_value_realization",
+      "capabilityName": "Closed-Loop Value Realization",
+      "primaryPersona": "Executive Sponsor",
+      "operationsArtifact": "value realization evidence",
+      "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/order2cash/closed_loop_value_realization.json",
+      "artifactExists": true
+    }
+  ],
+  "releaseUse": "post-release operations, refresh support, telemetry review, access review, and continuous improvement"
+}

@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.741352+00:00",
+  "processId": "supplieronboarding2risk",
+  "processName": "SupplierOnboarding2Risk",
+  "domain": "Procurement",
+  "ownerRole": "Supplier Risk Process Owner",
+  "capabilityId": "data_quality_slo_monitor",
+  "capabilityName": "Data Quality SLO Monitor",
+  "primaryPersona": "Data Owner",
+  "operationsArtifact": "DQ SLO evidence",
+  "operationsScope": {
+    "caseName": "Supplier Onboarding",
+    "valueLabel": "RiskExposure",
+    "kpis": [
+      "Qualification Status",
+      "Audit Score",
+      "ESG Risk",
+      "Onboarding Aging",
+      "Supplier Risk Exposure"
+    ],
+    "sourceSystems": [
+      "Supplier Portal",
+      "GRC",
+      "Sourcing",
+      "ERP Vendor Master"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "DQ SLO evidence",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/supplieronboarding2risk/data_quality_slo_monitor.json",
+  "status": "evidence-ready"
+}

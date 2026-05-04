@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.651469+00:00",
+  "processId": "return2disposition",
+  "processName": "Return2Disposition",
+  "domain": "Service",
+  "ownerRole": "Returns Process Owner",
+  "capabilityId": "sla_monitoring_pack",
+  "capabilityName": "SLA Monitoring Pack",
+  "primaryPersona": "Operations Lead",
+  "operationsArtifact": "SLA pack",
+  "operationsScope": {
+    "caseName": "Return",
+    "valueLabel": "RecoveryValue",
+    "kpis": [
+      "Return Rate",
+      "Disposition Aging",
+      "Recovery Value",
+      "Scrap Rate",
+      "Resale Rate"
+    ],
+    "sourceSystems": [
+      "RMA",
+      "WMS",
+      "QMS",
+      "ERP SD"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "SLA pack",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/return2disposition/sla_monitoring_pack.json",
+  "status": "evidence-ready"
+}

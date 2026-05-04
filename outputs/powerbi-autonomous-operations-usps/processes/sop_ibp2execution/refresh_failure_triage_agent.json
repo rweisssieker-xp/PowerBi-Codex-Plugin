@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.574852+00:00",
+  "processId": "sop_ibp2execution",
+  "processName": "S&OP / IBP2Execution",
+  "domain": "Supply Chain",
+  "ownerRole": "IBP Process Owner",
+  "capabilityId": "refresh_failure_triage_agent",
+  "capabilityName": "Refresh Failure Triage Agent",
+  "primaryPersona": "BI Operations Owner",
+  "operationsArtifact": "refresh triage",
+  "operationsScope": {
+    "caseName": "Plan Commitment",
+    "valueLabel": "PlanGapValue",
+    "kpis": [
+      "Plan Adherence",
+      "Constrained Gap",
+      "Capacity Overload",
+      "Inventory Target Adherence",
+      "Plan Change Count"
+    ],
+    "sourceSystems": [
+      "IBP",
+      "ERP PP",
+      "MES",
+      "Inventory"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "refresh triage",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/sop_ibp2execution/refresh_failure_triage_agent.json",
+  "status": "evidence-ready"
+}

@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.558579+00:00",
+  "processId": "contract2revenue",
+  "processName": "Contract2Revenue",
+  "domain": "Finance",
+  "ownerRole": "Revenue Process Owner",
+  "capabilityId": "incident_to_fix_autopilot",
+  "capabilityName": "Incident-to-Fix Autopilot",
+  "primaryPersona": "Support Lead",
+  "operationsArtifact": "repair plan",
+  "operationsScope": {
+    "caseName": "Revenue Contract",
+    "valueLabel": "RevenueValue",
+    "kpis": [
+      "Billing Readiness",
+      "Revenue Leakage",
+      "Deferred Revenue",
+      "Renewal Risk",
+      "Missing Billing Data"
+    ],
+    "sourceSystems": [
+      "CLM",
+      "ERP SD",
+      "Billing",
+      "Revenue Recognition"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "repair plan",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/contract2revenue/incident_to_fix_autopilot.json",
+  "status": "evidence-ready"
+}

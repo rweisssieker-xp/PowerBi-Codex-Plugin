@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.594645+00:00",
+  "processId": "design2cost",
+  "processName": "Design2Cost / Design2Source",
+  "domain": "Engineering",
+  "ownerRole": "Design-to-Cost Process Owner",
+  "capabilityId": "data_quality_slo_monitor",
+  "capabilityName": "Data Quality SLO Monitor",
+  "primaryPersona": "Data Owner",
+  "operationsArtifact": "DQ SLO evidence",
+  "operationsScope": {
+    "caseName": "Design Item",
+    "valueLabel": "CostVariance",
+    "kpis": [
+      "Target Cost Variance",
+      "Part Reuse %",
+      "Single-Source Exposure",
+      "Sourcing Readiness",
+      "Engineering Cost Risk"
+    ],
+    "sourceSystems": [
+      "PLM",
+      "Costing",
+      "Sourcing",
+      "ERP MM"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "DQ SLO evidence",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/design2cost/data_quality_slo_monitor.json",
+  "status": "evidence-ready"
+}

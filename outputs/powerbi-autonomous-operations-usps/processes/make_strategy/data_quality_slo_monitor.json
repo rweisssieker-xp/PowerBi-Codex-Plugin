@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.465561+00:00",
+  "processId": "make_strategy",
+  "processName": "Make2Stock / Make2Order / Engineer2Order",
+  "domain": "Manufacturing",
+  "ownerRole": "Manufacturing Strategy Process Owner",
+  "capabilityId": "data_quality_slo_monitor",
+  "capabilityName": "Data Quality SLO Monitor",
+  "primaryPersona": "Data Owner",
+  "operationsArtifact": "DQ SLO evidence",
+  "operationsScope": {
+    "caseName": "Manufacturing Commitment",
+    "valueLabel": "CommitmentValue",
+    "kpis": [
+      "Lead Time",
+      "WIP Value",
+      "Stock Cover",
+      "Milestone Adherence",
+      "Expedite Count"
+    ],
+    "sourceSystems": [
+      "ERP PP",
+      "PLM",
+      "MES",
+      "APS"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "DQ SLO evidence",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/make_strategy/data_quality_slo_monitor.json",
+  "status": "evidence-ready"
+}

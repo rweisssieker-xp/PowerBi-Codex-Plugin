@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.638416+00:00",
+  "processId": "pick2pack2ship",
+  "processName": "Pick2Pack2Ship",
+  "domain": "Warehouse",
+  "ownerRole": "Outbound Warehouse Process Owner",
+  "capabilityId": "self_healing_model_patch_queue",
+  "capabilityName": "Self-Healing Model Patch Queue",
+  "primaryPersona": "Power BI Expert",
+  "operationsArtifact": "patch queue",
+  "operationsScope": {
+    "caseName": "Shipment",
+    "valueLabel": "ShipmentValue",
+    "kpis": [
+      "Pick Accuracy",
+      "Lines Per Hour",
+      "Wave Adherence",
+      "Pack Backlog",
+      "Cut-Off Misses"
+    ],
+    "sourceSystems": [
+      "WMS",
+      "ERP SD",
+      "TMS",
+      "Carrier Portal"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "patch queue",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/pick2pack2ship/self_healing_model_patch_queue.json",
+  "status": "evidence-ready"
+}

@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.446718+00:00",
+  "processId": "plan2produce",
+  "processName": "Plan2Produce",
+  "domain": "Manufacturing",
+  "ownerRole": "Plan-to-Produce Process Owner",
+  "capabilityId": "refresh_failure_triage_agent",
+  "capabilityName": "Refresh Failure Triage Agent",
+  "primaryPersona": "BI Operations Owner",
+  "operationsArtifact": "refresh triage",
+  "operationsScope": {
+    "caseName": "Production Order",
+    "valueLabel": "ProductionValue",
+    "kpis": [
+      "Schedule Adherence",
+      "Yield %",
+      "Scrap Value",
+      "Capacity Utilization",
+      "Production Variance"
+    ],
+    "sourceSystems": [
+      "ERP PP",
+      "MES",
+      "QMS",
+      "Historian"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "refresh triage",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/plan2produce/refresh_failure_triage_agent.json",
+  "status": "evidence-ready"
+}

@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.548444+00:00",
+  "processId": "quote2contract",
+  "processName": "Quote2Contract",
+  "domain": "Commercial",
+  "ownerRole": "Quote-to-Contract Process Owner",
+  "capabilityId": "continuous_improvement_backlog",
+  "capabilityName": "Continuous Improvement Backlog",
+  "primaryPersona": "Transformation Lead",
+  "operationsArtifact": "improvement backlog",
+  "operationsScope": {
+    "caseName": "Contract",
+    "valueLabel": "ContractValue",
+    "kpis": [
+      "Contract Cycle Time",
+      "Redline Loops",
+      "Term Deviation Count",
+      "Value At Risk",
+      "Signature Aging"
+    ],
+    "sourceSystems": [
+      "CRM",
+      "CPQ",
+      "CLM",
+      "E-Signature"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "improvement backlog",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/quote2contract/continuous_improvement_backlog.json",
+  "status": "evidence-ready"
+}

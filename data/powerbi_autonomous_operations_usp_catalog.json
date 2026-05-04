@@ -1,0 +1,511 @@
+{
+  "version": "2026-05-04",
+  "description": "Autonomous Operations USP layer for running generated Power BI assets after release.",
+  "capabilityCount": 18,
+  "capabilities": [
+    {
+      "sequence": 1,
+      "id": "refresh_failure_triage_agent",
+      "name": "Refresh Failure Triage Agent",
+      "summary": "Classifies refresh failures by connector, gateway, credential, schema drift, capacity, and source outage cause.",
+      "primaryPersona": "BI Operations Owner",
+      "operationsArtifact": "refresh triage",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "refresh triage",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 2,
+      "id": "semantic_drift_monitor",
+      "name": "Semantic Drift Monitor",
+      "summary": "Detects changes in measures, relationships, fields, source schemas, and KPI contracts before users see broken reports.",
+      "primaryPersona": "Semantic Model Owner",
+      "operationsArtifact": "semantic drift evidence",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "semantic drift evidence",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 3,
+      "id": "visual_breakage_monitor",
+      "name": "Visual Breakage Monitor",
+      "summary": "Monitors report visual bindings, missing fields, invalid measures, page layout regressions, and mobile layout risk.",
+      "primaryPersona": "Power BI Designer",
+      "operationsArtifact": "visual health evidence",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "visual health evidence",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 4,
+      "id": "usage_adoption_optimizer",
+      "name": "Usage Adoption Optimizer",
+      "summary": "Turns usage telemetry into adoption gaps, training actions, report consolidation candidates, and owner follow-up tasks.",
+      "primaryPersona": "BI Adoption Lead",
+      "operationsArtifact": "adoption plan",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "adoption plan",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 5,
+      "id": "capacity_cost_watchdog",
+      "name": "Capacity Cost Watchdog",
+      "summary": "Detects capacity hot spots, expensive refresh patterns, semantic model bloat, and cost optimization opportunities.",
+      "primaryPersona": "Fabric Capacity Owner",
+      "operationsArtifact": "cost watchdog",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "cost watchdog",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 6,
+      "id": "release_ring_orchestrator",
+      "name": "Release Ring Orchestrator",
+      "summary": "Moves generated BI assets through dev, test, pilot, production, rollback, and certification rings with evidence.",
+      "primaryPersona": "BI Release Manager",
+      "operationsArtifact": "release ring plan",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "release ring plan",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 7,
+      "id": "incident_to_fix_autopilot",
+      "name": "Incident-to-Fix Autopilot",
+      "summary": "Converts user incidents, Frown logs, failed checks, and telemetry into ranked repair plans and validation evidence.",
+      "primaryPersona": "Support Lead",
+      "operationsArtifact": "repair plan",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "repair plan",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 8,
+      "id": "sla_monitoring_pack",
+      "name": "SLA Monitoring Pack",
+      "summary": "Defines operational SLAs for refresh, source delivery, user access, report performance, incidents, and action closure.",
+      "primaryPersona": "Operations Lead",
+      "operationsArtifact": "SLA pack",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "SLA pack",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 9,
+      "id": "continuous_improvement_backlog",
+      "name": "Continuous Improvement Backlog",
+      "summary": "Creates improvement backlog items from recurring issues, low adoption, owner feedback, data-quality defects, and KPI misses.",
+      "primaryPersona": "Transformation Lead",
+      "operationsArtifact": "improvement backlog",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "improvement backlog",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 10,
+      "id": "automated_owner_nudges",
+      "name": "Automated Owner Nudges",
+      "summary": "Generates accountable reminders for overdue actions, stale approvals, unresolved DQ issues, and KPI contract decisions.",
+      "primaryPersona": "Process Owner",
+      "operationsArtifact": "owner nudge queue",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "owner nudge queue",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 11,
+      "id": "self_healing_model_patch_queue",
+      "name": "Self-Healing Model Patch Queue",
+      "summary": "Creates controlled candidate fixes for relationship ambiguity, missing fields, broken measures, and source-type changes.",
+      "primaryPersona": "Power BI Expert",
+      "operationsArtifact": "patch queue",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "patch queue",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 12,
+      "id": "access_review_automation",
+      "name": "Access Review Automation",
+      "summary": "Builds recurring access review evidence for workspace roles, RLS membership, sensitivity labels, and sharing exceptions.",
+      "primaryPersona": "Security Owner",
+      "operationsArtifact": "access review",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "access review",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 13,
+      "id": "gateway_health_command_center",
+      "name": "Gateway Health Command Center",
+      "summary": "Tracks gateway cluster health, datasource mappings, credential age, refresh load, and failure concentration.",
+      "primaryPersona": "Gateway Admin",
+      "operationsArtifact": "gateway command center",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "gateway command center",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 14,
+      "id": "data_quality_slo_monitor",
+      "name": "Data Quality SLO Monitor",
+      "summary": "Monitors freshness, completeness, uniqueness, referential integrity, and business-rule SLOs per process pack.",
+      "primaryPersona": "Data Owner",
+      "operationsArtifact": "DQ SLO evidence",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "DQ SLO evidence",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 15,
+      "id": "report_portfolio_rationalizer",
+      "name": "Report Portfolio Rationalizer",
+      "summary": "Finds duplicate reports, unused dashboards, overlapping semantic models, and consolidation candidates.",
+      "primaryPersona": "CoE Reviewer",
+      "operationsArtifact": "portfolio rationalization",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "portfolio rationalization",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 16,
+      "id": "ai_ops_runbook_generator",
+      "name": "AI Ops Runbook Generator",
+      "summary": "Generates operational runbooks for refresh failures, release rollback, source outages, access incidents, and report repairs.",
+      "primaryPersona": "BI Operations Owner",
+      "operationsArtifact": "runbook",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "runbook",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 17,
+      "id": "production_readiness_sentinel",
+      "name": "Production Readiness Sentinel",
+      "summary": "Continuously re-checks whether a process pack remains certified, supported, secure, performant, and owner-approved.",
+      "primaryPersona": "CoE Reviewer",
+      "operationsArtifact": "readiness sentinel",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "readiness sentinel",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    },
+    {
+      "sequence": 18,
+      "id": "closed_loop_value_realization",
+      "name": "Closed-Loop Value Realization",
+      "summary": "Tracks whether actions, decisions, and BI releases actually moved process KPIs and captured expected value.",
+      "primaryPersona": "Executive Sponsor",
+      "operationsArtifact": "value realization evidence",
+      "implementationStatus": "implemented_as_autonomous_operations_evidence",
+      "operationalSignals": [
+        "refresh telemetry",
+        "source health",
+        "semantic model checks",
+        "report binding checks",
+        "usage and adoption telemetry",
+        "owner action state"
+      ],
+      "outputs": [
+        "value realization evidence",
+        "owner action evidence",
+        "operations health evidence",
+        "release or support evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to an operations owner",
+        "capability has process-specific operational signals",
+        "capability has an action, repair, release, or support outcome"
+      ]
+    }
+  ]
+}

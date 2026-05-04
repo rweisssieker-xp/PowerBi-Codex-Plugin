@@ -777,6 +777,75 @@ def check_powerbi_decision_intelligence_usps(root: Path) -> list[str]:
     return errors
 
 
+def check_powerbi_autonomous_operations_usps(root: Path) -> list[str]:
+    errors: list[str] = []
+    catalog_path = root / "data/powerbi_autonomous_operations_usp_catalog.json"
+    output_root = root / "outputs/powerbi-autonomous-operations-usps"
+    process_catalog_path = root / "data/industry_process_catalog.json"
+    if not catalog_path.exists():
+        return [f"{catalog_path}: autonomous operations USP catalog is missing"]
+    if not output_root.exists():
+        return [f"{output_root}: autonomous operations USP output folder is missing"]
+
+    catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+    capabilities = catalog.get("capabilities", [])
+    if catalog.get("capabilityCount") != 18 or len(capabilities) != 18:
+        errors.append(f"{catalog_path}: expected exactly 18 autonomous operations USPs")
+    capability_ids = [str(capability.get("id")) for capability in capabilities]
+    for capability in capabilities:
+        for field in [
+            "id",
+            "name",
+            "summary",
+            "primaryPersona",
+            "operationsArtifact",
+            "implementationStatus",
+            "operationalSignals",
+            "outputs",
+            "acceptanceChecks",
+        ]:
+            if not capability.get(field):
+                errors.append(f"{catalog_path}: autonomous operations USP missing {field}")
+        if capability.get("implementationStatus") != "implemented_as_autonomous_operations_evidence":
+            errors.append(f"{catalog_path}: autonomous operations USP {capability.get('id')} has invalid status")
+
+    processes = json.loads(process_catalog_path.read_text(encoding="utf-8")).get("processes", [])
+    for process in processes:
+        process_id = process.get("processId")
+        folder = output_root / "processes" / str(process_id)
+        plan_path = folder / "autonomous_operations_plan.json"
+        if not plan_path.exists():
+            errors.append(f"{plan_path}: autonomous operations process plan is missing")
+            continue
+        plan = json.loads(plan_path.read_text(encoding="utf-8"))
+        if plan.get("capabilityCount") != 18 or len(plan.get("autonomousOperationsUsps", [])) != 18:
+            errors.append(f"{plan_path}: expected 18 autonomous operations USPs")
+        for capability_id in capability_ids:
+            artifact_path = folder / f"{capability_id}.json"
+            if not artifact_path.exists():
+                errors.append(f"{artifact_path}: autonomous operations evidence artifact is missing")
+                continue
+            artifact = json.loads(artifact_path.read_text(encoding="utf-8"))
+            if artifact.get("capabilityId") != capability_id:
+                errors.append(f"{artifact_path}: capabilityId mismatch")
+            if artifact.get("status") != "evidence-ready":
+                errors.append(f"{artifact_path}: expected status evidence-ready")
+
+    index_path = output_root / "autonomous_operations_index.csv"
+    if not index_path.exists():
+        errors.append(f"{index_path}: autonomous operations index is missing")
+    else:
+        row_count = max(0, len(index_path.read_text(encoding="utf-8").splitlines()) - 1)
+        if row_count != len(processes):
+            errors.append(f"{index_path}: expected {len(processes)} rows, found {row_count}")
+    summary_path = output_root / "autonomous_operations_summary.json"
+    if not summary_path.exists():
+        errors.append(f"{summary_path}: autonomous operations summary is missing")
+    if not (output_root / "README.md").exists():
+        errors.append(f"{output_root / 'README.md'}: autonomous operations README is missing")
+    return errors
+
+
 def check_lead2order_analysis_package(root: Path) -> list[str]:
     errors: list[str] = []
     output_root = root / "outputs" / "lead2order-powerbi-analysis"
@@ -962,6 +1031,7 @@ def run(root: Path) -> int:
     errors.extend(check_powerbi_production_hardening(root))
     errors.extend(check_powerbi_market_differentiator_usps(root))
     errors.extend(check_powerbi_decision_intelligence_usps(root))
+    errors.extend(check_powerbi_autonomous_operations_usps(root))
     errors.extend(check_lead2order_analysis_package(root))
     errors.extend(check_powerbi_plugin_runtime_skill_wiring(root))
 

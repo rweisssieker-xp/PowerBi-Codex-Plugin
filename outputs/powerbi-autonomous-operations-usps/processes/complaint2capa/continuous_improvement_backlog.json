@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.664339+00:00",
+  "processId": "complaint2capa",
+  "processName": "Complaint2CAPA",
+  "domain": "Quality",
+  "ownerRole": "Complaint-to-CAPA Process Owner",
+  "capabilityId": "continuous_improvement_backlog",
+  "capabilityName": "Continuous Improvement Backlog",
+  "primaryPersona": "Transformation Lead",
+  "operationsArtifact": "improvement backlog",
+  "operationsScope": {
+    "caseName": "Complaint",
+    "valueLabel": "QualityCost",
+    "kpis": [
+      "Complaint Rate",
+      "CAPA Aging",
+      "Repeat Defect Rate",
+      "Cost Of Poor Quality",
+      "CAPA Effectiveness"
+    ],
+    "sourceSystems": [
+      "QMS",
+      "CRM Service",
+      "Warranty",
+      "ERP QM"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "improvement backlog",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/complaint2capa/continuous_improvement_backlog.json",
+  "status": "evidence-ready"
+}

@@ -1,0 +1,51 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.640969+00:00",
+  "processId": "pick2pack2ship",
+  "processName": "Pick2Pack2Ship",
+  "domain": "Warehouse",
+  "ownerRole": "Outbound Warehouse Process Owner",
+  "capabilityId": "data_quality_slo_monitor",
+  "capabilityName": "Data Quality SLO Monitor",
+  "primaryPersona": "Data Owner",
+  "operationsArtifact": "DQ SLO evidence",
+  "operationsScope": {
+    "caseName": "Shipment",
+    "valueLabel": "ShipmentValue",
+    "kpis": [
+      "Pick Accuracy",
+      "Lines Per Hour",
+      "Wave Adherence",
+      "Pack Backlog",
+      "Cut-Off Misses"
+    ],
+    "sourceSystems": [
+      "WMS",
+      "ERP SD",
+      "TMS",
+      "Carrier Portal"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "DQ SLO evidence",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/pick2pack2ship/data_quality_slo_monitor.json",
+  "status": "evidence-ready"
+}

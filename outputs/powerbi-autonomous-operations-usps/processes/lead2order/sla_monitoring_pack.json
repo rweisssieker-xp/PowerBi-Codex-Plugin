@@ -1,0 +1,52 @@
+{
+  "eventType": "powerbi_autonomous_operations_usp_evidence",
+  "generatedAt": "2026-05-04T16:16:22.395686+00:00",
+  "processId": "lead2order",
+  "processName": "Lead2Order",
+  "domain": "Commercial",
+  "ownerRole": "Lead-to-Order Process Owner",
+  "capabilityId": "sla_monitoring_pack",
+  "capabilityName": "SLA Monitoring Pack",
+  "primaryPersona": "Operations Lead",
+  "operationsArtifact": "SLA pack",
+  "operationsScope": {
+    "caseName": "Lead",
+    "valueLabel": "PipelineValue",
+    "kpis": [
+      "Lead Volume",
+      "MQL Rate",
+      "SQL Rate",
+      "Order Conversion Rate",
+      "Lead-to-Order Cycle Time",
+      "Pipeline Value"
+    ],
+    "sourceSystems": [
+      "CRM",
+      "Marketing Automation",
+      "CPQ",
+      "ERP Sales"
+    ],
+    "defaultCadence": "daily operations, weekly owner review, monthly CoE review"
+  },
+  "operationalSignals": [
+    "refresh telemetry",
+    "source health",
+    "semantic model checks",
+    "report binding checks",
+    "usage and adoption telemetry",
+    "owner action state"
+  ],
+  "outputs": [
+    "SLA pack",
+    "owner action evidence",
+    "operations health evidence",
+    "release or support evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to an operations owner",
+    "capability has process-specific operational signals",
+    "capability has an action, repair, release, or support outcome"
+  ],
+  "artifactPath": "outputs/powerbi-autonomous-operations-usps/processes/lead2order/sla_monitoring_pack.json",
+  "status": "evidence-ready"
+}
