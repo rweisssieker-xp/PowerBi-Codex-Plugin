@@ -8,6 +8,169 @@
     "demoPath": "outputs/industry-demo-data/maintain2operate",
     "productionRouting": "Replace CSV folder with validated native ERP/CRM/WMS/MES/QMS/EPM/Fabric connector according to source metadata."
   },
+  "productionSourceRouting": [
+    {
+      "connector": "SQL Server database",
+      "category": "Database",
+      "powerQueryFunction": "Sql.Database",
+      "supportedModes": [
+        "Import",
+        "DirectQuery"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": true,
+      "productionUse": true
+    },
+    {
+      "connector": "Oracle database",
+      "category": "Database",
+      "powerQueryFunction": "Oracle.Database",
+      "supportedModes": [
+        "Import",
+        "DirectQuery"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": true,
+      "productionUse": true
+    },
+    {
+      "connector": "OData",
+      "category": "Other",
+      "powerQueryFunction": "OData.Feed",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": "service-dependent",
+      "productionUse": true
+    },
+    {
+      "connector": "REST API",
+      "category": "Other",
+      "powerQueryFunction": "Web.Contents",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": false,
+      "productionUse": true
+    },
+    {
+      "connector": "Azure Data Explorer (Kusto)",
+      "category": "Azure",
+      "powerQueryFunction": "Kusto.Contents",
+      "supportedModes": [
+        "Import",
+        "DirectQuery"
+      ],
+      "gatewayRequired": false,
+      "queryFolding": true,
+      "productionUse": true
+    },
+    {
+      "connector": "Dataverse",
+      "category": "Power Platform",
+      "powerQueryFunction": "CommonDataService.Database",
+      "supportedModes": [
+        "Import",
+        "DirectQuery"
+      ],
+      "gatewayRequired": false,
+      "queryFolding": true,
+      "productionUse": true
+    },
+    {
+      "connector": "Spark",
+      "category": "Other",
+      "powerQueryFunction": "Spark.Tables",
+      "supportedModes": [
+        "Import",
+        "DirectQuery"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": true,
+      "productionUse": true
+    },
+    {
+      "connector": "Excel Workbook",
+      "category": "File",
+      "powerQueryFunction": "Excel.Workbook",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": false,
+      "productionUse": true
+    }
+  ],
+  "fallbackSourcePatterns": [
+    {
+      "connector": "Text/CSV",
+      "category": "File",
+      "powerQueryFunction": "Csv.Document",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": false,
+      "productionUse": true
+    },
+    {
+      "connector": "Folder",
+      "category": "File",
+      "powerQueryFunction": "Folder.Files",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": false,
+      "productionUse": true
+    },
+    {
+      "connector": "SharePoint Folder",
+      "category": "File",
+      "powerQueryFunction": "SharePoint.Files",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": false,
+      "queryFolding": false,
+      "productionUse": true
+    },
+    {
+      "connector": "Web",
+      "category": "Other",
+      "powerQueryFunction": "Web.Contents",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": false,
+      "queryFolding": false,
+      "productionUse": true
+    },
+    {
+      "connector": "Custom connector",
+      "category": "Other",
+      "powerQueryFunction": "Extension.Contents",
+      "supportedModes": [
+        "Import",
+        "DirectQuery"
+      ],
+      "gatewayRequired": "depends",
+      "queryFolding": "connector-dependent",
+      "productionUse": true
+    }
+  ],
+  "requiredSourceDecisions": [
+    "native connector",
+    "Import / DirectQuery / Direct Lake / live connection / composite mode",
+    "gateway and credential owner",
+    "privacy level",
+    "query folding expectation",
+    "incremental refresh design",
+    "schema drift handling",
+    "data quality and reconciliation totals"
+  ],
   "tables": [
     {
       "name": "ProcessCases",

@@ -16,6 +16,8 @@ Dieses Dokument definiert die Abdeckung nativer Power-Query-Connectoren und Sour
 
 The plugin must treat native Power BI / Power Query connectivity as the default for real implementations. Synthetic `DATATABLE` output is only a test fixture strategy for offline PBIP smoke tests or Power BI Desktop preview limitations.
 
+The machine-readable source capability matrix is maintained in [powerbi_source_capability_matrix.json](../../data/powerbi_source_capability_matrix.json). Process-specific production source routing is generated in [outputs/source-routing](../../outputs/source-routing/README.md). Every generated industry process pack keeps the demo CSV path and the production-native routing path separate.
+
 ### Connector Coverage Scope
 
 The connector catalog follows the Power BI Desktop Get Data categories and the Power Query connector list:

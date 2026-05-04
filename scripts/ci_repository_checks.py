@@ -136,6 +136,51 @@ def check_industry_demo_data(root: Path) -> list[str]:
     return errors
 
 
+def check_powerbi_source_routing(root: Path) -> list[str]:
+    errors: list[str] = []
+    matrix_path = root / "data/powerbi_source_capability_matrix.json"
+    routing_path = root / "outputs/source-routing/process_source_routing.json"
+    if not matrix_path.exists():
+        return [f"{matrix_path}: Power BI source capability matrix is missing"]
+    if not routing_path.exists():
+        return [f"{routing_path}: process source-routing map is missing"]
+
+    matrix = json.loads(matrix_path.read_text(encoding="utf-8"))
+    expected_categories = {
+        "File",
+        "Database",
+        "Microsoft Fabric",
+        "Power Platform",
+        "Azure",
+        "Online Services",
+        "Other",
+    }
+    categories = {category.get("category") for category in matrix.get("sourceCategories", [])}
+    missing_categories = expected_categories - categories
+    if missing_categories:
+        errors.append(f"{matrix_path}: missing source categories: {', '.join(sorted(missing_categories))}")
+
+    connector_count = sum(len(category.get("connectors", [])) for category in matrix.get("sourceCategories", []))
+    if connector_count < 80:
+        errors.append(f"{matrix_path}: expected broad Power BI connector coverage, found {connector_count} connectors")
+
+    routing = json.loads(routing_path.read_text(encoding="utf-8")).get("routes", [])
+    catalog = json.loads((root / "data/industry_process_catalog.json").read_text(encoding="utf-8"))
+    if len(routing) != len(catalog.get("processes", [])):
+        errors.append(f"{routing_path}: expected one source route per process")
+    for route in routing:
+        connectors = route.get("productionSourceRouting", [])
+        if len(connectors) < 3:
+            errors.append(f"{routing_path}: {route.get('processId')} has fewer than 3 production connectors")
+        categories_for_route = {connector.get("category") for connector in connectors}
+        if not categories_for_route:
+            errors.append(f"{routing_path}: {route.get('processId')} has no production source categories")
+        for decision in ["native connector", "gateway and credential owner", "schema drift handling"]:
+            if decision not in route.get("requiredSourceDecisions", []):
+                errors.append(f"{routing_path}: {route.get('processId')} missing source decision '{decision}'")
+    return errors
+
+
 def check_industry_process_packs(root: Path) -> list[str]:
     errors: list[str] = []
     catalog_path = root / "data/industry_process_catalog.json"
@@ -170,6 +215,11 @@ def check_industry_process_packs(root: Path) -> list[str]:
             source_pattern = model.get("nativeSourcePattern", {})
             if source_pattern.get("connector") != "Folder.Files + Csv.Document":
                 errors.append(f"{model_path}: demo source connector pattern is not declared")
+            production_routes = model.get("productionSourceRouting", [])
+            if len(production_routes) < 3:
+                errors.append(f"{model_path}: expected at least 3 production native-source routes")
+            if not model.get("requiredSourceDecisions"):
+                errors.append(f"{model_path}: expected required source decisions")
 
         dax_path = folder / "dax_measures.dax"
         if dax_path.exists():
@@ -213,6 +263,7 @@ def run(root: Path) -> int:
     errors.extend(check_markdown_links(root))
     errors.extend(check_root_english(root))
     errors.extend(check_industry_demo_data(root))
+    errors.extend(check_powerbi_source_routing(root))
     errors.extend(check_industry_process_packs(root))
 
     if errors:

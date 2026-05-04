@@ -1,0 +1,257 @@
+ProcessID,ProcessName,Domain,Connector,Category,Modes,PowerQueryFunction
+lead2order,Lead2Order,Commercial,Salesforce Objects,Online Services,Import,Salesforce.Data
+lead2order,Lead2Order,Commercial,Dynamics 365,Online Services,Import,OData.Feed
+lead2order,Lead2Order,Commercial,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+lead2order,Lead2Order,Commercial,OData,Other,Import,OData.Feed
+lead2order,Lead2Order,Commercial,SQL Server database,Database,Import; DirectQuery,Sql.Database
+lead2order,Lead2Order,Commercial,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+lead2order,Lead2Order,Commercial,Lakehouses,Microsoft Fabric,Import; Direct Lake; DirectQuery,Lakehouse.Contents
+lead2order,Lead2Order,Commercial,REST API,Other,Import,Web.Contents
+order2cash,Order2Cash,Commercial,Salesforce Objects,Online Services,Import,Salesforce.Data
+order2cash,Order2Cash,Commercial,Dynamics 365,Online Services,Import,OData.Feed
+order2cash,Order2Cash,Commercial,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+order2cash,Order2Cash,Commercial,OData,Other,Import,OData.Feed
+order2cash,Order2Cash,Commercial,SQL Server database,Database,Import; DirectQuery,Sql.Database
+order2cash,Order2Cash,Commercial,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+order2cash,Order2Cash,Commercial,Lakehouses,Microsoft Fabric,Import; Direct Lake; DirectQuery,Lakehouse.Contents
+order2cash,Order2Cash,Commercial,REST API,Other,Import,Web.Contents
+source2contract,Source2Contract,Procurement,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+source2contract,Source2Contract,Procurement,SAP Business Warehouse Application Server,Database,Import; DirectQuery,SapBusinessWarehouse.Cubes
+source2contract,Source2Contract,Procurement,OData,Other,Import,OData.Feed
+source2contract,Source2Contract,Procurement,Oracle database,Database,Import; DirectQuery,Oracle.Database
+source2contract,Source2Contract,Procurement,SQL Server database,Database,Import; DirectQuery,Sql.Database
+source2contract,Source2Contract,Procurement,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+source2contract,Source2Contract,Procurement,REST API,Other,Import,Web.Contents
+source2contract,Source2Contract,Procurement,SharePoint Online List,Online Services,Import,SharePoint.Tables
+procure2pay,Procure2Pay,Procurement,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+procure2pay,Procure2Pay,Procurement,SAP Business Warehouse Application Server,Database,Import; DirectQuery,SapBusinessWarehouse.Cubes
+procure2pay,Procure2Pay,Procurement,OData,Other,Import,OData.Feed
+procure2pay,Procure2Pay,Procurement,Oracle database,Database,Import; DirectQuery,Oracle.Database
+procure2pay,Procure2Pay,Procurement,SQL Server database,Database,Import; DirectQuery,Sql.Database
+procure2pay,Procure2Pay,Procurement,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+procure2pay,Procure2Pay,Procurement,REST API,Other,Import,Web.Contents
+procure2pay,Procure2Pay,Procurement,Excel Workbook,File,Import,Excel.Workbook
+forecast2plan,Forecast2Plan,Supply Chain,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+forecast2plan,Forecast2Plan,Supply Chain,SQL Server database,Database,Import; DirectQuery,Sql.Database
+forecast2plan,Forecast2Plan,Supply Chain,Oracle database,Database,Import; DirectQuery,Oracle.Database
+forecast2plan,Forecast2Plan,Supply Chain,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+forecast2plan,Forecast2Plan,Supply Chain,Azure Synapse Analytics SQL,Azure,Import; DirectQuery,Sql.Database
+forecast2plan,Forecast2Plan,Supply Chain,Lakehouses,Microsoft Fabric,Import; Direct Lake; DirectQuery,Lakehouse.Contents
+forecast2plan,Forecast2Plan,Supply Chain,REST API,Other,Import,Web.Contents
+forecast2plan,Forecast2Plan,Supply Chain,OData,Other,Import,OData.Feed
+plan2produce,Plan2Produce,Manufacturing,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+plan2produce,Plan2Produce,Manufacturing,SQL Server database,Database,Import; DirectQuery,Sql.Database
+plan2produce,Plan2Produce,Manufacturing,Oracle database,Database,Import; DirectQuery,Oracle.Database
+plan2produce,Plan2Produce,Manufacturing,Spark,Other,Import; DirectQuery,Spark.Tables
+plan2produce,Plan2Produce,Manufacturing,Azure Data Explorer (Kusto),Azure,Import; DirectQuery,Kusto.Contents
+plan2produce,Plan2Produce,Manufacturing,REST API,Other,Import,Web.Contents
+plan2produce,Plan2Produce,Manufacturing,SAP Business Warehouse Application Server,Database,Import; DirectQuery,SapBusinessWarehouse.Cubes
+plan2produce,Plan2Produce,Manufacturing,OData,Other,Import,OData.Feed
+make_strategy,Make2Stock / Make2Order / Engineer2Order,Manufacturing,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+make_strategy,Make2Stock / Make2Order / Engineer2Order,Manufacturing,SQL Server database,Database,Import; DirectQuery,Sql.Database
+make_strategy,Make2Stock / Make2Order / Engineer2Order,Manufacturing,Oracle database,Database,Import; DirectQuery,Oracle.Database
+make_strategy,Make2Stock / Make2Order / Engineer2Order,Manufacturing,Spark,Other,Import; DirectQuery,Spark.Tables
+make_strategy,Make2Stock / Make2Order / Engineer2Order,Manufacturing,Azure Data Explorer (Kusto),Azure,Import; DirectQuery,Kusto.Contents
+make_strategy,Make2Stock / Make2Order / Engineer2Order,Manufacturing,REST API,Other,Import,Web.Contents
+make_strategy,Make2Stock / Make2Order / Engineer2Order,Manufacturing,SAP Business Warehouse Application Server,Database,Import; DirectQuery,SapBusinessWarehouse.Cubes
+make_strategy,Make2Stock / Make2Order / Engineer2Order,Manufacturing,OData,Other,Import,OData.Feed
+idea2launch,Idea2Launch / Engineer2Release,Engineering,OData,Other,Import,OData.Feed
+idea2launch,Idea2Launch / Engineer2Release,Engineering,REST API,Other,Import,Web.Contents
+idea2launch,Idea2Launch / Engineer2Release,Engineering,SQL Server database,Database,Import; DirectQuery,Sql.Database
+idea2launch,Idea2Launch / Engineer2Release,Engineering,Oracle database,Database,Import; DirectQuery,Oracle.Database
+idea2launch,Idea2Launch / Engineer2Release,Engineering,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+idea2launch,Idea2Launch / Engineer2Release,Engineering,SharePoint Folder,File,Import,SharePoint.Files
+idea2launch,Idea2Launch / Engineer2Release,Engineering,Parquet,File,Import,Parquet.Document
+idea2launch,Idea2Launch / Engineer2Release,Engineering,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+maintain2operate,Maintain2Operate,Maintenance,SQL Server database,Database,Import; DirectQuery,Sql.Database
+maintain2operate,Maintain2Operate,Maintenance,Oracle database,Database,Import; DirectQuery,Oracle.Database
+maintain2operate,Maintain2Operate,Maintenance,OData,Other,Import,OData.Feed
+maintain2operate,Maintain2Operate,Maintenance,REST API,Other,Import,Web.Contents
+maintain2operate,Maintain2Operate,Maintenance,Azure Data Explorer (Kusto),Azure,Import; DirectQuery,Kusto.Contents
+maintain2operate,Maintain2Operate,Maintenance,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+maintain2operate,Maintain2Operate,Maintenance,Spark,Other,Import; DirectQuery,Spark.Tables
+maintain2operate,Maintain2Operate,Maintenance,Excel Workbook,File,Import,Excel.Workbook
+issue2resolution,Issue2Resolution,Service,Salesforce Objects,Online Services,Import,Salesforce.Data
+issue2resolution,Issue2Resolution,Service,Dynamics 365,Online Services,Import,OData.Feed
+issue2resolution,Issue2Resolution,Service,ServiceNow,Online Services,Import,ServiceNow.Tables
+issue2resolution,Issue2Resolution,Service,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+issue2resolution,Issue2Resolution,Service,OData,Other,Import,OData.Feed
+issue2resolution,Issue2Resolution,Service,REST API,Other,Import,Web.Contents
+issue2resolution,Issue2Resolution,Service,SQL Server database,Database,Import; DirectQuery,Sql.Database
+issue2resolution,Issue2Resolution,Service,Excel Workbook,File,Import,Excel.Workbook
+record2report,Record2Report,Finance,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+record2report,Record2Report,Finance,SAP Business Warehouse Application Server,Database,Import; DirectQuery,SapBusinessWarehouse.Cubes
+record2report,Record2Report,Finance,SQL Server database,Database,Import; DirectQuery,Sql.Database
+record2report,Record2Report,Finance,Oracle database,Database,Import; DirectQuery,Oracle.Database
+record2report,Record2Report,Finance,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+record2report,Record2Report,Finance,Power BI semantic models,Microsoft Fabric,LiveConnection; DirectQuery,AnalysisServices.Database
+record2report,Record2Report,Finance,Dataflows,Power Platform,Import,PowerPlatform.Dataflows
+record2report,Record2Report,Finance,OData,Other,Import,OData.Feed
+hire2retire,Hire2Retire,Workforce,OData,Other,Import,OData.Feed
+hire2retire,Hire2Retire,Workforce,REST API,Other,Import,Web.Contents
+hire2retire,Hire2Retire,Workforce,SQL Server database,Database,Import; DirectQuery,Sql.Database
+hire2retire,Hire2Retire,Workforce,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+hire2retire,Hire2Retire,Workforce,Excel Workbook,File,Import,Excel.Workbook
+hire2retire,Hire2Retire,Workforce,SharePoint Folder,File,Import,SharePoint.Files
+hire2retire,Hire2Retire,Workforce,Text/CSV,File,Import,Csv.Document
+hire2retire,Hire2Retire,Workforce,Folder,File,Import,Folder.Files
+market2lead,Market2Lead,Commercial,Salesforce Objects,Online Services,Import,Salesforce.Data
+market2lead,Market2Lead,Commercial,Dynamics 365,Online Services,Import,OData.Feed
+market2lead,Market2Lead,Commercial,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+market2lead,Market2Lead,Commercial,OData,Other,Import,OData.Feed
+market2lead,Market2Lead,Commercial,SQL Server database,Database,Import; DirectQuery,Sql.Database
+market2lead,Market2Lead,Commercial,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+market2lead,Market2Lead,Commercial,Lakehouses,Microsoft Fabric,Import; Direct Lake; DirectQuery,Lakehouse.Contents
+market2lead,Market2Lead,Commercial,REST API,Other,Import,Web.Contents
+lead2quote,Lead2Quote / Configure2Quote,Commercial,Salesforce Objects,Online Services,Import,Salesforce.Data
+lead2quote,Lead2Quote / Configure2Quote,Commercial,Dynamics 365,Online Services,Import,OData.Feed
+lead2quote,Lead2Quote / Configure2Quote,Commercial,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+lead2quote,Lead2Quote / Configure2Quote,Commercial,OData,Other,Import,OData.Feed
+lead2quote,Lead2Quote / Configure2Quote,Commercial,SQL Server database,Database,Import; DirectQuery,Sql.Database
+lead2quote,Lead2Quote / Configure2Quote,Commercial,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+lead2quote,Lead2Quote / Configure2Quote,Commercial,Lakehouses,Microsoft Fabric,Import; Direct Lake; DirectQuery,Lakehouse.Contents
+lead2quote,Lead2Quote / Configure2Quote,Commercial,REST API,Other,Import,Web.Contents
+quote2contract,Quote2Contract,Commercial,Salesforce Objects,Online Services,Import,Salesforce.Data
+quote2contract,Quote2Contract,Commercial,Dynamics 365,Online Services,Import,OData.Feed
+quote2contract,Quote2Contract,Commercial,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+quote2contract,Quote2Contract,Commercial,OData,Other,Import,OData.Feed
+quote2contract,Quote2Contract,Commercial,SQL Server database,Database,Import; DirectQuery,Sql.Database
+quote2contract,Quote2Contract,Commercial,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+quote2contract,Quote2Contract,Commercial,Lakehouses,Microsoft Fabric,Import; Direct Lake; DirectQuery,Lakehouse.Contents
+quote2contract,Quote2Contract,Commercial,REST API,Other,Import,Web.Contents
+contract2revenue,Contract2Revenue,Finance,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+contract2revenue,Contract2Revenue,Finance,SAP Business Warehouse Application Server,Database,Import; DirectQuery,SapBusinessWarehouse.Cubes
+contract2revenue,Contract2Revenue,Finance,SQL Server database,Database,Import; DirectQuery,Sql.Database
+contract2revenue,Contract2Revenue,Finance,Oracle database,Database,Import; DirectQuery,Oracle.Database
+contract2revenue,Contract2Revenue,Finance,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+contract2revenue,Contract2Revenue,Finance,Power BI semantic models,Microsoft Fabric,LiveConnection; DirectQuery,AnalysisServices.Database
+contract2revenue,Contract2Revenue,Finance,Dataflows,Power Platform,Import,PowerPlatform.Dataflows
+contract2revenue,Contract2Revenue,Finance,OData,Other,Import,OData.Feed
+demand2supply,Demand2Supply,Supply Chain,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+demand2supply,Demand2Supply,Supply Chain,SQL Server database,Database,Import; DirectQuery,Sql.Database
+demand2supply,Demand2Supply,Supply Chain,Oracle database,Database,Import; DirectQuery,Oracle.Database
+demand2supply,Demand2Supply,Supply Chain,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+demand2supply,Demand2Supply,Supply Chain,Azure Synapse Analytics SQL,Azure,Import; DirectQuery,Sql.Database
+demand2supply,Demand2Supply,Supply Chain,Lakehouses,Microsoft Fabric,Import; Direct Lake; DirectQuery,Lakehouse.Contents
+demand2supply,Demand2Supply,Supply Chain,REST API,Other,Import,Web.Contents
+demand2supply,Demand2Supply,Supply Chain,SAP Business Warehouse Application Server,Database,Import; DirectQuery,SapBusinessWarehouse.Cubes
+sop_ibp2execution,S&OP / IBP2Execution,Supply Chain,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+sop_ibp2execution,S&OP / IBP2Execution,Supply Chain,SQL Server database,Database,Import; DirectQuery,Sql.Database
+sop_ibp2execution,S&OP / IBP2Execution,Supply Chain,Oracle database,Database,Import; DirectQuery,Oracle.Database
+sop_ibp2execution,S&OP / IBP2Execution,Supply Chain,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+sop_ibp2execution,S&OP / IBP2Execution,Supply Chain,Azure Synapse Analytics SQL,Azure,Import; DirectQuery,Sql.Database
+sop_ibp2execution,S&OP / IBP2Execution,Supply Chain,Lakehouses,Microsoft Fabric,Import; Direct Lake; DirectQuery,Lakehouse.Contents
+sop_ibp2execution,S&OP / IBP2Execution,Supply Chain,REST API,Other,Import,Web.Contents
+sop_ibp2execution,S&OP / IBP2Execution,Supply Chain,OData,Other,Import,OData.Feed
+design2cost,Design2Cost / Design2Source,Engineering,OData,Other,Import,OData.Feed
+design2cost,Design2Cost / Design2Source,Engineering,REST API,Other,Import,Web.Contents
+design2cost,Design2Cost / Design2Source,Engineering,SQL Server database,Database,Import; DirectQuery,Sql.Database
+design2cost,Design2Cost / Design2Source,Engineering,Oracle database,Database,Import; DirectQuery,Oracle.Database
+design2cost,Design2Cost / Design2Source,Engineering,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+design2cost,Design2Cost / Design2Source,Engineering,SharePoint Folder,File,Import,SharePoint.Files
+design2cost,Design2Cost / Design2Source,Engineering,Parquet,File,Import,Parquet.Document
+design2cost,Design2Cost / Design2Source,Engineering,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+project2cash,Engineer2Order / Project2Cash,Projects,SQL Server database,Database,Import; DirectQuery,Sql.Database
+project2cash,Engineer2Order / Project2Cash,Projects,Oracle database,Database,Import; DirectQuery,Oracle.Database
+project2cash,Engineer2Order / Project2Cash,Projects,OData,Other,Import,OData.Feed
+project2cash,Engineer2Order / Project2Cash,Projects,Power BI semantic models,Microsoft Fabric,LiveConnection; DirectQuery,AnalysisServices.Database
+project2cash,Engineer2Order / Project2Cash,Projects,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+project2cash,Engineer2Order / Project2Cash,Projects,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+project2cash,Engineer2Order / Project2Cash,Projects,SAP Business Warehouse Application Server,Database,Import; DirectQuery,SapBusinessWarehouse.Cubes
+project2cash,Engineer2Order / Project2Cash,Projects,REST API,Other,Import,Web.Contents
+dock2stock,Dock2Stock,Warehouse,SQL Server database,Database,Import; DirectQuery,Sql.Database
+dock2stock,Dock2Stock,Warehouse,Oracle database,Database,Import; DirectQuery,Oracle.Database
+dock2stock,Dock2Stock,Warehouse,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+dock2stock,Dock2Stock,Warehouse,OData,Other,Import,OData.Feed
+dock2stock,Dock2Stock,Warehouse,REST API,Other,Import,Web.Contents
+dock2stock,Dock2Stock,Warehouse,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+dock2stock,Dock2Stock,Warehouse,SAP Business Warehouse Application Server,Database,Import; DirectQuery,SapBusinessWarehouse.Cubes
+dock2stock,Dock2Stock,Warehouse,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+pick2pack2ship,Pick2Pack2Ship,Warehouse,SQL Server database,Database,Import; DirectQuery,Sql.Database
+pick2pack2ship,Pick2Pack2Ship,Warehouse,Oracle database,Database,Import; DirectQuery,Oracle.Database
+pick2pack2ship,Pick2Pack2Ship,Warehouse,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+pick2pack2ship,Pick2Pack2Ship,Warehouse,OData,Other,Import,OData.Feed
+pick2pack2ship,Pick2Pack2Ship,Warehouse,REST API,Other,Import,Web.Contents
+pick2pack2ship,Pick2Pack2Ship,Warehouse,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+pick2pack2ship,Pick2Pack2Ship,Warehouse,SAP Business Warehouse Application Server,Database,Import; DirectQuery,SapBusinessWarehouse.Cubes
+pick2pack2ship,Pick2Pack2Ship,Warehouse,Excel Workbook,File,Import,Excel.Workbook
+return2disposition,Return2Disposition,Service,Salesforce Objects,Online Services,Import,Salesforce.Data
+return2disposition,Return2Disposition,Service,Dynamics 365,Online Services,Import,OData.Feed
+return2disposition,Return2Disposition,Service,ServiceNow,Online Services,Import,ServiceNow.Tables
+return2disposition,Return2Disposition,Service,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+return2disposition,Return2Disposition,Service,OData,Other,Import,OData.Feed
+return2disposition,Return2Disposition,Service,REST API,Other,Import,Web.Contents
+return2disposition,Return2Disposition,Service,SQL Server database,Database,Import; DirectQuery,Sql.Database
+return2disposition,Return2Disposition,Service,Oracle database,Database,Import; DirectQuery,Oracle.Database
+complaint2capa,Complaint2CAPA,Quality,SQL Server database,Database,Import; DirectQuery,Sql.Database
+complaint2capa,Complaint2CAPA,Quality,Oracle database,Database,Import; DirectQuery,Oracle.Database
+complaint2capa,Complaint2CAPA,Quality,OData,Other,Import,OData.Feed
+complaint2capa,Complaint2CAPA,Quality,REST API,Other,Import,Web.Contents
+complaint2capa,Complaint2CAPA,Quality,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+complaint2capa,Complaint2CAPA,Quality,SharePoint Folder,File,Import,SharePoint.Files
+complaint2capa,Complaint2CAPA,Quality,Salesforce Objects,Online Services,Import,Salesforce.Data
+complaint2capa,Complaint2CAPA,Quality,Dynamics 365,Online Services,Import,OData.Feed
+nonconformance2disposition,Nonconformance2Disposition,Quality,SQL Server database,Database,Import; DirectQuery,Sql.Database
+nonconformance2disposition,Nonconformance2Disposition,Quality,Oracle database,Database,Import; DirectQuery,Oracle.Database
+nonconformance2disposition,Nonconformance2Disposition,Quality,OData,Other,Import,OData.Feed
+nonconformance2disposition,Nonconformance2Disposition,Quality,REST API,Other,Import,Web.Contents
+nonconformance2disposition,Nonconformance2Disposition,Quality,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+nonconformance2disposition,Nonconformance2Disposition,Quality,SharePoint Folder,File,Import,SharePoint.Files
+nonconformance2disposition,Nonconformance2Disposition,Quality,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+nonconformance2disposition,Nonconformance2Disposition,Quality,SAP Business Warehouse Application Server,Database,Import; DirectQuery,SapBusinessWarehouse.Cubes
+incident2action,Incident2Action,EHS,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+incident2action,Incident2Action,EHS,SQL Server database,Database,Import; DirectQuery,Sql.Database
+incident2action,Incident2Action,EHS,OData,Other,Import,OData.Feed
+incident2action,Incident2Action,EHS,REST API,Other,Import,Web.Contents
+incident2action,Incident2Action,EHS,SharePoint Online List,Online Services,Import,SharePoint.Tables
+incident2action,Incident2Action,EHS,Excel Workbook,File,Import,Excel.Workbook
+incident2action,Incident2Action,EHS,Text/CSV,File,Import,Csv.Document
+incident2action,Incident2Action,EHS,Folder,File,Import,Folder.Files
+asset2reliability,Asset2Reliability,Maintenance,SQL Server database,Database,Import; DirectQuery,Sql.Database
+asset2reliability,Asset2Reliability,Maintenance,Oracle database,Database,Import; DirectQuery,Oracle.Database
+asset2reliability,Asset2Reliability,Maintenance,OData,Other,Import,OData.Feed
+asset2reliability,Asset2Reliability,Maintenance,REST API,Other,Import,Web.Contents
+asset2reliability,Asset2Reliability,Maintenance,Azure Data Explorer (Kusto),Azure,Import; DirectQuery,Kusto.Contents
+asset2reliability,Asset2Reliability,Maintenance,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+asset2reliability,Asset2Reliability,Maintenance,Spark,Other,Import; DirectQuery,Spark.Tables
+asset2reliability,Asset2Reliability,Maintenance,Excel Workbook,File,Import,Excel.Workbook
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,Service,Salesforce Objects,Online Services,Import,Salesforce.Data
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,Service,Dynamics 365,Online Services,Import,OData.Feed
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,Service,ServiceNow,Online Services,Import,ServiceNow.Tables
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,Service,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,Service,OData,Other,Import,OData.Feed
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,Service,REST API,Other,Import,Web.Contents
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,Service,SQL Server database,Database,Import; DirectQuery,Sql.Database
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,Service,Excel Workbook,File,Import,Excel.Workbook
+supplieronboarding2risk,SupplierOnboarding2Risk,Procurement,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+supplieronboarding2risk,SupplierOnboarding2Risk,Procurement,SAP Business Warehouse Application Server,Database,Import; DirectQuery,SapBusinessWarehouse.Cubes
+supplieronboarding2risk,SupplierOnboarding2Risk,Procurement,OData,Other,Import,OData.Feed
+supplieronboarding2risk,SupplierOnboarding2Risk,Procurement,Oracle database,Database,Import; DirectQuery,Oracle.Database
+supplieronboarding2risk,SupplierOnboarding2Risk,Procurement,SQL Server database,Database,Import; DirectQuery,Sql.Database
+supplieronboarding2risk,SupplierOnboarding2Risk,Procurement,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+supplieronboarding2risk,SupplierOnboarding2Risk,Procurement,REST API,Other,Import,Web.Contents
+supplieronboarding2risk,SupplierOnboarding2Risk,Procurement,Excel Workbook,File,Import,Excel.Workbook
+control2evidence,Control2Evidence,Governance,Power BI semantic models,Microsoft Fabric,LiveConnection; DirectQuery,AnalysisServices.Database
+control2evidence,Control2Evidence,Governance,Dataflows,Power Platform,Import,PowerPlatform.Dataflows
+control2evidence,Control2Evidence,Governance,Dataverse,Power Platform,Import; DirectQuery,CommonDataService.Database
+control2evidence,Control2Evidence,Governance,Azure Resource Graph,Azure,Import,AzureResourceGraph.Contents
+control2evidence,Control2Evidence,Governance,REST API,Other,Import,Web.Contents
+control2evidence,Control2Evidence,Governance,Excel Workbook,File,Import,Excel.Workbook
+control2evidence,Control2Evidence,Governance,SQL Server database,Database,Import; DirectQuery,Sql.Database
+control2evidence,Control2Evidence,Governance,OData,Other,Import,OData.Feed
+close2report_plan2perform,Close2Report / Plan2Perform,Finance,SAP HANA database,Database,Import; DirectQuery,SapHana.Database
+close2report_plan2perform,Close2Report / Plan2Perform,Finance,SAP Business Warehouse Application Server,Database,Import; DirectQuery,SapBusinessWarehouse.Cubes
+close2report_plan2perform,Close2Report / Plan2Perform,Finance,SQL Server database,Database,Import; DirectQuery,Sql.Database
+close2report_plan2perform,Close2Report / Plan2Perform,Finance,Oracle database,Database,Import; DirectQuery,Oracle.Database
+close2report_plan2perform,Close2Report / Plan2Perform,Finance,Snowflake,Database,Import; DirectQuery,Snowflake.Databases
+close2report_plan2perform,Close2Report / Plan2Perform,Finance,Power BI semantic models,Microsoft Fabric,LiveConnection; DirectQuery,AnalysisServices.Database
+close2report_plan2perform,Close2Report / Plan2Perform,Finance,Dataflows,Power Platform,Import,PowerPlatform.Dataflows
+close2report_plan2perform,Close2Report / Plan2Perform,Finance,OData,Other,Import,OData.Feed
+data2insight2action,Data2Insight2Action,Analytics,Power BI semantic models,Microsoft Fabric,LiveConnection; DirectQuery,AnalysisServices.Database
+data2insight2action,Data2Insight2Action,Analytics,Dataflows,Power Platform,Import,PowerPlatform.Dataflows
+data2insight2action,Data2Insight2Action,Analytics,Lakehouses,Microsoft Fabric,Import; Direct Lake; DirectQuery,Lakehouse.Contents
+data2insight2action,Data2Insight2Action,Analytics,Warehouses,Microsoft Fabric,Import; DirectQuery,Sql.Database
+data2insight2action,Data2Insight2Action,Analytics,SQL Server database,Database,Import; DirectQuery,Sql.Database
+data2insight2action,Data2Insight2Action,Analytics,REST API,Other,Import,Web.Contents
+data2insight2action,Data2Insight2Action,Analytics,Excel Workbook,File,Import,Excel.Workbook
+data2insight2action,Data2Insight2Action,Analytics,Text/CSV,File,Import,Csv.Document

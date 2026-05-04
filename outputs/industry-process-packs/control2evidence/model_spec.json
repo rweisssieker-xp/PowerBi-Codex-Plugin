@@ -8,6 +8,203 @@
     "demoPath": "outputs/industry-demo-data/control2evidence",
     "productionRouting": "Replace CSV folder with validated native ERP/CRM/WMS/MES/QMS/EPM/Fabric connector according to source metadata."
   },
+  "productionSourceRouting": [
+    {
+      "connector": "Power BI semantic models",
+      "category": "Microsoft Fabric",
+      "powerQueryFunction": "AnalysisServices.Database",
+      "supportedModes": [
+        "LiveConnection",
+        "DirectQuery"
+      ],
+      "gatewayRequired": false,
+      "queryFolding": "n/a",
+      "productionUse": true
+    },
+    {
+      "connector": "Dataflows",
+      "category": "Power Platform",
+      "powerQueryFunction": "PowerPlatform.Dataflows",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": false,
+      "queryFolding": false,
+      "productionUse": true
+    },
+    {
+      "connector": "Dataverse",
+      "category": "Power Platform",
+      "powerQueryFunction": "CommonDataService.Database",
+      "supportedModes": [
+        "Import",
+        "DirectQuery"
+      ],
+      "gatewayRequired": false,
+      "queryFolding": true,
+      "productionUse": true
+    },
+    {
+      "connector": "Azure Resource Graph",
+      "category": "Azure",
+      "powerQueryFunction": "AzureResourceGraph.Contents",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": false,
+      "queryFolding": false,
+      "productionUse": true
+    },
+    {
+      "connector": "REST API",
+      "category": "Other",
+      "powerQueryFunction": "Web.Contents",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": false,
+      "productionUse": true
+    },
+    {
+      "connector": "Excel Workbook",
+      "category": "File",
+      "powerQueryFunction": "Excel.Workbook",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": false,
+      "productionUse": true
+    },
+    {
+      "connector": "SQL Server database",
+      "category": "Database",
+      "powerQueryFunction": "Sql.Database",
+      "supportedModes": [
+        "Import",
+        "DirectQuery"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": true,
+      "productionUse": true
+    },
+    {
+      "connector": "OData",
+      "category": "Other",
+      "powerQueryFunction": "OData.Feed",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": "service-dependent",
+      "productionUse": true
+    }
+  ],
+  "fallbackSourcePatterns": [
+    {
+      "connector": "SAP HANA database",
+      "category": "Database",
+      "powerQueryFunction": "SapHana.Database",
+      "supportedModes": [
+        "Import",
+        "DirectQuery"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": true,
+      "productionUse": true
+    },
+    {
+      "connector": "SAP Business Warehouse Application Server",
+      "category": "Database",
+      "powerQueryFunction": "SapBusinessWarehouse.Cubes",
+      "supportedModes": [
+        "Import",
+        "DirectQuery"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": "source-dependent",
+      "productionUse": true
+    },
+    {
+      "connector": "Oracle database",
+      "category": "Database",
+      "powerQueryFunction": "Oracle.Database",
+      "supportedModes": [
+        "Import",
+        "DirectQuery"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": true,
+      "productionUse": true
+    },
+    {
+      "connector": "Text/CSV",
+      "category": "File",
+      "powerQueryFunction": "Csv.Document",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": false,
+      "productionUse": true
+    },
+    {
+      "connector": "Folder",
+      "category": "File",
+      "powerQueryFunction": "Folder.Files",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": true,
+      "queryFolding": false,
+      "productionUse": true
+    },
+    {
+      "connector": "SharePoint Folder",
+      "category": "File",
+      "powerQueryFunction": "SharePoint.Files",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": false,
+      "queryFolding": false,
+      "productionUse": true
+    },
+    {
+      "connector": "Web",
+      "category": "Other",
+      "powerQueryFunction": "Web.Contents",
+      "supportedModes": [
+        "Import"
+      ],
+      "gatewayRequired": false,
+      "queryFolding": false,
+      "productionUse": true
+    },
+    {
+      "connector": "Custom connector",
+      "category": "Other",
+      "powerQueryFunction": "Extension.Contents",
+      "supportedModes": [
+        "Import",
+        "DirectQuery"
+      ],
+      "gatewayRequired": "depends",
+      "queryFolding": "connector-dependent",
+      "productionUse": true
+    }
+  ],
+  "requiredSourceDecisions": [
+    "native connector",
+    "Import / DirectQuery / Direct Lake / live connection / composite mode",
+    "gateway and credential owner",
+    "privacy level",
+    "query folding expectation",
+    "incremental refresh design",
+    "schema drift handling",
+    "data quality and reconciliation totals"
+  ],
   "tables": [
     {
       "name": "ProcessCases",

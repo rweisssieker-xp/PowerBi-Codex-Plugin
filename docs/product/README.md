@@ -13,6 +13,7 @@ Detailed product documentation for the Power BI Expert-Replacement Factory.
 - [Source System Coverage](SOURCE_SYSTEM_COVERAGE.md)
 - [Industry Demo Data](../../outputs/industry-demo-data/README.md)
 - [Industry Process Packs](../../outputs/industry-process-packs/README.md)
+- [Power BI Source Routing](../../outputs/source-routing/README.md)
 
 ## Scope
 

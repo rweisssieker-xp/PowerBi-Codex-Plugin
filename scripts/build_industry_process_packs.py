@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_PATH = ROOT / "data" / "industry_process_catalog.json"
 PACK_ROOT = ROOT / "outputs" / "industry-process-packs"
+SOURCE_ROUTING_PATH = ROOT / "outputs" / "source-routing" / "process_source_routing.json"
 
 
 def safe_measure_name(value: str) -> str:
@@ -34,7 +35,7 @@ def dax_for_kpi(kpi: str, value_column: str) -> str:
     return f"{measure_name} = {expression}"
 
 
-def build_model_spec(process: dict[str, object]) -> dict[str, object]:
+def build_model_spec(process: dict[str, object], source_route: dict[str, object]) -> dict[str, object]:
     value_column = str(process["valueLabel"])
     return {
         "processId": process["processId"],
@@ -46,6 +47,9 @@ def build_model_spec(process: dict[str, object]) -> dict[str, object]:
             "demoPath": f"outputs/industry-demo-data/{process['processId']}",
             "productionRouting": "Replace CSV folder with validated native ERP/CRM/WMS/MES/QMS/EPM/Fabric connector according to source metadata.",
         },
+        "productionSourceRouting": source_route.get("productionSourceRouting", []),
+        "fallbackSourcePatterns": source_route.get("fallbackPatterns", []),
+        "requiredSourceDecisions": source_route.get("requiredSourceDecisions", []),
         "tables": [
             {
                 "name": "ProcessCases",
@@ -233,7 +237,7 @@ def write_json(path: Path, payload: object) -> None:
     path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
 
 
-def write_process_pack(process: dict[str, object]) -> dict[str, object]:
+def write_process_pack(process: dict[str, object], source_route: dict[str, object]) -> dict[str, object]:
     process_id = str(process["processId"])
     folder = PACK_ROOT / process_id
     folder.mkdir(parents=True, exist_ok=True)
@@ -253,7 +257,7 @@ def write_process_pack(process: dict[str, object]) -> dict[str, object]:
     dax_lines.extend(dax_for_kpi(kpi, value_column) for kpi in process["kpis"])
     dax_lines.append("")
 
-    write_json(folder / "model_spec.json", build_model_spec(process))
+    write_json(folder / "model_spec.json", build_model_spec(process, source_route))
     (folder / "dax_measures.dax").write_text("\n".join(dax_lines), encoding="utf-8")
     write_json(folder / "report_pages.json", build_report_pages(process))
     write_json(folder / "quality_gate.json", build_quality_gate(process))
@@ -297,7 +301,11 @@ def write_index(rows: list[dict[str, object]]) -> None:
 
 def main() -> int:
     catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))
-    rows = [write_process_pack(process) for process in catalog["processes"]]
+    source_routes = {
+        route["processId"]: route
+        for route in json.loads(SOURCE_ROUTING_PATH.read_text(encoding="utf-8"))["routes"]
+    }
+    rows = [write_process_pack(process, source_routes[str(process["processId"])]) for process in catalog["processes"]]
     write_index(rows)
     print(f"generated {len(rows)} process packs")
     return 0

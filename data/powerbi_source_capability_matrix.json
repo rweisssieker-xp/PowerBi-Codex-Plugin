@@ -1,0 +1,928 @@
+{
+  "version": "2026-05-04",
+  "basis": [
+    "Power BI Desktop Get Data categories",
+    "Power Query connector capabilities",
+    "Production routing must prefer native connectors over demo CSV extracts"
+  ],
+  "sourceCategories": [
+    {
+      "category": "File",
+      "connectors": [
+        {
+          "name": "Excel Workbook",
+          "function": "Excel.Workbook",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Text/CSV",
+          "function": "Csv.Document",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "XML",
+          "function": "Xml.Tables",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "JSON",
+          "function": "Json.Document",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Folder",
+          "function": "Folder.Files",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "PDF",
+          "function": "Pdf.Tables",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Parquet",
+          "function": "Parquet.Document",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "SharePoint Folder",
+          "function": "SharePoint.Files",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        }
+      ]
+    },
+    {
+      "category": "Database",
+      "connectors": [
+        {
+          "name": "SQL Server database",
+          "function": "Sql.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Access database",
+          "function": "Access.Database",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "SQL Server Analysis Services database",
+          "function": "AnalysisServices.Database",
+          "modes": [
+            "Import",
+            "LiveConnection"
+          ],
+          "gateway": true,
+          "folding": "n/a",
+          "productionUse": true
+        },
+        {
+          "name": "Oracle database",
+          "function": "Oracle.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "IBM Db2 database",
+          "function": "DB2.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "IBM Informix database",
+          "function": "Informix.Database",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": false,
+          "status": "Beta"
+        },
+        {
+          "name": "IBM Netezza",
+          "function": "Netezza.Database",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "MySQL database",
+          "function": "MySQL.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "PostgreSQL database",
+          "function": "PostgreSQL.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Sybase database",
+          "function": "Sybase.Database",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Teradata database",
+          "function": "Teradata.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "SAP HANA database",
+          "function": "SapHana.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "SAP Business Warehouse Application Server",
+          "function": "SapBusinessWarehouse.Cubes",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": "source-dependent",
+          "productionUse": true
+        },
+        {
+          "name": "SAP Business Warehouse Message Server",
+          "function": "SapBusinessWarehouse.Cubes",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": "source-dependent",
+          "productionUse": true
+        },
+        {
+          "name": "Amazon Redshift",
+          "function": "AmazonRedshift.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Impala",
+          "function": "Impala.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Google BigQuery",
+          "function": "GoogleBigQuery.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Vertica",
+          "function": "Vertica.Database",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Snowflake",
+          "function": "Snowflake.Databases",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Essbase",
+          "function": "Essbase.Cubes",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": "source-dependent",
+          "productionUse": true
+        },
+        {
+          "name": "Amazon Athena",
+          "function": "AmazonAthena.Databases",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "MariaDB",
+          "function": "MariaDB.Contents",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "MarkLogic",
+          "function": "MarkLogic.Database",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "MongoDB Atlas SQL",
+          "function": "MongoDBAtlasODBC.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Denodo",
+          "function": "Denodo.Contents",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Dremio Software",
+          "function": "Dremio.Databases",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Dremio Cloud",
+          "function": "DremioCloud.Databases",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Exasol",
+          "function": "Exasol.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "ClickHouse",
+          "function": "ClickHouse.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": false,
+          "status": "Beta"
+        },
+        {
+          "name": "ODBC",
+          "function": "Odbc.DataSource",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": "driver-dependent",
+          "productionUse": true
+        },
+        {
+          "name": "OLE DB",
+          "function": "OleDb.DataSource",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": "provider-dependent",
+          "productionUse": true
+        }
+      ]
+    },
+    {
+      "category": "Microsoft Fabric",
+      "connectors": [
+        {
+          "name": "Power BI semantic models",
+          "function": "AnalysisServices.Database",
+          "modes": [
+            "LiveConnection",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": "n/a",
+          "productionUse": true
+        },
+        {
+          "name": "Dataflows",
+          "function": "PowerPlatform.Dataflows",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Warehouses",
+          "function": "Sql.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Lakehouses",
+          "function": "Lakehouse.Contents",
+          "modes": [
+            "Import",
+            "Direct Lake",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "KQL Databases",
+          "function": "Kusto.Contents",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        }
+      ]
+    },
+    {
+      "category": "Power Platform",
+      "connectors": [
+        {
+          "name": "Dataverse",
+          "function": "CommonDataService.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Dataflows",
+          "function": "PowerPlatform.Dataflows",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Power BI dataflows (Legacy)",
+          "function": "PowerBI.Dataflows",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        }
+      ]
+    },
+    {
+      "category": "Azure",
+      "connectors": [
+        {
+          "name": "Azure SQL Database",
+          "function": "Sql.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Azure Synapse Analytics SQL",
+          "function": "Sql.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Azure Analysis Services database",
+          "function": "AnalysisServices.Database",
+          "modes": [
+            "Import",
+            "LiveConnection"
+          ],
+          "gateway": false,
+          "folding": "n/a",
+          "productionUse": true
+        },
+        {
+          "name": "Azure Database for PostgreSQL",
+          "function": "PostgreSQL.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Azure Blob Storage",
+          "function": "AzureStorage.Blobs",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Azure Table Storage",
+          "function": "AzureStorage.Tables",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Azure Cosmos DB v1",
+          "function": "DocumentDB.Contents",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Azure Cosmos DB v2",
+          "function": "CosmosDB.Database",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Azure Data Explorer (Kusto)",
+          "function": "Kusto.Contents",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Azure Data Lake Storage Gen2",
+          "function": "AzureStorage.DataLake",
+          "modes": [
+            "Import",
+            "Direct Lake"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Azure HDInsight (HDFS)",
+          "function": "Hdfs.Files",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Azure HDInsight Spark",
+          "function": "Spark.Tables",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "HDInsight Interactive Query",
+          "function": "Hive LLAP",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "Azure Cost Management",
+          "function": "AzureCostManagement.Contents",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Azure Resource Graph",
+          "function": "AzureResourceGraph.Contents",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Azure Databricks",
+          "function": "Databricks.Catalogs",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": false,
+          "folding": true,
+          "productionUse": true
+        }
+      ]
+    },
+    {
+      "category": "Online Services",
+      "connectors": [
+        {
+          "name": "SharePoint Online List",
+          "function": "SharePoint.Tables",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Exchange Online",
+          "function": "Exchange.Contents",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Dynamics 365",
+          "function": "OData.Feed",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": "service-dependent",
+          "productionUse": true
+        },
+        {
+          "name": "Business Central",
+          "function": "Dynamics365BusinessCentral.Contents",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": "service-dependent",
+          "productionUse": true
+        },
+        {
+          "name": "Salesforce Objects",
+          "function": "Salesforce.Data",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": "service-dependent",
+          "productionUse": true
+        },
+        {
+          "name": "Salesforce Reports",
+          "function": "Salesforce.Reports",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "ServiceNow",
+          "function": "ServiceNow.Tables",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": "service-dependent",
+          "productionUse": true
+        },
+        {
+          "name": "Google Analytics",
+          "function": "GoogleAnalytics.Accounts",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Adobe Analytics",
+          "function": "AdobeAnalytics.Cubes",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "GitHub",
+          "function": "Web.Contents",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Smartsheet",
+          "function": "Smartsheet.Tables",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Zendesk",
+          "function": "Zendesk.Tables",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        }
+      ]
+    },
+    {
+      "category": "Other",
+      "connectors": [
+        {
+          "name": "Web",
+          "function": "Web.Contents",
+          "modes": [
+            "Import"
+          ],
+          "gateway": false,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "OData",
+          "function": "OData.Feed",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": "service-dependent",
+          "productionUse": true
+        },
+        {
+          "name": "REST API",
+          "function": "Web.Contents",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Hadoop/HDFS",
+          "function": "Hdfs.Files",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Spark",
+          "function": "Spark.Tables",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": true,
+          "folding": true,
+          "productionUse": true
+        },
+        {
+          "name": "R script",
+          "function": "R.Execute",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Python script",
+          "function": "Python.Execute",
+          "modes": [
+            "Import"
+          ],
+          "gateway": true,
+          "folding": false,
+          "productionUse": true
+        },
+        {
+          "name": "Blank query",
+          "function": "let ... in ...",
+          "modes": [
+            "Import"
+          ],
+          "gateway": "depends",
+          "folding": "depends",
+          "productionUse": true
+        },
+        {
+          "name": "Custom connector",
+          "function": "Extension.Contents",
+          "modes": [
+            "Import",
+            "DirectQuery"
+          ],
+          "gateway": "depends",
+          "folding": "connector-dependent",
+          "productionUse": true
+        }
+      ]
+    }
+  ],
+  "coverageRule": "All process packs must declare demo CSV routing and production native-source routing. Demo CSV is not a substitute for production source connectivity."
+}
