@@ -1,0 +1,15 @@
+{
+  "processId": "quote2contract",
+  "processName": "Quote2Contract",
+  "capabilityId": "data_contract_enforcement",
+  "capabilityName": "Data Contract Enforcement",
+  "generatedAt": "2026-05-04T07:42:56.369995+00:00",
+  "status": "pass",
+  "contracts": 3,
+  "blockingRules": [
+    "missing required column",
+    "type narrowing",
+    "unapproved rename",
+    "refresh SLA missing"
+  ]
+}

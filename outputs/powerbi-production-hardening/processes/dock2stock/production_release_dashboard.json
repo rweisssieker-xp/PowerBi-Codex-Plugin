@@ -1,0 +1,11 @@
+{
+  "processId": "dock2stock",
+  "processName": "Dock2Stock",
+  "capabilityCount": 15,
+  "statusCounts": {
+    "contract-ready": 9,
+    "pass": 6
+  },
+  "releaseDecision": "ready_for_desktop_smoke",
+  "score": 100
+}

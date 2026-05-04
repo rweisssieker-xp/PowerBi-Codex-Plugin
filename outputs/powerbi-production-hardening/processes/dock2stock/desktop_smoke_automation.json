@@ -1,0 +1,18 @@
+{
+  "processId": "dock2stock",
+  "processName": "Dock2Stock",
+  "capabilityId": "desktop_smoke_automation",
+  "capabilityName": "Power BI Desktop Smoke Automation",
+  "generatedAt": "2026-05-04T07:42:56.520166+00:00",
+  "status": "contract-ready",
+  "desktopRequired": true,
+  "pbipPath": "outputs/powerbi-runtime-max-layer/processes/dock2stock/pbip/Dock2Stock",
+  "checks": [
+    "open PBIP",
+    "refresh sources",
+    "scan visual errors",
+    "scan Frown snapshot",
+    "write smoke evidence"
+  ],
+  "fallbackStaticValidation": "python scripts\\powerbi_expert_factory.py validate --project <pbip>"
+}

@@ -6,10 +6,12 @@ from pathlib import Path
 from scripts.powerbi_expert_factory import (
     build_feature_delivery_plan,
     build_premium_usp_plan,
+    build_production_hardening_plan,
     build_runtime_max_plan,
     build_process_delivery,
     load_feature_catalog,
     load_premium_usp_catalog,
+    load_production_hardening_catalog,
     load_runtime_max_catalog,
     parse_model,
     run_acceptance,
@@ -263,6 +265,26 @@ relationship rel_returns_customer
         self.assertEqual(result["processId"], "lead2order")
         self.assertEqual(result["capabilityCount"], 15)
         self.assertTrue(Path(result["pbip"]["projectPath"]).exists())
+
+    def test_production_hardening_catalog_exposes_all_fifteen_capabilities(self):
+        catalog = load_production_hardening_catalog()
+
+        self.assertEqual(catalog["capabilityCount"], 15)
+        self.assertEqual(len(catalog["capabilities"]), 15)
+        self.assertTrue(
+            all(
+                item["implementationStatus"] == "implemented_as_production_hardening_artifact"
+                for item in catalog["capabilities"]
+            )
+        )
+
+    def test_production_hardening_plan_returns_release_dashboard(self):
+        result = build_production_hardening_plan("lead-to-order")
+
+        self.assertEqual(result["requestedProcessId"], "lead-to-order")
+        self.assertEqual(result["processId"], "lead2order")
+        self.assertEqual(result["capabilityCount"], 15)
+        self.assertEqual(result["releaseDecision"], "ready_for_desktop_smoke")
 
 
 if __name__ == "__main__":

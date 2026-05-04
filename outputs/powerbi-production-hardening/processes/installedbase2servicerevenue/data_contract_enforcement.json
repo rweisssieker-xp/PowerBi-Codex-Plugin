@@ -1,0 +1,15 @@
+{
+  "processId": "installedbase2servicerevenue",
+  "processName": "InstalledBase2ServiceRevenue",
+  "capabilityId": "data_contract_enforcement",
+  "capabilityName": "Data Contract Enforcement",
+  "generatedAt": "2026-05-04T07:42:56.726329+00:00",
+  "status": "pass",
+  "contracts": 3,
+  "blockingRules": [
+    "missing required column",
+    "type narrowing",
+    "unapproved rename",
+    "refresh SLA missing"
+  ]
+}

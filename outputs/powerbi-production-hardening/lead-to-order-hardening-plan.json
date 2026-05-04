@@ -1,0 +1,14 @@
+{
+  "processId": "lead2order",
+  "processName": "Lead2Order",
+  "capabilityCount": 15,
+  "statusCounts": {
+    "contract-ready": 9,
+    "pass": 6
+  },
+  "releaseDecision": "ready_for_desktop_smoke",
+  "score": 100,
+  "requestedProcessId": "lead-to-order",
+  "catalogCapabilityCount": 15,
+  "hardeningFolder": "C:/tmp/PowerBi-Codex-Plugin/outputs/powerbi-production-hardening/processes/lead2order"
+}

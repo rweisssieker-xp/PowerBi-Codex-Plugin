@@ -1,0 +1,17 @@
+{
+  "processId": "make_strategy",
+  "processName": "Make2Stock / Make2Order / Engineer2Order",
+  "capabilityId": "pbip_pbir_schema_validator",
+  "capabilityName": "PBIP/PBIR Schema Validator",
+  "generatedAt": "2026-05-04T07:42:56.144675+00:00",
+  "status": "pass",
+  "pbipPath": "outputs/powerbi-runtime-max-layer/processes/make_strategy/pbip/Make2Stock_Make2Order_Engineer2Order",
+  "pages": 4,
+  "visuals": 16,
+  "tables": 5,
+  "requiredFiles": [
+    "*.pbip",
+    "*.SemanticModel/definition/tables/*.tmdl",
+    "*.Report/definition/pages/*/visuals/*/visual.json"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "processId": "contract2revenue",
+  "processName": "Contract2Revenue",
+  "capabilityId": "source_to_pbip_e2e",
+  "capabilityName": "Source-to-PBIP End-to-End Build",
+  "generatedAt": "2026-05-04T07:42:56.388594+00:00",
+  "status": "pass",
+  "flow": [
+    "source_profile.json",
+    "m_query_templates.json",
+    "schema_drift_contract.json",
+    "TMDL tables",
+    "PBIR visuals",
+    "runtime validation"
+  ],
+  "pbipPath": "outputs/powerbi-runtime-max-layer/processes/contract2revenue/pbip/Contract2Revenue"
+}

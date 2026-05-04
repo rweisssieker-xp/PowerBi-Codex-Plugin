@@ -1,0 +1,217 @@
+{
+  "version": "2026-05-04",
+  "description": "Fifteen production hardening capabilities for turning generated Power BI artifacts into release-ready assets.",
+  "capabilityCount": 15,
+  "capabilities": [
+    {
+      "sequence": 1,
+      "id": "desktop_smoke_automation",
+      "name": "Power BI Desktop Smoke Automation",
+      "summary": "Open, refresh, and inspect generated PBIP projects in Desktop-capable environments.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/desktop_smoke_automation.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 2,
+      "id": "real_connector_execution",
+      "name": "Real Connector Execution",
+      "summary": "Run live source profiling through supported native connector families.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/real_connector_execution.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 3,
+      "id": "credential_secret_runtime",
+      "name": "Credentials/Secrets Handling Runtime",
+      "summary": "Use credentials through ephemeral runtime sessions without writing secrets to artifacts.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/credential_secret_runtime.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 4,
+      "id": "pbip_pbir_schema_validator",
+      "name": "PBIP/PBIR Schema Validator",
+      "summary": "Validate generated PBIP, TMDL, PBIR pages, and visual containers for required structure.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/pbip_pbir_schema_validator.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 5,
+      "id": "dax_engine_evaluation",
+      "name": "DAX Engine Evaluation",
+      "summary": "Evaluate generated measures against expected demo or source totals.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/dax_engine_evaluation.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 6,
+      "id": "report_layout_quality",
+      "name": "Report Layout Quality",
+      "summary": "Score pages for visual count, binding density, mobile readiness, and review evidence.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/report_layout_quality.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 7,
+      "id": "semantic_repair_patches",
+      "name": "Semantic Model Repair Patches",
+      "summary": "Generate patch plans for broken relationships, fields, source navigation, and measures.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/semantic_repair_patches.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 8,
+      "id": "frown_zip_trace_parser",
+      "name": "Frown ZIP / Trace Parser",
+      "summary": "Parse Desktop Frown snapshots and traces and classify errors against the knowledge base.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/frown_zip_trace_parser.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 9,
+      "id": "source_to_pbip_e2e",
+      "name": "Source-to-PBIP End-to-End Build",
+      "summary": "Track source profile to M to TMDL to PBIR to validation evidence.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/source_to_pbip_e2e.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 10,
+      "id": "plugin_marketplace_ux",
+      "name": "Plugin UX / Marketplace Workflow",
+      "summary": "Define user-facing workflow for selecting process packs, sources, builds, and validation.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/plugin_marketplace_ux.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 11,
+      "id": "fabric_deployment_integration",
+      "name": "Fabric Deployment Integration",
+      "summary": "Generate Fabric workspace deployment, rollback, and evidence contracts.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/fabric_deployment_integration.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 12,
+      "id": "rls_tmdl_role_generation",
+      "name": "Security/RLS TMDL Role Generation",
+      "summary": "Generate role policy plans and TMDL role materialization contracts.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/rls_tmdl_role_generation.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 13,
+      "id": "process_mining_adapter_runtime",
+      "name": "Process Mining Import Runtime",
+      "summary": "Define adapters for Celonis, Signavio, UiPath, ServiceNow, and generic event logs.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/process_mining_adapter_runtime.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 14,
+      "id": "data_contract_enforcement",
+      "name": "Data Contract Enforcement",
+      "summary": "Compare source profiles and schema drift contracts with blocking release rules.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/data_contract_enforcement.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    },
+    {
+      "sequence": 15,
+      "id": "release_quality_dashboard",
+      "name": "Release Quality Dashboard",
+      "summary": "Aggregate CI, PBIP, schema, source, DAX, layout, and governance evidence per process.",
+      "implementationStatus": "implemented_as_production_hardening_artifact",
+      "requiredArtifact": "outputs/powerbi-production-hardening/processes/<process>/release_quality_dashboard.json",
+      "acceptanceChecks": [
+        "artifact exists",
+        "status is pass, simulated, or contract-ready",
+        "release evidence is explicit",
+        "no credentials or secrets are persisted"
+      ]
+    }
+  ]
+}

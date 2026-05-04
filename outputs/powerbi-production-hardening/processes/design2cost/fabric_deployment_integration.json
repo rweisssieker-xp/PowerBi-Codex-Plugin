@@ -1,0 +1,19 @@
+{
+  "processId": "design2cost",
+  "processName": "Design2Cost / Design2Source",
+  "capabilityId": "fabric_deployment_integration",
+  "capabilityName": "Fabric Deployment Integration",
+  "generatedAt": "2026-05-04T07:42:56.465981+00:00",
+  "status": "contract-ready",
+  "stages": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "evidence": [
+    "workspace target",
+    "deployment item list",
+    "rollback artifact",
+    "release approval"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "processId": "idea2launch",
+  "processName": "Idea2Launch / Engineer2Release",
+  "capabilityCount": 15,
+  "statusCounts": {
+    "contract-ready": 9,
+    "pass": 6
+  },
+  "releaseDecision": "ready_for_desktop_smoke",
+  "score": 100
+}

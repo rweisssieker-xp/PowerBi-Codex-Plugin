@@ -1,0 +1,19 @@
+{
+  "processId": "source2contract",
+  "processName": "Source2Contract",
+  "capabilityId": "fabric_deployment_integration",
+  "capabilityName": "Fabric Deployment Integration",
+  "generatedAt": "2026-05-04T07:42:56.051014+00:00",
+  "status": "contract-ready",
+  "stages": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "evidence": [
+    "workspace target",
+    "deployment item list",
+    "rollback artifact",
+    "release approval"
+  ]
+}

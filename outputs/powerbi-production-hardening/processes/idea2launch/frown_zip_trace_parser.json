@@ -1,0 +1,24 @@
+{
+  "processId": "idea2launch",
+  "processName": "Idea2Launch / Engineer2Release",
+  "capabilityId": "frown_zip_trace_parser",
+  "capabilityName": "Frown ZIP / Trace Parser",
+  "generatedAt": "2026-05-04T07:42:56.172219+00:00",
+  "status": "contract-ready",
+  "knownPatterns": [
+    "ambiguous_relationship_path",
+    "numeric_powerquery_navigation",
+    "directquery_olap_unsupported_edit",
+    "missing_visual_binding",
+    "schema_drift_missing_column"
+  ],
+  "inputs": [
+    "FrownSnapShot*.zip",
+    "PerformanceTraces.zip"
+  ],
+  "outputs": [
+    "classified error",
+    "repair plan",
+    "validation command"
+  ]
+}

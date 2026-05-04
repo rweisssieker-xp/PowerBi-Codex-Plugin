@@ -12,6 +12,8 @@ The premium USP layer is generated in [powerbi-premium-usp-layer](../../outputs/
 
 The runtime max layer is generated in [powerbi-runtime-max-layer](../../outputs/powerbi-runtime-max-layer/README.md). It closes the 15 remaining runtime gaps with generated PBIP/PBIR/TMDL skeletons for every process, TMDL compile outputs, PBIR visual files, Desktop/Frown parser contracts, semantic auto-repair rules, DAX expected-result runner contracts, connector runtime contracts, tenant/deployment/Fabric scaffolds, and documentation publisher manifests.
 
+The production hardening layer is generated in [powerbi-production-hardening](../../outputs/powerbi-production-hardening/README.md). It turns the remaining release-readiness gaps into process-level evidence for Desktop smoke automation, live connector execution, credential-safe sessions, PBIP/PBIR schema validation, DAX evaluation, report layout scoring, semantic repair patches, Frown ZIP parsing, source-to-PBIP E2E evidence, plugin UX, Fabric deployment, RLS role generation, process-mining adapters, data contract enforcement, and release dashboards.
+
 ## The 20 USP Capabilities
 
 1. One-Click Process-to-PBIP
@@ -80,4 +82,10 @@ Use the CLI to inspect a process-specific runtime max build:
 
 ```powershell
 python scripts\powerbi_expert_factory.py runtime-max-plan --process lead-to-order --out outputs\powerbi-runtime-max-layer\lead-to-order-runtime-max-plan.json
+```
+
+Use the CLI to inspect production-hardening readiness:
+
+```powershell
+python scripts\powerbi_expert_factory.py hardening-plan --process lead-to-order --out outputs\powerbi-production-hardening\lead-to-order-hardening-plan.json
 ```

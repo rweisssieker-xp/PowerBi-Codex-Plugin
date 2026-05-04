@@ -1,0 +1,21 @@
+{
+  "processId": "incident2action",
+  "processName": "Incident2Action",
+  "capabilityId": "process_mining_adapter_runtime",
+  "capabilityName": "Process Mining Import Runtime",
+  "generatedAt": "2026-05-04T07:42:56.664004+00:00",
+  "status": "contract-ready",
+  "adapters": [
+    "Celonis",
+    "SAP Signavio",
+    "UiPath Process Mining",
+    "ServiceNow Process Optimization",
+    "generic event log"
+  ],
+  "requiredColumns": [
+    "CaseID",
+    "EventName",
+    "EventDate",
+    "SourceSystem"
+  ]
+}

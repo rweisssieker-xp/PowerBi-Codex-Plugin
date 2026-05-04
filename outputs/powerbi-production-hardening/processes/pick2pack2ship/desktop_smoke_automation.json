@@ -1,0 +1,18 @@
+{
+  "processId": "pick2pack2ship",
+  "processName": "Pick2Pack2Ship",
+  "capabilityId": "desktop_smoke_automation",
+  "capabilityName": "Power BI Desktop Smoke Automation",
+  "generatedAt": "2026-05-04T07:42:56.550288+00:00",
+  "status": "contract-ready",
+  "desktopRequired": true,
+  "pbipPath": "outputs/powerbi-runtime-max-layer/processes/pick2pack2ship/pbip/Pick2Pack2Ship",
+  "checks": [
+    "open PBIP",
+    "refresh sources",
+    "scan visual errors",
+    "scan Frown snapshot",
+    "write smoke evidence"
+  ],
+  "fallbackStaticValidation": "python scripts\\powerbi_expert_factory.py validate --project <pbip>"
+}

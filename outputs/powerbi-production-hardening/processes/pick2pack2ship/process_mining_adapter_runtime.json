@@ -1,0 +1,21 @@
+{
+  "processId": "pick2pack2ship",
+  "processName": "Pick2Pack2Ship",
+  "capabilityId": "process_mining_adapter_runtime",
+  "capabilityName": "Process Mining Import Runtime",
+  "generatedAt": "2026-05-04T07:42:56.558350+00:00",
+  "status": "contract-ready",
+  "adapters": [
+    "Celonis",
+    "SAP Signavio",
+    "UiPath Process Mining",
+    "ServiceNow Process Optimization",
+    "generic event log"
+  ],
+  "requiredColumns": [
+    "CaseID",
+    "EventName",
+    "EventDate",
+    "SourceSystem"
+  ]
+}

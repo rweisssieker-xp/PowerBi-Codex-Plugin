@@ -1,0 +1,16 @@
+{
+  "processId": "maintain2operate",
+  "processName": "Maintain2Operate",
+  "capabilityId": "plugin_marketplace_ux",
+  "capabilityName": "Plugin UX / Marketplace Workflow",
+  "generatedAt": "2026-05-04T07:42:56.201320+00:00",
+  "status": "contract-ready",
+  "workflow": [
+    "select process pack",
+    "select source mode",
+    "profile source",
+    "build PBIP",
+    "run validation",
+    "publish evidence"
+  ]
+}

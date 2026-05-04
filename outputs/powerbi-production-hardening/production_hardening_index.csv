@@ -1,0 +1,33 @@
+ProcessID,ProcessName,HardeningFolder,CapabilityCount,ReleaseDecision,Score
+lead2order,Lead2Order,outputs/powerbi-production-hardening/processes/lead2order,15,ready_for_desktop_smoke,100
+order2cash,Order2Cash,outputs/powerbi-production-hardening/processes/order2cash,15,ready_for_desktop_smoke,100
+source2contract,Source2Contract,outputs/powerbi-production-hardening/processes/source2contract,15,ready_for_desktop_smoke,100
+procure2pay,Procure2Pay,outputs/powerbi-production-hardening/processes/procure2pay,15,ready_for_desktop_smoke,100
+forecast2plan,Forecast2Plan,outputs/powerbi-production-hardening/processes/forecast2plan,15,ready_for_desktop_smoke,100
+plan2produce,Plan2Produce,outputs/powerbi-production-hardening/processes/plan2produce,15,ready_for_desktop_smoke,100
+make_strategy,Make2Stock / Make2Order / Engineer2Order,outputs/powerbi-production-hardening/processes/make_strategy,15,ready_for_desktop_smoke,100
+idea2launch,Idea2Launch / Engineer2Release,outputs/powerbi-production-hardening/processes/idea2launch,15,ready_for_desktop_smoke,100
+maintain2operate,Maintain2Operate,outputs/powerbi-production-hardening/processes/maintain2operate,15,ready_for_desktop_smoke,100
+issue2resolution,Issue2Resolution,outputs/powerbi-production-hardening/processes/issue2resolution,15,ready_for_desktop_smoke,100
+record2report,Record2Report,outputs/powerbi-production-hardening/processes/record2report,15,ready_for_desktop_smoke,100
+hire2retire,Hire2Retire,outputs/powerbi-production-hardening/processes/hire2retire,15,ready_for_desktop_smoke,100
+market2lead,Market2Lead,outputs/powerbi-production-hardening/processes/market2lead,15,ready_for_desktop_smoke,100
+lead2quote,Lead2Quote / Configure2Quote,outputs/powerbi-production-hardening/processes/lead2quote,15,ready_for_desktop_smoke,100
+quote2contract,Quote2Contract,outputs/powerbi-production-hardening/processes/quote2contract,15,ready_for_desktop_smoke,100
+contract2revenue,Contract2Revenue,outputs/powerbi-production-hardening/processes/contract2revenue,15,ready_for_desktop_smoke,100
+demand2supply,Demand2Supply,outputs/powerbi-production-hardening/processes/demand2supply,15,ready_for_desktop_smoke,100
+sop_ibp2execution,S&OP / IBP2Execution,outputs/powerbi-production-hardening/processes/sop_ibp2execution,15,ready_for_desktop_smoke,100
+design2cost,Design2Cost / Design2Source,outputs/powerbi-production-hardening/processes/design2cost,15,ready_for_desktop_smoke,100
+project2cash,Engineer2Order / Project2Cash,outputs/powerbi-production-hardening/processes/project2cash,15,ready_for_desktop_smoke,100
+dock2stock,Dock2Stock,outputs/powerbi-production-hardening/processes/dock2stock,15,ready_for_desktop_smoke,100
+pick2pack2ship,Pick2Pack2Ship,outputs/powerbi-production-hardening/processes/pick2pack2ship,15,ready_for_desktop_smoke,100
+return2disposition,Return2Disposition,outputs/powerbi-production-hardening/processes/return2disposition,15,ready_for_desktop_smoke,100
+complaint2capa,Complaint2CAPA,outputs/powerbi-production-hardening/processes/complaint2capa,15,ready_for_desktop_smoke,100
+nonconformance2disposition,Nonconformance2Disposition,outputs/powerbi-production-hardening/processes/nonconformance2disposition,15,ready_for_desktop_smoke,100
+incident2action,Incident2Action,outputs/powerbi-production-hardening/processes/incident2action,15,ready_for_desktop_smoke,100
+asset2reliability,Asset2Reliability,outputs/powerbi-production-hardening/processes/asset2reliability,15,ready_for_desktop_smoke,100
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,outputs/powerbi-production-hardening/processes/installedbase2servicerevenue,15,ready_for_desktop_smoke,100
+supplieronboarding2risk,SupplierOnboarding2Risk,outputs/powerbi-production-hardening/processes/supplieronboarding2risk,15,ready_for_desktop_smoke,100
+control2evidence,Control2Evidence,outputs/powerbi-production-hardening/processes/control2evidence,15,ready_for_desktop_smoke,100
+close2report_plan2perform,Close2Report / Plan2Perform,outputs/powerbi-production-hardening/processes/close2report_plan2perform,15,ready_for_desktop_smoke,100
+data2insight2action,Data2Insight2Action,outputs/powerbi-production-hardening/processes/data2insight2action,15,ready_for_desktop_smoke,100

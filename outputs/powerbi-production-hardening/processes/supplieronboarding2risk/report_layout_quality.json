@@ -1,0 +1,16 @@
+{
+  "processId": "supplieronboarding2risk",
+  "processName": "SupplierOnboarding2Risk",
+  "capabilityId": "report_layout_quality",
+  "capabilityName": "Report Layout Quality",
+  "generatedAt": "2026-05-04T07:42:56.751184+00:00",
+  "status": "pass",
+  "pages": 4,
+  "visuals": 16,
+  "visualsPerPage": 4.0,
+  "reviewRules": [
+    "max 8 visuals per page",
+    "no missing bindings",
+    "mobile layout required before production"
+  ]
+}

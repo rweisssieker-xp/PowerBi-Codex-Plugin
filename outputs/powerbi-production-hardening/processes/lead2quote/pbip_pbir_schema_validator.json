@@ -1,0 +1,17 @@
+{
+  "processId": "lead2quote",
+  "processName": "Lead2Quote / Configure2Quote",
+  "capabilityId": "pbip_pbir_schema_validator",
+  "capabilityName": "PBIP/PBIR Schema Validator",
+  "generatedAt": "2026-05-04T07:42:56.334493+00:00",
+  "status": "pass",
+  "pbipPath": "outputs/powerbi-runtime-max-layer/processes/lead2quote/pbip/Lead2Quote_Configure2Quote",
+  "pages": 4,
+  "visuals": 16,
+  "tables": 5,
+  "requiredFiles": [
+    "*.pbip",
+    "*.SemanticModel/definition/tables/*.tmdl",
+    "*.Report/definition/pages/*/visuals/*/visual.json"
+  ]
+}

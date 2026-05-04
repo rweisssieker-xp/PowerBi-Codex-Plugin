@@ -1,0 +1,17 @@
+{
+  "processId": "pick2pack2ship",
+  "processName": "Pick2Pack2Ship",
+  "capabilityId": "pbip_pbir_schema_validator",
+  "capabilityName": "PBIP/PBIR Schema Validator",
+  "generatedAt": "2026-05-04T07:42:56.552292+00:00",
+  "status": "pass",
+  "pbipPath": "outputs/powerbi-runtime-max-layer/processes/pick2pack2ship/pbip/Pick2Pack2Ship",
+  "pages": 4,
+  "visuals": 16,
+  "tables": 5,
+  "requiredFiles": [
+    "*.pbip",
+    "*.SemanticModel/definition/tables/*.tmdl",
+    "*.Report/definition/pages/*/visuals/*/visual.json"
+  ]
+}

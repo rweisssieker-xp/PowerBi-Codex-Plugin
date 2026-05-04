@@ -1,0 +1,19 @@
+{
+  "processId": "lead2quote",
+  "processName": "Lead2Quote / Configure2Quote",
+  "capabilityId": "fabric_deployment_integration",
+  "capabilityName": "Fabric Deployment Integration",
+  "generatedAt": "2026-05-04T07:42:56.339014+00:00",
+  "status": "contract-ready",
+  "stages": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "evidence": [
+    "workspace target",
+    "deployment item list",
+    "rollback artifact",
+    "release approval"
+  ]
+}

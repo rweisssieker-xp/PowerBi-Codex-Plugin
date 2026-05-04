@@ -1,0 +1,11 @@
+{
+  "processId": "demand2supply",
+  "processName": "Demand2Supply",
+  "capabilityCount": 15,
+  "statusCounts": {
+    "contract-ready": 9,
+    "pass": 6
+  },
+  "releaseDecision": "ready_for_desktop_smoke",
+  "score": 100
+}

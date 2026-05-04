@@ -1,0 +1,13 @@
+{
+  "processId": "plan2produce",
+  "processName": "Plan2Produce",
+  "capabilityId": "dax_engine_evaluation",
+  "capabilityName": "DAX Engine Evaluation",
+  "generatedAt": "2026-05-04T07:42:56.118711+00:00",
+  "status": "contract-ready",
+  "strategy": "evaluate generated measures against ProcessCases aggregates and ProcessKpiSnapshots tolerances",
+  "requiredInputs": [
+    "demo-data/cases.csv",
+    "dax_expected_result_runner.json"
+  ]
+}

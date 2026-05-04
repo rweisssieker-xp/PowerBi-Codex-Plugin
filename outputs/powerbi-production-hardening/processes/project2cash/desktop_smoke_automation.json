@@ -1,0 +1,18 @@
+{
+  "processId": "project2cash",
+  "processName": "Engineer2Order / Project2Cash",
+  "capabilityId": "desktop_smoke_automation",
+  "capabilityName": "Power BI Desktop Smoke Automation",
+  "generatedAt": "2026-05-04T07:42:56.488815+00:00",
+  "status": "contract-ready",
+  "desktopRequired": true,
+  "pbipPath": "outputs/powerbi-runtime-max-layer/processes/project2cash/pbip/Engineer2Order_Project2Cash",
+  "checks": [
+    "open PBIP",
+    "refresh sources",
+    "scan visual errors",
+    "scan Frown snapshot",
+    "write smoke evidence"
+  ],
+  "fallbackStaticValidation": "python scripts\\powerbi_expert_factory.py validate --project <pbip>"
+}

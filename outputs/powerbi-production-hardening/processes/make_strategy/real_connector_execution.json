@@ -1,0 +1,22 @@
+{
+  "processId": "make_strategy",
+  "processName": "Make2Stock / Make2Order / Engineer2Order",
+  "capabilityId": "real_connector_execution",
+  "capabilityName": "Real Connector Execution",
+  "generatedAt": "2026-05-04T07:42:56.142696+00:00",
+  "status": "contract-ready",
+  "connectorFamilies": [
+    "Excel",
+    "Folder",
+    "SQL Server",
+    "SharePoint",
+    "Fabric",
+    "Dataverse",
+    "OData",
+    "REST",
+    "SAP",
+    "Snowflake"
+  ],
+  "metadataOnly": true,
+  "output": "source profile compatible with schema_drift_contract.json"
+}

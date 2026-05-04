@@ -1,0 +1,17 @@
+{
+  "processId": "complaint2capa",
+  "processName": "Complaint2CAPA",
+  "capabilityId": "pbip_pbir_schema_validator",
+  "capabilityName": "PBIP/PBIR Schema Validator",
+  "generatedAt": "2026-05-04T07:42:56.607079+00:00",
+  "status": "pass",
+  "pbipPath": "outputs/powerbi-runtime-max-layer/processes/complaint2capa/pbip/Complaint2CAPA",
+  "pages": 4,
+  "visuals": 16,
+  "tables": 5,
+  "requiredFiles": [
+    "*.pbip",
+    "*.SemanticModel/definition/tables/*.tmdl",
+    "*.Report/definition/pages/*/visuals/*/visual.json"
+  ]
+}

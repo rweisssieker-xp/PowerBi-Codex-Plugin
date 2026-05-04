@@ -1,0 +1,17 @@
+{
+  "processId": "design2cost",
+  "processName": "Design2Cost / Design2Source",
+  "capabilityId": "pbip_pbir_schema_validator",
+  "capabilityName": "PBIP/PBIR Schema Validator",
+  "generatedAt": "2026-05-04T07:42:56.462856+00:00",
+  "status": "pass",
+  "pbipPath": "outputs/powerbi-runtime-max-layer/processes/design2cost/pbip/Design2Cost_Design2Source",
+  "pages": 4,
+  "visuals": 16,
+  "tables": 5,
+  "requiredFiles": [
+    "*.pbip",
+    "*.SemanticModel/definition/tables/*.tmdl",
+    "*.Report/definition/pages/*/visuals/*/visual.json"
+  ]
+}

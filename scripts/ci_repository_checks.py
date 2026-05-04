@@ -566,6 +566,63 @@ def check_powerbi_runtime_max_layer(root: Path) -> list[str]:
     return errors
 
 
+def check_powerbi_production_hardening(root: Path) -> list[str]:
+    errors: list[str] = []
+    catalog_path = root / "data/powerbi_production_hardening_catalog.json"
+    output_root = root / "outputs/powerbi-production-hardening"
+    process_catalog_path = root / "data/industry_process_catalog.json"
+    if not catalog_path.exists():
+        return [f"{catalog_path}: production hardening catalog is missing"]
+    if not output_root.exists():
+        return [f"{output_root}: production hardening output folder is missing"]
+
+    catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+    capabilities = catalog.get("capabilities", [])
+    if catalog.get("capabilityCount") != 15 or len(capabilities) != 15:
+        errors.append(f"{catalog_path}: expected exactly 15 production hardening capabilities")
+    capability_ids = [str(capability.get("id")) for capability in capabilities]
+    for capability in capabilities:
+        for field in ["id", "name", "summary", "implementationStatus", "requiredArtifact", "acceptanceChecks"]:
+            if not capability.get(field):
+                errors.append(f"{catalog_path}: production hardening capability missing {field}")
+        if capability.get("implementationStatus") != "implemented_as_production_hardening_artifact":
+            errors.append(f"{catalog_path}: production hardening capability {capability.get('id')} has invalid status")
+
+    processes = json.loads(process_catalog_path.read_text(encoding="utf-8")).get("processes", [])
+    for process in processes:
+        process_id = process.get("processId")
+        folder = output_root / "processes" / str(process_id)
+        for capability_id in capability_ids:
+            path = folder / f"{capability_id}.json"
+            if not path.exists():
+                errors.append(f"{path}: required hardening artifact is missing")
+                continue
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            if payload.get("capabilityId") != capability_id:
+                errors.append(f"{path}: capabilityId mismatch")
+            if payload.get("status") not in {"pass", "contract-ready", "warn", "simulated"}:
+                errors.append(f"{path}: invalid status {payload.get('status')}")
+        dashboard_path = folder / "production_release_dashboard.json"
+        if not dashboard_path.exists():
+            errors.append(f"{dashboard_path}: release dashboard is missing")
+        else:
+            dashboard = json.loads(dashboard_path.read_text(encoding="utf-8"))
+            if dashboard.get("capabilityCount") != 15:
+                errors.append(f"{dashboard_path}: expected capabilityCount 15")
+
+    index_path = output_root / "production_hardening_index.csv"
+    if not index_path.exists():
+        errors.append(f"{index_path}: production hardening index is missing")
+    else:
+        row_count = max(0, len(index_path.read_text(encoding="utf-8").splitlines()) - 1)
+        if row_count != len(processes):
+            errors.append(f"{index_path}: expected {len(processes)} rows, found {row_count}")
+    for global_file in ["release_quality_dashboard.json", "README.md"]:
+        if not (output_root / global_file).exists():
+            errors.append(f"{output_root / global_file}: required production hardening global artifact is missing")
+    return errors
+
+
 def run(root: Path) -> int:
     errors: list[str] = []
     errors.extend(check_required_files(root))
@@ -588,6 +645,7 @@ def run(root: Path) -> int:
     errors.extend(check_powerbi_execution_layer(root))
     errors.extend(check_powerbi_premium_usp_layer(root))
     errors.extend(check_powerbi_runtime_max_layer(root))
+    errors.extend(check_powerbi_production_hardening(root))
 
     if errors:
         for error in errors:

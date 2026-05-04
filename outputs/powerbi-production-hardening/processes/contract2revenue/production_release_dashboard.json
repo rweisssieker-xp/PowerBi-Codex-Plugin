@@ -1,0 +1,11 @@
+{
+  "processId": "contract2revenue",
+  "processName": "Contract2Revenue",
+  "capabilityCount": 15,
+  "statusCounts": {
+    "contract-ready": 9,
+    "pass": 6
+  },
+  "releaseDecision": "ready_for_desktop_smoke",
+  "score": 100
+}

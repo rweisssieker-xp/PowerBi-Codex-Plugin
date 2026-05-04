@@ -1,0 +1,15 @@
+{
+  "processId": "procure2pay",
+  "processName": "Procure2Pay",
+  "capabilityId": "data_contract_enforcement",
+  "capabilityName": "Data Contract Enforcement",
+  "generatedAt": "2026-05-04T07:42:56.071604+00:00",
+  "status": "pass",
+  "contracts": 3,
+  "blockingRules": [
+    "missing required column",
+    "type narrowing",
+    "unapproved rename",
+    "refresh SLA missing"
+  ]
+}

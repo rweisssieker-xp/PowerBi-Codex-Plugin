@@ -1,0 +1,15 @@
+{
+  "processId": "incident2action",
+  "processName": "Incident2Action",
+  "capabilityId": "data_contract_enforcement",
+  "capabilityName": "Data Contract Enforcement",
+  "generatedAt": "2026-05-04T07:42:56.664004+00:00",
+  "status": "pass",
+  "contracts": 3,
+  "blockingRules": [
+    "missing required column",
+    "type narrowing",
+    "unapproved rename",
+    "refresh SLA missing"
+  ]
+}

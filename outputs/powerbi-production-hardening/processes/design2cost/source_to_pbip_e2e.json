@@ -1,0 +1,17 @@
+{
+  "processId": "design2cost",
+  "processName": "Design2Cost / Design2Source",
+  "capabilityId": "source_to_pbip_e2e",
+  "capabilityName": "Source-to-PBIP End-to-End Build",
+  "generatedAt": "2026-05-04T07:42:56.463980+00:00",
+  "status": "pass",
+  "flow": [
+    "source_profile.json",
+    "m_query_templates.json",
+    "schema_drift_contract.json",
+    "TMDL tables",
+    "PBIR visuals",
+    "runtime validation"
+  ],
+  "pbipPath": "outputs/powerbi-runtime-max-layer/processes/design2cost/pbip/Design2Cost_Design2Source"
+}

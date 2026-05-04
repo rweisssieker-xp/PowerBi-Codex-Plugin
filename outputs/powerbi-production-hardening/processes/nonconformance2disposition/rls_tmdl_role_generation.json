@@ -1,0 +1,15 @@
+{
+  "processId": "nonconformance2disposition",
+  "processName": "Nonconformance2Disposition",
+  "capabilityId": "rls_tmdl_role_generation",
+  "capabilityName": "Security/RLS TMDL Role Generation",
+  "generatedAt": "2026-05-04T07:42:56.633940+00:00",
+  "status": "contract-ready",
+  "roles": [
+    "Open generated PBIP/PBIR when available.",
+    "Refresh all demo CSV sources.",
+    "Confirm no Frown errors.",
+    "Confirm visuals bind to existing fields/measures."
+  ],
+  "policy": "generate role definitions from security_policy_plan.json after identity mapping approval"
+}

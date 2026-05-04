@@ -25,6 +25,7 @@ FEATURE_CATALOG_PATH = ROOT / "data" / "powerbi_feature_catalog.json"
 PROCESS_CATALOG_PATH = ROOT / "data" / "industry_process_catalog.json"
 PREMIUM_USP_CATALOG_PATH = ROOT / "data" / "powerbi_premium_usp_catalog.json"
 RUNTIME_MAX_CATALOG_PATH = ROOT / "data" / "powerbi_runtime_max_catalog.json"
+PRODUCTION_HARDENING_CATALOG_PATH = ROOT / "data" / "powerbi_production_hardening_catalog.json"
 
 TABLE_RE = re.compile(r"^table\s+(.+?)\s*$")
 COLUMN_RE = re.compile(r"^\s*column\s+(.+?)\s*$")
@@ -437,6 +438,42 @@ def build_runtime_max_plan(process_id: str, root: Path = ROOT) -> dict[str, Any]
     return manifest
 
 
+def load_production_hardening_catalog(root: Path = ROOT) -> dict[str, Any]:
+    path = root / "data" / "powerbi_production_hardening_catalog.json"
+    if not path.exists():
+        raise FileNotFoundError(
+            f"{path} does not exist; run scripts\\build_powerbi_production_hardening_layer.py first."
+        )
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def build_production_hardening_plan(process_id: str, root: Path = ROOT) -> dict[str, Any]:
+    catalog = load_production_hardening_catalog(root)
+    process_catalog = json.loads((root / "data" / "industry_process_catalog.json").read_text(encoding="utf-8"))
+    processes = {process["processId"]: process for process in process_catalog.get("processes", [])}
+    normalized_process_id = _normalize_process_id(process_id, processes)
+    if normalized_process_id not in processes:
+        known = ", ".join(sorted(processes)[:8])
+        raise ValueError(f"Unknown processId '{process_id}'. Known examples: {known}")
+    dashboard_path = (
+        root
+        / "outputs"
+        / "powerbi-production-hardening"
+        / "processes"
+        / normalized_process_id
+        / "production_release_dashboard.json"
+    )
+    if not dashboard_path.exists():
+        raise FileNotFoundError(
+            f"{dashboard_path} does not exist; run scripts\\build_powerbi_production_hardening_layer.py first."
+        )
+    dashboard = json.loads(dashboard_path.read_text(encoding="utf-8"))
+    dashboard["requestedProcessId"] = process_id
+    dashboard["catalogCapabilityCount"] = catalog.get("capabilityCount")
+    dashboard["hardeningFolder"] = str(dashboard_path.parent).replace("\\", "/")
+    return dashboard
+
+
 def build_feature_delivery_plan(process_id: str, root: Path = ROOT) -> dict[str, Any]:
     catalog = load_feature_catalog(root)
     process_catalog = json.loads((root / "data" / "industry_process_catalog.json").read_text(encoding="utf-8"))
@@ -578,6 +615,9 @@ def main() -> int:
     runtime_max = sub.add_parser("runtime-max", help="List the 15 runtime max capabilities.")
     runtime_max.add_argument("--out")
 
+    hardening = sub.add_parser("hardening", help="List the 15 production hardening capabilities.")
+    hardening.add_argument("--out")
+
     feature_plan = sub.add_parser("feature-plan", help="Create a 20-feature delivery plan for a process.")
     feature_plan.add_argument("--process", required=True)
     feature_plan.add_argument("--out")
@@ -589,6 +629,10 @@ def main() -> int:
     runtime_plan = sub.add_parser("runtime-max-plan", help="Create a 15-capability runtime max plan for a process.")
     runtime_plan.add_argument("--process", required=True)
     runtime_plan.add_argument("--out")
+
+    hardening_plan = sub.add_parser("hardening-plan", help="Create a production hardening dashboard for a process.")
+    hardening_plan.add_argument("--process", required=True)
+    hardening_plan.add_argument("--out")
 
     build = sub.add_parser("build", help="Build a local process delivery bundle from the execution layer.")
     build.add_argument("--process", required=True)
@@ -631,6 +675,14 @@ def main() -> int:
             Path(args.out).write_text(text, encoding="utf-8")
         print(text)
         return 0
+    if args.command == "hardening":
+        result = load_production_hardening_catalog()
+        text = json.dumps(result, indent=2)
+        if args.out:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.out).write_text(text, encoding="utf-8")
+        print(text)
+        return 0
     if args.command == "feature-plan":
         result = build_feature_delivery_plan(args.process)
         text = json.dumps(result, indent=2)
@@ -649,6 +701,14 @@ def main() -> int:
         return 0
     if args.command == "runtime-max-plan":
         result = build_runtime_max_plan(args.process)
+        text = json.dumps(result, indent=2)
+        if args.out:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.out).write_text(text, encoding="utf-8")
+        print(text)
+        return 0
+    if args.command == "hardening-plan":
+        result = build_production_hardening_plan(args.process)
         text = json.dumps(result, indent=2)
         if args.out:
             Path(args.out).parent.mkdir(parents=True, exist_ok=True)

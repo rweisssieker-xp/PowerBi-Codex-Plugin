@@ -1,0 +1,15 @@
+{
+  "processId": "close2report_plan2perform",
+  "processName": "Close2Report / Plan2Perform",
+  "capabilityId": "data_contract_enforcement",
+  "capabilityName": "Data Contract Enforcement",
+  "generatedAt": "2026-05-04T07:42:56.806291+00:00",
+  "status": "pass",
+  "contracts": 3,
+  "blockingRules": [
+    "missing required column",
+    "type narrowing",
+    "unapproved rename",
+    "refresh SLA missing"
+  ]
+}

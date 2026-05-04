@@ -1,0 +1,15 @@
+{
+  "processId": "issue2resolution",
+  "processName": "Issue2Resolution",
+  "capabilityId": "semantic_repair_patches",
+  "capabilityName": "Semantic Model Repair Patches",
+  "generatedAt": "2026-05-04T07:42:56.228593+00:00",
+  "status": "contract-ready",
+  "patchTypes": [
+    "relationship rewrite",
+    "missing field repair",
+    "Source{n} replacement",
+    "measure rebinding"
+  ],
+  "safeMode": "write patch plan first; apply only after validation"
+}

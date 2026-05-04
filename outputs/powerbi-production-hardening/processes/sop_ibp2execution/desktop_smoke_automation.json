@@ -1,0 +1,18 @@
+{
+  "processId": "sop_ibp2execution",
+  "processName": "S&OP / IBP2Execution",
+  "capabilityId": "desktop_smoke_automation",
+  "capabilityName": "Power BI Desktop Smoke Automation",
+  "generatedAt": "2026-05-04T07:42:56.435766+00:00",
+  "status": "contract-ready",
+  "desktopRequired": true,
+  "pbipPath": "outputs/powerbi-runtime-max-layer/processes/sop_ibp2execution/pbip/S_OP_IBP2Execution",
+  "checks": [
+    "open PBIP",
+    "refresh sources",
+    "scan visual errors",
+    "scan Frown snapshot",
+    "write smoke evidence"
+  ],
+  "fallbackStaticValidation": "python scripts\\powerbi_expert_factory.py validate --project <pbip>"
+}

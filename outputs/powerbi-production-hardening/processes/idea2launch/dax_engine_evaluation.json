@@ -1,0 +1,13 @@
+{
+  "processId": "idea2launch",
+  "processName": "Idea2Launch / Engineer2Release",
+  "capabilityId": "dax_engine_evaluation",
+  "capabilityName": "DAX Engine Evaluation",
+  "generatedAt": "2026-05-04T07:42:56.171220+00:00",
+  "status": "contract-ready",
+  "strategy": "evaluate generated measures against ProcessCases aggregates and ProcessKpiSnapshots tolerances",
+  "requiredInputs": [
+    "demo-data/cases.csv",
+    "dax_expected_result_runner.json"
+  ]
+}

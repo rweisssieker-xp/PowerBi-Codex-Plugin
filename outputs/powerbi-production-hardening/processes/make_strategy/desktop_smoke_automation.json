@@ -1,0 +1,18 @@
+{
+  "processId": "make_strategy",
+  "processName": "Make2Stock / Make2Order / Engineer2Order",
+  "capabilityId": "desktop_smoke_automation",
+  "capabilityName": "Power BI Desktop Smoke Automation",
+  "generatedAt": "2026-05-04T07:42:56.142696+00:00",
+  "status": "contract-ready",
+  "desktopRequired": true,
+  "pbipPath": "outputs/powerbi-runtime-max-layer/processes/make_strategy/pbip/Make2Stock_Make2Order_Engineer2Order",
+  "checks": [
+    "open PBIP",
+    "refresh sources",
+    "scan visual errors",
+    "scan Frown snapshot",
+    "write smoke evidence"
+  ],
+  "fallbackStaticValidation": "python scripts\\powerbi_expert_factory.py validate --project <pbip>"
+}

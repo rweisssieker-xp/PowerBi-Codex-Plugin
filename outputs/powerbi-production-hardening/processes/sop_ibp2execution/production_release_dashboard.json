@@ -1,0 +1,11 @@
+{
+  "processId": "sop_ibp2execution",
+  "processName": "S&OP / IBP2Execution",
+  "capabilityCount": 15,
+  "statusCounts": {
+    "contract-ready": 9,
+    "pass": 6
+  },
+  "releaseDecision": "ready_for_desktop_smoke",
+  "score": 100
+}

@@ -1,0 +1,16 @@
+{
+  "processId": "project2cash",
+  "processName": "Engineer2Order / Project2Cash",
+  "capabilityId": "plugin_marketplace_ux",
+  "capabilityName": "Plugin UX / Marketplace Workflow",
+  "generatedAt": "2026-05-04T07:42:56.496980+00:00",
+  "status": "contract-ready",
+  "workflow": [
+    "select process pack",
+    "select source mode",
+    "profile source",
+    "build PBIP",
+    "run validation",
+    "publish evidence"
+  ]
+}

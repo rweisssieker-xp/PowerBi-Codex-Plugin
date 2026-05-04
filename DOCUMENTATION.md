@@ -27,6 +27,7 @@ This is the single navigation index for repository-level documentation. Root fil
 - [Power BI Execution Layer](outputs/powerbi-execution-layer/README.md)
 - [Power BI Premium USP Layer](outputs/powerbi-premium-usp-layer/README.md)
 - [Power BI Runtime Max Layer](outputs/powerbi-runtime-max-layer/README.md)
+- [Power BI Production Hardening](outputs/powerbi-production-hardening/README.md)
 - [Source System Coverage](docs/product/SOURCE_SYSTEM_COVERAGE.md)
 - [Power BI Native Connector Coverage](docs/product/POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
 

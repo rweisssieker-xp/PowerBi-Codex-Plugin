@@ -1,0 +1,17 @@
+{
+  "processId": "maintain2operate",
+  "processName": "Maintain2Operate",
+  "capabilityId": "release_quality_dashboard",
+  "capabilityName": "Release Quality Dashboard",
+  "generatedAt": "2026-05-04T07:42:56.205180+00:00",
+  "status": "pass",
+  "score": 100,
+  "evidence": [
+    "CI checks",
+    "schema validation",
+    "runtime manifest",
+    "PBIP structure",
+    "owner acceptance pack"
+  ],
+  "releaseDecision": "ready_for_desktop_smoke"
+}

@@ -1,0 +1,13 @@
+{
+  "processId": "issue2resolution",
+  "processName": "Issue2Resolution",
+  "capabilityId": "dax_engine_evaluation",
+  "capabilityName": "DAX Engine Evaluation",
+  "generatedAt": "2026-05-04T07:42:56.227168+00:00",
+  "status": "contract-ready",
+  "strategy": "evaluate generated measures against ProcessCases aggregates and ProcessKpiSnapshots tolerances",
+  "requiredInputs": [
+    "demo-data/cases.csv",
+    "dax_expected_result_runner.json"
+  ]
+}

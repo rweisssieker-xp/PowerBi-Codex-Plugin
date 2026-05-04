@@ -1,0 +1,17 @@
+{
+  "processId": "demand2supply",
+  "processName": "Demand2Supply",
+  "capabilityId": "source_to_pbip_e2e",
+  "capabilityName": "Source-to-PBIP End-to-End Build",
+  "generatedAt": "2026-05-04T07:42:56.416191+00:00",
+  "status": "pass",
+  "flow": [
+    "source_profile.json",
+    "m_query_templates.json",
+    "schema_drift_contract.json",
+    "TMDL tables",
+    "PBIR visuals",
+    "runtime validation"
+  ],
+  "pbipPath": "outputs/powerbi-runtime-max-layer/processes/demand2supply/pbip/Demand2Supply"
+}
