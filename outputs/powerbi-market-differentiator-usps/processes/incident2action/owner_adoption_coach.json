@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.241123+00:00",
+  "processId": "incident2action",
+  "processName": "Incident2Action",
+  "domain": "EHS",
+  "ownerRole": "Incident-to-Action Process Owner",
+  "capabilityId": "owner_adoption_coach",
+  "capabilityName": "Owner Adoption Coach",
+  "primaryPersona": "BI Adoption Lead",
+  "marketDifferentiator": "Measures actual behavior change, not only report delivery.",
+  "processFit": {
+    "caseName": "Incident",
+    "valueLabel": "RiskValue",
+    "kpis": [
+      "Incident Rate",
+      "Severity Score",
+      "Response Time",
+      "Overdue Actions",
+      "Risk Exposure"
+    ],
+    "sourceSystems": [
+      "EHS",
+      "GRC",
+      "Action Tracking",
+      "HR"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/incident2action/owner_adoption_coach.json",
+  "status": "evidence-ready"
+}

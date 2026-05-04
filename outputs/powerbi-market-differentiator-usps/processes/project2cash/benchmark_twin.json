@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.021905+00:00",
+  "processId": "project2cash",
+  "processName": "Engineer2Order / Project2Cash",
+  "domain": "Projects",
+  "ownerRole": "Project-to-Cash Process Owner",
+  "capabilityId": "benchmark_twin",
+  "capabilityName": "Benchmark Twin",
+  "primaryPersona": "Executive Sponsor",
+  "marketDifferentiator": "Shows where improvement potential is real and material.",
+  "processFit": {
+    "caseName": "Customer Project",
+    "valueLabel": "ProjectValue",
+    "kpis": [
+      "Milestone Adherence",
+      "Project Margin",
+      "WIP Value",
+      "Billing Readiness",
+      "Cash Exposure"
+    ],
+    "sourceSystems": [
+      "Project System",
+      "ERP CO",
+      "Billing",
+      "PLM"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/project2cash/benchmark_twin.json",
+  "status": "evidence-ready"
+}

@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:24.991208+00:00",
+  "processId": "sop_ibp2execution",
+  "processName": "S&OP / IBP2Execution",
+  "domain": "Supply Chain",
+  "ownerRole": "IBP Process Owner",
+  "capabilityId": "kpi_lineage_explorer",
+  "capabilityName": "KPI Lineage Explorer",
+  "primaryPersona": "Data Steward",
+  "marketDifferentiator": "Makes every number explainable from source to visual.",
+  "processFit": {
+    "caseName": "Plan Commitment",
+    "valueLabel": "PlanGapValue",
+    "kpis": [
+      "Plan Adherence",
+      "Constrained Gap",
+      "Capacity Overload",
+      "Inventory Target Adherence",
+      "Plan Change Count"
+    ],
+    "sourceSystems": [
+      "IBP",
+      "ERP PP",
+      "MES",
+      "Inventory"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/sop_ibp2execution/kpi_lineage_explorer.json",
+  "status": "evidence-ready"
+}

@@ -10,14 +10,18 @@ source definitions, and missing delivery evidence.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import os
 import re
 import shutil
+import zipfile
 from collections import defaultdict, deque
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from urllib import request
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -26,6 +30,7 @@ PROCESS_CATALOG_PATH = ROOT / "data" / "industry_process_catalog.json"
 PREMIUM_USP_CATALOG_PATH = ROOT / "data" / "powerbi_premium_usp_catalog.json"
 RUNTIME_MAX_CATALOG_PATH = ROOT / "data" / "powerbi_runtime_max_catalog.json"
 PRODUCTION_HARDENING_CATALOG_PATH = ROOT / "data" / "powerbi_production_hardening_catalog.json"
+MARKET_DIFFERENTIATOR_USP_CATALOG_PATH = ROOT / "data" / "powerbi_market_differentiator_usp_catalog.json"
 
 TABLE_RE = re.compile(r"^table\s+(.+?)\s*$")
 COLUMN_RE = re.compile(r"^\s*column\s+(.+?)\s*$")
@@ -454,6 +459,41 @@ def load_production_hardening_catalog(root: Path = ROOT) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def load_market_differentiator_usp_catalog(root: Path = ROOT) -> dict[str, Any]:
+    path = root / "data" / "powerbi_market_differentiator_usp_catalog.json"
+    if not path.exists():
+        raise FileNotFoundError(
+            f"{path} does not exist; run scripts\\build_powerbi_market_differentiator_usps.py first."
+        )
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def build_market_differentiator_usp_plan(process_id: str, root: Path = ROOT) -> dict[str, Any]:
+    catalog = load_market_differentiator_usp_catalog(root)
+    process_catalog = json.loads((root / "data" / "industry_process_catalog.json").read_text(encoding="utf-8"))
+    processes = {process["processId"]: process for process in process_catalog.get("processes", [])}
+    normalized_process_id = _normalize_process_id(process_id, processes)
+    if normalized_process_id not in processes:
+        known = ", ".join(sorted(processes)[:8])
+        raise ValueError(f"Unknown processId '{process_id}'. Known examples: {known}")
+    plan_path = (
+        root
+        / "outputs"
+        / "powerbi-market-differentiator-usps"
+        / "processes"
+        / normalized_process_id
+        / "market_differentiator_plan.json"
+    )
+    if not plan_path.exists():
+        raise FileNotFoundError(
+            f"{plan_path} does not exist; run scripts\\build_powerbi_market_differentiator_usps.py first."
+        )
+    plan = json.loads(plan_path.read_text(encoding="utf-8"))
+    plan["requestedProcessId"] = process_id
+    plan["catalogCapabilityCount"] = catalog.get("capabilityCount")
+    return plan
+
+
 def build_production_hardening_plan(process_id: str, root: Path = ROOT) -> dict[str, Any]:
     catalog = load_production_hardening_catalog(root)
     process_catalog = json.loads((root / "data" / "industry_process_catalog.json").read_text(encoding="utf-8"))
@@ -580,6 +620,622 @@ def build_process_delivery(process_id: str, source: str, out: str | Path, root: 
     return result
 
 
+def build_powerbi_report_package(
+    process_id: str,
+    source_description: str,
+    out: str | Path,
+    report_goal: str = "",
+    root: Path = ROOT,
+) -> dict[str, Any]:
+    process_catalog = json.loads((root / "data" / "industry_process_catalog.json").read_text(encoding="utf-8"))
+    processes = {process["processId"]: process for process in process_catalog.get("processes", [])}
+    normalized_process_id = _normalize_process_id(process_id, processes)
+    if normalized_process_id not in processes:
+        known = ", ".join(sorted(processes)[:8])
+        raise ValueError(f"Unknown processId '{process_id}'. Known examples: {known}")
+
+    runtime_manifest = build_runtime_max_plan(normalized_process_id, root)
+    source_pbip = root / runtime_manifest["pbip"]["projectPath"]
+    if not source_pbip.exists():
+        raise FileNotFoundError(
+            f"{source_pbip} does not exist; run scripts\\build_powerbi_runtime_max_layer.py first."
+        )
+
+    process = processes[normalized_process_id]
+    out_path = Path(out)
+    if out_path.exists():
+        shutil.rmtree(out_path)
+    out_path.mkdir(parents=True, exist_ok=True)
+
+    pbip_target = out_path / "pbip" / source_pbip.name
+    shutil.copytree(source_pbip, pbip_target)
+
+    kpis = process.get("kpis", [])
+    owner_role = process.get("ownerRole", "Process Owner")
+    source_profile = {
+        "eventType": "powerbi_report_source_profile",
+        "processId": normalized_process_id,
+        "processName": process["name"],
+        "sourceDescription": source_description,
+        "sourceMode": "demo_scaffold_with_production_source_contract",
+        "credentialPolicy": "external_runtime_only",
+        "recommendedConnectors": _recommended_connectors(source_description),
+        "requiredSourceEvidence": ["row counts", "schema snapshot", "freshness timestamp", "owner signoff"],
+    }
+    model_plan = {
+        "eventType": "powerbi_model_build_plan",
+        "processId": normalized_process_id,
+        "grain": "one row per process case with event-level drill-through",
+        "facts": ["ProcessCases", "ProcessEvents", "ProcessKpiSnapshots"],
+        "dimensions": ["DimProcess", "DimCalendar"],
+        "relationships": ["ProcessEvents -> ProcessCases", "ProcessCases -> DimProcess", "ProcessKpiSnapshots -> DimCalendar"],
+        "rlsRoles": [owner_role, "Process Manager", "Power BI CoE"],
+        "buildOutput": str(pbip_target).replace("\\", "/"),
+    }
+    dax_plan = {
+        "eventType": "powerbi_dax_measure_plan",
+        "processId": normalized_process_id,
+        "measureCount": len(kpis) + 5,
+        "measures": [
+            {"name": "Case Count", "expression": "COUNTROWS('ProcessCases')", "kpiContract": "case volume"},
+            {"name": "SLA Breach Count", "expression": "CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = TRUE())", "kpiContract": "SLA control"},
+            {"name": "Action Required Count", "expression": "CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[ActionRequired] = TRUE())", "kpiContract": "owner action"},
+            {"name": "Average Cycle Days", "expression": "AVERAGE('ProcessCases'[CycleDays])", "kpiContract": "cycle time"},
+            {"name": "Risk Weighted Value", "expression": "SUMX('ProcessCases', 'ProcessCases'[Value] * 'ProcessCases'[RiskScore])", "kpiContract": "risk exposure"},
+        ]
+        + [
+            {
+                "name": _measure_name(kpi),
+                "expression": f"-- governed measure placeholder for {kpi}",
+                "kpiContract": kpi,
+            }
+            for kpi in kpis
+        ],
+        "expectedResultPolicy": "compare generated measures to source aggregates before release",
+    }
+    m_plan = {
+        "eventType": "power_query_m_plan",
+        "processId": normalized_process_id,
+        "nativeConnectorPolicy": "prefer native Power BI connectors over custom ingestion",
+        "recommendedConnectors": source_profile["recommendedConnectors"],
+        "templates": [
+            "Excel.Workbook(File.Contents(...), null, true)",
+            "SharePoint.Files(siteUrl)",
+            "Sql.Database(server, database)",
+            "OData.Feed(serviceRoot)",
+        ],
+        "qualityRules": ["no numeric Source{n} navigation", "explicit type conversion", "schema drift contract required"],
+    }
+    report_pages = {
+        "eventType": "powerbi_report_pages_plan",
+        "processId": normalized_process_id,
+        "goal": report_goal or f"{process['name']} process owner cockpit",
+        "pages": [
+            {"name": "Executive Overview", "purpose": "KPI status, trend, risk, and decision summary"},
+            {"name": "Process Flow And Aging", "purpose": "case flow, cycle time, aging, bottlenecks"},
+            {"name": "Exception And Root Cause", "purpose": "SLA breaches, drivers, segments, drill paths"},
+            {"name": "Owner Action Cockpit", "purpose": "owner queues, action required cases, priorities"},
+            {"name": "Data Quality And Trust", "purpose": "freshness, source reconciliation, validation evidence"},
+        ],
+    }
+    improvement_plan = {
+        "eventType": "powerbi_model_improvement_plan",
+        "processId": normalized_process_id,
+        "improvements": [
+            "validate star-schema relationships and remove ambiguous paths",
+            "replace placeholder KPI measures with source-specific DAX after profiling",
+            "add incremental refresh policy when date grain and source volume justify it",
+            "score report pages for density, actionability, and visual binding quality",
+            "run DAX query request and expected-result reconciliation before certification",
+        ],
+    }
+    validation_plan = {
+        "eventType": "powerbi_report_validation_plan",
+        "processId": normalized_process_id,
+        "commands": [
+            f"python scripts\\powerbi_expert_factory.py validate --project {pbip_target} --out {out_path / 'validation_result.json'}",
+            f"python scripts\\powerbi_expert_factory.py dax-query-request --workspace <workspace-id> --dataset <dataset-id> --query \"EVALUATE ROW(\\\"Cases\\\", [Case Count])\" --out {out_path / 'dax_query_request.json'}",
+            f"python scripts\\powerbi_expert_factory.py rest-deploy-request --workspace <workspace-id> --artifact {pbip_target} --operation import --operation refresh --out {out_path / 'rest_deploy_request.json'}",
+        ],
+        "acceptanceChecks": ["no validation errors", "all visuals bind to existing fields", "source evidence has no secrets"],
+    }
+
+    artifacts = {
+        "source_profile.json": source_profile,
+        "model_build_plan.json": model_plan,
+        "dax_measure_plan.json": dax_plan,
+        "power_query_m_plan.json": m_plan,
+        "report_pages_plan.json": report_pages,
+        "model_improvement_plan.json": improvement_plan,
+        "validation_plan.json": validation_plan,
+    }
+    for filename, payload in artifacts.items():
+        (out_path / filename).write_text(json.dumps(payload, indent=2), encoding="utf-8")
+
+    result = {
+        "eventType": "powerbi_expert_factory_report_package",
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "requestedProcessId": process_id,
+        "processId": normalized_process_id,
+        "processName": process["name"],
+        "sourceDescription": source_description,
+        "reportGoal": report_goal,
+        "output": str(out_path),
+        "pbip": {
+            **runtime_manifest["pbip"],
+            "projectPath": str(pbip_target).replace("\\", "/"),
+        },
+        "artifacts": sorted(artifacts),
+        "nextCommands": validation_plan["commands"],
+    }
+    (out_path / "report_package_manifest.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
+    return result
+
+
+def build_generalist_autopilot_run(
+    process_id: str,
+    source_description: str,
+    business_goal: str,
+    out: str | Path,
+    root: Path = ROOT,
+) -> dict[str, Any]:
+    out_path = Path(out)
+    if out_path.exists():
+        shutil.rmtree(out_path)
+    out_path.mkdir(parents=True, exist_ok=True)
+
+    package = build_powerbi_report_package(
+        process_id,
+        source_description,
+        out_path / "report-package",
+        business_goal,
+        root,
+    )
+    runtime_plan = build_runtime_max_plan(package["processId"], root)
+    (out_path / "runtime_max_plan.json").write_text(json.dumps(runtime_plan, indent=2), encoding="utf-8")
+
+    result = {
+        "eventType": "powerbi_generalist_autopilot_run",
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "requestedProcessId": process_id,
+        "processId": package["processId"],
+        "processName": package["processName"],
+        "businessGoal": business_goal,
+        "sourceDescription": source_description,
+        "businessSummary": [
+            "A governed Power BI report/model package was generated from the process-owner request.",
+            "The package includes model, DAX, Power Query/M, report-page, validation, and improvement artifacts.",
+            "Authenticated tenant, DAX, gateway, and deployment actions remain approval-gated.",
+        ],
+        "outputs": {
+            "reportPackage": str(out_path / "report-package").replace("\\", "/"),
+            "runtimeMaxPlan": str(out_path / "runtime_max_plan.json").replace("\\", "/"),
+        },
+        "nextActions": [
+            "review assumptions and owner acceptance questions",
+            "run validation command from the report package",
+            "connect authenticated runtime executors when tenant credentials are available",
+        ],
+    }
+    (out_path / "generalist_autopilot_manifest.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
+    return result
+
+
+def build_generalist_prompt_run(prompt: str, out: str | Path, root: Path = ROOT) -> dict[str, Any]:
+    out_path = Path(out)
+    if out_path.exists():
+        shutil.rmtree(out_path)
+    out_path.mkdir(parents=True, exist_ok=True)
+
+    interpreted = interpret_generalist_prompt(prompt)
+    (out_path / "interpreted_request.json").write_text(json.dumps(interpreted, indent=2), encoding="utf-8")
+    autopilot = build_generalist_autopilot_run(
+        interpreted["processId"],
+        interpreted["sourceDescription"],
+        interpreted["businessGoal"],
+        out_path / "autopilot",
+        root,
+    )
+    result = {
+        "eventType": "powerbi_generalist_prompt_run",
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "prompt": prompt,
+        "interpretedRequest": interpreted,
+        "autopilotManifest": str(out_path / "autopilot" / "generalist_autopilot_manifest.json").replace("\\", "/"),
+        "reportPackage": autopilot["outputs"]["reportPackage"],
+        "nextActions": autopilot["nextActions"],
+    }
+    (out_path / "generalist_prompt_run_manifest.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
+    return result
+
+
+def interpret_generalist_prompt(prompt: str) -> dict[str, Any]:
+    text = prompt.lower()
+    process_id = _infer_process_from_prompt(text)
+    sources = _infer_sources_from_prompt(prompt)
+    goal = _infer_goal_from_prompt(text)
+    return {
+        "eventType": "powerbi_generalist_prompt_interpretation",
+        "processId": process_id,
+        "sourceDescription": sources,
+        "businessGoal": goal,
+        "assumptions": [
+            "free-text interpretation is heuristic until source metadata is scanned",
+            "process owner wants actionability, not only KPI reporting",
+            "credentials and live tenant actions remain approval-gated",
+        ],
+        "confidence": "medium" if process_id != "data2insight2action" else "low",
+    }
+
+
+def _infer_process_from_prompt(text: str) -> str:
+    process_signals = [
+        ("order2cash", ["o2c", "order to cash", "order2cash", "auftrag", "aufträge", "rechnung", "rechnungen", "cash", "lieferung", "lieferungen"]),
+        ("lead2order", ["lead", "opportunity", "quote", "angebot", "auftragseingang", "vertriebspipeline"]),
+        ("procure2pay", ["p2p", "procure", "purchase", "einkauf", "lieferant", "bestellung", "wareneingang"]),
+        ("record2report", ["abschluss", "monatsabschluss", "close", "bilanz", "guv", "reporting close"]),
+        ("complaint2capa", ["reklamation", "complaint", "capa", "abweichung", "nonconformance"]),
+        ("dock2stock", ["lager", "warehouse", "dock", "stock", "wareneingang", "einlagerung"]),
+    ]
+    scores = []
+    for process_id, tokens in process_signals:
+        scores.append((sum(1 for token in tokens if token in text), process_id))
+    score, process_id = max(scores)
+    return process_id if score else "data2insight2action"
+
+
+def _infer_sources_from_prompt(prompt: str) -> str:
+    text = prompt.lower()
+    sources = []
+    if "sap" in text:
+        sources.append("SAP export")
+    if "excel" in text or "xlsx" in text:
+        sources.append("Excel dispute or manual business list")
+    if "csv" in text:
+        sources.append("CSV operational extract")
+    if "lager" in text or "warehouse" in text or "wms" in text:
+        sources.append("warehouse delivery or inventory extract")
+    if "crm" in text or "salesforce" in text or "dynamics" in text:
+        sources.append("CRM opportunity/customer extract")
+    if not sources:
+        sources.append("source contract required from described business process")
+    return ", ".join(dict.fromkeys(sources))
+
+
+def _infer_goal_from_prompt(text: str) -> str:
+    goals = []
+    if "montag" in text or "monday" in text:
+        goals.append("Monday process owner cockpit")
+    else:
+        goals.append("Process owner cockpit")
+    if any(token in text for token in ["hängt", "haengen", "hängen", "stuck", "blockiert", "blocked"]):
+        goals.append("stuck and blocked cases")
+    if any(token in text for token in ["spät", "verspät", "late", "delay", "liefer"]):
+        goals.append("late deliveries and aging")
+    if "cash" in text:
+        goals.append("cash risk")
+    if any(token in text for token in ["rechnung", "invoice"]):
+        goals.append("invoice blocks")
+    if any(token in text for token in ["datenqualität", "data quality"]):
+        goals.append("data quality drivers")
+    goals.append("owners and prioritized next actions")
+    return " for " + ", ".join(goals)
+
+
+def run_pbix_binary_intake(pbix_path: str | Path, out: str | Path | None = None) -> dict[str, Any]:
+    path = Path(pbix_path)
+    if not path.exists():
+        raise FileNotFoundError(f"{path} does not exist")
+    if path.suffix.lower() not in {".pbix", ".pbit"}:
+        raise ValueError("PBIX binary intake supports .pbix and .pbit files only.")
+
+    digest = hashlib.sha256(path.read_bytes()).hexdigest()
+    entries: list[str] = []
+    entry_meta: list[dict[str, Any]] = []
+    unsupported: list[str] = []
+    try:
+        with zipfile.ZipFile(path) as archive:
+            infos = sorted(archive.infolist(), key=lambda item: item.filename)
+            for info in infos:
+                entries.append(info.filename)
+                entry_meta.append(
+                    {
+                        "name": info.filename,
+                        "compressedBytes": info.compress_size,
+                        "uncompressedBytes": info.file_size,
+                    }
+                )
+    except zipfile.BadZipFile:
+        unsupported.append("file is not a readable ZIP container")
+
+    classification = {
+        "hasReportLayout": any(name.lower().replace("\\", "/") in {"report/layout", "report/layout.json"} for name in entries),
+        "hasDataModelSchema": any("datamodelschema" in name.lower() for name in entries),
+        "hasConnections": any("connections" in name.lower() for name in entries),
+        "hasMetadata": any("metadata" in name.lower() for name in entries),
+    }
+    result = {
+        "eventType": "powerbi_runtime_executor_pbix_binary_intake",
+        "executor": "pbix_binary_intake",
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "status": "parsed" if not unsupported else "unsupported",
+        "file": {
+            "path": str(path),
+            "name": path.name,
+            "extension": path.suffix.lower(),
+            "bytes": path.stat().st_size,
+            "sha256": digest,
+        },
+        "package": {
+            "entryCount": len(entries),
+            "entries": entries,
+            "entryMetadata": entry_meta,
+        },
+        "classification": classification,
+        "unsupportedArtifacts": unsupported,
+        "credentialPolicy": "no_payload_content_or_secrets_emitted",
+        "nextActions": [
+            "map extractable metadata to legacy_report_reverse_engineer",
+            "create migration blockers for unsupported binary sections",
+            "run PBIP conversion when source project files are available",
+        ],
+    }
+    if out:
+        Path(out).parent.mkdir(parents=True, exist_ok=True)
+        Path(out).write_text(json.dumps(result, indent=2), encoding="utf-8")
+    return result
+
+
+def build_tenant_scan_request(tenant_id: str, workspace_ids: list[str] | None = None) -> dict[str, Any]:
+    return _runtime_request(
+        "live_tenant_scanner",
+        "Power BI tenant scan request",
+        {
+            "tenantId": tenant_id,
+            "workspaceIds": workspace_ids or ["*"],
+            "include": ["workspaces", "datasets", "reports", "refreshes", "gateways", "lineage", "owners", "endorsements"],
+        },
+        [
+            "GET /groups",
+            "GET /groups/{workspaceId}/reports",
+            "GET /groups/{workspaceId}/datasets",
+            "GET /groups/{workspaceId}/datasets/{datasetId}/refreshes",
+            "GET /gateways",
+        ],
+        ["tenant inventory", "workspace lineage map", "refresh and owner evidence"],
+    )
+
+
+def build_dax_query_run_request(workspace_id: str, dataset_id: str, dax_query: str) -> dict[str, Any]:
+    return _runtime_request(
+        "dax_query_runner",
+        "DAX query execution request",
+        {
+            "workspaceId": workspace_id,
+            "datasetId": dataset_id,
+            "query": dax_query,
+            "resultPolicy": "store_schema_row_counts_and_expected_result_verdicts",
+        },
+        ["POST /groups/{workspaceId}/datasets/{datasetId}/executeQueries"],
+        ["query result evidence", "measure reconciliation verdict", "expected-result comparison"],
+    )
+
+
+def build_powerbi_rest_deployment_request(workspace_id: str, artifact_path: str, operations: list[str] | None = None) -> dict[str, Any]:
+    selected = operations or ["import", "update_parameters", "refresh", "endorse"]
+    return _runtime_request(
+        "powerbi_rest_deployer",
+        "Power BI REST deployment request",
+        {
+            "workspaceId": workspace_id,
+            "artifactPath": artifact_path,
+            "operationSequence": selected,
+            "releaseApprovalRequired": True,
+        },
+        [f"REST operation: {operation}" for operation in selected],
+        ["deployment evidence", "operation result manifest", "release approval record"],
+    )
+
+
+def build_gateway_audit_request(gateway_id: str, datasource_ids: list[str] | None = None) -> dict[str, Any]:
+    return _runtime_request(
+        "gateway_configuration_auditor",
+        "Gateway configuration audit request",
+        {
+            "gatewayId": gateway_id,
+            "datasourceIds": datasource_ids or ["*"],
+            "checks": ["cluster ownership", "datasource mappings", "credential mode", "failover", "single point of failure"],
+        },
+        [
+            "GET /gateways/{gatewayId}",
+            "GET /gateways/{gatewayId}/datasources",
+            "GET /gateways/{gatewayId}/datasources/{datasourceId}/users",
+        ],
+        ["gateway inventory", "datasource mapping", "risk and SPOF findings"],
+    )
+
+
+def run_tenant_scan_executor(
+    tenant_id: str,
+    workspace_ids: list[str] | None = None,
+    transport=None,
+) -> dict[str, Any]:
+    runtime_request = build_tenant_scan_request(tenant_id, workspace_ids)
+    planned = [
+        {"method": "GET", "url": "https://api.powerbi.com/v1.0/myorg/groups"},
+    ]
+    for workspace_id in workspace_ids or []:
+        planned.extend(
+            [
+                {"method": "GET", "url": f"https://api.powerbi.com/v1.0/myorg/groups/{workspace_id}/reports"},
+                {"method": "GET", "url": f"https://api.powerbi.com/v1.0/myorg/groups/{workspace_id}/datasets"},
+            ]
+        )
+    return _execute_powerbi_plan("live_tenant_scanner", runtime_request, planned, transport)
+
+
+def run_dax_query_executor(
+    workspace_id: str,
+    dataset_id: str,
+    dax_query: str,
+    transport=None,
+) -> dict[str, Any]:
+    runtime_request = build_dax_query_run_request(workspace_id, dataset_id, dax_query)
+    planned = [
+        {
+            "method": "POST",
+            "url": f"https://api.powerbi.com/v1.0/myorg/groups/{workspace_id}/datasets/{dataset_id}/executeQueries",
+            "payload": {"queries": [{"query": dax_query}], "serializerSettings": {"includeNulls": True}},
+        }
+    ]
+    return _execute_powerbi_plan("dax_query_runner", runtime_request, planned, transport)
+
+
+def run_gateway_audit_executor(
+    gateway_id: str,
+    datasource_ids: list[str] | None = None,
+    transport=None,
+) -> dict[str, Any]:
+    runtime_request = build_gateway_audit_request(gateway_id, datasource_ids)
+    planned = [
+        {"method": "GET", "url": f"https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}"},
+        {"method": "GET", "url": f"https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources"},
+    ]
+    for datasource_id in datasource_ids or []:
+        planned.append(
+            {
+                "method": "GET",
+                "url": f"https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}/users",
+            }
+        )
+    return _execute_powerbi_plan("gateway_configuration_auditor", runtime_request, planned, transport)
+
+
+def run_powerbi_rest_executor(
+    workspace_id: str,
+    artifact_path: str,
+    operations: list[str] | None = None,
+    transport=None,
+) -> dict[str, Any]:
+    runtime_request = build_powerbi_rest_deployment_request(workspace_id, artifact_path, operations)
+    selected = operations or ["import", "update_parameters", "refresh", "endorse"]
+    planned = []
+    for operation in selected:
+        planned.append(
+            {
+                "method": "POST",
+                "url": f"https://api.powerbi.com/v1.0/myorg/groups/{workspace_id}/{operation}",
+                "payload": {"artifactPath": artifact_path, "operation": operation},
+            }
+        )
+    return _execute_powerbi_plan("powerbi_rest_deployer", runtime_request, planned, transport)
+
+
+def _execute_powerbi_plan(executor: str, runtime_request: dict[str, Any], planned: list[dict[str, Any]], transport=None) -> dict[str, Any]:
+    token = os.environ.get("POWERBI_ACCESS_TOKEN")
+    base = {
+        "eventType": "powerbi_runtime_executor_result",
+        "executor": executor,
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "credentialPolicy": "external_runtime_only",
+        "plannedRequests": _scrub_requests(planned),
+        "runtimeRequest": runtime_request,
+    }
+    if not token:
+        return {
+            **base,
+            "status": "dry_run",
+            "reason": "POWERBI_ACCESS_TOKEN is not set; no external Power BI API call was made.",
+            "evidence": ["planned request list", "credential boundary"],
+        }
+
+    caller = transport or _default_powerbi_transport
+    responses = []
+    for item in planned:
+        headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
+        response = caller(item["method"], item["url"], headers=headers, payload=item.get("payload"))
+        responses.append(_summarize_response(response))
+    return {
+        **base,
+        "status": "executed",
+        "responseCount": len(responses),
+        "responses": responses,
+    }
+
+
+def _default_powerbi_transport(method: str, url: str, headers: dict[str, str] | None = None, payload: Any = None) -> Any:
+    data = None if payload is None else json.dumps(payload).encode("utf-8")
+    req = request.Request(url, data=data, headers=headers or {}, method=method)
+    with request.urlopen(req, timeout=60) as response:
+        text = response.read().decode("utf-8")
+        return json.loads(text) if text else {"status": response.status}
+
+
+def _scrub_requests(planned: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return [
+        {
+            "method": item["method"],
+            "url": item["url"],
+            **({"payloadShape": sorted(item["payload"].keys())} if isinstance(item.get("payload"), dict) else {}),
+        }
+        for item in planned
+    ]
+
+
+def _summarize_response(response: Any) -> dict[str, Any]:
+    if isinstance(response, dict):
+        return {
+            "keys": sorted(response.keys()),
+            "rowCount": len(response.get("value", [])) if isinstance(response.get("value"), list) else None,
+            "ok": response.get("ok", True),
+        }
+    return {"type": type(response).__name__}
+
+
+def _runtime_request(
+    executor: str,
+    description: str,
+    inputs: dict[str, Any],
+    operations: list[str],
+    evidence: list[str],
+) -> dict[str, Any]:
+    return {
+        "eventType": "powerbi_runtime_executor_request",
+        "executor": executor,
+        "description": description,
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "credentialPolicy": "external_runtime_only",
+        "secretHandling": "caller supplies credentials outside generated artifacts; outputs store metadata and evidence only",
+        "inputs": inputs,
+        "operations": operations,
+        "evidence": evidence,
+        "status": "ready_for_authenticated_runtime",
+    }
+
+
+def _recommended_connectors(source_description: str) -> list[str]:
+    lowered = source_description.lower()
+    connectors = []
+    if any(token in lowered for token in ["excel", "xlsx", "csv", "file export"]):
+        connectors.append("Excel.Workbook / Folder.Files")
+    if any(token in lowered for token in ["sharepoint", "onedrive"]):
+        connectors.append("SharePoint.Files")
+    if any(token in lowered for token in ["sql", "database", "warehouse"]):
+        connectors.append("Sql.Database")
+    if any(token in lowered for token in ["sap", "bw", "s/4", "s4"]):
+        connectors.append("SAP Business Warehouse / OData")
+    if any(token in lowered for token in ["crm", "dataverse", "dynamics"]):
+        connectors.append("Dataverse / OData")
+    if any(token in lowered for token in ["rest", "api"]):
+        connectors.append("Web.Contents")
+    return connectors or ["source contract required"]
+
+
+def _measure_name(kpi: str) -> str:
+    words = re.sub(r"[^A-Za-z0-9]+", " ", kpi).strip().split()
+    return " ".join(word[:1].upper() + word[1:] for word in words) or "Governed KPI"
+
+
 def _normalize_process_id(process_id: str, processes: dict[str, Any]) -> str:
     if process_id in processes:
         return process_id
@@ -599,6 +1255,12 @@ def _result(name: str, errors: list[str], warnings: list[str], meta: dict[str, A
         "warnings": warnings,
         **meta,
     }
+
+
+def _write_optional_json(payload: dict[str, Any], out: str | Path | None) -> None:
+    if out:
+        Path(out).parent.mkdir(parents=True, exist_ok=True)
+        Path(out).write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
 
 def main() -> int:
@@ -625,6 +1287,9 @@ def main() -> int:
     hardening = sub.add_parser("hardening", help="List the 15 production hardening capabilities.")
     hardening.add_argument("--out")
 
+    market_usps = sub.add_parser("market-usps", help="List the 30 market differentiator USP capabilities.")
+    market_usps.add_argument("--out")
+
     feature_plan = sub.add_parser("feature-plan", help="Create a 20-feature delivery plan for a process.")
     feature_plan.add_argument("--process", required=True)
     feature_plan.add_argument("--out")
@@ -641,10 +1306,78 @@ def main() -> int:
     hardening_plan.add_argument("--process", required=True)
     hardening_plan.add_argument("--out")
 
+    market_plan = sub.add_parser("market-usp-plan", help="Create a 30-USP market differentiator plan for a process.")
+    market_plan.add_argument("--process", required=True)
+    market_plan.add_argument("--out")
+
     build = sub.add_parser("build", help="Build a local process delivery bundle from the execution layer.")
     build.add_argument("--process", required=True)
     build.add_argument("--source", default="demo", choices=["demo"])
     build.add_argument("--out", required=True)
+
+    report_package = sub.add_parser("report-package", help="Generate a Power BI report/model package for a process request.")
+    report_package.add_argument("--process", required=True)
+    report_package.add_argument("--sources", required=True)
+    report_package.add_argument("--goal", default="")
+    report_package.add_argument("--out", required=True)
+
+    generalist_run = sub.add_parser("generalist-autopilot-run", help="Run Process Owner / Process Manager autonomous report-package delivery.")
+    generalist_run.add_argument("--process", required=True)
+    generalist_run.add_argument("--sources", required=True)
+    generalist_run.add_argument("--goal", required=True)
+    generalist_run.add_argument("--out", required=True)
+
+    generalist_prompt = sub.add_parser("generalist-prompt-run", help="Interpret a free-text Process Owner request and run autonomous report-package delivery.")
+    generalist_prompt.add_argument("--prompt", required=True)
+    generalist_prompt.add_argument("--out", required=True)
+
+    pbix_intake = sub.add_parser("pbix-intake", help="Run credential-safe PBIX/PBIT binary intake metadata extraction.")
+    pbix_intake.add_argument("--file", required=True)
+    pbix_intake.add_argument("--out")
+
+    tenant_scan = sub.add_parser("tenant-scan-request", help="Create a credential-safe tenant scanner runtime request.")
+    tenant_scan.add_argument("--tenant", required=True)
+    tenant_scan.add_argument("--workspace", action="append", dest="workspaces")
+    tenant_scan.add_argument("--out")
+
+    dax_run = sub.add_parser("dax-query-request", help="Create a credential-safe DAX query runner request.")
+    dax_run.add_argument("--workspace", required=True)
+    dax_run.add_argument("--dataset", required=True)
+    dax_run.add_argument("--query", required=True)
+    dax_run.add_argument("--out")
+
+    rest_deploy = sub.add_parser("rest-deploy-request", help="Create a credential-safe Power BI REST deployment request.")
+    rest_deploy.add_argument("--workspace", required=True)
+    rest_deploy.add_argument("--artifact", required=True)
+    rest_deploy.add_argument("--operation", action="append", dest="operations")
+    rest_deploy.add_argument("--out")
+
+    gateway_audit = sub.add_parser("gateway-audit-request", help="Create a credential-safe gateway audit runtime request.")
+    gateway_audit.add_argument("--gateway", required=True)
+    gateway_audit.add_argument("--datasource", action="append", dest="datasources")
+    gateway_audit.add_argument("--out")
+
+    tenant_scan_run = sub.add_parser("tenant-scan-run", help="Run tenant scanner when POWERBI_ACCESS_TOKEN is set, otherwise return dry-run evidence.")
+    tenant_scan_run.add_argument("--tenant", required=True)
+    tenant_scan_run.add_argument("--workspace", action="append", dest="workspaces")
+    tenant_scan_run.add_argument("--out")
+
+    dax_run_live = sub.add_parser("dax-query-run", help="Run DAX query when POWERBI_ACCESS_TOKEN is set, otherwise return dry-run evidence.")
+    dax_run_live.add_argument("--workspace", required=True)
+    dax_run_live.add_argument("--dataset", required=True)
+    dax_run_live.add_argument("--query", required=True)
+    dax_run_live.add_argument("--out")
+
+    rest_deploy_run = sub.add_parser("rest-deploy-run", help="Run Power BI REST operations when POWERBI_ACCESS_TOKEN is set, otherwise return dry-run evidence.")
+    rest_deploy_run.add_argument("--workspace", required=True)
+    rest_deploy_run.add_argument("--artifact", required=True)
+    rest_deploy_run.add_argument("--operation", action="append", dest="operations")
+    rest_deploy_run.add_argument("--out")
+
+    gateway_audit_run = sub.add_parser("gateway-audit-run", help="Run gateway audit when POWERBI_ACCESS_TOKEN is set, otherwise return dry-run evidence.")
+    gateway_audit_run.add_argument("--gateway", required=True)
+    gateway_audit_run.add_argument("--datasource", action="append", dest="datasources")
+    gateway_audit_run.add_argument("--out")
 
     args = parser.parse_args()
     if args.command == "validate":
@@ -690,6 +1423,14 @@ def main() -> int:
             Path(args.out).write_text(text, encoding="utf-8")
         print(text)
         return 0
+    if args.command == "market-usps":
+        result = load_market_differentiator_usp_catalog()
+        text = json.dumps(result, indent=2)
+        if args.out:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.out).write_text(text, encoding="utf-8")
+        print(text)
+        return 0
     if args.command == "feature-plan":
         result = build_feature_delivery_plan(args.process)
         text = json.dumps(result, indent=2)
@@ -722,8 +1463,72 @@ def main() -> int:
             Path(args.out).write_text(text, encoding="utf-8")
         print(text)
         return 0
+    if args.command == "market-usp-plan":
+        result = build_market_differentiator_usp_plan(args.process)
+        text = json.dumps(result, indent=2)
+        if args.out:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.out).write_text(text, encoding="utf-8")
+        print(text)
+        return 0
     if args.command == "build":
         result = build_process_delivery(args.process, args.source, args.out)
+        print(json.dumps(result, indent=2))
+        return 0
+    if args.command == "report-package":
+        result = build_powerbi_report_package(args.process, args.sources, args.out, args.goal)
+        print(json.dumps(result, indent=2))
+        return 0
+    if args.command == "generalist-autopilot-run":
+        result = build_generalist_autopilot_run(args.process, args.sources, args.goal, args.out)
+        print(json.dumps(result, indent=2))
+        return 0
+    if args.command == "generalist-prompt-run":
+        result = build_generalist_prompt_run(args.prompt, args.out)
+        print(json.dumps(result, indent=2))
+        return 0
+    if args.command == "pbix-intake":
+        result = run_pbix_binary_intake(args.file, args.out)
+        print(json.dumps(result, indent=2))
+        return 0
+    if args.command == "tenant-scan-request":
+        result = build_tenant_scan_request(args.tenant, args.workspaces)
+        _write_optional_json(result, args.out)
+        print(json.dumps(result, indent=2))
+        return 0
+    if args.command == "dax-query-request":
+        result = build_dax_query_run_request(args.workspace, args.dataset, args.query)
+        _write_optional_json(result, args.out)
+        print(json.dumps(result, indent=2))
+        return 0
+    if args.command == "rest-deploy-request":
+        result = build_powerbi_rest_deployment_request(args.workspace, args.artifact, args.operations)
+        _write_optional_json(result, args.out)
+        print(json.dumps(result, indent=2))
+        return 0
+    if args.command == "gateway-audit-request":
+        result = build_gateway_audit_request(args.gateway, args.datasources)
+        _write_optional_json(result, args.out)
+        print(json.dumps(result, indent=2))
+        return 0
+    if args.command == "tenant-scan-run":
+        result = run_tenant_scan_executor(args.tenant, args.workspaces)
+        _write_optional_json(result, args.out)
+        print(json.dumps(result, indent=2))
+        return 0
+    if args.command == "dax-query-run":
+        result = run_dax_query_executor(args.workspace, args.dataset, args.query)
+        _write_optional_json(result, args.out)
+        print(json.dumps(result, indent=2))
+        return 0
+    if args.command == "rest-deploy-run":
+        result = run_powerbi_rest_executor(args.workspace, args.artifact, args.operations)
+        _write_optional_json(result, args.out)
+        print(json.dumps(result, indent=2))
+        return 0
+    if args.command == "gateway-audit-run":
+        result = run_gateway_audit_executor(args.gateway, args.datasources)
+        _write_optional_json(result, args.out)
         print(json.dumps(result, indent=2))
         return 0
     return 2

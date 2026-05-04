@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.354459+00:00",
+  "processId": "control2evidence",
+  "processName": "Control2Evidence",
+  "domain": "Governance",
+  "ownerRole": "Control-to-Evidence Process Owner",
+  "capabilityId": "customer_supplier_360_joiner",
+  "capabilityName": "Customer/Supplier 360 Joiner",
+  "primaryPersona": "Process Owner",
+  "marketDifferentiator": "Explains process issues in business relationship context.",
+  "processFit": {
+    "caseName": "Control",
+    "valueLabel": "ControlRiskValue",
+    "kpis": [
+      "Control Effectiveness",
+      "Evidence Coverage",
+      "SoD Violations",
+      "Remediation Aging",
+      "Audit Gap Count"
+    ],
+    "sourceSystems": [
+      "GRC",
+      "ERP",
+      "IAM",
+      "Audit Management"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/control2evidence/customer_supplier_360_joiner.json",
+  "status": "evidence-ready"
+}

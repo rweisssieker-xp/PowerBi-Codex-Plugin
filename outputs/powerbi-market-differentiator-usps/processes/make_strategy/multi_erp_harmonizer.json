@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:24.686116+00:00",
+  "processId": "make_strategy",
+  "processName": "Make2Stock / Make2Order / Engineer2Order",
+  "domain": "Manufacturing",
+  "ownerRole": "Manufacturing Strategy Process Owner",
+  "capabilityId": "multi_erp_harmonizer",
+  "capabilityName": "Multi-ERP Harmonizer",
+  "primaryPersona": "Enterprise Architect",
+  "marketDifferentiator": "Supports fragmented enterprise landscapes.",
+  "processFit": {
+    "caseName": "Manufacturing Commitment",
+    "valueLabel": "CommitmentValue",
+    "kpis": [
+      "Lead Time",
+      "WIP Value",
+      "Stock Cover",
+      "Milestone Adherence",
+      "Expedite Count"
+    ],
+    "sourceSystems": [
+      "ERP PP",
+      "PLM",
+      "MES",
+      "APS"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/make_strategy/multi_erp_harmonizer.json",
+  "status": "evidence-ready"
+}

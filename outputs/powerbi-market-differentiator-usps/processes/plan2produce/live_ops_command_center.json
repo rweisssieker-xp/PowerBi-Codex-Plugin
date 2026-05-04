@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:24.666544+00:00",
+  "processId": "plan2produce",
+  "processName": "Plan2Produce",
+  "domain": "Manufacturing",
+  "ownerRole": "Plan-to-Produce Process Owner",
+  "capabilityId": "live_ops_command_center",
+  "capabilityName": "Live Ops Command Center",
+  "primaryPersona": "Operations Lead",
+  "marketDifferentiator": "Makes Power BI useful for daily control, not only monthly reporting.",
+  "processFit": {
+    "caseName": "Production Order",
+    "valueLabel": "ProductionValue",
+    "kpis": [
+      "Schedule Adherence",
+      "Yield %",
+      "Scrap Value",
+      "Capacity Utilization",
+      "Production Variance"
+    ],
+    "sourceSystems": [
+      "ERP PP",
+      "MES",
+      "QMS",
+      "Historian"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/plan2produce/live_ops_command_center.json",
+  "status": "evidence-ready"
+}

@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.000505+00:00",
+  "processId": "design2cost",
+  "processName": "Design2Cost / Design2Source",
+  "domain": "Engineering",
+  "ownerRole": "Design-to-Cost Process Owner",
+  "capabilityId": "executive_briefing_pack",
+  "capabilityName": "Executive Briefing Pack",
+  "primaryPersona": "Executive Sponsor",
+  "marketDifferentiator": "Turns Power BI evidence into management-ready communication.",
+  "processFit": {
+    "caseName": "Design Item",
+    "valueLabel": "CostVariance",
+    "kpis": [
+      "Target Cost Variance",
+      "Part Reuse %",
+      "Single-Source Exposure",
+      "Sourcing Readiness",
+      "Engineering Cost Risk"
+    ],
+    "sourceSystems": [
+      "PLM",
+      "Costing",
+      "Sourcing",
+      "ERP MM"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/design2cost/executive_briefing_pack.json",
+  "status": "evidence-ready"
+}

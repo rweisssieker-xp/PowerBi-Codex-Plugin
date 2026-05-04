@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:24.927300+00:00",
+  "processId": "contract2revenue",
+  "processName": "Contract2Revenue",
+  "domain": "Finance",
+  "ownerRole": "Revenue Process Owner",
+  "capabilityId": "exception_pattern_memory",
+  "capabilityName": "Exception Pattern Memory",
+  "primaryPersona": "CoE Reviewer",
+  "marketDifferentiator": "Builds reusable organizational learning instead of one-off dashboards.",
+  "processFit": {
+    "caseName": "Revenue Contract",
+    "valueLabel": "RevenueValue",
+    "kpis": [
+      "Billing Readiness",
+      "Revenue Leakage",
+      "Deferred Revenue",
+      "Renewal Risk",
+      "Missing Billing Data"
+    ],
+    "sourceSystems": [
+      "CLM",
+      "ERP SD",
+      "Billing",
+      "Revenue Recognition"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/contract2revenue/exception_pattern_memory.json",
+  "status": "evidence-ready"
+}

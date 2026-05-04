@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.199079+00:00",
+  "processId": "nonconformance2disposition",
+  "processName": "Nonconformance2Disposition",
+  "domain": "Quality",
+  "ownerRole": "Nonconformance Process Owner",
+  "capabilityId": "semantic_model_warranty",
+  "capabilityName": "Semantic Model Warranty",
+  "primaryPersona": "CoE Reviewer",
+  "marketDifferentiator": "Clarifies trust boundaries for expert replacement.",
+  "processFit": {
+    "caseName": "Nonconformance",
+    "valueLabel": "BlockedValue",
+    "kpis": [
+      "Defect Rate",
+      "Blocked Stock Value",
+      "Rework Cost",
+      "Supplier PPM",
+      "Disposition Aging"
+    ],
+    "sourceSystems": [
+      "QMS",
+      "ERP QM",
+      "WMS",
+      "Supplier Portal"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/nonconformance2disposition/semantic_model_warranty.json",
+  "status": "evidence-ready"
+}

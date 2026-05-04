@@ -1,0 +1,848 @@
+{
+  "version": "2026-05-04",
+  "description": "Runtime Max USP to plugin skill and CLI routing matrix.",
+  "capabilityCount": 70,
+  "entries": [
+    {
+      "capabilityId": "question_to_model_autopilot",
+      "capabilityName": "Question-to-Model Autopilot",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-requirement-to-model-autopilot",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "report package manifest"
+      ]
+    },
+    {
+      "capabilityId": "source_discovery_autopilot",
+      "capabilityName": "Source Discovery Autopilot",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-source-metadata-discovery",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "source_profile.json"
+      ]
+    },
+    {
+      "capabilityId": "ai_field_mapping_runtime",
+      "capabilityName": "AI Field Mapping Runtime",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-ai-source-mapping-agent",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "model_build_plan.json"
+      ]
+    },
+    {
+      "capabilityId": "kpi_ontology_runtime",
+      "capabilityName": "KPI Ontology Runtime",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-enterprise-kpi-ontology",
+      "cliEntrypoints": [
+        "runtime-max-plan"
+      ],
+      "outputArtifacts": [
+        "kpi ontology records"
+      ]
+    },
+    {
+      "capabilityId": "root_cause_path_builder",
+      "capabilityName": "Root-Cause Path Builder",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-ai-root-cause-playbook-generator",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "report_pages_plan.json"
+      ]
+    },
+    {
+      "capabilityId": "narrative_insight_writer",
+      "capabilityName": "Narrative Insight Writer",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-executive-narrative-generator",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "report_pages_plan.json"
+      ]
+    },
+    {
+      "capabilityId": "tmdl_compiler",
+      "capabilityName": "TMDL Compiler",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-pbip-tmdl-generator",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "PBIP/TMDL project"
+      ]
+    },
+    {
+      "capabilityId": "full_pbip_generator",
+      "capabilityName": "Full PBIP Generator",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-pbip-tmdl-generator",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "PBIP project"
+      ]
+    },
+    {
+      "capabilityId": "pbir_visual_materializer",
+      "capabilityName": "PBIR Visual Materializer",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-visual-layout-spec-generator",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "PBIR report pages"
+      ]
+    },
+    {
+      "capabilityId": "dax_measure_factory",
+      "capabilityName": "DAX Measure Factory",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-dax",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "dax_measure_plan.json"
+      ]
+    },
+    {
+      "capabilityId": "dax_expected_result_runner",
+      "capabilityName": "DAX Expected-Result Runner",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-dax-test-harness",
+      "cliEntrypoints": [
+        "dax-query-request"
+      ],
+      "outputArtifacts": [
+        "DAX expected-result request"
+      ]
+    },
+    {
+      "capabilityId": "power_query_m_factory",
+      "capabilityName": "Power Query/M Factory",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-powerquery-code-generator",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "power_query_m_plan.json"
+      ]
+    },
+    {
+      "capabilityId": "real_connector_runner_contracts",
+      "capabilityName": "Real Connector Runner Contracts",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-live-connector-toolkit",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "source_profile.json"
+      ]
+    },
+    {
+      "capabilityId": "credential_safe_runtime",
+      "capabilityName": "Credential-Safe Runtime",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-compliance-evidence-pack",
+      "cliEntrypoints": [
+        "runtime-max-plan"
+      ],
+      "outputArtifacts": [
+        "credential-safe evidence"
+      ]
+    },
+    {
+      "capabilityId": "semantic_auto_repair",
+      "capabilityName": "Semantic Auto-Repair",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-ai-autonomous-remediation-agent",
+      "cliEntrypoints": [
+        "validate"
+      ],
+      "outputArtifacts": [
+        "model_improvement_plan.json"
+      ]
+    },
+    {
+      "capabilityId": "desktop_frown_log_parser",
+      "capabilityName": "Desktop/Frown Log Parser",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-ai-frown-to-fix-triage",
+      "cliEntrypoints": [
+        "hardening-plan"
+      ],
+      "outputArtifacts": [
+        "Frown triage evidence"
+      ]
+    },
+    {
+      "capabilityId": "model_graph_quality_gate",
+      "capabilityName": "Model Graph Quality Gate",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-ai-model-graph-validator",
+      "cliEntrypoints": [
+        "validate"
+      ],
+      "outputArtifacts": [
+        "validation_result.json"
+      ]
+    },
+    {
+      "capabilityId": "visual_binding_quality_gate",
+      "capabilityName": "Visual Binding Quality Gate",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-ai-visual-binding-validator",
+      "cliEntrypoints": [
+        "validate"
+      ],
+      "outputArtifacts": [
+        "validation_result.json"
+      ]
+    },
+    {
+      "capabilityId": "report_layout_scoring_runtime",
+      "capabilityName": "Report Layout Scoring Runtime",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-report-ux-decision-coach",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "report_pages_plan.json"
+      ]
+    },
+    {
+      "capabilityId": "rls_role_generator",
+      "capabilityName": "RLS Role Generator",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-rls-ols-pattern-library",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "model_build_plan.json"
+      ]
+    },
+    {
+      "capabilityId": "process_mining_eventlog_runtime",
+      "capabilityName": "Process Mining Event Log Runtime",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-process-mining",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "process event log contract"
+      ]
+    },
+    {
+      "capabilityId": "action_cockpit_generator",
+      "capabilityName": "Action Cockpit Generator",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-role-based-cockpit-factory",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "report_pages_plan.json"
+      ]
+    },
+    {
+      "capabilityId": "tenant_readiness_runtime",
+      "capabilityName": "Tenant Readiness Runtime",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-tenant-governance-scanner",
+      "cliEntrypoints": [
+        "tenant-scan-request"
+      ],
+      "outputArtifacts": [
+        "tenant scan request"
+      ]
+    },
+    {
+      "capabilityId": "deployment_pipeline_runtime",
+      "capabilityName": "Deployment Pipeline Runtime",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-devops-cicd",
+      "cliEntrypoints": [
+        "rest-deploy-request"
+      ],
+      "outputArtifacts": [
+        "REST deployment request"
+      ]
+    },
+    {
+      "capabilityId": "fabric_scaffold_runtime",
+      "capabilityName": "Fabric Scaffold Runtime",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-fabric-deployment-blueprint",
+      "cliEntrypoints": [
+        "rest-deploy-request"
+      ],
+      "outputArtifacts": [
+        "Fabric deployment blueprint"
+      ]
+    },
+    {
+      "capabilityId": "documentation_publisher_runtime",
+      "capabilityName": "Documentation Publisher Runtime",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-documentation-generator",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "report package docs"
+      ]
+    },
+    {
+      "capabilityId": "acceptance_evidence_packager",
+      "capabilityName": "Acceptance Evidence Packager",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-acceptance-test-pack-generator",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "validation_plan.json"
+      ]
+    },
+    {
+      "capabilityId": "process_owner_acceptance_runtime",
+      "capabilityName": "Process Owner Acceptance Runtime",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-business-owner-acceptance",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "owner acceptance pack"
+      ]
+    },
+    {
+      "capabilityId": "release_decision_copilot",
+      "capabilityName": "Release Decision Copilot",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-ai-powerbi-release-evidence-pack",
+      "cliEntrypoints": [
+        "rest-deploy-request"
+      ],
+      "outputArtifacts": [
+        "release evidence"
+      ]
+    },
+    {
+      "capabilityId": "continuous_improvement_backlog",
+      "capabilityName": "Continuous Improvement Backlog",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-ai-continuous-improvement-agent",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "model_improvement_plan.json"
+      ]
+    },
+    {
+      "capabilityId": "dashboard_consolidation_autopilot",
+      "capabilityName": "Dashboard Consolidation Autopilot",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-report-consolidation-ai",
+      "cliEntrypoints": [
+        "runtime-max-plan"
+      ],
+      "outputArtifacts": [
+        "consolidation plan"
+      ]
+    },
+    {
+      "capabilityId": "legacy_report_reverse_engineer",
+      "capabilityName": "Legacy Report Reverse Engineer",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-migration-factory",
+      "cliEntrypoints": [
+        "pbix-intake"
+      ],
+      "outputArtifacts": [
+        "PBIX intake manifest"
+      ]
+    },
+    {
+      "capabilityId": "business_question_simulator",
+      "capabilityName": "Business Question Simulator",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-ai-business-question-generator",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "question coverage matrix"
+      ]
+    },
+    {
+      "capabilityId": "kpi_dispute_resolver",
+      "capabilityName": "KPI Dispute Resolver",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-kpi-conflict-war-room",
+      "cliEntrypoints": [
+        "runtime-max-plan"
+      ],
+      "outputArtifacts": [
+        "KPI conflict record"
+      ]
+    },
+    {
+      "capabilityId": "semantic_model_refactoring_autopilot",
+      "capabilityName": "Semantic Model Refactoring Autopilot",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-ai-semantic-model-refactor-agent",
+      "cliEntrypoints": [
+        "validate"
+      ],
+      "outputArtifacts": [
+        "model_improvement_plan.json"
+      ]
+    },
+    {
+      "capabilityId": "executive_board_pack_generator",
+      "capabilityName": "Executive Board Pack Generator",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-ai-executive-boardroom-autopilot",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "board pack"
+      ]
+    },
+    {
+      "capabilityId": "powerbi_performance_engineer",
+      "capabilityName": "Power BI Performance Engineer",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-performance-refresh-optimizer",
+      "cliEntrypoints": [
+        "validate"
+      ],
+      "outputArtifacts": [
+        "performance plan"
+      ]
+    },
+    {
+      "capabilityId": "refresh_failure_triage_agent",
+      "capabilityName": "Refresh Failure Triage Agent",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-automated-refresh-failure-triage",
+      "cliEntrypoints": [
+        "hardening-plan"
+      ],
+      "outputArtifacts": [
+        "refresh triage request"
+      ]
+    },
+    {
+      "capabilityId": "data_contract_negotiator",
+      "capabilityName": "Data Contract Negotiator",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-ai-data-contract-negotiator",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "source_profile.json"
+      ]
+    },
+    {
+      "capabilityId": "report_ux_critic",
+      "capabilityName": "Report UX Critic",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-ai-report-ux-critic",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "report_pages_plan.json"
+      ]
+    },
+    {
+      "capabilityId": "dax_explainability_layer",
+      "capabilityName": "DAX Explainability Layer",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-ai-dax-explainability-agent",
+      "cliEntrypoints": [
+        "dax-query-request"
+      ],
+      "outputArtifacts": [
+        "DAX explanation evidence"
+      ]
+    },
+    {
+      "capabilityId": "measure_dependency_impact_analyzer",
+      "capabilityName": "Measure Dependency Impact Analyzer",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-ai-lineage-blast-radius",
+      "cliEntrypoints": [
+        "validate"
+      ],
+      "outputArtifacts": [
+        "impact map"
+      ]
+    },
+    {
+      "capabilityId": "rls_ols_attack_simulator",
+      "capabilityName": "RLS/OLS Attack Simulator",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-ai-security-exposure-analyzer",
+      "cliEntrypoints": [
+        "tenant-scan-request"
+      ],
+      "outputArtifacts": [
+        "security findings"
+      ]
+    },
+    {
+      "capabilityId": "powerbi_coe_certification_bot",
+      "capabilityName": "Power BI CoE Certification Bot",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-semantic-model-certification-bot",
+      "cliEntrypoints": [
+        "validate"
+      ],
+      "outputArtifacts": [
+        "certification evidence"
+      ]
+    },
+    {
+      "capabilityId": "fabric_cost_guardrail",
+      "capabilityName": "Fabric Cost Guardrail",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-cost-capacity-optimizer",
+      "cliEntrypoints": [
+        "tenant-scan-request"
+      ],
+      "outputArtifacts": [
+        "cost guardrail evidence"
+      ]
+    },
+    {
+      "capabilityId": "natural_language_data_mart_builder",
+      "capabilityName": "Natural Language Data Mart Builder",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-natural-language-verified-report",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "data mart plan"
+      ]
+    },
+    {
+      "capabilityId": "process_benchmark_pack",
+      "capabilityName": "Process Benchmark Pack",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-industrial-kpi-benchmark-pack",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "benchmark evidence"
+      ]
+    },
+    {
+      "capabilityId": "audit_ready_evidence_vault",
+      "capabilityName": "Audit-Ready Evidence Vault",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-audit-ready-ai-evidence-trail",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "audit evidence"
+      ]
+    },
+    {
+      "capabilityId": "user_adoption_tracker",
+      "capabilityName": "User Adoption Tracker",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-report-usage-telemetry-optimizer",
+      "cliEntrypoints": [
+        "tenant-scan-request"
+      ],
+      "outputArtifacts": [
+        "adoption evidence"
+      ]
+    },
+    {
+      "capabilityId": "autonomous_bi_sprint_manager",
+      "capabilityName": "Autonomous BI Sprint Manager",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-ai-autonomous-bi-sprint",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "sprint plan"
+      ]
+    },
+    {
+      "capabilityId": "pbix_binary_intake",
+      "capabilityName": "PBIX Binary Intake",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-migration-factory",
+      "cliEntrypoints": [
+        "pbix-intake"
+      ],
+      "outputArtifacts": [
+        "PBIX intake manifest"
+      ]
+    },
+    {
+      "capabilityId": "live_tenant_scanner",
+      "capabilityName": "Live Tenant Scanner",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-live-metadata-scanner",
+      "cliEntrypoints": [
+        "tenant-scan-request"
+      ],
+      "outputArtifacts": [
+        "tenant scan request"
+      ]
+    },
+    {
+      "capabilityId": "powerbi_rest_deployer",
+      "capabilityName": "Power BI REST Deployer",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-devops-cicd",
+      "cliEntrypoints": [
+        "rest-deploy-request"
+      ],
+      "outputArtifacts": [
+        "REST deployment request"
+      ]
+    },
+    {
+      "capabilityId": "tabular_editor_tom_bridge",
+      "capabilityName": "Tabular Editor / TOM Bridge",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-devops-cicd",
+      "cliEntrypoints": [
+        "rest-deploy-request"
+      ],
+      "outputArtifacts": [
+        "TOM/TMSL bridge request"
+      ]
+    },
+    {
+      "capabilityId": "dax_query_runner",
+      "capabilityName": "DAX Query Runner",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-dax-unit-test-runner",
+      "cliEntrypoints": [
+        "dax-query-request"
+      ],
+      "outputArtifacts": [
+        "DAX query request"
+      ]
+    },
+    {
+      "capabilityId": "query_folding_verifier",
+      "capabilityName": "Query Folding Verifier",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-powerquery-test-harness",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "Power Query validation plan"
+      ]
+    },
+    {
+      "capabilityId": "incremental_refresh_designer",
+      "capabilityName": "Incremental Refresh Designer",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-performance-refresh-optimizer",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "incremental refresh plan"
+      ]
+    },
+    {
+      "capabilityId": "composite_model_advisor",
+      "capabilityName": "Composite Model Advisor",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-fabric-architecture-advisor",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "composite model recommendation"
+      ]
+    },
+    {
+      "capabilityId": "deployment_rollback_executor",
+      "capabilityName": "Deployment Rollback Executor",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-devops-cicd",
+      "cliEntrypoints": [
+        "rest-deploy-request"
+      ],
+      "outputArtifacts": [
+        "rollback request"
+      ]
+    },
+    {
+      "capabilityId": "gateway_configuration_auditor",
+      "capabilityName": "Gateway Configuration Auditor",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-admin-api-playbook",
+      "cliEntrypoints": [
+        "gateway-audit-request"
+      ],
+      "outputArtifacts": [
+        "gateway audit request"
+      ]
+    },
+    {
+      "capabilityId": "sensitivity_purview_classifier",
+      "capabilityName": "Sensitivity / Purview Classifier",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-compliance-evidence-pack",
+      "cliEntrypoints": [
+        "tenant-scan-request"
+      ],
+      "outputArtifacts": [
+        "classification evidence"
+      ]
+    },
+    {
+      "capabilityId": "data_quality_profiler_runtime",
+      "capabilityName": "Data Quality Profiler Runtime",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-data-quality-rule-library",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "data quality profile"
+      ]
+    },
+    {
+      "capabilityId": "anomaly_detection_pack",
+      "capabilityName": "Anomaly Detection Pack",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-anomaly-to-explanation",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "anomaly findings"
+      ]
+    },
+    {
+      "capabilityId": "forecast_what_if_builder",
+      "capabilityName": "Forecast / What-If Builder",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-planning-simulation",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "forecast scenario plan"
+      ]
+    },
+    {
+      "capabilityId": "metric_store_connector",
+      "capabilityName": "Metric Store Connector",
+      "replacementRole": "Power BI Developer",
+      "primarySkill": "powerbi-enterprise-kpi-ontology",
+      "cliEntrypoints": [
+        "runtime-max-plan"
+      ],
+      "outputArtifacts": [
+        "metric store mapping"
+      ]
+    },
+    {
+      "capabilityId": "enterprise_glossary_sync",
+      "capabilityName": "Enterprise Glossary Sync",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-business-glossary-generator",
+      "cliEntrypoints": [
+        "runtime-max-plan"
+      ],
+      "outputArtifacts": [
+        "glossary sync record"
+      ]
+    },
+    {
+      "capabilityId": "ticketing_integration",
+      "capabilityName": "Ticketing Integration",
+      "replacementRole": "Data Analyst",
+      "primarySkill": "powerbi-closed-loop-bi",
+      "cliEntrypoints": [
+        "report-package"
+      ],
+      "outputArtifacts": [
+        "ticket payloads"
+      ]
+    },
+    {
+      "capabilityId": "access_review_automation",
+      "capabilityName": "Access Review Automation",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-automated-security-exposure-scan",
+      "cliEntrypoints": [
+        "tenant-scan-request"
+      ],
+      "outputArtifacts": [
+        "access review report"
+      ]
+    },
+    {
+      "capabilityId": "usage_based_refactoring_agent",
+      "capabilityName": "Usage-Based Refactoring Agent",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-report-usage-telemetry-optimizer",
+      "cliEntrypoints": [
+        "tenant-scan-request"
+      ],
+      "outputArtifacts": [
+        "refactor priority list"
+      ]
+    },
+    {
+      "capabilityId": "multi_tenant_msp_mode",
+      "capabilityName": "Multi-Tenant / MSP Mode",
+      "replacementRole": "Power BI Expert",
+      "primarySkill": "powerbi-multi-tenant-msp-mode",
+      "cliEntrypoints": [
+        "tenant-scan-request",
+        "gateway-audit-request"
+      ],
+      "outputArtifacts": [
+        "tenant isolation manifest"
+      ]
+    }
+  ]
+}

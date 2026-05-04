@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.031850+00:00",
+  "processId": "project2cash",
+  "processName": "Engineer2Order / Project2Cash",
+  "domain": "Projects",
+  "ownerRole": "Project-to-Cash Process Owner",
+  "capabilityId": "owner_adoption_coach",
+  "capabilityName": "Owner Adoption Coach",
+  "primaryPersona": "BI Adoption Lead",
+  "marketDifferentiator": "Measures actual behavior change, not only report delivery.",
+  "processFit": {
+    "caseName": "Customer Project",
+    "valueLabel": "ProjectValue",
+    "kpis": [
+      "Milestone Adherence",
+      "Project Margin",
+      "WIP Value",
+      "Billing Readiness",
+      "Cash Exposure"
+    ],
+    "sourceSystems": [
+      "Project System",
+      "ERP CO",
+      "Billing",
+      "PLM"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/project2cash/owner_adoption_coach.json",
+  "status": "evidence-ready"
+}

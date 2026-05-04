@@ -1,0 +1,43 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:24.521778+00:00",
+  "processId": "lead2order",
+  "processName": "Lead2Order",
+  "domain": "Commercial",
+  "ownerRole": "Lead-to-Order Process Owner",
+  "capabilityId": "kpi_contract_negotiator",
+  "capabilityName": "KPI Contract Negotiator",
+  "primaryPersona": "Process Owner",
+  "marketDifferentiator": "Prevents semantic KPI fights after dashboards go live.",
+  "processFit": {
+    "caseName": "Lead",
+    "valueLabel": "PipelineValue",
+    "kpis": [
+      "Lead Volume",
+      "MQL Rate",
+      "SQL Rate",
+      "Order Conversion Rate",
+      "Lead-to-Order Cycle Time",
+      "Pipeline Value"
+    ],
+    "sourceSystems": [
+      "CRM",
+      "Marketing Automation",
+      "CPQ",
+      "ERP Sales"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/lead2order/kpi_contract_negotiator.json",
+  "status": "evidence-ready"
+}

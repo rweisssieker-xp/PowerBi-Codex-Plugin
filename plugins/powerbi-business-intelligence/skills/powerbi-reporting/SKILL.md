@@ -40,3 +40,10 @@ Load only the references needed for the task:
 - `scripts/generate_powerbi_pack.py`: Generate Power Query, DAX, TMDL skeleton, report spec, and maintenance runbook from CSV table/measure specs.
 - `scripts/new_powerbi_report_spec.py`: Generate a business-problem report specification.
 
+## Runtime Executor
+
+When the user asks to generate or improve a complete Power BI report/model package, prefer:
+
+```powershell
+python scripts\powerbi_expert_factory.py report-package --process <process-id> --sources "<source description>" --goal "<report goal>" --out outputs\report-packages\<process-id>
+```

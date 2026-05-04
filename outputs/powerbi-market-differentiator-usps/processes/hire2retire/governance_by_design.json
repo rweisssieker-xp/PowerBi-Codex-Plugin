@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:24.837295+00:00",
+  "processId": "hire2retire",
+  "processName": "Hire2Retire",
+  "domain": "Workforce",
+  "ownerRole": "Hire-to-Retire Process Owner",
+  "capabilityId": "governance_by_design",
+  "capabilityName": "Governance by Design",
+  "primaryPersona": "Governance Owner",
+  "marketDifferentiator": "Makes governance part of generation, not an afterthought.",
+  "processFit": {
+    "caseName": "Employee Lifecycle Case",
+    "valueLabel": "WorkforceCost",
+    "kpis": [
+      "Time To Hire",
+      "Absence Rate",
+      "Skill Gap",
+      "Training Compliance",
+      "Safety Incident Rate"
+    ],
+    "sourceSystems": [
+      "HCM",
+      "Time Management",
+      "Learning",
+      "EHS"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/hire2retire/governance_by_design.json",
+  "status": "evidence-ready"
+}

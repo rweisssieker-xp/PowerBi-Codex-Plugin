@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.192110+00:00",
+  "processId": "nonconformance2disposition",
+  "processName": "Nonconformance2Disposition",
+  "domain": "Quality",
+  "ownerRole": "Nonconformance Process Owner",
+  "capabilityId": "autonomous_action_board",
+  "capabilityName": "Autonomous Action Board",
+  "primaryPersona": "Process Owner",
+  "marketDifferentiator": "Closes the gap between insight and execution.",
+  "processFit": {
+    "caseName": "Nonconformance",
+    "valueLabel": "BlockedValue",
+    "kpis": [
+      "Defect Rate",
+      "Blocked Stock Value",
+      "Rework Cost",
+      "Supplier PPM",
+      "Disposition Aging"
+    ],
+    "sourceSystems": [
+      "QMS",
+      "ERP QM",
+      "WMS",
+      "Supplier Portal"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/nonconformance2disposition/autonomous_action_board.json",
+  "status": "evidence-ready"
+}

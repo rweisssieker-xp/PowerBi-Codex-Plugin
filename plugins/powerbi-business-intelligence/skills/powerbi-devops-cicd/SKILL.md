@@ -22,3 +22,10 @@ Use this skill to industrialize Power BI delivery.
 - Include repo structure, validation commands, release checklist, environment promotion, rollback, and quality gates.
 - Do not promote uncertified datasets or regulated reports without acceptance evidence.
 
+## Runtime Executor
+
+For deployment execution planning, create a credential-safe REST deployment request:
+
+```powershell
+python scripts\powerbi_expert_factory.py rest-deploy-request --workspace <workspace-id> --artifact <pbip-or-report-package-path> --operation import --operation refresh --out outputs\runtime-executors\rest-deploy-request.json
+```

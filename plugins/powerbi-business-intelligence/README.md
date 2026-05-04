@@ -4,6 +4,11 @@ Codex plugin for replacing repeatable Power BI expert, designer, data analyst, s
 
 The primary positioning is a Power BI Expert-Replacement Factory: Process Owners and Process Managers can turn operational questions into governed Power BI models, KPIs, measures, reports, root-cause analysis, action cockpits, tests, evidence, and Power BI Desktop-validated PBIP/PBIR/TMDL artifacts without a dedicated expert team for every request.
 
+The plugin supports two explicit operating modes:
+
+- `Experten Mode`: senior Power BI/Fabric engineering mode for model, DAX, Power Query/M, PBIP/PBIR/TMDL, tenant, gateway, deployment, security, performance, and governance work with technical evidence.
+- `Generalisten Mode`: autonomous Process Manager / Process Owner mode that translates business language into process scope, KPI tree, source profile, report package, validation plan, owner actions, and acceptance evidence.
+
 ## de-DE Kurzfassung
 
 Dieses Plugin ist als Power BI Expert-Replacement Factory positioniert. Process Owner und Process Manager koennen operative Fragen in governance-faehige Power-BI-Modelle, KPIs, Measures, Reports, Root-Cause-Analysen, Action Cockpits, Tests, Evidence und Power-BI-Desktop-validierte PBIP/PBIR/TMDL-Artefakte uebersetzen lassen, ohne fuer jede Anfrage ein eigenes Expertenteam zu benoetigen.

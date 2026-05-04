@@ -18,3 +18,11 @@ Plan live metadata discovery before assuming source structure.
 
 - Do not request or store secrets.
 - Separate scan plan from actual source extraction.
+
+## Runtime Executor
+
+For Power BI tenant metadata discovery, create a credential-safe request payload:
+
+```powershell
+python scripts\powerbi_expert_factory.py tenant-scan-request --tenant <tenant-id> --workspace <workspace-id> --out outputs\runtime-executors\tenant-scan-request.json
+```

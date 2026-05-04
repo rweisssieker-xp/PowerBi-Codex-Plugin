@@ -1,24 +1,41 @@
 import json
+import os
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from scripts.powerbi_expert_factory import (
+    build_dax_query_run_request,
     build_feature_delivery_plan,
+    build_gateway_audit_request,
+    build_generalist_autopilot_run,
+    build_generalist_prompt_run,
+    build_market_differentiator_usp_plan,
     build_premium_usp_plan,
     build_production_hardening_plan,
+    build_powerbi_rest_deployment_request,
+    build_powerbi_report_package,
     build_runtime_max_plan,
     build_process_delivery,
+    build_tenant_scan_request,
     load_feature_catalog,
+    load_market_differentiator_usp_catalog,
     load_premium_usp_catalog,
     load_production_hardening_catalog,
     load_runtime_max_catalog,
     parse_model,
+    run_dax_query_executor,
+    run_gateway_audit_executor,
+    run_powerbi_rest_executor,
+    run_tenant_scan_executor,
+    run_pbix_binary_intake,
     run_acceptance,
     validate_model_graph,
     validate_native_sources,
     validate_visual_bindings,
 )
+from zipfile import ZipFile
 
 
 def write(path: Path, content: str) -> None:
@@ -232,6 +249,26 @@ relationship rel_returns_customer
         self.assertTrue((out / "demo-data" / "cases.csv").exists())
         self.assertTrue((out / "process-pack" / "model_spec.json").exists())
 
+    def test_build_powerbi_report_package_creates_model_report_and_improvement_artifacts(self):
+        out = Path(tempfile.mkdtemp()) / "lead-to-order-report"
+        result = build_powerbi_report_package(
+            "lead-to-order",
+            "Excel export and SAP CRM opportunity extract",
+            out,
+            "Process owner cockpit for conversion, aging, SLA breaches, and next actions",
+        )
+
+        self.assertEqual(result["eventType"], "powerbi_expert_factory_report_package")
+        self.assertEqual(result["processId"], "lead2order")
+        self.assertTrue(Path(result["pbip"]["projectPath"]).exists())
+        self.assertTrue((out / "model_build_plan.json").exists())
+        self.assertTrue((out / "dax_measure_plan.json").exists())
+        self.assertTrue((out / "power_query_m_plan.json").exists())
+        self.assertTrue((out / "report_pages_plan.json").exists())
+        self.assertTrue((out / "model_improvement_plan.json").exists())
+        self.assertTrue((out / "validation_plan.json").exists())
+        self.assertIn("validate", " ".join(result["nextCommands"]))
+
     def test_premium_usp_catalog_exposes_all_twenty_five_contracts(self):
         catalog = load_premium_usp_catalog()
 
@@ -250,6 +287,27 @@ relationship rel_returns_customer
         self.assertEqual(result["processId"], "lead2order")
         self.assertEqual(result["premiumUspCount"], 25)
         self.assertEqual(len(result["premiumUsps"]), 25)
+
+    def test_market_differentiator_usps_cover_all_thirty_capabilities(self):
+        catalog = load_market_differentiator_usp_catalog()
+
+        self.assertEqual(catalog["capabilityCount"], 30)
+        self.assertEqual(len(catalog["capabilities"]), 30)
+        for capability in catalog["capabilities"]:
+            self.assertEqual(capability["implementationStatus"], "implemented_as_market_differentiator_evidence")
+            self.assertTrue(capability["primaryPersona"])
+            self.assertTrue(capability["marketDifferentiator"])
+            self.assertTrue(capability["proofArtifacts"])
+            self.assertTrue(capability["acceptanceChecks"])
+
+    def test_market_differentiator_usp_plan_maps_to_process(self):
+        result = build_market_differentiator_usp_plan("lead-to-order")
+
+        self.assertEqual(result["requestedProcessId"], "lead-to-order")
+        self.assertEqual(result["processId"], "lead2order")
+        self.assertEqual(result["capabilityCount"], 30)
+        self.assertEqual(len(result["marketDifferentiatorUsps"]), 30)
+        self.assertTrue(all(usp["artifactExists"] for usp in result["marketDifferentiatorUsps"]))
 
     def test_runtime_max_catalog_exposes_max_usp_replacement_capabilities(self):
         catalog = load_runtime_max_catalog()
@@ -285,6 +343,113 @@ relationship rel_returns_customer
         self.assertIn("powerbi_rest_deployer", capability_ids)
         self.assertIn("multi_tenant_msp_mode", capability_ids)
         self.assertTrue(Path(result["pbip"]["projectPath"]).exists())
+
+    def test_pbix_binary_intake_extracts_safe_metadata_without_payload_secrets(self):
+        pbix = Path(tempfile.mkdtemp()) / "sample.pbix"
+        with ZipFile(pbix, "w") as archive:
+            archive.writestr("Report/Layout", "{}")
+            archive.writestr("DataModelSchema", '{"model": {"tables": []}}')
+            archive.writestr("SecurityBindings", "secret-token")
+
+        result = run_pbix_binary_intake(pbix)
+
+        self.assertEqual(result["status"], "parsed")
+        self.assertEqual(result["file"]["extension"], ".pbix")
+        self.assertEqual(result["package"]["entryCount"], 3)
+        self.assertIn("Report/Layout", result["package"]["entries"])
+        self.assertTrue(result["classification"]["hasReportLayout"])
+        self.assertTrue(result["classification"]["hasDataModelSchema"])
+        self.assertNotIn("secret-token", json.dumps(result))
+
+    def test_runtime_executor_requests_are_credential_safe(self):
+        tenant = build_tenant_scan_request("tenant-01", ["workspace-01"])
+        dax = build_dax_query_run_request("workspace-01", "dataset-01", "EVALUATE ROW(\"Cases\", [Case Count])")
+        deploy = build_powerbi_rest_deployment_request(
+            "workspace-01",
+            "outputs/powerbi-runtime-max-layer/processes/lead2order/pbip/Lead2Order",
+            ["import", "refresh"],
+        )
+        gateway = build_gateway_audit_request("gateway-cluster-01", ["datasource-01"])
+
+        for payload in [tenant, dax, deploy, gateway]:
+            self.assertEqual(payload["credentialPolicy"], "external_runtime_only")
+            self.assertTrue(payload["operations"])
+            self.assertTrue(payload["evidence"])
+            self.assertNotIn("password", json.dumps(payload).lower())
+            self.assertNotIn("token", json.dumps(payload).lower())
+
+        self.assertEqual(tenant["executor"], "live_tenant_scanner")
+        self.assertEqual(dax["executor"], "dax_query_runner")
+        self.assertEqual(deploy["executor"], "powerbi_rest_deployer")
+        self.assertEqual(gateway["executor"], "gateway_configuration_auditor")
+
+    def test_runtime_executors_dry_run_without_access_token(self):
+        with patch.dict(os.environ, {}, clear=True):
+            tenant = run_tenant_scan_executor("tenant-01", ["workspace-01"])
+            dax = run_dax_query_executor("workspace-01", "dataset-01", "EVALUATE ROW(\"Cases\", [Case Count])")
+            gateway = run_gateway_audit_executor("gateway-01", ["datasource-01"])
+            rest = run_powerbi_rest_executor(
+                "workspace-01",
+                "outputs/powerbi-runtime-max-layer/processes/lead2order/pbip/Lead2Order",
+                ["import", "refresh"],
+            )
+
+        for payload in [tenant, dax, gateway, rest]:
+            self.assertEqual(payload["status"], "dry_run")
+            self.assertEqual(payload["credentialPolicy"], "external_runtime_only")
+            self.assertTrue(payload["plannedRequests"])
+            self.assertNotIn("secret-access-token", json.dumps(payload).lower())
+
+    def test_runtime_executor_uses_injected_transport_with_access_token(self):
+        calls = []
+
+        def transport(method, url, headers=None, payload=None):
+            calls.append({"method": method, "url": url, "headers": headers, "payload": payload})
+            return {"ok": True, "value": [{"id": "workspace-01"}]}
+
+        with patch.dict(os.environ, {"POWERBI_ACCESS_TOKEN": "secret-access-token"}, clear=True):
+            result = run_tenant_scan_executor("tenant-01", ["workspace-01"], transport=transport)
+
+        self.assertEqual(result["status"], "executed")
+        self.assertTrue(calls)
+        self.assertIn("Authorization", calls[0]["headers"])
+        self.assertNotIn("secret-access-token", json.dumps(result))
+
+    def test_generalist_autopilot_run_creates_business_manifest_and_report_package(self):
+        out = Path(tempfile.mkdtemp()) / "autopilot"
+        result = build_generalist_autopilot_run(
+            "lead-to-order",
+            "Excel export and SAP CRM opportunity extract",
+            "Process owner wants conversion, aging, SLA breach, and action visibility",
+            out,
+        )
+
+        self.assertEqual(result["eventType"], "powerbi_generalist_autopilot_run")
+        self.assertEqual(result["processId"], "lead2order")
+        self.assertTrue((out / "generalist_autopilot_manifest.json").exists())
+        self.assertTrue((out / "report-package" / "report_package_manifest.json").exists())
+        self.assertTrue((out / "runtime_max_plan.json").exists())
+        self.assertTrue(result["businessSummary"])
+
+    def test_generalist_prompt_run_interprets_human_o2c_request(self):
+        out = Path(tempfile.mkdtemp()) / "human-prompt"
+        prompt = (
+            "Wir haben im O2C dauernd Stress. Aufträge hängen, Lieferungen kommen zu spät, "
+            "Finance sagt Cash kommt nicht rein, Vertrieb beschwert sich über blockierte Rechnungen, "
+            "und keiner weiß, ob das an Kunden, Material, Lager, Preisen oder Datenqualität liegt. "
+            "Bau mir bitte ein Power BI Cockpit, mit dem ein Prozessverantwortlicher jeden Montag sieht, "
+            "wo es brennt, wer handeln muss und welche Fälle zuerst dran sind. Quellen sind SAP Export, "
+            "ein Excel mit Reklamationen/Disputes und irgendein CSV aus dem Lager."
+        )
+
+        result = build_generalist_prompt_run(prompt, out)
+
+        self.assertEqual(result["eventType"], "powerbi_generalist_prompt_run")
+        self.assertEqual(result["interpretedRequest"]["processId"], "order2cash")
+        self.assertIn("SAP", result["interpretedRequest"]["sourceDescription"])
+        self.assertIn("Monday", result["interpretedRequest"]["businessGoal"])
+        self.assertTrue((out / "interpreted_request.json").exists())
+        self.assertTrue((out / "autopilot" / "generalist_autopilot_manifest.json").exists())
 
     def test_production_hardening_catalog_exposes_all_fifteen_capabilities(self):
         catalog = load_production_hardening_catalog()

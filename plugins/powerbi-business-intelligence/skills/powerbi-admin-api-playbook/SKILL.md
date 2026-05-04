@@ -18,3 +18,12 @@ Plan tenant scans and governance actions using Power BI/Fabric admin APIs.
 
 - Confirm required admin permissions.
 - Treat delete/removal actions as approval-gated.
+
+## Runtime Executors
+
+Create credential-safe Admin API request payloads:
+
+```powershell
+python scripts\powerbi_expert_factory.py tenant-scan-request --tenant <tenant-id> --workspace <workspace-id> --out outputs\runtime-executors\tenant-scan-request.json
+python scripts\powerbi_expert_factory.py gateway-audit-request --gateway <gateway-id> --datasource <datasource-id> --out outputs\runtime-executors\gateway-audit-request.json
+```

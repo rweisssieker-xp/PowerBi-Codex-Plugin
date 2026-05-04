@@ -1,7 +1,7 @@
 {
   "name": "powerbi-business-intelligence",
   "version": "0.1.0",
-    "description": "AI-native Power BI expert-replacement layer for industrial enterprises with native Power BI/Power Query connector coverage, full enterprise software source coverage, process-chain KPI visibility, advanced expert-reduction USPs, executable factory capabilities, ERP, CRM, EPM, QM/QMS, WHS/WMS, ESG, EHS, logistics, data platforms, AI governance, and bilingual documentation.",
+  "description": "AI-native Power BI expert-replacement layer for industrial enterprises with native Power BI/Power Query connector coverage, full enterprise software source coverage, process-chain KPI visibility, advanced expert-reduction USPs, executable factory capabilities, ERP, CRM, EPM, QM/QMS, WHS/WMS, ESG, EHS, logistics, data platforms, AI governance, and bilingual documentation.",
   "author": {
     "name": "Power BI Business Intelligence Maintainers",
     "email": "",
@@ -24,13 +24,11 @@
     "quality-gate",
     "tenant-governance",
     "lineage",
-    "agent-workforce"
-    ,
+    "agent-workforce",
     "industrial-processes",
     "order-to-cash",
     "lead-to-order",
-    "source-system-mapping"
-    ,
+    "source-system-mapping",
     "erp",
     "crm",
     "master-data",
@@ -125,12 +123,13 @@
     "privacyPolicyURL": "https://github.com/rweisssieker-xp/PowerBi-Codex-Plugin/blob/main/plugins/powerbi-business-intelligence/docs/PRIVACY_POLICY.md",
     "termsOfServiceURL": "https://github.com/rweisssieker-xp/PowerBi-Codex-Plugin/blob/main/plugins/powerbi-business-intelligence/docs/TERMS_OF_SERVICE.md",
     "defaultPrompt": [
+      "Starte den Generalisten Mode fuer Prozess Manager / Process Owner und erledige die Power BI Anfrage autonom von Business-Frage bis Report-Paket, Validierung und Owner-Aktionen.",
+      "Starte den Experten Mode und reviewe/generiere dieses Power BI Modell mit DAX, Power Query, PBIP, Validierung, Deployment und Governance-Evidence.",
       "Erstelle ein Power BI Modell und Dashboard fuer Customer Churn.",
       "Plane ein Power BI Reporting fuer SAP FiCO mit Datenmodell, DAX und Seitenlayout.",
       "Analysiere diese Datenquelle und entwirf ein Power BI Business Cockpit.",
       "Reviewe dieses Power BI Modell wie ein Senior Experte und gib eine Remediation-Liste aus.",
-      "Erzeuge ein vollstaendiges Power BI Delivery Pack fuer Material Churn."
-      ,
+      "Erzeuge ein vollstaendiges Power BI Delivery Pack fuer Material Churn.",
       "Route diese Power BI Anfrage und entscheide, welcher Expertentyp gebraucht wird.",
       "Rationalisiere unser Power BI Report-Portfolio und finde Konsolidierungsmoeglichkeiten.",
       "Erstelle ein Power BI Center-of-Excellence Operating Model.",
@@ -139,8 +138,7 @@
       "Bewerte unseren Power BI Tenant auf Governance-Risiken.",
       "Loese eine Order2Cash Fragestellung quellsystemabhaengig fuer SAP, CRM, WMS und Finance.",
       "Erstelle ein Lead2Order Cockpit mit Opportunity, Quote, Order Intake und Margin Leakage.",
-      "Entwirf ein industrielles Root-Cause Cockpit fuer Lieferverzug, Bestand, Produktion und Cash."
-      ,
+      "Entwirf ein industrielles Root-Cause Cockpit fuer Lieferverzug, Bestand, Produktion und Cash.",
       "Mappe eine Order2Cash Fragestellung auf SAP S/4HANA, Salesforce und Oracle Finance.",
       "Erstelle eine Master-Data-Mapping-Strategie fuer Kunde, Material, Lieferant und Profit Center.",
       "Erzeuge ein Process-Mining Event Log fuer Order2Cash.",
@@ -155,12 +153,10 @@
       "Erzeuge DAX aus natuerlicher Sprache mit KPI-Vertrag, Tests und Hallucination Guard.",
       "Untersuche diese Marge-Abweichung mit AI Root Cause Investigator und Confidence Score.",
       "Fuehre einen autonomen BI Sprint von Intake bis Quality Gate durch.",
-      "Erzeuge die passende Dokumentation fuer dieses Power BI Artefakt in en-US und de-DE."
-      ,
+      "Erzeuge die passende Dokumentation fuer dieses Power BI Artefakt in en-US und de-DE.",
       "Mappe QM/QMS und EHS Daten aus SAP QM, ETQ, MasterControl oder Veeva Quality in ein Power BI Quality Data Product.",
       "Baue ein WHS/WMS Warehouse Cockpit fuer SAP EWM, Manhattan, Blue Yonder oder Dynamics WHS.",
-      "Analysiere Enterprise Softwarequellen wie EPM, Treasury, ESG, OCR, RPA, MDM und Identity fuer Power BI."
-      ,
+      "Analysiere Enterprise Softwarequellen wie EPM, Treasury, ESG, OCR, RPA, MDM und Identity fuer Power BI.",
       "Erstelle KPI-Sichtbarkeit fuer Market2Lead, Lead2Quote, Quote2Contract oder Contract2Revenue mit Power BI.",
       "Baue Dock2Stock, Pick2Pack2Ship, Return2Disposition, Complaint2CAPA oder Nonconformance2Disposition als Power BI Data Product.",
       "Erzeuge ein Control2Evidence, Close2Report, Plan2Perform oder Data2Insight2Action Cockpit mit en-US/de-DE Dokumentation.",

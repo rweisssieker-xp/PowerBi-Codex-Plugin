@@ -640,6 +640,74 @@ def check_powerbi_production_hardening(root: Path) -> list[str]:
     return errors
 
 
+def check_powerbi_market_differentiator_usps(root: Path) -> list[str]:
+    errors: list[str] = []
+    catalog_path = root / "data/powerbi_market_differentiator_usp_catalog.json"
+    output_root = root / "outputs/powerbi-market-differentiator-usps"
+    process_catalog_path = root / "data/industry_process_catalog.json"
+    if not catalog_path.exists():
+        return [f"{catalog_path}: market differentiator USP catalog is missing"]
+    if not output_root.exists():
+        return [f"{output_root}: market differentiator USP output folder is missing"]
+
+    catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+    capabilities = catalog.get("capabilities", [])
+    if catalog.get("capabilityCount") != 30 or len(capabilities) != 30:
+        errors.append(f"{catalog_path}: expected exactly 30 market differentiator USPs")
+    capability_ids = [str(capability.get("id")) for capability in capabilities]
+    for capability in capabilities:
+        for field in [
+            "id",
+            "name",
+            "summary",
+            "primaryPersona",
+            "marketDifferentiator",
+            "implementationStatus",
+            "proofArtifacts",
+            "acceptanceChecks",
+        ]:
+            if not capability.get(field):
+                errors.append(f"{catalog_path}: market differentiator USP missing {field}")
+        if capability.get("implementationStatus") != "implemented_as_market_differentiator_evidence":
+            errors.append(f"{catalog_path}: market differentiator USP {capability.get('id')} has invalid status")
+
+    processes = json.loads(process_catalog_path.read_text(encoding="utf-8")).get("processes", [])
+    for process in processes:
+        process_id = process.get("processId")
+        folder = output_root / "processes" / str(process_id)
+        plan_path = folder / "market_differentiator_plan.json"
+        if not plan_path.exists():
+            errors.append(f"{plan_path}: market differentiator process plan is missing")
+            continue
+        plan = json.loads(plan_path.read_text(encoding="utf-8"))
+        if plan.get("capabilityCount") != 30 or len(plan.get("marketDifferentiatorUsps", [])) != 30:
+            errors.append(f"{plan_path}: expected 30 market differentiator USPs")
+        for capability_id in capability_ids:
+            artifact_path = folder / f"{capability_id}.json"
+            if not artifact_path.exists():
+                errors.append(f"{artifact_path}: market differentiator evidence artifact is missing")
+                continue
+            artifact = json.loads(artifact_path.read_text(encoding="utf-8"))
+            if artifact.get("capabilityId") != capability_id:
+                errors.append(f"{artifact_path}: capabilityId mismatch")
+            if artifact.get("status") != "evidence-ready":
+                errors.append(f"{artifact_path}: expected status evidence-ready")
+
+    index_path = output_root / "market_differentiator_index.csv"
+    if not index_path.exists():
+        errors.append(f"{index_path}: market differentiator index is missing")
+    else:
+        row_count = max(0, len(index_path.read_text(encoding="utf-8").splitlines()) - 1)
+        if row_count != len(processes):
+            errors.append(f"{index_path}: expected {len(processes)} rows, found {row_count}")
+    summary_path = output_root / "market_differentiator_summary.json"
+    if not summary_path.exists():
+        errors.append(f"{summary_path}: market differentiator summary is missing")
+    if not (output_root / "README.md").exists():
+        errors.append(f"{output_root / 'README.md'}: market differentiator README is missing")
+    return errors
+
+
 def check_lead2order_analysis_package(root: Path) -> list[str]:
     errors: list[str] = []
     output_root = root / "outputs" / "lead2order-powerbi-analysis"
@@ -701,6 +769,105 @@ def check_lead2order_analysis_package(root: Path) -> list[str]:
     return errors
 
 
+def check_powerbi_plugin_runtime_skill_wiring(root: Path) -> list[str]:
+    errors: list[str] = []
+    skill_root = root / "plugins/powerbi-business-intelligence/skills"
+    required_skills = [
+        "powerbi-expert-mode",
+        "powerbi-generalist-autopilot-mode",
+        "powerbi-report-package-runtime",
+        "powerbi-multi-tenant-msp-mode",
+        "powerbi-reporting",
+        "powerbi-pbip-tmdl-generator",
+        "powerbi-live-metadata-scanner",
+        "powerbi-admin-api-playbook",
+        "powerbi-dax-unit-test-runner",
+        "powerbi-devops-cicd",
+    ]
+    for skill in required_skills:
+        path = skill_root / skill / "SKILL.md"
+        if not path.exists():
+            errors.append(f"{path}: required runtime wiring skill is missing")
+
+    command_expectations = {
+        "powerbi-expert-mode": [
+            "report-package",
+            "pbix-intake",
+            "tenant-scan-request",
+            "dax-query-request",
+            "rest-deploy-request",
+            "gateway-audit-request",
+        ],
+        "powerbi-generalist-autopilot-mode": [
+            "generalist-prompt-run",
+            "generalist-autopilot-run",
+            "report-package",
+            "runtime-max-plan",
+        ],
+        "powerbi-report-package-runtime": ["report-package"],
+        "powerbi-reporting": ["report-package"],
+        "powerbi-pbip-tmdl-generator": ["report-package"],
+        "powerbi-live-metadata-scanner": ["tenant-scan-request"],
+        "powerbi-admin-api-playbook": ["tenant-scan-request", "gateway-audit-request"],
+        "powerbi-dax-unit-test-runner": ["dax-query-request"],
+        "powerbi-devops-cicd": ["rest-deploy-request"],
+        "powerbi-multi-tenant-msp-mode": ["tenant-scan-request", "gateway-audit-request"],
+    }
+    for skill, commands in command_expectations.items():
+        path = skill_root / skill / "SKILL.md"
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        for command in commands:
+            if command not in text:
+                errors.append(f"{path}: expected command reference {command}")
+
+    manifest_path = root / "plugins/powerbi-business-intelligence/.codex-plugin/plugin.json"
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        prompts = "\n".join(manifest.get("interface", {}).get("defaultPrompt", []))
+        for phrase in ["Experten Mode", "Generalisten Mode"]:
+            if phrase not in prompts:
+                errors.append(f"{manifest_path}: expected default prompt containing {phrase}")
+
+    factory_path = root / "scripts/powerbi_expert_factory.py"
+    if factory_path.exists():
+        factory_text = factory_path.read_text(encoding="utf-8")
+        for command in [
+            "generalist-prompt-run",
+            "generalist-autopilot-run",
+            "tenant-scan-run",
+            "dax-query-run",
+            "rest-deploy-run",
+            "gateway-audit-run",
+        ]:
+            if command not in factory_text:
+                errors.append(f"{factory_path}: expected factory command {command}")
+
+    matrix_path = root / "data/powerbi_runtime_usp_skill_matrix.json"
+    if not matrix_path.exists():
+        errors.append(f"{matrix_path}: runtime USP skill matrix is missing")
+        return errors
+    matrix = json.loads(matrix_path.read_text(encoding="utf-8"))
+    entries = matrix.get("entries", [])
+    runtime_catalog = json.loads((root / "data/powerbi_runtime_max_catalog.json").read_text(encoding="utf-8"))
+    capabilities = runtime_catalog.get("capabilities", [])
+    if matrix.get("capabilityCount") != 70 or len(entries) != 70:
+        errors.append(f"{matrix_path}: expected 70 runtime USP mappings")
+    entry_ids = {entry.get("capabilityId") for entry in entries}
+    for capability in capabilities:
+        if capability.get("id") not in entry_ids:
+            errors.append(f"{matrix_path}: missing mapping for {capability.get('id')}")
+    for entry in entries:
+        for field in ["capabilityId", "capabilityName", "primarySkill", "cliEntrypoints", "outputArtifacts"]:
+            if not entry.get(field):
+                errors.append(f"{matrix_path}: mapping missing {field}")
+        primary = entry.get("primarySkill")
+        if primary and not (skill_root / primary / "SKILL.md").exists():
+            errors.append(f"{matrix_path}: primary skill does not exist: {primary}")
+    return errors
+
+
 def run(root: Path) -> int:
     errors: list[str] = []
     errors.extend(check_required_files(root))
@@ -724,7 +891,9 @@ def run(root: Path) -> int:
     errors.extend(check_powerbi_premium_usp_layer(root))
     errors.extend(check_powerbi_runtime_max_layer(root))
     errors.extend(check_powerbi_production_hardening(root))
+    errors.extend(check_powerbi_market_differentiator_usps(root))
     errors.extend(check_lead2order_analysis_package(root))
+    errors.extend(check_powerbi_plugin_runtime_skill_wiring(root))
 
     if errors:
         for error in errors:

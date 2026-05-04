@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:24.720358+00:00",
+  "processId": "idea2launch",
+  "processName": "Idea2Launch / Engineer2Release",
+  "domain": "Engineering",
+  "ownerRole": "Product Lifecycle Process Owner",
+  "capabilityId": "data_product_marketplace_pack",
+  "capabilityName": "Data Product Marketplace Pack",
+  "primaryPersona": "Data Product Owner",
+  "marketDifferentiator": "Makes process analytics reusable across teams.",
+  "processFit": {
+    "caseName": "Product Initiative",
+    "valueLabel": "LaunchValue",
+    "kpis": [
+      "Gate Adherence",
+      "Change Backlog",
+      "Launch Risk",
+      "Ramp-Up Readiness",
+      "Engineering Cycle Time"
+    ],
+    "sourceSystems": [
+      "PLM",
+      "PPM",
+      "QMS",
+      "ERP Engineering"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/idea2launch/data_product_marketplace_pack.json",
+  "status": "evidence-ready"
+}

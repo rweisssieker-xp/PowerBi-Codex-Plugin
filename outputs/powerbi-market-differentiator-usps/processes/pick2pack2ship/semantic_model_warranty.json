@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.101213+00:00",
+  "processId": "pick2pack2ship",
+  "processName": "Pick2Pack2Ship",
+  "domain": "Warehouse",
+  "ownerRole": "Outbound Warehouse Process Owner",
+  "capabilityId": "semantic_model_warranty",
+  "capabilityName": "Semantic Model Warranty",
+  "primaryPersona": "CoE Reviewer",
+  "marketDifferentiator": "Clarifies trust boundaries for expert replacement.",
+  "processFit": {
+    "caseName": "Shipment",
+    "valueLabel": "ShipmentValue",
+    "kpis": [
+      "Pick Accuracy",
+      "Lines Per Hour",
+      "Wave Adherence",
+      "Pack Backlog",
+      "Cut-Off Misses"
+    ],
+    "sourceSystems": [
+      "WMS",
+      "ERP SD",
+      "TMS",
+      "Carrier Portal"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/pick2pack2ship/semantic_model_warranty.json",
+  "status": "evidence-ready"
+}

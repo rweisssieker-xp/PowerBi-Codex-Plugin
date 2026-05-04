@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.201286+00:00",
+  "processId": "nonconformance2disposition",
+  "processName": "Nonconformance2Disposition",
+  "domain": "Quality",
+  "ownerRole": "Nonconformance Process Owner",
+  "capabilityId": "process_mining_bridge",
+  "capabilityName": "Process Mining Bridge",
+  "primaryPersona": "Process Excellence Lead",
+  "marketDifferentiator": "Bridges process mining and management reporting.",
+  "processFit": {
+    "caseName": "Nonconformance",
+    "valueLabel": "BlockedValue",
+    "kpis": [
+      "Defect Rate",
+      "Blocked Stock Value",
+      "Rework Cost",
+      "Supplier PPM",
+      "Disposition Aging"
+    ],
+    "sourceSystems": [
+      "QMS",
+      "ERP QM",
+      "WMS",
+      "Supplier Portal"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/nonconformance2disposition/process_mining_bridge.json",
+  "status": "evidence-ready"
+}

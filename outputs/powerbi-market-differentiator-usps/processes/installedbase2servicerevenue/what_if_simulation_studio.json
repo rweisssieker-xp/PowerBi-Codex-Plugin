@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.301006+00:00",
+  "processId": "installedbase2servicerevenue",
+  "processName": "InstalledBase2ServiceRevenue",
+  "domain": "Service",
+  "ownerRole": "Installed Base Service Process Owner",
+  "capabilityId": "what_if_simulation_studio",
+  "capabilityName": "What-If Simulation Studio",
+  "primaryPersona": "Process Owner",
+  "marketDifferentiator": "Supports improvement decisions before implementation.",
+  "processFit": {
+    "caseName": "Installed Base Account",
+    "valueLabel": "ServiceRevenue",
+    "kpis": [
+      "Attach Rate",
+      "SLA Adherence",
+      "Service Margin",
+      "Renewal Opportunity",
+      "Coverage Gap"
+    ],
+    "sourceSystems": [
+      "Installed Base",
+      "CRM Service",
+      "FSM",
+      "Billing"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/installedbase2servicerevenue/what_if_simulation_studio.json",
+  "status": "evidence-ready"
+}

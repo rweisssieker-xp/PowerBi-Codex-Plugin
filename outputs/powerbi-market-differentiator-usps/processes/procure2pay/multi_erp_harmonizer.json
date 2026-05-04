@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:24.605251+00:00",
+  "processId": "procure2pay",
+  "processName": "Procure2Pay",
+  "domain": "Procurement",
+  "ownerRole": "Procure-to-Pay Process Owner",
+  "capabilityId": "multi_erp_harmonizer",
+  "capabilityName": "Multi-ERP Harmonizer",
+  "primaryPersona": "Enterprise Architect",
+  "marketDifferentiator": "Supports fragmented enterprise landscapes.",
+  "processFit": {
+    "caseName": "Purchase Order",
+    "valueLabel": "SpendValue",
+    "kpis": [
+      "Spend Value",
+      "Invoice Block Value",
+      "GR/IR Aging",
+      "Discount Capture %",
+      "Supplier On-Time %"
+    ],
+    "sourceSystems": [
+      "ERP MM",
+      "Supplier Portal",
+      "WMS",
+      "ERP FI-AP"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/procure2pay/multi_erp_harmonizer.json",
+  "status": "evidence-ready"
+}

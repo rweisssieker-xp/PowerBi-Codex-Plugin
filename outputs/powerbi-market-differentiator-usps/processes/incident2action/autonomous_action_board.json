@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.224991+00:00",
+  "processId": "incident2action",
+  "processName": "Incident2Action",
+  "domain": "EHS",
+  "ownerRole": "Incident-to-Action Process Owner",
+  "capabilityId": "autonomous_action_board",
+  "capabilityName": "Autonomous Action Board",
+  "primaryPersona": "Process Owner",
+  "marketDifferentiator": "Closes the gap between insight and execution.",
+  "processFit": {
+    "caseName": "Incident",
+    "valueLabel": "RiskValue",
+    "kpis": [
+      "Incident Rate",
+      "Severity Score",
+      "Response Time",
+      "Overdue Actions",
+      "Risk Exposure"
+    ],
+    "sourceSystems": [
+      "EHS",
+      "GRC",
+      "Action Tracking",
+      "HR"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/incident2action/autonomous_action_board.json",
+  "status": "evidence-ready"
+}

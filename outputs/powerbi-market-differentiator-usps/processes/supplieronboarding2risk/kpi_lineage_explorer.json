@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.336199+00:00",
+  "processId": "supplieronboarding2risk",
+  "processName": "SupplierOnboarding2Risk",
+  "domain": "Procurement",
+  "ownerRole": "Supplier Risk Process Owner",
+  "capabilityId": "kpi_lineage_explorer",
+  "capabilityName": "KPI Lineage Explorer",
+  "primaryPersona": "Data Steward",
+  "marketDifferentiator": "Makes every number explainable from source to visual.",
+  "processFit": {
+    "caseName": "Supplier Onboarding",
+    "valueLabel": "RiskExposure",
+    "kpis": [
+      "Qualification Status",
+      "Audit Score",
+      "ESG Risk",
+      "Onboarding Aging",
+      "Supplier Risk Exposure"
+    ],
+    "sourceSystems": [
+      "Supplier Portal",
+      "GRC",
+      "Sourcing",
+      "ERP Vendor Master"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/supplieronboarding2risk/kpi_lineage_explorer.json",
+  "status": "evidence-ready"
+}

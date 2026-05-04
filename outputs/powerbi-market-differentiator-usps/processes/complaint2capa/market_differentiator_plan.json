@@ -1,0 +1,282 @@
+{
+  "eventType": "powerbi_market_differentiator_process_plan",
+  "generatedAt": "2026-05-04T15:21:25.187322+00:00",
+  "processId": "complaint2capa",
+  "processName": "Complaint2CAPA",
+  "domain": "Quality",
+  "ownerRole": "Complaint-to-CAPA Process Owner",
+  "capabilityCount": 30,
+  "marketDifferentiatorUsps": [
+    {
+      "sequence": 1,
+      "capabilityId": "process_digital_twin",
+      "capabilityName": "Process Digital Twin",
+      "primaryPersona": "Process Owner",
+      "marketDifferentiator": "Turns static reporting into an operational process control model.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/process_digital_twin.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 2,
+      "capabilityId": "kpi_contract_negotiator",
+      "capabilityName": "KPI Contract Negotiator",
+      "primaryPersona": "Process Owner",
+      "marketDifferentiator": "Prevents semantic KPI fights after dashboards go live.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/kpi_contract_negotiator.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 3,
+      "capabilityId": "root_cause_narrative_engine",
+      "capabilityName": "Root-Cause Narrative Engine",
+      "primaryPersona": "Process Manager",
+      "marketDifferentiator": "Reduces analyst interpretation work in weekly performance reviews.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/root_cause_narrative_engine.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 4,
+      "capabilityId": "value_at_risk_prioritizer",
+      "capabilityName": "Value-at-Risk Prioritizer",
+      "primaryPersona": "Process Manager",
+      "marketDifferentiator": "Directs attention to the cases that matter most.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/value_at_risk_prioritizer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 5,
+      "capabilityId": "autonomous_action_board",
+      "capabilityName": "Autonomous Action Board",
+      "primaryPersona": "Process Owner",
+      "marketDifferentiator": "Closes the gap between insight and execution.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/autonomous_action_board.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 6,
+      "capabilityId": "benchmark_twin",
+      "capabilityName": "Benchmark Twin",
+      "primaryPersona": "Executive Sponsor",
+      "marketDifferentiator": "Shows where improvement potential is real and material.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/benchmark_twin.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 7,
+      "capabilityId": "exception_pattern_memory",
+      "capabilityName": "Exception Pattern Memory",
+      "primaryPersona": "CoE Reviewer",
+      "marketDifferentiator": "Builds reusable organizational learning instead of one-off dashboards.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/exception_pattern_memory.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 8,
+      "capabilityId": "kpi_dispute_resolver",
+      "capabilityName": "KPI Dispute Resolver",
+      "primaryPersona": "Data Steward",
+      "marketDifferentiator": "Makes metric trust auditable.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/kpi_dispute_resolver.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 9,
+      "capabilityId": "source_trust_score",
+      "capabilityName": "Source Trust Score",
+      "primaryPersona": "Data Owner",
+      "marketDifferentiator": "Makes source risk visible before report release.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/source_trust_score.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 10,
+      "capabilityId": "visual_story_quality_scorer",
+      "capabilityName": "Visual Story Quality Scorer",
+      "primaryPersona": "Power BI Designer",
+      "marketDifferentiator": "Replaces first-pass visual QA with objective design evidence.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/visual_story_quality_scorer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 11,
+      "capabilityId": "executive_briefing_pack",
+      "capabilityName": "Executive Briefing Pack",
+      "primaryPersona": "Executive Sponsor",
+      "marketDifferentiator": "Turns Power BI evidence into management-ready communication.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/executive_briefing_pack.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 12,
+      "capabilityId": "audit_evidence_vault",
+      "capabilityName": "Audit Evidence Vault",
+      "primaryPersona": "Auditor",
+      "marketDifferentiator": "Makes AI-generated BI reviewable and certifiable.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/audit_evidence_vault.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 13,
+      "capabilityId": "semantic_model_warranty",
+      "capabilityName": "Semantic Model Warranty",
+      "primaryPersona": "CoE Reviewer",
+      "marketDifferentiator": "Clarifies trust boundaries for expert replacement.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/semantic_model_warranty.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 14,
+      "capabilityId": "data_product_marketplace_pack",
+      "capabilityName": "Data Product Marketplace Pack",
+      "primaryPersona": "Data Product Owner",
+      "marketDifferentiator": "Makes process analytics reusable across teams.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/data_product_marketplace_pack.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 15,
+      "capabilityId": "multi_erp_harmonizer",
+      "capabilityName": "Multi-ERP Harmonizer",
+      "primaryPersona": "Enterprise Architect",
+      "marketDifferentiator": "Supports fragmented enterprise landscapes.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/multi_erp_harmonizer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 16,
+      "capabilityId": "process_mining_bridge",
+      "capabilityName": "Process Mining Bridge",
+      "primaryPersona": "Process Excellence Lead",
+      "marketDifferentiator": "Bridges process mining and management reporting.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/process_mining_bridge.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 17,
+      "capabilityId": "predictive_sla_breach_radar",
+      "capabilityName": "Predictive SLA Breach Radar",
+      "primaryPersona": "Process Manager",
+      "marketDifferentiator": "Moves from lagging dashboard to preventive action.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/predictive_sla_breach_radar.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 18,
+      "capabilityId": "what_if_simulation_studio",
+      "capabilityName": "What-If Simulation Studio",
+      "primaryPersona": "Process Owner",
+      "marketDifferentiator": "Supports improvement decisions before implementation.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/what_if_simulation_studio.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 19,
+      "capabilityId": "owner_adoption_coach",
+      "capabilityName": "Owner Adoption Coach",
+      "primaryPersona": "BI Adoption Lead",
+      "marketDifferentiator": "Measures actual behavior change, not only report delivery.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/owner_adoption_coach.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 20,
+      "capabilityId": "automated_release_certifier",
+      "capabilityName": "Automated Release Certifier",
+      "primaryPersona": "CoE Reviewer",
+      "marketDifferentiator": "Makes release readiness repeatable.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/automated_release_certifier.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 21,
+      "capabilityId": "governance_by_design",
+      "capabilityName": "Governance by Design",
+      "primaryPersona": "Governance Owner",
+      "marketDifferentiator": "Makes governance part of generation, not an afterthought.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/governance_by_design.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 22,
+      "capabilityId": "cost_to_serve_lens",
+      "capabilityName": "Cost-to-Serve Lens",
+      "primaryPersona": "Finance Partner",
+      "marketDifferentiator": "Connects process performance to economic impact.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/cost_to_serve_lens.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 23,
+      "capabilityId": "customer_supplier_360_joiner",
+      "capabilityName": "Customer/Supplier 360 Joiner",
+      "primaryPersona": "Process Owner",
+      "marketDifferentiator": "Explains process issues in business relationship context.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/customer_supplier_360_joiner.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 24,
+      "capabilityId": "process_pack_composer",
+      "capabilityName": "Process Pack Composer",
+      "primaryPersona": "Enterprise Process Owner",
+      "marketDifferentiator": "Supports cross-process operating models.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/process_pack_composer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 25,
+      "capabilityId": "live_ops_command_center",
+      "capabilityName": "Live Ops Command Center",
+      "primaryPersona": "Operations Lead",
+      "marketDifferentiator": "Makes Power BI useful for daily control, not only monthly reporting.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/live_ops_command_center.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 26,
+      "capabilityId": "ai_explanation_layer",
+      "capabilityName": "AI Explanation Layer",
+      "primaryPersona": "Business User",
+      "marketDifferentiator": "Makes complex semantic models understandable without a BI expert.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/ai_explanation_layer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 27,
+      "capabilityId": "transformation_backlog_miner",
+      "capabilityName": "Transformation Backlog Miner",
+      "primaryPersona": "Transformation Lead",
+      "marketDifferentiator": "Turns analytics into a managed improvement portfolio.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/transformation_backlog_miner.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 28,
+      "capabilityId": "kpi_lineage_explorer",
+      "capabilityName": "KPI Lineage Explorer",
+      "primaryPersona": "Data Steward",
+      "marketDifferentiator": "Makes every number explainable from source to visual.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/kpi_lineage_explorer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 29,
+      "capabilityId": "data_quality_negotiator",
+      "capabilityName": "Data Quality Negotiator",
+      "primaryPersona": "Data Owner",
+      "marketDifferentiator": "Moves DQ issues from complaint to accountable remediation.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/data_quality_negotiator.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 30,
+      "capabilityId": "board_to_action_cascade",
+      "capabilityName": "Board-to-Action Cascade",
+      "primaryPersona": "Executive Sponsor",
+      "marketDifferentiator": "Closes the loop from board decision to process outcome.",
+      "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/complaint2capa/board_to_action_cascade.json",
+      "artifactExists": true
+    }
+  ],
+  "releaseUse": "positioning, sales engineering, owner acceptance, CoE review, and roadmap proof"
+}

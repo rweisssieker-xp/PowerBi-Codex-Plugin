@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:24.572416+00:00",
+  "processId": "source2contract",
+  "processName": "Source2Contract",
+  "domain": "Procurement",
+  "ownerRole": "Source-to-Contract Process Owner",
+  "capabilityId": "value_at_risk_prioritizer",
+  "capabilityName": "Value-at-Risk Prioritizer",
+  "primaryPersona": "Process Manager",
+  "marketDifferentiator": "Directs attention to the cases that matter most.",
+  "processFit": {
+    "caseName": "Sourcing Event",
+    "valueLabel": "ContractValue",
+    "kpis": [
+      "Sourcing Cycle Time",
+      "Contract Value At Risk",
+      "Supplier Compliance %",
+      "Legal Loop Count",
+      "Savings Value"
+    ],
+    "sourceSystems": [
+      "Sourcing Suite",
+      "CLM",
+      "Supplier Portal",
+      "ERP MM"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/source2contract/value_at_risk_prioritizer.json",
+  "status": "evidence-ready"
+}

@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:24.892485+00:00",
+  "processId": "lead2quote",
+  "processName": "Lead2Quote / Configure2Quote",
+  "domain": "Commercial",
+  "ownerRole": "Quote Process Owner",
+  "capabilityId": "board_to_action_cascade",
+  "capabilityName": "Board-to-Action Cascade",
+  "primaryPersona": "Executive Sponsor",
+  "marketDifferentiator": "Closes the loop from board decision to process outcome.",
+  "processFit": {
+    "caseName": "Quote",
+    "valueLabel": "QuoteValue",
+    "kpis": [
+      "Quote Cycle Time",
+      "Configuration Error Rate",
+      "Approval Aging",
+      "Discount Leakage",
+      "Quote Win Rate"
+    ],
+    "sourceSystems": [
+      "CRM",
+      "CPQ",
+      "Pricing",
+      "ERP Sales"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/lead2quote/board_to_action_cascade.json",
+  "status": "evidence-ready"
+}

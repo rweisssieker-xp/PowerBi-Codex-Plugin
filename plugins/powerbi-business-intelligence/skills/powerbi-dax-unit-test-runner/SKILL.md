@@ -17,3 +17,11 @@ Design DAX tests that can be executed through DAX queries, XMLA, Tabular Editor 
 ## Checks
 
 - Do not treat visual inspection as sufficient for certified measures.
+
+## Runtime Executor
+
+For dataset-backed DAX validation, create a credential-safe DAX query request:
+
+```powershell
+python scripts\powerbi_expert_factory.py dax-query-request --workspace <workspace-id> --dataset <dataset-id> --query "EVALUATE ROW(\"Cases\", [Case Count])" --out outputs\runtime-executors\dax-query-request.json
+```

@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.079288+00:00",
+  "processId": "dock2stock",
+  "processName": "Dock2Stock",
+  "domain": "Warehouse",
+  "ownerRole": "Inbound Warehouse Process Owner",
+  "capabilityId": "predictive_sla_breach_radar",
+  "capabilityName": "Predictive SLA Breach Radar",
+  "primaryPersona": "Process Manager",
+  "marketDifferentiator": "Moves from lagging dashboard to preventive action.",
+  "processFit": {
+    "caseName": "Inbound Receipt",
+    "valueLabel": "InboundValue",
+    "kpis": [
+      "Dock-to-Stock Time",
+      "GR Accuracy",
+      "Inspection Aging",
+      "Putaway Backlog",
+      "Blocked Stock Value"
+    ],
+    "sourceSystems": [
+      "WMS",
+      "ERP MM",
+      "QMS",
+      "Yard Management"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/dock2stock/predictive_sla_breach_radar.json",
+  "status": "evidence-ready"
+}

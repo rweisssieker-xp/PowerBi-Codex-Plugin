@@ -14,6 +14,12 @@ The runtime max layer is generated in [powerbi-runtime-max-layer](../../outputs/
 
 The production hardening layer is generated in [powerbi-production-hardening](../../outputs/powerbi-production-hardening/README.md). It turns the remaining release-readiness gaps into process-level evidence for Desktop smoke automation, live connector execution, credential-safe sessions, PBIP/PBIR schema validation, DAX evaluation, report layout scoring, semantic repair patches, Frown ZIP parsing, source-to-PBIP E2E evidence, plugin UX, Fabric deployment, RLS role generation, process-mining adapters, data contract enforcement, and release dashboards.
 
+The market differentiator USP layer is generated in [powerbi-market-differentiator-usps](../../outputs/powerbi-market-differentiator-usps/README.md). It adds 30 market-facing proof points such as process digital twin, KPI contract negotiation, root-cause narrative, value-at-risk prioritization, autonomous action boards, benchmark twins, exception pattern memory, audit evidence vault, process-mining bridge, predictive SLA radar, what-if simulation, governance-by-design, cost-to-serve lens, data-quality negotiation, and board-to-action cascade.
+
+The runtime executor entrypoints in [powerbi_expert_factory.py](../../scripts/powerbi_expert_factory.py) turn the highest-leverage enterprise USPs into executable local or credential-safe runtime requests: PBIX/PBIT binary intake, tenant scanning, DAX query execution, Power BI REST deployment, and gateway configuration audit.
+
+The `report-package` command is the primary request-to-delivery path for generated Power BI work. It creates a PBIP/PBIR/TMDL report package plus source profile, model build plan, DAX measure plan, Power Query/M plan, report page plan, model improvement plan, validation plan, and a manifest for the requested process and source description.
+
 ## The 20 USP Capabilities
 
 1. One-Click Process-to-PBIP
@@ -88,4 +94,10 @@ Use the CLI to inspect production-hardening readiness:
 
 ```powershell
 python scripts\powerbi_expert_factory.py hardening-plan --process lead-to-order --out outputs\powerbi-production-hardening\lead-to-order-hardening-plan.json
+```
+
+Use the CLI to inspect market differentiator USP evidence:
+
+```powershell
+python scripts\powerbi_expert_factory.py market-usp-plan --process lead-to-order --out outputs\powerbi-market-differentiator-usps\lead-to-order-market-usp-plan.json
 ```

@@ -18,3 +18,11 @@ Turn approved designs into PBIP/TMDL implementation artifacts.
 
 - Generate implementation artifacts only after KPI contracts and grain are explicit.
 - Preserve `en-US` and `de-DE` descriptions when documentation is required.
+
+## Runtime Executor
+
+For a complete generated PBIP/PBIR/TMDL package, use:
+
+```powershell
+python scripts\powerbi_expert_factory.py report-package --process <process-id> --sources "<source description>" --goal "<report goal>" --out outputs\report-packages\<process-id>
+```

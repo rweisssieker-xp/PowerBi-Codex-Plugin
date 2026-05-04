@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:24.849063+00:00",
+  "processId": "market2lead",
+  "processName": "Market2Lead",
+  "domain": "Commercial",
+  "ownerRole": "Marketing Process Owner",
+  "capabilityId": "value_at_risk_prioritizer",
+  "capabilityName": "Value-at-Risk Prioritizer",
+  "primaryPersona": "Process Manager",
+  "marketDifferentiator": "Directs attention to the cases that matter most.",
+  "processFit": {
+    "caseName": "Campaign Lead",
+    "valueLabel": "CampaignSpend",
+    "kpis": [
+      "Campaign ROI",
+      "MQL Conversion",
+      "CAC",
+      "Lead Velocity",
+      "Qualified Pipeline"
+    ],
+    "sourceSystems": [
+      "Marketing Automation",
+      "CRM",
+      "Web Analytics",
+      "Ad Platforms"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/market2lead/value_at_risk_prioritizer.json",
+  "status": "evidence-ready"
+}

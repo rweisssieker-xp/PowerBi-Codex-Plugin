@@ -1,0 +1,33 @@
+ProcessID,ProcessName,Domain,CapabilityCount,Plan
+lead2order,Lead2Order,Commercial,30,outputs/powerbi-market-differentiator-usps/processes/lead2order/market_differentiator_plan.json
+order2cash,Order2Cash,Commercial,30,outputs/powerbi-market-differentiator-usps/processes/order2cash/market_differentiator_plan.json
+source2contract,Source2Contract,Procurement,30,outputs/powerbi-market-differentiator-usps/processes/source2contract/market_differentiator_plan.json
+procure2pay,Procure2Pay,Procurement,30,outputs/powerbi-market-differentiator-usps/processes/procure2pay/market_differentiator_plan.json
+forecast2plan,Forecast2Plan,Supply Chain,30,outputs/powerbi-market-differentiator-usps/processes/forecast2plan/market_differentiator_plan.json
+plan2produce,Plan2Produce,Manufacturing,30,outputs/powerbi-market-differentiator-usps/processes/plan2produce/market_differentiator_plan.json
+make_strategy,Make2Stock / Make2Order / Engineer2Order,Manufacturing,30,outputs/powerbi-market-differentiator-usps/processes/make_strategy/market_differentiator_plan.json
+idea2launch,Idea2Launch / Engineer2Release,Engineering,30,outputs/powerbi-market-differentiator-usps/processes/idea2launch/market_differentiator_plan.json
+maintain2operate,Maintain2Operate,Maintenance,30,outputs/powerbi-market-differentiator-usps/processes/maintain2operate/market_differentiator_plan.json
+issue2resolution,Issue2Resolution,Service,30,outputs/powerbi-market-differentiator-usps/processes/issue2resolution/market_differentiator_plan.json
+record2report,Record2Report,Finance,30,outputs/powerbi-market-differentiator-usps/processes/record2report/market_differentiator_plan.json
+hire2retire,Hire2Retire,Workforce,30,outputs/powerbi-market-differentiator-usps/processes/hire2retire/market_differentiator_plan.json
+market2lead,Market2Lead,Commercial,30,outputs/powerbi-market-differentiator-usps/processes/market2lead/market_differentiator_plan.json
+lead2quote,Lead2Quote / Configure2Quote,Commercial,30,outputs/powerbi-market-differentiator-usps/processes/lead2quote/market_differentiator_plan.json
+quote2contract,Quote2Contract,Commercial,30,outputs/powerbi-market-differentiator-usps/processes/quote2contract/market_differentiator_plan.json
+contract2revenue,Contract2Revenue,Finance,30,outputs/powerbi-market-differentiator-usps/processes/contract2revenue/market_differentiator_plan.json
+demand2supply,Demand2Supply,Supply Chain,30,outputs/powerbi-market-differentiator-usps/processes/demand2supply/market_differentiator_plan.json
+sop_ibp2execution,S&OP / IBP2Execution,Supply Chain,30,outputs/powerbi-market-differentiator-usps/processes/sop_ibp2execution/market_differentiator_plan.json
+design2cost,Design2Cost / Design2Source,Engineering,30,outputs/powerbi-market-differentiator-usps/processes/design2cost/market_differentiator_plan.json
+project2cash,Engineer2Order / Project2Cash,Projects,30,outputs/powerbi-market-differentiator-usps/processes/project2cash/market_differentiator_plan.json
+dock2stock,Dock2Stock,Warehouse,30,outputs/powerbi-market-differentiator-usps/processes/dock2stock/market_differentiator_plan.json
+pick2pack2ship,Pick2Pack2Ship,Warehouse,30,outputs/powerbi-market-differentiator-usps/processes/pick2pack2ship/market_differentiator_plan.json
+return2disposition,Return2Disposition,Service,30,outputs/powerbi-market-differentiator-usps/processes/return2disposition/market_differentiator_plan.json
+complaint2capa,Complaint2CAPA,Quality,30,outputs/powerbi-market-differentiator-usps/processes/complaint2capa/market_differentiator_plan.json
+nonconformance2disposition,Nonconformance2Disposition,Quality,30,outputs/powerbi-market-differentiator-usps/processes/nonconformance2disposition/market_differentiator_plan.json
+incident2action,Incident2Action,EHS,30,outputs/powerbi-market-differentiator-usps/processes/incident2action/market_differentiator_plan.json
+asset2reliability,Asset2Reliability,Maintenance,30,outputs/powerbi-market-differentiator-usps/processes/asset2reliability/market_differentiator_plan.json
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,Service,30,outputs/powerbi-market-differentiator-usps/processes/installedbase2servicerevenue/market_differentiator_plan.json
+supplieronboarding2risk,SupplierOnboarding2Risk,Procurement,30,outputs/powerbi-market-differentiator-usps/processes/supplieronboarding2risk/market_differentiator_plan.json
+control2evidence,Control2Evidence,Governance,30,outputs/powerbi-market-differentiator-usps/processes/control2evidence/market_differentiator_plan.json
+close2report_plan2perform,Close2Report / Plan2Perform,Finance,30,outputs/powerbi-market-differentiator-usps/processes/close2report_plan2perform/market_differentiator_plan.json
+data2insight2action,Data2Insight2Action,Analytics,30,outputs/powerbi-market-differentiator-usps/processes/data2insight2action/market_differentiator_plan.json

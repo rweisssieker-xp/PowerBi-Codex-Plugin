@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:24.854113+00:00",
+  "processId": "market2lead",
+  "processName": "Market2Lead",
+  "domain": "Commercial",
+  "ownerRole": "Marketing Process Owner",
+  "capabilityId": "executive_briefing_pack",
+  "capabilityName": "Executive Briefing Pack",
+  "primaryPersona": "Executive Sponsor",
+  "marketDifferentiator": "Turns Power BI evidence into management-ready communication.",
+  "processFit": {
+    "caseName": "Campaign Lead",
+    "valueLabel": "CampaignSpend",
+    "kpis": [
+      "Campaign ROI",
+      "MQL Conversion",
+      "CAC",
+      "Lead Velocity",
+      "Qualified Pipeline"
+    ],
+    "sourceSystems": [
+      "Marketing Automation",
+      "CRM",
+      "Web Analytics",
+      "Ad Platforms"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/market2lead/executive_briefing_pack.json",
+  "status": "evidence-ready"
+}

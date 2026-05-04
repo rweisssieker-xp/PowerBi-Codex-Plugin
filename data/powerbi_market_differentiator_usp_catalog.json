@@ -1,0 +1,607 @@
+{
+  "version": "2026-05-04",
+  "description": "Market differentiator USP layer for the AI-native Power BI Expert-Replacement Factory.",
+  "capabilityCount": 30,
+  "capabilities": [
+    {
+      "sequence": 1,
+      "id": "process_digital_twin",
+      "name": "Process Digital Twin",
+      "summary": "Model every case, event, KPI, owner, action, and exception as a process-owner navigable digital twin.",
+      "primaryPersona": "Process Owner",
+      "marketDifferentiator": "Turns static reporting into an operational process control model.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 2,
+      "id": "kpi_contract_negotiator",
+      "name": "KPI Contract Negotiator",
+      "summary": "Creates explicit KPI formula, owner, tolerance, source, and dispute contracts before DAX is generated.",
+      "primaryPersona": "Process Owner",
+      "marketDifferentiator": "Prevents semantic KPI fights after dashboards go live.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 3,
+      "id": "root_cause_narrative_engine",
+      "name": "Root-Cause Narrative Engine",
+      "summary": "Explains KPI breaches using source evidence, driver hierarchy, affected cases, and recommended action language.",
+      "primaryPersona": "Process Manager",
+      "marketDifferentiator": "Reduces analyst interpretation work in weekly performance reviews.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 4,
+      "id": "value_at_risk_prioritizer",
+      "name": "Value-at-Risk Prioritizer",
+      "summary": "Ranks exceptions by commercial, operational, compliance, and customer impact.",
+      "primaryPersona": "Process Manager",
+      "marketDifferentiator": "Directs attention to the cases that matter most.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 5,
+      "id": "autonomous_action_board",
+      "name": "Autonomous Action Board",
+      "summary": "Generates action queues by owner, severity, SLA, value, due date, and next best action.",
+      "primaryPersona": "Process Owner",
+      "marketDifferentiator": "Closes the gap between insight and execution.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 6,
+      "id": "benchmark_twin",
+      "name": "Benchmark Twin",
+      "summary": "Compares process performance against internal plants, regions, products, suppliers, and external benchmark assumptions.",
+      "primaryPersona": "Executive Sponsor",
+      "marketDifferentiator": "Shows where improvement potential is real and material.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 7,
+      "id": "exception_pattern_memory",
+      "name": "Exception Pattern Memory",
+      "summary": "Stores recurring failure patterns, root causes, repairs, and validation evidence per process pack.",
+      "primaryPersona": "CoE Reviewer",
+      "marketDifferentiator": "Builds reusable organizational learning instead of one-off dashboards.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 8,
+      "id": "kpi_dispute_resolver",
+      "name": "KPI Dispute Resolver",
+      "summary": "Detects KPI definition conflicts, source mismatches, tolerance drift, and ownership gaps.",
+      "primaryPersona": "Data Steward",
+      "marketDifferentiator": "Makes metric trust auditable.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 9,
+      "id": "source_trust_score",
+      "name": "Source Trust Score",
+      "summary": "Scores each source by freshness, completeness, schema drift, key quality, and credential readiness.",
+      "primaryPersona": "Data Owner",
+      "marketDifferentiator": "Makes source risk visible before report release.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 10,
+      "id": "visual_story_quality_scorer",
+      "name": "Visual Story Quality Scorer",
+      "summary": "Scores report pages for executive scanability, owner workflow fit, binding integrity, and actionability.",
+      "primaryPersona": "Power BI Designer",
+      "marketDifferentiator": "Replaces first-pass visual QA with objective design evidence.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 11,
+      "id": "executive_briefing_pack",
+      "name": "Executive Briefing Pack",
+      "summary": "Generates board-ready summary, KPI movement, root causes, risks, decisions, and asks.",
+      "primaryPersona": "Executive Sponsor",
+      "marketDifferentiator": "Turns Power BI evidence into management-ready communication.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 12,
+      "id": "audit_evidence_vault",
+      "name": "Audit Evidence Vault",
+      "summary": "Stores generated model, DAX, M, source, validation, approval, and release evidence in one manifest.",
+      "primaryPersona": "Auditor",
+      "marketDifferentiator": "Makes AI-generated BI reviewable and certifiable.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 13,
+      "id": "semantic_model_warranty",
+      "name": "Semantic Model Warranty",
+      "summary": "Defines what the generated semantic model guarantees, what remains owner-approved, and what requires escalation.",
+      "primaryPersona": "CoE Reviewer",
+      "marketDifferentiator": "Clarifies trust boundaries for expert replacement.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 14,
+      "id": "data_product_marketplace_pack",
+      "name": "Data Product Marketplace Pack",
+      "summary": "Packages process models as reusable data products with owner, SLA, KPI, lineage, and quality metadata.",
+      "primaryPersona": "Data Product Owner",
+      "marketDifferentiator": "Makes process analytics reusable across teams.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 15,
+      "id": "multi_erp_harmonizer",
+      "name": "Multi-ERP Harmonizer",
+      "summary": "Maps SAP, Dynamics, Oracle, Salesforce, Workday, ServiceNow, MES, WMS, and custom exports into common process semantics.",
+      "primaryPersona": "Enterprise Architect",
+      "marketDifferentiator": "Supports fragmented enterprise landscapes.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 16,
+      "id": "process_mining_bridge",
+      "name": "Process Mining Bridge",
+      "summary": "Generates case/activity/timestamp event-log contracts for mining and Power BI analysis.",
+      "primaryPersona": "Process Excellence Lead",
+      "marketDifferentiator": "Bridges process mining and management reporting.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 17,
+      "id": "predictive_sla_breach_radar",
+      "name": "Predictive SLA Breach Radar",
+      "summary": "Creates early-warning contracts for cases likely to breach SLA or miss conversion targets.",
+      "primaryPersona": "Process Manager",
+      "marketDifferentiator": "Moves from lagging dashboard to preventive action.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 18,
+      "id": "what_if_simulation_studio",
+      "name": "What-If Simulation Studio",
+      "summary": "Defines scenario parameters for cycle time, conversion, capacity, backlog, cost, and risk simulation.",
+      "primaryPersona": "Process Owner",
+      "marketDifferentiator": "Supports improvement decisions before implementation.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 19,
+      "id": "owner_adoption_coach",
+      "name": "Owner Adoption Coach",
+      "summary": "Tracks whether process owners use reports, act on findings, and close action loops.",
+      "primaryPersona": "BI Adoption Lead",
+      "marketDifferentiator": "Measures actual behavior change, not only report delivery.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 20,
+      "id": "automated_release_certifier",
+      "name": "Automated Release Certifier",
+      "summary": "Combines model, visual, source, DAX, security, documentation, and Desktop smoke evidence into a release verdict.",
+      "primaryPersona": "CoE Reviewer",
+      "marketDifferentiator": "Makes release readiness repeatable.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 21,
+      "id": "governance_by_design",
+      "name": "Governance by Design",
+      "summary": "Embeds RLS, labels, source decisions, lineage, approvals, and audit rules into each process pack.",
+      "primaryPersona": "Governance Owner",
+      "marketDifferentiator": "Makes governance part of generation, not an afterthought.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 22,
+      "id": "cost_to_serve_lens",
+      "name": "Cost-to-Serve Lens",
+      "summary": "Adds cost, rework, automation, exception effort, and value leakage views to every process.",
+      "primaryPersona": "Finance Partner",
+      "marketDifferentiator": "Connects process performance to economic impact.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 23,
+      "id": "customer_supplier_360_joiner",
+      "name": "Customer/Supplier 360 Joiner",
+      "summary": "Connects process cases to customer, supplier, product, asset, and location dimensions where available.",
+      "primaryPersona": "Process Owner",
+      "marketDifferentiator": "Explains process issues in business relationship context.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 24,
+      "id": "process_pack_composer",
+      "name": "Process Pack Composer",
+      "summary": "Combines multiple process packs into end-to-end flows such as Lead2Cash, Source2Pay, Plan2Fulfill, and Idea2Launch.",
+      "primaryPersona": "Enterprise Process Owner",
+      "marketDifferentiator": "Supports cross-process operating models.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 25,
+      "id": "live_ops_command_center",
+      "name": "Live Ops Command Center",
+      "summary": "Defines near-real-time refresh, alert, action, and escalation contracts for operational control rooms.",
+      "primaryPersona": "Operations Lead",
+      "marketDifferentiator": "Makes Power BI useful for daily control, not only monthly reporting.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 26,
+      "id": "ai_explanation_layer",
+      "name": "AI Explanation Layer",
+      "summary": "Generates explainable summaries for measures, filters, source lineage, model assumptions, and recommended actions.",
+      "primaryPersona": "Business User",
+      "marketDifferentiator": "Makes complex semantic models understandable without a BI expert.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 27,
+      "id": "transformation_backlog_miner",
+      "name": "Transformation Backlog Miner",
+      "summary": "Converts recurring defects, KPI gaps, owner feedback, and validation warnings into ranked improvement backlog items.",
+      "primaryPersona": "Transformation Lead",
+      "marketDifferentiator": "Turns analytics into a managed improvement portfolio.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 28,
+      "id": "kpi_lineage_explorer",
+      "name": "KPI Lineage Explorer",
+      "summary": "Links KPI, DAX, source fields, owner, process stage, visual, and validation evidence.",
+      "primaryPersona": "Data Steward",
+      "marketDifferentiator": "Makes every number explainable from source to visual.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 29,
+      "id": "data_quality_negotiator",
+      "name": "Data Quality Negotiator",
+      "summary": "Generates data-quality issue contracts between process owner, data owner, and source-system owner.",
+      "primaryPersona": "Data Owner",
+      "marketDifferentiator": "Moves DQ issues from complaint to accountable remediation.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    },
+    {
+      "sequence": 30,
+      "id": "board_to_action_cascade",
+      "name": "Board-to-Action Cascade",
+      "summary": "Connects executive KPI reviews to owner actions, operational queues, due dates, and value realization evidence.",
+      "primaryPersona": "Executive Sponsor",
+      "marketDifferentiator": "Closes the loop from board decision to process outcome.",
+      "implementationStatus": "implemented_as_market_differentiator_evidence",
+      "proofArtifacts": [
+        "process plan",
+        "persona value mapping",
+        "acceptance evidence",
+        "owner action linkage"
+      ],
+      "acceptanceChecks": [
+        "USP maps to a process owner or governance persona",
+        "USP has concrete evidence artifacts",
+        "USP links to measurable business value"
+      ]
+    }
+  ]
+}

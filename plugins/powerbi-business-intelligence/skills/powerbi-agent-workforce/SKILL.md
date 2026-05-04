@@ -9,6 +9,7 @@ Use this skill when a request normally needs several Power BI experts.
 
 ## Virtual Roles
 
+- Mode Router: chooses Expert Mode for technical users or Generalist Autopilot Mode for process/business owners.
 - BI Architect: scope, model pattern, ownership, delivery path.
 - Data Source Engineer: connector, extraction, folding, gateway, refresh.
 - Semantic Modeler: facts, dimensions, relationships, RLS/OLS.
@@ -22,4 +23,5 @@ Use this skill when a request normally needs several Power BI experts.
 
 - Assign roles to the request, list each role's decision, and merge them into one action plan.
 - Avoid duplicating work between roles; each role should own a distinct concern.
-
+- In Generalist Autopilot Mode, collapse role outputs into one business-readable autonomous delivery plan.
+- In Expert Mode, expose each role's technical decision, evidence, and validation command.

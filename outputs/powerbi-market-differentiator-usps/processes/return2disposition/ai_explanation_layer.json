@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:25.149479+00:00",
+  "processId": "return2disposition",
+  "processName": "Return2Disposition",
+  "domain": "Service",
+  "ownerRole": "Returns Process Owner",
+  "capabilityId": "ai_explanation_layer",
+  "capabilityName": "AI Explanation Layer",
+  "primaryPersona": "Business User",
+  "marketDifferentiator": "Makes complex semantic models understandable without a BI expert.",
+  "processFit": {
+    "caseName": "Return",
+    "valueLabel": "RecoveryValue",
+    "kpis": [
+      "Return Rate",
+      "Disposition Aging",
+      "Recovery Value",
+      "Scrap Rate",
+      "Resale Rate"
+    ],
+    "sourceSystems": [
+      "RMA",
+      "WMS",
+      "QMS",
+      "ERP SD"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/return2disposition/ai_explanation_layer.json",
+  "status": "evidence-ready"
+}

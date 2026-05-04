@@ -1,0 +1,42 @@
+{
+  "eventType": "powerbi_market_differentiator_usp_evidence",
+  "generatedAt": "2026-05-04T15:21:24.771903+00:00",
+  "processId": "issue2resolution",
+  "processName": "Issue2Resolution",
+  "domain": "Service",
+  "ownerRole": "Issue Resolution Process Owner",
+  "capabilityId": "process_digital_twin",
+  "capabilityName": "Process Digital Twin",
+  "primaryPersona": "Process Owner",
+  "marketDifferentiator": "Turns static reporting into an operational process control model.",
+  "processFit": {
+    "caseName": "Customer Issue",
+    "valueLabel": "IssueCost",
+    "kpis": [
+      "Issue Aging",
+      "SLA Breach %",
+      "Warranty Cost",
+      "Repeat Issue Rate",
+      "Corrective Action Aging"
+    ],
+    "sourceSystems": [
+      "CRM Service",
+      "Warranty",
+      "QMS",
+      "Field Service"
+    ]
+  },
+  "proofArtifacts": [
+    "process plan",
+    "persona value mapping",
+    "acceptance evidence",
+    "owner action linkage"
+  ],
+  "acceptanceChecks": [
+    "USP maps to a process owner or governance persona",
+    "USP has concrete evidence artifacts",
+    "USP links to measurable business value"
+  ],
+  "artifactPath": "outputs/powerbi-market-differentiator-usps/processes/issue2resolution/process_digital_twin.json",
+  "status": "evidence-ready"
+}

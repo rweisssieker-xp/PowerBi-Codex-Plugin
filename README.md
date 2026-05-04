@@ -24,7 +24,10 @@ The product turns business and process questions into validated Power BI deliver
 - Provides a concrete execution layer for all 20 features and all 32 processes under `outputs/powerbi-execution-layer/`, including source profiles, M templates, schema drift contracts, semantic compile plans, report materialization plans, DAX test plans, lineage, performance budgets, process-owner acceptance packs, and build manifests.
 - Provides a 25-capability Premium USP layer under `data/powerbi_premium_usp_catalog.json` and `outputs/powerbi-premium-usp-layer/`, including connector runtime, credential-safe profiling, AI field mapping, PBIP generation, PBIR materialization, Desktop log parsing, report scoring, deployment automation, data contracts, compliance packs, and Fabric scaffolds.
 - Provides a 70-USP Runtime Max layer under `data/powerbi_runtime_max_catalog.json` and `outputs/powerbi-runtime-max-layer/`, including analyst/developer replacement contracts, generated PBIP/PBIR/TMDL skeletons for all 32 processes, intake-to-model autopilot, source discovery, KPI ontology, DAX/M factories, validation gates, semantic auto-repair, RLS, action cockpits, deployment, documentation, acceptance evidence, release decisions, continuous improvement backlogs, legacy reverse engineering, dashboard consolidation, performance engineering, certification, benchmarks, cost guardrails, adoption tracking, autonomous BI sprint management, PBIX intake, tenant scanning, REST deployment, TOM/TMSL bridges, DAX execution, query folding, gateway audit, Purview classification, data quality, anomaly detection, forecasting, ticketing, access review, and multi-tenant MSP operations.
+- Maps all 70 Runtime Max USPs to plugin skills, CLI entrypoints, and output artifacts in `data/powerbi_runtime_usp_skill_matrix.json`.
+- Provides two operating modes: `Experten Mode` for senior Power BI/Fabric engineering control and `Generalisten Mode` for Process Managers / Process Owners who want autonomous request-to-report delivery.
 - Provides a 15-capability Production Hardening layer under `data/powerbi_production_hardening_catalog.json` and `outputs/powerbi-production-hardening/`, including Desktop smoke contracts, live connector execution contracts, credential-safe runtime policy, PBIP/PBIR schema validation, DAX evaluation contracts, layout scoring, auto-repair patches, Frown ZIP parsing, source-to-PBIP evidence, plugin UX workflow, Fabric deployment, RLS role generation, process-mining adapters, data contract enforcement, and release dashboards.
+- Provides a 30-USP Market Differentiator layer under `data/powerbi_market_differentiator_usp_catalog.json` and `outputs/powerbi-market-differentiator-usps/`, including process digital twin, KPI contract negotiation, root-cause narrative, value-at-risk prioritization, autonomous action boards, benchmark twins, evidence vaults, process mining bridges, predictive SLA radar, what-if simulation, governance-by-design, and board-to-action cascade evidence.
 - Provides a concrete Lead2Order Power BI analysis package under `outputs/lead2order-powerbi-analysis/`, including PBIP/PBIR/TMDL output, 30 governed DAX measures, 10 process-owner problem questions, 6 report pages, and zero-warning static validation evidence.
 - Adds executable trust checks for model graph quality, native source routing, visual bindings, DAX static checks, and Power BI Desktop smoke validation workflows.
 
@@ -73,6 +76,7 @@ Key guides:
 - [Power BI Premium USP Layer](outputs/powerbi-premium-usp-layer/README.md)
 - [Power BI Runtime Max Layer](outputs/powerbi-runtime-max-layer/README.md)
 - [Power BI Production Hardening](outputs/powerbi-production-hardening/README.md)
+- [Power BI Market Differentiator USPs](outputs/powerbi-market-differentiator-usps/README.md)
 - [Lead2Order Power BI Analysis Package](outputs/lead2order-powerbi-analysis/README.md)
 - [Skills Catalog](docs/product/SKILLS_CATALOG.md)
 - [Power BI Expert-Replacement Factory Plan](docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
@@ -122,6 +126,7 @@ python scripts\build_powerbi_execution_layer.py
 python scripts\build_powerbi_premium_usp_layer.py
 python scripts\build_powerbi_runtime_max_layer.py
 python scripts\build_powerbi_production_hardening_layer.py
+python scripts\build_powerbi_market_differentiator_usps.py
 python scripts\build_lead2order_powerbi_analysis.py
 ```
 
@@ -129,12 +134,35 @@ Run the sample PBIP validation:
 
 ```powershell
 python scripts\powerbi_expert_factory.py validate --project outputs\powerbi-order2cash-pbip\Order2Cash_NativeExcel --out outputs\powerbi-order2cash-pbip\expert_factory_validation.json
+python scripts\powerbi_expert_factory.py report-package --process lead-to-order --sources "Excel export and SAP CRM opportunity extract" --goal "Process owner cockpit for conversion, aging, SLA breaches, and next actions" --out outputs\report-packages\lead-to-order
 python scripts\powerbi_expert_factory.py feature-plan --process lead-to-order --out outputs\powerbi-feature-factory\lead-to-order-feature-plan.json
 python scripts\powerbi_expert_factory.py build --process lead-to-order --source demo --out outputs\local-builds\lead-to-order
 python scripts\powerbi_expert_factory.py premium-usp-plan --process lead-to-order --out outputs\powerbi-premium-usp-layer\lead-to-order-premium-usp-plan.json
 python scripts\powerbi_expert_factory.py runtime-max-plan --process lead-to-order --out outputs\powerbi-runtime-max-layer\lead-to-order-runtime-max-plan.json
 python scripts\powerbi_expert_factory.py hardening-plan --process lead-to-order --out outputs\powerbi-production-hardening\lead-to-order-hardening-plan.json
+python scripts\powerbi_expert_factory.py market-usp-plan --process lead-to-order --out outputs\powerbi-market-differentiator-usps\lead-to-order-market-usp-plan.json
 python scripts\powerbi_expert_factory.py validate --project outputs\lead2order-powerbi-analysis\pbip\Lead2OrderAnalysis --out outputs\lead2order-powerbi-analysis\validation_result.json
+```
+
+Create credential-safe runtime executor evidence and API request payloads:
+
+```powershell
+python scripts\powerbi_expert_factory.py pbix-intake --file .\sample.pbix --out outputs\runtime-executors\sample-pbix-intake.json
+python scripts\powerbi_expert_factory.py tenant-scan-request --tenant <tenant-id> --workspace <workspace-id> --out outputs\runtime-executors\tenant-scan-request.json
+python scripts\powerbi_expert_factory.py dax-query-request --workspace <workspace-id> --dataset <dataset-id> --query "EVALUATE ROW(\"Cases\", [Case Count])" --out outputs\runtime-executors\dax-query-request.json
+python scripts\powerbi_expert_factory.py rest-deploy-request --workspace <workspace-id> --artifact outputs\powerbi-runtime-max-layer\processes\lead2order\pbip\Lead2Order --operation import --operation refresh --out outputs\runtime-executors\rest-deploy-request.json
+python scripts\powerbi_expert_factory.py gateway-audit-request --gateway <gateway-id> --datasource <datasource-id> --out outputs\runtime-executors\gateway-audit-request.json
+```
+
+Run authenticated executors when `POWERBI_ACCESS_TOKEN` is set; otherwise they return dry-run evidence:
+
+```powershell
+python scripts\powerbi_expert_factory.py generalist-autopilot-run --process lead-to-order --sources "Excel export and SAP CRM opportunity extract" --goal "Process owner cockpit for conversion, aging, SLA breaches, and next actions" --out outputs\autopilot-runs\lead-to-order
+python scripts\powerbi_expert_factory.py generalist-prompt-run --prompt "O2C has constant operational pressure. Orders are stuck, deliveries are late, cash is not coming in, invoices are blocked, sources are SAP export, Excel disputes, and warehouse CSV. Build a Monday cockpit for process owners." --out outputs\autopilot-runs\human-o2c-monday-cockpit
+python scripts\powerbi_expert_factory.py tenant-scan-run --tenant <tenant-id> --workspace <workspace-id> --out outputs\runtime-executors\tenant-scan-run.json
+python scripts\powerbi_expert_factory.py dax-query-run --workspace <workspace-id> --dataset <dataset-id> --query "EVALUATE ROW(\"Cases\", [Case Count])" --out outputs\runtime-executors\dax-query-run.json
+python scripts\powerbi_expert_factory.py rest-deploy-run --workspace <workspace-id> --artifact outputs\report-packages\lead-to-order\pbip\Lead2Order --operation import --operation refresh --out outputs\runtime-executors\rest-deploy-run.json
+python scripts\powerbi_expert_factory.py gateway-audit-run --gateway <gateway-id> --datasource <datasource-id> --out outputs\runtime-executors\gateway-audit-run.json
 ```
 
 ## Design Principles
