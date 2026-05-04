@@ -18,6 +18,7 @@ This is the single navigation index for repository-level documentation. Root fil
 - [Power BI Expert-Replacement Skill Map](docs/product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
 - [Skills Catalog](docs/product/SKILLS_CATALOG.md)
 - [Process Chain KPIs](docs/product/PROCESS_CHAIN_KPIS.md)
+- [Industry Demo Data](outputs/industry-demo-data/README.md)
 - [Source System Coverage](docs/product/SOURCE_SYSTEM_COVERAGE.md)
 - [Power BI Native Connector Coverage](docs/product/POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
 

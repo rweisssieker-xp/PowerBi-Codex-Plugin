@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00001,1,Issue Logged,2025-06-01,Field Service,Alex Chen,False,False,7981.86
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00001,2,Triaged,2025-06-05,QMS,Alex Chen,True,False,5509.86
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00001,3,Root Cause Assigned,2025-06-10,Warranty,Kenji Tanaka,False,True,3953.81
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00001,4,Corrective Action Created,2025-06-11,CRM Service,Priya Rao,True,False,89.87
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00001,5,Resolved,2025-06-12,Field Service,Jon Miller,False,False,5701.11
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00002,1,Issue Logged,2025-12-19,CRM Service,Thomas Weber,False,False,1359.84
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00002,2,Triaged,2025-12-19,Warranty,Alex Chen,False,False,6548.72
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00002,3,Root Cause Assigned,2025-12-22,QMS,Jon Miller,False,False,1297.9
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00002,4,Corrective Action Created,2025-12-27,Warranty,Jon Miller,True,True,3336.49
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00002,5,Resolved,2025-12-29,CRM Service,Maria Garcia,True,True,7565.54
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00003,1,Issue Logged,2026-01-09,QMS,Kenji Tanaka,True,False,4063.21
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00003,2,Triaged,2026-01-12,CRM Service,Thomas Weber,False,True,7883.68
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00003,3,Root Cause Assigned,2026-01-12,Field Service,Nina Patel,True,False,620.21
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00003,4,Corrective Action Created,2026-01-17,Field Service,Alex Chen,True,True,7664.0
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00003,5,Resolved,2026-01-20,CRM Service,Thomas Weber,False,False,5376.5
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00004,1,Issue Logged,2025-08-08,Field Service,Jon Miller,False,False,2801.39
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00004,2,Triaged,2025-08-12,Field Service,Sara Novak,True,False,1703.17
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00004,3,Root Cause Assigned,2025-08-18,Warranty,Priya Rao,False,False,5397.87
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00004,4,Corrective Action Created,2025-08-23,Warranty,Thomas Weber,False,False,797.83
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00004,5,Resolved,2025-08-26,CRM Service,Sara Novak,True,False,5174.8
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00005,1,Issue Logged,2025-02-06,Warranty,Thomas Weber,True,False,4967.91
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00005,2,Triaged,2025-02-10,Warranty,Nina Patel,True,False,355.98
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00005,3,Root Cause Assigned,2025-02-16,CRM Service,Sara Novak,True,False,3254.21
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00005,4,Corrective Action Created,2025-02-17,Field Service,Thomas Weber,True,True,3312.78
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00005,5,Resolved,2025-02-23,QMS,Thomas Weber,True,False,5585.85
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00006,1,Issue Logged,2025-04-03,Warranty,Nina Patel,False,True,4815.22
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00006,2,Triaged,2025-04-06,QMS,Nina Patel,False,False,5453.68
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00006,3,Root Cause Assigned,2025-04-09,CRM Service,Sara Novak,False,False,2764.53
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00006,4,Corrective Action Created,2025-04-11,CRM Service,Priya Rao,True,False,847.66
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00006,5,Resolved,2025-04-15,CRM Service,Nina Patel,False,False,6505.32
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00007,1,Issue Logged,2025-09-15,QMS,Nina Patel,True,False,640.07
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00007,2,Triaged,2025-09-17,Warranty,Maria Garcia,True,False,2108.54
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00007,3,Root Cause Assigned,2025-09-18,CRM Service,Maria Garcia,False,False,1077.94
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00007,4,Corrective Action Created,2025-09-23,Warranty,Kenji Tanaka,True,False,5584.03
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00007,5,Resolved,2025-09-25,QMS,Thomas Weber,True,False,6309.97
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00008,1,Issue Logged,2026-02-08,CRM Service,Alex Chen,True,False,4341.56
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00008,2,Triaged,2026-02-09,CRM Service,Alex Chen,True,False,6258.42
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00008,3,Root Cause Assigned,2026-02-11,Warranty,Jon Miller,True,False,979.86
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00008,4,Corrective Action Created,2026-02-13,Field Service,Jon Miller,True,False,2795.35
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00008,5,Resolved,2026-02-13,Field Service,Alex Chen,True,False,6391.35
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00009,1,Issue Logged,2026-01-04,Warranty,Nina Patel,True,False,4120.02
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00009,2,Triaged,2026-01-06,CRM Service,Priya Rao,False,True,3977.96
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00009,3,Root Cause Assigned,2026-01-08,Field Service,Sara Novak,True,False,7146.78
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00009,4,Corrective Action Created,2026-01-10,CRM Service,Nina Patel,False,False,5093.66
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00009,5,Resolved,2026-01-10,Field Service,Thomas Weber,False,False,7147.85
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00010,1,Issue Logged,2025-04-15,CRM Service,Maria Garcia,True,False,4388.61
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00010,2,Triaged,2025-04-15,Field Service,Alex Chen,False,False,5577.43
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00010,3,Root Cause Assigned,2025-04-19,QMS,Priya Rao,False,False,7234.2
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00010,4,Corrective Action Created,2025-04-19,CRM Service,Priya Rao,False,False,4368.98
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00010,5,Resolved,2025-04-23,QMS,Nina Patel,False,True,340.06
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00011,1,Issue Logged,2026-02-19,QMS,Nina Patel,True,False,6012.36
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00011,2,Triaged,2026-02-20,Field Service,Priya Rao,True,False,2044.93
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00011,3,Root Cause Assigned,2026-02-24,Warranty,Kenji Tanaka,False,False,4034.04
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00011,4,Corrective Action Created,2026-02-24,QMS,Nina Patel,True,False,2411.85
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00011,5,Resolved,2026-03-01,Warranty,Jon Miller,False,False,4990.41
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00012,1,Issue Logged,2025-12-25,CRM Service,Nina Patel,False,False,1312.27
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00012,2,Triaged,2025-12-31,Warranty,Nina Patel,False,False,4744.74
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00012,3,Root Cause Assigned,2026-01-06,Field Service,Kenji Tanaka,True,False,6364.22
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00012,4,Corrective Action Created,2026-01-09,Field Service,Maria Garcia,True,False,5723.95
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00012,5,Resolved,2026-01-12,Field Service,Jon Miller,False,False,6781.65
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00013,1,Issue Logged,2025-08-23,Field Service,Sara Novak,True,False,2542.75
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00013,2,Triaged,2025-08-25,Warranty,Jon Miller,False,False,1505.79
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00013,3,Root Cause Assigned,2025-08-30,QMS,Alex Chen,True,False,5431.61
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00013,4,Corrective Action Created,2025-08-31,QMS,Thomas Weber,False,False,1834.1
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00013,5,Resolved,2025-09-05,Warranty,Thomas Weber,True,False,6905.01
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00014,1,Issue Logged,2025-11-10,Field Service,Kenji Tanaka,True,False,3637.15
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00014,2,Triaged,2025-11-16,Warranty,Kenji Tanaka,True,False,4904.7
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00014,3,Root Cause Assigned,2025-11-21,QMS,Sara Novak,True,False,4627.1
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00014,4,Corrective Action Created,2025-11-21,CRM Service,Priya Rao,True,False,1228.23
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00014,5,Resolved,2025-11-21,CRM Service,Thomas Weber,True,False,3864.15
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00015,1,Issue Logged,2025-08-24,CRM Service,Thomas Weber,True,False,4864.13
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00015,2,Triaged,2025-08-29,CRM Service,Sara Novak,False,False,6309.75
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00015,3,Root Cause Assigned,2025-09-04,Field Service,Alex Chen,False,False,1156.45
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00015,4,Corrective Action Created,2025-09-08,QMS,Sara Novak,True,False,2642.07
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00015,5,Resolved,2025-09-14,Warranty,Sara Novak,True,False,2664.3
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00016,1,Issue Logged,2025-06-14,Field Service,Priya Rao,False,False,138.52
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00016,2,Triaged,2025-06-17,QMS,Kenji Tanaka,True,False,7117.04
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00016,3,Root Cause Assigned,2025-06-19,CRM Service,Sara Novak,True,False,1058.03
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00016,4,Corrective Action Created,2025-06-19,Field Service,Thomas Weber,False,True,464.16
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00016,5,Resolved,2025-06-20,Field Service,Jon Miller,True,False,4081.33
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00017,1,Issue Logged,2026-01-29,CRM Service,Kenji Tanaka,False,False,1409.57
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00017,2,Triaged,2026-01-31,Warranty,Thomas Weber,False,True,5175.93
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00017,3,Root Cause Assigned,2026-02-01,QMS,Jon Miller,True,False,3647.76
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00017,4,Corrective Action Created,2026-02-06,Warranty,Alex Chen,False,False,5547.79
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00017,5,Resolved,2026-02-09,CRM Service,Nina Patel,True,True,5758.91
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00018,1,Issue Logged,2025-07-15,QMS,Alex Chen,False,False,5154.36
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00018,2,Triaged,2025-07-16,CRM Service,Maria Garcia,False,False,6867.56
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00018,3,Root Cause Assigned,2025-07-17,Warranty,Kenji Tanaka,False,False,5358.56
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00018,4,Corrective Action Created,2025-07-22,Warranty,Priya Rao,True,False,408.99
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00018,5,Resolved,2025-07-22,QMS,Alex Chen,False,False,443.56
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00019,1,Issue Logged,2025-10-13,Warranty,Maria Garcia,False,True,6039.64
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00019,2,Triaged,2025-10-16,QMS,Alex Chen,False,False,2170.02
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00019,3,Root Cause Assigned,2025-10-20,QMS,Alex Chen,True,True,2181.47
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00019,4,Corrective Action Created,2025-10-23,CRM Service,Sara Novak,False,False,7349.86
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00019,5,Resolved,2025-10-26,CRM Service,Priya Rao,False,False,1700.07
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00020,1,Issue Logged,2025-08-14,QMS,Maria Garcia,False,True,7821.01
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00020,2,Triaged,2025-08-19,Field Service,Nina Patel,True,True,5279.22
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00020,3,Root Cause Assigned,2025-08-22,CRM Service,Maria Garcia,False,False,2280.02
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00020,4,Corrective Action Created,2025-08-24,Field Service,Jon Miller,False,False,7250.81
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00020,5,Resolved,2025-08-29,CRM Service,Thomas Weber,True,True,367.07
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00021,1,Issue Logged,2025-08-24,CRM Service,Kenji Tanaka,True,False,3602.82
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00021,2,Triaged,2025-08-24,Warranty,Alex Chen,True,False,4943.47
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00021,3,Root Cause Assigned,2025-08-29,CRM Service,Maria Garcia,False,True,7528.86
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00021,4,Corrective Action Created,2025-08-31,Field Service,Maria Garcia,True,False,1950.84
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00021,5,Resolved,2025-09-02,CRM Service,Priya Rao,True,True,7748.8
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00022,1,Issue Logged,2025-08-28,QMS,Alex Chen,True,False,5036.91
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00022,2,Triaged,2025-09-03,QMS,Sara Novak,True,False,6806.88
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00022,3,Root Cause Assigned,2025-09-07,Field Service,Thomas Weber,True,False,5661.49
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00022,4,Corrective Action Created,2025-09-11,Field Service,Alex Chen,False,False,69.31
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00022,5,Resolved,2025-09-16,QMS,Jon Miller,False,False,2552.37
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00023,1,Issue Logged,2025-04-21,QMS,Alex Chen,True,False,821.44
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00023,2,Triaged,2025-04-26,Warranty,Alex Chen,True,False,1874.83
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00023,3,Root Cause Assigned,2025-05-01,Warranty,Priya Rao,False,False,1185.91
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00023,4,Corrective Action Created,2025-05-06,CRM Service,Maria Garcia,True,True,1333.04
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00023,5,Resolved,2025-05-10,QMS,Thomas Weber,True,False,6716.49
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00024,1,Issue Logged,2025-12-12,CRM Service,Kenji Tanaka,True,True,3418.1
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00024,2,Triaged,2025-12-13,CRM Service,Alex Chen,True,False,241.21
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00024,3,Root Cause Assigned,2025-12-19,CRM Service,Jon Miller,False,False,6407.12
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00024,4,Corrective Action Created,2025-12-24,Warranty,Priya Rao,True,False,2506.1
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00024,5,Resolved,2025-12-26,CRM Service,Priya Rao,False,False,2383.0
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00025,1,Issue Logged,2025-04-12,Field Service,Nina Patel,False,True,5092.35
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00025,2,Triaged,2025-04-15,Field Service,Maria Garcia,False,False,6890.43
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00025,3,Root Cause Assigned,2025-04-17,QMS,Nina Patel,False,False,3474.43
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00025,4,Corrective Action Created,2025-04-22,Field Service,Sara Novak,False,False,6278.9
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00025,5,Resolved,2025-04-23,Field Service,Priya Rao,True,False,7491.81
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00026,1,Issue Logged,2025-01-16,Field Service,Kenji Tanaka,True,False,7954.95
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00026,2,Triaged,2025-01-20,CRM Service,Priya Rao,False,False,6463.49
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00026,3,Root Cause Assigned,2025-01-23,QMS,Sara Novak,True,True,1421.5
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00026,4,Corrective Action Created,2025-01-27,Warranty,Jon Miller,False,False,2644.05
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00026,5,Resolved,2025-02-02,Field Service,Priya Rao,False,True,6161.58
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00027,1,Issue Logged,2025-03-22,Field Service,Thomas Weber,True,True,5556.28
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00027,2,Triaged,2025-03-22,CRM Service,Sara Novak,True,True,2816.43
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00027,3,Root Cause Assigned,2025-03-24,Field Service,Alex Chen,False,False,7154.62
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00027,4,Corrective Action Created,2025-03-25,QMS,Nina Patel,True,False,953.22
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00027,5,Resolved,2025-03-27,Field Service,Priya Rao,True,False,927.91
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00028,1,Issue Logged,2025-01-11,Field Service,Kenji Tanaka,True,False,1884.07
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00028,2,Triaged,2025-01-15,CRM Service,Kenji Tanaka,False,False,1079.58
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00028,3,Root Cause Assigned,2025-01-20,Warranty,Nina Patel,True,True,2667.68
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00028,4,Corrective Action Created,2025-01-26,Field Service,Maria Garcia,True,False,6668.68
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00028,5,Resolved,2025-01-31,Field Service,Priya Rao,False,False,163.89
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00029,1,Issue Logged,2025-03-17,QMS,Priya Rao,True,False,1957.6
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00029,2,Triaged,2025-03-17,Field Service,Thomas Weber,True,False,4195.32
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00029,3,Root Cause Assigned,2025-03-19,CRM Service,Maria Garcia,False,False,6663.05
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00029,4,Corrective Action Created,2025-03-25,Field Service,Alex Chen,True,False,5896.45
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00029,5,Resolved,2025-03-30,Warranty,Maria Garcia,False,False,4038.17
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00030,1,Issue Logged,2025-04-15,CRM Service,Priya Rao,True,False,2624.16
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00030,2,Triaged,2025-04-18,QMS,Jon Miller,True,False,6955.48
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00030,3,Root Cause Assigned,2025-04-21,CRM Service,Kenji Tanaka,True,False,2114.99
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00030,4,Corrective Action Created,2025-04-25,Field Service,Maria Garcia,True,False,2162.22
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00030,5,Resolved,2025-04-27,QMS,Jon Miller,False,False,4765.99
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00031,1,Issue Logged,2025-12-20,Field Service,Thomas Weber,False,False,3364.24
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00031,2,Triaged,2025-12-23,QMS,Nina Patel,True,True,4195.47
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00031,3,Root Cause Assigned,2025-12-23,Warranty,Nina Patel,True,False,3668.55
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00031,4,Corrective Action Created,2025-12-28,Field Service,Priya Rao,True,False,6969.39
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00031,5,Resolved,2026-01-01,CRM Service,Sara Novak,False,False,6070.33
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00032,1,Issue Logged,2025-10-13,Field Service,Thomas Weber,True,False,6838.84
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00032,2,Triaged,2025-10-16,Field Service,Maria Garcia,False,False,2404.49
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00032,3,Root Cause Assigned,2025-10-18,CRM Service,Priya Rao,True,False,2921.26
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00032,4,Corrective Action Created,2025-10-23,CRM Service,Priya Rao,True,False,624.34
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00032,5,Resolved,2025-10-24,CRM Service,Thomas Weber,True,False,1623.11
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00033,1,Issue Logged,2025-08-23,Warranty,Kenji Tanaka,False,False,3579.13
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00033,2,Triaged,2025-08-24,Field Service,Alex Chen,True,True,3850.0
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00033,3,Root Cause Assigned,2025-08-27,Warranty,Thomas Weber,False,False,2054.87
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00033,4,Corrective Action Created,2025-08-29,Field Service,Sara Novak,True,False,7971.87
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00033,5,Resolved,2025-09-04,Field Service,Nina Patel,True,False,6228.77
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00034,1,Issue Logged,2025-12-20,QMS,Kenji Tanaka,False,False,51.12
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00034,2,Triaged,2025-12-21,Warranty,Kenji Tanaka,True,False,1103.51
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00034,3,Root Cause Assigned,2025-12-24,Warranty,Maria Garcia,False,False,7513.25
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00034,4,Corrective Action Created,2025-12-28,QMS,Kenji Tanaka,False,True,7143.94
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00034,5,Resolved,2025-12-28,Warranty,Alex Chen,False,False,4328.12
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00035,1,Issue Logged,2025-05-07,Warranty,Maria Garcia,True,False,1538.12
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00035,2,Triaged,2025-05-08,Field Service,Kenji Tanaka,True,False,758.98
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00035,3,Root Cause Assigned,2025-05-10,QMS,Kenji Tanaka,False,False,3521.3
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00035,4,Corrective Action Created,2025-05-16,Warranty,Alex Chen,False,False,4134.19
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00035,5,Resolved,2025-05-18,Field Service,Priya Rao,False,True,4097.32
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00036,1,Issue Logged,2026-03-24,CRM Service,Maria Garcia,False,False,5770.47
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00036,2,Triaged,2026-03-25,QMS,Thomas Weber,False,False,7033.57
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00036,3,Root Cause Assigned,2026-03-28,QMS,Thomas Weber,False,False,6151.81
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00036,4,Corrective Action Created,2026-03-30,CRM Service,Jon Miller,False,False,6884.29
+issue2resolution,Issue2Resolution,ISSUE2RESOLUTION-00036,5,Resolved,2026-04-05,Field Service,Priya Rao,True,False,7021.76

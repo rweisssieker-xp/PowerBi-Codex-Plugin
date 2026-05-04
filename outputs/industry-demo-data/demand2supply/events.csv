@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00001,1,Demand Captured,2026-02-21,Inventory,Thomas Weber,True,False,2580.0
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00001,2,ATP Checked,2026-02-26,APS,Alex Chen,True,True,7879.44
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00001,3,Supply Matched,2026-02-27,Inventory,Thomas Weber,True,False,5580.37
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00001,4,Allocated,2026-03-04,ERP ATP,Thomas Weber,False,False,5034.57
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00001,5,Committed,2026-03-05,Demand Planning,Alex Chen,True,False,4281.33
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00002,1,Demand Captured,2026-03-18,APS,Alex Chen,False,False,4272.27
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00002,2,ATP Checked,2026-03-23,ERP ATP,Alex Chen,True,False,5413.03
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00002,3,Supply Matched,2026-03-25,ERP ATP,Sara Novak,True,False,3854.03
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00002,4,Allocated,2026-03-28,Demand Planning,Maria Garcia,False,False,2490.34
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00002,5,Committed,2026-04-03,APS,Priya Rao,False,False,7462.82
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00003,1,Demand Captured,2026-03-21,ERP ATP,Maria Garcia,True,False,1863.23
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00003,2,ATP Checked,2026-03-21,Inventory,Sara Novak,True,True,2462.98
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00003,3,Supply Matched,2026-03-25,Inventory,Jon Miller,False,False,3084.32
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00003,4,Allocated,2026-03-27,APS,Jon Miller,True,False,273.67
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00003,5,Committed,2026-03-31,Demand Planning,Nina Patel,False,False,3702.32
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00004,1,Demand Captured,2026-02-11,Inventory,Nina Patel,True,False,6936.75
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00004,2,ATP Checked,2026-02-15,Demand Planning,Nina Patel,True,False,3426.66
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00004,3,Supply Matched,2026-02-17,Demand Planning,Alex Chen,False,False,5277.94
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00004,4,Allocated,2026-02-22,Inventory,Priya Rao,True,False,5486.87
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00004,5,Committed,2026-02-25,Inventory,Alex Chen,True,False,3282.75
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00005,1,Demand Captured,2025-05-28,Demand Planning,Priya Rao,True,False,5138.83
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00005,2,ATP Checked,2025-05-31,APS,Maria Garcia,True,False,5208.1
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00005,3,Supply Matched,2025-06-01,ERP ATP,Kenji Tanaka,True,False,6800.44
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00005,4,Allocated,2025-06-01,Inventory,Kenji Tanaka,True,False,2172.66
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00005,5,Committed,2025-06-07,APS,Alex Chen,True,True,1132.6
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00006,1,Demand Captured,2026-03-21,ERP ATP,Nina Patel,False,False,4811.07
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00006,2,ATP Checked,2026-03-27,Demand Planning,Kenji Tanaka,False,False,7597.75
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00006,3,Supply Matched,2026-03-30,Inventory,Nina Patel,True,False,356.59
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00006,4,Allocated,2026-04-04,Inventory,Sara Novak,True,False,5241.58
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00006,5,Committed,2026-04-09,ERP ATP,Thomas Weber,True,False,5560.82
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00007,1,Demand Captured,2025-01-23,ERP ATP,Priya Rao,True,False,6834.57
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00007,2,ATP Checked,2025-01-23,Demand Planning,Jon Miller,False,False,528.81
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00007,3,Supply Matched,2025-01-29,Demand Planning,Kenji Tanaka,True,False,5381.69
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00007,4,Allocated,2025-01-31,APS,Priya Rao,False,False,4346.55
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00007,5,Committed,2025-02-04,ERP ATP,Maria Garcia,True,False,1972.05
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00008,1,Demand Captured,2025-02-14,ERP ATP,Nina Patel,True,False,4121.42
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00008,2,ATP Checked,2025-02-19,Demand Planning,Nina Patel,True,False,585.3
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00008,3,Supply Matched,2025-02-19,Inventory,Nina Patel,False,False,3920.49
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00008,4,Allocated,2025-02-19,ERP ATP,Alex Chen,False,False,2513.45
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00008,5,Committed,2025-02-21,ERP ATP,Sara Novak,True,True,1420.01
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00009,1,Demand Captured,2025-01-05,APS,Sara Novak,False,False,3274.24
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00009,2,ATP Checked,2025-01-05,ERP ATP,Sara Novak,False,False,5171.92
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00009,3,Supply Matched,2025-01-07,ERP ATP,Kenji Tanaka,False,False,2481.25
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00009,4,Allocated,2025-01-09,APS,Kenji Tanaka,True,False,1343.64
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00009,5,Committed,2025-01-12,APS,Alex Chen,True,False,7833.13
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00010,1,Demand Captured,2025-03-05,Demand Planning,Kenji Tanaka,False,False,3022.21
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00010,2,ATP Checked,2025-03-05,Demand Planning,Maria Garcia,False,False,4614.94
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00010,3,Supply Matched,2025-03-06,Inventory,Priya Rao,True,False,1961.95
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00010,4,Allocated,2025-03-11,ERP ATP,Alex Chen,False,False,5560.56
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00010,5,Committed,2025-03-13,ERP ATP,Nina Patel,False,False,3063.7
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00011,1,Demand Captured,2025-01-25,Inventory,Sara Novak,False,False,5613.57
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00011,2,ATP Checked,2025-01-25,ERP ATP,Alex Chen,True,False,6968.82
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00011,3,Supply Matched,2025-01-27,Inventory,Maria Garcia,False,False,2072.94
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00011,4,Allocated,2025-01-28,APS,Jon Miller,True,False,1738.55
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00011,5,Committed,2025-01-30,APS,Nina Patel,False,False,1744.04
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00012,1,Demand Captured,2026-02-26,ERP ATP,Kenji Tanaka,True,False,7377.07
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00012,2,ATP Checked,2026-03-01,Inventory,Alex Chen,True,True,1542.71
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00012,3,Supply Matched,2026-03-05,ERP ATP,Maria Garcia,False,False,6832.62
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00012,4,Allocated,2026-03-07,Demand Planning,Maria Garcia,True,False,6413.7
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00012,5,Committed,2026-03-08,ERP ATP,Kenji Tanaka,True,False,5593.06
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00013,1,Demand Captured,2025-12-07,ERP ATP,Priya Rao,True,False,3242.81
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00013,2,ATP Checked,2025-12-09,Inventory,Maria Garcia,False,False,2106.6
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00013,3,Supply Matched,2025-12-12,APS,Priya Rao,False,False,3904.8
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00013,4,Allocated,2025-12-13,Demand Planning,Thomas Weber,False,True,2738.3
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00013,5,Committed,2025-12-19,ERP ATP,Maria Garcia,True,False,1653.81
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00014,1,Demand Captured,2025-11-26,Inventory,Jon Miller,False,False,4052.89
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00014,2,ATP Checked,2025-11-29,APS,Sara Novak,False,False,263.11
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00014,3,Supply Matched,2025-11-30,Demand Planning,Alex Chen,True,False,145.27
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00014,4,Allocated,2025-12-05,Inventory,Kenji Tanaka,True,False,1449.04
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00014,5,Committed,2025-12-09,Inventory,Nina Patel,True,False,312.58
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00015,1,Demand Captured,2025-11-02,APS,Kenji Tanaka,True,False,7488.49
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00015,2,ATP Checked,2025-11-07,APS,Sara Novak,True,False,5020.49
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00015,3,Supply Matched,2025-11-12,Inventory,Alex Chen,False,True,4633.09
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00015,4,Allocated,2025-11-12,Inventory,Jon Miller,False,False,5561.84
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00015,5,Committed,2025-11-14,APS,Sara Novak,False,False,5769.32
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00016,1,Demand Captured,2025-05-28,Demand Planning,Thomas Weber,True,False,5911.79
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00016,2,ATP Checked,2025-06-02,Demand Planning,Nina Patel,True,True,4265.34
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00016,3,Supply Matched,2025-06-07,ERP ATP,Alex Chen,True,False,3401.96
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00016,4,Allocated,2025-06-12,Inventory,Kenji Tanaka,False,False,4200.36
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00016,5,Committed,2025-06-18,ERP ATP,Jon Miller,True,False,3597.18
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00017,1,Demand Captured,2025-11-25,APS,Alex Chen,False,False,7880.0
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00017,2,ATP Checked,2025-11-25,ERP ATP,Jon Miller,True,False,5722.03
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00017,3,Supply Matched,2025-11-26,Demand Planning,Nina Patel,True,False,353.26
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00017,4,Allocated,2025-12-02,APS,Jon Miller,True,False,6822.74
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00017,5,Committed,2025-12-02,Demand Planning,Nina Patel,False,False,2926.3
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00018,1,Demand Captured,2025-05-16,APS,Sara Novak,False,False,4612.48
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00018,2,ATP Checked,2025-05-20,Inventory,Sara Novak,True,False,63.75
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00018,3,Supply Matched,2025-05-24,ERP ATP,Maria Garcia,False,True,7778.65
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00018,4,Allocated,2025-05-24,Demand Planning,Priya Rao,False,False,408.99
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00018,5,Committed,2025-05-29,Inventory,Kenji Tanaka,True,False,5362.2
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00019,1,Demand Captured,2026-01-13,APS,Thomas Weber,False,False,339.31
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00019,2,ATP Checked,2026-01-16,APS,Kenji Tanaka,True,False,773.48
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00019,3,Supply Matched,2026-01-18,Demand Planning,Maria Garcia,True,True,4557.4
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00019,4,Allocated,2026-01-20,Inventory,Priya Rao,False,False,3682.75
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00019,5,Committed,2026-01-22,Demand Planning,Thomas Weber,False,False,5992.31
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00020,1,Demand Captured,2025-12-30,APS,Thomas Weber,True,False,7187.61
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00020,2,ATP Checked,2026-01-05,Demand Planning,Nina Patel,False,False,3781.34
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00020,3,Supply Matched,2026-01-09,ERP ATP,Nina Patel,True,False,1313.53
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00020,4,Allocated,2026-01-15,Demand Planning,Thomas Weber,True,False,852.37
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00020,5,Committed,2026-01-19,Inventory,Thomas Weber,False,False,570.7
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00021,1,Demand Captured,2025-10-18,Demand Planning,Thomas Weber,False,False,4442.83
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00021,2,ATP Checked,2025-10-24,Demand Planning,Alex Chen,True,False,3087.92
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00021,3,Supply Matched,2025-10-27,Demand Planning,Thomas Weber,False,False,4987.58
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00021,4,Allocated,2025-11-02,ERP ATP,Jon Miller,True,False,3502.58
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00021,5,Committed,2025-11-02,Inventory,Kenji Tanaka,False,False,6179.59
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00022,1,Demand Captured,2025-09-24,ERP ATP,Alex Chen,False,False,3197.79
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00022,2,ATP Checked,2025-09-27,APS,Alex Chen,True,False,3780.43
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00022,3,Supply Matched,2025-10-01,Demand Planning,Nina Patel,True,False,1073.98
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00022,4,Allocated,2025-10-02,APS,Maria Garcia,True,False,696.24
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00022,5,Committed,2025-10-05,ERP ATP,Alex Chen,True,False,7860.32
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00023,1,Demand Captured,2026-03-17,Demand Planning,Maria Garcia,False,False,4840.49
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00023,2,ATP Checked,2026-03-18,APS,Alex Chen,False,False,6749.43
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00023,3,Supply Matched,2026-03-18,Demand Planning,Nina Patel,False,True,3850.25
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00023,4,Allocated,2026-03-21,Demand Planning,Priya Rao,True,False,7580.79
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00023,5,Committed,2026-03-25,ERP ATP,Jon Miller,False,False,723.85
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00024,1,Demand Captured,2025-02-02,Inventory,Thomas Weber,True,False,4767.98
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00024,2,ATP Checked,2025-02-05,Inventory,Nina Patel,True,False,1334.88
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00024,3,Supply Matched,2025-02-10,Inventory,Alex Chen,True,False,605.79
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00024,4,Allocated,2025-02-12,APS,Thomas Weber,True,True,4362.57
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00024,5,Committed,2025-02-14,Demand Planning,Priya Rao,True,False,5705.8
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00025,1,Demand Captured,2025-07-03,ERP ATP,Thomas Weber,False,False,3909.85
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00025,2,ATP Checked,2025-07-06,APS,Thomas Weber,True,False,515.42
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00025,3,Supply Matched,2025-07-11,Inventory,Thomas Weber,True,True,5130.19
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00025,4,Allocated,2025-07-12,Inventory,Priya Rao,True,False,5986.99
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00025,5,Committed,2025-07-12,ERP ATP,Alex Chen,False,False,6044.5
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00026,1,Demand Captured,2026-03-07,APS,Thomas Weber,False,False,780.12
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00026,2,ATP Checked,2026-03-12,APS,Alex Chen,True,False,1994.98
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00026,3,Supply Matched,2026-03-15,APS,Nina Patel,False,False,732.23
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00026,4,Allocated,2026-03-19,APS,Priya Rao,False,False,7650.72
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00026,5,Committed,2026-03-22,APS,Nina Patel,False,False,7989.05
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00027,1,Demand Captured,2025-03-22,Inventory,Nina Patel,False,False,1265.87
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00027,2,ATP Checked,2025-03-26,Demand Planning,Nina Patel,False,False,5203.53
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00027,3,Supply Matched,2025-03-31,ERP ATP,Priya Rao,True,False,7107.02
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00027,4,Allocated,2025-04-05,Inventory,Maria Garcia,False,False,4141.36
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00027,5,Committed,2025-04-06,Inventory,Thomas Weber,True,False,4499.89
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00028,1,Demand Captured,2026-03-09,Inventory,Priya Rao,False,False,321.19
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00028,2,ATP Checked,2026-03-12,Demand Planning,Jon Miller,False,False,1563.18
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00028,3,Supply Matched,2026-03-16,Inventory,Maria Garcia,True,False,6149.05
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00028,4,Allocated,2026-03-16,APS,Priya Rao,True,False,3475.08
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00028,5,Committed,2026-03-20,ERP ATP,Jon Miller,False,False,6116.94
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00029,1,Demand Captured,2025-07-14,Demand Planning,Nina Patel,False,False,4249.28
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00029,2,ATP Checked,2025-07-16,Inventory,Kenji Tanaka,True,False,6976.15
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00029,3,Supply Matched,2025-07-16,APS,Kenji Tanaka,True,True,5953.93
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00029,4,Allocated,2025-07-22,APS,Nina Patel,False,False,7022.18
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00029,5,Committed,2025-07-24,ERP ATP,Nina Patel,True,False,4094.33
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00030,1,Demand Captured,2025-02-14,APS,Nina Patel,False,False,5602.13
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00030,2,ATP Checked,2025-02-18,APS,Kenji Tanaka,True,False,7815.84
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00030,3,Supply Matched,2025-02-23,Inventory,Sara Novak,True,False,5726.2
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00030,4,Allocated,2025-03-01,ERP ATP,Alex Chen,False,True,889.14
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00030,5,Committed,2025-03-03,Inventory,Kenji Tanaka,False,True,899.49
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00031,1,Demand Captured,2025-05-10,Demand Planning,Kenji Tanaka,True,False,4571.85
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00031,2,ATP Checked,2025-05-10,ERP ATP,Priya Rao,False,False,791.61
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00031,3,Supply Matched,2025-05-16,ERP ATP,Jon Miller,False,True,6784.09
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00031,4,Allocated,2025-05-19,ERP ATP,Sara Novak,False,False,207.42
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00031,5,Committed,2025-05-24,ERP ATP,Kenji Tanaka,True,False,1339.19
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00032,1,Demand Captured,2025-04-25,ERP ATP,Jon Miller,True,False,3176.62
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00032,2,ATP Checked,2025-04-25,Demand Planning,Nina Patel,False,False,4357.16
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00032,3,Supply Matched,2025-04-30,APS,Sara Novak,False,False,6118.7
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00032,4,Allocated,2025-05-06,ERP ATP,Jon Miller,True,True,4462.17
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00032,5,Committed,2025-05-08,ERP ATP,Jon Miller,True,False,2718.45
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00033,1,Demand Captured,2025-11-28,Demand Planning,Nina Patel,True,False,7404.44
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00033,2,ATP Checked,2025-11-29,ERP ATP,Alex Chen,False,False,1238.7
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00033,3,Supply Matched,2025-12-05,Demand Planning,Jon Miller,True,False,5688.27
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00033,4,Allocated,2025-12-10,ERP ATP,Maria Garcia,True,False,5932.16
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00033,5,Committed,2025-12-11,ERP ATP,Maria Garcia,False,False,2238.53
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00034,1,Demand Captured,2025-04-24,ERP ATP,Thomas Weber,False,False,5760.43
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00034,2,ATP Checked,2025-04-24,Inventory,Alex Chen,False,True,1838.53
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00034,3,Supply Matched,2025-04-27,Inventory,Nina Patel,True,False,7276.15
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00034,4,Allocated,2025-05-02,Demand Planning,Alex Chen,True,False,1033.09
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00034,5,Committed,2025-05-07,Demand Planning,Alex Chen,False,False,2493.63
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00035,1,Demand Captured,2025-11-21,Demand Planning,Jon Miller,True,False,1779.67
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00035,2,ATP Checked,2025-11-22,APS,Alex Chen,False,False,1619.89
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00035,3,Supply Matched,2025-11-28,APS,Alex Chen,True,False,231.2
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00035,4,Allocated,2025-12-03,Inventory,Nina Patel,True,False,4180.87
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00035,5,Committed,2025-12-07,ERP ATP,Priya Rao,True,False,1480.18
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00036,1,Demand Captured,2025-12-18,APS,Thomas Weber,False,False,3034.33
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00036,2,ATP Checked,2025-12-18,Inventory,Priya Rao,True,False,3026.26
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00036,3,Supply Matched,2025-12-21,Inventory,Sara Novak,True,False,4557.4
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00036,4,Allocated,2025-12-21,Inventory,Sara Novak,True,False,1304.46
+demand2supply,Demand2Supply,DEMAND2SUPPLY-00036,5,Committed,2025-12-25,Demand Planning,Alex Chen,False,False,3484.18

@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00001,1,Concept Created,2025-11-24,ERP MM,Maria Garcia,True,False,5406.71
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00001,2,BOM Estimated,2025-11-28,Costing,Alex Chen,True,False,4875.83
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00001,3,Supplier Checked,2025-11-28,Sourcing,Nina Patel,True,True,5775.04
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00001,4,Cost Reviewed,2025-12-01,ERP MM,Kenji Tanaka,False,False,1541.71
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00001,5,Design Released,2025-12-01,ERP MM,Jon Miller,True,True,6932.22
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00002,1,Concept Created,2025-03-18,PLM,Maria Garcia,False,False,5412.53
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00002,2,BOM Estimated,2025-03-18,Costing,Jon Miller,False,False,799.54
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00002,3,Supplier Checked,2025-03-22,Costing,Nina Patel,True,False,2643.84
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00002,4,Cost Reviewed,2025-03-25,ERP MM,Sara Novak,True,False,7530.16
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00002,5,Design Released,2025-03-26,Costing,Nina Patel,False,False,2065.96
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00003,1,Concept Created,2026-03-30,ERP MM,Sara Novak,True,False,1156.18
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00003,2,BOM Estimated,2026-03-31,Sourcing,Jon Miller,True,False,4663.45
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00003,3,Supplier Checked,2026-04-01,PLM,Jon Miller,True,False,655.86
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00003,4,Cost Reviewed,2026-04-07,PLM,Sara Novak,False,False,806.23
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00003,5,Design Released,2026-04-07,Costing,Thomas Weber,False,False,1321.98
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00004,1,Concept Created,2025-05-11,Sourcing,Sara Novak,True,False,6679.09
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00004,2,BOM Estimated,2025-05-12,ERP MM,Jon Miller,False,False,6428.8
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00004,3,Supplier Checked,2025-05-13,Costing,Nina Patel,True,False,4800.75
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00004,4,Cost Reviewed,2025-05-14,PLM,Priya Rao,True,False,7175.2
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00004,5,Design Released,2025-05-14,ERP MM,Maria Garcia,False,True,5853.0
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00005,1,Concept Created,2026-02-05,ERP MM,Alex Chen,False,True,1736.79
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00005,2,BOM Estimated,2026-02-10,Costing,Nina Patel,True,True,7464.39
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00005,3,Supplier Checked,2026-02-11,Costing,Thomas Weber,True,False,569.56
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00005,4,Cost Reviewed,2026-02-17,Sourcing,Jon Miller,True,False,7547.23
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00005,5,Design Released,2026-02-23,Costing,Kenji Tanaka,True,False,6679.11
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00006,1,Concept Created,2025-02-03,Costing,Jon Miller,False,False,6733.48
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00006,2,BOM Estimated,2025-02-03,Sourcing,Priya Rao,True,False,2976.63
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00006,3,Supplier Checked,2025-02-03,ERP MM,Jon Miller,True,False,3435.07
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00006,4,Cost Reviewed,2025-02-06,Sourcing,Alex Chen,True,False,2822.42
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00006,5,Design Released,2025-02-09,PLM,Alex Chen,True,False,3959.81
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00007,1,Concept Created,2026-02-01,ERP MM,Jon Miller,True,False,5538.27
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00007,2,BOM Estimated,2026-02-06,ERP MM,Maria Garcia,False,False,6328.72
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00007,3,Supplier Checked,2026-02-11,ERP MM,Jon Miller,True,False,7129.1
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00007,4,Cost Reviewed,2026-02-14,Sourcing,Nina Patel,True,False,7563.64
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00007,5,Design Released,2026-02-14,PLM,Priya Rao,True,False,3990.92
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00008,1,Concept Created,2025-11-25,Costing,Nina Patel,True,False,6551.72
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00008,2,BOM Estimated,2025-11-26,Sourcing,Nina Patel,True,False,6730.68
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00008,3,Supplier Checked,2025-11-27,PLM,Jon Miller,True,False,6375.15
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00008,4,Cost Reviewed,2025-11-29,ERP MM,Sara Novak,True,True,4913.9
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00008,5,Design Released,2025-12-04,Sourcing,Kenji Tanaka,True,False,4468.39
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00009,1,Concept Created,2026-01-15,Sourcing,Kenji Tanaka,True,False,5314.04
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00009,2,BOM Estimated,2026-01-20,PLM,Jon Miller,True,False,7144.99
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00009,3,Supplier Checked,2026-01-25,Costing,Priya Rao,True,False,4084.14
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00009,4,Cost Reviewed,2026-01-28,ERP MM,Sara Novak,True,False,7925.1
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00009,5,Design Released,2026-02-03,Sourcing,Kenji Tanaka,False,True,3758.27
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00010,1,Concept Created,2025-03-23,Sourcing,Alex Chen,True,True,7823.74
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00010,2,BOM Estimated,2025-03-25,Sourcing,Jon Miller,False,False,3984.09
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00010,3,Supplier Checked,2025-03-26,Costing,Alex Chen,False,True,4220.1
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00010,4,Cost Reviewed,2025-04-01,ERP MM,Nina Patel,False,False,1567.18
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00010,5,Design Released,2025-04-06,PLM,Thomas Weber,False,False,2814.37
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00011,1,Concept Created,2025-03-27,PLM,Alex Chen,False,False,2320.86
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00011,2,BOM Estimated,2025-03-31,PLM,Thomas Weber,False,False,7226.96
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00011,3,Supplier Checked,2025-04-05,Costing,Nina Patel,True,False,1899.45
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00011,4,Cost Reviewed,2025-04-10,Costing,Kenji Tanaka,False,False,6607.15
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00011,5,Design Released,2025-04-13,Sourcing,Nina Patel,False,False,6197.86
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00012,1,Concept Created,2025-01-13,PLM,Jon Miller,False,False,1059.26
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00012,2,BOM Estimated,2025-01-14,ERP MM,Thomas Weber,False,False,5123.25
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00012,3,Supplier Checked,2025-01-20,PLM,Kenji Tanaka,True,False,7946.43
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00012,4,Cost Reviewed,2025-01-23,Sourcing,Alex Chen,False,False,6089.07
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00012,5,Design Released,2025-01-28,ERP MM,Alex Chen,False,False,4310.86
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00013,1,Concept Created,2026-01-19,Sourcing,Priya Rao,False,False,3412.11
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00013,2,BOM Estimated,2026-01-22,ERP MM,Alex Chen,True,True,1321.16
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00013,3,Supplier Checked,2026-01-22,Sourcing,Jon Miller,True,False,3451.96
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00013,4,Cost Reviewed,2026-01-27,Costing,Priya Rao,True,False,6878.65
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00013,5,Design Released,2026-01-27,Costing,Kenji Tanaka,True,False,2862.3
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00014,1,Concept Created,2025-12-25,ERP MM,Jon Miller,False,True,5010.6
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00014,2,BOM Estimated,2025-12-31,Sourcing,Nina Patel,True,False,6031.76
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00014,3,Supplier Checked,2026-01-02,ERP MM,Alex Chen,False,False,1703.12
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00014,4,Cost Reviewed,2026-01-03,Costing,Thomas Weber,True,True,458.9
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00014,5,Design Released,2026-01-07,Costing,Sara Novak,False,False,4709.65
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00015,1,Concept Created,2026-03-14,Costing,Alex Chen,True,False,80.29
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00015,2,BOM Estimated,2026-03-19,Sourcing,Kenji Tanaka,False,False,636.08
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00015,3,Supplier Checked,2026-03-19,Costing,Jon Miller,True,False,5761.64
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00015,4,Cost Reviewed,2026-03-25,PLM,Nina Patel,False,False,1790.72
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00015,5,Design Released,2026-03-28,Sourcing,Alex Chen,False,False,1533.09
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00016,1,Concept Created,2025-06-21,Sourcing,Priya Rao,False,False,7349.99
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00016,2,BOM Estimated,2025-06-24,ERP MM,Alex Chen,False,False,925.37
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00016,3,Supplier Checked,2025-06-28,ERP MM,Jon Miller,False,False,5696.29
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00016,4,Cost Reviewed,2025-07-04,PLM,Sara Novak,True,False,787.16
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00016,5,Design Released,2025-07-10,PLM,Sara Novak,True,False,2691.9
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00017,1,Concept Created,2025-12-10,ERP MM,Nina Patel,True,True,2921.59
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00017,2,BOM Estimated,2025-12-11,PLM,Thomas Weber,False,True,1154.99
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00017,3,Supplier Checked,2025-12-17,ERP MM,Priya Rao,True,False,1227.73
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00017,4,Cost Reviewed,2025-12-19,ERP MM,Maria Garcia,True,False,4403.34
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00017,5,Design Released,2025-12-19,PLM,Jon Miller,False,False,6843.51
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00018,1,Concept Created,2025-10-17,PLM,Sara Novak,True,False,1960.24
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00018,2,BOM Estimated,2025-10-22,Sourcing,Alex Chen,True,False,3249.36
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00018,3,Supplier Checked,2025-10-24,ERP MM,Priya Rao,True,False,3974.83
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00018,4,Cost Reviewed,2025-10-29,Sourcing,Jon Miller,False,False,7126.1
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00018,5,Design Released,2025-11-01,Sourcing,Kenji Tanaka,False,True,2659.25
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00019,1,Concept Created,2025-06-24,Costing,Nina Patel,True,False,6853.99
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00019,2,BOM Estimated,2025-06-25,Sourcing,Maria Garcia,False,False,2712.4
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00019,3,Supplier Checked,2025-07-01,Costing,Sara Novak,False,False,3315.51
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00019,4,Cost Reviewed,2025-07-02,Costing,Jon Miller,True,False,5694.82
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00019,5,Design Released,2025-07-04,Sourcing,Jon Miller,True,False,4093.43
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00020,1,Concept Created,2025-08-22,Costing,Priya Rao,True,False,325.25
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00020,2,BOM Estimated,2025-08-27,ERP MM,Maria Garcia,False,False,6889.92
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00020,3,Supplier Checked,2025-08-29,Sourcing,Nina Patel,True,False,6367.09
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00020,4,Cost Reviewed,2025-09-03,Costing,Alex Chen,True,False,5081.93
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00020,5,Design Released,2025-09-03,Costing,Jon Miller,False,False,4269.8
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00021,1,Concept Created,2025-09-16,Costing,Jon Miller,True,False,718.7
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00021,2,BOM Estimated,2025-09-22,ERP MM,Kenji Tanaka,True,False,2485.7
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00021,3,Supplier Checked,2025-09-28,Costing,Nina Patel,False,False,572.11
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00021,4,Cost Reviewed,2025-10-03,PLM,Alex Chen,False,False,1590.16
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00021,5,Design Released,2025-10-07,PLM,Jon Miller,False,False,6397.04
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00022,1,Concept Created,2025-02-21,Sourcing,Jon Miller,False,False,3404.12
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00022,2,BOM Estimated,2025-02-21,Costing,Sara Novak,True,True,3625.35
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00022,3,Supplier Checked,2025-02-24,Costing,Jon Miller,False,False,1769.24
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00022,4,Cost Reviewed,2025-03-01,ERP MM,Kenji Tanaka,False,False,2833.69
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00022,5,Design Released,2025-03-04,PLM,Nina Patel,False,False,6514.03
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00023,1,Concept Created,2026-02-12,ERP MM,Thomas Weber,True,False,382.03
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00023,2,BOM Estimated,2026-02-16,Costing,Sara Novak,True,False,5603.76
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00023,3,Supplier Checked,2026-02-17,ERP MM,Kenji Tanaka,True,False,1423.97
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00023,4,Cost Reviewed,2026-02-19,Sourcing,Priya Rao,True,False,1394.17
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00023,5,Design Released,2026-02-20,Costing,Thomas Weber,True,False,1163.89
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00024,1,Concept Created,2026-03-26,PLM,Alex Chen,False,False,2714.05
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00024,2,BOM Estimated,2026-03-29,PLM,Sara Novak,False,True,1012.71
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00024,3,Supplier Checked,2026-04-03,Costing,Nina Patel,False,True,5294.73
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00024,4,Cost Reviewed,2026-04-07,Sourcing,Kenji Tanaka,True,False,4422.04
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00024,5,Design Released,2026-04-09,Sourcing,Jon Miller,True,True,5525.1
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00025,1,Concept Created,2025-09-24,ERP MM,Maria Garcia,False,False,5737.24
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00025,2,BOM Estimated,2025-09-27,ERP MM,Maria Garcia,True,False,2506.94
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00025,3,Supplier Checked,2025-10-02,ERP MM,Priya Rao,False,False,5038.71
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00025,4,Cost Reviewed,2025-10-04,Costing,Thomas Weber,True,False,6099.75
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00025,5,Design Released,2025-10-09,Costing,Nina Patel,False,False,4936.13
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00026,1,Concept Created,2025-05-27,Sourcing,Alex Chen,True,False,2974.71
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00026,2,BOM Estimated,2025-05-27,Sourcing,Nina Patel,False,False,2424.63
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00026,3,Supplier Checked,2025-05-27,Costing,Maria Garcia,False,False,3685.43
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00026,4,Cost Reviewed,2025-06-02,ERP MM,Kenji Tanaka,False,False,3765.79
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00026,5,Design Released,2025-06-02,Costing,Jon Miller,True,False,6034.31
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00027,1,Concept Created,2025-04-28,PLM,Kenji Tanaka,True,False,5267.51
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00027,2,BOM Estimated,2025-05-04,Sourcing,Priya Rao,True,False,4993.86
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00027,3,Supplier Checked,2025-05-05,ERP MM,Thomas Weber,False,False,2900.41
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00027,4,Cost Reviewed,2025-05-09,Sourcing,Kenji Tanaka,True,False,3221.85
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00027,5,Design Released,2025-05-15,Sourcing,Maria Garcia,False,False,5434.67
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00028,1,Concept Created,2025-05-22,Costing,Maria Garcia,True,False,1695.75
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00028,2,BOM Estimated,2025-05-25,ERP MM,Sara Novak,False,False,1303.92
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00028,3,Supplier Checked,2025-05-31,ERP MM,Alex Chen,False,False,7293.03
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00028,4,Cost Reviewed,2025-06-05,ERP MM,Alex Chen,True,False,6540.85
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00028,5,Design Released,2025-06-09,ERP MM,Sara Novak,False,False,3808.54
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00029,1,Concept Created,2025-07-18,PLM,Priya Rao,False,False,2499.89
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00029,2,BOM Estimated,2025-07-24,Costing,Jon Miller,True,False,340.53
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00029,3,Supplier Checked,2025-07-30,Sourcing,Kenji Tanaka,False,False,2034.58
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00029,4,Cost Reviewed,2025-08-02,Costing,Maria Garcia,True,True,1565.34
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00029,5,Design Released,2025-08-08,Sourcing,Jon Miller,True,False,163.15
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00030,1,Concept Created,2025-09-28,Costing,Alex Chen,True,False,7938.33
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00030,2,BOM Estimated,2025-09-30,Sourcing,Nina Patel,True,False,7298.3
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00030,3,Supplier Checked,2025-10-05,ERP MM,Sara Novak,True,False,1973.02
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00030,4,Cost Reviewed,2025-10-05,PLM,Thomas Weber,True,False,295.71
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00030,5,Design Released,2025-10-06,Costing,Kenji Tanaka,True,False,4286.4
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00031,1,Concept Created,2025-11-06,PLM,Priya Rao,True,True,6565.14
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00031,2,BOM Estimated,2025-11-12,ERP MM,Kenji Tanaka,False,False,3294.33
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00031,3,Supplier Checked,2025-11-14,Costing,Thomas Weber,False,False,2494.34
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00031,4,Cost Reviewed,2025-11-18,ERP MM,Priya Rao,False,False,219.99
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00031,5,Design Released,2025-11-21,Costing,Kenji Tanaka,True,False,4813.82
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00032,1,Concept Created,2025-04-04,ERP MM,Nina Patel,True,False,2422.63
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00032,2,BOM Estimated,2025-04-07,ERP MM,Thomas Weber,False,False,555.24
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00032,3,Supplier Checked,2025-04-13,Costing,Sara Novak,True,True,55.17
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00032,4,Cost Reviewed,2025-04-17,Sourcing,Priya Rao,False,False,515.93
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00032,5,Design Released,2025-04-23,PLM,Alex Chen,False,False,7578.58
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00033,1,Concept Created,2026-02-07,Sourcing,Jon Miller,False,False,6196.1
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00033,2,BOM Estimated,2026-02-08,PLM,Jon Miller,False,False,5113.55
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00033,3,Supplier Checked,2026-02-11,ERP MM,Jon Miller,True,False,6857.67
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00033,4,Cost Reviewed,2026-02-16,Costing,Jon Miller,True,False,7840.77
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00033,5,Design Released,2026-02-18,PLM,Sara Novak,False,False,2157.54
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00034,1,Concept Created,2025-10-31,Costing,Alex Chen,False,False,3828.12
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00034,2,BOM Estimated,2025-11-05,Sourcing,Nina Patel,False,False,7663.99
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00034,3,Supplier Checked,2025-11-10,Costing,Nina Patel,True,False,3900.03
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00034,4,Cost Reviewed,2025-11-10,Sourcing,Nina Patel,False,False,2106.22
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00034,5,Design Released,2025-11-14,Costing,Maria Garcia,True,False,6340.32
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00035,1,Concept Created,2025-08-24,PLM,Sara Novak,True,False,7376.02
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00035,2,BOM Estimated,2025-08-29,Costing,Priya Rao,True,False,2729.83
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00035,3,Supplier Checked,2025-08-29,Sourcing,Kenji Tanaka,False,False,1586.15
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00035,4,Cost Reviewed,2025-08-30,Costing,Sara Novak,False,False,3527.51
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00035,5,Design Released,2025-09-04,Costing,Kenji Tanaka,False,False,301.24
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00036,1,Concept Created,2025-07-18,Costing,Kenji Tanaka,False,False,4591.95
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00036,2,BOM Estimated,2025-07-21,PLM,Sara Novak,False,False,6677.59
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00036,3,Supplier Checked,2025-07-23,Sourcing,Jon Miller,True,False,655.25
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00036,4,Cost Reviewed,2025-07-27,PLM,Jon Miller,False,True,1962.92
+design2cost,Design2Cost / Design2Source,DESIGN2COST-00036,5,Design Released,2025-07-28,Sourcing,Kenji Tanaka,True,False,5278.62

@@ -100,6 +100,42 @@ def check_required_files(root: Path) -> list[str]:
     return [f"{item}: required file is missing" for item in required if not (root / item).exists()]
 
 
+def check_industry_demo_data(root: Path) -> list[str]:
+    errors: list[str] = []
+    catalog_path = root / "data/industry_process_catalog.json"
+    if not catalog_path.exists():
+        return ["data/industry_process_catalog.json: required process catalog is missing"]
+
+    catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+    processes = catalog.get("processes", [])
+    if len(processes) < 32:
+        errors.append(f"{catalog_path}: expected at least 32 industrial processes, found {len(processes)}")
+
+    for process in processes:
+        process_id = process.get("processId")
+        if not process_id:
+            errors.append(f"{catalog_path}: process without processId")
+            continue
+        folder = root / "outputs" / "industry-demo-data" / str(process_id)
+        for filename, min_rows in {
+            "cases.csv": 10,
+            "events.csv": 30,
+            "kpi_snapshots.csv": 12,
+        }.items():
+            path = folder / filename
+            if not path.exists():
+                errors.append(f"{path}: required demo data file is missing")
+                continue
+            row_count = max(0, len(path.read_text(encoding="utf-8").splitlines()) - 1)
+            if row_count < min_rows:
+                errors.append(f"{path}: expected at least {min_rows} data rows, found {row_count}")
+
+    index_path = root / "outputs" / "industry-demo-data" / "index.csv"
+    if not index_path.exists():
+        errors.append(f"{index_path}: industry demo data index is missing")
+    return errors
+
+
 def run(root: Path) -> int:
     errors: list[str] = []
     errors.extend(check_required_files(root))
@@ -114,6 +150,7 @@ def run(root: Path) -> int:
     errors.extend(check_github_yaml(root))
     errors.extend(check_markdown_links(root))
     errors.extend(check_root_english(root))
+    errors.extend(check_industry_demo_data(root))
 
     if errors:
         for error in errors:

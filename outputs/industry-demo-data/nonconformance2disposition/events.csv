@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00001,1,Defect Logged,2025-11-19,QMS,Priya Rao,True,True,7661.72
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00001,2,Stock Blocked,2025-11-22,QMS,Alex Chen,True,False,5636.55
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00001,3,Review Board,2025-11-25,ERP QM,Sara Novak,False,False,1674.47
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00001,4,Disposition Decided,2025-11-27,WMS,Kenji Tanaka,False,False,3998.0
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00001,5,Released Or Scrapped,2025-11-28,ERP QM,Thomas Weber,False,False,1573.31
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00002,1,Defect Logged,2025-02-11,Supplier Portal,Alex Chen,True,False,427.2
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00002,2,Stock Blocked,2025-02-17,ERP QM,Thomas Weber,True,True,5080.07
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00002,3,Review Board,2025-02-23,QMS,Nina Patel,False,False,5261.55
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00002,4,Disposition Decided,2025-02-26,WMS,Kenji Tanaka,False,False,6226.94
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00002,5,Released Or Scrapped,2025-03-04,Supplier Portal,Nina Patel,False,False,621.17
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00003,1,Defect Logged,2025-02-10,ERP QM,Sara Novak,False,False,6003.29
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00003,2,Stock Blocked,2025-02-16,WMS,Sara Novak,True,False,7252.09
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00003,3,Review Board,2025-02-20,WMS,Maria Garcia,True,False,6174.27
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00003,4,Disposition Decided,2025-02-25,WMS,Sara Novak,False,False,1961.37
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00003,5,Released Or Scrapped,2025-02-26,QMS,Nina Patel,False,False,5217.79
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00004,1,Defect Logged,2025-08-23,Supplier Portal,Kenji Tanaka,True,False,6038.95
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00004,2,Stock Blocked,2025-08-28,Supplier Portal,Nina Patel,True,False,6853.5
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00004,3,Review Board,2025-08-29,ERP QM,Alex Chen,False,False,2114.43
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00004,4,Disposition Decided,2025-09-03,WMS,Thomas Weber,False,False,1762.55
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00004,5,Released Or Scrapped,2025-09-07,QMS,Sara Novak,False,False,2387.09
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00005,1,Defect Logged,2025-08-21,WMS,Thomas Weber,True,True,5810.98
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00005,2,Stock Blocked,2025-08-22,ERP QM,Nina Patel,False,False,635.39
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00005,3,Review Board,2025-08-26,Supplier Portal,Maria Garcia,True,True,5641.32
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00005,4,Disposition Decided,2025-08-26,ERP QM,Thomas Weber,False,False,7500.13
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00005,5,Released Or Scrapped,2025-09-01,WMS,Maria Garcia,True,False,4653.97
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00006,1,Defect Logged,2025-09-30,QMS,Alex Chen,False,False,6684.21
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00006,2,Stock Blocked,2025-10-06,QMS,Maria Garcia,True,False,6910.27
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00006,3,Review Board,2025-10-06,WMS,Jon Miller,True,False,2931.56
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00006,4,Disposition Decided,2025-10-10,Supplier Portal,Maria Garcia,True,False,4350.27
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00006,5,Released Or Scrapped,2025-10-12,WMS,Nina Patel,True,False,2447.77
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00007,1,Defect Logged,2025-05-22,WMS,Alex Chen,False,False,4262.58
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00007,2,Stock Blocked,2025-05-28,WMS,Priya Rao,False,False,3747.55
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00007,3,Review Board,2025-05-31,QMS,Thomas Weber,False,False,3896.26
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00007,4,Disposition Decided,2025-06-01,Supplier Portal,Maria Garcia,False,False,6882.49
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00007,5,Released Or Scrapped,2025-06-03,WMS,Jon Miller,False,False,3649.19
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00008,1,Defect Logged,2025-06-13,ERP QM,Nina Patel,True,False,6754.86
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00008,2,Stock Blocked,2025-06-17,ERP QM,Nina Patel,False,False,3534.95
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00008,3,Review Board,2025-06-20,ERP QM,Maria Garcia,False,True,411.96
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00008,4,Disposition Decided,2025-06-24,WMS,Maria Garcia,False,True,3900.8
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00008,5,Released Or Scrapped,2025-06-24,QMS,Sara Novak,False,False,3505.01
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00009,1,Defect Logged,2025-08-22,ERP QM,Thomas Weber,True,False,5201.84
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00009,2,Stock Blocked,2025-08-22,Supplier Portal,Kenji Tanaka,True,False,3777.38
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00009,3,Review Board,2025-08-24,QMS,Kenji Tanaka,True,False,5374.09
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00009,4,Disposition Decided,2025-08-30,ERP QM,Kenji Tanaka,False,True,5891.88
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00009,5,Released Or Scrapped,2025-08-30,ERP QM,Nina Patel,True,False,2511.63
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00010,1,Defect Logged,2025-03-21,Supplier Portal,Maria Garcia,True,False,7114.65
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00010,2,Stock Blocked,2025-03-24,QMS,Alex Chen,True,False,1287.02
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00010,3,Review Board,2025-03-26,QMS,Maria Garcia,False,False,5375.43
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00010,4,Disposition Decided,2025-03-30,QMS,Alex Chen,False,False,7631.28
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00010,5,Released Or Scrapped,2025-04-05,WMS,Thomas Weber,False,False,2512.78
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00011,1,Defect Logged,2025-07-03,Supplier Portal,Sara Novak,False,True,6358.34
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00011,2,Stock Blocked,2025-07-06,ERP QM,Nina Patel,False,True,7750.86
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00011,3,Review Board,2025-07-10,ERP QM,Thomas Weber,True,False,4318.88
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00011,4,Disposition Decided,2025-07-12,ERP QM,Priya Rao,True,False,7551.11
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00011,5,Released Or Scrapped,2025-07-13,ERP QM,Kenji Tanaka,False,False,5513.22
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00012,1,Defect Logged,2025-03-29,WMS,Nina Patel,False,False,5881.99
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00012,2,Stock Blocked,2025-03-29,QMS,Maria Garcia,True,False,3553.42
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00012,3,Review Board,2025-03-29,QMS,Alex Chen,False,False,5869.92
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00012,4,Disposition Decided,2025-04-01,Supplier Portal,Jon Miller,True,False,4098.48
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00012,5,Released Or Scrapped,2025-04-07,ERP QM,Jon Miller,True,False,5793.26
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00013,1,Defect Logged,2025-11-07,ERP QM,Priya Rao,False,False,830.74
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00013,2,Stock Blocked,2025-11-10,Supplier Portal,Alex Chen,False,False,7465.63
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00013,3,Review Board,2025-11-10,ERP QM,Sara Novak,False,False,1940.09
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00013,4,Disposition Decided,2025-11-14,Supplier Portal,Nina Patel,False,False,655.31
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00013,5,Released Or Scrapped,2025-11-18,Supplier Portal,Alex Chen,False,False,7433.75
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00014,1,Defect Logged,2025-10-11,QMS,Alex Chen,True,True,3284.08
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00014,2,Stock Blocked,2025-10-16,ERP QM,Alex Chen,True,False,5470.28
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00014,3,Review Board,2025-10-17,QMS,Kenji Tanaka,True,False,6697.29
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00014,4,Disposition Decided,2025-10-19,ERP QM,Alex Chen,True,True,1666.64
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00014,5,Released Or Scrapped,2025-10-21,ERP QM,Thomas Weber,True,False,5547.21
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00015,1,Defect Logged,2025-07-12,QMS,Alex Chen,True,False,2657.49
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00015,2,Stock Blocked,2025-07-16,WMS,Nina Patel,False,True,6728.99
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00015,3,Review Board,2025-07-20,QMS,Priya Rao,True,False,3479.97
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00015,4,Disposition Decided,2025-07-22,QMS,Sara Novak,True,False,901.74
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00015,5,Released Or Scrapped,2025-07-24,QMS,Sara Novak,False,False,4834.21
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00016,1,Defect Logged,2025-11-11,WMS,Sara Novak,False,False,2395.66
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00016,2,Stock Blocked,2025-11-16,WMS,Nina Patel,True,False,6682.58
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00016,3,Review Board,2025-11-16,ERP QM,Thomas Weber,False,False,5945.11
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00016,4,Disposition Decided,2025-11-20,Supplier Portal,Kenji Tanaka,True,True,610.33
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00016,5,Released Or Scrapped,2025-11-20,Supplier Portal,Nina Patel,False,False,3741.48
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00017,1,Defect Logged,2026-02-13,QMS,Maria Garcia,True,False,884.83
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00017,2,Stock Blocked,2026-02-16,Supplier Portal,Maria Garcia,False,False,2162.21
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00017,3,Review Board,2026-02-22,Supplier Portal,Maria Garcia,False,False,1729.7
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00017,4,Disposition Decided,2026-02-27,Supplier Portal,Alex Chen,False,False,2832.28
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00017,5,Released Or Scrapped,2026-03-04,ERP QM,Alex Chen,True,False,3925.43
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00018,1,Defect Logged,2025-04-19,ERP QM,Priya Rao,True,False,2804.02
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00018,2,Stock Blocked,2025-04-23,QMS,Thomas Weber,True,False,4028.13
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00018,3,Review Board,2025-04-26,ERP QM,Thomas Weber,False,False,7067.7
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00018,4,Disposition Decided,2025-04-30,Supplier Portal,Kenji Tanaka,False,False,7164.13
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00018,5,Released Or Scrapped,2025-05-01,QMS,Thomas Weber,True,False,3186.11
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00019,1,Defect Logged,2025-06-29,Supplier Portal,Alex Chen,False,False,4308.08
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00019,2,Stock Blocked,2025-06-29,ERP QM,Kenji Tanaka,True,False,2933.84
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00019,3,Review Board,2025-07-04,ERP QM,Priya Rao,True,False,1410.15
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00019,4,Disposition Decided,2025-07-09,WMS,Maria Garcia,False,True,6597.7
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00019,5,Released Or Scrapped,2025-07-14,QMS,Alex Chen,False,False,3766.45
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00020,1,Defect Logged,2025-10-25,WMS,Sara Novak,True,False,3772.57
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00020,2,Stock Blocked,2025-10-27,ERP QM,Kenji Tanaka,False,False,6292.12
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00020,3,Review Board,2025-10-30,QMS,Maria Garcia,False,False,788.44
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00020,4,Disposition Decided,2025-11-01,WMS,Kenji Tanaka,True,False,4760.67
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00020,5,Released Or Scrapped,2025-11-07,WMS,Alex Chen,False,False,2075.65
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00021,1,Defect Logged,2026-01-20,WMS,Alex Chen,True,False,6253.19
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00021,2,Stock Blocked,2026-01-23,ERP QM,Thomas Weber,True,True,2194.82
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00021,3,Review Board,2026-01-27,QMS,Thomas Weber,True,False,5681.97
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00021,4,Disposition Decided,2026-01-31,WMS,Alex Chen,False,False,1321.78
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00021,5,Released Or Scrapped,2026-02-03,ERP QM,Alex Chen,False,False,4465.58
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00022,1,Defect Logged,2025-09-26,Supplier Portal,Thomas Weber,False,False,3214.36
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00022,2,Stock Blocked,2025-09-28,ERP QM,Thomas Weber,True,False,1936.7
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00022,3,Review Board,2025-10-01,QMS,Kenji Tanaka,True,False,7710.96
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00022,4,Disposition Decided,2025-10-01,QMS,Sara Novak,True,False,2504.2
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00022,5,Released Or Scrapped,2025-10-06,QMS,Nina Patel,False,False,3424.31
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00023,1,Defect Logged,2026-02-27,ERP QM,Maria Garcia,True,False,808.34
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00023,2,Stock Blocked,2026-02-27,ERP QM,Priya Rao,True,False,2835.72
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00023,3,Review Board,2026-03-05,QMS,Kenji Tanaka,True,False,7527.25
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00023,4,Disposition Decided,2026-03-10,Supplier Portal,Sara Novak,False,False,4690.05
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00023,5,Released Or Scrapped,2026-03-12,ERP QM,Jon Miller,False,False,5893.35
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00024,1,Defect Logged,2025-07-24,QMS,Priya Rao,False,False,3240.04
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00024,2,Stock Blocked,2025-07-27,Supplier Portal,Kenji Tanaka,True,False,2850.57
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00024,3,Review Board,2025-08-02,Supplier Portal,Maria Garcia,True,False,2866.33
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00024,4,Disposition Decided,2025-08-05,WMS,Kenji Tanaka,True,False,5119.06
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00024,5,Released Or Scrapped,2025-08-06,ERP QM,Kenji Tanaka,False,False,7174.66
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00025,1,Defect Logged,2025-03-04,Supplier Portal,Alex Chen,True,False,3657.42
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00025,2,Stock Blocked,2025-03-06,Supplier Portal,Kenji Tanaka,True,False,1029.67
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00025,3,Review Board,2025-03-08,QMS,Jon Miller,False,True,5706.38
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00025,4,Disposition Decided,2025-03-08,Supplier Portal,Thomas Weber,False,False,1719.22
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00025,5,Released Or Scrapped,2025-03-08,QMS,Jon Miller,False,False,3340.67
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00026,1,Defect Logged,2025-11-22,QMS,Alex Chen,False,False,7120.14
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00026,2,Stock Blocked,2025-11-28,WMS,Nina Patel,False,False,1424.75
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00026,3,Review Board,2025-12-04,WMS,Kenji Tanaka,True,False,1439.92
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00026,4,Disposition Decided,2025-12-07,QMS,Maria Garcia,False,False,6621.46
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00026,5,Released Or Scrapped,2025-12-11,WMS,Priya Rao,True,False,5036.98
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00027,1,Defect Logged,2026-02-17,WMS,Kenji Tanaka,False,False,1808.82
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00027,2,Stock Blocked,2026-02-20,QMS,Kenji Tanaka,True,False,7548.67
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00027,3,Review Board,2026-02-20,QMS,Nina Patel,False,False,2255.54
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00027,4,Disposition Decided,2026-02-25,ERP QM,Priya Rao,True,False,554.51
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00027,5,Released Or Scrapped,2026-03-03,ERP QM,Jon Miller,False,False,635.92
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00028,1,Defect Logged,2025-11-02,QMS,Nina Patel,False,False,7408.09
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00028,2,Stock Blocked,2025-11-04,WMS,Jon Miller,True,False,4507.96
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00028,3,Review Board,2025-11-10,Supplier Portal,Nina Patel,True,False,2056.71
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00028,4,Disposition Decided,2025-11-15,Supplier Portal,Kenji Tanaka,False,False,6571.71
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00028,5,Released Or Scrapped,2025-11-19,WMS,Priya Rao,True,False,7690.8
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00029,1,Defect Logged,2025-07-17,QMS,Jon Miller,False,False,3953.43
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00029,2,Stock Blocked,2025-07-20,ERP QM,Nina Patel,True,False,4501.59
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00029,3,Review Board,2025-07-25,ERP QM,Nina Patel,False,False,3540.3
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00029,4,Disposition Decided,2025-07-30,Supplier Portal,Nina Patel,False,False,4275.63
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00029,5,Released Or Scrapped,2025-07-30,ERP QM,Maria Garcia,True,False,2331.39
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00030,1,Defect Logged,2026-03-21,WMS,Jon Miller,True,False,4312.51
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00030,2,Stock Blocked,2026-03-21,ERP QM,Sara Novak,False,False,6680.96
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00030,3,Review Board,2026-03-22,QMS,Alex Chen,True,False,2265.82
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00030,4,Disposition Decided,2026-03-26,ERP QM,Maria Garcia,True,False,2958.02
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00030,5,Released Or Scrapped,2026-03-31,ERP QM,Nina Patel,True,False,5258.89
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00031,1,Defect Logged,2025-06-18,ERP QM,Thomas Weber,False,False,6271.32
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00031,2,Stock Blocked,2025-06-23,WMS,Kenji Tanaka,True,False,7899.48
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00031,3,Review Board,2025-06-27,ERP QM,Alex Chen,True,False,4876.05
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00031,4,Disposition Decided,2025-06-30,WMS,Alex Chen,True,False,4540.15
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00031,5,Released Or Scrapped,2025-07-06,ERP QM,Sara Novak,False,False,6730.58
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00032,1,Defect Logged,2025-03-16,ERP QM,Maria Garcia,True,False,7758.56
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00032,2,Stock Blocked,2025-03-18,ERP QM,Thomas Weber,False,False,2062.22
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00032,3,Review Board,2025-03-22,WMS,Alex Chen,True,False,3593.23
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00032,4,Disposition Decided,2025-03-23,WMS,Sara Novak,True,False,6373.69
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00032,5,Released Or Scrapped,2025-03-26,WMS,Alex Chen,False,False,4974.3
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00033,1,Defect Logged,2025-02-04,Supplier Portal,Alex Chen,True,False,2089.42
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00033,2,Stock Blocked,2025-02-06,WMS,Thomas Weber,True,False,4647.58
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00033,3,Review Board,2025-02-11,Supplier Portal,Jon Miller,False,False,272.37
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00033,4,Disposition Decided,2025-02-16,QMS,Jon Miller,True,False,6853.35
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00033,5,Released Or Scrapped,2025-02-16,WMS,Thomas Weber,True,False,2218.87
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00034,1,Defect Logged,2026-02-20,Supplier Portal,Thomas Weber,False,False,2039.96
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00034,2,Stock Blocked,2026-02-26,WMS,Nina Patel,True,False,4545.73
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00034,3,Review Board,2026-02-28,QMS,Jon Miller,False,False,5497.56
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00034,4,Disposition Decided,2026-03-02,Supplier Portal,Jon Miller,True,False,6415.55
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00034,5,Released Or Scrapped,2026-03-07,Supplier Portal,Alex Chen,True,False,7740.94
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00035,1,Defect Logged,2025-04-06,ERP QM,Sara Novak,False,False,1689.51
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00035,2,Stock Blocked,2025-04-06,ERP QM,Nina Patel,False,False,809.28
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00035,3,Review Board,2025-04-08,ERP QM,Thomas Weber,False,False,1901.1
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00035,4,Disposition Decided,2025-04-13,ERP QM,Jon Miller,True,False,3024.82
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00035,5,Released Or Scrapped,2025-04-18,QMS,Priya Rao,False,True,7371.3
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00036,1,Defect Logged,2025-03-31,WMS,Sara Novak,True,True,766.1
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00036,2,Stock Blocked,2025-04-03,ERP QM,Alex Chen,True,False,6914.65
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00036,3,Review Board,2025-04-07,QMS,Priya Rao,False,True,2876.5
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00036,4,Disposition Decided,2025-04-07,WMS,Kenji Tanaka,True,False,320.8
+nonconformance2disposition,Nonconformance2Disposition,NONCONFORMANCE2DISPOSITION-00036,5,Released Or Scrapped,2025-04-09,Supplier Portal,Nina Patel,False,False,4289.84

@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+dock2stock,Dock2Stock,2025-01,Dock-to-Stock Time,16.36,18.78,0.94,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-01,GR Accuracy,11.89,17.88,0.89,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-01,Inspection Aging,16.25,16.98,0.85,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-01,Putaway Backlog,38.06,36.64,1.83,Green,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-01,Blocked Stock Value,57.08,57.76,2.89,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-02,Dock-to-Stock Time,37.17,37.16,1.86,Green,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-02,GR Accuracy,17.17,18.73,0.94,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-02,Inspection Aging,23.83,27.57,1.38,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-02,Putaway Backlog,42.16,52.34,2.62,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-02,Blocked Stock Value,47.54,51.05,2.55,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-03,Dock-to-Stock Time,44.01,47.04,2.35,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-03,GR Accuracy,27.54,28.98,1.45,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-03,Inspection Aging,27.11,28.84,1.44,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-03,Putaway Backlog,44.17,50.23,2.51,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-03,Blocked Stock Value,12.39,13.4,0.67,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-04,Dock-to-Stock Time,46.36,45.41,2.27,Green,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-04,GR Accuracy,8.12,11.87,0.59,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-04,Inspection Aging,36.19,35.07,1.75,Green,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-04,Putaway Backlog,32.41,35.53,1.78,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-04,Blocked Stock Value,15.56,18.16,0.91,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-05,Dock-to-Stock Time,31.41,31.52,1.58,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-05,GR Accuracy,18.45,21.21,1.06,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-05,Inspection Aging,52.4,55.27,2.76,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-05,Putaway Backlog,32.27,35.7,1.79,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-05,Blocked Stock Value,10.98,12.22,0.61,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-06,Dock-to-Stock Time,34.21,43.46,2.17,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-06,GR Accuracy,12.43,14.85,0.74,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-06,Inspection Aging,15.74,21.25,1.06,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-06,Putaway Backlog,23.48,30.51,1.53,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-06,Blocked Stock Value,28.39,32.08,1.6,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-07,Dock-to-Stock Time,35.0,35.91,1.8,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-07,GR Accuracy,14.68,16.27,0.81,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-07,Inspection Aging,19.73,22.15,1.11,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-07,Putaway Backlog,58.62,58.84,2.94,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-07,Blocked Stock Value,27.67,31.33,1.57,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-08,Dock-to-Stock Time,9.0,10.29,0.51,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-08,GR Accuracy,50.55,59.34,2.97,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-08,Inspection Aging,36.44,40.07,2.0,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-08,Putaway Backlog,20.08,23.04,1.15,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-08,Blocked Stock Value,20.19,23.39,1.17,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-09,Dock-to-Stock Time,15.4,15.58,0.78,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-09,GR Accuracy,10.86,12.12,0.61,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-09,Inspection Aging,25.3,28.44,1.42,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-09,Putaway Backlog,39.31,49.76,2.49,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-09,Blocked Stock Value,44.66,45.56,2.28,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-10,Dock-to-Stock Time,12.92,13.12,0.66,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-10,GR Accuracy,40.11,46.62,2.33,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-10,Inspection Aging,35.49,39.79,1.99,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-10,Putaway Backlog,36.57,47.42,2.37,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-10,Blocked Stock Value,53.21,53.35,2.67,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-11,Dock-to-Stock Time,35.47,40.16,2.01,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-11,GR Accuracy,48.6,48.43,2.42,Green,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-11,Inspection Aging,43.34,42.16,2.11,Green,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-11,Putaway Backlog,39.6,49.35,2.47,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-11,Blocked Stock Value,11.44,14.11,0.71,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-12,Dock-to-Stock Time,43.89,54.65,2.73,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-12,GR Accuracy,48.05,50.79,2.54,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-12,Inspection Aging,34.29,36.64,1.83,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-12,Putaway Backlog,16.08,16.69,0.83,Amber,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management
+dock2stock,Dock2Stock,2025-12,Blocked Stock Value,6.49,10.48,0.52,Red,Inbound Warehouse Process Owner,WMS; ERP MM; QMS; Yard Management

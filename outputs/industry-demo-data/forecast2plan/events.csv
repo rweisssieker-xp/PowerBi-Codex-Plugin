@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00001,1,Demand Signal Captured,2026-02-21,Data Warehouse,Alex Chen,False,True,3729.69
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00001,2,Baseline Forecast,2026-02-25,Demand Planning,Kenji Tanaka,True,False,4095.83
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00001,3,Consensus Forecast,2026-02-27,Data Warehouse,Jon Miller,True,False,3653.41
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00001,4,S&OP Approved,2026-03-02,ERP PP,Jon Miller,False,False,4564.35
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00001,5,Plan Released,2026-03-04,ERP PP,Maria Garcia,True,True,3933.61
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00002,1,Demand Signal Captured,2025-02-13,Demand Planning,Sara Novak,True,False,3021.27
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00002,2,Baseline Forecast,2025-02-19,IBP,Alex Chen,False,False,6926.14
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00002,3,Consensus Forecast,2025-02-19,Data Warehouse,Thomas Weber,False,False,1757.7
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00002,4,S&OP Approved,2025-02-23,ERP PP,Sara Novak,False,False,5532.02
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00002,5,Plan Released,2025-02-24,Demand Planning,Nina Patel,False,False,4908.41
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00003,1,Demand Signal Captured,2025-10-07,Data Warehouse,Jon Miller,True,False,3638.6
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00003,2,Baseline Forecast,2025-10-08,IBP,Maria Garcia,True,True,1626.3
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00003,3,Consensus Forecast,2025-10-08,IBP,Nina Patel,True,False,952.78
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00003,4,S&OP Approved,2025-10-14,IBP,Sara Novak,False,False,1926.28
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00003,5,Plan Released,2025-10-14,IBP,Kenji Tanaka,True,False,3312.6
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00004,1,Demand Signal Captured,2025-10-16,Data Warehouse,Sara Novak,True,False,4619.97
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00004,2,Baseline Forecast,2025-10-18,ERP PP,Priya Rao,True,False,7683.33
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00004,3,Consensus Forecast,2025-10-18,Data Warehouse,Jon Miller,False,False,4327.26
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00004,4,S&OP Approved,2025-10-23,IBP,Alex Chen,True,False,5979.2
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00004,5,Plan Released,2025-10-28,ERP PP,Thomas Weber,False,False,6555.11
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00005,1,Demand Signal Captured,2025-02-21,ERP PP,Sara Novak,True,True,257.39
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00005,2,Baseline Forecast,2025-02-25,ERP PP,Jon Miller,False,False,3545.96
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00005,3,Consensus Forecast,2025-03-01,Data Warehouse,Jon Miller,True,False,5391.94
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00005,4,S&OP Approved,2025-03-02,Demand Planning,Alex Chen,True,False,2581.14
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00005,5,Plan Released,2025-03-08,Data Warehouse,Nina Patel,True,False,4701.09
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00006,1,Demand Signal Captured,2025-07-24,Demand Planning,Maria Garcia,True,False,1261.39
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00006,2,Baseline Forecast,2025-07-28,IBP,Priya Rao,False,True,7716.08
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00006,3,Consensus Forecast,2025-07-31,Data Warehouse,Nina Patel,True,False,2142.28
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00006,4,S&OP Approved,2025-08-03,Demand Planning,Nina Patel,False,False,6835.49
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00006,5,Plan Released,2025-08-05,ERP PP,Jon Miller,True,False,4933.05
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00007,1,Demand Signal Captured,2025-03-18,Demand Planning,Alex Chen,False,False,5424.0
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00007,2,Baseline Forecast,2025-03-21,Demand Planning,Jon Miller,True,False,2142.47
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00007,3,Consensus Forecast,2025-03-23,IBP,Nina Patel,True,False,5424.67
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00007,4,S&OP Approved,2025-03-28,IBP,Alex Chen,False,False,589.61
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00007,5,Plan Released,2025-03-28,Data Warehouse,Alex Chen,True,False,3723.46
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00008,1,Demand Signal Captured,2025-04-13,ERP PP,Jon Miller,True,False,3255.02
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00008,2,Baseline Forecast,2025-04-17,ERP PP,Nina Patel,False,False,7183.03
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00008,3,Consensus Forecast,2025-04-19,Data Warehouse,Thomas Weber,True,False,1690.92
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00008,4,S&OP Approved,2025-04-22,Data Warehouse,Maria Garcia,False,False,1427.46
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00008,5,Plan Released,2025-04-26,IBP,Nina Patel,True,False,3659.39
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00009,1,Demand Signal Captured,2025-05-10,Data Warehouse,Sara Novak,False,False,6439.8
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00009,2,Baseline Forecast,2025-05-14,Demand Planning,Priya Rao,False,False,7485.03
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00009,3,Consensus Forecast,2025-05-17,Demand Planning,Maria Garcia,False,False,2658.41
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00009,4,S&OP Approved,2025-05-21,ERP PP,Alex Chen,True,False,5077.56
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00009,5,Plan Released,2025-05-21,Demand Planning,Sara Novak,False,False,3073.89
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00010,1,Demand Signal Captured,2025-06-11,Data Warehouse,Sara Novak,False,False,2424.94
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00010,2,Baseline Forecast,2025-06-15,IBP,Priya Rao,False,False,7381.74
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00010,3,Consensus Forecast,2025-06-17,IBP,Nina Patel,True,False,4687.53
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00010,4,S&OP Approved,2025-06-22,ERP PP,Priya Rao,True,False,3216.51
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00010,5,Plan Released,2025-06-27,Data Warehouse,Maria Garcia,True,True,6077.04
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00011,1,Demand Signal Captured,2025-01-21,ERP PP,Kenji Tanaka,False,False,3187.49
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00011,2,Baseline Forecast,2025-01-24,IBP,Thomas Weber,True,False,4818.43
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00011,3,Consensus Forecast,2025-01-24,ERP PP,Sara Novak,False,False,5174.56
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00011,4,S&OP Approved,2025-01-25,Demand Planning,Sara Novak,False,False,617.57
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00011,5,Plan Released,2025-01-30,Data Warehouse,Alex Chen,True,False,292.7
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00012,1,Demand Signal Captured,2025-11-19,Data Warehouse,Nina Patel,True,False,7450.59
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00012,2,Baseline Forecast,2025-11-19,ERP PP,Kenji Tanaka,False,False,3731.59
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00012,3,Consensus Forecast,2025-11-20,Data Warehouse,Sara Novak,False,False,5545.77
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00012,4,S&OP Approved,2025-11-20,Demand Planning,Thomas Weber,True,False,4308.65
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00012,5,Plan Released,2025-11-22,Data Warehouse,Alex Chen,True,False,1530.79
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00013,1,Demand Signal Captured,2026-03-05,Data Warehouse,Jon Miller,True,True,5739.25
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00013,2,Baseline Forecast,2026-03-10,IBP,Jon Miller,False,False,3464.44
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00013,3,Consensus Forecast,2026-03-10,Data Warehouse,Maria Garcia,False,False,4205.54
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00013,4,S&OP Approved,2026-03-11,Data Warehouse,Sara Novak,False,False,1850.36
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00013,5,Plan Released,2026-03-15,IBP,Sara Novak,False,False,2083.57
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00014,1,Demand Signal Captured,2025-11-07,ERP PP,Priya Rao,True,False,453.62
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00014,2,Baseline Forecast,2025-11-12,Demand Planning,Thomas Weber,True,False,6767.03
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00014,3,Consensus Forecast,2025-11-16,Demand Planning,Thomas Weber,True,False,677.01
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00014,4,S&OP Approved,2025-11-18,Demand Planning,Priya Rao,True,False,337.83
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00014,5,Plan Released,2025-11-20,Demand Planning,Nina Patel,False,True,2641.16
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00015,1,Demand Signal Captured,2025-01-08,Data Warehouse,Alex Chen,False,False,7461.61
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00015,2,Baseline Forecast,2025-01-10,Data Warehouse,Sara Novak,False,False,4466.51
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00015,3,Consensus Forecast,2025-01-16,IBP,Jon Miller,False,False,268.88
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00015,4,S&OP Approved,2025-01-18,Demand Planning,Alex Chen,True,False,672.6
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00015,5,Plan Released,2025-01-24,Demand Planning,Thomas Weber,True,False,7598.49
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00016,1,Demand Signal Captured,2025-02-26,ERP PP,Alex Chen,False,False,4436.98
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00016,2,Baseline Forecast,2025-03-02,Demand Planning,Jon Miller,False,False,2064.44
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00016,3,Consensus Forecast,2025-03-05,IBP,Alex Chen,False,False,3080.88
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00016,4,S&OP Approved,2025-03-06,IBP,Jon Miller,True,False,1161.47
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00016,5,Plan Released,2025-03-10,Data Warehouse,Maria Garcia,False,False,6698.7
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00017,1,Demand Signal Captured,2025-08-16,ERP PP,Sara Novak,False,False,6318.31
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00017,2,Baseline Forecast,2025-08-20,Data Warehouse,Maria Garcia,False,True,6980.41
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00017,3,Consensus Forecast,2025-08-20,Demand Planning,Sara Novak,False,False,7382.72
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00017,4,S&OP Approved,2025-08-20,Data Warehouse,Sara Novak,True,False,5653.56
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00017,5,Plan Released,2025-08-20,ERP PP,Thomas Weber,True,False,5585.5
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00018,1,Demand Signal Captured,2025-10-27,IBP,Kenji Tanaka,True,False,2091.32
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00018,2,Baseline Forecast,2025-11-02,Data Warehouse,Alex Chen,False,False,7324.33
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00018,3,Consensus Forecast,2025-11-05,IBP,Kenji Tanaka,True,False,6386.73
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00018,4,S&OP Approved,2025-11-07,ERP PP,Thomas Weber,True,False,4457.11
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00018,5,Plan Released,2025-11-07,Demand Planning,Thomas Weber,True,False,5629.48
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00019,1,Demand Signal Captured,2025-11-20,Data Warehouse,Nina Patel,True,False,3424.46
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00019,2,Baseline Forecast,2025-11-21,IBP,Jon Miller,True,False,753.02
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00019,3,Consensus Forecast,2025-11-26,IBP,Thomas Weber,True,False,65.09
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00019,4,S&OP Approved,2025-11-28,Data Warehouse,Kenji Tanaka,False,False,3328.24
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00019,5,Plan Released,2025-12-04,Data Warehouse,Maria Garcia,True,False,4544.89
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00020,1,Demand Signal Captured,2025-03-05,ERP PP,Priya Rao,True,False,1199.19
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00020,2,Baseline Forecast,2025-03-11,IBP,Priya Rao,True,False,4792.53
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00020,3,Consensus Forecast,2025-03-14,Demand Planning,Nina Patel,True,False,4582.58
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00020,4,S&OP Approved,2025-03-17,Data Warehouse,Jon Miller,True,False,3473.36
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00020,5,Plan Released,2025-03-17,Data Warehouse,Sara Novak,False,False,758.4
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00021,1,Demand Signal Captured,2025-08-24,IBP,Alex Chen,True,False,790.15
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00021,2,Baseline Forecast,2025-08-29,Data Warehouse,Nina Patel,True,False,4379.67
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00021,3,Consensus Forecast,2025-08-29,Demand Planning,Alex Chen,True,False,4637.38
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00021,4,S&OP Approved,2025-09-02,ERP PP,Nina Patel,False,False,7680.7
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00021,5,Plan Released,2025-09-06,Data Warehouse,Maria Garcia,False,False,4478.83
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00022,1,Demand Signal Captured,2025-01-08,ERP PP,Priya Rao,True,False,2321.28
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00022,2,Baseline Forecast,2025-01-10,IBP,Sara Novak,False,False,5147.47
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00022,3,Consensus Forecast,2025-01-11,Data Warehouse,Maria Garcia,True,True,3744.51
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00022,4,S&OP Approved,2025-01-12,ERP PP,Kenji Tanaka,False,False,3208.91
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00022,5,Plan Released,2025-01-14,IBP,Priya Rao,False,False,5547.25
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00023,1,Demand Signal Captured,2025-04-08,Data Warehouse,Alex Chen,True,False,3541.73
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00023,2,Baseline Forecast,2025-04-09,Data Warehouse,Thomas Weber,False,False,5517.85
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00023,3,Consensus Forecast,2025-04-09,ERP PP,Alex Chen,True,False,3902.12
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00023,4,S&OP Approved,2025-04-14,IBP,Nina Patel,False,False,7741.93
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00023,5,Plan Released,2025-04-18,ERP PP,Thomas Weber,True,False,5056.64
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00024,1,Demand Signal Captured,2025-05-07,Data Warehouse,Kenji Tanaka,True,False,5864.45
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00024,2,Baseline Forecast,2025-05-08,IBP,Sara Novak,False,False,6533.78
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00024,3,Consensus Forecast,2025-05-13,Data Warehouse,Jon Miller,True,False,7833.31
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00024,4,S&OP Approved,2025-05-14,Data Warehouse,Kenji Tanaka,False,False,4765.42
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00024,5,Plan Released,2025-05-19,ERP PP,Maria Garcia,True,False,4035.57
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00025,1,Demand Signal Captured,2025-05-12,Data Warehouse,Maria Garcia,False,False,679.77
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00025,2,Baseline Forecast,2025-05-12,Data Warehouse,Maria Garcia,False,False,2038.38
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00025,3,Consensus Forecast,2025-05-15,Data Warehouse,Kenji Tanaka,True,False,5858.88
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00025,4,S&OP Approved,2025-05-21,Demand Planning,Kenji Tanaka,False,False,5947.36
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00025,5,Plan Released,2025-05-26,ERP PP,Kenji Tanaka,True,False,1614.08
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00026,1,Demand Signal Captured,2025-08-13,IBP,Sara Novak,True,True,7824.64
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00026,2,Baseline Forecast,2025-08-14,Demand Planning,Alex Chen,True,True,4650.68
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00026,3,Consensus Forecast,2025-08-15,ERP PP,Jon Miller,False,False,351.17
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00026,4,S&OP Approved,2025-08-17,ERP PP,Kenji Tanaka,True,False,5404.77
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00026,5,Plan Released,2025-08-22,IBP,Kenji Tanaka,False,False,3324.03
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00027,1,Demand Signal Captured,2025-06-19,ERP PP,Thomas Weber,True,False,7500.42
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00027,2,Baseline Forecast,2025-06-19,ERP PP,Sara Novak,True,False,2671.93
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00027,3,Consensus Forecast,2025-06-24,Data Warehouse,Alex Chen,True,False,702.52
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00027,4,S&OP Approved,2025-06-30,IBP,Jon Miller,False,False,4451.73
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00027,5,Plan Released,2025-07-04,Demand Planning,Jon Miller,False,False,119.24
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00028,1,Demand Signal Captured,2025-03-28,Data Warehouse,Alex Chen,False,False,4888.63
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00028,2,Baseline Forecast,2025-03-28,ERP PP,Thomas Weber,True,False,2606.12
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00028,3,Consensus Forecast,2025-03-30,Data Warehouse,Jon Miller,True,False,4699.85
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00028,4,S&OP Approved,2025-04-01,ERP PP,Kenji Tanaka,False,False,1348.03
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00028,5,Plan Released,2025-04-02,Demand Planning,Nina Patel,True,False,5287.99
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00029,1,Demand Signal Captured,2025-11-15,IBP,Alex Chen,True,False,2144.13
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00029,2,Baseline Forecast,2025-11-20,IBP,Nina Patel,True,True,1263.31
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00029,3,Consensus Forecast,2025-11-23,IBP,Jon Miller,True,False,2870.55
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00029,4,S&OP Approved,2025-11-28,IBP,Alex Chen,True,False,7143.19
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00029,5,Plan Released,2025-12-03,Demand Planning,Thomas Weber,False,False,7896.63
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00030,1,Demand Signal Captured,2025-06-27,IBP,Sara Novak,True,False,7616.91
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00030,2,Baseline Forecast,2025-07-02,ERP PP,Thomas Weber,False,True,3096.89
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00030,3,Consensus Forecast,2025-07-02,Demand Planning,Maria Garcia,True,False,578.23
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00030,4,S&OP Approved,2025-07-02,ERP PP,Alex Chen,False,True,7417.28
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00030,5,Plan Released,2025-07-04,Data Warehouse,Alex Chen,True,False,2505.51
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00031,1,Demand Signal Captured,2026-01-03,Demand Planning,Alex Chen,False,True,6034.36
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00031,2,Baseline Forecast,2026-01-06,Data Warehouse,Jon Miller,True,False,7002.99
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00031,3,Consensus Forecast,2026-01-07,ERP PP,Nina Patel,True,False,884.15
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00031,4,S&OP Approved,2026-01-08,Data Warehouse,Jon Miller,False,False,6758.45
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00031,5,Plan Released,2026-01-10,Demand Planning,Nina Patel,False,True,4576.73
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00032,1,Demand Signal Captured,2025-12-12,Demand Planning,Nina Patel,True,False,3920.74
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00032,2,Baseline Forecast,2025-12-13,Data Warehouse,Priya Rao,False,False,2989.69
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00032,3,Consensus Forecast,2025-12-18,Data Warehouse,Priya Rao,False,False,2513.22
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00032,4,S&OP Approved,2025-12-24,IBP,Jon Miller,False,False,5540.88
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00032,5,Plan Released,2025-12-30,Data Warehouse,Maria Garcia,False,False,1894.25
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00033,1,Demand Signal Captured,2026-03-24,IBP,Alex Chen,True,False,7860.82
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00033,2,Baseline Forecast,2026-03-24,Demand Planning,Alex Chen,False,False,2377.06
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00033,3,Consensus Forecast,2026-03-25,Demand Planning,Jon Miller,False,False,1418.17
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00033,4,S&OP Approved,2026-03-28,Data Warehouse,Maria Garcia,False,False,4569.84
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00033,5,Plan Released,2026-04-02,ERP PP,Thomas Weber,True,False,6678.19
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00034,1,Demand Signal Captured,2026-01-01,Data Warehouse,Maria Garcia,True,False,689.27
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00034,2,Baseline Forecast,2026-01-06,ERP PP,Alex Chen,False,False,4785.91
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00034,3,Consensus Forecast,2026-01-10,ERP PP,Kenji Tanaka,True,False,4269.34
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00034,4,S&OP Approved,2026-01-10,Demand Planning,Nina Patel,True,False,6526.79
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00034,5,Plan Released,2026-01-16,Data Warehouse,Sara Novak,True,False,562.42
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00035,1,Demand Signal Captured,2025-11-20,Data Warehouse,Maria Garcia,True,False,2797.3
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00035,2,Baseline Forecast,2025-11-22,Demand Planning,Maria Garcia,False,False,64.32
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00035,3,Consensus Forecast,2025-11-26,Demand Planning,Jon Miller,False,False,4810.74
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00035,4,S&OP Approved,2025-11-29,ERP PP,Maria Garcia,True,True,692.57
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00035,5,Plan Released,2025-12-02,IBP,Kenji Tanaka,True,False,590.91
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00036,1,Demand Signal Captured,2025-07-30,Demand Planning,Maria Garcia,True,False,3008.5
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00036,2,Baseline Forecast,2025-08-03,ERP PP,Priya Rao,False,False,6180.05
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00036,3,Consensus Forecast,2025-08-04,ERP PP,Priya Rao,True,True,4908.2
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00036,4,S&OP Approved,2025-08-06,ERP PP,Thomas Weber,False,True,7582.74
+forecast2plan,Forecast2Plan,FORECAST2PLAN-00036,5,Plan Released,2025-08-10,Demand Planning,Jon Miller,False,False,2725.9

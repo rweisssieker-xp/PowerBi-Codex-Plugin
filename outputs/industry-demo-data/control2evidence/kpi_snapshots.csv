@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+control2evidence,Control2Evidence,2025-01,Control Effectiveness,27.91,33.32,1.67,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-01,Evidence Coverage,39.01,41.28,2.06,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-01,SoD Violations,13.25,16.7,0.83,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-01,Remediation Aging,43.47,47.43,2.37,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-01,Audit Gap Count,29.76,30.83,1.54,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-02,Control Effectiveness,47.74,53.48,2.67,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-02,Evidence Coverage,22.62,27.04,1.35,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-02,SoD Violations,29.9,33.93,1.7,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-02,Remediation Aging,7.97,12.08,0.6,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-02,Audit Gap Count,41.85,45.05,2.25,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-03,Control Effectiveness,28.7,33.71,1.69,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-03,Evidence Coverage,48.92,55.67,2.78,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-03,SoD Violations,8.38,14.05,0.7,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-03,Remediation Aging,18.11,24.93,1.25,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-03,Audit Gap Count,38.55,43.72,2.19,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-04,Control Effectiveness,46.0,51.26,2.56,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-04,Evidence Coverage,29.02,34.94,1.75,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-04,SoD Violations,43.89,47.22,2.36,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-04,Remediation Aging,42.0,46.77,2.34,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-04,Audit Gap Count,39.24,44.31,2.22,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-05,Control Effectiveness,30.63,38.92,1.95,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-05,Evidence Coverage,8.78,15.43,0.77,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-05,SoD Violations,46.34,54.83,2.74,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-05,Remediation Aging,34.89,39.97,2.0,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-05,Audit Gap Count,48.71,50.44,2.52,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-06,Control Effectiveness,45.62,57.39,2.87,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-06,Evidence Coverage,41.64,47.73,2.39,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-06,SoD Violations,47.3,55.35,2.77,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-06,Remediation Aging,30.06,38.61,1.93,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-06,Audit Gap Count,37.99,43.26,2.16,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-07,Control Effectiveness,43.62,45.48,2.27,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-07,Evidence Coverage,15.92,18.46,0.92,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-07,SoD Violations,46.95,55.07,2.75,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-07,Remediation Aging,45.32,46.74,2.34,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-07,Audit Gap Count,50.95,58.88,2.94,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-08,Control Effectiveness,8.74,10.48,0.52,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-08,Evidence Coverage,47.47,51.46,2.57,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-08,SoD Violations,31.91,36.8,1.84,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-08,Remediation Aging,40.5,44.22,2.21,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-08,Audit Gap Count,37.84,48.43,2.42,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-09,Control Effectiveness,25.71,33.24,1.66,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-09,Evidence Coverage,29.98,37.11,1.86,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-09,SoD Violations,36.76,40.47,2.02,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-09,Remediation Aging,28.22,32.4,1.62,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-09,Audit Gap Count,50.67,56.28,2.81,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-10,Control Effectiveness,22.58,29.84,1.49,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-10,Evidence Coverage,24.39,27.3,1.37,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-10,SoD Violations,49.54,59.64,2.98,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-10,Remediation Aging,16.34,20.43,1.02,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-10,Audit Gap Count,13.88,18.22,0.91,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-11,Control Effectiveness,35.79,39.74,1.99,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-11,Evidence Coverage,16.99,17.32,0.87,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-11,SoD Violations,22.73,24.55,1.23,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-11,Remediation Aging,40.81,49.81,2.49,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-11,Audit Gap Count,42.2,40.63,2.03,Green,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-12,Control Effectiveness,19.97,20.99,1.05,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-12,Evidence Coverage,26.94,27.06,1.35,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-12,SoD Violations,35.66,37.79,1.89,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-12,Remediation Aging,24.17,27.42,1.37,Red,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management
+control2evidence,Control2Evidence,2025-12,Audit Gap Count,29.17,32.12,1.61,Amber,Control-to-Evidence Process Owner,GRC; ERP; IAM; Audit Management

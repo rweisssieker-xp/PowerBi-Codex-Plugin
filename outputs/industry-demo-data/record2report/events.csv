@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+record2report,Record2Report,RECORD2REPORT-00001,1,Subledger Closed,2025-01-18,EPM,Jon Miller,True,False,2198.31
+record2report,Record2Report,RECORD2REPORT-00001,2,Journal Posted,2025-01-18,ERP FI/CO,Kenji Tanaka,False,False,1094.91
+record2report,Record2Report,RECORD2REPORT-00001,3,Reconciled,2025-01-21,GRC,Maria Garcia,False,False,1160.48
+record2report,Record2Report,RECORD2REPORT-00001,4,Consolidated,2025-01-21,ERP FI/CO,Kenji Tanaka,True,False,6768.76
+record2report,Record2Report,RECORD2REPORT-00001,5,Reported,2025-01-25,GRC,Maria Garcia,False,True,4046.55
+record2report,Record2Report,RECORD2REPORT-00002,1,Subledger Closed,2025-01-25,GRC,Sara Novak,False,False,1390.8
+record2report,Record2Report,RECORD2REPORT-00002,2,Journal Posted,2025-01-30,GRC,Thomas Weber,False,False,6133.1
+record2report,Record2Report,RECORD2REPORT-00002,3,Reconciled,2025-02-04,Consolidation,Jon Miller,True,False,5452.57
+record2report,Record2Report,RECORD2REPORT-00002,4,Consolidated,2025-02-08,Consolidation,Priya Rao,False,False,1685.69
+record2report,Record2Report,RECORD2REPORT-00002,5,Reported,2025-02-10,Consolidation,Kenji Tanaka,False,False,1786.47
+record2report,Record2Report,RECORD2REPORT-00003,1,Subledger Closed,2025-08-05,GRC,Priya Rao,False,False,3255.96
+record2report,Record2Report,RECORD2REPORT-00003,2,Journal Posted,2025-08-05,GRC,Priya Rao,True,False,5051.21
+record2report,Record2Report,RECORD2REPORT-00003,3,Reconciled,2025-08-11,GRC,Priya Rao,True,True,3604.73
+record2report,Record2Report,RECORD2REPORT-00003,4,Consolidated,2025-08-15,ERP FI/CO,Kenji Tanaka,True,False,358.99
+record2report,Record2Report,RECORD2REPORT-00003,5,Reported,2025-08-19,ERP FI/CO,Maria Garcia,True,False,6430.88
+record2report,Record2Report,RECORD2REPORT-00004,1,Subledger Closed,2025-06-19,EPM,Nina Patel,False,False,6101.05
+record2report,Record2Report,RECORD2REPORT-00004,2,Journal Posted,2025-06-21,ERP FI/CO,Jon Miller,True,False,4894.76
+record2report,Record2Report,RECORD2REPORT-00004,3,Reconciled,2025-06-22,ERP FI/CO,Priya Rao,False,False,1250.37
+record2report,Record2Report,RECORD2REPORT-00004,4,Consolidated,2025-06-27,GRC,Kenji Tanaka,True,False,5947.07
+record2report,Record2Report,RECORD2REPORT-00004,5,Reported,2025-07-03,ERP FI/CO,Priya Rao,True,False,2819.0
+record2report,Record2Report,RECORD2REPORT-00005,1,Subledger Closed,2025-05-21,GRC,Priya Rao,True,False,51.13
+record2report,Record2Report,RECORD2REPORT-00005,2,Journal Posted,2025-05-21,ERP FI/CO,Thomas Weber,False,False,5796.36
+record2report,Record2Report,RECORD2REPORT-00005,3,Reconciled,2025-05-26,GRC,Thomas Weber,False,False,7337.69
+record2report,Record2Report,RECORD2REPORT-00005,4,Consolidated,2025-05-30,Consolidation,Kenji Tanaka,True,False,3866.17
+record2report,Record2Report,RECORD2REPORT-00005,5,Reported,2025-06-03,ERP FI/CO,Thomas Weber,True,False,3693.35
+record2report,Record2Report,RECORD2REPORT-00006,1,Subledger Closed,2025-09-03,GRC,Thomas Weber,False,False,7627.54
+record2report,Record2Report,RECORD2REPORT-00006,2,Journal Posted,2025-09-04,ERP FI/CO,Kenji Tanaka,False,False,6929.55
+record2report,Record2Report,RECORD2REPORT-00006,3,Reconciled,2025-09-06,ERP FI/CO,Jon Miller,False,False,199.91
+record2report,Record2Report,RECORD2REPORT-00006,4,Consolidated,2025-09-09,ERP FI/CO,Sara Novak,False,False,6747.74
+record2report,Record2Report,RECORD2REPORT-00006,5,Reported,2025-09-12,Consolidation,Thomas Weber,True,False,5779.28
+record2report,Record2Report,RECORD2REPORT-00007,1,Subledger Closed,2025-12-29,GRC,Kenji Tanaka,False,False,1300.48
+record2report,Record2Report,RECORD2REPORT-00007,2,Journal Posted,2025-12-31,EPM,Kenji Tanaka,False,False,4114.63
+record2report,Record2Report,RECORD2REPORT-00007,3,Reconciled,2026-01-03,Consolidation,Maria Garcia,True,False,6338.51
+record2report,Record2Report,RECORD2REPORT-00007,4,Consolidated,2026-01-08,EPM,Kenji Tanaka,False,True,5102.09
+record2report,Record2Report,RECORD2REPORT-00007,5,Reported,2026-01-13,GRC,Jon Miller,False,False,7279.24
+record2report,Record2Report,RECORD2REPORT-00008,1,Subledger Closed,2025-05-29,Consolidation,Nina Patel,False,False,4640.41
+record2report,Record2Report,RECORD2REPORT-00008,2,Journal Posted,2025-05-29,ERP FI/CO,Maria Garcia,True,False,7702.86
+record2report,Record2Report,RECORD2REPORT-00008,3,Reconciled,2025-05-31,GRC,Kenji Tanaka,False,False,6461.24
+record2report,Record2Report,RECORD2REPORT-00008,4,Consolidated,2025-06-02,Consolidation,Thomas Weber,False,False,1459.67
+record2report,Record2Report,RECORD2REPORT-00008,5,Reported,2025-06-07,EPM,Kenji Tanaka,True,False,5526.18
+record2report,Record2Report,RECORD2REPORT-00009,1,Subledger Closed,2025-11-16,Consolidation,Alex Chen,False,False,4940.25
+record2report,Record2Report,RECORD2REPORT-00009,2,Journal Posted,2025-11-21,EPM,Alex Chen,False,False,567.32
+record2report,Record2Report,RECORD2REPORT-00009,3,Reconciled,2025-11-27,GRC,Maria Garcia,True,False,4300.13
+record2report,Record2Report,RECORD2REPORT-00009,4,Consolidated,2025-11-30,GRC,Sara Novak,True,False,6449.13
+record2report,Record2Report,RECORD2REPORT-00009,5,Reported,2025-12-05,GRC,Alex Chen,True,False,7582.94
+record2report,Record2Report,RECORD2REPORT-00010,1,Subledger Closed,2025-05-23,EPM,Priya Rao,True,False,3506.27
+record2report,Record2Report,RECORD2REPORT-00010,2,Journal Posted,2025-05-27,EPM,Thomas Weber,True,True,4104.68
+record2report,Record2Report,RECORD2REPORT-00010,3,Reconciled,2025-05-28,GRC,Maria Garcia,True,False,896.68
+record2report,Record2Report,RECORD2REPORT-00010,4,Consolidated,2025-05-28,GRC,Nina Patel,True,False,6583.54
+record2report,Record2Report,RECORD2REPORT-00010,5,Reported,2025-05-28,Consolidation,Kenji Tanaka,True,False,2070.93
+record2report,Record2Report,RECORD2REPORT-00011,1,Subledger Closed,2025-06-19,EPM,Sara Novak,False,False,2800.84
+record2report,Record2Report,RECORD2REPORT-00011,2,Journal Posted,2025-06-22,Consolidation,Sara Novak,True,False,2552.48
+record2report,Record2Report,RECORD2REPORT-00011,3,Reconciled,2025-06-26,EPM,Alex Chen,False,False,2741.0
+record2report,Record2Report,RECORD2REPORT-00011,4,Consolidated,2025-06-29,ERP FI/CO,Thomas Weber,True,True,5356.2
+record2report,Record2Report,RECORD2REPORT-00011,5,Reported,2025-07-05,GRC,Priya Rao,True,False,2456.1
+record2report,Record2Report,RECORD2REPORT-00012,1,Subledger Closed,2025-08-15,GRC,Nina Patel,True,False,1329.82
+record2report,Record2Report,RECORD2REPORT-00012,2,Journal Posted,2025-08-21,GRC,Sara Novak,True,False,250.57
+record2report,Record2Report,RECORD2REPORT-00012,3,Reconciled,2025-08-22,ERP FI/CO,Thomas Weber,False,True,5906.19
+record2report,Record2Report,RECORD2REPORT-00012,4,Consolidated,2025-08-23,ERP FI/CO,Thomas Weber,True,False,3734.74
+record2report,Record2Report,RECORD2REPORT-00012,5,Reported,2025-08-28,EPM,Kenji Tanaka,True,False,232.64
+record2report,Record2Report,RECORD2REPORT-00013,1,Subledger Closed,2026-03-29,ERP FI/CO,Alex Chen,False,False,627.93
+record2report,Record2Report,RECORD2REPORT-00013,2,Journal Posted,2026-03-30,EPM,Alex Chen,False,True,3186.92
+record2report,Record2Report,RECORD2REPORT-00013,3,Reconciled,2026-03-30,GRC,Thomas Weber,False,False,6826.21
+record2report,Record2Report,RECORD2REPORT-00013,4,Consolidated,2026-04-05,GRC,Sara Novak,True,False,4575.79
+record2report,Record2Report,RECORD2REPORT-00013,5,Reported,2026-04-11,EPM,Sara Novak,True,False,3327.4
+record2report,Record2Report,RECORD2REPORT-00014,1,Subledger Closed,2025-08-03,ERP FI/CO,Kenji Tanaka,False,False,7284.56
+record2report,Record2Report,RECORD2REPORT-00014,2,Journal Posted,2025-08-05,ERP FI/CO,Thomas Weber,False,False,7869.2
+record2report,Record2Report,RECORD2REPORT-00014,3,Reconciled,2025-08-05,GRC,Maria Garcia,True,False,4950.5
+record2report,Record2Report,RECORD2REPORT-00014,4,Consolidated,2025-08-07,GRC,Alex Chen,False,False,1379.88
+record2report,Record2Report,RECORD2REPORT-00014,5,Reported,2025-08-08,EPM,Nina Patel,True,False,4731.02
+record2report,Record2Report,RECORD2REPORT-00015,1,Subledger Closed,2025-01-24,ERP FI/CO,Priya Rao,False,False,4166.58
+record2report,Record2Report,RECORD2REPORT-00015,2,Journal Posted,2025-01-29,ERP FI/CO,Maria Garcia,True,False,3014.43
+record2report,Record2Report,RECORD2REPORT-00015,3,Reconciled,2025-01-29,EPM,Maria Garcia,True,True,7394.93
+record2report,Record2Report,RECORD2REPORT-00015,4,Consolidated,2025-02-01,Consolidation,Sara Novak,False,False,153.2
+record2report,Record2Report,RECORD2REPORT-00015,5,Reported,2025-02-07,ERP FI/CO,Jon Miller,False,False,3099.04
+record2report,Record2Report,RECORD2REPORT-00016,1,Subledger Closed,2025-04-27,GRC,Nina Patel,True,False,6121.63
+record2report,Record2Report,RECORD2REPORT-00016,2,Journal Posted,2025-04-28,EPM,Maria Garcia,True,False,6979.7
+record2report,Record2Report,RECORD2REPORT-00016,3,Reconciled,2025-05-01,GRC,Maria Garcia,True,False,1796.51
+record2report,Record2Report,RECORD2REPORT-00016,4,Consolidated,2025-05-05,EPM,Thomas Weber,True,False,7305.09
+record2report,Record2Report,RECORD2REPORT-00016,5,Reported,2025-05-06,ERP FI/CO,Jon Miller,True,False,2340.6
+record2report,Record2Report,RECORD2REPORT-00017,1,Subledger Closed,2025-11-22,GRC,Nina Patel,True,False,3889.75
+record2report,Record2Report,RECORD2REPORT-00017,2,Journal Posted,2025-11-28,ERP FI/CO,Jon Miller,True,False,5118.94
+record2report,Record2Report,RECORD2REPORT-00017,3,Reconciled,2025-12-04,EPM,Alex Chen,True,False,7593.06
+record2report,Record2Report,RECORD2REPORT-00017,4,Consolidated,2025-12-10,Consolidation,Nina Patel,True,True,7012.31
+record2report,Record2Report,RECORD2REPORT-00017,5,Reported,2025-12-14,GRC,Nina Patel,False,False,6253.78
+record2report,Record2Report,RECORD2REPORT-00018,1,Subledger Closed,2025-06-08,Consolidation,Sara Novak,True,False,178.01
+record2report,Record2Report,RECORD2REPORT-00018,2,Journal Posted,2025-06-12,ERP FI/CO,Sara Novak,False,False,1278.8
+record2report,Record2Report,RECORD2REPORT-00018,3,Reconciled,2025-06-14,EPM,Nina Patel,True,False,6234.2
+record2report,Record2Report,RECORD2REPORT-00018,4,Consolidated,2025-06-17,Consolidation,Sara Novak,True,True,6827.44
+record2report,Record2Report,RECORD2REPORT-00018,5,Reported,2025-06-17,ERP FI/CO,Nina Patel,False,False,4467.22
+record2report,Record2Report,RECORD2REPORT-00019,1,Subledger Closed,2025-09-27,EPM,Maria Garcia,True,False,6159.66
+record2report,Record2Report,RECORD2REPORT-00019,2,Journal Posted,2025-09-29,EPM,Alex Chen,False,False,2055.5
+record2report,Record2Report,RECORD2REPORT-00019,3,Reconciled,2025-10-04,Consolidation,Maria Garcia,True,False,57.36
+record2report,Record2Report,RECORD2REPORT-00019,4,Consolidated,2025-10-08,GRC,Maria Garcia,True,False,4438.68
+record2report,Record2Report,RECORD2REPORT-00019,5,Reported,2025-10-09,GRC,Kenji Tanaka,False,False,6007.53
+record2report,Record2Report,RECORD2REPORT-00020,1,Subledger Closed,2025-07-02,Consolidation,Sara Novak,True,False,1296.16
+record2report,Record2Report,RECORD2REPORT-00020,2,Journal Posted,2025-07-06,Consolidation,Sara Novak,True,False,899.54
+record2report,Record2Report,RECORD2REPORT-00020,3,Reconciled,2025-07-06,GRC,Thomas Weber,True,False,7828.02
+record2report,Record2Report,RECORD2REPORT-00020,4,Consolidated,2025-07-09,GRC,Maria Garcia,False,False,864.06
+record2report,Record2Report,RECORD2REPORT-00020,5,Reported,2025-07-13,ERP FI/CO,Kenji Tanaka,False,False,4977.05
+record2report,Record2Report,RECORD2REPORT-00021,1,Subledger Closed,2025-02-21,GRC,Jon Miller,True,False,5387.21
+record2report,Record2Report,RECORD2REPORT-00021,2,Journal Posted,2025-02-21,Consolidation,Sara Novak,False,True,7287.66
+record2report,Record2Report,RECORD2REPORT-00021,3,Reconciled,2025-02-27,Consolidation,Nina Patel,False,False,4929.99
+record2report,Record2Report,RECORD2REPORT-00021,4,Consolidated,2025-03-03,EPM,Maria Garcia,True,False,1682.2
+record2report,Record2Report,RECORD2REPORT-00021,5,Reported,2025-03-05,Consolidation,Priya Rao,True,True,2442.69
+record2report,Record2Report,RECORD2REPORT-00022,1,Subledger Closed,2025-10-26,Consolidation,Kenji Tanaka,True,False,7078.39
+record2report,Record2Report,RECORD2REPORT-00022,2,Journal Posted,2025-10-28,ERP FI/CO,Jon Miller,True,False,1078.41
+record2report,Record2Report,RECORD2REPORT-00022,3,Reconciled,2025-10-30,ERP FI/CO,Maria Garcia,True,False,5360.91
+record2report,Record2Report,RECORD2REPORT-00022,4,Consolidated,2025-11-04,ERP FI/CO,Sara Novak,False,False,2927.36
+record2report,Record2Report,RECORD2REPORT-00022,5,Reported,2025-11-08,ERP FI/CO,Nina Patel,True,False,5982.67
+record2report,Record2Report,RECORD2REPORT-00023,1,Subledger Closed,2025-04-19,ERP FI/CO,Nina Patel,False,False,2270.86
+record2report,Record2Report,RECORD2REPORT-00023,2,Journal Posted,2025-04-20,EPM,Jon Miller,True,False,6400.91
+record2report,Record2Report,RECORD2REPORT-00023,3,Reconciled,2025-04-23,Consolidation,Alex Chen,True,False,2567.65
+record2report,Record2Report,RECORD2REPORT-00023,4,Consolidated,2025-04-29,EPM,Kenji Tanaka,True,False,4690.52
+record2report,Record2Report,RECORD2REPORT-00023,5,Reported,2025-04-30,ERP FI/CO,Sara Novak,True,False,6136.08
+record2report,Record2Report,RECORD2REPORT-00024,1,Subledger Closed,2025-08-20,ERP FI/CO,Jon Miller,False,False,4469.94
+record2report,Record2Report,RECORD2REPORT-00024,2,Journal Posted,2025-08-22,ERP FI/CO,Maria Garcia,False,False,7215.44
+record2report,Record2Report,RECORD2REPORT-00024,3,Reconciled,2025-08-27,ERP FI/CO,Alex Chen,False,False,7744.06
+record2report,Record2Report,RECORD2REPORT-00024,4,Consolidated,2025-08-30,ERP FI/CO,Priya Rao,True,False,1510.39
+record2report,Record2Report,RECORD2REPORT-00024,5,Reported,2025-08-30,Consolidation,Thomas Weber,True,False,1249.45
+record2report,Record2Report,RECORD2REPORT-00025,1,Subledger Closed,2025-10-21,GRC,Alex Chen,True,False,3744.76
+record2report,Record2Report,RECORD2REPORT-00025,2,Journal Posted,2025-10-25,ERP FI/CO,Sara Novak,False,False,6488.0
+record2report,Record2Report,RECORD2REPORT-00025,3,Reconciled,2025-10-31,Consolidation,Alex Chen,False,False,657.06
+record2report,Record2Report,RECORD2REPORT-00025,4,Consolidated,2025-11-02,Consolidation,Nina Patel,False,False,1169.51
+record2report,Record2Report,RECORD2REPORT-00025,5,Reported,2025-11-02,EPM,Nina Patel,False,False,7828.35
+record2report,Record2Report,RECORD2REPORT-00026,1,Subledger Closed,2025-02-20,GRC,Nina Patel,True,False,3814.67
+record2report,Record2Report,RECORD2REPORT-00026,2,Journal Posted,2025-02-26,ERP FI/CO,Alex Chen,False,False,5560.21
+record2report,Record2Report,RECORD2REPORT-00026,3,Reconciled,2025-02-28,ERP FI/CO,Thomas Weber,True,False,4722.87
+record2report,Record2Report,RECORD2REPORT-00026,4,Consolidated,2025-03-01,Consolidation,Jon Miller,True,False,6931.78
+record2report,Record2Report,RECORD2REPORT-00026,5,Reported,2025-03-02,GRC,Kenji Tanaka,True,False,1551.68
+record2report,Record2Report,RECORD2REPORT-00027,1,Subledger Closed,2025-12-28,EPM,Kenji Tanaka,True,False,5195.35
+record2report,Record2Report,RECORD2REPORT-00027,2,Journal Posted,2025-12-30,GRC,Maria Garcia,True,False,5609.35
+record2report,Record2Report,RECORD2REPORT-00027,3,Reconciled,2025-12-31,EPM,Sara Novak,False,False,4937.7
+record2report,Record2Report,RECORD2REPORT-00027,4,Consolidated,2026-01-01,ERP FI/CO,Sara Novak,False,False,3882.84
+record2report,Record2Report,RECORD2REPORT-00027,5,Reported,2026-01-04,EPM,Alex Chen,True,False,397.84
+record2report,Record2Report,RECORD2REPORT-00028,1,Subledger Closed,2025-02-17,ERP FI/CO,Alex Chen,True,False,7772.54
+record2report,Record2Report,RECORD2REPORT-00028,2,Journal Posted,2025-02-19,EPM,Priya Rao,False,True,3688.08
+record2report,Record2Report,RECORD2REPORT-00028,3,Reconciled,2025-02-22,EPM,Thomas Weber,True,False,3727.9
+record2report,Record2Report,RECORD2REPORT-00028,4,Consolidated,2025-02-24,Consolidation,Kenji Tanaka,False,False,688.75
+record2report,Record2Report,RECORD2REPORT-00028,5,Reported,2025-03-01,EPM,Thomas Weber,False,False,513.84
+record2report,Record2Report,RECORD2REPORT-00029,1,Subledger Closed,2026-02-13,Consolidation,Nina Patel,False,True,2692.03
+record2report,Record2Report,RECORD2REPORT-00029,2,Journal Posted,2026-02-19,ERP FI/CO,Alex Chen,False,False,7881.77
+record2report,Record2Report,RECORD2REPORT-00029,3,Reconciled,2026-02-23,ERP FI/CO,Priya Rao,True,False,4956.37
+record2report,Record2Report,RECORD2REPORT-00029,4,Consolidated,2026-02-23,ERP FI/CO,Sara Novak,True,False,6827.97
+record2report,Record2Report,RECORD2REPORT-00029,5,Reported,2026-02-27,ERP FI/CO,Sara Novak,False,True,1115.01
+record2report,Record2Report,RECORD2REPORT-00030,1,Subledger Closed,2025-03-20,GRC,Sara Novak,True,False,4431.01
+record2report,Record2Report,RECORD2REPORT-00030,2,Journal Posted,2025-03-20,EPM,Nina Patel,False,False,6746.47
+record2report,Record2Report,RECORD2REPORT-00030,3,Reconciled,2025-03-23,Consolidation,Nina Patel,True,False,1067.84
+record2report,Record2Report,RECORD2REPORT-00030,4,Consolidated,2025-03-27,ERP FI/CO,Maria Garcia,True,False,7517.17
+record2report,Record2Report,RECORD2REPORT-00030,5,Reported,2025-03-31,GRC,Priya Rao,False,False,360.51
+record2report,Record2Report,RECORD2REPORT-00031,1,Subledger Closed,2025-12-17,EPM,Priya Rao,False,False,4751.01
+record2report,Record2Report,RECORD2REPORT-00031,2,Journal Posted,2025-12-18,ERP FI/CO,Sara Novak,False,False,4501.08
+record2report,Record2Report,RECORD2REPORT-00031,3,Reconciled,2025-12-21,Consolidation,Maria Garcia,True,False,3686.79
+record2report,Record2Report,RECORD2REPORT-00031,4,Consolidated,2025-12-23,ERP FI/CO,Jon Miller,True,False,1411.76
+record2report,Record2Report,RECORD2REPORT-00031,5,Reported,2025-12-28,Consolidation,Nina Patel,True,False,2336.39
+record2report,Record2Report,RECORD2REPORT-00032,1,Subledger Closed,2025-07-06,Consolidation,Maria Garcia,True,False,6053.04
+record2report,Record2Report,RECORD2REPORT-00032,2,Journal Posted,2025-07-06,EPM,Jon Miller,True,False,4747.99
+record2report,Record2Report,RECORD2REPORT-00032,3,Reconciled,2025-07-09,Consolidation,Sara Novak,False,False,4383.6
+record2report,Record2Report,RECORD2REPORT-00032,4,Consolidated,2025-07-12,EPM,Kenji Tanaka,True,False,2677.33
+record2report,Record2Report,RECORD2REPORT-00032,5,Reported,2025-07-13,Consolidation,Jon Miller,True,False,4420.77
+record2report,Record2Report,RECORD2REPORT-00033,1,Subledger Closed,2025-04-17,Consolidation,Thomas Weber,True,False,2683.12
+record2report,Record2Report,RECORD2REPORT-00033,2,Journal Posted,2025-04-19,EPM,Nina Patel,True,False,870.87
+record2report,Record2Report,RECORD2REPORT-00033,3,Reconciled,2025-04-19,GRC,Priya Rao,False,False,5889.9
+record2report,Record2Report,RECORD2REPORT-00033,4,Consolidated,2025-04-22,EPM,Jon Miller,True,False,3835.76
+record2report,Record2Report,RECORD2REPORT-00033,5,Reported,2025-04-28,ERP FI/CO,Sara Novak,False,False,89.05
+record2report,Record2Report,RECORD2REPORT-00034,1,Subledger Closed,2025-12-31,Consolidation,Sara Novak,False,False,3926.41
+record2report,Record2Report,RECORD2REPORT-00034,2,Journal Posted,2026-01-05,Consolidation,Thomas Weber,False,True,3277.95
+record2report,Record2Report,RECORD2REPORT-00034,3,Reconciled,2026-01-09,GRC,Nina Patel,True,False,7680.55
+record2report,Record2Report,RECORD2REPORT-00034,4,Consolidated,2026-01-12,ERP FI/CO,Sara Novak,True,False,675.04
+record2report,Record2Report,RECORD2REPORT-00034,5,Reported,2026-01-16,GRC,Thomas Weber,False,False,2182.76
+record2report,Record2Report,RECORD2REPORT-00035,1,Subledger Closed,2025-11-28,Consolidation,Priya Rao,False,True,5551.1
+record2report,Record2Report,RECORD2REPORT-00035,2,Journal Posted,2025-11-29,EPM,Maria Garcia,False,False,2607.01
+record2report,Record2Report,RECORD2REPORT-00035,3,Reconciled,2025-11-29,EPM,Priya Rao,True,False,7371.11
+record2report,Record2Report,RECORD2REPORT-00035,4,Consolidated,2025-11-29,ERP FI/CO,Priya Rao,False,False,783.26
+record2report,Record2Report,RECORD2REPORT-00035,5,Reported,2025-12-02,Consolidation,Thomas Weber,True,False,6587.41
+record2report,Record2Report,RECORD2REPORT-00036,1,Subledger Closed,2025-06-27,Consolidation,Sara Novak,True,False,5442.5
+record2report,Record2Report,RECORD2REPORT-00036,2,Journal Posted,2025-07-01,ERP FI/CO,Maria Garcia,False,False,6245.95
+record2report,Record2Report,RECORD2REPORT-00036,3,Reconciled,2025-07-02,Consolidation,Alex Chen,True,False,4718.04
+record2report,Record2Report,RECORD2REPORT-00036,4,Consolidated,2025-07-05,Consolidation,Nina Patel,False,False,4196.7
+record2report,Record2Report,RECORD2REPORT-00036,5,Reported,2025-07-11,GRC,Maria Garcia,True,False,3194.56

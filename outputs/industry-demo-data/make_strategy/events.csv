@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00001,1,Demand Assigned,2025-12-21,MES,Nina Patel,True,False,7794.61
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00001,2,Strategy Selected,2025-12-23,MES,Sara Novak,True,False,2309.96
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00001,3,Material Checked,2025-12-28,ERP PP,Nina Patel,True,False,7077.94
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00001,4,Build Started,2026-01-03,ERP PP,Alex Chen,True,False,2949.46
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00001,5,Customer Commitment Met,2026-01-03,ERP PP,Nina Patel,True,False,572.05
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00002,1,Demand Assigned,2025-04-16,APS,Sara Novak,False,True,1684.16
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00002,2,Strategy Selected,2025-04-22,MES,Sara Novak,True,False,3314.19
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00002,3,Material Checked,2025-04-23,ERP PP,Maria Garcia,True,False,5951.35
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00002,4,Build Started,2025-04-24,ERP PP,Kenji Tanaka,True,False,426.39
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00002,5,Customer Commitment Met,2025-04-29,MES,Kenji Tanaka,False,False,954.22
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00003,1,Demand Assigned,2025-06-28,MES,Priya Rao,True,False,1391.54
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00003,2,Strategy Selected,2025-06-29,PLM,Maria Garcia,False,False,4757.4
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00003,3,Material Checked,2025-07-04,PLM,Thomas Weber,True,False,624.06
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00003,4,Build Started,2025-07-08,PLM,Jon Miller,True,False,6020.75
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00003,5,Customer Commitment Met,2025-07-14,MES,Alex Chen,True,False,5201.34
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00004,1,Demand Assigned,2026-03-28,MES,Priya Rao,True,False,3244.41
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00004,2,Strategy Selected,2026-04-01,MES,Alex Chen,False,False,2998.44
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00004,3,Material Checked,2026-04-05,PLM,Nina Patel,False,False,5642.17
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00004,4,Build Started,2026-04-05,MES,Priya Rao,False,False,2060.83
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00004,5,Customer Commitment Met,2026-04-10,APS,Maria Garcia,False,False,6101.82
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00005,1,Demand Assigned,2025-03-09,APS,Maria Garcia,False,False,6466.92
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00005,2,Strategy Selected,2025-03-11,ERP PP,Maria Garcia,False,False,2853.58
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00005,3,Material Checked,2025-03-17,PLM,Priya Rao,True,False,1652.56
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00005,4,Build Started,2025-03-22,ERP PP,Priya Rao,True,False,300.86
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00005,5,Customer Commitment Met,2025-03-28,ERP PP,Priya Rao,True,False,6572.11
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00006,1,Demand Assigned,2025-06-22,MES,Thomas Weber,True,False,1105.56
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00006,2,Strategy Selected,2025-06-24,APS,Sara Novak,False,False,7264.88
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00006,3,Material Checked,2025-06-28,MES,Jon Miller,True,False,6835.02
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00006,4,Build Started,2025-07-01,PLM,Nina Patel,True,False,5356.96
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00006,5,Customer Commitment Met,2025-07-01,MES,Priya Rao,True,True,2050.55
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00007,1,Demand Assigned,2026-02-27,ERP PP,Kenji Tanaka,True,False,2658.74
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00007,2,Strategy Selected,2026-03-01,APS,Kenji Tanaka,False,False,3904.13
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00007,3,Material Checked,2026-03-02,APS,Sara Novak,True,False,6585.46
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00007,4,Build Started,2026-03-05,APS,Alex Chen,True,True,2655.88
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00007,5,Customer Commitment Met,2026-03-08,MES,Sara Novak,False,False,7303.59
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00008,1,Demand Assigned,2025-12-05,PLM,Kenji Tanaka,False,False,6330.3
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00008,2,Strategy Selected,2025-12-08,APS,Priya Rao,True,False,1848.65
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00008,3,Material Checked,2025-12-14,ERP PP,Alex Chen,False,False,3861.38
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00008,4,Build Started,2025-12-18,MES,Kenji Tanaka,False,False,3105.15
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00008,5,Customer Commitment Met,2025-12-20,MES,Sara Novak,True,False,6673.21
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00009,1,Demand Assigned,2025-08-16,ERP PP,Sara Novak,False,True,3634.15
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00009,2,Strategy Selected,2025-08-21,ERP PP,Thomas Weber,False,False,6465.75
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00009,3,Material Checked,2025-08-23,APS,Maria Garcia,True,False,4450.05
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00009,4,Build Started,2025-08-25,ERP PP,Priya Rao,True,False,3299.79
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00009,5,Customer Commitment Met,2025-08-30,PLM,Sara Novak,False,False,1418.3
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00010,1,Demand Assigned,2025-06-13,ERP PP,Priya Rao,True,False,559.0
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00010,2,Strategy Selected,2025-06-18,MES,Priya Rao,False,False,2668.34
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00010,3,Material Checked,2025-06-19,APS,Kenji Tanaka,True,False,6432.45
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00010,4,Build Started,2025-06-23,APS,Maria Garcia,True,False,2985.92
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00010,5,Customer Commitment Met,2025-06-23,MES,Kenji Tanaka,True,True,6767.61
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00011,1,Demand Assigned,2025-02-28,APS,Jon Miller,True,False,6903.37
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00011,2,Strategy Selected,2025-03-05,ERP PP,Thomas Weber,True,True,3033.07
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00011,3,Material Checked,2025-03-11,APS,Nina Patel,False,False,5017.16
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00011,4,Build Started,2025-03-16,PLM,Priya Rao,True,False,4304.96
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00011,5,Customer Commitment Met,2025-03-16,PLM,Maria Garcia,False,False,7669.68
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00012,1,Demand Assigned,2025-11-04,PLM,Nina Patel,False,True,6937.7
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00012,2,Strategy Selected,2025-11-09,APS,Kenji Tanaka,True,False,3634.64
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00012,3,Material Checked,2025-11-10,PLM,Thomas Weber,False,False,7952.61
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00012,4,Build Started,2025-11-15,ERP PP,Sara Novak,True,False,5158.6
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00012,5,Customer Commitment Met,2025-11-19,PLM,Jon Miller,True,False,3142.76
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00013,1,Demand Assigned,2026-02-04,PLM,Alex Chen,True,False,5447.2
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00013,2,Strategy Selected,2026-02-05,PLM,Nina Patel,False,False,329.87
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00013,3,Material Checked,2026-02-08,ERP PP,Priya Rao,True,False,78.06
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00013,4,Build Started,2026-02-14,PLM,Kenji Tanaka,False,False,7631.18
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00013,5,Customer Commitment Met,2026-02-17,APS,Kenji Tanaka,False,False,5030.52
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00014,1,Demand Assigned,2025-11-11,MES,Priya Rao,False,False,3631.78
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00014,2,Strategy Selected,2025-11-16,PLM,Alex Chen,False,False,7915.8
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00014,3,Material Checked,2025-11-19,APS,Maria Garcia,True,False,2634.45
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00014,4,Build Started,2025-11-19,APS,Thomas Weber,False,False,4227.46
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00014,5,Customer Commitment Met,2025-11-22,ERP PP,Priya Rao,False,False,4088.59
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00015,1,Demand Assigned,2025-08-02,APS,Priya Rao,True,False,4287.22
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00015,2,Strategy Selected,2025-08-02,PLM,Alex Chen,True,False,5677.73
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00015,3,Material Checked,2025-08-04,PLM,Thomas Weber,True,True,3082.2
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00015,4,Build Started,2025-08-08,PLM,Nina Patel,False,False,5220.96
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00015,5,Customer Commitment Met,2025-08-08,PLM,Kenji Tanaka,False,False,157.8
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00016,1,Demand Assigned,2025-05-04,MES,Jon Miller,True,False,5673.83
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00016,2,Strategy Selected,2025-05-06,ERP PP,Maria Garcia,False,False,4477.2
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00016,3,Material Checked,2025-05-12,PLM,Thomas Weber,False,False,4870.0
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00016,4,Build Started,2025-05-14,APS,Thomas Weber,False,False,481.93
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00016,5,Customer Commitment Met,2025-05-15,PLM,Thomas Weber,False,False,4960.36
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00017,1,Demand Assigned,2026-03-23,MES,Priya Rao,True,False,4715.11
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00017,2,Strategy Selected,2026-03-28,ERP PP,Priya Rao,True,False,1508.07
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00017,3,Material Checked,2026-04-01,MES,Alex Chen,True,False,805.96
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00017,4,Build Started,2026-04-02,ERP PP,Sara Novak,True,False,804.11
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00017,5,Customer Commitment Met,2026-04-07,ERP PP,Kenji Tanaka,False,True,1788.58
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00018,1,Demand Assigned,2025-12-05,PLM,Kenji Tanaka,False,False,128.44
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00018,2,Strategy Selected,2025-12-07,ERP PP,Alex Chen,True,False,6220.41
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00018,3,Material Checked,2025-12-09,PLM,Kenji Tanaka,False,False,6107.36
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00018,4,Build Started,2025-12-09,APS,Maria Garcia,False,False,837.48
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00018,5,Customer Commitment Met,2025-12-14,PLM,Jon Miller,False,False,4039.75
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00019,1,Demand Assigned,2025-10-26,ERP PP,Kenji Tanaka,True,False,4475.99
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00019,2,Strategy Selected,2025-11-01,ERP PP,Sara Novak,False,False,195.81
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00019,3,Material Checked,2025-11-02,MES,Thomas Weber,False,True,3903.09
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00019,4,Build Started,2025-11-05,MES,Priya Rao,False,False,1644.73
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00019,5,Customer Commitment Met,2025-11-05,APS,Sara Novak,True,False,1853.03
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00020,1,Demand Assigned,2025-01-30,APS,Nina Patel,True,False,5763.98
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00020,2,Strategy Selected,2025-02-03,MES,Jon Miller,True,False,1304.25
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00020,3,Material Checked,2025-02-04,MES,Maria Garcia,False,True,5038.58
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00020,4,Build Started,2025-02-07,PLM,Kenji Tanaka,True,False,5517.22
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00020,5,Customer Commitment Met,2025-02-12,APS,Jon Miller,True,False,3754.33
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00021,1,Demand Assigned,2025-10-05,APS,Maria Garcia,False,False,4544.7
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00021,2,Strategy Selected,2025-10-05,MES,Priya Rao,True,False,644.59
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00021,3,Material Checked,2025-10-08,PLM,Sara Novak,True,False,4459.82
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00021,4,Build Started,2025-10-14,PLM,Sara Novak,True,False,1177.73
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00021,5,Customer Commitment Met,2025-10-16,APS,Maria Garcia,False,False,295.94
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00022,1,Demand Assigned,2025-10-10,ERP PP,Alex Chen,False,True,3779.47
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00022,2,Strategy Selected,2025-10-10,APS,Sara Novak,True,False,3492.44
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00022,3,Material Checked,2025-10-13,MES,Priya Rao,False,False,127.73
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00022,4,Build Started,2025-10-14,ERP PP,Kenji Tanaka,True,False,285.5
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00022,5,Customer Commitment Met,2025-10-17,APS,Thomas Weber,False,False,6898.91
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00023,1,Demand Assigned,2026-03-15,ERP PP,Maria Garcia,False,False,399.07
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00023,2,Strategy Selected,2026-03-15,MES,Jon Miller,True,False,3953.36
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00023,3,Material Checked,2026-03-18,ERP PP,Priya Rao,False,False,1235.64
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00023,4,Build Started,2026-03-23,PLM,Kenji Tanaka,False,False,513.31
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00023,5,Customer Commitment Met,2026-03-28,APS,Priya Rao,True,False,2809.13
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00024,1,Demand Assigned,2025-05-20,PLM,Alex Chen,True,False,3724.0
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00024,2,Strategy Selected,2025-05-21,ERP PP,Nina Patel,True,False,7438.36
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00024,3,Material Checked,2025-05-22,APS,Maria Garcia,False,False,405.67
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00024,4,Build Started,2025-05-24,MES,Alex Chen,True,False,766.82
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00024,5,Customer Commitment Met,2025-05-30,ERP PP,Sara Novak,False,False,7457.89
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00025,1,Demand Assigned,2025-06-06,PLM,Kenji Tanaka,True,False,830.88
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00025,2,Strategy Selected,2025-06-09,PLM,Nina Patel,False,False,2372.0
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00025,3,Material Checked,2025-06-13,ERP PP,Sara Novak,True,False,688.87
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00025,4,Build Started,2025-06-15,MES,Jon Miller,True,False,1695.76
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00025,5,Customer Commitment Met,2025-06-18,MES,Thomas Weber,True,False,3136.01
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00026,1,Demand Assigned,2025-08-21,ERP PP,Nina Patel,False,False,6808.33
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00026,2,Strategy Selected,2025-08-27,MES,Priya Rao,False,False,3108.1
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00026,3,Material Checked,2025-08-29,PLM,Sara Novak,False,False,5445.22
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00026,4,Build Started,2025-09-03,APS,Nina Patel,True,False,4302.89
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00026,5,Customer Commitment Met,2025-09-07,MES,Jon Miller,False,False,1026.27
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00027,1,Demand Assigned,2026-02-02,PLM,Maria Garcia,True,False,2327.84
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00027,2,Strategy Selected,2026-02-07,MES,Thomas Weber,False,False,2332.51
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00027,3,Material Checked,2026-02-09,MES,Priya Rao,True,False,6709.02
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00027,4,Build Started,2026-02-15,ERP PP,Thomas Weber,False,True,2231.11
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00027,5,Customer Commitment Met,2026-02-20,APS,Maria Garcia,True,False,3440.93
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00028,1,Demand Assigned,2025-05-11,PLM,Maria Garcia,False,False,7513.14
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00028,2,Strategy Selected,2025-05-11,ERP PP,Kenji Tanaka,True,False,2597.63
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00028,3,Material Checked,2025-05-11,APS,Alex Chen,False,False,3345.86
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00028,4,Build Started,2025-05-15,PLM,Maria Garcia,True,False,5891.17
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00028,5,Customer Commitment Met,2025-05-17,APS,Maria Garcia,True,False,7645.54
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00029,1,Demand Assigned,2025-01-23,PLM,Kenji Tanaka,True,False,7305.98
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00029,2,Strategy Selected,2025-01-23,APS,Sara Novak,True,True,1205.9
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00029,3,Material Checked,2025-01-28,ERP PP,Maria Garcia,False,False,4053.49
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00029,4,Build Started,2025-02-02,APS,Alex Chen,False,False,6095.82
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00029,5,Customer Commitment Met,2025-02-03,MES,Kenji Tanaka,True,False,1999.94
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00030,1,Demand Assigned,2025-08-04,PLM,Maria Garcia,True,False,3733.1
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00030,2,Strategy Selected,2025-08-09,MES,Alex Chen,True,False,7675.0
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00030,3,Material Checked,2025-08-12,PLM,Jon Miller,False,False,7508.44
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00030,4,Build Started,2025-08-12,ERP PP,Maria Garcia,False,False,5989.84
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00030,5,Customer Commitment Met,2025-08-16,MES,Nina Patel,False,False,64.19
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00031,1,Demand Assigned,2025-09-26,ERP PP,Priya Rao,False,False,758.62
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00031,2,Strategy Selected,2025-09-28,PLM,Maria Garcia,False,False,6318.97
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00031,3,Material Checked,2025-10-04,PLM,Thomas Weber,True,False,6423.44
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00031,4,Build Started,2025-10-08,ERP PP,Priya Rao,True,False,1055.04
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00031,5,Customer Commitment Met,2025-10-12,PLM,Sara Novak,True,False,3723.31
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00032,1,Demand Assigned,2025-09-26,MES,Alex Chen,False,True,4602.89
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00032,2,Strategy Selected,2025-09-30,APS,Sara Novak,True,False,4050.92
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00032,3,Material Checked,2025-09-30,ERP PP,Maria Garcia,True,False,412.23
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00032,4,Build Started,2025-10-03,MES,Kenji Tanaka,True,False,2321.83
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00032,5,Customer Commitment Met,2025-10-03,ERP PP,Kenji Tanaka,True,True,6912.32
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00033,1,Demand Assigned,2025-10-10,PLM,Sara Novak,False,False,5956.87
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00033,2,Strategy Selected,2025-10-16,APS,Jon Miller,False,False,7056.12
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00033,3,Material Checked,2025-10-18,ERP PP,Alex Chen,True,False,3488.04
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00033,4,Build Started,2025-10-20,ERP PP,Kenji Tanaka,True,False,5063.78
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00033,5,Customer Commitment Met,2025-10-24,ERP PP,Thomas Weber,True,False,4579.61
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00034,1,Demand Assigned,2026-02-07,ERP PP,Jon Miller,False,False,1770.25
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00034,2,Strategy Selected,2026-02-09,APS,Thomas Weber,True,False,6624.87
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00034,3,Material Checked,2026-02-13,MES,Jon Miller,True,False,4487.02
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00034,4,Build Started,2026-02-16,ERP PP,Maria Garcia,True,False,5579.67
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00034,5,Customer Commitment Met,2026-02-19,APS,Kenji Tanaka,True,False,4255.75
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00035,1,Demand Assigned,2026-03-01,MES,Maria Garcia,False,False,2137.34
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00035,2,Strategy Selected,2026-03-06,APS,Kenji Tanaka,True,False,1968.8
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00035,3,Material Checked,2026-03-09,ERP PP,Alex Chen,False,False,1250.63
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00035,4,Build Started,2026-03-15,APS,Maria Garcia,False,False,5417.93
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00035,5,Customer Commitment Met,2026-03-17,MES,Nina Patel,True,False,1287.86
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00036,1,Demand Assigned,2025-10-12,MES,Priya Rao,True,False,3469.88
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00036,2,Strategy Selected,2025-10-13,PLM,Sara Novak,False,False,1037.76
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00036,3,Material Checked,2025-10-16,ERP PP,Kenji Tanaka,False,True,355.26
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00036,4,Build Started,2025-10-18,ERP PP,Thomas Weber,True,False,2785.83
+make_strategy,Make2Stock / Make2Order / Engineer2Order,MAKE_STRATEGY-00036,5,Customer Commitment Met,2025-10-20,MES,Alex Chen,True,False,1069.5

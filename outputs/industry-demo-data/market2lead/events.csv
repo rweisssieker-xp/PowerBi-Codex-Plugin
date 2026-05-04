@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+market2lead,Market2Lead,MARKET2LEAD-00001,1,Campaign Launched,2025-03-22,Marketing Automation,Alex Chen,True,False,3722.6
+market2lead,Market2Lead,MARKET2LEAD-00001,2,Lead Captured,2025-03-28,Marketing Automation,Kenji Tanaka,True,False,5362.92
+market2lead,Market2Lead,MARKET2LEAD-00001,3,MQL Scored,2025-03-31,Ad Platforms,Sara Novak,True,True,2801.53
+market2lead,Market2Lead,MARKET2LEAD-00001,4,SQL Accepted,2025-03-31,Ad Platforms,Maria Garcia,False,False,1570.31
+market2lead,Market2Lead,MARKET2LEAD-00001,5,Opportunity Created,2025-03-31,Web Analytics,Jon Miller,False,False,4017.44
+market2lead,Market2Lead,MARKET2LEAD-00002,1,Campaign Launched,2025-09-28,CRM,Sara Novak,False,True,2815.39
+market2lead,Market2Lead,MARKET2LEAD-00002,2,Lead Captured,2025-09-29,Ad Platforms,Kenji Tanaka,True,True,2738.85
+market2lead,Market2Lead,MARKET2LEAD-00002,3,MQL Scored,2025-09-29,Marketing Automation,Priya Rao,True,False,5833.31
+market2lead,Market2Lead,MARKET2LEAD-00002,4,SQL Accepted,2025-10-01,Web Analytics,Kenji Tanaka,True,False,2652.28
+market2lead,Market2Lead,MARKET2LEAD-00002,5,Opportunity Created,2025-10-03,Web Analytics,Priya Rao,True,False,139.57
+market2lead,Market2Lead,MARKET2LEAD-00003,1,Campaign Launched,2025-11-19,Marketing Automation,Maria Garcia,False,False,6554.19
+market2lead,Market2Lead,MARKET2LEAD-00003,2,Lead Captured,2025-11-23,Web Analytics,Nina Patel,False,False,7150.5
+market2lead,Market2Lead,MARKET2LEAD-00003,3,MQL Scored,2025-11-29,Ad Platforms,Thomas Weber,False,False,626.22
+market2lead,Market2Lead,MARKET2LEAD-00003,4,SQL Accepted,2025-12-01,Ad Platforms,Priya Rao,True,True,5931.69
+market2lead,Market2Lead,MARKET2LEAD-00003,5,Opportunity Created,2025-12-01,CRM,Alex Chen,False,False,3324.44
+market2lead,Market2Lead,MARKET2LEAD-00004,1,Campaign Launched,2025-04-04,CRM,Priya Rao,True,True,741.62
+market2lead,Market2Lead,MARKET2LEAD-00004,2,Lead Captured,2025-04-09,CRM,Nina Patel,True,False,1198.05
+market2lead,Market2Lead,MARKET2LEAD-00004,3,MQL Scored,2025-04-15,CRM,Nina Patel,False,False,1903.08
+market2lead,Market2Lead,MARKET2LEAD-00004,4,SQL Accepted,2025-04-16,Web Analytics,Nina Patel,False,False,2603.94
+market2lead,Market2Lead,MARKET2LEAD-00004,5,Opportunity Created,2025-04-18,CRM,Alex Chen,False,False,7272.39
+market2lead,Market2Lead,MARKET2LEAD-00005,1,Campaign Launched,2025-01-06,Marketing Automation,Kenji Tanaka,False,False,3422.18
+market2lead,Market2Lead,MARKET2LEAD-00005,2,Lead Captured,2025-01-07,Web Analytics,Jon Miller,False,True,3343.88
+market2lead,Market2Lead,MARKET2LEAD-00005,3,MQL Scored,2025-01-07,Ad Platforms,Priya Rao,True,False,3934.31
+market2lead,Market2Lead,MARKET2LEAD-00005,4,SQL Accepted,2025-01-10,Marketing Automation,Nina Patel,True,False,5867.62
+market2lead,Market2Lead,MARKET2LEAD-00005,5,Opportunity Created,2025-01-15,Marketing Automation,Nina Patel,True,True,2515.87
+market2lead,Market2Lead,MARKET2LEAD-00006,1,Campaign Launched,2025-05-22,CRM,Maria Garcia,False,False,1997.4
+market2lead,Market2Lead,MARKET2LEAD-00006,2,Lead Captured,2025-05-24,Marketing Automation,Nina Patel,True,False,4319.21
+market2lead,Market2Lead,MARKET2LEAD-00006,3,MQL Scored,2025-05-24,Ad Platforms,Thomas Weber,True,False,5442.1
+market2lead,Market2Lead,MARKET2LEAD-00006,4,SQL Accepted,2025-05-30,Ad Platforms,Sara Novak,True,False,7141.31
+market2lead,Market2Lead,MARKET2LEAD-00006,5,Opportunity Created,2025-06-02,Marketing Automation,Nina Patel,True,True,4215.79
+market2lead,Market2Lead,MARKET2LEAD-00007,1,Campaign Launched,2025-04-24,Marketing Automation,Jon Miller,True,False,1086.88
+market2lead,Market2Lead,MARKET2LEAD-00007,2,Lead Captured,2025-04-27,Marketing Automation,Alex Chen,True,False,1169.35
+market2lead,Market2Lead,MARKET2LEAD-00007,3,MQL Scored,2025-05-02,Ad Platforms,Jon Miller,False,False,2049.08
+market2lead,Market2Lead,MARKET2LEAD-00007,4,SQL Accepted,2025-05-02,Ad Platforms,Sara Novak,True,False,5981.09
+market2lead,Market2Lead,MARKET2LEAD-00007,5,Opportunity Created,2025-05-02,Ad Platforms,Kenji Tanaka,True,False,416.69
+market2lead,Market2Lead,MARKET2LEAD-00008,1,Campaign Launched,2025-01-23,Marketing Automation,Kenji Tanaka,False,False,7897.18
+market2lead,Market2Lead,MARKET2LEAD-00008,2,Lead Captured,2025-01-23,Marketing Automation,Nina Patel,False,False,5890.43
+market2lead,Market2Lead,MARKET2LEAD-00008,3,MQL Scored,2025-01-24,Ad Platforms,Alex Chen,False,False,2008.28
+market2lead,Market2Lead,MARKET2LEAD-00008,4,SQL Accepted,2025-01-27,Marketing Automation,Priya Rao,False,False,7776.69
+market2lead,Market2Lead,MARKET2LEAD-00008,5,Opportunity Created,2025-01-31,Ad Platforms,Alex Chen,True,False,2144.51
+market2lead,Market2Lead,MARKET2LEAD-00009,1,Campaign Launched,2025-06-15,Marketing Automation,Thomas Weber,False,False,5931.26
+market2lead,Market2Lead,MARKET2LEAD-00009,2,Lead Captured,2025-06-16,Web Analytics,Sara Novak,False,False,445.95
+market2lead,Market2Lead,MARKET2LEAD-00009,3,MQL Scored,2025-06-22,Web Analytics,Kenji Tanaka,False,False,1725.94
+market2lead,Market2Lead,MARKET2LEAD-00009,4,SQL Accepted,2025-06-23,Web Analytics,Thomas Weber,True,False,7448.04
+market2lead,Market2Lead,MARKET2LEAD-00009,5,Opportunity Created,2025-06-28,Ad Platforms,Priya Rao,True,False,649.36
+market2lead,Market2Lead,MARKET2LEAD-00010,1,Campaign Launched,2026-01-13,Ad Platforms,Sara Novak,False,True,4268.88
+market2lead,Market2Lead,MARKET2LEAD-00010,2,Lead Captured,2026-01-19,Marketing Automation,Priya Rao,True,False,4765.28
+market2lead,Market2Lead,MARKET2LEAD-00010,3,MQL Scored,2026-01-23,CRM,Sara Novak,True,False,7085.1
+market2lead,Market2Lead,MARKET2LEAD-00010,4,SQL Accepted,2026-01-23,Web Analytics,Priya Rao,True,False,6888.94
+market2lead,Market2Lead,MARKET2LEAD-00010,5,Opportunity Created,2026-01-23,Ad Platforms,Nina Patel,True,True,3199.93
+market2lead,Market2Lead,MARKET2LEAD-00011,1,Campaign Launched,2026-01-30,CRM,Maria Garcia,False,False,6390.42
+market2lead,Market2Lead,MARKET2LEAD-00011,2,Lead Captured,2026-02-05,Ad Platforms,Nina Patel,False,True,2254.08
+market2lead,Market2Lead,MARKET2LEAD-00011,3,MQL Scored,2026-02-05,Web Analytics,Priya Rao,True,False,910.56
+market2lead,Market2Lead,MARKET2LEAD-00011,4,SQL Accepted,2026-02-05,Marketing Automation,Sara Novak,False,False,5685.27
+market2lead,Market2Lead,MARKET2LEAD-00011,5,Opportunity Created,2026-02-09,Marketing Automation,Alex Chen,True,False,3510.93
+market2lead,Market2Lead,MARKET2LEAD-00012,1,Campaign Launched,2025-12-19,CRM,Priya Rao,True,False,4018.16
+market2lead,Market2Lead,MARKET2LEAD-00012,2,Lead Captured,2025-12-20,Marketing Automation,Alex Chen,True,False,7195.51
+market2lead,Market2Lead,MARKET2LEAD-00012,3,MQL Scored,2025-12-26,Ad Platforms,Sara Novak,True,False,2357.76
+market2lead,Market2Lead,MARKET2LEAD-00012,4,SQL Accepted,2025-12-28,CRM,Maria Garcia,True,False,4923.07
+market2lead,Market2Lead,MARKET2LEAD-00012,5,Opportunity Created,2025-12-28,Marketing Automation,Nina Patel,True,False,1185.19
+market2lead,Market2Lead,MARKET2LEAD-00013,1,Campaign Launched,2026-01-05,Web Analytics,Maria Garcia,True,False,2719.57
+market2lead,Market2Lead,MARKET2LEAD-00013,2,Lead Captured,2026-01-11,Marketing Automation,Jon Miller,True,False,4195.32
+market2lead,Market2Lead,MARKET2LEAD-00013,3,MQL Scored,2026-01-13,CRM,Thomas Weber,True,False,745.57
+market2lead,Market2Lead,MARKET2LEAD-00013,4,SQL Accepted,2026-01-17,Web Analytics,Priya Rao,True,False,4294.98
+market2lead,Market2Lead,MARKET2LEAD-00013,5,Opportunity Created,2026-01-19,Marketing Automation,Jon Miller,True,False,6771.31
+market2lead,Market2Lead,MARKET2LEAD-00014,1,Campaign Launched,2025-08-06,Web Analytics,Priya Rao,True,False,1844.65
+market2lead,Market2Lead,MARKET2LEAD-00014,2,Lead Captured,2025-08-09,Web Analytics,Thomas Weber,True,False,2243.16
+market2lead,Market2Lead,MARKET2LEAD-00014,3,MQL Scored,2025-08-14,Marketing Automation,Kenji Tanaka,False,False,609.21
+market2lead,Market2Lead,MARKET2LEAD-00014,4,SQL Accepted,2025-08-17,Web Analytics,Thomas Weber,False,False,3755.71
+market2lead,Market2Lead,MARKET2LEAD-00014,5,Opportunity Created,2025-08-23,Web Analytics,Jon Miller,True,False,4478.17
+market2lead,Market2Lead,MARKET2LEAD-00015,1,Campaign Launched,2026-01-28,CRM,Maria Garcia,True,False,1005.04
+market2lead,Market2Lead,MARKET2LEAD-00015,2,Lead Captured,2026-01-31,CRM,Jon Miller,False,False,2488.9
+market2lead,Market2Lead,MARKET2LEAD-00015,3,MQL Scored,2026-02-06,Ad Platforms,Nina Patel,True,False,6803.96
+market2lead,Market2Lead,MARKET2LEAD-00015,4,SQL Accepted,2026-02-12,CRM,Kenji Tanaka,False,True,5338.95
+market2lead,Market2Lead,MARKET2LEAD-00015,5,Opportunity Created,2026-02-16,Web Analytics,Thomas Weber,True,False,1904.46
+market2lead,Market2Lead,MARKET2LEAD-00016,1,Campaign Launched,2025-07-24,Ad Platforms,Nina Patel,True,False,327.56
+market2lead,Market2Lead,MARKET2LEAD-00016,2,Lead Captured,2025-07-30,Marketing Automation,Alex Chen,True,True,7336.23
+market2lead,Market2Lead,MARKET2LEAD-00016,3,MQL Scored,2025-08-04,CRM,Nina Patel,True,False,1434.18
+market2lead,Market2Lead,MARKET2LEAD-00016,4,SQL Accepted,2025-08-08,Marketing Automation,Alex Chen,True,False,6539.52
+market2lead,Market2Lead,MARKET2LEAD-00016,5,Opportunity Created,2025-08-14,Marketing Automation,Jon Miller,False,False,131.18
+market2lead,Market2Lead,MARKET2LEAD-00017,1,Campaign Launched,2026-01-26,Ad Platforms,Maria Garcia,False,False,3211.2
+market2lead,Market2Lead,MARKET2LEAD-00017,2,Lead Captured,2026-01-26,Web Analytics,Nina Patel,False,False,2450.44
+market2lead,Market2Lead,MARKET2LEAD-00017,3,MQL Scored,2026-01-28,Web Analytics,Jon Miller,False,False,3514.2
+market2lead,Market2Lead,MARKET2LEAD-00017,4,SQL Accepted,2026-02-01,Ad Platforms,Alex Chen,False,False,4942.59
+market2lead,Market2Lead,MARKET2LEAD-00017,5,Opportunity Created,2026-02-07,Web Analytics,Alex Chen,True,False,1319.32
+market2lead,Market2Lead,MARKET2LEAD-00018,1,Campaign Launched,2025-03-29,Web Analytics,Jon Miller,False,False,4053.49
+market2lead,Market2Lead,MARKET2LEAD-00018,2,Lead Captured,2025-03-31,Web Analytics,Kenji Tanaka,False,False,4608.44
+market2lead,Market2Lead,MARKET2LEAD-00018,3,MQL Scored,2025-03-31,CRM,Jon Miller,False,False,4503.42
+market2lead,Market2Lead,MARKET2LEAD-00018,4,SQL Accepted,2025-04-06,CRM,Sara Novak,True,True,5561.3
+market2lead,Market2Lead,MARKET2LEAD-00018,5,Opportunity Created,2025-04-07,Web Analytics,Priya Rao,True,False,866.02
+market2lead,Market2Lead,MARKET2LEAD-00019,1,Campaign Launched,2025-11-20,Web Analytics,Thomas Weber,True,False,2990.52
+market2lead,Market2Lead,MARKET2LEAD-00019,2,Lead Captured,2025-11-24,Web Analytics,Alex Chen,True,False,7154.5
+market2lead,Market2Lead,MARKET2LEAD-00019,3,MQL Scored,2025-11-27,Marketing Automation,Kenji Tanaka,True,True,454.51
+market2lead,Market2Lead,MARKET2LEAD-00019,4,SQL Accepted,2025-11-29,Ad Platforms,Nina Patel,True,False,1993.07
+market2lead,Market2Lead,MARKET2LEAD-00019,5,Opportunity Created,2025-12-01,Ad Platforms,Kenji Tanaka,True,False,7721.92
+market2lead,Market2Lead,MARKET2LEAD-00020,1,Campaign Launched,2025-08-02,Ad Platforms,Priya Rao,True,False,3001.68
+market2lead,Market2Lead,MARKET2LEAD-00020,2,Lead Captured,2025-08-07,Ad Platforms,Sara Novak,True,False,2668.8
+market2lead,Market2Lead,MARKET2LEAD-00020,3,MQL Scored,2025-08-09,Marketing Automation,Thomas Weber,True,True,4339.99
+market2lead,Market2Lead,MARKET2LEAD-00020,4,SQL Accepted,2025-08-10,CRM,Alex Chen,True,False,6726.0
+market2lead,Market2Lead,MARKET2LEAD-00020,5,Opportunity Created,2025-08-10,Marketing Automation,Alex Chen,True,False,4694.54
+market2lead,Market2Lead,MARKET2LEAD-00021,1,Campaign Launched,2026-03-05,Marketing Automation,Maria Garcia,False,False,6930.91
+market2lead,Market2Lead,MARKET2LEAD-00021,2,Lead Captured,2026-03-06,CRM,Kenji Tanaka,True,False,5858.34
+market2lead,Market2Lead,MARKET2LEAD-00021,3,MQL Scored,2026-03-09,Web Analytics,Nina Patel,False,False,6240.27
+market2lead,Market2Lead,MARKET2LEAD-00021,4,SQL Accepted,2026-03-10,Marketing Automation,Nina Patel,False,False,4876.26
+market2lead,Market2Lead,MARKET2LEAD-00021,5,Opportunity Created,2026-03-14,Web Analytics,Thomas Weber,True,False,4364.69
+market2lead,Market2Lead,MARKET2LEAD-00022,1,Campaign Launched,2025-08-08,Marketing Automation,Maria Garcia,False,False,5281.55
+market2lead,Market2Lead,MARKET2LEAD-00022,2,Lead Captured,2025-08-12,CRM,Maria Garcia,False,False,7952.45
+market2lead,Market2Lead,MARKET2LEAD-00022,3,MQL Scored,2025-08-14,CRM,Jon Miller,False,False,3450.53
+market2lead,Market2Lead,MARKET2LEAD-00022,4,SQL Accepted,2025-08-15,CRM,Kenji Tanaka,True,False,5770.4
+market2lead,Market2Lead,MARKET2LEAD-00022,5,Opportunity Created,2025-08-20,CRM,Priya Rao,True,False,6156.41
+market2lead,Market2Lead,MARKET2LEAD-00023,1,Campaign Launched,2025-09-26,Marketing Automation,Sara Novak,True,False,759.49
+market2lead,Market2Lead,MARKET2LEAD-00023,2,Lead Captured,2025-09-26,Ad Platforms,Maria Garcia,True,True,7496.67
+market2lead,Market2Lead,MARKET2LEAD-00023,3,MQL Scored,2025-10-01,Marketing Automation,Maria Garcia,False,False,7610.03
+market2lead,Market2Lead,MARKET2LEAD-00023,4,SQL Accepted,2025-10-06,CRM,Priya Rao,True,False,4347.44
+market2lead,Market2Lead,MARKET2LEAD-00023,5,Opportunity Created,2025-10-12,CRM,Nina Patel,True,True,3859.0
+market2lead,Market2Lead,MARKET2LEAD-00024,1,Campaign Launched,2025-10-15,CRM,Sara Novak,True,False,6561.53
+market2lead,Market2Lead,MARKET2LEAD-00024,2,Lead Captured,2025-10-20,Ad Platforms,Jon Miller,False,False,2483.58
+market2lead,Market2Lead,MARKET2LEAD-00024,3,MQL Scored,2025-10-23,Web Analytics,Maria Garcia,False,False,5241.11
+market2lead,Market2Lead,MARKET2LEAD-00024,4,SQL Accepted,2025-10-29,Marketing Automation,Kenji Tanaka,False,False,4522.15
+market2lead,Market2Lead,MARKET2LEAD-00024,5,Opportunity Created,2025-10-30,Ad Platforms,Maria Garcia,False,False,2996.06
+market2lead,Market2Lead,MARKET2LEAD-00025,1,Campaign Launched,2025-03-19,Marketing Automation,Alex Chen,True,False,7801.88
+market2lead,Market2Lead,MARKET2LEAD-00025,2,Lead Captured,2025-03-21,Marketing Automation,Jon Miller,True,False,4934.99
+market2lead,Market2Lead,MARKET2LEAD-00025,3,MQL Scored,2025-03-27,Marketing Automation,Maria Garcia,False,False,4927.56
+market2lead,Market2Lead,MARKET2LEAD-00025,4,SQL Accepted,2025-03-31,Ad Platforms,Sara Novak,True,False,5599.59
+market2lead,Market2Lead,MARKET2LEAD-00025,5,Opportunity Created,2025-04-01,Web Analytics,Nina Patel,True,False,2784.74
+market2lead,Market2Lead,MARKET2LEAD-00026,1,Campaign Launched,2026-03-06,Web Analytics,Nina Patel,False,False,99.8
+market2lead,Market2Lead,MARKET2LEAD-00026,2,Lead Captured,2026-03-07,CRM,Kenji Tanaka,True,False,7998.07
+market2lead,Market2Lead,MARKET2LEAD-00026,3,MQL Scored,2026-03-11,Ad Platforms,Maria Garcia,True,False,5366.74
+market2lead,Market2Lead,MARKET2LEAD-00026,4,SQL Accepted,2026-03-15,Web Analytics,Jon Miller,True,False,7097.94
+market2lead,Market2Lead,MARKET2LEAD-00026,5,Opportunity Created,2026-03-17,CRM,Nina Patel,False,False,5715.67
+market2lead,Market2Lead,MARKET2LEAD-00027,1,Campaign Launched,2025-03-11,CRM,Sara Novak,True,False,5376.17
+market2lead,Market2Lead,MARKET2LEAD-00027,2,Lead Captured,2025-03-14,CRM,Kenji Tanaka,False,False,7314.34
+market2lead,Market2Lead,MARKET2LEAD-00027,3,MQL Scored,2025-03-14,Marketing Automation,Priya Rao,True,False,4135.66
+market2lead,Market2Lead,MARKET2LEAD-00027,4,SQL Accepted,2025-03-14,Ad Platforms,Kenji Tanaka,True,False,4393.89
+market2lead,Market2Lead,MARKET2LEAD-00027,5,Opportunity Created,2025-03-17,Web Analytics,Jon Miller,False,False,4859.47
+market2lead,Market2Lead,MARKET2LEAD-00028,1,Campaign Launched,2025-10-11,Ad Platforms,Nina Patel,True,False,3549.75
+market2lead,Market2Lead,MARKET2LEAD-00028,2,Lead Captured,2025-10-17,CRM,Maria Garcia,True,True,197.93
+market2lead,Market2Lead,MARKET2LEAD-00028,3,MQL Scored,2025-10-22,Web Analytics,Nina Patel,True,False,1843.24
+market2lead,Market2Lead,MARKET2LEAD-00028,4,SQL Accepted,2025-10-25,Ad Platforms,Kenji Tanaka,True,False,5121.83
+market2lead,Market2Lead,MARKET2LEAD-00028,5,Opportunity Created,2025-10-28,CRM,Maria Garcia,True,False,6604.72
+market2lead,Market2Lead,MARKET2LEAD-00029,1,Campaign Launched,2025-03-26,CRM,Maria Garcia,True,False,331.3
+market2lead,Market2Lead,MARKET2LEAD-00029,2,Lead Captured,2025-03-26,Ad Platforms,Alex Chen,True,False,7196.09
+market2lead,Market2Lead,MARKET2LEAD-00029,3,MQL Scored,2025-03-31,Ad Platforms,Jon Miller,True,False,6651.78
+market2lead,Market2Lead,MARKET2LEAD-00029,4,SQL Accepted,2025-04-01,Marketing Automation,Thomas Weber,False,False,1867.89
+market2lead,Market2Lead,MARKET2LEAD-00029,5,Opportunity Created,2025-04-03,Ad Platforms,Nina Patel,True,False,7749.04
+market2lead,Market2Lead,MARKET2LEAD-00030,1,Campaign Launched,2026-02-21,Web Analytics,Jon Miller,False,False,3806.02
+market2lead,Market2Lead,MARKET2LEAD-00030,2,Lead Captured,2026-02-25,Ad Platforms,Maria Garcia,False,False,7927.51
+market2lead,Market2Lead,MARKET2LEAD-00030,3,MQL Scored,2026-02-28,Ad Platforms,Nina Patel,False,False,5070.85
+market2lead,Market2Lead,MARKET2LEAD-00030,4,SQL Accepted,2026-03-01,Web Analytics,Sara Novak,False,False,3379.35
+market2lead,Market2Lead,MARKET2LEAD-00030,5,Opportunity Created,2026-03-01,Ad Platforms,Priya Rao,True,True,5628.77
+market2lead,Market2Lead,MARKET2LEAD-00031,1,Campaign Launched,2025-08-21,CRM,Priya Rao,True,False,7389.08
+market2lead,Market2Lead,MARKET2LEAD-00031,2,Lead Captured,2025-08-23,Marketing Automation,Kenji Tanaka,True,False,1489.23
+market2lead,Market2Lead,MARKET2LEAD-00031,3,MQL Scored,2025-08-27,Web Analytics,Sara Novak,True,False,6955.39
+market2lead,Market2Lead,MARKET2LEAD-00031,4,SQL Accepted,2025-08-30,Marketing Automation,Sara Novak,False,False,6260.53
+market2lead,Market2Lead,MARKET2LEAD-00031,5,Opportunity Created,2025-09-04,Marketing Automation,Jon Miller,False,False,6990.36
+market2lead,Market2Lead,MARKET2LEAD-00032,1,Campaign Launched,2025-05-24,CRM,Nina Patel,True,False,720.47
+market2lead,Market2Lead,MARKET2LEAD-00032,2,Lead Captured,2025-05-30,Ad Platforms,Sara Novak,True,False,5592.25
+market2lead,Market2Lead,MARKET2LEAD-00032,3,MQL Scored,2025-06-04,CRM,Alex Chen,True,False,2571.73
+market2lead,Market2Lead,MARKET2LEAD-00032,4,SQL Accepted,2025-06-08,Marketing Automation,Thomas Weber,False,False,5506.83
+market2lead,Market2Lead,MARKET2LEAD-00032,5,Opportunity Created,2025-06-14,Marketing Automation,Thomas Weber,False,False,4629.69
+market2lead,Market2Lead,MARKET2LEAD-00033,1,Campaign Launched,2025-07-09,Web Analytics,Sara Novak,True,False,4223.17
+market2lead,Market2Lead,MARKET2LEAD-00033,2,Lead Captured,2025-07-10,Marketing Automation,Nina Patel,False,False,392.09
+market2lead,Market2Lead,MARKET2LEAD-00033,3,MQL Scored,2025-07-12,Web Analytics,Priya Rao,False,False,2322.69
+market2lead,Market2Lead,MARKET2LEAD-00033,4,SQL Accepted,2025-07-13,Web Analytics,Nina Patel,True,False,5563.92
+market2lead,Market2Lead,MARKET2LEAD-00033,5,Opportunity Created,2025-07-15,CRM,Sara Novak,True,False,2589.46
+market2lead,Market2Lead,MARKET2LEAD-00034,1,Campaign Launched,2025-03-13,CRM,Sara Novak,True,False,3674.01
+market2lead,Market2Lead,MARKET2LEAD-00034,2,Lead Captured,2025-03-14,Marketing Automation,Priya Rao,False,False,2456.12
+market2lead,Market2Lead,MARKET2LEAD-00034,3,MQL Scored,2025-03-19,CRM,Sara Novak,True,False,1739.15
+market2lead,Market2Lead,MARKET2LEAD-00034,4,SQL Accepted,2025-03-25,Web Analytics,Priya Rao,False,False,4559.06
+market2lead,Market2Lead,MARKET2LEAD-00034,5,Opportunity Created,2025-03-26,Marketing Automation,Sara Novak,True,False,3951.85
+market2lead,Market2Lead,MARKET2LEAD-00035,1,Campaign Launched,2025-05-29,Ad Platforms,Maria Garcia,True,True,4225.9
+market2lead,Market2Lead,MARKET2LEAD-00035,2,Lead Captured,2025-06-04,Web Analytics,Alex Chen,True,False,3578.79
+market2lead,Market2Lead,MARKET2LEAD-00035,3,MQL Scored,2025-06-07,Ad Platforms,Nina Patel,True,False,1637.95
+market2lead,Market2Lead,MARKET2LEAD-00035,4,SQL Accepted,2025-06-07,Web Analytics,Maria Garcia,False,True,4810.21
+market2lead,Market2Lead,MARKET2LEAD-00035,5,Opportunity Created,2025-06-07,CRM,Maria Garcia,True,False,5485.77
+market2lead,Market2Lead,MARKET2LEAD-00036,1,Campaign Launched,2026-02-05,Ad Platforms,Jon Miller,True,False,348.93
+market2lead,Market2Lead,MARKET2LEAD-00036,2,Lead Captured,2026-02-05,Ad Platforms,Nina Patel,True,False,2335.56
+market2lead,Market2Lead,MARKET2LEAD-00036,3,MQL Scored,2026-02-05,Ad Platforms,Sara Novak,True,False,2050.6
+market2lead,Market2Lead,MARKET2LEAD-00036,4,SQL Accepted,2026-02-06,Web Analytics,Kenji Tanaka,False,False,1206.21
+market2lead,Market2Lead,MARKET2LEAD-00036,5,Opportunity Created,2026-02-06,Web Analytics,Jon Miller,True,False,7505.03

@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+source2contract,Source2Contract,SOURCE2CONTRACT-00001,1,Event Created,2025-04-22,CLM,Alex Chen,True,False,7373.96
+source2contract,Source2Contract,SOURCE2CONTRACT-00001,2,RFx Published,2025-04-25,ERP MM,Sara Novak,True,False,6044.18
+source2contract,Source2Contract,SOURCE2CONTRACT-00001,3,Supplier Selected,2025-04-29,Sourcing Suite,Nina Patel,True,False,1942.69
+source2contract,Source2Contract,SOURCE2CONTRACT-00001,4,Legal Review,2025-05-01,Sourcing Suite,Alex Chen,False,False,1940.26
+source2contract,Source2Contract,SOURCE2CONTRACT-00001,5,Contract Signed,2025-05-05,CLM,Sara Novak,False,False,7264.14
+source2contract,Source2Contract,SOURCE2CONTRACT-00002,1,Event Created,2025-05-01,Sourcing Suite,Sara Novak,False,False,7937.23
+source2contract,Source2Contract,SOURCE2CONTRACT-00002,2,RFx Published,2025-05-06,Supplier Portal,Jon Miller,True,False,1011.3
+source2contract,Source2Contract,SOURCE2CONTRACT-00002,3,Supplier Selected,2025-05-09,CLM,Kenji Tanaka,False,False,6317.72
+source2contract,Source2Contract,SOURCE2CONTRACT-00002,4,Legal Review,2025-05-12,ERP MM,Sara Novak,True,False,7735.91
+source2contract,Source2Contract,SOURCE2CONTRACT-00002,5,Contract Signed,2025-05-14,ERP MM,Jon Miller,False,False,4946.87
+source2contract,Source2Contract,SOURCE2CONTRACT-00003,1,Event Created,2025-09-26,CLM,Sara Novak,True,False,2668.14
+source2contract,Source2Contract,SOURCE2CONTRACT-00003,2,RFx Published,2025-09-29,CLM,Priya Rao,True,False,1439.97
+source2contract,Source2Contract,SOURCE2CONTRACT-00003,3,Supplier Selected,2025-10-04,Supplier Portal,Priya Rao,True,False,3904.01
+source2contract,Source2Contract,SOURCE2CONTRACT-00003,4,Legal Review,2025-10-05,ERP MM,Nina Patel,True,False,2226.4
+source2contract,Source2Contract,SOURCE2CONTRACT-00003,5,Contract Signed,2025-10-08,CLM,Kenji Tanaka,False,False,1401.23
+source2contract,Source2Contract,SOURCE2CONTRACT-00004,1,Event Created,2026-01-31,CLM,Priya Rao,True,False,6555.41
+source2contract,Source2Contract,SOURCE2CONTRACT-00004,2,RFx Published,2026-02-06,ERP MM,Maria Garcia,True,False,2410.73
+source2contract,Source2Contract,SOURCE2CONTRACT-00004,3,Supplier Selected,2026-02-11,Supplier Portal,Priya Rao,True,True,2872.1
+source2contract,Source2Contract,SOURCE2CONTRACT-00004,4,Legal Review,2026-02-16,ERP MM,Thomas Weber,True,False,4271.64
+source2contract,Source2Contract,SOURCE2CONTRACT-00004,5,Contract Signed,2026-02-17,CLM,Sara Novak,False,True,3729.72
+source2contract,Source2Contract,SOURCE2CONTRACT-00005,1,Event Created,2025-01-10,Supplier Portal,Sara Novak,False,False,3971.28
+source2contract,Source2Contract,SOURCE2CONTRACT-00005,2,RFx Published,2025-01-13,ERP MM,Thomas Weber,False,False,7332.43
+source2contract,Source2Contract,SOURCE2CONTRACT-00005,3,Supplier Selected,2025-01-14,Sourcing Suite,Sara Novak,True,False,1419.34
+source2contract,Source2Contract,SOURCE2CONTRACT-00005,4,Legal Review,2025-01-17,Supplier Portal,Thomas Weber,False,False,1227.06
+source2contract,Source2Contract,SOURCE2CONTRACT-00005,5,Contract Signed,2025-01-21,CLM,Thomas Weber,True,False,1611.03
+source2contract,Source2Contract,SOURCE2CONTRACT-00006,1,Event Created,2026-02-21,Sourcing Suite,Jon Miller,True,False,3567.96
+source2contract,Source2Contract,SOURCE2CONTRACT-00006,2,RFx Published,2026-02-22,ERP MM,Thomas Weber,False,False,6072.9
+source2contract,Source2Contract,SOURCE2CONTRACT-00006,3,Supplier Selected,2026-02-24,ERP MM,Jon Miller,False,False,234.94
+source2contract,Source2Contract,SOURCE2CONTRACT-00006,4,Legal Review,2026-03-02,Supplier Portal,Nina Patel,True,False,4783.02
+source2contract,Source2Contract,SOURCE2CONTRACT-00006,5,Contract Signed,2026-03-04,Supplier Portal,Nina Patel,True,False,7317.72
+source2contract,Source2Contract,SOURCE2CONTRACT-00007,1,Event Created,2025-04-23,CLM,Nina Patel,False,False,4631.67
+source2contract,Source2Contract,SOURCE2CONTRACT-00007,2,RFx Published,2025-04-25,ERP MM,Jon Miller,True,False,3680.65
+source2contract,Source2Contract,SOURCE2CONTRACT-00007,3,Supplier Selected,2025-04-28,Sourcing Suite,Kenji Tanaka,True,False,6962.51
+source2contract,Source2Contract,SOURCE2CONTRACT-00007,4,Legal Review,2025-04-29,Supplier Portal,Thomas Weber,True,False,5612.99
+source2contract,Source2Contract,SOURCE2CONTRACT-00007,5,Contract Signed,2025-05-01,ERP MM,Sara Novak,True,False,4357.22
+source2contract,Source2Contract,SOURCE2CONTRACT-00008,1,Event Created,2025-12-25,Supplier Portal,Nina Patel,False,True,5224.24
+source2contract,Source2Contract,SOURCE2CONTRACT-00008,2,RFx Published,2025-12-26,Supplier Portal,Priya Rao,True,False,3036.98
+source2contract,Source2Contract,SOURCE2CONTRACT-00008,3,Supplier Selected,2025-12-26,Supplier Portal,Jon Miller,False,False,4586.49
+source2contract,Source2Contract,SOURCE2CONTRACT-00008,4,Legal Review,2025-12-31,ERP MM,Alex Chen,False,False,6809.04
+source2contract,Source2Contract,SOURCE2CONTRACT-00008,5,Contract Signed,2026-01-02,CLM,Nina Patel,False,True,5001.45
+source2contract,Source2Contract,SOURCE2CONTRACT-00009,1,Event Created,2025-07-17,CLM,Sara Novak,True,False,3915.72
+source2contract,Source2Contract,SOURCE2CONTRACT-00009,2,RFx Published,2025-07-22,CLM,Maria Garcia,False,False,4289.34
+source2contract,Source2Contract,SOURCE2CONTRACT-00009,3,Supplier Selected,2025-07-24,ERP MM,Alex Chen,True,False,6655.37
+source2contract,Source2Contract,SOURCE2CONTRACT-00009,4,Legal Review,2025-07-24,CLM,Jon Miller,False,False,953.31
+source2contract,Source2Contract,SOURCE2CONTRACT-00009,5,Contract Signed,2025-07-24,ERP MM,Nina Patel,False,False,3033.17
+source2contract,Source2Contract,SOURCE2CONTRACT-00010,1,Event Created,2025-07-05,CLM,Nina Patel,True,False,4465.12
+source2contract,Source2Contract,SOURCE2CONTRACT-00010,2,RFx Published,2025-07-08,Sourcing Suite,Priya Rao,True,True,2541.54
+source2contract,Source2Contract,SOURCE2CONTRACT-00010,3,Supplier Selected,2025-07-13,Supplier Portal,Kenji Tanaka,False,True,2491.54
+source2contract,Source2Contract,SOURCE2CONTRACT-00010,4,Legal Review,2025-07-13,ERP MM,Priya Rao,True,False,7165.51
+source2contract,Source2Contract,SOURCE2CONTRACT-00010,5,Contract Signed,2025-07-19,Sourcing Suite,Sara Novak,False,False,3731.59
+source2contract,Source2Contract,SOURCE2CONTRACT-00011,1,Event Created,2026-02-01,Sourcing Suite,Sara Novak,False,False,4144.32
+source2contract,Source2Contract,SOURCE2CONTRACT-00011,2,RFx Published,2026-02-01,Supplier Portal,Jon Miller,False,False,415.94
+source2contract,Source2Contract,SOURCE2CONTRACT-00011,3,Supplier Selected,2026-02-05,Supplier Portal,Maria Garcia,True,False,6824.51
+source2contract,Source2Contract,SOURCE2CONTRACT-00011,4,Legal Review,2026-02-06,Supplier Portal,Sara Novak,False,False,4400.75
+source2contract,Source2Contract,SOURCE2CONTRACT-00011,5,Contract Signed,2026-02-08,Supplier Portal,Alex Chen,True,False,7768.18
+source2contract,Source2Contract,SOURCE2CONTRACT-00012,1,Event Created,2026-01-11,ERP MM,Priya Rao,True,False,7692.71
+source2contract,Source2Contract,SOURCE2CONTRACT-00012,2,RFx Published,2026-01-14,ERP MM,Alex Chen,True,False,7635.63
+source2contract,Source2Contract,SOURCE2CONTRACT-00012,3,Supplier Selected,2026-01-15,CLM,Sara Novak,False,True,5877.74
+source2contract,Source2Contract,SOURCE2CONTRACT-00012,4,Legal Review,2026-01-18,Supplier Portal,Jon Miller,False,True,7086.11
+source2contract,Source2Contract,SOURCE2CONTRACT-00012,5,Contract Signed,2026-01-21,ERP MM,Nina Patel,False,False,7202.53
+source2contract,Source2Contract,SOURCE2CONTRACT-00013,1,Event Created,2025-08-13,CLM,Thomas Weber,False,False,3952.78
+source2contract,Source2Contract,SOURCE2CONTRACT-00013,2,RFx Published,2025-08-19,CLM,Alex Chen,True,False,4436.26
+source2contract,Source2Contract,SOURCE2CONTRACT-00013,3,Supplier Selected,2025-08-25,CLM,Kenji Tanaka,False,False,1144.84
+source2contract,Source2Contract,SOURCE2CONTRACT-00013,4,Legal Review,2025-08-31,Sourcing Suite,Thomas Weber,False,False,4783.75
+source2contract,Source2Contract,SOURCE2CONTRACT-00013,5,Contract Signed,2025-09-04,CLM,Jon Miller,True,False,1373.2
+source2contract,Source2Contract,SOURCE2CONTRACT-00014,1,Event Created,2026-01-27,CLM,Priya Rao,True,False,2557.74
+source2contract,Source2Contract,SOURCE2CONTRACT-00014,2,RFx Published,2026-01-28,ERP MM,Thomas Weber,False,False,7826.4
+source2contract,Source2Contract,SOURCE2CONTRACT-00014,3,Supplier Selected,2026-02-02,ERP MM,Alex Chen,True,False,2717.58
+source2contract,Source2Contract,SOURCE2CONTRACT-00014,4,Legal Review,2026-02-06,ERP MM,Jon Miller,False,False,6620.15
+source2contract,Source2Contract,SOURCE2CONTRACT-00014,5,Contract Signed,2026-02-11,CLM,Thomas Weber,True,False,2432.35
+source2contract,Source2Contract,SOURCE2CONTRACT-00015,1,Event Created,2025-06-28,Supplier Portal,Alex Chen,False,True,6855.51
+source2contract,Source2Contract,SOURCE2CONTRACT-00015,2,RFx Published,2025-06-29,ERP MM,Alex Chen,False,False,7128.65
+source2contract,Source2Contract,SOURCE2CONTRACT-00015,3,Supplier Selected,2025-07-04,Supplier Portal,Maria Garcia,True,False,3362.63
+source2contract,Source2Contract,SOURCE2CONTRACT-00015,4,Legal Review,2025-07-07,Sourcing Suite,Priya Rao,True,False,5455.45
+source2contract,Source2Contract,SOURCE2CONTRACT-00015,5,Contract Signed,2025-07-10,Supplier Portal,Maria Garcia,True,False,4991.5
+source2contract,Source2Contract,SOURCE2CONTRACT-00016,1,Event Created,2025-11-26,ERP MM,Alex Chen,False,False,7348.79
+source2contract,Source2Contract,SOURCE2CONTRACT-00016,2,RFx Published,2025-12-02,Sourcing Suite,Nina Patel,True,False,5843.46
+source2contract,Source2Contract,SOURCE2CONTRACT-00016,3,Supplier Selected,2025-12-06,Supplier Portal,Jon Miller,False,False,1570.85
+source2contract,Source2Contract,SOURCE2CONTRACT-00016,4,Legal Review,2025-12-08,CLM,Priya Rao,True,False,982.73
+source2contract,Source2Contract,SOURCE2CONTRACT-00016,5,Contract Signed,2025-12-09,ERP MM,Kenji Tanaka,False,False,3080.11
+source2contract,Source2Contract,SOURCE2CONTRACT-00017,1,Event Created,2026-02-02,CLM,Priya Rao,True,False,1131.38
+source2contract,Source2Contract,SOURCE2CONTRACT-00017,2,RFx Published,2026-02-04,Sourcing Suite,Alex Chen,True,False,3984.86
+source2contract,Source2Contract,SOURCE2CONTRACT-00017,3,Supplier Selected,2026-02-07,CLM,Thomas Weber,False,False,3204.59
+source2contract,Source2Contract,SOURCE2CONTRACT-00017,4,Legal Review,2026-02-12,CLM,Sara Novak,True,False,2956.69
+source2contract,Source2Contract,SOURCE2CONTRACT-00017,5,Contract Signed,2026-02-16,CLM,Maria Garcia,False,False,3919.77
+source2contract,Source2Contract,SOURCE2CONTRACT-00018,1,Event Created,2026-04-01,Supplier Portal,Nina Patel,True,False,1812.87
+source2contract,Source2Contract,SOURCE2CONTRACT-00018,2,RFx Published,2026-04-04,Sourcing Suite,Jon Miller,False,False,289.72
+source2contract,Source2Contract,SOURCE2CONTRACT-00018,3,Supplier Selected,2026-04-04,CLM,Alex Chen,True,False,965.33
+source2contract,Source2Contract,SOURCE2CONTRACT-00018,4,Legal Review,2026-04-06,ERP MM,Nina Patel,True,False,5127.57
+source2contract,Source2Contract,SOURCE2CONTRACT-00018,5,Contract Signed,2026-04-10,ERP MM,Nina Patel,True,False,4011.02
+source2contract,Source2Contract,SOURCE2CONTRACT-00019,1,Event Created,2025-10-09,CLM,Kenji Tanaka,True,False,1312.97
+source2contract,Source2Contract,SOURCE2CONTRACT-00019,2,RFx Published,2025-10-15,ERP MM,Thomas Weber,True,False,5874.97
+source2contract,Source2Contract,SOURCE2CONTRACT-00019,3,Supplier Selected,2025-10-20,Supplier Portal,Thomas Weber,False,False,3781.51
+source2contract,Source2Contract,SOURCE2CONTRACT-00019,4,Legal Review,2025-10-26,Sourcing Suite,Nina Patel,False,False,3235.8
+source2contract,Source2Contract,SOURCE2CONTRACT-00019,5,Contract Signed,2025-10-26,Sourcing Suite,Kenji Tanaka,False,False,6224.93
+source2contract,Source2Contract,SOURCE2CONTRACT-00020,1,Event Created,2026-01-07,CLM,Nina Patel,False,False,4008.42
+source2contract,Source2Contract,SOURCE2CONTRACT-00020,2,RFx Published,2026-01-11,Sourcing Suite,Thomas Weber,False,False,4421.97
+source2contract,Source2Contract,SOURCE2CONTRACT-00020,3,Supplier Selected,2026-01-16,Sourcing Suite,Alex Chen,False,False,6004.73
+source2contract,Source2Contract,SOURCE2CONTRACT-00020,4,Legal Review,2026-01-21,ERP MM,Priya Rao,True,False,3193.75
+source2contract,Source2Contract,SOURCE2CONTRACT-00020,5,Contract Signed,2026-01-26,Sourcing Suite,Nina Patel,False,False,217.47
+source2contract,Source2Contract,SOURCE2CONTRACT-00021,1,Event Created,2025-06-27,Sourcing Suite,Jon Miller,True,False,5110.12
+source2contract,Source2Contract,SOURCE2CONTRACT-00021,2,RFx Published,2025-07-03,ERP MM,Sara Novak,True,False,7271.61
+source2contract,Source2Contract,SOURCE2CONTRACT-00021,3,Supplier Selected,2025-07-03,Supplier Portal,Sara Novak,True,False,4625.12
+source2contract,Source2Contract,SOURCE2CONTRACT-00021,4,Legal Review,2025-07-08,ERP MM,Kenji Tanaka,False,True,1624.04
+source2contract,Source2Contract,SOURCE2CONTRACT-00021,5,Contract Signed,2025-07-12,ERP MM,Nina Patel,True,False,5699.48
+source2contract,Source2Contract,SOURCE2CONTRACT-00022,1,Event Created,2026-02-08,CLM,Alex Chen,True,False,7374.13
+source2contract,Source2Contract,SOURCE2CONTRACT-00022,2,RFx Published,2026-02-10,ERP MM,Thomas Weber,True,False,972.9
+source2contract,Source2Contract,SOURCE2CONTRACT-00022,3,Supplier Selected,2026-02-14,Sourcing Suite,Sara Novak,False,False,578.14
+source2contract,Source2Contract,SOURCE2CONTRACT-00022,4,Legal Review,2026-02-15,CLM,Nina Patel,False,True,7297.79
+source2contract,Source2Contract,SOURCE2CONTRACT-00022,5,Contract Signed,2026-02-21,Supplier Portal,Jon Miller,False,False,4245.47
+source2contract,Source2Contract,SOURCE2CONTRACT-00023,1,Event Created,2025-12-19,ERP MM,Sara Novak,True,False,4940.07
+source2contract,Source2Contract,SOURCE2CONTRACT-00023,2,RFx Published,2025-12-21,Supplier Portal,Nina Patel,False,False,5568.25
+source2contract,Source2Contract,SOURCE2CONTRACT-00023,3,Supplier Selected,2025-12-25,Supplier Portal,Jon Miller,False,False,4236.28
+source2contract,Source2Contract,SOURCE2CONTRACT-00023,4,Legal Review,2025-12-26,Supplier Portal,Sara Novak,True,False,4174.09
+source2contract,Source2Contract,SOURCE2CONTRACT-00023,5,Contract Signed,2025-12-30,ERP MM,Sara Novak,True,False,7175.61
+source2contract,Source2Contract,SOURCE2CONTRACT-00024,1,Event Created,2025-09-26,Sourcing Suite,Nina Patel,False,False,7548.26
+source2contract,Source2Contract,SOURCE2CONTRACT-00024,2,RFx Published,2025-09-30,CLM,Thomas Weber,False,True,1184.47
+source2contract,Source2Contract,SOURCE2CONTRACT-00024,3,Supplier Selected,2025-10-02,CLM,Maria Garcia,True,False,3031.85
+source2contract,Source2Contract,SOURCE2CONTRACT-00024,4,Legal Review,2025-10-02,Sourcing Suite,Priya Rao,True,False,2874.66
+source2contract,Source2Contract,SOURCE2CONTRACT-00024,5,Contract Signed,2025-10-02,CLM,Kenji Tanaka,True,False,2592.32
+source2contract,Source2Contract,SOURCE2CONTRACT-00025,1,Event Created,2025-10-08,ERP MM,Nina Patel,True,False,3975.12
+source2contract,Source2Contract,SOURCE2CONTRACT-00025,2,RFx Published,2025-10-14,Sourcing Suite,Sara Novak,False,False,7483.93
+source2contract,Source2Contract,SOURCE2CONTRACT-00025,3,Supplier Selected,2025-10-18,ERP MM,Kenji Tanaka,True,True,1124.82
+source2contract,Source2Contract,SOURCE2CONTRACT-00025,4,Legal Review,2025-10-21,Sourcing Suite,Maria Garcia,True,False,4058.8
+source2contract,Source2Contract,SOURCE2CONTRACT-00025,5,Contract Signed,2025-10-26,Sourcing Suite,Priya Rao,False,False,7356.87
+source2contract,Source2Contract,SOURCE2CONTRACT-00026,1,Event Created,2025-09-03,ERP MM,Kenji Tanaka,False,False,7713.32
+source2contract,Source2Contract,SOURCE2CONTRACT-00026,2,RFx Published,2025-09-09,Sourcing Suite,Kenji Tanaka,True,False,6896.71
+source2contract,Source2Contract,SOURCE2CONTRACT-00026,3,Supplier Selected,2025-09-15,Supplier Portal,Kenji Tanaka,False,False,3928.11
+source2contract,Source2Contract,SOURCE2CONTRACT-00026,4,Legal Review,2025-09-17,ERP MM,Kenji Tanaka,False,False,3641.74
+source2contract,Source2Contract,SOURCE2CONTRACT-00026,5,Contract Signed,2025-09-21,Supplier Portal,Priya Rao,True,False,1356.97
+source2contract,Source2Contract,SOURCE2CONTRACT-00027,1,Event Created,2025-01-22,Sourcing Suite,Priya Rao,True,False,804.96
+source2contract,Source2Contract,SOURCE2CONTRACT-00027,2,RFx Published,2025-01-26,Supplier Portal,Maria Garcia,False,False,4725.31
+source2contract,Source2Contract,SOURCE2CONTRACT-00027,3,Supplier Selected,2025-01-28,ERP MM,Sara Novak,True,False,7235.54
+source2contract,Source2Contract,SOURCE2CONTRACT-00027,4,Legal Review,2025-01-29,Supplier Portal,Jon Miller,False,False,1855.85
+source2contract,Source2Contract,SOURCE2CONTRACT-00027,5,Contract Signed,2025-01-31,ERP MM,Maria Garcia,False,True,6734.45
+source2contract,Source2Contract,SOURCE2CONTRACT-00028,1,Event Created,2026-02-22,ERP MM,Priya Rao,True,False,5402.57
+source2contract,Source2Contract,SOURCE2CONTRACT-00028,2,RFx Published,2026-02-27,ERP MM,Kenji Tanaka,True,False,6182.93
+source2contract,Source2Contract,SOURCE2CONTRACT-00028,3,Supplier Selected,2026-03-03,CLM,Alex Chen,False,False,7477.67
+source2contract,Source2Contract,SOURCE2CONTRACT-00028,4,Legal Review,2026-03-03,Supplier Portal,Thomas Weber,False,False,3817.27
+source2contract,Source2Contract,SOURCE2CONTRACT-00028,5,Contract Signed,2026-03-07,Sourcing Suite,Alex Chen,True,False,4786.32
+source2contract,Source2Contract,SOURCE2CONTRACT-00029,1,Event Created,2025-05-25,CLM,Jon Miller,False,False,7352.88
+source2contract,Source2Contract,SOURCE2CONTRACT-00029,2,RFx Published,2025-05-27,Supplier Portal,Alex Chen,False,False,1567.18
+source2contract,Source2Contract,SOURCE2CONTRACT-00029,3,Supplier Selected,2025-05-29,ERP MM,Sara Novak,False,False,6117.44
+source2contract,Source2Contract,SOURCE2CONTRACT-00029,4,Legal Review,2025-06-04,Sourcing Suite,Alex Chen,True,False,4636.02
+source2contract,Source2Contract,SOURCE2CONTRACT-00029,5,Contract Signed,2025-06-04,Sourcing Suite,Thomas Weber,True,False,3762.38
+source2contract,Source2Contract,SOURCE2CONTRACT-00030,1,Event Created,2025-05-18,Supplier Portal,Maria Garcia,False,False,1583.27
+source2contract,Source2Contract,SOURCE2CONTRACT-00030,2,RFx Published,2025-05-19,CLM,Priya Rao,False,False,4963.27
+source2contract,Source2Contract,SOURCE2CONTRACT-00030,3,Supplier Selected,2025-05-25,Sourcing Suite,Kenji Tanaka,True,False,4059.52
+source2contract,Source2Contract,SOURCE2CONTRACT-00030,4,Legal Review,2025-05-30,Supplier Portal,Priya Rao,True,False,4583.26
+source2contract,Source2Contract,SOURCE2CONTRACT-00030,5,Contract Signed,2025-06-02,Sourcing Suite,Sara Novak,True,False,7202.55
+source2contract,Source2Contract,SOURCE2CONTRACT-00031,1,Event Created,2026-01-01,Supplier Portal,Maria Garcia,True,False,1645.15
+source2contract,Source2Contract,SOURCE2CONTRACT-00031,2,RFx Published,2026-01-05,Sourcing Suite,Nina Patel,True,False,3578.29
+source2contract,Source2Contract,SOURCE2CONTRACT-00031,3,Supplier Selected,2026-01-05,Supplier Portal,Thomas Weber,False,False,526.25
+source2contract,Source2Contract,SOURCE2CONTRACT-00031,4,Legal Review,2026-01-06,Sourcing Suite,Priya Rao,True,False,1909.09
+source2contract,Source2Contract,SOURCE2CONTRACT-00031,5,Contract Signed,2026-01-07,Sourcing Suite,Priya Rao,False,False,2824.56
+source2contract,Source2Contract,SOURCE2CONTRACT-00032,1,Event Created,2025-03-28,Supplier Portal,Nina Patel,False,False,6272.51
+source2contract,Source2Contract,SOURCE2CONTRACT-00032,2,RFx Published,2025-04-03,Sourcing Suite,Kenji Tanaka,True,False,1352.82
+source2contract,Source2Contract,SOURCE2CONTRACT-00032,3,Supplier Selected,2025-04-05,ERP MM,Nina Patel,True,False,4776.06
+source2contract,Source2Contract,SOURCE2CONTRACT-00032,4,Legal Review,2025-04-10,Sourcing Suite,Kenji Tanaka,True,False,6395.19
+source2contract,Source2Contract,SOURCE2CONTRACT-00032,5,Contract Signed,2025-04-10,Sourcing Suite,Kenji Tanaka,True,False,6449.91
+source2contract,Source2Contract,SOURCE2CONTRACT-00033,1,Event Created,2025-06-16,Sourcing Suite,Thomas Weber,True,False,6920.33
+source2contract,Source2Contract,SOURCE2CONTRACT-00033,2,RFx Published,2025-06-19,CLM,Kenji Tanaka,True,False,5328.09
+source2contract,Source2Contract,SOURCE2CONTRACT-00033,3,Supplier Selected,2025-06-25,Supplier Portal,Sara Novak,True,False,1428.65
+source2contract,Source2Contract,SOURCE2CONTRACT-00033,4,Legal Review,2025-06-25,Supplier Portal,Jon Miller,True,False,2535.24
+source2contract,Source2Contract,SOURCE2CONTRACT-00033,5,Contract Signed,2025-06-27,CLM,Sara Novak,True,False,184.67
+source2contract,Source2Contract,SOURCE2CONTRACT-00034,1,Event Created,2025-08-01,Supplier Portal,Maria Garcia,True,False,2728.06
+source2contract,Source2Contract,SOURCE2CONTRACT-00034,2,RFx Published,2025-08-05,Supplier Portal,Alex Chen,True,False,5216.27
+source2contract,Source2Contract,SOURCE2CONTRACT-00034,3,Supplier Selected,2025-08-08,Supplier Portal,Thomas Weber,False,False,7088.24
+source2contract,Source2Contract,SOURCE2CONTRACT-00034,4,Legal Review,2025-08-11,ERP MM,Jon Miller,True,False,4065.88
+source2contract,Source2Contract,SOURCE2CONTRACT-00034,5,Contract Signed,2025-08-14,CLM,Maria Garcia,True,False,5786.15
+source2contract,Source2Contract,SOURCE2CONTRACT-00035,1,Event Created,2025-04-09,Sourcing Suite,Thomas Weber,False,False,2624.34
+source2contract,Source2Contract,SOURCE2CONTRACT-00035,2,RFx Published,2025-04-14,Supplier Portal,Priya Rao,True,False,4714.33
+source2contract,Source2Contract,SOURCE2CONTRACT-00035,3,Supplier Selected,2025-04-20,ERP MM,Sara Novak,False,True,2481.43
+source2contract,Source2Contract,SOURCE2CONTRACT-00035,4,Legal Review,2025-04-25,CLM,Sara Novak,False,True,1339.59
+source2contract,Source2Contract,SOURCE2CONTRACT-00035,5,Contract Signed,2025-04-30,Supplier Portal,Jon Miller,False,False,7476.57
+source2contract,Source2Contract,SOURCE2CONTRACT-00036,1,Event Created,2026-03-28,Sourcing Suite,Alex Chen,True,False,644.38
+source2contract,Source2Contract,SOURCE2CONTRACT-00036,2,RFx Published,2026-04-03,Sourcing Suite,Alex Chen,False,False,6566.79
+source2contract,Source2Contract,SOURCE2CONTRACT-00036,3,Supplier Selected,2026-04-05,Supplier Portal,Nina Patel,True,False,4065.24
+source2contract,Source2Contract,SOURCE2CONTRACT-00036,4,Legal Review,2026-04-11,CLM,Sara Novak,False,False,2995.2
+source2contract,Source2Contract,SOURCE2CONTRACT-00036,5,Contract Signed,2026-04-11,Sourcing Suite,Kenji Tanaka,False,False,3361.43

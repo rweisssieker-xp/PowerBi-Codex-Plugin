@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+lead2order,Lead2Order,LEAD2ORDER-00001,1,Lead Created,2025-09-11,Marketing Automation,Thomas Weber,True,False,5096.55
+lead2order,Lead2Order,LEAD2ORDER-00001,2,Qualified,2025-09-16,Marketing Automation,Nina Patel,True,False,3975.75
+lead2order,Lead2Order,LEAD2ORDER-00001,3,Opportunity Created,2025-09-17,Marketing Automation,Nina Patel,False,False,2984.12
+lead2order,Lead2Order,LEAD2ORDER-00001,4,Quote Sent,2025-09-22,Marketing Automation,Alex Chen,False,False,6342.34
+lead2order,Lead2Order,LEAD2ORDER-00001,5,Order Booked,2025-09-26,Marketing Automation,Jon Miller,True,False,615.14
+lead2order,Lead2Order,LEAD2ORDER-00002,1,Lead Created,2025-09-26,CRM,Kenji Tanaka,False,False,1344.53
+lead2order,Lead2Order,LEAD2ORDER-00002,2,Qualified,2025-09-30,CRM,Thomas Weber,True,False,1843.29
+lead2order,Lead2Order,LEAD2ORDER-00002,3,Opportunity Created,2025-10-06,CRM,Jon Miller,True,False,1525.76
+lead2order,Lead2Order,LEAD2ORDER-00002,4,Quote Sent,2025-10-08,Marketing Automation,Nina Patel,False,False,6809.53
+lead2order,Lead2Order,LEAD2ORDER-00002,5,Order Booked,2025-10-08,CRM,Thomas Weber,False,False,3828.18
+lead2order,Lead2Order,LEAD2ORDER-00003,1,Lead Created,2025-01-13,Marketing Automation,Jon Miller,True,False,6497.49
+lead2order,Lead2Order,LEAD2ORDER-00003,2,Qualified,2025-01-17,CRM,Nina Patel,True,False,7036.95
+lead2order,Lead2Order,LEAD2ORDER-00003,3,Opportunity Created,2025-01-17,CRM,Maria Garcia,True,False,4155.58
+lead2order,Lead2Order,LEAD2ORDER-00003,4,Quote Sent,2025-01-19,Marketing Automation,Nina Patel,False,False,3017.7
+lead2order,Lead2Order,LEAD2ORDER-00003,5,Order Booked,2025-01-21,Marketing Automation,Maria Garcia,True,False,2572.25
+lead2order,Lead2Order,LEAD2ORDER-00004,1,Lead Created,2025-07-31,CRM,Alex Chen,False,False,3403.43
+lead2order,Lead2Order,LEAD2ORDER-00004,2,Qualified,2025-08-04,CRM,Thomas Weber,True,True,1412.89
+lead2order,Lead2Order,LEAD2ORDER-00004,3,Opportunity Created,2025-08-09,ERP Sales,Jon Miller,True,False,2412.44
+lead2order,Lead2Order,LEAD2ORDER-00004,4,Quote Sent,2025-08-13,CRM,Jon Miller,False,False,6295.67
+lead2order,Lead2Order,LEAD2ORDER-00004,5,Order Booked,2025-08-14,ERP Sales,Thomas Weber,False,False,2561.89
+lead2order,Lead2Order,LEAD2ORDER-00005,1,Lead Created,2025-08-09,Marketing Automation,Alex Chen,False,False,4216.37
+lead2order,Lead2Order,LEAD2ORDER-00005,2,Qualified,2025-08-09,CRM,Priya Rao,True,False,1754.99
+lead2order,Lead2Order,LEAD2ORDER-00005,3,Opportunity Created,2025-08-15,Marketing Automation,Alex Chen,True,False,5971.18
+lead2order,Lead2Order,LEAD2ORDER-00005,4,Quote Sent,2025-08-18,Marketing Automation,Priya Rao,True,False,2214.49
+lead2order,Lead2Order,LEAD2ORDER-00005,5,Order Booked,2025-08-22,ERP Sales,Alex Chen,False,False,4576.78
+lead2order,Lead2Order,LEAD2ORDER-00006,1,Lead Created,2025-02-26,Marketing Automation,Jon Miller,True,False,7831.84
+lead2order,Lead2Order,LEAD2ORDER-00006,2,Qualified,2025-03-02,Marketing Automation,Priya Rao,False,True,5764.85
+lead2order,Lead2Order,LEAD2ORDER-00006,3,Opportunity Created,2025-03-08,CRM,Kenji Tanaka,False,False,7961.93
+lead2order,Lead2Order,LEAD2ORDER-00006,4,Quote Sent,2025-03-10,CPQ,Nina Patel,True,False,7299.41
+lead2order,Lead2Order,LEAD2ORDER-00006,5,Order Booked,2025-03-14,ERP Sales,Maria Garcia,True,False,5811.28
+lead2order,Lead2Order,LEAD2ORDER-00007,1,Lead Created,2025-09-07,CPQ,Sara Novak,True,False,5803.76
+lead2order,Lead2Order,LEAD2ORDER-00007,2,Qualified,2025-09-12,CPQ,Jon Miller,True,False,5365.24
+lead2order,Lead2Order,LEAD2ORDER-00007,3,Opportunity Created,2025-09-13,ERP Sales,Alex Chen,False,False,2824.09
+lead2order,Lead2Order,LEAD2ORDER-00007,4,Quote Sent,2025-09-13,CRM,Nina Patel,False,False,6467.2
+lead2order,Lead2Order,LEAD2ORDER-00007,5,Order Booked,2025-09-15,CRM,Sara Novak,False,False,1639.13
+lead2order,Lead2Order,LEAD2ORDER-00008,1,Lead Created,2025-05-06,CPQ,Maria Garcia,True,False,4445.75
+lead2order,Lead2Order,LEAD2ORDER-00008,2,Qualified,2025-05-11,CPQ,Jon Miller,True,False,4568.36
+lead2order,Lead2Order,LEAD2ORDER-00008,3,Opportunity Created,2025-05-16,CPQ,Nina Patel,False,False,6199.48
+lead2order,Lead2Order,LEAD2ORDER-00008,4,Quote Sent,2025-05-20,Marketing Automation,Alex Chen,False,False,5334.58
+lead2order,Lead2Order,LEAD2ORDER-00008,5,Order Booked,2025-05-26,CPQ,Priya Rao,True,False,2981.84
+lead2order,Lead2Order,LEAD2ORDER-00009,1,Lead Created,2026-01-07,CPQ,Jon Miller,True,False,5565.7
+lead2order,Lead2Order,LEAD2ORDER-00009,2,Qualified,2026-01-11,ERP Sales,Jon Miller,True,False,1211.19
+lead2order,Lead2Order,LEAD2ORDER-00009,3,Opportunity Created,2026-01-17,CPQ,Kenji Tanaka,True,False,7475.54
+lead2order,Lead2Order,LEAD2ORDER-00009,4,Quote Sent,2026-01-19,CPQ,Nina Patel,False,False,7573.84
+lead2order,Lead2Order,LEAD2ORDER-00009,5,Order Booked,2026-01-21,CRM,Kenji Tanaka,True,True,1783.47
+lead2order,Lead2Order,LEAD2ORDER-00010,1,Lead Created,2026-02-18,ERP Sales,Nina Patel,True,False,7123.09
+lead2order,Lead2Order,LEAD2ORDER-00010,2,Qualified,2026-02-19,Marketing Automation,Thomas Weber,True,False,774.63
+lead2order,Lead2Order,LEAD2ORDER-00010,3,Opportunity Created,2026-02-23,ERP Sales,Kenji Tanaka,True,True,3710.62
+lead2order,Lead2Order,LEAD2ORDER-00010,4,Quote Sent,2026-03-01,CPQ,Sara Novak,False,False,4976.25
+lead2order,Lead2Order,LEAD2ORDER-00010,5,Order Booked,2026-03-01,ERP Sales,Alex Chen,True,False,1731.63
+lead2order,Lead2Order,LEAD2ORDER-00011,1,Lead Created,2025-01-14,CRM,Nina Patel,True,False,7743.18
+lead2order,Lead2Order,LEAD2ORDER-00011,2,Qualified,2025-01-16,ERP Sales,Jon Miller,True,False,3992.66
+lead2order,Lead2Order,LEAD2ORDER-00011,3,Opportunity Created,2025-01-20,Marketing Automation,Maria Garcia,False,False,6130.58
+lead2order,Lead2Order,LEAD2ORDER-00011,4,Quote Sent,2025-01-23,ERP Sales,Kenji Tanaka,False,False,6002.0
+lead2order,Lead2Order,LEAD2ORDER-00011,5,Order Booked,2025-01-29,Marketing Automation,Nina Patel,False,False,3622.51
+lead2order,Lead2Order,LEAD2ORDER-00012,1,Lead Created,2025-06-15,ERP Sales,Nina Patel,True,False,7753.2
+lead2order,Lead2Order,LEAD2ORDER-00012,2,Qualified,2025-06-17,CPQ,Nina Patel,True,False,929.9
+lead2order,Lead2Order,LEAD2ORDER-00012,3,Opportunity Created,2025-06-19,CPQ,Jon Miller,True,False,7153.54
+lead2order,Lead2Order,LEAD2ORDER-00012,4,Quote Sent,2025-06-24,CRM,Thomas Weber,False,False,6692.94
+lead2order,Lead2Order,LEAD2ORDER-00012,5,Order Booked,2025-06-24,Marketing Automation,Sara Novak,False,True,7579.34
+lead2order,Lead2Order,LEAD2ORDER-00013,1,Lead Created,2026-02-06,CPQ,Nina Patel,True,False,5086.21
+lead2order,Lead2Order,LEAD2ORDER-00013,2,Qualified,2026-02-10,CPQ,Alex Chen,True,False,3952.11
+lead2order,Lead2Order,LEAD2ORDER-00013,3,Opportunity Created,2026-02-11,CPQ,Nina Patel,False,False,2602.49
+lead2order,Lead2Order,LEAD2ORDER-00013,4,Quote Sent,2026-02-12,Marketing Automation,Jon Miller,False,False,2746.53
+lead2order,Lead2Order,LEAD2ORDER-00013,5,Order Booked,2026-02-17,CRM,Sara Novak,True,False,6482.68
+lead2order,Lead2Order,LEAD2ORDER-00014,1,Lead Created,2025-09-26,CRM,Maria Garcia,True,True,4167.59
+lead2order,Lead2Order,LEAD2ORDER-00014,2,Qualified,2025-09-29,CRM,Thomas Weber,True,False,6582.28
+lead2order,Lead2Order,LEAD2ORDER-00014,3,Opportunity Created,2025-10-01,ERP Sales,Nina Patel,True,False,440.09
+lead2order,Lead2Order,LEAD2ORDER-00014,4,Quote Sent,2025-10-04,CRM,Priya Rao,True,False,3636.37
+lead2order,Lead2Order,LEAD2ORDER-00014,5,Order Booked,2025-10-09,ERP Sales,Alex Chen,True,False,4558.57
+lead2order,Lead2Order,LEAD2ORDER-00015,1,Lead Created,2025-10-25,CRM,Nina Patel,False,False,6366.68
+lead2order,Lead2Order,LEAD2ORDER-00015,2,Qualified,2025-10-31,ERP Sales,Priya Rao,True,False,1050.61
+lead2order,Lead2Order,LEAD2ORDER-00015,3,Opportunity Created,2025-11-04,CRM,Sara Novak,True,False,4952.33
+lead2order,Lead2Order,LEAD2ORDER-00015,4,Quote Sent,2025-11-08,Marketing Automation,Jon Miller,True,False,5661.73
+lead2order,Lead2Order,LEAD2ORDER-00015,5,Order Booked,2025-11-13,ERP Sales,Nina Patel,True,False,5222.27
+lead2order,Lead2Order,LEAD2ORDER-00016,1,Lead Created,2026-01-18,ERP Sales,Thomas Weber,True,False,3672.67
+lead2order,Lead2Order,LEAD2ORDER-00016,2,Qualified,2026-01-20,CRM,Sara Novak,True,False,2776.4
+lead2order,Lead2Order,LEAD2ORDER-00016,3,Opportunity Created,2026-01-23,ERP Sales,Alex Chen,False,False,3677.37
+lead2order,Lead2Order,LEAD2ORDER-00016,4,Quote Sent,2026-01-23,CRM,Jon Miller,True,False,740.97
+lead2order,Lead2Order,LEAD2ORDER-00016,5,Order Booked,2026-01-23,CPQ,Sara Novak,True,False,861.59
+lead2order,Lead2Order,LEAD2ORDER-00017,1,Lead Created,2025-11-24,CPQ,Jon Miller,True,False,7522.04
+lead2order,Lead2Order,LEAD2ORDER-00017,2,Qualified,2025-11-27,CPQ,Thomas Weber,False,False,625.53
+lead2order,Lead2Order,LEAD2ORDER-00017,3,Opportunity Created,2025-11-28,ERP Sales,Sara Novak,False,False,3624.49
+lead2order,Lead2Order,LEAD2ORDER-00017,4,Quote Sent,2025-12-03,ERP Sales,Maria Garcia,False,False,3684.41
+lead2order,Lead2Order,LEAD2ORDER-00017,5,Order Booked,2025-12-07,CPQ,Kenji Tanaka,False,False,2507.17
+lead2order,Lead2Order,LEAD2ORDER-00018,1,Lead Created,2025-01-21,CPQ,Nina Patel,False,False,1166.32
+lead2order,Lead2Order,LEAD2ORDER-00018,2,Qualified,2025-01-26,CRM,Maria Garcia,True,False,4066.3
+lead2order,Lead2Order,LEAD2ORDER-00018,3,Opportunity Created,2025-01-26,ERP Sales,Thomas Weber,True,True,4899.76
+lead2order,Lead2Order,LEAD2ORDER-00018,4,Quote Sent,2025-01-29,ERP Sales,Alex Chen,False,False,1978.94
+lead2order,Lead2Order,LEAD2ORDER-00018,5,Order Booked,2025-02-02,Marketing Automation,Priya Rao,True,False,6579.87
+lead2order,Lead2Order,LEAD2ORDER-00019,1,Lead Created,2026-01-02,ERP Sales,Thomas Weber,False,False,6961.31
+lead2order,Lead2Order,LEAD2ORDER-00019,2,Qualified,2026-01-07,CRM,Kenji Tanaka,True,False,1019.61
+lead2order,Lead2Order,LEAD2ORDER-00019,3,Opportunity Created,2026-01-09,CPQ,Sara Novak,True,False,5794.58
+lead2order,Lead2Order,LEAD2ORDER-00019,4,Quote Sent,2026-01-14,CPQ,Maria Garcia,True,False,3632.39
+lead2order,Lead2Order,LEAD2ORDER-00019,5,Order Booked,2026-01-18,CRM,Alex Chen,False,True,2541.57
+lead2order,Lead2Order,LEAD2ORDER-00020,1,Lead Created,2025-08-05,CRM,Kenji Tanaka,False,False,2703.33
+lead2order,Lead2Order,LEAD2ORDER-00020,2,Qualified,2025-08-06,CRM,Priya Rao,False,False,4030.92
+lead2order,Lead2Order,LEAD2ORDER-00020,3,Opportunity Created,2025-08-07,ERP Sales,Sara Novak,True,False,3205.64
+lead2order,Lead2Order,LEAD2ORDER-00020,4,Quote Sent,2025-08-11,Marketing Automation,Sara Novak,True,False,6822.55
+lead2order,Lead2Order,LEAD2ORDER-00020,5,Order Booked,2025-08-17,Marketing Automation,Thomas Weber,True,False,88.78
+lead2order,Lead2Order,LEAD2ORDER-00021,1,Lead Created,2025-07-04,Marketing Automation,Priya Rao,False,False,821.81
+lead2order,Lead2Order,LEAD2ORDER-00021,2,Qualified,2025-07-08,CPQ,Priya Rao,False,False,2925.53
+lead2order,Lead2Order,LEAD2ORDER-00021,3,Opportunity Created,2025-07-13,CPQ,Maria Garcia,False,False,2070.91
+lead2order,Lead2Order,LEAD2ORDER-00021,4,Quote Sent,2025-07-16,CRM,Nina Patel,True,False,1087.38
+lead2order,Lead2Order,LEAD2ORDER-00021,5,Order Booked,2025-07-21,ERP Sales,Kenji Tanaka,False,False,1707.06
+lead2order,Lead2Order,LEAD2ORDER-00022,1,Lead Created,2026-03-03,ERP Sales,Priya Rao,True,False,5027.89
+lead2order,Lead2Order,LEAD2ORDER-00022,2,Qualified,2026-03-08,CPQ,Maria Garcia,True,False,3093.69
+lead2order,Lead2Order,LEAD2ORDER-00022,3,Opportunity Created,2026-03-08,Marketing Automation,Alex Chen,False,False,383.37
+lead2order,Lead2Order,LEAD2ORDER-00022,4,Quote Sent,2026-03-08,CRM,Maria Garcia,True,False,6637.59
+lead2order,Lead2Order,LEAD2ORDER-00022,5,Order Booked,2026-03-14,CPQ,Jon Miller,False,False,2912.41
+lead2order,Lead2Order,LEAD2ORDER-00023,1,Lead Created,2025-03-31,CPQ,Thomas Weber,False,True,2194.0
+lead2order,Lead2Order,LEAD2ORDER-00023,2,Qualified,2025-03-31,ERP Sales,Jon Miller,False,False,858.65
+lead2order,Lead2Order,LEAD2ORDER-00023,3,Opportunity Created,2025-03-31,CRM,Kenji Tanaka,False,False,3182.23
+lead2order,Lead2Order,LEAD2ORDER-00023,4,Quote Sent,2025-04-01,Marketing Automation,Thomas Weber,True,False,2143.16
+lead2order,Lead2Order,LEAD2ORDER-00023,5,Order Booked,2025-04-07,CPQ,Alex Chen,True,False,4414.16
+lead2order,Lead2Order,LEAD2ORDER-00024,1,Lead Created,2025-10-13,ERP Sales,Sara Novak,False,False,1619.27
+lead2order,Lead2Order,LEAD2ORDER-00024,2,Qualified,2025-10-15,CRM,Alex Chen,False,False,2449.52
+lead2order,Lead2Order,LEAD2ORDER-00024,3,Opportunity Created,2025-10-17,CRM,Kenji Tanaka,True,False,4816.32
+lead2order,Lead2Order,LEAD2ORDER-00024,4,Quote Sent,2025-10-22,CPQ,Thomas Weber,False,True,7464.45
+lead2order,Lead2Order,LEAD2ORDER-00024,5,Order Booked,2025-10-28,Marketing Automation,Maria Garcia,False,False,6352.43
+lead2order,Lead2Order,LEAD2ORDER-00025,1,Lead Created,2026-01-08,ERP Sales,Kenji Tanaka,False,False,6311.48
+lead2order,Lead2Order,LEAD2ORDER-00025,2,Qualified,2026-01-08,CRM,Thomas Weber,True,False,3638.21
+lead2order,Lead2Order,LEAD2ORDER-00025,3,Opportunity Created,2026-01-13,ERP Sales,Maria Garcia,False,False,6351.18
+lead2order,Lead2Order,LEAD2ORDER-00025,4,Quote Sent,2026-01-17,Marketing Automation,Jon Miller,False,False,6641.18
+lead2order,Lead2Order,LEAD2ORDER-00025,5,Order Booked,2026-01-21,CRM,Thomas Weber,False,False,1508.2
+lead2order,Lead2Order,LEAD2ORDER-00026,1,Lead Created,2025-12-25,Marketing Automation,Maria Garcia,False,False,808.86
+lead2order,Lead2Order,LEAD2ORDER-00026,2,Qualified,2025-12-30,ERP Sales,Kenji Tanaka,False,False,5647.83
+lead2order,Lead2Order,LEAD2ORDER-00026,3,Opportunity Created,2026-01-01,CRM,Nina Patel,False,False,2758.08
+lead2order,Lead2Order,LEAD2ORDER-00026,4,Quote Sent,2026-01-02,CRM,Nina Patel,True,False,4321.09
+lead2order,Lead2Order,LEAD2ORDER-00026,5,Order Booked,2026-01-05,CPQ,Nina Patel,False,False,3930.9
+lead2order,Lead2Order,LEAD2ORDER-00027,1,Lead Created,2025-09-12,CRM,Kenji Tanaka,True,False,3069.19
+lead2order,Lead2Order,LEAD2ORDER-00027,2,Qualified,2025-09-14,CRM,Maria Garcia,True,False,2024.78
+lead2order,Lead2Order,LEAD2ORDER-00027,3,Opportunity Created,2025-09-20,Marketing Automation,Thomas Weber,True,False,2215.41
+lead2order,Lead2Order,LEAD2ORDER-00027,4,Quote Sent,2025-09-20,Marketing Automation,Thomas Weber,False,False,430.36
+lead2order,Lead2Order,LEAD2ORDER-00027,5,Order Booked,2025-09-25,ERP Sales,Thomas Weber,False,True,5525.47
+lead2order,Lead2Order,LEAD2ORDER-00028,1,Lead Created,2025-01-28,Marketing Automation,Nina Patel,True,False,4553.29
+lead2order,Lead2Order,LEAD2ORDER-00028,2,Qualified,2025-02-01,CRM,Sara Novak,False,False,7223.3
+lead2order,Lead2Order,LEAD2ORDER-00028,3,Opportunity Created,2025-02-05,CRM,Alex Chen,False,False,4118.25
+lead2order,Lead2Order,LEAD2ORDER-00028,4,Quote Sent,2025-02-09,CPQ,Priya Rao,False,False,4075.54
+lead2order,Lead2Order,LEAD2ORDER-00028,5,Order Booked,2025-02-14,CPQ,Priya Rao,False,False,214.9
+lead2order,Lead2Order,LEAD2ORDER-00029,1,Lead Created,2025-11-24,Marketing Automation,Thomas Weber,True,False,5835.24
+lead2order,Lead2Order,LEAD2ORDER-00029,2,Qualified,2025-11-29,CRM,Nina Patel,True,False,5153.28
+lead2order,Lead2Order,LEAD2ORDER-00029,3,Opportunity Created,2025-12-04,CPQ,Jon Miller,True,False,7333.68
+lead2order,Lead2Order,LEAD2ORDER-00029,4,Quote Sent,2025-12-04,CRM,Sara Novak,False,False,5229.23
+lead2order,Lead2Order,LEAD2ORDER-00029,5,Order Booked,2025-12-07,CPQ,Nina Patel,True,True,7565.95
+lead2order,Lead2Order,LEAD2ORDER-00030,1,Lead Created,2025-05-16,Marketing Automation,Priya Rao,False,True,5037.61
+lead2order,Lead2Order,LEAD2ORDER-00030,2,Qualified,2025-05-18,CRM,Sara Novak,True,False,4850.62
+lead2order,Lead2Order,LEAD2ORDER-00030,3,Opportunity Created,2025-05-20,Marketing Automation,Jon Miller,False,False,7473.23
+lead2order,Lead2Order,LEAD2ORDER-00030,4,Quote Sent,2025-05-21,Marketing Automation,Sara Novak,False,False,5037.18
+lead2order,Lead2Order,LEAD2ORDER-00030,5,Order Booked,2025-05-21,CRM,Jon Miller,False,False,7297.24
+lead2order,Lead2Order,LEAD2ORDER-00031,1,Lead Created,2025-03-12,CRM,Alex Chen,False,False,6861.82
+lead2order,Lead2Order,LEAD2ORDER-00031,2,Qualified,2025-03-12,Marketing Automation,Kenji Tanaka,True,True,859.74
+lead2order,Lead2Order,LEAD2ORDER-00031,3,Opportunity Created,2025-03-14,Marketing Automation,Priya Rao,False,False,352.4
+lead2order,Lead2Order,LEAD2ORDER-00031,4,Quote Sent,2025-03-15,Marketing Automation,Priya Rao,False,False,6052.47
+lead2order,Lead2Order,LEAD2ORDER-00031,5,Order Booked,2025-03-17,ERP Sales,Jon Miller,False,False,7432.2
+lead2order,Lead2Order,LEAD2ORDER-00032,1,Lead Created,2025-02-10,CRM,Kenji Tanaka,False,False,1067.12
+lead2order,Lead2Order,LEAD2ORDER-00032,2,Qualified,2025-02-10,CRM,Alex Chen,False,True,6915.41
+lead2order,Lead2Order,LEAD2ORDER-00032,3,Opportunity Created,2025-02-12,Marketing Automation,Sara Novak,False,False,4401.09
+lead2order,Lead2Order,LEAD2ORDER-00032,4,Quote Sent,2025-02-15,Marketing Automation,Maria Garcia,False,False,6472.81
+lead2order,Lead2Order,LEAD2ORDER-00032,5,Order Booked,2025-02-18,Marketing Automation,Kenji Tanaka,True,True,4735.97
+lead2order,Lead2Order,LEAD2ORDER-00033,1,Lead Created,2025-11-16,CRM,Kenji Tanaka,False,False,1782.99
+lead2order,Lead2Order,LEAD2ORDER-00033,2,Qualified,2025-11-20,Marketing Automation,Thomas Weber,False,False,3084.48
+lead2order,Lead2Order,LEAD2ORDER-00033,3,Opportunity Created,2025-11-21,CRM,Alex Chen,True,False,1432.15
+lead2order,Lead2Order,LEAD2ORDER-00033,4,Quote Sent,2025-11-23,CRM,Priya Rao,True,False,4467.83
+lead2order,Lead2Order,LEAD2ORDER-00033,5,Order Booked,2025-11-23,ERP Sales,Jon Miller,False,False,6800.47
+lead2order,Lead2Order,LEAD2ORDER-00034,1,Lead Created,2026-01-30,CRM,Priya Rao,True,False,2232.64
+lead2order,Lead2Order,LEAD2ORDER-00034,2,Qualified,2026-02-03,CRM,Jon Miller,True,False,6681.18
+lead2order,Lead2Order,LEAD2ORDER-00034,3,Opportunity Created,2026-02-07,CPQ,Priya Rao,False,False,6321.69
+lead2order,Lead2Order,LEAD2ORDER-00034,4,Quote Sent,2026-02-09,ERP Sales,Kenji Tanaka,False,False,1678.89
+lead2order,Lead2Order,LEAD2ORDER-00034,5,Order Booked,2026-02-12,ERP Sales,Kenji Tanaka,True,False,7780.35
+lead2order,Lead2Order,LEAD2ORDER-00035,1,Lead Created,2026-02-22,ERP Sales,Thomas Weber,True,True,2938.44
+lead2order,Lead2Order,LEAD2ORDER-00035,2,Qualified,2026-02-26,ERP Sales,Maria Garcia,False,False,6440.28
+lead2order,Lead2Order,LEAD2ORDER-00035,3,Opportunity Created,2026-02-26,CRM,Maria Garcia,True,False,4190.17
+lead2order,Lead2Order,LEAD2ORDER-00035,4,Quote Sent,2026-02-27,CRM,Alex Chen,False,False,6276.83
+lead2order,Lead2Order,LEAD2ORDER-00035,5,Order Booked,2026-03-02,CRM,Priya Rao,False,False,5710.87
+lead2order,Lead2Order,LEAD2ORDER-00036,1,Lead Created,2025-03-25,CRM,Alex Chen,True,False,4519.91
+lead2order,Lead2Order,LEAD2ORDER-00036,2,Qualified,2025-03-29,CPQ,Sara Novak,False,False,3025.67
+lead2order,Lead2Order,LEAD2ORDER-00036,3,Opportunity Created,2025-04-02,CPQ,Thomas Weber,False,False,199.1
+lead2order,Lead2Order,LEAD2ORDER-00036,4,Quote Sent,2025-04-05,ERP Sales,Nina Patel,False,False,7757.01
+lead2order,Lead2Order,LEAD2ORDER-00036,5,Order Booked,2025-04-06,ERP Sales,Alex Chen,True,False,6530.21

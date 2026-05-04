@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00001,1,Cycle Opened,2025-09-28,ERP FI/CO,Thomas Weber,True,False,6020.06
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00001,2,Data Loaded,2025-10-02,ERP FI/CO,Nina Patel,True,False,939.62
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00001,3,Reviewed,2025-10-04,EPM,Thomas Weber,False,False,2094.95
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00001,4,Approved,2025-10-06,ERP FI/CO,Nina Patel,True,False,3893.79
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00001,5,Reported,2025-10-06,ERP FI/CO,Kenji Tanaka,False,False,2241.44
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00002,1,Cycle Opened,2025-06-06,EPM,Sara Novak,True,False,1522.93
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00002,2,Data Loaded,2025-06-11,Consolidation,Thomas Weber,True,False,5995.89
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00002,3,Reviewed,2025-06-11,ERP FI/CO,Alex Chen,False,False,4638.0
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00002,4,Approved,2025-06-14,Consolidation,Thomas Weber,False,False,4707.75
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00002,5,Reported,2025-06-19,EPM,Alex Chen,False,False,5540.61
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00003,1,Cycle Opened,2026-03-27,EPM,Kenji Tanaka,True,True,3383.89
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00003,2,Data Loaded,2026-03-30,Planning,Alex Chen,False,False,3941.67
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00003,3,Reviewed,2026-03-31,EPM,Priya Rao,False,False,4429.17
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00003,4,Approved,2026-03-31,EPM,Jon Miller,True,False,7919.54
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00003,5,Reported,2026-04-06,ERP FI/CO,Sara Novak,True,False,460.82
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00004,1,Cycle Opened,2025-02-26,EPM,Maria Garcia,False,False,2955.61
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00004,2,Data Loaded,2025-02-27,EPM,Nina Patel,True,False,6728.95
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00004,3,Reviewed,2025-03-04,Planning,Alex Chen,True,False,5938.66
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00004,4,Approved,2025-03-04,EPM,Nina Patel,True,False,1809.89
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00004,5,Reported,2025-03-09,Consolidation,Nina Patel,False,False,6541.53
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00005,1,Cycle Opened,2025-08-06,ERP FI/CO,Kenji Tanaka,True,False,147.98
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00005,2,Data Loaded,2025-08-06,Consolidation,Priya Rao,True,False,4523.64
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00005,3,Reviewed,2025-08-11,Planning,Kenji Tanaka,False,False,7023.08
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00005,4,Approved,2025-08-13,ERP FI/CO,Thomas Weber,False,False,4345.04
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00005,5,Reported,2025-08-17,ERP FI/CO,Nina Patel,True,False,980.62
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00006,1,Cycle Opened,2025-01-24,ERP FI/CO,Priya Rao,False,False,1694.13
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00006,2,Data Loaded,2025-01-24,EPM,Maria Garcia,True,True,6647.09
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00006,3,Reviewed,2025-01-29,ERP FI/CO,Nina Patel,True,False,707.17
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00006,4,Approved,2025-01-31,ERP FI/CO,Nina Patel,False,True,6938.05
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00006,5,Reported,2025-02-06,ERP FI/CO,Alex Chen,False,False,6323.48
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00007,1,Cycle Opened,2025-08-16,ERP FI/CO,Alex Chen,False,False,7299.6
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00007,2,Data Loaded,2025-08-18,Consolidation,Maria Garcia,True,False,6864.18
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00007,3,Reviewed,2025-08-23,Consolidation,Priya Rao,True,False,3434.1
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00007,4,Approved,2025-08-25,EPM,Maria Garcia,False,False,7333.34
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00007,5,Reported,2025-08-28,Planning,Nina Patel,True,False,6978.28
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00008,1,Cycle Opened,2025-05-05,ERP FI/CO,Sara Novak,True,False,66.92
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00008,2,Data Loaded,2025-05-05,Planning,Sara Novak,False,False,2535.57
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00008,3,Reviewed,2025-05-10,ERP FI/CO,Thomas Weber,False,False,7767.74
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00008,4,Approved,2025-05-10,Consolidation,Jon Miller,True,True,5456.36
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00008,5,Reported,2025-05-13,Planning,Thomas Weber,True,False,1590.82
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00009,1,Cycle Opened,2025-05-20,Planning,Priya Rao,True,False,4558.39
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00009,2,Data Loaded,2025-05-26,EPM,Alex Chen,False,False,1017.79
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00009,3,Reviewed,2025-06-01,Planning,Priya Rao,True,False,934.03
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00009,4,Approved,2025-06-04,EPM,Jon Miller,False,False,2175.41
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00009,5,Reported,2025-06-06,ERP FI/CO,Sara Novak,True,True,6945.87
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00010,1,Cycle Opened,2025-06-19,Planning,Kenji Tanaka,True,False,4752.54
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00010,2,Data Loaded,2025-06-24,EPM,Thomas Weber,True,True,6207.82
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00010,3,Reviewed,2025-06-29,Planning,Alex Chen,False,True,3896.85
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00010,4,Approved,2025-06-30,Consolidation,Sara Novak,True,False,7920.32
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00010,5,Reported,2025-07-03,Planning,Thomas Weber,False,False,6118.88
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00011,1,Cycle Opened,2025-06-26,Planning,Priya Rao,False,False,5760.8
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00011,2,Data Loaded,2025-06-28,Consolidation,Alex Chen,False,False,1585.69
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00011,3,Reviewed,2025-07-01,ERP FI/CO,Thomas Weber,False,False,3966.73
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00011,4,Approved,2025-07-01,Planning,Thomas Weber,True,True,4690.84
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00011,5,Reported,2025-07-07,EPM,Priya Rao,True,False,2140.75
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00012,1,Cycle Opened,2025-08-22,Planning,Maria Garcia,False,True,6929.89
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00012,2,Data Loaded,2025-08-24,ERP FI/CO,Alex Chen,True,False,2251.95
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00012,3,Reviewed,2025-08-24,Consolidation,Maria Garcia,True,False,2316.01
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00012,4,Approved,2025-08-29,Consolidation,Maria Garcia,False,False,5268.13
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00012,5,Reported,2025-09-01,Planning,Nina Patel,True,False,754.43
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00013,1,Cycle Opened,2026-02-10,Planning,Thomas Weber,True,False,1509.71
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00013,2,Data Loaded,2026-02-12,Planning,Nina Patel,False,False,7149.05
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00013,3,Reviewed,2026-02-12,EPM,Nina Patel,False,True,5596.41
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00013,4,Approved,2026-02-15,EPM,Nina Patel,False,False,4706.96
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00013,5,Reported,2026-02-18,Consolidation,Alex Chen,False,True,4808.88
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00014,1,Cycle Opened,2025-11-26,Planning,Sara Novak,False,False,481.81
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00014,2,Data Loaded,2025-11-26,EPM,Thomas Weber,True,False,3083.4
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00014,3,Reviewed,2025-11-28,EPM,Sara Novak,True,False,6331.85
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00014,4,Approved,2025-12-03,EPM,Nina Patel,True,False,2146.54
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00014,5,Reported,2025-12-06,Planning,Maria Garcia,True,False,6713.43
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00015,1,Cycle Opened,2025-08-21,Consolidation,Alex Chen,False,False,2341.41
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00015,2,Data Loaded,2025-08-23,Consolidation,Nina Patel,False,False,2642.23
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00015,3,Reviewed,2025-08-25,Planning,Jon Miller,False,False,1118.83
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00015,4,Approved,2025-08-30,Consolidation,Nina Patel,True,False,4784.46
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00015,5,Reported,2025-08-31,ERP FI/CO,Kenji Tanaka,True,False,7161.88
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00016,1,Cycle Opened,2025-02-11,EPM,Maria Garcia,True,False,5748.11
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00016,2,Data Loaded,2025-02-11,ERP FI/CO,Jon Miller,False,False,4189.64
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00016,3,Reviewed,2025-02-13,ERP FI/CO,Maria Garcia,False,False,3104.74
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00016,4,Approved,2025-02-19,Consolidation,Maria Garcia,True,False,7264.33
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00016,5,Reported,2025-02-22,ERP FI/CO,Sara Novak,True,False,7439.1
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00017,1,Cycle Opened,2026-01-04,Consolidation,Maria Garcia,False,False,5584.62
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00017,2,Data Loaded,2026-01-08,EPM,Jon Miller,False,False,6225.62
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00017,3,Reviewed,2026-01-09,EPM,Sara Novak,True,False,4866.31
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00017,4,Approved,2026-01-13,Planning,Alex Chen,False,False,6733.08
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00017,5,Reported,2026-01-17,ERP FI/CO,Jon Miller,True,False,7242.39
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00018,1,Cycle Opened,2025-06-26,Planning,Thomas Weber,True,False,5711.96
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00018,2,Data Loaded,2025-06-27,Planning,Maria Garcia,False,True,2399.07
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00018,3,Reviewed,2025-07-03,EPM,Nina Patel,False,False,3074.97
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00018,4,Approved,2025-07-05,EPM,Thomas Weber,False,False,5932.01
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00018,5,Reported,2025-07-06,Planning,Jon Miller,True,False,2636.67
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00019,1,Cycle Opened,2025-11-16,Planning,Jon Miller,False,False,2990.49
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00019,2,Data Loaded,2025-11-17,EPM,Sara Novak,False,False,6194.14
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00019,3,Reviewed,2025-11-21,EPM,Jon Miller,False,False,7205.09
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00019,4,Approved,2025-11-21,ERP FI/CO,Thomas Weber,False,False,2690.38
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00019,5,Reported,2025-11-26,Planning,Sara Novak,True,False,5715.3
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00020,1,Cycle Opened,2025-04-13,EPM,Maria Garcia,True,False,6321.99
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00020,2,Data Loaded,2025-04-14,Planning,Alex Chen,False,False,3638.07
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00020,3,Reviewed,2025-04-20,EPM,Priya Rao,False,False,5638.02
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00020,4,Approved,2025-04-22,Consolidation,Maria Garcia,False,False,2604.67
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00020,5,Reported,2025-04-22,ERP FI/CO,Priya Rao,True,False,7111.66
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00021,1,Cycle Opened,2025-10-06,ERP FI/CO,Nina Patel,True,False,4077.99
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00021,2,Data Loaded,2025-10-11,Consolidation,Thomas Weber,True,False,1585.7
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00021,3,Reviewed,2025-10-11,ERP FI/CO,Jon Miller,False,False,3408.17
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00021,4,Approved,2025-10-14,Planning,Priya Rao,True,False,3995.71
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00021,5,Reported,2025-10-18,EPM,Kenji Tanaka,False,False,7646.14
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00022,1,Cycle Opened,2025-05-22,Consolidation,Nina Patel,False,False,1516.35
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00022,2,Data Loaded,2025-05-27,Planning,Nina Patel,True,True,5657.72
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00022,3,Reviewed,2025-05-31,ERP FI/CO,Thomas Weber,True,False,7202.45
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00022,4,Approved,2025-06-03,ERP FI/CO,Thomas Weber,False,False,3362.08
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00022,5,Reported,2025-06-07,Planning,Alex Chen,False,False,2664.53
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00023,1,Cycle Opened,2026-01-13,EPM,Kenji Tanaka,False,True,3552.56
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00023,2,Data Loaded,2026-01-17,ERP FI/CO,Thomas Weber,True,False,6820.68
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00023,3,Reviewed,2026-01-18,ERP FI/CO,Sara Novak,False,True,7225.95
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00023,4,Approved,2026-01-24,ERP FI/CO,Maria Garcia,False,False,3923.05
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00023,5,Reported,2026-01-29,ERP FI/CO,Alex Chen,True,False,508.09
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00024,1,Cycle Opened,2025-02-03,Planning,Sara Novak,True,False,680.54
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00024,2,Data Loaded,2025-02-08,EPM,Kenji Tanaka,True,False,4262.07
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00024,3,Reviewed,2025-02-10,ERP FI/CO,Priya Rao,True,True,5910.98
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00024,4,Approved,2025-02-16,Consolidation,Nina Patel,False,False,7074.58
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00024,5,Reported,2025-02-16,ERP FI/CO,Priya Rao,True,False,2614.85
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00025,1,Cycle Opened,2025-05-15,Consolidation,Kenji Tanaka,True,False,4566.77
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00025,2,Data Loaded,2025-05-16,EPM,Nina Patel,True,False,5273.62
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00025,3,Reviewed,2025-05-16,Planning,Alex Chen,True,False,7760.33
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00025,4,Approved,2025-05-21,ERP FI/CO,Kenji Tanaka,True,False,1653.49
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00025,5,Reported,2025-05-25,Consolidation,Jon Miller,False,False,5490.56
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00026,1,Cycle Opened,2025-06-01,ERP FI/CO,Kenji Tanaka,True,False,762.64
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00026,2,Data Loaded,2025-06-02,Planning,Jon Miller,False,False,5617.67
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00026,3,Reviewed,2025-06-02,EPM,Thomas Weber,False,False,7911.16
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00026,4,Approved,2025-06-04,Planning,Nina Patel,True,False,4938.51
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00026,5,Reported,2025-06-09,Consolidation,Jon Miller,False,False,2692.59
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00027,1,Cycle Opened,2025-11-17,EPM,Sara Novak,False,True,2328.98
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00027,2,Data Loaded,2025-11-20,EPM,Kenji Tanaka,True,False,4458.82
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00027,3,Reviewed,2025-11-26,Planning,Alex Chen,False,False,5111.37
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00027,4,Approved,2025-12-02,Planning,Nina Patel,True,False,1876.41
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00027,5,Reported,2025-12-04,EPM,Priya Rao,False,False,1621.53
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00028,1,Cycle Opened,2025-06-17,Consolidation,Priya Rao,False,True,4723.06
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00028,2,Data Loaded,2025-06-18,EPM,Alex Chen,False,False,3746.78
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00028,3,Reviewed,2025-06-18,Consolidation,Kenji Tanaka,True,False,2943.07
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00028,4,Approved,2025-06-20,ERP FI/CO,Sara Novak,True,False,238.17
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00028,5,Reported,2025-06-20,ERP FI/CO,Thomas Weber,True,False,6798.77
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00029,1,Cycle Opened,2025-10-17,Planning,Nina Patel,False,False,5044.99
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00029,2,Data Loaded,2025-10-19,ERP FI/CO,Kenji Tanaka,False,False,3581.1
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00029,3,Reviewed,2025-10-22,ERP FI/CO,Sara Novak,True,False,7564.9
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00029,4,Approved,2025-10-26,Planning,Kenji Tanaka,True,False,3039.33
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00029,5,Reported,2025-10-30,EPM,Nina Patel,True,False,2200.82
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00030,1,Cycle Opened,2026-02-06,Planning,Maria Garcia,False,False,5382.24
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00030,2,Data Loaded,2026-02-08,EPM,Jon Miller,True,False,1998.11
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00030,3,Reviewed,2026-02-08,Consolidation,Nina Patel,False,True,70.49
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00030,4,Approved,2026-02-11,EPM,Kenji Tanaka,True,False,634.53
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00030,5,Reported,2026-02-16,Consolidation,Sara Novak,False,True,3050.16
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00031,1,Cycle Opened,2025-09-26,Planning,Kenji Tanaka,False,False,7339.82
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00031,2,Data Loaded,2025-09-30,Planning,Sara Novak,False,False,1074.0
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00031,3,Reviewed,2025-10-03,Planning,Nina Patel,True,False,7413.62
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00031,4,Approved,2025-10-03,EPM,Jon Miller,True,False,259.96
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00031,5,Reported,2025-10-09,Consolidation,Maria Garcia,True,True,7519.08
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00032,1,Cycle Opened,2025-03-10,Consolidation,Alex Chen,False,False,6963.87
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00032,2,Data Loaded,2025-03-14,EPM,Alex Chen,False,False,3232.38
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00032,3,Reviewed,2025-03-17,Planning,Priya Rao,True,False,7502.43
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00032,4,Approved,2025-03-22,Consolidation,Alex Chen,True,False,4687.89
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00032,5,Reported,2025-03-22,EPM,Jon Miller,False,False,7283.32
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00033,1,Cycle Opened,2025-03-18,EPM,Alex Chen,False,False,4258.62
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00033,2,Data Loaded,2025-03-23,EPM,Thomas Weber,True,False,6019.63
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00033,3,Reviewed,2025-03-25,EPM,Sara Novak,True,False,3864.5
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00033,4,Approved,2025-03-25,ERP FI/CO,Jon Miller,True,False,4897.75
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00033,5,Reported,2025-03-26,Planning,Alex Chen,True,True,6766.31
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00034,1,Cycle Opened,2026-02-07,Consolidation,Priya Rao,True,False,2061.04
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00034,2,Data Loaded,2026-02-10,Consolidation,Maria Garcia,True,False,1032.59
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00034,3,Reviewed,2026-02-12,EPM,Nina Patel,True,False,6669.91
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00034,4,Approved,2026-02-16,ERP FI/CO,Kenji Tanaka,True,False,7273.34
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00034,5,Reported,2026-02-16,Consolidation,Sara Novak,False,False,4290.61
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00035,1,Cycle Opened,2025-06-22,ERP FI/CO,Alex Chen,False,False,6243.61
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00035,2,Data Loaded,2025-06-27,Planning,Priya Rao,True,False,1901.32
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00035,3,Reviewed,2025-06-30,Consolidation,Maria Garcia,False,False,2560.04
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00035,4,Approved,2025-07-03,ERP FI/CO,Sara Novak,False,False,4953.18
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00035,5,Reported,2025-07-07,EPM,Nina Patel,True,False,397.88
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00036,1,Cycle Opened,2025-04-25,ERP FI/CO,Thomas Weber,False,False,5796.36
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00036,2,Data Loaded,2025-04-29,Consolidation,Maria Garcia,True,False,4390.02
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00036,3,Reviewed,2025-05-02,EPM,Kenji Tanaka,False,False,7108.53
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00036,4,Approved,2025-05-04,EPM,Kenji Tanaka,True,False,4338.44
+close2report_plan2perform,Close2Report / Plan2Perform,CLOSE2REPORT_PLAN2PERFORM-00036,5,Reported,2025-05-06,EPM,Priya Rao,False,False,4502.39

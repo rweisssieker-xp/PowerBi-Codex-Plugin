@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+asset2reliability,Asset2Reliability,2025-01,OEE,50.63,51.38,2.57,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-01,MTBF,51.05,51.12,2.56,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-01,MTTR,9.53,14.52,0.73,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-01,Downtime Cost,34.49,34.67,1.73,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-01,PM Compliance,33.13,35.29,1.76,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-02,OEE,10.47,11.38,0.57,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-02,MTBF,23.45,28.49,1.42,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-02,MTTR,48.63,49.23,2.46,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-02,Downtime Cost,53.07,59.97,3.0,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-02,PM Compliance,34.77,33.4,1.67,Green,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-03,OEE,35.07,35.23,1.76,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-03,MTBF,36.66,44.0,2.2,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-03,MTTR,32.4,34.47,1.72,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-03,Downtime Cost,14.91,17.03,0.85,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-03,PM Compliance,52.15,51.27,2.56,Green,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-04,OEE,32.11,32.59,1.63,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-04,MTBF,47.97,46.68,2.33,Green,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-04,MTTR,18.06,18.94,0.95,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-04,Downtime Cost,42.86,49.18,2.46,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-04,PM Compliance,47.77,48.86,2.44,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-05,OEE,51.91,55.33,2.77,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-05,MTBF,28.11,31.63,1.58,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-05,MTTR,22.81,27.37,1.37,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-05,Downtime Cost,30.13,36.24,1.81,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-05,PM Compliance,34.07,40.48,2.02,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-06,OEE,33.56,32.87,1.64,Green,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-06,MTBF,45.61,55.24,2.76,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-06,MTTR,44.46,47.96,2.4,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-06,Downtime Cost,34.16,43.85,2.19,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-06,PM Compliance,33.54,41.46,2.07,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-07,OEE,42.04,48.58,2.43,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-07,MTBF,19.55,22.86,1.14,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-07,MTTR,42.13,49.38,2.47,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-07,Downtime Cost,19.42,22.7,1.14,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-07,PM Compliance,36.41,37.92,1.9,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-08,OEE,47.38,52.97,2.65,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-08,MTBF,58.41,55.13,2.76,Green,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-08,MTTR,31.4,34.96,1.75,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-08,Downtime Cost,44.78,44.54,2.23,Green,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-08,PM Compliance,8.66,11.38,0.57,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-09,OEE,29.78,33.21,1.66,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-09,MTBF,35.51,38.37,1.92,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-09,MTTR,19.88,24.35,1.22,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-09,Downtime Cost,20.37,22.2,1.11,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-09,PM Compliance,36.57,37.99,1.9,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-10,OEE,26.0,29.41,1.47,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-10,MTBF,26.81,29.52,1.48,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-10,MTTR,54.8,53.24,2.66,Green,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-10,Downtime Cost,39.2,37.48,1.87,Green,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-10,PM Compliance,29.31,32.03,1.6,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-11,OEE,52.28,59.73,2.99,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-11,MTBF,26.55,31.89,1.59,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-11,MTTR,19.8,22.17,1.11,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-11,Downtime Cost,57.99,58.55,2.93,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-11,PM Compliance,12.72,16.55,0.83,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-12,OEE,33.91,38.8,1.94,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-12,MTBF,9.72,10.28,0.51,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-12,MTTR,17.42,23.74,1.19,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-12,Downtime Cost,35.56,43.36,2.17,Red,Asset Reliability Process Owner,EAM; MES; Historian; CMMS
+asset2reliability,Asset2Reliability,2025-12,PM Compliance,52.99,55.42,2.77,Amber,Asset Reliability Process Owner,EAM; MES; Historian; CMMS

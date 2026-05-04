@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00001,1,Quote Accepted,2025-07-19,CRM,Nina Patel,True,False,2581.98
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00001,2,Draft Created,2025-07-23,CPQ,Maria Garcia,True,False,5027.19
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00001,3,Legal Review,2025-07-29,CLM,Kenji Tanaka,False,False,5658.81
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00001,4,Customer Redline,2025-08-01,E-Signature,Jon Miller,True,False,7029.23
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00001,5,Signed,2025-08-01,CLM,Nina Patel,False,False,6910.14
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00002,1,Quote Accepted,2025-09-03,CRM,Nina Patel,False,False,3320.64
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00002,2,Draft Created,2025-09-06,CLM,Priya Rao,False,False,7336.88
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00002,3,Legal Review,2025-09-06,E-Signature,Jon Miller,True,False,3534.39
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00002,4,Customer Redline,2025-09-06,CLM,Nina Patel,True,False,5339.86
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00002,5,Signed,2025-09-07,CLM,Alex Chen,False,False,6671.54
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00003,1,Quote Accepted,2025-05-23,E-Signature,Nina Patel,True,False,5022.16
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00003,2,Draft Created,2025-05-27,CRM,Maria Garcia,False,False,5581.74
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00003,3,Legal Review,2025-05-28,CRM,Sara Novak,False,False,5280.97
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00003,4,Customer Redline,2025-06-03,CLM,Kenji Tanaka,False,True,100.93
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00003,5,Signed,2025-06-05,CPQ,Nina Patel,True,False,4480.52
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00004,1,Quote Accepted,2025-02-10,E-Signature,Jon Miller,False,False,1868.47
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00004,2,Draft Created,2025-02-12,CRM,Jon Miller,True,False,7748.85
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00004,3,Legal Review,2025-02-17,E-Signature,Maria Garcia,False,False,2192.2
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00004,4,Customer Redline,2025-02-21,CPQ,Alex Chen,False,False,1185.65
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00004,5,Signed,2025-02-22,CLM,Nina Patel,False,False,6421.25
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00005,1,Quote Accepted,2025-10-02,E-Signature,Priya Rao,True,False,1472.44
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00005,2,Draft Created,2025-10-05,E-Signature,Maria Garcia,False,False,1504.48
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00005,3,Legal Review,2025-10-10,CLM,Sara Novak,False,False,5457.94
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00005,4,Customer Redline,2025-10-16,CRM,Maria Garcia,True,False,2933.36
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00005,5,Signed,2025-10-17,E-Signature,Priya Rao,False,False,1731.22
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00006,1,Quote Accepted,2025-07-26,CPQ,Maria Garcia,True,False,2954.56
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00006,2,Draft Created,2025-07-26,E-Signature,Jon Miller,False,False,2166.1
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00006,3,Legal Review,2025-07-27,CPQ,Thomas Weber,False,True,539.09
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00006,4,Customer Redline,2025-07-29,CPQ,Thomas Weber,False,False,351.26
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00006,5,Signed,2025-08-04,CLM,Kenji Tanaka,True,False,4195.29
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00007,1,Quote Accepted,2025-03-09,CLM,Thomas Weber,True,False,6369.33
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00007,2,Draft Created,2025-03-14,CLM,Priya Rao,False,False,3724.91
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00007,3,Legal Review,2025-03-20,CLM,Maria Garcia,True,False,7760.64
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00007,4,Customer Redline,2025-03-26,CLM,Priya Rao,False,False,1028.76
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00007,5,Signed,2025-03-30,CLM,Priya Rao,False,False,4590.4
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00008,1,Quote Accepted,2025-07-24,CRM,Sara Novak,False,False,3632.39
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00008,2,Draft Created,2025-07-29,CLM,Kenji Tanaka,True,False,4711.77
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00008,3,Legal Review,2025-08-02,CLM,Priya Rao,True,False,1162.45
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00008,4,Customer Redline,2025-08-08,E-Signature,Thomas Weber,True,False,6283.78
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00008,5,Signed,2025-08-11,E-Signature,Maria Garcia,False,False,814.29
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00009,1,Quote Accepted,2025-09-30,CPQ,Nina Patel,False,False,4228.64
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00009,2,Draft Created,2025-10-05,CRM,Maria Garcia,True,True,6786.82
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00009,3,Legal Review,2025-10-06,CRM,Sara Novak,True,False,1619.03
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00009,4,Customer Redline,2025-10-11,E-Signature,Jon Miller,False,False,6533.73
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00009,5,Signed,2025-10-15,CRM,Jon Miller,True,False,493.89
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00010,1,Quote Accepted,2025-04-07,E-Signature,Nina Patel,True,False,3455.34
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00010,2,Draft Created,2025-04-12,CPQ,Priya Rao,True,False,267.41
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00010,3,Legal Review,2025-04-17,CLM,Sara Novak,False,False,3732.59
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00010,4,Customer Redline,2025-04-23,CPQ,Kenji Tanaka,True,False,4542.94
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00010,5,Signed,2025-04-29,E-Signature,Maria Garcia,True,False,81.17
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00011,1,Quote Accepted,2026-03-27,CLM,Nina Patel,True,False,2339.88
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00011,2,Draft Created,2026-03-30,E-Signature,Kenji Tanaka,False,False,2985.58
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00011,3,Legal Review,2026-03-31,CRM,Sara Novak,True,False,7094.98
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00011,4,Customer Redline,2026-04-03,CPQ,Priya Rao,False,False,1361.95
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00011,5,Signed,2026-04-06,CLM,Alex Chen,False,False,6748.05
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00012,1,Quote Accepted,2025-05-17,CRM,Jon Miller,True,True,5212.55
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00012,2,Draft Created,2025-05-19,CRM,Thomas Weber,False,False,4528.8
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00012,3,Legal Review,2025-05-23,CLM,Jon Miller,True,False,1661.61
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00012,4,Customer Redline,2025-05-26,CRM,Nina Patel,True,False,5489.47
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00012,5,Signed,2025-05-31,CPQ,Kenji Tanaka,False,False,1904.13
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00013,1,Quote Accepted,2025-02-21,CLM,Alex Chen,False,False,4848.16
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00013,2,Draft Created,2025-02-22,CPQ,Thomas Weber,False,False,1360.25
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00013,3,Legal Review,2025-02-24,CRM,Sara Novak,True,True,3671.11
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00013,4,Customer Redline,2025-02-24,CPQ,Sara Novak,True,False,5846.62
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00013,5,Signed,2025-02-26,CRM,Maria Garcia,False,False,948.86
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00014,1,Quote Accepted,2026-02-23,E-Signature,Maria Garcia,True,False,3444.07
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00014,2,Draft Created,2026-02-27,CRM,Sara Novak,True,False,592.37
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00014,3,Legal Review,2026-03-05,E-Signature,Priya Rao,False,False,755.28
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00014,4,Customer Redline,2026-03-10,E-Signature,Jon Miller,True,False,1924.71
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00014,5,Signed,2026-03-11,CLM,Nina Patel,True,False,5670.57
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00015,1,Quote Accepted,2025-06-08,CPQ,Thomas Weber,True,True,7847.2
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00015,2,Draft Created,2025-06-12,CRM,Sara Novak,True,False,4098.39
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00015,3,Legal Review,2025-06-14,CRM,Maria Garcia,False,False,52.76
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00015,4,Customer Redline,2025-06-16,CLM,Priya Rao,False,False,7222.25
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00015,5,Signed,2025-06-17,E-Signature,Nina Patel,False,False,446.2
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00016,1,Quote Accepted,2025-07-01,E-Signature,Thomas Weber,False,False,4359.23
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00016,2,Draft Created,2025-07-02,CPQ,Kenji Tanaka,True,False,6541.31
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00016,3,Legal Review,2025-07-04,E-Signature,Kenji Tanaka,True,False,687.85
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00016,4,Customer Redline,2025-07-04,CRM,Kenji Tanaka,False,False,7158.38
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00016,5,Signed,2025-07-07,E-Signature,Nina Patel,True,False,7655.32
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00017,1,Quote Accepted,2025-05-22,CPQ,Alex Chen,True,False,1082.23
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00017,2,Draft Created,2025-05-24,CRM,Maria Garcia,True,False,6216.91
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00017,3,Legal Review,2025-05-29,CRM,Nina Patel,True,False,4525.61
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00017,4,Customer Redline,2025-06-02,CPQ,Kenji Tanaka,True,False,4995.06
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00017,5,Signed,2025-06-06,CRM,Jon Miller,True,False,842.43
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00018,1,Quote Accepted,2025-04-17,CLM,Thomas Weber,False,False,6699.12
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00018,2,Draft Created,2025-04-20,E-Signature,Maria Garcia,True,False,1564.02
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00018,3,Legal Review,2025-04-20,CPQ,Thomas Weber,False,True,2389.53
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00018,4,Customer Redline,2025-04-20,CLM,Alex Chen,True,False,7027.34
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00018,5,Signed,2025-04-22,CPQ,Nina Patel,True,False,4380.39
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00019,1,Quote Accepted,2025-12-30,E-Signature,Sara Novak,True,False,2312.96
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00019,2,Draft Created,2026-01-01,CRM,Nina Patel,True,False,5909.45
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00019,3,Legal Review,2026-01-04,CRM,Sara Novak,True,False,6526.94
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00019,4,Customer Redline,2026-01-05,CRM,Jon Miller,True,False,5896.84
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00019,5,Signed,2026-01-09,CRM,Alex Chen,True,False,2657.1
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00020,1,Quote Accepted,2026-01-10,E-Signature,Sara Novak,False,False,6941.03
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00020,2,Draft Created,2026-01-10,CRM,Jon Miller,True,False,4735.74
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00020,3,Legal Review,2026-01-12,CLM,Jon Miller,False,False,5801.52
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00020,4,Customer Redline,2026-01-12,CLM,Kenji Tanaka,True,True,3037.35
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00020,5,Signed,2026-01-17,CPQ,Maria Garcia,True,True,3924.53
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00021,1,Quote Accepted,2025-04-05,CRM,Kenji Tanaka,False,False,620.36
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00021,2,Draft Created,2025-04-07,E-Signature,Priya Rao,False,False,6546.28
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00021,3,Legal Review,2025-04-10,E-Signature,Nina Patel,True,False,1870.3
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00021,4,Customer Redline,2025-04-11,E-Signature,Sara Novak,True,True,3830.87
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00021,5,Signed,2025-04-17,CLM,Alex Chen,True,True,4117.75
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00022,1,Quote Accepted,2025-08-22,CLM,Priya Rao,True,False,6831.36
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00022,2,Draft Created,2025-08-23,CRM,Maria Garcia,True,False,4696.59
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00022,3,Legal Review,2025-08-26,CLM,Alex Chen,True,False,2120.46
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00022,4,Customer Redline,2025-08-26,CPQ,Kenji Tanaka,False,False,6555.18
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00022,5,Signed,2025-09-01,CLM,Priya Rao,True,False,1064.21
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00023,1,Quote Accepted,2025-11-27,CRM,Jon Miller,True,True,7947.95
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00023,2,Draft Created,2025-11-27,CPQ,Kenji Tanaka,True,False,1763.87
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00023,3,Legal Review,2025-11-28,CLM,Alex Chen,False,False,7960.21
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00023,4,Customer Redline,2025-12-02,CPQ,Maria Garcia,False,True,4815.31
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00023,5,Signed,2025-12-03,CPQ,Maria Garcia,True,False,2722.49
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00024,1,Quote Accepted,2025-12-18,CLM,Nina Patel,True,False,7823.0
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00024,2,Draft Created,2025-12-23,CPQ,Jon Miller,False,False,4550.27
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00024,3,Legal Review,2025-12-28,E-Signature,Thomas Weber,True,False,1491.55
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00024,4,Customer Redline,2026-01-03,CPQ,Kenji Tanaka,False,False,5863.01
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00024,5,Signed,2026-01-04,CPQ,Kenji Tanaka,False,False,4991.24
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00025,1,Quote Accepted,2025-10-28,E-Signature,Jon Miller,True,False,1413.31
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00025,2,Draft Created,2025-11-01,CPQ,Thomas Weber,False,False,3773.07
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00025,3,Legal Review,2025-11-06,CRM,Kenji Tanaka,True,False,4296.26
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00025,4,Customer Redline,2025-11-11,E-Signature,Nina Patel,True,False,2342.2
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00025,5,Signed,2025-11-12,CRM,Maria Garcia,False,False,1309.72
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00026,1,Quote Accepted,2026-02-08,E-Signature,Kenji Tanaka,True,False,3245.91
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00026,2,Draft Created,2026-02-09,CPQ,Nina Patel,True,False,7646.82
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00026,3,Legal Review,2026-02-14,CLM,Priya Rao,True,False,3540.93
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00026,4,Customer Redline,2026-02-16,CRM,Maria Garcia,False,False,6964.47
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00026,5,Signed,2026-02-17,CLM,Alex Chen,True,False,3040.12
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00027,1,Quote Accepted,2025-02-08,CRM,Priya Rao,True,False,6176.01
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00027,2,Draft Created,2025-02-12,E-Signature,Thomas Weber,True,False,4477.12
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00027,3,Legal Review,2025-02-17,E-Signature,Thomas Weber,True,False,4588.1
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00027,4,Customer Redline,2025-02-19,CRM,Sara Novak,False,False,2849.81
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00027,5,Signed,2025-02-23,CPQ,Priya Rao,True,False,4733.68
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00028,1,Quote Accepted,2026-02-13,E-Signature,Maria Garcia,True,False,1339.41
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00028,2,Draft Created,2026-02-14,E-Signature,Alex Chen,True,False,229.22
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00028,3,Legal Review,2026-02-17,CPQ,Maria Garcia,True,False,1836.94
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00028,4,Customer Redline,2026-02-19,CPQ,Kenji Tanaka,True,False,4132.36
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00028,5,Signed,2026-02-19,E-Signature,Kenji Tanaka,False,False,7823.48
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00029,1,Quote Accepted,2025-04-10,CPQ,Maria Garcia,False,False,7919.27
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00029,2,Draft Created,2025-04-15,CRM,Nina Patel,False,False,3790.89
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00029,3,Legal Review,2025-04-16,CRM,Jon Miller,False,False,7024.94
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00029,4,Customer Redline,2025-04-22,CPQ,Priya Rao,True,False,235.89
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00029,5,Signed,2025-04-25,CPQ,Kenji Tanaka,False,False,2670.05
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00030,1,Quote Accepted,2025-03-25,CLM,Priya Rao,False,False,3728.56
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00030,2,Draft Created,2025-03-28,CLM,Jon Miller,False,True,7680.35
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00030,3,Legal Review,2025-04-01,CPQ,Thomas Weber,False,False,5604.48
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00030,4,Customer Redline,2025-04-05,CRM,Alex Chen,False,False,616.67
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00030,5,Signed,2025-04-07,E-Signature,Nina Patel,False,False,977.2
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00031,1,Quote Accepted,2025-02-10,CRM,Alex Chen,True,False,149.65
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00031,2,Draft Created,2025-02-13,CRM,Nina Patel,True,True,5888.59
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00031,3,Legal Review,2025-02-14,CPQ,Jon Miller,False,False,4222.51
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00031,4,Customer Redline,2025-02-18,CRM,Jon Miller,True,False,6773.34
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00031,5,Signed,2025-02-19,CPQ,Thomas Weber,True,False,7034.63
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00032,1,Quote Accepted,2025-10-28,CLM,Sara Novak,False,False,7254.93
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00032,2,Draft Created,2025-10-29,CPQ,Jon Miller,True,True,634.56
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00032,3,Legal Review,2025-10-31,CLM,Priya Rao,False,False,1058.71
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00032,4,Customer Redline,2025-11-01,CRM,Maria Garcia,True,False,6469.97
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00032,5,Signed,2025-11-05,E-Signature,Maria Garcia,False,False,4939.62
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00033,1,Quote Accepted,2025-02-20,CPQ,Maria Garcia,False,False,6547.49
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00033,2,Draft Created,2025-02-26,CLM,Kenji Tanaka,True,False,3643.63
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00033,3,Legal Review,2025-03-04,CRM,Maria Garcia,False,False,2992.32
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00033,4,Customer Redline,2025-03-09,CLM,Maria Garcia,True,False,4817.03
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00033,5,Signed,2025-03-09,CPQ,Thomas Weber,False,False,6713.77
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00034,1,Quote Accepted,2025-07-01,CLM,Jon Miller,True,True,877.01
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00034,2,Draft Created,2025-07-07,E-Signature,Sara Novak,True,False,7125.37
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00034,3,Legal Review,2025-07-12,CRM,Jon Miller,False,False,4073.17
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00034,4,Customer Redline,2025-07-13,CPQ,Alex Chen,True,False,1121.13
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00034,5,Signed,2025-07-13,CPQ,Kenji Tanaka,True,False,3337.77
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00035,1,Quote Accepted,2025-07-21,CLM,Maria Garcia,True,False,3196.55
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00035,2,Draft Created,2025-07-24,E-Signature,Jon Miller,True,False,7541.17
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00035,3,Legal Review,2025-07-25,CLM,Jon Miller,False,False,2002.04
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00035,4,Customer Redline,2025-07-29,CPQ,Alex Chen,True,False,6674.24
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00035,5,Signed,2025-07-31,CRM,Alex Chen,False,False,3819.17
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00036,1,Quote Accepted,2025-01-29,CLM,Alex Chen,True,False,3153.77
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00036,2,Draft Created,2025-01-30,CLM,Nina Patel,False,False,6620.7
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00036,3,Legal Review,2025-02-04,CLM,Maria Garcia,True,False,1013.96
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00036,4,Customer Redline,2025-02-10,CRM,Nina Patel,True,False,1260.33
+quote2contract,Quote2Contract,QUOTE2CONTRACT-00036,5,Signed,2025-02-11,CLM,Jon Miller,False,False,1862.96

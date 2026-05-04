@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+nonconformance2disposition,Nonconformance2Disposition,2025-01,Defect Rate,63.92,77.68,3.88,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-01,Blocked Stock Value,43.84,47.61,2.38,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-01,Rework Cost,13.56,13.8,0.69,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-01,Supplier PPM,45.58,49.6,2.48,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-01,Disposition Aging,50.75,56.58,2.83,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-02,Defect Rate,89.07,96.14,4.81,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-02,Blocked Stock Value,47.26,52.57,2.63,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-02,Rework Cost,17.36,19.86,0.99,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-02,Supplier PPM,13.86,17.11,0.86,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-02,Disposition Aging,31.9,37.27,1.86,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-03,Defect Rate,82.66,88.28,4.41,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-03,Blocked Stock Value,32.95,37.55,1.88,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-03,Rework Cost,51.92,58.59,2.93,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-03,Supplier PPM,26.56,27.79,1.39,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-03,Disposition Aging,38.84,38.39,1.92,Green,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-04,Defect Rate,83.33,96.53,4.83,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-04,Blocked Stock Value,44.64,58.16,2.91,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-04,Rework Cost,52.89,51.74,2.59,Green,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-04,Supplier PPM,53.14,58.94,2.95,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-04,Disposition Aging,43.37,42.21,2.11,Green,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-05,Defect Rate,76.88,96.25,4.81,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-05,Blocked Stock Value,19.62,24.25,1.21,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-05,Rework Cost,57.16,56.28,2.81,Green,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-05,Supplier PPM,30.43,31.55,1.58,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-05,Disposition Aging,22.08,26.95,1.35,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-06,Defect Rate,60.63,75.43,3.77,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-06,Blocked Stock Value,46.12,57.32,2.87,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-06,Rework Cost,23.9,27.94,1.4,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-06,Supplier PPM,17.64,21.87,1.09,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-06,Disposition Aging,46.84,46.69,2.33,Green,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-07,Defect Rate,77.51,79.62,3.98,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-07,Blocked Stock Value,35.13,39.34,1.97,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-07,Rework Cost,38.83,38.92,1.95,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-07,Supplier PPM,33.62,40.45,2.02,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-07,Disposition Aging,32.76,34.26,1.71,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-08,Defect Rate,83.29,90.88,4.54,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-08,Blocked Stock Value,32.58,39.6,1.98,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-08,Rework Cost,10.28,11.61,0.58,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-08,Supplier PPM,24.71,29.05,1.45,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-08,Disposition Aging,15.14,20.27,1.01,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-09,Defect Rate,95.86,97.6,4.88,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-09,Blocked Stock Value,39.71,43.17,2.16,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-09,Rework Cost,40.85,41.65,2.08,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-09,Supplier PPM,41.0,45.72,2.29,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-09,Disposition Aging,55.5,56.49,2.82,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-10,Defect Rate,67.86,79.21,3.96,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-10,Blocked Stock Value,17.85,23.03,1.15,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-10,Rework Cost,6.08,10.19,0.51,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-10,Supplier PPM,28.26,36.74,1.84,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-10,Disposition Aging,20.59,26.63,1.33,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-11,Defect Rate,82.65,95.35,4.77,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-11,Blocked Stock Value,35.68,37.97,1.9,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-11,Rework Cost,36.07,41.88,2.09,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-11,Supplier PPM,28.93,37.71,1.89,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-11,Disposition Aging,35.34,39.22,1.96,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-12,Defect Rate,82.44,81.97,4.1,Green,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-12,Blocked Stock Value,10.79,14.63,0.73,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-12,Rework Cost,15.09,15.78,0.79,Amber,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-12,Supplier PPM,19.3,24.85,1.24,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal
+nonconformance2disposition,Nonconformance2Disposition,2025-12,Disposition Aging,16.63,20.94,1.05,Red,Nonconformance Process Owner,QMS; ERP QM; WMS; Supplier Portal

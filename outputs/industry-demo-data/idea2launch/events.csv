@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00001,1,Idea Logged,2026-01-18,PLM,Alex Chen,True,False,7542.47
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00001,2,Concept Approved,2026-01-18,ERP Engineering,Priya Rao,False,False,819.5
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00001,3,Design Frozen,2026-01-19,QMS,Priya Rao,True,False,5079.21
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00001,4,Release Approved,2026-01-25,QMS,Maria Garcia,True,False,7297.22
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00001,5,Launch Ready,2026-01-29,PLM,Priya Rao,False,False,3665.56
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00002,1,Idea Logged,2025-07-04,PPM,Maria Garcia,False,False,4791.55
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00002,2,Concept Approved,2025-07-10,PPM,Priya Rao,True,False,1799.59
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00002,3,Design Frozen,2025-07-11,ERP Engineering,Sara Novak,True,False,3235.93
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00002,4,Release Approved,2025-07-15,PLM,Thomas Weber,True,False,1085.15
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00002,5,Launch Ready,2025-07-18,QMS,Priya Rao,False,False,7700.99
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00003,1,Idea Logged,2025-02-17,PLM,Nina Patel,False,False,7136.0
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00003,2,Concept Approved,2025-02-22,QMS,Jon Miller,False,False,5560.74
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00003,3,Design Frozen,2025-02-23,PPM,Sara Novak,True,False,6047.22
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00003,4,Release Approved,2025-02-23,PLM,Maria Garcia,True,False,7261.21
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00003,5,Launch Ready,2025-02-23,ERP Engineering,Priya Rao,False,False,4354.23
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00004,1,Idea Logged,2025-02-17,PPM,Kenji Tanaka,True,False,89.37
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00004,2,Concept Approved,2025-02-19,QMS,Sara Novak,False,True,2478.87
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00004,3,Design Frozen,2025-02-24,ERP Engineering,Thomas Weber,False,False,4300.64
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00004,4,Release Approved,2025-03-02,QMS,Nina Patel,True,False,1215.97
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00004,5,Launch Ready,2025-03-05,PLM,Nina Patel,True,False,3826.42
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00005,1,Idea Logged,2025-12-04,PLM,Thomas Weber,True,False,5018.15
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00005,2,Concept Approved,2025-12-05,PLM,Priya Rao,False,False,1414.45
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00005,3,Design Frozen,2025-12-10,PPM,Nina Patel,True,False,7226.13
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00005,4,Release Approved,2025-12-16,ERP Engineering,Priya Rao,True,False,4277.74
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00005,5,Launch Ready,2025-12-22,ERP Engineering,Kenji Tanaka,False,False,7656.26
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00006,1,Idea Logged,2026-01-13,PPM,Jon Miller,True,False,5599.45
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00006,2,Concept Approved,2026-01-14,ERP Engineering,Nina Patel,False,False,2040.21
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00006,3,Design Frozen,2026-01-19,QMS,Alex Chen,True,False,1400.68
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00006,4,Release Approved,2026-01-19,PPM,Sara Novak,True,False,4317.09
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00006,5,Launch Ready,2026-01-21,QMS,Priya Rao,False,False,2787.11
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00007,1,Idea Logged,2025-03-26,PLM,Maria Garcia,True,False,3984.6
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00007,2,Concept Approved,2025-03-27,QMS,Maria Garcia,True,False,1916.78
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00007,3,Design Frozen,2025-04-01,ERP Engineering,Priya Rao,False,False,2289.23
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00007,4,Release Approved,2025-04-04,ERP Engineering,Thomas Weber,True,False,2986.0
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00007,5,Launch Ready,2025-04-06,QMS,Sara Novak,True,False,5318.95
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00008,1,Idea Logged,2026-01-25,PLM,Sara Novak,True,False,7986.77
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00008,2,Concept Approved,2026-01-31,PPM,Nina Patel,True,False,4246.88
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00008,3,Design Frozen,2026-02-06,ERP Engineering,Maria Garcia,False,False,6091.21
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00008,4,Release Approved,2026-02-12,PPM,Jon Miller,True,False,7317.74
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00008,5,Launch Ready,2026-02-14,QMS,Thomas Weber,False,False,2836.96
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00009,1,Idea Logged,2025-02-24,ERP Engineering,Alex Chen,True,False,5812.82
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00009,2,Concept Approved,2025-02-24,QMS,Thomas Weber,True,False,479.66
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00009,3,Design Frozen,2025-02-26,ERP Engineering,Maria Garcia,True,False,6055.42
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00009,4,Release Approved,2025-02-27,ERP Engineering,Kenji Tanaka,False,False,1698.98
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00009,5,Launch Ready,2025-03-05,QMS,Priya Rao,True,False,5444.35
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00010,1,Idea Logged,2025-10-06,ERP Engineering,Thomas Weber,True,True,7415.17
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00010,2,Concept Approved,2025-10-11,QMS,Priya Rao,False,False,7107.09
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00010,3,Design Frozen,2025-10-16,QMS,Maria Garcia,True,False,6797.98
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00010,4,Release Approved,2025-10-19,PPM,Maria Garcia,True,True,1109.45
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00010,5,Launch Ready,2025-10-24,PPM,Nina Patel,True,False,2060.93
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00011,1,Idea Logged,2025-05-30,ERP Engineering,Thomas Weber,True,False,7297.24
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00011,2,Concept Approved,2025-06-04,PPM,Priya Rao,False,False,6154.02
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00011,3,Design Frozen,2025-06-05,PPM,Maria Garcia,True,False,6861.73
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00011,4,Release Approved,2025-06-06,ERP Engineering,Maria Garcia,False,False,2473.17
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00011,5,Launch Ready,2025-06-07,PLM,Kenji Tanaka,False,False,6521.77
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00012,1,Idea Logged,2025-11-14,PLM,Thomas Weber,True,False,5228.62
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00012,2,Concept Approved,2025-11-16,PLM,Maria Garcia,False,False,80.53
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00012,3,Design Frozen,2025-11-19,ERP Engineering,Priya Rao,True,False,4757.96
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00012,4,Release Approved,2025-11-23,ERP Engineering,Nina Patel,True,False,4657.8
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00012,5,Launch Ready,2025-11-28,ERP Engineering,Maria Garcia,True,False,5541.45
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00013,1,Idea Logged,2025-07-01,PPM,Nina Patel,True,False,5208.93
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00013,2,Concept Approved,2025-07-02,PLM,Thomas Weber,True,False,7967.49
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00013,3,Design Frozen,2025-07-02,PPM,Sara Novak,True,False,1103.7
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00013,4,Release Approved,2025-07-07,PPM,Nina Patel,False,False,340.69
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00013,5,Launch Ready,2025-07-11,PLM,Maria Garcia,False,False,630.39
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00014,1,Idea Logged,2026-03-26,PLM,Thomas Weber,False,False,3562.8
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00014,2,Concept Approved,2026-03-30,ERP Engineering,Alex Chen,True,False,5839.56
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00014,3,Design Frozen,2026-04-05,PLM,Kenji Tanaka,True,False,1059.26
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00014,4,Release Approved,2026-04-05,ERP Engineering,Alex Chen,True,False,4389.19
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00014,5,Launch Ready,2026-04-10,PLM,Sara Novak,True,False,759.35
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00015,1,Idea Logged,2025-03-13,QMS,Maria Garcia,False,False,79.63
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00015,2,Concept Approved,2025-03-17,ERP Engineering,Sara Novak,True,False,5423.85
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00015,3,Design Frozen,2025-03-21,QMS,Jon Miller,True,False,1187.22
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00015,4,Release Approved,2025-03-27,PPM,Thomas Weber,True,False,2401.2
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00015,5,Launch Ready,2025-03-31,PPM,Alex Chen,False,False,2532.92
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00016,1,Idea Logged,2025-12-17,PPM,Maria Garcia,True,False,7052.02
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00016,2,Concept Approved,2025-12-19,QMS,Maria Garcia,True,False,7984.84
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00016,3,Design Frozen,2025-12-21,PPM,Thomas Weber,False,True,4892.88
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00016,4,Release Approved,2025-12-22,ERP Engineering,Alex Chen,True,False,2379.16
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00016,5,Launch Ready,2025-12-28,PPM,Alex Chen,False,False,405.37
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00017,1,Idea Logged,2025-08-19,PPM,Kenji Tanaka,True,False,5373.17
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00017,2,Concept Approved,2025-08-22,PPM,Priya Rao,False,True,7402.17
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00017,3,Design Frozen,2025-08-28,PLM,Jon Miller,True,False,4400.94
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00017,4,Release Approved,2025-08-29,PLM,Priya Rao,False,False,7231.18
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00017,5,Launch Ready,2025-08-30,PPM,Nina Patel,True,False,6542.27
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00018,1,Idea Logged,2025-06-27,PPM,Nina Patel,False,False,3226.52
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00018,2,Concept Approved,2025-07-03,QMS,Alex Chen,False,False,107.93
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00018,3,Design Frozen,2025-07-08,ERP Engineering,Alex Chen,True,False,1829.32
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00018,4,Release Approved,2025-07-11,PPM,Nina Patel,True,False,3197.99
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00018,5,Launch Ready,2025-07-15,PLM,Jon Miller,False,True,6249.49
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00019,1,Idea Logged,2025-05-09,ERP Engineering,Priya Rao,False,True,3997.48
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00019,2,Concept Approved,2025-05-09,QMS,Sara Novak,True,False,1303.89
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00019,3,Design Frozen,2025-05-11,PPM,Priya Rao,False,False,5603.29
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00019,4,Release Approved,2025-05-13,PPM,Thomas Weber,False,False,4942.64
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00019,5,Launch Ready,2025-05-16,PPM,Sara Novak,False,False,6059.58
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00020,1,Idea Logged,2025-12-06,PPM,Priya Rao,False,False,1921.73
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00020,2,Concept Approved,2025-12-06,PLM,Priya Rao,False,False,3024.26
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00020,3,Design Frozen,2025-12-09,ERP Engineering,Maria Garcia,False,False,7964.07
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00020,4,Release Approved,2025-12-14,PLM,Thomas Weber,False,False,4969.74
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00020,5,Launch Ready,2025-12-17,QMS,Jon Miller,False,False,3295.03
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00021,1,Idea Logged,2025-01-22,QMS,Priya Rao,True,False,4340.32
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00021,2,Concept Approved,2025-01-28,PPM,Kenji Tanaka,True,False,1656.69
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00021,3,Design Frozen,2025-01-29,ERP Engineering,Priya Rao,True,False,4742.04
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00021,4,Release Approved,2025-02-01,PPM,Jon Miller,False,True,1740.31
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00021,5,Launch Ready,2025-02-02,QMS,Alex Chen,True,False,1220.75
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00022,1,Idea Logged,2026-02-23,ERP Engineering,Sara Novak,False,True,7076.09
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00022,2,Concept Approved,2026-02-25,QMS,Jon Miller,True,False,5909.51
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00022,3,Design Frozen,2026-02-26,PLM,Kenji Tanaka,False,False,6278.59
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00022,4,Release Approved,2026-03-01,PPM,Maria Garcia,False,False,6631.04
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00022,5,Launch Ready,2026-03-07,PLM,Kenji Tanaka,False,True,2395.67
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00023,1,Idea Logged,2025-09-13,PLM,Priya Rao,True,True,2893.79
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00023,2,Concept Approved,2025-09-14,PPM,Jon Miller,True,False,1331.43
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00023,3,Design Frozen,2025-09-19,ERP Engineering,Nina Patel,False,False,7396.84
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00023,4,Release Approved,2025-09-25,QMS,Kenji Tanaka,True,False,7509.99
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00023,5,Launch Ready,2025-09-25,PPM,Nina Patel,True,False,5497.72
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00024,1,Idea Logged,2025-02-18,PLM,Jon Miller,False,False,7107.67
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00024,2,Concept Approved,2025-02-23,PPM,Maria Garcia,False,False,4279.35
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00024,3,Design Frozen,2025-02-26,PLM,Alex Chen,True,False,7489.38
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00024,4,Release Approved,2025-02-28,QMS,Jon Miller,True,False,1760.79
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00024,5,Launch Ready,2025-03-04,PPM,Sara Novak,True,False,1606.07
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00025,1,Idea Logged,2025-06-07,QMS,Nina Patel,True,False,5904.77
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00025,2,Concept Approved,2025-06-10,PLM,Thomas Weber,False,False,5566.96
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00025,3,Design Frozen,2025-06-15,PLM,Sara Novak,False,False,4503.54
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00025,4,Release Approved,2025-06-21,PPM,Jon Miller,True,False,3992.96
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00025,5,Launch Ready,2025-06-27,PPM,Alex Chen,True,False,1891.27
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00026,1,Idea Logged,2025-08-06,PPM,Thomas Weber,True,False,2727.65
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00026,2,Concept Approved,2025-08-06,ERP Engineering,Priya Rao,True,False,4012.51
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00026,3,Design Frozen,2025-08-08,QMS,Jon Miller,False,False,7434.85
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00026,4,Release Approved,2025-08-12,PLM,Priya Rao,True,False,6289.83
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00026,5,Launch Ready,2025-08-15,PPM,Kenji Tanaka,True,False,2896.79
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00027,1,Idea Logged,2025-09-21,PLM,Kenji Tanaka,False,False,2883.36
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00027,2,Concept Approved,2025-09-24,PPM,Maria Garcia,False,False,830.79
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00027,3,Design Frozen,2025-09-30,PPM,Jon Miller,False,False,7531.07
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00027,4,Release Approved,2025-10-04,PPM,Sara Novak,True,True,7422.29
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00027,5,Launch Ready,2025-10-06,ERP Engineering,Thomas Weber,False,False,7696.72
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00028,1,Idea Logged,2025-09-04,PLM,Alex Chen,False,False,331.08
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00028,2,Concept Approved,2025-09-04,PPM,Alex Chen,True,False,5957.95
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00028,3,Design Frozen,2025-09-04,PPM,Sara Novak,True,False,1617.19
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00028,4,Release Approved,2025-09-10,QMS,Thomas Weber,True,False,4987.54
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00028,5,Launch Ready,2025-09-11,PPM,Thomas Weber,True,False,6028.18
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00029,1,Idea Logged,2025-08-07,ERP Engineering,Maria Garcia,False,False,188.86
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00029,2,Concept Approved,2025-08-08,ERP Engineering,Jon Miller,True,False,7558.72
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00029,3,Design Frozen,2025-08-10,QMS,Thomas Weber,True,False,6546.01
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00029,4,Release Approved,2025-08-15,PLM,Thomas Weber,True,False,7236.0
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00029,5,Launch Ready,2025-08-21,PLM,Alex Chen,True,False,1118.0
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00030,1,Idea Logged,2025-02-27,ERP Engineering,Thomas Weber,True,False,111.77
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00030,2,Concept Approved,2025-02-28,PLM,Sara Novak,True,True,3341.7
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00030,3,Design Frozen,2025-03-06,PLM,Nina Patel,True,False,1401.07
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00030,4,Release Approved,2025-03-08,PPM,Maria Garcia,False,True,604.92
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00030,5,Launch Ready,2025-03-14,QMS,Priya Rao,False,False,7523.74
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00031,1,Idea Logged,2025-09-12,ERP Engineering,Thomas Weber,False,False,2521.34
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00031,2,Concept Approved,2025-09-12,ERP Engineering,Kenji Tanaka,True,False,3038.65
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00031,3,Design Frozen,2025-09-14,QMS,Priya Rao,False,False,2640.97
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00031,4,Release Approved,2025-09-19,QMS,Thomas Weber,True,False,260.85
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00031,5,Launch Ready,2025-09-20,ERP Engineering,Jon Miller,True,False,4888.72
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00032,1,Idea Logged,2025-12-19,PLM,Thomas Weber,True,False,6038.22
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00032,2,Concept Approved,2025-12-22,PLM,Jon Miller,False,False,4320.1
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00032,3,Design Frozen,2025-12-23,PPM,Sara Novak,True,False,3605.38
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00032,4,Release Approved,2025-12-24,PLM,Alex Chen,True,False,478.28
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00032,5,Launch Ready,2025-12-30,PPM,Kenji Tanaka,False,False,5004.47
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00033,1,Idea Logged,2025-03-24,PPM,Jon Miller,True,False,844.55
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00033,2,Concept Approved,2025-03-25,QMS,Kenji Tanaka,True,False,7289.41
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00033,3,Design Frozen,2025-03-28,PPM,Priya Rao,False,False,3502.58
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00033,4,Release Approved,2025-03-30,PPM,Priya Rao,True,False,1890.81
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00033,5,Launch Ready,2025-04-03,PPM,Sara Novak,True,False,5077.87
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00034,1,Idea Logged,2025-12-31,QMS,Alex Chen,False,False,7023.5
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00034,2,Concept Approved,2025-12-31,ERP Engineering,Sara Novak,True,False,2413.17
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00034,3,Design Frozen,2026-01-06,PPM,Thomas Weber,False,False,257.43
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00034,4,Release Approved,2026-01-11,ERP Engineering,Maria Garcia,True,True,6226.35
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00034,5,Launch Ready,2026-01-15,PLM,Priya Rao,True,True,4987.39
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00035,1,Idea Logged,2026-01-17,QMS,Alex Chen,False,False,5465.78
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00035,2,Concept Approved,2026-01-20,PLM,Thomas Weber,True,False,1463.93
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00035,3,Design Frozen,2026-01-20,QMS,Thomas Weber,False,False,7001.53
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00035,4,Release Approved,2026-01-25,ERP Engineering,Kenji Tanaka,True,False,3410.17
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00035,5,Launch Ready,2026-01-31,QMS,Nina Patel,True,False,3071.09
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00036,1,Idea Logged,2026-01-16,PPM,Sara Novak,False,False,2096.72
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00036,2,Concept Approved,2026-01-20,QMS,Jon Miller,True,False,7534.44
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00036,3,Design Frozen,2026-01-24,ERP Engineering,Alex Chen,True,False,6404.39
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00036,4,Release Approved,2026-01-27,QMS,Thomas Weber,True,False,6629.24
+idea2launch,Idea2Launch / Engineer2Release,IDEA2LAUNCH-00036,5,Launch Ready,2026-02-01,ERP Engineering,Kenji Tanaka,True,False,379.19

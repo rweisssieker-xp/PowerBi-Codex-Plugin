@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+quote2contract,Quote2Contract,2025-01,Contract Cycle Time,12.51,14.7,0.73,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-01,Redline Loops,13.75,16.66,0.83,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-01,Term Deviation Count,35.67,37.44,1.87,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-01,Value At Risk,46.0,44.88,2.24,Green,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-01,Signature Aging,33.96,34.7,1.74,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-02,Contract Cycle Time,38.28,42.41,2.12,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-02,Redline Loops,6.86,12.9,0.65,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-02,Term Deviation Count,37.71,46.88,2.34,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-02,Value At Risk,27.88,29.78,1.49,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-02,Signature Aging,41.77,41.02,2.05,Green,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-03,Contract Cycle Time,15.43,19.48,0.97,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-03,Redline Loops,21.0,22.97,1.15,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-03,Term Deviation Count,19.62,22.11,1.11,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-03,Value At Risk,52.78,58.83,2.94,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-03,Signature Aging,12.32,13.27,0.66,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-04,Contract Cycle Time,17.42,22.03,1.1,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-04,Redline Loops,23.84,30.25,1.51,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-04,Term Deviation Count,49.22,58.92,2.95,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-04,Value At Risk,40.5,48.2,2.41,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-04,Signature Aging,18.23,19.14,0.96,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-05,Contract Cycle Time,51.69,52.32,2.62,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-05,Redline Loops,6.27,10.71,0.54,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-05,Term Deviation Count,29.36,36.92,1.85,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-05,Value At Risk,33.65,44.77,2.24,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-05,Signature Aging,36.33,49.89,2.49,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-06,Contract Cycle Time,33.69,36.19,1.81,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-06,Redline Loops,29.21,29.8,1.49,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-06,Term Deviation Count,25.77,32.24,1.61,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-06,Value At Risk,45.59,48.08,2.4,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-06,Signature Aging,20.14,26.63,1.33,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-07,Contract Cycle Time,36.35,40.64,2.03,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-07,Redline Loops,37.68,45.36,2.27,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-07,Term Deviation Count,31.32,39.01,1.95,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-07,Value At Risk,27.02,29.47,1.47,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-07,Signature Aging,24.5,23.7,1.19,Green,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-08,Contract Cycle Time,23.52,27.17,1.36,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-08,Redline Loops,29.12,29.27,1.46,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-08,Term Deviation Count,13.41,15.88,0.79,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-08,Value At Risk,21.9,24.92,1.25,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-08,Signature Aging,46.16,50.79,2.54,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-09,Contract Cycle Time,22.17,24.94,1.25,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-09,Redline Loops,56.7,53.8,2.69,Green,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-09,Term Deviation Count,32.41,41.08,2.05,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-09,Value At Risk,58.79,59.5,2.98,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-09,Signature Aging,30.74,40.04,2.0,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-10,Contract Cycle Time,37.87,48.17,2.41,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-10,Redline Loops,58.67,59.69,2.98,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-10,Term Deviation Count,33.77,43.44,2.17,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-10,Value At Risk,38.94,49.78,2.49,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-10,Signature Aging,9.81,12.1,0.6,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-11,Contract Cycle Time,35.73,45.2,2.26,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-11,Redline Loops,22.96,26.11,1.31,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-11,Term Deviation Count,54.71,54.18,2.71,Green,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-11,Value At Risk,56.73,58.19,2.91,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-11,Signature Aging,48.61,50.17,2.51,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-12,Contract Cycle Time,37.72,51.52,2.58,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-12,Redline Loops,53.89,58.47,2.92,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-12,Term Deviation Count,17.24,20.88,1.04,Red,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-12,Value At Risk,21.72,23.65,1.18,Amber,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature
+quote2contract,Quote2Contract,2025-12,Signature Aging,45.0,44.94,2.25,Green,Quote-to-Contract Process Owner,CRM; CPQ; CLM; E-Signature

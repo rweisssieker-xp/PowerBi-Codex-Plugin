@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00001,1,Asset Installed,2025-12-16,Installed Base,Sara Novak,True,False,2596.33
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00001,2,Contract Offered,2025-12-20,FSM,Thomas Weber,True,False,2940.47
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00001,3,Service Delivered,2025-12-26,CRM Service,Sara Novak,True,False,6115.62
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00001,4,Renewal Proposed,2025-12-29,FSM,Kenji Tanaka,True,False,2559.3
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00001,5,Revenue Captured,2025-12-30,Installed Base,Nina Patel,True,True,3063.34
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00002,1,Asset Installed,2025-08-17,CRM Service,Kenji Tanaka,True,False,2494.62
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00002,2,Contract Offered,2025-08-22,CRM Service,Kenji Tanaka,False,False,5614.98
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00002,3,Service Delivered,2025-08-23,CRM Service,Maria Garcia,False,False,6147.55
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00002,4,Renewal Proposed,2025-08-27,CRM Service,Maria Garcia,True,True,2579.61
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00002,5,Revenue Captured,2025-09-02,FSM,Alex Chen,False,False,764.66
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00003,1,Asset Installed,2026-03-31,Installed Base,Thomas Weber,True,False,5690.07
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00003,2,Contract Offered,2026-04-02,CRM Service,Jon Miller,True,False,6244.16
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00003,3,Service Delivered,2026-04-03,FSM,Maria Garcia,False,False,6204.18
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00003,4,Renewal Proposed,2026-04-09,Billing,Jon Miller,True,False,7144.09
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00003,5,Revenue Captured,2026-04-15,Billing,Jon Miller,False,False,2155.15
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00004,1,Asset Installed,2025-11-05,FSM,Alex Chen,False,False,2600.93
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00004,2,Contract Offered,2025-11-06,CRM Service,Kenji Tanaka,True,False,115.81
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00004,3,Service Delivered,2025-11-07,Installed Base,Jon Miller,False,True,1805.68
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00004,4,Renewal Proposed,2025-11-08,FSM,Jon Miller,True,False,2615.33
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00004,5,Revenue Captured,2025-11-13,Installed Base,Alex Chen,False,False,7741.48
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00005,1,Asset Installed,2025-06-07,FSM,Sara Novak,True,True,4584.28
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00005,2,Contract Offered,2025-06-08,CRM Service,Nina Patel,False,False,6632.0
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00005,3,Service Delivered,2025-06-14,Installed Base,Thomas Weber,False,False,3003.76
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00005,4,Renewal Proposed,2025-06-17,CRM Service,Maria Garcia,False,False,2847.84
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00005,5,Revenue Captured,2025-06-19,Billing,Kenji Tanaka,True,False,3876.71
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00006,1,Asset Installed,2025-04-25,Billing,Priya Rao,False,False,7518.03
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00006,2,Contract Offered,2025-04-27,CRM Service,Kenji Tanaka,True,True,7863.37
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00006,3,Service Delivered,2025-05-03,FSM,Alex Chen,True,True,2016.17
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00006,4,Renewal Proposed,2025-05-04,Installed Base,Priya Rao,False,False,2792.03
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00006,5,Revenue Captured,2025-05-10,Billing,Alex Chen,False,False,7188.57
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00007,1,Asset Installed,2025-07-05,Installed Base,Thomas Weber,True,False,2296.89
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00007,2,Contract Offered,2025-07-06,FSM,Alex Chen,False,False,2923.09
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00007,3,Service Delivered,2025-07-11,Billing,Jon Miller,True,False,5932.87
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00007,4,Renewal Proposed,2025-07-17,Billing,Priya Rao,False,False,7648.39
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00007,5,Revenue Captured,2025-07-18,CRM Service,Kenji Tanaka,True,False,5528.49
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00008,1,Asset Installed,2025-11-18,Billing,Priya Rao,True,False,6846.45
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00008,2,Contract Offered,2025-11-22,FSM,Priya Rao,True,False,7506.17
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00008,3,Service Delivered,2025-11-27,FSM,Alex Chen,True,False,6094.91
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00008,4,Renewal Proposed,2025-11-29,Installed Base,Nina Patel,True,False,6825.4
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00008,5,Revenue Captured,2025-11-30,CRM Service,Jon Miller,True,False,1954.64
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00009,1,Asset Installed,2025-03-29,FSM,Nina Patel,False,True,6391.07
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00009,2,Contract Offered,2025-03-31,CRM Service,Sara Novak,False,False,6356.21
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00009,3,Service Delivered,2025-04-02,Installed Base,Nina Patel,True,False,4994.03
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00009,4,Renewal Proposed,2025-04-06,FSM,Maria Garcia,False,False,6141.79
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00009,5,Revenue Captured,2025-04-11,Installed Base,Priya Rao,False,False,4556.48
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00010,1,Asset Installed,2025-09-27,Installed Base,Alex Chen,False,False,4128.07
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00010,2,Contract Offered,2025-10-01,FSM,Nina Patel,False,False,1877.5
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00010,3,Service Delivered,2025-10-06,FSM,Kenji Tanaka,True,False,723.73
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00010,4,Renewal Proposed,2025-10-12,CRM Service,Jon Miller,False,False,5156.36
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00010,5,Revenue Captured,2025-10-17,FSM,Thomas Weber,False,False,176.75
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00011,1,Asset Installed,2025-02-03,CRM Service,Jon Miller,False,False,4114.76
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00011,2,Contract Offered,2025-02-08,CRM Service,Alex Chen,True,True,1620.88
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00011,3,Service Delivered,2025-02-10,CRM Service,Alex Chen,True,False,5930.16
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00011,4,Renewal Proposed,2025-02-10,CRM Service,Kenji Tanaka,False,False,6112.84
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00011,5,Revenue Captured,2025-02-13,Installed Base,Sara Novak,True,False,4851.23
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00012,1,Asset Installed,2025-04-10,Installed Base,Maria Garcia,True,False,655.79
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00012,2,Contract Offered,2025-04-14,Billing,Sara Novak,False,False,4169.98
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00012,3,Service Delivered,2025-04-19,Billing,Jon Miller,True,False,4502.43
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00012,4,Renewal Proposed,2025-04-25,Installed Base,Jon Miller,False,False,5940.66
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00012,5,Revenue Captured,2025-04-25,CRM Service,Priya Rao,True,False,6649.9
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00013,1,Asset Installed,2025-05-21,Billing,Maria Garcia,True,False,402.28
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00013,2,Contract Offered,2025-05-27,Installed Base,Alex Chen,False,False,4751.31
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00013,3,Service Delivered,2025-05-29,Installed Base,Thomas Weber,False,False,2211.86
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00013,4,Renewal Proposed,2025-05-29,FSM,Jon Miller,False,False,5202.51
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00013,5,Revenue Captured,2025-06-01,Billing,Sara Novak,False,False,4743.69
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00014,1,Asset Installed,2025-06-22,FSM,Maria Garcia,True,False,2140.68
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00014,2,Contract Offered,2025-06-26,FSM,Priya Rao,False,False,4037.27
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00014,3,Service Delivered,2025-06-30,FSM,Alex Chen,True,False,3284.74
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00014,4,Renewal Proposed,2025-07-02,CRM Service,Jon Miller,False,False,4189.6
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00014,5,Revenue Captured,2025-07-07,FSM,Priya Rao,True,False,7434.85
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00015,1,Asset Installed,2025-05-29,FSM,Nina Patel,True,False,1270.99
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00015,2,Contract Offered,2025-06-04,FSM,Thomas Weber,True,False,1377.42
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00015,3,Service Delivered,2025-06-07,CRM Service,Alex Chen,True,False,7589.52
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00015,4,Renewal Proposed,2025-06-13,FSM,Sara Novak,False,False,2462.73
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00015,5,Revenue Captured,2025-06-13,FSM,Sara Novak,False,True,4258.38
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00016,1,Asset Installed,2025-09-02,CRM Service,Nina Patel,True,False,345.98
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00016,2,Contract Offered,2025-09-02,FSM,Thomas Weber,True,True,1421.64
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00016,3,Service Delivered,2025-09-02,Installed Base,Nina Patel,False,False,6935.27
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00016,4,Renewal Proposed,2025-09-03,FSM,Kenji Tanaka,True,False,1394.17
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00016,5,Revenue Captured,2025-09-05,Installed Base,Alex Chen,False,False,455.13
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00017,1,Asset Installed,2025-04-26,CRM Service,Priya Rao,True,False,3341.81
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00017,2,Contract Offered,2025-04-27,Installed Base,Priya Rao,True,True,4621.99
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00017,3,Service Delivered,2025-05-01,Installed Base,Kenji Tanaka,False,False,4389.21
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00017,4,Renewal Proposed,2025-05-03,Billing,Kenji Tanaka,True,False,2199.15
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00017,5,Revenue Captured,2025-05-09,Billing,Sara Novak,False,False,2314.85
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00018,1,Asset Installed,2025-04-16,Billing,Sara Novak,False,True,6012.46
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00018,2,Contract Offered,2025-04-20,Installed Base,Alex Chen,False,False,636.41
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00018,3,Service Delivered,2025-04-22,CRM Service,Priya Rao,True,False,5251.78
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00018,4,Renewal Proposed,2025-04-23,Installed Base,Jon Miller,True,False,3741.73
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00018,5,Revenue Captured,2025-04-25,Installed Base,Maria Garcia,True,True,4699.55
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00019,1,Asset Installed,2025-11-09,Billing,Jon Miller,False,False,5042.45
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00019,2,Contract Offered,2025-11-14,Installed Base,Nina Patel,False,True,651.35
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00019,3,Service Delivered,2025-11-16,Billing,Sara Novak,False,False,224.11
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00019,4,Renewal Proposed,2025-11-17,CRM Service,Alex Chen,False,False,3396.16
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00019,5,Revenue Captured,2025-11-21,CRM Service,Sara Novak,True,True,4348.99
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00020,1,Asset Installed,2026-02-25,Installed Base,Priya Rao,True,False,2283.06
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00020,2,Contract Offered,2026-02-27,Billing,Sara Novak,True,False,6591.73
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00020,3,Service Delivered,2026-03-01,Installed Base,Nina Patel,False,False,1427.7
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00020,4,Renewal Proposed,2026-03-06,FSM,Kenji Tanaka,True,False,2690.08
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00020,5,Revenue Captured,2026-03-12,Installed Base,Maria Garcia,True,False,1029.07
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00021,1,Asset Installed,2025-01-25,Billing,Priya Rao,True,False,7882.9
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00021,2,Contract Offered,2025-01-29,Installed Base,Alex Chen,True,False,7842.3
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00021,3,Service Delivered,2025-02-03,Installed Base,Priya Rao,True,False,6191.88
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00021,4,Renewal Proposed,2025-02-08,FSM,Sara Novak,True,False,6758.67
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00021,5,Revenue Captured,2025-02-09,FSM,Alex Chen,True,False,483.13
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00022,1,Asset Installed,2025-06-29,FSM,Kenji Tanaka,True,False,6753.37
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00022,2,Contract Offered,2025-06-30,CRM Service,Alex Chen,False,False,2008.17
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00022,3,Service Delivered,2025-07-02,CRM Service,Maria Garcia,False,False,4229.51
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00022,4,Renewal Proposed,2025-07-02,CRM Service,Maria Garcia,False,False,3210.89
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00022,5,Revenue Captured,2025-07-04,Installed Base,Jon Miller,False,False,4611.74
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00023,1,Asset Installed,2026-03-13,Installed Base,Priya Rao,True,False,7890.92
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00023,2,Contract Offered,2026-03-17,CRM Service,Nina Patel,False,False,2104.67
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00023,3,Service Delivered,2026-03-20,Installed Base,Jon Miller,True,False,3425.24
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00023,4,Renewal Proposed,2026-03-20,Billing,Priya Rao,False,False,3296.35
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00023,5,Revenue Captured,2026-03-23,CRM Service,Nina Patel,True,False,4608.78
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00024,1,Asset Installed,2025-08-28,CRM Service,Jon Miller,False,False,1923.19
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00024,2,Contract Offered,2025-09-03,FSM,Alex Chen,False,False,2043.63
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00024,3,Service Delivered,2025-09-06,Billing,Kenji Tanaka,False,False,2041.44
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00024,4,Renewal Proposed,2025-09-07,CRM Service,Thomas Weber,True,False,4725.34
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00024,5,Revenue Captured,2025-09-08,Billing,Sara Novak,True,False,6971.33
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00025,1,Asset Installed,2025-05-07,CRM Service,Sara Novak,False,False,740.02
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00025,2,Contract Offered,2025-05-09,Installed Base,Nina Patel,True,True,6214.97
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00025,3,Service Delivered,2025-05-09,FSM,Nina Patel,False,True,5161.89
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00025,4,Renewal Proposed,2025-05-15,CRM Service,Priya Rao,True,False,4220.57
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00025,5,Revenue Captured,2025-05-17,Billing,Thomas Weber,True,False,3094.84
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00026,1,Asset Installed,2025-07-29,Billing,Jon Miller,False,False,1459.39
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00026,2,Contract Offered,2025-08-03,CRM Service,Nina Patel,False,False,3926.94
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00026,3,Service Delivered,2025-08-09,CRM Service,Kenji Tanaka,True,False,5025.75
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00026,4,Renewal Proposed,2025-08-10,FSM,Kenji Tanaka,True,False,7690.59
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00026,5,Revenue Captured,2025-08-14,Billing,Sara Novak,True,False,1405.48
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00027,1,Asset Installed,2025-03-28,FSM,Nina Patel,True,False,4884.31
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00027,2,Contract Offered,2025-03-31,FSM,Maria Garcia,False,False,4491.13
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00027,3,Service Delivered,2025-03-31,Billing,Alex Chen,True,False,4483.32
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00027,4,Renewal Proposed,2025-04-03,FSM,Thomas Weber,False,False,2924.43
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00027,5,Revenue Captured,2025-04-08,Installed Base,Sara Novak,True,False,4898.19
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00028,1,Asset Installed,2025-06-15,Installed Base,Nina Patel,False,False,4432.43
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00028,2,Contract Offered,2025-06-17,CRM Service,Kenji Tanaka,True,False,4656.93
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00028,3,Service Delivered,2025-06-17,CRM Service,Alex Chen,False,False,7431.34
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00028,4,Renewal Proposed,2025-06-20,CRM Service,Sara Novak,False,False,7236.31
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00028,5,Revenue Captured,2025-06-20,FSM,Sara Novak,True,False,1101.97
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00029,1,Asset Installed,2026-03-05,Installed Base,Priya Rao,False,False,2755.91
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00029,2,Contract Offered,2026-03-06,CRM Service,Priya Rao,False,False,1980.05
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00029,3,Service Delivered,2026-03-12,Installed Base,Maria Garcia,False,False,7368.07
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00029,4,Renewal Proposed,2026-03-17,Billing,Priya Rao,True,False,3449.77
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00029,5,Revenue Captured,2026-03-17,Billing,Maria Garcia,False,False,1694.26
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00030,1,Asset Installed,2025-02-26,FSM,Kenji Tanaka,True,False,2093.92
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00030,2,Contract Offered,2025-02-26,Installed Base,Priya Rao,False,False,6937.01
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00030,3,Service Delivered,2025-02-26,Billing,Maria Garcia,False,False,2109.3
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00030,4,Renewal Proposed,2025-03-02,Billing,Thomas Weber,True,False,158.77
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00030,5,Revenue Captured,2025-03-06,CRM Service,Maria Garcia,True,False,1849.79
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00031,1,Asset Installed,2025-11-29,Installed Base,Maria Garcia,True,False,1985.99
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00031,2,Contract Offered,2025-12-05,FSM,Thomas Weber,False,False,2579.81
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00031,3,Service Delivered,2025-12-08,Billing,Jon Miller,False,False,3008.5
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00031,4,Renewal Proposed,2025-12-09,CRM Service,Priya Rao,True,False,1491.35
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00031,5,Revenue Captured,2025-12-12,FSM,Jon Miller,True,False,434.46
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00032,1,Asset Installed,2026-01-25,FSM,Nina Patel,True,False,5684.72
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00032,2,Contract Offered,2026-01-30,Billing,Sara Novak,False,False,392.79
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00032,3,Service Delivered,2026-02-01,FSM,Sara Novak,True,False,1298.29
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00032,4,Renewal Proposed,2026-02-05,CRM Service,Sara Novak,False,False,1857.63
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00032,5,Revenue Captured,2026-02-10,CRM Service,Jon Miller,False,False,5848.33
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00033,1,Asset Installed,2025-10-31,CRM Service,Sara Novak,False,False,5714.0
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00033,2,Contract Offered,2025-11-04,Installed Base,Maria Garcia,False,False,3770.52
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00033,3,Service Delivered,2025-11-09,Installed Base,Priya Rao,False,False,7713.77
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00033,4,Renewal Proposed,2025-11-09,FSM,Jon Miller,False,False,4401.69
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00033,5,Revenue Captured,2025-11-12,CRM Service,Priya Rao,True,False,3286.13
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00034,1,Asset Installed,2025-01-04,FSM,Kenji Tanaka,False,False,7883.03
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00034,2,Contract Offered,2025-01-04,Installed Base,Priya Rao,True,False,912.37
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00034,3,Service Delivered,2025-01-07,FSM,Maria Garcia,False,False,1567.12
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00034,4,Renewal Proposed,2025-01-12,Billing,Priya Rao,False,False,5303.02
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00034,5,Revenue Captured,2025-01-15,Installed Base,Alex Chen,True,False,2397.27
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00035,1,Asset Installed,2025-06-16,FSM,Jon Miller,False,True,4187.83
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00035,2,Contract Offered,2025-06-22,CRM Service,Kenji Tanaka,True,False,7072.0
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00035,3,Service Delivered,2025-06-22,FSM,Jon Miller,False,True,4797.62
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00035,4,Renewal Proposed,2025-06-25,FSM,Sara Novak,True,False,4376.84
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00035,5,Revenue Captured,2025-06-26,Installed Base,Thomas Weber,False,False,6491.39
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00036,1,Asset Installed,2026-02-07,FSM,Priya Rao,False,False,4519.32
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00036,2,Contract Offered,2026-02-13,Billing,Maria Garcia,False,False,6451.56
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00036,3,Service Delivered,2026-02-17,Billing,Maria Garcia,False,False,7309.73
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00036,4,Renewal Proposed,2026-02-23,FSM,Thomas Weber,False,False,7439.21
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,INSTALLEDBASE2SERVICEREVENUE-00036,5,Revenue Captured,2026-02-25,CRM Service,Nina Patel,False,False,2349.27

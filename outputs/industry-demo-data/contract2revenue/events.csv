@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00001,1,Contract Effective,2025-03-30,Revenue Recognition,Thomas Weber,True,False,2129.77
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00001,2,Billing Data Complete,2025-04-02,Revenue Recognition,Priya Rao,False,False,4482.97
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00001,3,Fulfilled,2025-04-06,Billing,Jon Miller,True,False,6472.64
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00001,4,Billed,2025-04-11,CLM,Alex Chen,True,False,4882.09
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00001,5,Revenue Recognized,2025-04-17,Revenue Recognition,Nina Patel,True,False,7029.58
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00002,1,Contract Effective,2025-04-26,Revenue Recognition,Jon Miller,False,False,3614.25
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00002,2,Billing Data Complete,2025-04-28,Revenue Recognition,Thomas Weber,False,False,2240.44
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00002,3,Fulfilled,2025-04-28,Revenue Recognition,Kenji Tanaka,True,False,6829.35
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00002,4,Billed,2025-04-30,CLM,Nina Patel,False,False,3888.28
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00002,5,Revenue Recognized,2025-04-30,CLM,Alex Chen,False,False,1959.6
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00003,1,Contract Effective,2025-12-08,Revenue Recognition,Kenji Tanaka,True,False,7589.9
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00003,2,Billing Data Complete,2025-12-10,ERP SD,Jon Miller,False,False,361.22
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00003,3,Fulfilled,2025-12-13,ERP SD,Maria Garcia,True,False,2030.34
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00003,4,Billed,2025-12-15,Revenue Recognition,Nina Patel,True,False,1229.83
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00003,5,Revenue Recognized,2025-12-18,Billing,Sara Novak,True,False,3756.44
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00004,1,Contract Effective,2025-03-21,Revenue Recognition,Thomas Weber,False,False,314.58
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00004,2,Billing Data Complete,2025-03-24,Revenue Recognition,Jon Miller,True,True,5077.28
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00004,3,Fulfilled,2025-03-28,ERP SD,Alex Chen,False,False,1447.66
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00004,4,Billed,2025-04-01,Revenue Recognition,Priya Rao,False,False,2638.77
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00004,5,Revenue Recognized,2025-04-04,CLM,Kenji Tanaka,False,False,5891.85
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00005,1,Contract Effective,2025-08-20,CLM,Jon Miller,False,False,6421.15
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00005,2,Billing Data Complete,2025-08-21,Revenue Recognition,Jon Miller,True,False,3206.75
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00005,3,Fulfilled,2025-08-25,Revenue Recognition,Maria Garcia,True,False,4937.33
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00005,4,Billed,2025-08-26,Revenue Recognition,Alex Chen,True,False,823.44
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00005,5,Revenue Recognized,2025-08-27,Billing,Kenji Tanaka,True,False,4751.78
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00006,1,Contract Effective,2025-10-03,Billing,Thomas Weber,True,True,1448.45
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00006,2,Billing Data Complete,2025-10-07,ERP SD,Jon Miller,True,False,992.21
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00006,3,Fulfilled,2025-10-10,CLM,Maria Garcia,True,True,5623.95
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00006,4,Billed,2025-10-10,Billing,Jon Miller,False,False,3948.94
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00006,5,Revenue Recognized,2025-10-13,ERP SD,Kenji Tanaka,False,False,4829.18
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00007,1,Contract Effective,2025-07-26,CLM,Nina Patel,True,True,3411.42
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00007,2,Billing Data Complete,2025-07-31,CLM,Jon Miller,True,False,2847.55
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00007,3,Fulfilled,2025-08-01,ERP SD,Kenji Tanaka,False,False,5163.56
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00007,4,Billed,2025-08-03,Revenue Recognition,Thomas Weber,False,False,3683.05
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00007,5,Revenue Recognized,2025-08-03,Revenue Recognition,Kenji Tanaka,True,False,1644.77
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00008,1,Contract Effective,2026-03-25,ERP SD,Thomas Weber,False,False,5013.46
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00008,2,Billing Data Complete,2026-03-31,ERP SD,Maria Garcia,False,False,2444.82
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00008,3,Fulfilled,2026-04-02,Billing,Kenji Tanaka,True,False,4999.23
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00008,4,Billed,2026-04-05,Billing,Thomas Weber,True,False,1866.87
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00008,5,Revenue Recognized,2026-04-08,Billing,Maria Garcia,True,False,6963.51
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00009,1,Contract Effective,2025-02-20,CLM,Nina Patel,False,True,7363.79
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00009,2,Billing Data Complete,2025-02-24,Billing,Priya Rao,False,False,349.02
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00009,3,Fulfilled,2025-02-27,Billing,Maria Garcia,True,False,7889.08
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00009,4,Billed,2025-03-04,Revenue Recognition,Kenji Tanaka,True,False,5097.08
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00009,5,Revenue Recognized,2025-03-04,CLM,Nina Patel,True,False,2411.27
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00010,1,Contract Effective,2025-10-30,Billing,Priya Rao,True,False,1176.01
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00010,2,Billing Data Complete,2025-11-04,Revenue Recognition,Priya Rao,False,False,978.76
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00010,3,Fulfilled,2025-11-07,Billing,Maria Garcia,True,False,793.0
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00010,4,Billed,2025-11-09,ERP SD,Nina Patel,False,False,2973.18
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00010,5,Revenue Recognized,2025-11-14,CLM,Priya Rao,True,False,3767.92
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00011,1,Contract Effective,2025-10-25,Revenue Recognition,Maria Garcia,False,False,7230.47
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00011,2,Billing Data Complete,2025-10-25,Billing,Thomas Weber,True,False,885.63
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00011,3,Fulfilled,2025-10-29,Revenue Recognition,Sara Novak,True,False,2277.27
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00011,4,Billed,2025-10-31,Revenue Recognition,Alex Chen,True,True,2569.3
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00011,5,Revenue Recognized,2025-11-03,CLM,Sara Novak,True,False,7439.0
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00012,1,Contract Effective,2025-01-18,ERP SD,Sara Novak,True,False,6851.77
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00012,2,Billing Data Complete,2025-01-24,CLM,Sara Novak,False,False,1682.96
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00012,3,Fulfilled,2025-01-24,CLM,Nina Patel,False,False,2167.25
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00012,4,Billed,2025-01-29,ERP SD,Alex Chen,True,False,4795.72
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00012,5,Revenue Recognized,2025-02-04,ERP SD,Jon Miller,True,False,6306.87
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00013,1,Contract Effective,2025-05-25,Revenue Recognition,Kenji Tanaka,True,False,5813.32
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00013,2,Billing Data Complete,2025-05-31,ERP SD,Nina Patel,True,False,1144.85
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00013,3,Fulfilled,2025-06-01,Billing,Nina Patel,False,False,137.59
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00013,4,Billed,2025-06-06,CLM,Sara Novak,True,False,6558.77
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00013,5,Revenue Recognized,2025-06-10,CLM,Alex Chen,True,False,6119.68
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00014,1,Contract Effective,2025-10-19,Revenue Recognition,Jon Miller,True,False,1076.71
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00014,2,Billing Data Complete,2025-10-23,CLM,Jon Miller,True,False,3168.55
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00014,3,Fulfilled,2025-10-29,Billing,Maria Garcia,False,False,5819.66
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00014,4,Billed,2025-10-29,CLM,Sara Novak,False,False,393.22
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00014,5,Revenue Recognized,2025-11-03,Revenue Recognition,Priya Rao,True,False,2392.5
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00015,1,Contract Effective,2025-11-16,CLM,Priya Rao,True,False,3854.28
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00015,2,Billing Data Complete,2025-11-16,Billing,Jon Miller,True,False,4445.47
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00015,3,Fulfilled,2025-11-17,ERP SD,Priya Rao,False,False,3880.11
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00015,4,Billed,2025-11-17,CLM,Nina Patel,False,False,6832.44
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00015,5,Revenue Recognized,2025-11-23,ERP SD,Jon Miller,False,False,6937.43
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00016,1,Contract Effective,2025-08-05,ERP SD,Kenji Tanaka,True,False,5977.27
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00016,2,Billing Data Complete,2025-08-10,ERP SD,Kenji Tanaka,False,False,3566.94
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00016,3,Fulfilled,2025-08-15,CLM,Thomas Weber,True,False,2941.71
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00016,4,Billed,2025-08-18,Billing,Sara Novak,False,False,7923.67
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00016,5,Revenue Recognized,2025-08-20,ERP SD,Maria Garcia,False,False,7044.25
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00017,1,Contract Effective,2025-11-21,CLM,Jon Miller,False,False,816.24
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00017,2,Billing Data Complete,2025-11-22,Billing,Alex Chen,False,False,4146.06
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00017,3,Fulfilled,2025-11-24,CLM,Maria Garcia,False,False,4934.36
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00017,4,Billed,2025-11-27,Revenue Recognition,Thomas Weber,True,False,6911.29
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00017,5,Revenue Recognized,2025-12-03,Revenue Recognition,Sara Novak,False,False,6966.28
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00018,1,Contract Effective,2026-01-12,Revenue Recognition,Kenji Tanaka,True,False,2227.24
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00018,2,Billing Data Complete,2026-01-18,Revenue Recognition,Sara Novak,True,False,7086.71
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00018,3,Fulfilled,2026-01-19,ERP SD,Priya Rao,True,True,425.83
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00018,4,Billed,2026-01-21,ERP SD,Jon Miller,True,False,341.36
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00018,5,Revenue Recognized,2026-01-27,Billing,Alex Chen,False,False,3721.11
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00019,1,Contract Effective,2025-08-06,Billing,Priya Rao,False,True,7563.89
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00019,2,Billing Data Complete,2025-08-08,CLM,Maria Garcia,False,False,5991.79
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00019,3,Fulfilled,2025-08-08,ERP SD,Priya Rao,True,False,5359.94
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00019,4,Billed,2025-08-13,Revenue Recognition,Jon Miller,True,False,946.06
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00019,5,Revenue Recognized,2025-08-18,Billing,Priya Rao,True,False,6964.27
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00020,1,Contract Effective,2025-12-02,ERP SD,Nina Patel,True,False,973.91
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00020,2,Billing Data Complete,2025-12-08,ERP SD,Priya Rao,True,False,5538.14
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00020,3,Fulfilled,2025-12-09,Revenue Recognition,Thomas Weber,False,False,2252.37
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00020,4,Billed,2025-12-11,ERP SD,Sara Novak,False,False,5992.77
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00020,5,Revenue Recognized,2025-12-12,Billing,Sara Novak,False,False,7138.03
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00021,1,Contract Effective,2025-01-02,Revenue Recognition,Sara Novak,False,False,57.91
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00021,2,Billing Data Complete,2025-01-03,CLM,Priya Rao,False,False,3316.37
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00021,3,Fulfilled,2025-01-05,Billing,Kenji Tanaka,True,True,2420.13
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00021,4,Billed,2025-01-07,Billing,Sara Novak,True,False,7088.36
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00021,5,Revenue Recognized,2025-01-09,Billing,Sara Novak,True,False,7805.09
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00022,1,Contract Effective,2025-02-15,CLM,Nina Patel,False,True,3321.02
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00022,2,Billing Data Complete,2025-02-16,Revenue Recognition,Kenji Tanaka,True,False,319.86
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00022,3,Fulfilled,2025-02-17,CLM,Thomas Weber,True,False,7499.87
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00022,4,Billed,2025-02-17,CLM,Maria Garcia,False,False,5592.69
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00022,5,Revenue Recognized,2025-02-18,ERP SD,Sara Novak,True,False,7240.79
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00023,1,Contract Effective,2026-02-05,Billing,Sara Novak,True,False,2564.91
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00023,2,Billing Data Complete,2026-02-10,CLM,Jon Miller,True,False,4085.63
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00023,3,Fulfilled,2026-02-12,Billing,Thomas Weber,False,True,5919.97
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00023,4,Billed,2026-02-13,CLM,Kenji Tanaka,False,False,6143.14
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00023,5,Revenue Recognized,2026-02-13,CLM,Thomas Weber,True,False,3845.44
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00024,1,Contract Effective,2025-12-31,Revenue Recognition,Sara Novak,False,False,5206.37
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00024,2,Billing Data Complete,2026-01-05,Revenue Recognition,Nina Patel,True,False,6230.75
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00024,3,Fulfilled,2026-01-07,Revenue Recognition,Alex Chen,True,False,993.67
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00024,4,Billed,2026-01-12,ERP SD,Thomas Weber,True,False,5509.97
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00024,5,Revenue Recognized,2026-01-13,ERP SD,Thomas Weber,False,False,4544.37
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00025,1,Contract Effective,2025-09-22,Billing,Nina Patel,False,False,6507.06
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00025,2,Billing Data Complete,2025-09-25,Revenue Recognition,Thomas Weber,True,False,3300.49
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00025,3,Fulfilled,2025-09-29,ERP SD,Sara Novak,False,False,4519.0
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00025,4,Billed,2025-10-02,Revenue Recognition,Thomas Weber,False,False,630.45
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00025,5,Revenue Recognized,2025-10-08,Revenue Recognition,Priya Rao,True,False,1725.41
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00026,1,Contract Effective,2026-01-12,ERP SD,Priya Rao,True,False,3876.72
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00026,2,Billing Data Complete,2026-01-15,ERP SD,Alex Chen,True,True,4965.35
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00026,3,Fulfilled,2026-01-17,Billing,Kenji Tanaka,False,False,499.23
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00026,4,Billed,2026-01-20,ERP SD,Maria Garcia,True,False,7481.28
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00026,5,Revenue Recognized,2026-01-24,Revenue Recognition,Alex Chen,True,False,6482.52
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00027,1,Contract Effective,2026-03-18,Billing,Thomas Weber,True,False,6582.25
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00027,2,Billing Data Complete,2026-03-18,ERP SD,Priya Rao,False,False,7023.68
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00027,3,Fulfilled,2026-03-23,CLM,Kenji Tanaka,False,False,6484.34
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00027,4,Billed,2026-03-25,ERP SD,Thomas Weber,True,False,1199.53
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00027,5,Revenue Recognized,2026-03-29,Revenue Recognition,Kenji Tanaka,True,False,7654.56
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00028,1,Contract Effective,2025-05-08,ERP SD,Maria Garcia,True,False,1949.07
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00028,2,Billing Data Complete,2025-05-09,CLM,Jon Miller,True,False,3525.06
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00028,3,Fulfilled,2025-05-09,ERP SD,Thomas Weber,True,False,3607.03
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00028,4,Billed,2025-05-13,CLM,Maria Garcia,True,False,7984.26
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00028,5,Revenue Recognized,2025-05-18,Billing,Sara Novak,True,True,7617.37
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00029,1,Contract Effective,2025-02-19,Revenue Recognition,Maria Garcia,False,False,7026.42
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00029,2,Billing Data Complete,2025-02-24,Revenue Recognition,Priya Rao,True,False,6364.77
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00029,3,Fulfilled,2025-03-01,Billing,Alex Chen,False,False,3225.79
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00029,4,Billed,2025-03-02,Billing,Nina Patel,False,True,1917.62
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00029,5,Revenue Recognized,2025-03-02,Revenue Recognition,Kenji Tanaka,False,False,3830.6
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00030,1,Contract Effective,2025-07-25,Billing,Priya Rao,True,False,2711.25
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00030,2,Billing Data Complete,2025-07-30,CLM,Maria Garcia,False,False,1652.82
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00030,3,Fulfilled,2025-08-01,Revenue Recognition,Jon Miller,True,False,2552.75
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00030,4,Billed,2025-08-02,Revenue Recognition,Maria Garcia,True,False,4764.03
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00030,5,Revenue Recognized,2025-08-04,CLM,Sara Novak,False,False,7341.92
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00031,1,Contract Effective,2025-09-07,ERP SD,Sara Novak,True,False,724.78
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00031,2,Billing Data Complete,2025-09-13,CLM,Alex Chen,False,False,1285.53
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00031,3,Fulfilled,2025-09-18,Revenue Recognition,Sara Novak,True,True,916.77
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00031,4,Billed,2025-09-19,Revenue Recognition,Thomas Weber,False,False,5897.37
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00031,5,Revenue Recognized,2025-09-21,Revenue Recognition,Kenji Tanaka,True,False,2082.52
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00032,1,Contract Effective,2025-01-21,Revenue Recognition,Alex Chen,False,False,7652.47
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00032,2,Billing Data Complete,2025-01-26,Revenue Recognition,Jon Miller,True,False,5501.75
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00032,3,Fulfilled,2025-01-27,ERP SD,Sara Novak,True,False,5114.79
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00032,4,Billed,2025-01-27,CLM,Priya Rao,False,False,4070.79
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00032,5,Revenue Recognized,2025-01-27,Revenue Recognition,Sara Novak,True,False,7593.19
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00033,1,Contract Effective,2026-03-22,Revenue Recognition,Jon Miller,False,False,3155.98
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00033,2,Billing Data Complete,2026-03-27,Billing,Jon Miller,False,False,3480.95
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00033,3,Fulfilled,2026-03-30,Revenue Recognition,Jon Miller,True,False,5695.63
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00033,4,Billed,2026-03-30,Revenue Recognition,Kenji Tanaka,False,False,3536.78
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00033,5,Revenue Recognized,2026-03-31,Billing,Maria Garcia,True,False,3360.77
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00034,1,Contract Effective,2026-01-22,Billing,Kenji Tanaka,True,False,5104.23
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00034,2,Billing Data Complete,2026-01-28,Billing,Jon Miller,True,False,6629.34
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00034,3,Fulfilled,2026-01-28,ERP SD,Kenji Tanaka,True,False,6369.23
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00034,4,Billed,2026-01-31,Revenue Recognition,Maria Garcia,False,True,453.84
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00034,5,Revenue Recognized,2026-01-31,Revenue Recognition,Jon Miller,True,False,3280.78
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00035,1,Contract Effective,2025-03-14,CLM,Jon Miller,True,True,6179.84
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00035,2,Billing Data Complete,2025-03-19,Revenue Recognition,Jon Miller,True,False,7097.72
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00035,3,Fulfilled,2025-03-21,ERP SD,Kenji Tanaka,True,False,7700.84
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00035,4,Billed,2025-03-24,ERP SD,Maria Garcia,True,False,7096.83
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00035,5,Revenue Recognized,2025-03-25,ERP SD,Sara Novak,True,False,701.39
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00036,1,Contract Effective,2026-02-05,Billing,Alex Chen,True,False,5141.91
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00036,2,Billing Data Complete,2026-02-11,Billing,Maria Garcia,True,False,6053.77
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00036,3,Fulfilled,2026-02-13,ERP SD,Priya Rao,True,False,2174.38
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00036,4,Billed,2026-02-18,Revenue Recognition,Priya Rao,True,False,7727.99
+contract2revenue,Contract2Revenue,CONTRACT2REVENUE-00036,5,Revenue Recognized,2026-02-20,CLM,Alex Chen,False,False,7055.63

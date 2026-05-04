@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+maintain2operate,Maintain2Operate,2025-01,PM Compliance,17.51,20.06,1.0,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-01,Downtime Cost,33.47,34.6,1.73,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-01,MTBF,44.43,45.66,2.28,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-01,MTTR,50.67,57.16,2.86,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-01,Maintenance Backlog,45.07,44.48,2.22,Green,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-02,PM Compliance,29.75,28.73,1.44,Green,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-02,Downtime Cost,10.5,13.82,0.69,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-02,MTBF,19.22,23.47,1.17,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-02,MTTR,38.62,39.04,1.95,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-02,Maintenance Backlog,18.54,19.61,0.98,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-03,PM Compliance,54.28,55.53,2.78,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-03,Downtime Cost,18.29,22.03,1.1,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-03,MTBF,54.29,56.5,2.83,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-03,MTTR,36.56,38.99,1.95,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-03,Maintenance Backlog,42.73,48.63,2.43,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-04,PM Compliance,11.94,14.16,0.71,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-04,Downtime Cost,32.86,37.53,1.88,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-04,MTBF,44.3,50.0,2.5,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-04,MTTR,36.01,43.56,2.18,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-04,Maintenance Backlog,45.31,45.1,2.26,Green,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-05,PM Compliance,14.03,17.93,0.9,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-05,Downtime Cost,39.71,44.43,2.22,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-05,MTBF,13.1,15.73,0.79,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-05,MTTR,19.08,21.62,1.08,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-05,Maintenance Backlog,35.95,43.04,2.15,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-06,PM Compliance,12.53,15.14,0.76,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-06,Downtime Cost,24.1,31.54,1.58,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-06,MTBF,25.13,30.86,1.54,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-06,MTTR,25.82,32.9,1.65,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-06,Maintenance Backlog,34.31,38.87,1.94,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-07,PM Compliance,21.64,25.87,1.29,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-07,Downtime Cost,45.56,45.63,2.28,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-07,MTBF,47.81,49.26,2.46,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-07,MTTR,34.94,39.91,2.0,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-07,Maintenance Backlog,36.32,38.19,1.91,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-08,PM Compliance,10.99,13.39,0.67,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-08,Downtime Cost,31.98,36.71,1.84,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-08,MTBF,16.9,20.99,1.05,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-08,MTTR,49.94,56.44,2.82,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-08,Maintenance Backlog,42.62,46.69,2.33,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-09,PM Compliance,49.58,54.8,2.74,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-09,Downtime Cost,6.94,11.01,0.55,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-09,MTBF,43.91,47.64,2.38,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-09,MTTR,26.02,27.83,1.39,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-09,Maintenance Backlog,13.2,14.3,0.72,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-10,PM Compliance,44.61,48.64,2.43,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-10,Downtime Cost,53.98,56.27,2.81,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-10,MTBF,52.94,55.72,2.79,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-10,MTTR,28.89,29.73,1.49,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-10,Maintenance Backlog,58.87,57.22,2.86,Green,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-11,PM Compliance,11.88,15.72,0.79,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-11,Downtime Cost,37.53,37.51,1.88,Green,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-11,MTBF,17.09,19.82,0.99,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-11,MTTR,47.51,52.15,2.61,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-11,Maintenance Backlog,48.88,58.81,2.94,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-12,PM Compliance,21.65,21.62,1.08,Green,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-12,Downtime Cost,10.01,15.41,0.77,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-12,MTBF,17.38,22.0,1.1,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-12,MTTR,23.31,25.08,1.25,Amber,Maintenance Process Owner,EAM; CMMS; MES; Historian
+maintain2operate,Maintain2Operate,2025-12,Maintenance Backlog,43.38,52.4,2.62,Red,Maintenance Process Owner,EAM; CMMS; MES; Historian

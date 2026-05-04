@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+design2cost,Design2Cost / Design2Source,2025-01,Target Cost Variance,24.39,26.74,1.34,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-01,Part Reuse %,63.61,76.9,3.85,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-01,Single-Source Exposure,21.11,24.86,1.24,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-01,Sourcing Readiness,23.03,29.28,1.46,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-01,Engineering Cost Risk,33.33,38.87,1.94,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-02,Target Cost Variance,14.14,19.35,0.97,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-02,Part Reuse %,96.18,96.46,4.82,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-02,Single-Source Exposure,24.68,30.22,1.51,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-02,Sourcing Readiness,31.06,30.22,1.51,Green,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-02,Engineering Cost Risk,31.95,36.89,1.84,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-03,Target Cost Variance,36.0,42.88,2.14,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-03,Part Reuse %,71.54,81.34,4.07,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-03,Single-Source Exposure,27.42,30.95,1.55,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-03,Sourcing Readiness,14.78,20.0,1.0,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-03,Engineering Cost Risk,20.46,23.22,1.16,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-04,Target Cost Variance,29.31,31.7,1.58,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-04,Part Reuse %,78.87,81.23,4.06,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-04,Single-Source Exposure,29.85,38.33,1.92,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-04,Sourcing Readiness,14.76,19.31,0.97,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-04,Engineering Cost Risk,15.2,19.25,0.96,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-05,Target Cost Variance,19.12,22.97,1.15,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-05,Part Reuse %,79.06,79.31,3.97,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-05,Single-Source Exposure,12.52,15.55,0.78,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-05,Sourcing Readiness,27.33,28.84,1.44,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-05,Engineering Cost Risk,42.19,42.76,2.14,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-06,Target Cost Variance,47.98,52.03,2.6,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-06,Part Reuse %,78.28,90.67,4.53,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-06,Single-Source Exposure,39.99,40.85,2.04,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-06,Sourcing Readiness,24.65,32.22,1.61,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-06,Engineering Cost Risk,42.65,52.54,2.63,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-07,Target Cost Variance,46.83,54.13,2.71,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-07,Part Reuse %,72.43,89.42,4.47,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-07,Single-Source Exposure,35.12,34.82,1.74,Green,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-07,Sourcing Readiness,35.24,43.48,2.17,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-07,Engineering Cost Risk,25.39,28.45,1.42,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-08,Target Cost Variance,45.39,45.51,2.28,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-08,Part Reuse %,79.52,95.09,4.75,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-08,Single-Source Exposure,43.21,43.14,2.16,Green,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-08,Sourcing Readiness,42.99,56.29,2.81,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-08,Engineering Cost Risk,10.4,12.38,0.62,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-09,Target Cost Variance,12.45,18.01,0.9,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-09,Part Reuse %,77.01,83.4,4.17,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-09,Single-Source Exposure,13.86,20.93,1.05,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-09,Sourcing Readiness,51.02,50.47,2.52,Green,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-09,Engineering Cost Risk,15.87,22.71,1.14,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-10,Target Cost Variance,29.78,40.14,2.01,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-10,Part Reuse %,80.2,81.84,4.09,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-10,Single-Source Exposure,40.65,40.74,2.04,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-10,Sourcing Readiness,43.07,43.68,2.18,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-10,Engineering Cost Risk,43.93,44.85,2.24,Amber,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-11,Target Cost Variance,11.76,17.2,0.86,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-11,Part Reuse %,76.73,93.34,4.67,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-11,Single-Source Exposure,7.32,10.5,0.53,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-11,Sourcing Readiness,44.85,55.95,2.8,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-11,Engineering Cost Risk,25.75,31.47,1.57,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-12,Target Cost Variance,45.1,53.09,2.65,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-12,Part Reuse %,69.61,82.78,4.14,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-12,Single-Source Exposure,13.64,16.61,0.83,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-12,Sourcing Readiness,48.17,55.49,2.77,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM
+design2cost,Design2Cost / Design2Source,2025-12,Engineering Cost Risk,46.5,58.7,2.94,Red,Design-to-Cost Process Owner,PLM; Costing; Sourcing; ERP MM

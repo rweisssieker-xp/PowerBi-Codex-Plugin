@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+contract2revenue,Contract2Revenue,2025-01,Billing Readiness,31.55,37.76,1.89,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-01,Revenue Leakage,29.19,35.09,1.75,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-01,Deferred Revenue,39.73,48.12,2.41,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-01,Renewal Risk,41.83,52.27,2.61,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-01,Missing Billing Data,22.68,23.96,1.2,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-02,Billing Readiness,39.67,51.9,2.6,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-02,Revenue Leakage,13.67,16.45,0.82,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-02,Deferred Revenue,44.44,43.83,2.19,Green,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-02,Renewal Risk,14.94,21.56,1.08,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-02,Missing Billing Data,16.52,23.2,1.16,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-03,Billing Readiness,45.01,50.63,2.53,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-03,Revenue Leakage,35.2,37.36,1.87,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-03,Deferred Revenue,36.55,37.85,1.89,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-03,Renewal Risk,43.6,44.7,2.24,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-03,Missing Billing Data,36.88,48.17,2.41,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-04,Billing Readiness,28.66,34.36,1.72,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-04,Revenue Leakage,36.51,43.82,2.19,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-04,Deferred Revenue,29.55,39.02,1.95,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-04,Renewal Risk,30.11,34.61,1.73,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-04,Missing Billing Data,23.26,27.11,1.36,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-05,Billing Readiness,7.15,11.29,0.56,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-05,Revenue Leakage,42.78,46.98,2.35,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-05,Deferred Revenue,9.65,11.27,0.56,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-05,Renewal Risk,36.53,46.75,2.34,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-05,Missing Billing Data,38.92,40.5,2.02,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-06,Billing Readiness,40.58,48.79,2.44,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-06,Revenue Leakage,39.67,50.64,2.53,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-06,Deferred Revenue,34.34,35.65,1.78,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-06,Renewal Risk,22.72,29.59,1.48,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-06,Missing Billing Data,44.64,48.96,2.45,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-07,Billing Readiness,4.55,11.03,0.55,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-07,Revenue Leakage,40.44,50.74,2.54,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-07,Deferred Revenue,48.05,58.03,2.9,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-07,Renewal Risk,14.73,18.51,0.93,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-07,Missing Billing Data,33.58,39.53,1.98,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-08,Billing Readiness,20.88,22.52,1.13,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-08,Revenue Leakage,25.53,32.72,1.64,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-08,Deferred Revenue,17.26,26.2,1.31,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-08,Renewal Risk,9.63,11.16,0.56,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-08,Missing Billing Data,19.05,21.66,1.08,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-09,Billing Readiness,49.05,48.97,2.45,Green,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-09,Revenue Leakage,47.08,46.78,2.34,Green,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-09,Deferred Revenue,21.66,28.41,1.42,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-09,Renewal Risk,19.75,20.16,1.01,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-09,Missing Billing Data,14.83,15.98,0.8,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-10,Billing Readiness,15.2,18.54,0.93,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-10,Revenue Leakage,11.06,18.64,0.93,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-10,Deferred Revenue,49.2,49.19,2.46,Green,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-10,Renewal Risk,54.66,55.96,2.8,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-10,Missing Billing Data,31.98,36.46,1.82,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-11,Billing Readiness,26.59,26.98,1.35,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-11,Revenue Leakage,19.55,20.27,1.01,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-11,Deferred Revenue,18.74,23.41,1.17,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-11,Renewal Risk,29.94,35.22,1.76,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-11,Missing Billing Data,27.26,37.09,1.85,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-12,Billing Readiness,51.91,52.98,2.65,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-12,Revenue Leakage,19.82,25.56,1.28,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-12,Deferred Revenue,27.95,34.46,1.72,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-12,Renewal Risk,44.15,47.5,2.38,Amber,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition
+contract2revenue,Contract2Revenue,2025-12,Missing Billing Data,16.44,20.11,1.01,Red,Revenue Process Owner,CLM; ERP SD; Billing; Revenue Recognition

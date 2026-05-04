@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00001,1,Return Authorized,2025-11-22,WMS,Sara Novak,True,False,1910.92
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00001,2,Received,2025-11-24,RMA,Nina Patel,False,True,1164.78
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00001,3,Inspected,2025-11-30,WMS,Nina Patel,False,False,7229.09
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00001,4,Disposition Decided,2025-12-06,ERP SD,Nina Patel,True,False,3537.47
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00001,5,Value Recovered,2025-12-09,QMS,Maria Garcia,True,False,6487.31
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00002,1,Return Authorized,2025-03-12,ERP SD,Nina Patel,True,False,4355.23
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00002,2,Received,2025-03-14,RMA,Jon Miller,True,False,7502.57
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00002,3,Inspected,2025-03-20,ERP SD,Jon Miller,False,True,2303.86
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00002,4,Disposition Decided,2025-03-26,QMS,Maria Garcia,True,False,2316.89
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00002,5,Value Recovered,2025-03-29,ERP SD,Nina Patel,False,True,2011.35
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00003,1,Return Authorized,2026-01-14,QMS,Maria Garcia,False,False,5179.23
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00003,2,Received,2026-01-17,RMA,Nina Patel,False,False,4394.38
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00003,3,Inspected,2026-01-17,ERP SD,Sara Novak,True,True,3112.13
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00003,4,Disposition Decided,2026-01-19,RMA,Maria Garcia,True,False,828.75
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00003,5,Value Recovered,2026-01-19,WMS,Jon Miller,True,False,3322.31
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00004,1,Return Authorized,2025-10-18,RMA,Priya Rao,False,False,2167.48
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00004,2,Received,2025-10-23,WMS,Alex Chen,False,False,4981.25
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00004,3,Inspected,2025-10-23,ERP SD,Alex Chen,False,True,5899.06
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00004,4,Disposition Decided,2025-10-29,ERP SD,Jon Miller,False,False,5183.93
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00004,5,Value Recovered,2025-10-29,RMA,Maria Garcia,True,False,401.83
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00005,1,Return Authorized,2025-04-02,ERP SD,Alex Chen,True,False,1217.64
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00005,2,Received,2025-04-06,RMA,Kenji Tanaka,True,False,5779.47
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00005,3,Inspected,2025-04-06,RMA,Alex Chen,False,False,5377.04
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00005,4,Disposition Decided,2025-04-10,ERP SD,Nina Patel,True,False,2589.71
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00005,5,Value Recovered,2025-04-12,QMS,Maria Garcia,True,False,3660.95
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00006,1,Return Authorized,2025-09-17,WMS,Sara Novak,False,False,4787.24
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00006,2,Received,2025-09-21,ERP SD,Nina Patel,False,False,7934.52
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00006,3,Inspected,2025-09-23,QMS,Sara Novak,True,False,2522.16
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00006,4,Disposition Decided,2025-09-29,WMS,Jon Miller,True,False,5751.55
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00006,5,Value Recovered,2025-10-03,QMS,Jon Miller,False,False,4600.79
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00007,1,Return Authorized,2025-07-25,ERP SD,Alex Chen,True,False,3289.31
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00007,2,Received,2025-07-30,QMS,Alex Chen,True,True,7701.38
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00007,3,Inspected,2025-07-30,QMS,Jon Miller,True,False,5429.79
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00007,4,Disposition Decided,2025-08-02,ERP SD,Maria Garcia,False,False,1773.73
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00007,5,Value Recovered,2025-08-05,ERP SD,Maria Garcia,True,False,7349.95
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00008,1,Return Authorized,2025-07-30,RMA,Thomas Weber,False,True,3986.5
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00008,2,Received,2025-08-05,QMS,Alex Chen,False,False,3136.77
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00008,3,Inspected,2025-08-10,QMS,Jon Miller,True,False,2133.89
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00008,4,Disposition Decided,2025-08-16,ERP SD,Sara Novak,False,False,909.79
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00008,5,Value Recovered,2025-08-21,QMS,Kenji Tanaka,True,False,5644.59
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00009,1,Return Authorized,2025-01-07,RMA,Alex Chen,True,False,688.54
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00009,2,Received,2025-01-11,QMS,Nina Patel,True,False,215.24
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00009,3,Inspected,2025-01-17,ERP SD,Sara Novak,True,False,5080.26
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00009,4,Disposition Decided,2025-01-21,ERP SD,Sara Novak,True,False,6877.38
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00009,5,Value Recovered,2025-01-22,ERP SD,Jon Miller,False,False,495.15
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00010,1,Return Authorized,2025-07-12,WMS,Priya Rao,True,False,6287.01
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00010,2,Received,2025-07-17,ERP SD,Kenji Tanaka,False,False,5571.34
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00010,3,Inspected,2025-07-17,QMS,Sara Novak,False,False,7523.34
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00010,4,Disposition Decided,2025-07-17,WMS,Kenji Tanaka,True,False,3961.8
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00010,5,Value Recovered,2025-07-19,ERP SD,Sara Novak,True,False,1612.08
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00011,1,Return Authorized,2025-03-24,QMS,Nina Patel,True,True,5566.78
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00011,2,Received,2025-03-28,RMA,Maria Garcia,False,False,4459.35
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00011,3,Inspected,2025-04-02,RMA,Jon Miller,True,False,2472.82
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00011,4,Disposition Decided,2025-04-05,WMS,Alex Chen,False,False,5103.35
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00011,5,Value Recovered,2025-04-08,ERP SD,Alex Chen,False,False,7382.71
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00012,1,Return Authorized,2025-11-08,RMA,Kenji Tanaka,True,False,1969.88
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00012,2,Received,2025-11-10,QMS,Sara Novak,True,True,1329.32
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00012,3,Inspected,2025-11-12,QMS,Priya Rao,False,False,1214.55
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00012,4,Disposition Decided,2025-11-15,WMS,Thomas Weber,False,False,275.65
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00012,5,Value Recovered,2025-11-19,ERP SD,Kenji Tanaka,False,True,4543.79
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00013,1,Return Authorized,2026-03-18,WMS,Priya Rao,False,False,1524.09
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00013,2,Received,2026-03-23,ERP SD,Alex Chen,True,False,5200.04
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00013,3,Inspected,2026-03-25,RMA,Kenji Tanaka,True,False,1538.69
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00013,4,Disposition Decided,2026-03-25,WMS,Nina Patel,True,False,7146.79
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00013,5,Value Recovered,2026-03-28,QMS,Kenji Tanaka,False,False,4716.03
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00014,1,Return Authorized,2025-08-05,QMS,Jon Miller,False,False,2674.1
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00014,2,Received,2025-08-06,QMS,Alex Chen,False,False,4971.41
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00014,3,Inspected,2025-08-09,QMS,Jon Miller,False,True,211.51
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00014,4,Disposition Decided,2025-08-09,WMS,Alex Chen,True,False,1544.0
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00014,5,Value Recovered,2025-08-11,RMA,Alex Chen,True,False,1889.89
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00015,1,Return Authorized,2025-09-27,RMA,Priya Rao,True,False,2891.17
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00015,2,Received,2025-09-28,RMA,Nina Patel,True,False,5404.28
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00015,3,Inspected,2025-10-04,RMA,Sara Novak,True,False,1345.43
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00015,4,Disposition Decided,2025-10-08,WMS,Thomas Weber,True,True,3079.83
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00015,5,Value Recovered,2025-10-12,QMS,Maria Garcia,True,False,7587.02
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00016,1,Return Authorized,2026-02-22,QMS,Maria Garcia,True,False,743.08
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00016,2,Received,2026-02-26,WMS,Thomas Weber,False,False,3758.73
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00016,3,Inspected,2026-02-28,ERP SD,Nina Patel,False,True,1703.85
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00016,4,Disposition Decided,2026-03-03,WMS,Thomas Weber,True,False,2554.31
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00016,5,Value Recovered,2026-03-08,RMA,Maria Garcia,False,False,2173.23
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00017,1,Return Authorized,2026-01-18,QMS,Priya Rao,False,False,7579.54
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00017,2,Received,2026-01-19,QMS,Priya Rao,True,False,6566.69
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00017,3,Inspected,2026-01-23,ERP SD,Priya Rao,False,False,626.53
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00017,4,Disposition Decided,2026-01-23,RMA,Jon Miller,True,False,1054.86
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00017,5,Value Recovered,2026-01-29,ERP SD,Alex Chen,False,False,7340.88
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00018,1,Return Authorized,2025-11-12,RMA,Priya Rao,True,False,779.83
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00018,2,Received,2025-11-18,QMS,Alex Chen,True,False,1909.47
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00018,3,Inspected,2025-11-18,ERP SD,Sara Novak,False,False,4814.46
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00018,4,Disposition Decided,2025-11-18,QMS,Jon Miller,False,False,6281.86
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00018,5,Value Recovered,2025-11-23,QMS,Maria Garcia,True,False,7511.63
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00019,1,Return Authorized,2025-09-18,ERP SD,Jon Miller,False,True,4494.01
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00019,2,Received,2025-09-21,QMS,Priya Rao,True,False,4794.17
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00019,3,Inspected,2025-09-22,RMA,Jon Miller,False,False,7943.17
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00019,4,Disposition Decided,2025-09-23,QMS,Alex Chen,True,False,4059.28
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00019,5,Value Recovered,2025-09-29,WMS,Priya Rao,True,False,6919.42
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00020,1,Return Authorized,2026-01-12,ERP SD,Kenji Tanaka,False,False,3372.38
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00020,2,Received,2026-01-17,QMS,Alex Chen,True,False,6934.71
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00020,3,Inspected,2026-01-21,ERP SD,Kenji Tanaka,True,False,6673.17
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00020,4,Disposition Decided,2026-01-21,QMS,Alex Chen,True,False,2513.0
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00020,5,Value Recovered,2026-01-26,ERP SD,Priya Rao,False,False,4993.59
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00021,1,Return Authorized,2025-02-28,WMS,Sara Novak,True,False,2953.79
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00021,2,Received,2025-02-28,QMS,Priya Rao,True,False,866.12
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00021,3,Inspected,2025-03-04,RMA,Priya Rao,True,False,5743.61
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00021,4,Disposition Decided,2025-03-09,QMS,Jon Miller,False,False,7682.69
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00021,5,Value Recovered,2025-03-09,ERP SD,Maria Garcia,True,False,4054.08
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00022,1,Return Authorized,2025-11-11,ERP SD,Thomas Weber,True,False,2637.89
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00022,2,Received,2025-11-12,WMS,Nina Patel,False,False,502.95
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00022,3,Inspected,2025-11-18,QMS,Kenji Tanaka,True,False,3416.09
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00022,4,Disposition Decided,2025-11-22,RMA,Kenji Tanaka,True,True,3431.09
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00022,5,Value Recovered,2025-11-23,RMA,Kenji Tanaka,False,False,7129.55
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00023,1,Return Authorized,2025-07-28,WMS,Priya Rao,True,False,1762.51
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00023,2,Received,2025-08-02,RMA,Jon Miller,False,False,1067.31
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00023,3,Inspected,2025-08-07,RMA,Nina Patel,True,True,4364.5
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00023,4,Disposition Decided,2025-08-07,QMS,Alex Chen,False,False,3530.55
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00023,5,Value Recovered,2025-08-09,QMS,Sara Novak,True,False,283.98
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00024,1,Return Authorized,2025-06-20,RMA,Kenji Tanaka,True,False,6975.03
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00024,2,Received,2025-06-23,RMA,Priya Rao,True,False,1157.52
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00024,3,Inspected,2025-06-25,QMS,Nina Patel,False,True,2924.04
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00024,4,Disposition Decided,2025-06-29,RMA,Jon Miller,False,False,3580.15
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00024,5,Value Recovered,2025-07-01,RMA,Kenji Tanaka,False,False,7168.87
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00025,1,Return Authorized,2025-07-16,ERP SD,Priya Rao,False,True,871.76
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00025,2,Received,2025-07-17,ERP SD,Thomas Weber,True,True,2280.12
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00025,3,Inspected,2025-07-19,RMA,Jon Miller,True,False,4078.41
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00025,4,Disposition Decided,2025-07-24,QMS,Sara Novak,False,False,211.78
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00025,5,Value Recovered,2025-07-30,WMS,Nina Patel,True,False,5839.58
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00026,1,Return Authorized,2025-07-10,WMS,Jon Miller,False,False,277.7
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00026,2,Received,2025-07-15,QMS,Alex Chen,False,False,4164.34
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00026,3,Inspected,2025-07-21,WMS,Nina Patel,False,False,6842.23
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00026,4,Disposition Decided,2025-07-25,QMS,Priya Rao,False,False,4267.85
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00026,5,Value Recovered,2025-07-28,WMS,Thomas Weber,True,False,1074.33
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00027,1,Return Authorized,2025-03-21,ERP SD,Jon Miller,True,False,4410.0
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00027,2,Received,2025-03-26,ERP SD,Jon Miller,False,False,4494.96
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00027,3,Inspected,2025-03-28,WMS,Nina Patel,False,True,4145.0
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00027,4,Disposition Decided,2025-04-03,WMS,Nina Patel,True,False,2715.17
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00027,5,Value Recovered,2025-04-08,WMS,Maria Garcia,True,False,2884.15
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00028,1,Return Authorized,2025-08-12,ERP SD,Priya Rao,True,True,6177.7
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00028,2,Received,2025-08-15,RMA,Jon Miller,False,False,3581.23
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00028,3,Inspected,2025-08-21,RMA,Thomas Weber,True,False,3456.23
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00028,4,Disposition Decided,2025-08-23,QMS,Kenji Tanaka,False,False,2660.16
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00028,5,Value Recovered,2025-08-25,RMA,Maria Garcia,True,False,1421.8
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00029,1,Return Authorized,2025-01-28,WMS,Priya Rao,True,False,4382.46
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00029,2,Received,2025-01-28,WMS,Alex Chen,True,False,4082.57
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00029,3,Inspected,2025-02-03,WMS,Kenji Tanaka,False,False,714.89
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00029,4,Disposition Decided,2025-02-09,QMS,Nina Patel,False,False,2509.94
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00029,5,Value Recovered,2025-02-10,WMS,Thomas Weber,False,True,4062.08
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00030,1,Return Authorized,2025-01-31,RMA,Sara Novak,True,False,4582.47
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00030,2,Received,2025-02-04,WMS,Sara Novak,True,False,4260.81
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00030,3,Inspected,2025-02-09,WMS,Nina Patel,True,False,2230.66
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00030,4,Disposition Decided,2025-02-11,RMA,Maria Garcia,False,False,7344.74
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00030,5,Value Recovered,2025-02-11,ERP SD,Thomas Weber,True,False,4194.49
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00031,1,Return Authorized,2026-03-18,RMA,Nina Patel,False,False,4464.23
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00031,2,Received,2026-03-24,ERP SD,Thomas Weber,False,False,4403.25
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00031,3,Inspected,2026-03-28,WMS,Maria Garcia,True,True,7696.08
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00031,4,Disposition Decided,2026-04-01,RMA,Alex Chen,False,True,5443.5
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00031,5,Value Recovered,2026-04-04,ERP SD,Jon Miller,True,False,456.89
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00032,1,Return Authorized,2025-02-27,RMA,Maria Garcia,True,False,1065.54
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00032,2,Received,2025-03-01,WMS,Maria Garcia,False,False,772.38
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00032,3,Inspected,2025-03-02,WMS,Jon Miller,False,False,3667.01
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00032,4,Disposition Decided,2025-03-03,RMA,Jon Miller,True,False,929.63
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00032,5,Value Recovered,2025-03-08,QMS,Priya Rao,True,False,5947.41
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00033,1,Return Authorized,2025-02-16,WMS,Sara Novak,True,False,499.75
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00033,2,Received,2025-02-18,WMS,Priya Rao,True,True,502.33
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00033,3,Inspected,2025-02-23,RMA,Priya Rao,False,False,6721.02
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00033,4,Disposition Decided,2025-02-26,ERP SD,Thomas Weber,False,False,493.9
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00033,5,Value Recovered,2025-02-26,ERP SD,Maria Garcia,True,False,1520.05
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00034,1,Return Authorized,2026-01-21,QMS,Maria Garcia,False,False,6735.77
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00034,2,Received,2026-01-23,WMS,Sara Novak,False,True,5140.26
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00034,3,Inspected,2026-01-28,QMS,Nina Patel,False,False,1784.09
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00034,4,Disposition Decided,2026-01-31,ERP SD,Maria Garcia,False,False,1972.64
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00034,5,Value Recovered,2026-02-01,WMS,Alex Chen,True,True,4939.09
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00035,1,Return Authorized,2025-07-14,QMS,Priya Rao,True,False,5532.73
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00035,2,Received,2025-07-15,QMS,Sara Novak,False,False,2006.63
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00035,3,Inspected,2025-07-21,ERP SD,Sara Novak,True,False,3378.54
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00035,4,Disposition Decided,2025-07-23,QMS,Nina Patel,False,False,4402.93
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00035,5,Value Recovered,2025-07-27,RMA,Kenji Tanaka,True,False,162.25
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00036,1,Return Authorized,2025-01-10,WMS,Nina Patel,True,False,4430.97
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00036,2,Received,2025-01-16,WMS,Maria Garcia,True,False,5988.42
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00036,3,Inspected,2025-01-21,RMA,Nina Patel,True,False,5703.28
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00036,4,Disposition Decided,2025-01-26,RMA,Kenji Tanaka,True,False,1022.14
+return2disposition,Return2Disposition,RETURN2DISPOSITION-00036,5,Value Recovered,2025-01-31,QMS,Alex Chen,True,True,6348.57

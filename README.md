@@ -16,6 +16,7 @@ The product turns business and process questions into validated Power BI deliver
 - Replaces repeatable delivery work from Power BI consultants, report designers, data analysts, semantic modelers, DAX experts, Power Query/M developers, Fabric architects, BI testers, CoE reviewers, and documentation owners.
 - Generates native Power BI / Power Query connector designs for real sources. Excel uses native `Excel.Workbook(File.Contents(...), null, true)` or SharePoint/OneDrive binary-to-`Excel.Workbook` patterns.
 - Covers industrial process chains such as Lead2Order, Order2Cash, Procure2Pay, Plan2Produce, Record2Report, Maintain2Operate, Market2Lead, Dock2Stock, Complaint2CAPA, Control2Evidence, and Data2Insight2Action.
+- Provides a machine-readable industrial process catalog and synthetic demo data for 32 process chains under `data/industry_process_catalog.json` and `outputs/industry-demo-data/`.
 - Adds executable trust checks for model graph quality, native source routing, visual bindings, DAX static checks, and Power BI Desktop smoke validation workflows.
 
 ## Repository Structure
@@ -54,6 +55,7 @@ Key guides:
 - [Usage](USAGE.md)
 - [Architecture](ARCHITECTURE.md)
 - [Process Chain KPIs](docs/product/PROCESS_CHAIN_KPIS.md)
+- [Industry Demo Data](outputs/industry-demo-data/README.md)
 - [Skills Catalog](docs/product/SKILLS_CATALOG.md)
 - [Power BI Expert-Replacement Factory Plan](docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
 - [Power BI Expert-Replacement Skill Map](docs/product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)

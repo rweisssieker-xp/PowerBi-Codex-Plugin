@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+hire2retire,Hire2Retire,2025-01,Time To Hire,15.09,18.17,0.91,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-01,Absence Rate,75.82,76.31,3.82,Amber,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-01,Skill Gap,39.86,44.75,2.24,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-01,Training Compliance,56.38,54.63,2.73,Green,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-01,Safety Incident Rate,78.36,94.44,4.72,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-02,Time To Hire,10.01,12.55,0.63,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-02,Absence Rate,90.66,88.99,4.45,Green,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-02,Skill Gap,37.53,41.94,2.1,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-02,Training Compliance,26.16,34.81,1.74,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-02,Safety Incident Rate,78.72,76.92,3.85,Green,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-03,Time To Hire,12.73,17.92,0.9,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-03,Absence Rate,70.02,82.29,4.11,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-03,Skill Gap,15.77,20.67,1.03,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-03,Training Compliance,31.63,43.33,2.17,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-03,Safety Incident Rate,98.23,97.7,4.89,Green,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-04,Time To Hire,16.18,21.37,1.07,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-04,Absence Rate,91.84,88.16,4.41,Green,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-04,Skill Gap,12.68,16.56,0.83,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-04,Training Compliance,38.77,44.73,2.24,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-04,Safety Incident Rate,84.53,97.1,4.86,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-05,Time To Hire,43.5,48.58,2.43,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-05,Absence Rate,92.29,95.51,4.78,Amber,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-05,Skill Gap,14.44,23.38,1.17,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-05,Training Compliance,49.9,51.34,2.57,Amber,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-05,Safety Incident Rate,66.34,79.02,3.95,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-06,Time To Hire,22.97,28.24,1.41,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-06,Absence Rate,65.34,75.71,3.79,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-06,Skill Gap,31.34,33.27,1.66,Amber,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-06,Training Compliance,34.32,45.09,2.25,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-06,Safety Incident Rate,65.8,78.41,3.92,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-07,Time To Hire,36.64,42.41,2.12,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-07,Absence Rate,76.62,75.03,3.75,Green,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-07,Skill Gap,26.67,33.33,1.67,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-07,Training Compliance,9.85,10.58,0.53,Amber,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-07,Safety Incident Rate,77.23,81.2,4.06,Amber,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-08,Time To Hire,24.26,28.03,1.4,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-08,Absence Rate,64.11,81.63,4.08,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-08,Skill Gap,45.49,52.54,2.63,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-08,Training Compliance,11.54,15.44,0.77,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-08,Safety Incident Rate,80.31,87.93,4.4,Amber,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-09,Time To Hire,34.93,43.55,2.18,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-09,Absence Rate,89.23,96.27,4.81,Amber,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-09,Skill Gap,7.58,12.52,0.63,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-09,Training Compliance,23.61,30.82,1.54,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-09,Safety Incident Rate,78.29,82.15,4.11,Amber,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-10,Time To Hire,45.46,57.51,2.88,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-10,Absence Rate,74.39,80.11,4.01,Amber,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-10,Skill Gap,42.06,50.58,2.53,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-10,Training Compliance,11.72,14.61,0.73,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-10,Safety Incident Rate,82.65,85.38,4.27,Amber,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-11,Time To Hire,41.97,55.76,2.79,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-11,Absence Rate,82.17,94.54,4.73,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-11,Skill Gap,19.84,23.81,1.19,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-11,Training Compliance,20.67,27.36,1.37,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-11,Safety Incident Rate,67.81,79.47,3.97,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-12,Time To Hire,42.38,43.29,2.16,Amber,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-12,Absence Rate,97.72,94.95,4.75,Green,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-12,Skill Gap,10.78,15.35,0.77,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-12,Training Compliance,12.39,14.83,0.74,Red,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS
+hire2retire,Hire2Retire,2025-12,Safety Incident Rate,92.46,93.89,4.69,Amber,Hire-to-Retire Process Owner,HCM; Time Management; Learning; EHS

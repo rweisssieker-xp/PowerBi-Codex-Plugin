@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+pick2pack2ship,Pick2Pack2Ship,2025-01,Pick Accuracy,15.12,21.51,1.08,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-01,Lines Per Hour,12.62,15.57,0.78,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-01,Wave Adherence,19.36,20.2,1.01,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-01,Pack Backlog,46.55,52.33,2.62,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-01,Cut-Off Misses,59.15,59.4,2.97,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-02,Pick Accuracy,46.43,46.43,2.32,Green,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-02,Lines Per Hour,52.94,52.06,2.6,Green,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-02,Wave Adherence,20.21,22.92,1.15,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-02,Pack Backlog,10.35,14.0,0.7,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-02,Cut-Off Misses,6.69,10.18,0.51,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-03,Pick Accuracy,30.32,32.64,1.63,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-03,Lines Per Hour,9.72,13.48,0.67,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-03,Wave Adherence,17.03,24.41,1.22,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-03,Pack Backlog,24.57,28.83,1.44,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-03,Cut-Off Misses,21.79,21.87,1.09,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-04,Pick Accuracy,34.53,34.2,1.71,Green,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-04,Lines Per Hour,14.31,18.8,0.94,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-04,Wave Adherence,17.09,19.06,0.95,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-04,Pack Backlog,33.63,35.02,1.75,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-04,Cut-Off Misses,57.52,57.04,2.85,Green,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-05,Pick Accuracy,37.86,45.23,2.26,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-05,Lines Per Hour,11.97,18.67,0.93,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-05,Wave Adherence,27.01,32.98,1.65,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-05,Pack Backlog,40.7,43.17,2.16,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-05,Cut-Off Misses,37.04,43.88,2.19,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-06,Pick Accuracy,20.12,23.25,1.16,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-06,Lines Per Hour,8.73,11.03,0.55,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-06,Wave Adherence,12.82,18.43,0.92,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-06,Pack Backlog,26.15,33.84,1.69,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-06,Cut-Off Misses,48.93,58.06,2.9,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-07,Pick Accuracy,56.15,55.63,2.78,Green,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-07,Lines Per Hour,49.79,54.21,2.71,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-07,Wave Adherence,48.2,58.28,2.91,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-07,Pack Backlog,21.86,22.31,1.12,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-07,Cut-Off Misses,34.23,36.97,1.85,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-08,Pick Accuracy,15.23,15.2,0.76,Green,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-08,Lines Per Hour,37.88,42.39,2.12,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-08,Wave Adherence,23.32,26.27,1.31,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-08,Pack Backlog,9.59,11.8,0.59,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-08,Cut-Off Misses,33.85,34.5,1.73,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-09,Pick Accuracy,46.15,50.81,2.54,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-09,Lines Per Hour,31.26,30.07,1.5,Green,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-09,Wave Adherence,44.81,53.47,2.67,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-09,Pack Backlog,14.4,18.96,0.95,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-09,Cut-Off Misses,9.59,12.35,0.62,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-10,Pick Accuracy,52.82,58.77,2.94,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-10,Lines Per Hour,46.45,50.77,2.54,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-10,Wave Adherence,60.63,59.82,2.99,Green,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-10,Pack Backlog,16.99,19.9,0.99,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-10,Cut-Off Misses,54.7,58.29,2.91,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-11,Pick Accuracy,19.35,21.63,1.08,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-11,Lines Per Hour,41.68,47.78,2.39,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-11,Wave Adherence,7.74,10.93,0.55,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-11,Pack Backlog,26.63,35.04,1.75,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-11,Cut-Off Misses,38.3,39.75,1.99,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-12,Pick Accuracy,46.42,49.12,2.46,Amber,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-12,Lines Per Hour,34.88,34.68,1.73,Green,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-12,Wave Adherence,20.2,23.0,1.15,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-12,Pack Backlog,46.13,45.34,2.27,Green,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal
+pick2pack2ship,Pick2Pack2Ship,2025-12,Cut-Off Misses,46.61,57.58,2.88,Red,Outbound Warehouse Process Owner,WMS; ERP SD; TMS; Carrier Portal

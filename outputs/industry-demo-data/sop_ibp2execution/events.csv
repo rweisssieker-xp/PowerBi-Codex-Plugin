@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00001,1,Plan Approved,2025-04-29,MES,Thomas Weber,True,True,3284.12
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00001,2,Constraint Published,2025-05-03,ERP PP,Priya Rao,False,False,5298.73
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00001,3,Execution Released,2025-05-07,Inventory,Kenji Tanaka,True,False,763.36
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00001,4,Progress Reviewed,2025-05-09,MES,Priya Rao,False,False,5308.54
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00001,5,Variance Closed,2025-05-10,Inventory,Kenji Tanaka,False,False,7336.88
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00002,1,Plan Approved,2025-10-21,ERP PP,Nina Patel,True,False,5102.16
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00002,2,Constraint Published,2025-10-24,Inventory,Maria Garcia,False,True,402.6
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00002,3,Execution Released,2025-10-30,IBP,Priya Rao,False,False,5634.67
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00002,4,Progress Reviewed,2025-11-05,Inventory,Priya Rao,False,False,1049.35
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00002,5,Variance Closed,2025-11-06,MES,Priya Rao,False,False,7020.45
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00003,1,Plan Approved,2026-03-27,MES,Thomas Weber,True,True,3890.87
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00003,2,Constraint Published,2026-03-27,ERP PP,Nina Patel,False,True,587.12
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00003,3,Execution Released,2026-04-02,ERP PP,Priya Rao,True,False,6006.27
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00003,4,Progress Reviewed,2026-04-02,MES,Kenji Tanaka,False,False,6592.69
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00003,5,Variance Closed,2026-04-02,MES,Alex Chen,True,False,2613.28
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00004,1,Plan Approved,2026-03-19,ERP PP,Maria Garcia,False,False,436.38
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00004,2,Constraint Published,2026-03-21,IBP,Nina Patel,False,False,1168.82
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00004,3,Execution Released,2026-03-24,IBP,Nina Patel,False,True,3930.29
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00004,4,Progress Reviewed,2026-03-25,Inventory,Priya Rao,True,False,7975.79
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00004,5,Variance Closed,2026-03-25,ERP PP,Alex Chen,False,False,6394.73
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00005,1,Plan Approved,2025-08-28,ERP PP,Kenji Tanaka,True,False,2391.01
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00005,2,Constraint Published,2025-08-30,IBP,Maria Garcia,False,False,2134.73
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00005,3,Execution Released,2025-09-01,MES,Jon Miller,True,False,3865.17
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00005,4,Progress Reviewed,2025-09-03,MES,Thomas Weber,False,False,5893.18
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00005,5,Variance Closed,2025-09-03,ERP PP,Priya Rao,False,False,1173.85
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00006,1,Plan Approved,2025-10-08,ERP PP,Thomas Weber,True,False,488.84
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00006,2,Constraint Published,2025-10-14,Inventory,Sara Novak,False,False,2381.62
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00006,3,Execution Released,2025-10-17,MES,Kenji Tanaka,True,False,7142.32
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00006,4,Progress Reviewed,2025-10-20,ERP PP,Nina Patel,True,False,7171.87
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00006,5,Variance Closed,2025-10-25,IBP,Jon Miller,False,False,2309.71
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00007,1,Plan Approved,2025-01-05,MES,Nina Patel,False,False,6283.52
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00007,2,Constraint Published,2025-01-06,MES,Priya Rao,False,False,2691.25
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00007,3,Execution Released,2025-01-08,Inventory,Alex Chen,True,False,6013.67
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00007,4,Progress Reviewed,2025-01-14,MES,Priya Rao,True,True,2716.12
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00007,5,Variance Closed,2025-01-19,Inventory,Nina Patel,False,False,1730.18
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00008,1,Plan Approved,2025-07-05,MES,Kenji Tanaka,False,True,4871.97
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00008,2,Constraint Published,2025-07-06,ERP PP,Sara Novak,True,False,2961.89
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00008,3,Execution Released,2025-07-06,ERP PP,Thomas Weber,False,False,5616.04
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00008,4,Progress Reviewed,2025-07-08,ERP PP,Maria Garcia,True,False,7778.3
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00008,5,Variance Closed,2025-07-14,IBP,Alex Chen,True,False,7786.64
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00009,1,Plan Approved,2025-06-05,MES,Thomas Weber,False,False,2070.72
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00009,2,Constraint Published,2025-06-11,MES,Maria Garcia,False,True,4684.3
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00009,3,Execution Released,2025-06-12,IBP,Sara Novak,True,False,2090.61
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00009,4,Progress Reviewed,2025-06-13,ERP PP,Priya Rao,False,False,7515.81
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00009,5,Variance Closed,2025-06-16,Inventory,Alex Chen,True,False,7562.09
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00010,1,Plan Approved,2025-02-19,Inventory,Thomas Weber,False,False,7126.76
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00010,2,Constraint Published,2025-02-22,ERP PP,Thomas Weber,True,False,7186.44
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00010,3,Execution Released,2025-02-25,MES,Priya Rao,True,False,3844.39
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00010,4,Progress Reviewed,2025-03-02,ERP PP,Maria Garcia,False,False,6004.98
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00010,5,Variance Closed,2025-03-05,ERP PP,Alex Chen,False,False,4120.51
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00011,1,Plan Approved,2025-02-23,MES,Maria Garcia,True,False,7623.83
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00011,2,Constraint Published,2025-02-28,IBP,Kenji Tanaka,True,False,593.14
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00011,3,Execution Released,2025-03-06,IBP,Sara Novak,True,False,1684.72
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00011,4,Progress Reviewed,2025-03-11,IBP,Kenji Tanaka,True,False,5770.32
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00011,5,Variance Closed,2025-03-13,Inventory,Nina Patel,True,False,5302.1
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00012,1,Plan Approved,2025-11-10,MES,Alex Chen,False,False,4087.43
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00012,2,Constraint Published,2025-11-13,MES,Jon Miller,True,True,3562.84
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00012,3,Execution Released,2025-11-18,MES,Kenji Tanaka,True,False,6129.92
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00012,4,Progress Reviewed,2025-11-19,Inventory,Thomas Weber,False,False,429.6
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00012,5,Variance Closed,2025-11-22,IBP,Nina Patel,False,False,1093.08
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00013,1,Plan Approved,2025-06-30,MES,Nina Patel,True,False,4552.41
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00013,2,Constraint Published,2025-07-05,Inventory,Maria Garcia,False,False,5551.21
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00013,3,Execution Released,2025-07-09,Inventory,Sara Novak,False,True,2602.22
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00013,4,Progress Reviewed,2025-07-09,IBP,Thomas Weber,True,False,261.0
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00013,5,Variance Closed,2025-07-15,MES,Maria Garcia,True,False,3115.53
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00014,1,Plan Approved,2026-02-05,IBP,Priya Rao,True,False,343.67
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00014,2,Constraint Published,2026-02-10,MES,Nina Patel,True,False,1853.42
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00014,3,Execution Released,2026-02-10,Inventory,Maria Garcia,False,False,7178.4
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00014,4,Progress Reviewed,2026-02-15,MES,Sara Novak,True,False,4755.26
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00014,5,Variance Closed,2026-02-20,MES,Alex Chen,False,True,7461.83
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00015,1,Plan Approved,2025-03-01,Inventory,Sara Novak,False,False,7051.51
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00015,2,Constraint Published,2025-03-03,ERP PP,Maria Garcia,True,False,7994.58
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00015,3,Execution Released,2025-03-08,Inventory,Sara Novak,False,False,4102.54
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00015,4,Progress Reviewed,2025-03-10,ERP PP,Thomas Weber,True,False,4972.95
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00015,5,Variance Closed,2025-03-10,IBP,Sara Novak,True,False,3603.37
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00016,1,Plan Approved,2025-12-09,Inventory,Kenji Tanaka,False,False,6802.86
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00016,2,Constraint Published,2025-12-13,MES,Maria Garcia,True,False,3033.58
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00016,3,Execution Released,2025-12-16,ERP PP,Nina Patel,False,False,5398.5
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00016,4,Progress Reviewed,2025-12-16,IBP,Kenji Tanaka,True,False,1489.66
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00016,5,Variance Closed,2025-12-17,MES,Nina Patel,True,False,1715.64
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00017,1,Plan Approved,2025-12-05,IBP,Priya Rao,True,False,7011.25
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00017,2,Constraint Published,2025-12-06,Inventory,Sara Novak,True,False,4152.22
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00017,3,Execution Released,2025-12-11,MES,Priya Rao,False,False,5747.79
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00017,4,Progress Reviewed,2025-12-13,ERP PP,Maria Garcia,True,False,1438.19
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00017,5,Variance Closed,2025-12-19,IBP,Alex Chen,False,False,1231.78
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00018,1,Plan Approved,2026-01-29,IBP,Thomas Weber,True,True,6006.84
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00018,2,Constraint Published,2026-02-03,Inventory,Kenji Tanaka,True,False,833.3
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00018,3,Execution Released,2026-02-09,MES,Jon Miller,True,False,6288.39
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00018,4,Progress Reviewed,2026-02-11,Inventory,Maria Garcia,False,False,4593.43
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00018,5,Variance Closed,2026-02-14,Inventory,Nina Patel,False,False,4901.54
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00019,1,Plan Approved,2025-01-14,Inventory,Priya Rao,False,False,5531.63
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00019,2,Constraint Published,2025-01-19,ERP PP,Maria Garcia,False,False,2602.09
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00019,3,Execution Released,2025-01-19,ERP PP,Nina Patel,False,True,6525.22
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00019,4,Progress Reviewed,2025-01-21,IBP,Nina Patel,True,False,6526.16
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00019,5,Variance Closed,2025-01-27,IBP,Kenji Tanaka,True,False,6588.98
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00020,1,Plan Approved,2025-10-11,Inventory,Thomas Weber,False,False,5961.75
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00020,2,Constraint Published,2025-10-16,ERP PP,Priya Rao,True,False,616.12
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00020,3,Execution Released,2025-10-17,ERP PP,Thomas Weber,False,False,1446.27
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00020,4,Progress Reviewed,2025-10-19,IBP,Sara Novak,True,False,7920.76
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00020,5,Variance Closed,2025-10-24,IBP,Nina Patel,False,False,2956.37
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00021,1,Plan Approved,2025-01-27,Inventory,Nina Patel,False,False,2336.54
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00021,2,Constraint Published,2025-01-28,MES,Kenji Tanaka,False,False,98.36
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00021,3,Execution Released,2025-01-29,MES,Alex Chen,False,False,5582.23
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00021,4,Progress Reviewed,2025-01-29,Inventory,Jon Miller,True,False,5438.52
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00021,5,Variance Closed,2025-02-04,IBP,Alex Chen,True,False,5215.07
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00022,1,Plan Approved,2026-03-14,IBP,Jon Miller,False,False,1417.47
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00022,2,Constraint Published,2026-03-18,Inventory,Nina Patel,True,False,5191.4
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00022,3,Execution Released,2026-03-23,MES,Maria Garcia,False,False,4497.07
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00022,4,Progress Reviewed,2026-03-23,ERP PP,Thomas Weber,False,True,6518.49
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00022,5,Variance Closed,2026-03-27,Inventory,Sara Novak,False,False,1808.82
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00023,1,Plan Approved,2026-03-05,ERP PP,Kenji Tanaka,True,False,6138.23
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00023,2,Constraint Published,2026-03-10,MES,Sara Novak,True,False,3369.42
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00023,3,Execution Released,2026-03-11,Inventory,Kenji Tanaka,True,False,4170.2
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00023,4,Progress Reviewed,2026-03-14,Inventory,Maria Garcia,False,False,3703.01
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00023,5,Variance Closed,2026-03-18,ERP PP,Sara Novak,True,False,1414.04
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00024,1,Plan Approved,2025-11-25,MES,Sara Novak,True,True,869.64
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00024,2,Constraint Published,2025-11-29,MES,Alex Chen,True,False,6206.77
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00024,3,Execution Released,2025-12-05,MES,Thomas Weber,True,False,429.92
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00024,4,Progress Reviewed,2025-12-10,Inventory,Kenji Tanaka,True,False,3149.29
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00024,5,Variance Closed,2025-12-14,MES,Sara Novak,True,False,1049.74
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00025,1,Plan Approved,2025-04-03,ERP PP,Priya Rao,True,False,6478.99
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00025,2,Constraint Published,2025-04-06,Inventory,Priya Rao,True,False,4050.0
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00025,3,Execution Released,2025-04-07,IBP,Priya Rao,True,False,3365.04
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00025,4,Progress Reviewed,2025-04-07,ERP PP,Thomas Weber,True,False,1558.5
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00025,5,Variance Closed,2025-04-12,Inventory,Sara Novak,True,True,2022.44
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00026,1,Plan Approved,2025-09-09,IBP,Sara Novak,True,False,4782.89
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00026,2,Constraint Published,2025-09-14,ERP PP,Thomas Weber,True,False,4575.43
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00026,3,Execution Released,2025-09-20,Inventory,Sara Novak,True,False,4658.56
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00026,4,Progress Reviewed,2025-09-24,MES,Maria Garcia,True,False,5396.93
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00026,5,Variance Closed,2025-09-28,MES,Kenji Tanaka,True,False,559.49
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00027,1,Plan Approved,2026-02-06,MES,Priya Rao,False,False,1022.18
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00027,2,Constraint Published,2026-02-11,MES,Kenji Tanaka,False,True,3289.46
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00027,3,Execution Released,2026-02-11,Inventory,Thomas Weber,True,False,152.72
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00027,4,Progress Reviewed,2026-02-13,MES,Thomas Weber,False,False,7712.99
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00027,5,Variance Closed,2026-02-14,Inventory,Kenji Tanaka,True,False,5642.32
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00028,1,Plan Approved,2025-02-01,IBP,Sara Novak,True,False,5078.7
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00028,2,Constraint Published,2025-02-05,IBP,Sara Novak,True,False,2351.58
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00028,3,Execution Released,2025-02-07,IBP,Nina Patel,False,False,1240.24
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00028,4,Progress Reviewed,2025-02-12,Inventory,Nina Patel,True,False,6552.62
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00028,5,Variance Closed,2025-02-14,IBP,Maria Garcia,True,False,5959.57
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00029,1,Plan Approved,2026-03-31,ERP PP,Sara Novak,True,False,2669.78
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00029,2,Constraint Published,2026-03-31,Inventory,Maria Garcia,True,False,2613.35
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00029,3,Execution Released,2026-03-31,ERP PP,Sara Novak,False,False,5579.71
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00029,4,Progress Reviewed,2026-04-03,ERP PP,Jon Miller,False,False,5133.7
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00029,5,Variance Closed,2026-04-04,IBP,Jon Miller,True,True,5495.49
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00030,1,Plan Approved,2026-02-13,Inventory,Maria Garcia,True,False,3190.76
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00030,2,Constraint Published,2026-02-18,IBP,Nina Patel,True,False,4033.39
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00030,3,Execution Released,2026-02-21,ERP PP,Nina Patel,True,False,1163.34
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00030,4,Progress Reviewed,2026-02-21,IBP,Jon Miller,True,False,1918.44
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00030,5,Variance Closed,2026-02-26,Inventory,Sara Novak,True,False,5572.67
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00031,1,Plan Approved,2026-02-21,ERP PP,Alex Chen,True,False,3077.48
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00031,2,Constraint Published,2026-02-23,Inventory,Maria Garcia,False,False,1249.37
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00031,3,Execution Released,2026-02-26,ERP PP,Maria Garcia,True,False,417.67
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00031,4,Progress Reviewed,2026-02-27,ERP PP,Nina Patel,True,False,4085.8
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00031,5,Variance Closed,2026-02-27,Inventory,Thomas Weber,True,False,7926.61
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00032,1,Plan Approved,2025-11-10,IBP,Nina Patel,True,False,6210.65
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00032,2,Constraint Published,2025-11-12,Inventory,Priya Rao,False,False,5365.32
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00032,3,Execution Released,2025-11-12,IBP,Maria Garcia,False,False,244.25
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00032,4,Progress Reviewed,2025-11-18,MES,Kenji Tanaka,True,False,3589.62
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00032,5,Variance Closed,2025-11-20,MES,Thomas Weber,True,False,6879.38
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00033,1,Plan Approved,2025-09-20,IBP,Maria Garcia,True,False,2768.13
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00033,2,Constraint Published,2025-09-22,ERP PP,Nina Patel,True,False,1196.74
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00033,3,Execution Released,2025-09-24,Inventory,Maria Garcia,True,False,1457.76
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00033,4,Progress Reviewed,2025-09-29,Inventory,Sara Novak,False,False,1985.39
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00033,5,Variance Closed,2025-09-29,ERP PP,Priya Rao,False,False,4142.13
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00034,1,Plan Approved,2026-02-22,Inventory,Maria Garcia,True,False,3646.31
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00034,2,Constraint Published,2026-02-28,MES,Maria Garcia,True,False,2831.05
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00034,3,Execution Released,2026-03-05,IBP,Maria Garcia,False,False,1940.7
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00034,4,Progress Reviewed,2026-03-06,MES,Thomas Weber,True,False,384.79
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00034,5,Variance Closed,2026-03-06,IBP,Sara Novak,False,False,1428.26
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00035,1,Plan Approved,2025-10-16,MES,Alex Chen,True,False,7791.98
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00035,2,Constraint Published,2025-10-21,Inventory,Nina Patel,False,False,5536.79
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00035,3,Execution Released,2025-10-22,MES,Thomas Weber,True,False,3157.58
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00035,4,Progress Reviewed,2025-10-24,ERP PP,Nina Patel,True,False,1124.51
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00035,5,Variance Closed,2025-10-24,IBP,Maria Garcia,False,False,6006.86
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00036,1,Plan Approved,2025-06-15,IBP,Nina Patel,False,False,6087.03
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00036,2,Constraint Published,2025-06-17,IBP,Thomas Weber,True,False,3919.1
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00036,3,Execution Released,2025-06-23,ERP PP,Kenji Tanaka,False,False,2087.17
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00036,4,Progress Reviewed,2025-06-29,Inventory,Thomas Weber,False,False,991.71
+sop_ibp2execution,S&OP / IBP2Execution,SOP_IBP2EXECUTION-00036,5,Variance Closed,2025-07-04,ERP PP,Maria Garcia,False,False,447.67

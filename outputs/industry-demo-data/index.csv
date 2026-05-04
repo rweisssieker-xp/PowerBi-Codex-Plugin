@@ -1,0 +1,33 @@
+ProcessID,ProcessName,Domain,OwnerRole,CaseRows,EventRows,KpiRows,Folder
+lead2order,Lead2Order,Commercial,Lead-to-Order Process Owner,36,180,72,outputs/industry-demo-data/lead2order
+order2cash,Order2Cash,Commercial,Order-to-Cash Process Owner,36,180,72,outputs/industry-demo-data/order2cash
+source2contract,Source2Contract,Procurement,Source-to-Contract Process Owner,36,180,60,outputs/industry-demo-data/source2contract
+procure2pay,Procure2Pay,Procurement,Procure-to-Pay Process Owner,36,180,60,outputs/industry-demo-data/procure2pay
+forecast2plan,Forecast2Plan,Supply Chain,Demand Planning Process Owner,36,180,60,outputs/industry-demo-data/forecast2plan
+plan2produce,Plan2Produce,Manufacturing,Plan-to-Produce Process Owner,36,180,60,outputs/industry-demo-data/plan2produce
+make_strategy,Make2Stock / Make2Order / Engineer2Order,Manufacturing,Manufacturing Strategy Process Owner,36,180,60,outputs/industry-demo-data/make_strategy
+idea2launch,Idea2Launch / Engineer2Release,Engineering,Product Lifecycle Process Owner,36,180,60,outputs/industry-demo-data/idea2launch
+maintain2operate,Maintain2Operate,Maintenance,Maintenance Process Owner,36,180,60,outputs/industry-demo-data/maintain2operate
+issue2resolution,Issue2Resolution,Service,Issue Resolution Process Owner,36,180,60,outputs/industry-demo-data/issue2resolution
+record2report,Record2Report,Finance,Record-to-Report Process Owner,36,180,60,outputs/industry-demo-data/record2report
+hire2retire,Hire2Retire,Workforce,Hire-to-Retire Process Owner,36,180,60,outputs/industry-demo-data/hire2retire
+market2lead,Market2Lead,Commercial,Marketing Process Owner,36,180,60,outputs/industry-demo-data/market2lead
+lead2quote,Lead2Quote / Configure2Quote,Commercial,Quote Process Owner,36,180,60,outputs/industry-demo-data/lead2quote
+quote2contract,Quote2Contract,Commercial,Quote-to-Contract Process Owner,36,180,60,outputs/industry-demo-data/quote2contract
+contract2revenue,Contract2Revenue,Finance,Revenue Process Owner,36,180,60,outputs/industry-demo-data/contract2revenue
+demand2supply,Demand2Supply,Supply Chain,Demand-to-Supply Process Owner,36,180,60,outputs/industry-demo-data/demand2supply
+sop_ibp2execution,S&OP / IBP2Execution,Supply Chain,IBP Process Owner,36,180,60,outputs/industry-demo-data/sop_ibp2execution
+design2cost,Design2Cost / Design2Source,Engineering,Design-to-Cost Process Owner,36,180,60,outputs/industry-demo-data/design2cost
+project2cash,Engineer2Order / Project2Cash,Projects,Project-to-Cash Process Owner,36,180,60,outputs/industry-demo-data/project2cash
+dock2stock,Dock2Stock,Warehouse,Inbound Warehouse Process Owner,36,180,60,outputs/industry-demo-data/dock2stock
+pick2pack2ship,Pick2Pack2Ship,Warehouse,Outbound Warehouse Process Owner,36,180,60,outputs/industry-demo-data/pick2pack2ship
+return2disposition,Return2Disposition,Service,Returns Process Owner,36,180,60,outputs/industry-demo-data/return2disposition
+complaint2capa,Complaint2CAPA,Quality,Complaint-to-CAPA Process Owner,36,180,60,outputs/industry-demo-data/complaint2capa
+nonconformance2disposition,Nonconformance2Disposition,Quality,Nonconformance Process Owner,36,180,60,outputs/industry-demo-data/nonconformance2disposition
+incident2action,Incident2Action,EHS,Incident-to-Action Process Owner,36,180,60,outputs/industry-demo-data/incident2action
+asset2reliability,Asset2Reliability,Maintenance,Asset Reliability Process Owner,36,180,60,outputs/industry-demo-data/asset2reliability
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,Service,Installed Base Service Process Owner,36,180,60,outputs/industry-demo-data/installedbase2servicerevenue
+supplieronboarding2risk,SupplierOnboarding2Risk,Procurement,Supplier Risk Process Owner,36,180,60,outputs/industry-demo-data/supplieronboarding2risk
+control2evidence,Control2Evidence,Governance,Control-to-Evidence Process Owner,36,180,60,outputs/industry-demo-data/control2evidence
+close2report_plan2perform,Close2Report / Plan2Perform,Finance,Close and Planning Process Owner,36,180,60,outputs/industry-demo-data/close2report_plan2perform
+data2insight2action,Data2Insight2Action,Analytics,Data-to-Action Process Owner,36,180,60,outputs/industry-demo-data/data2insight2action

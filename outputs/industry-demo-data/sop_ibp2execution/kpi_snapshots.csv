@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+sop_ibp2execution,S&OP / IBP2Execution,2025-01,Plan Adherence,10.43,15.8,0.79,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-01,Constrained Gap,46.97,50.63,2.53,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-01,Capacity Overload,35.94,37.88,1.89,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-01,Inventory Target Adherence,21.07,28.04,1.4,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-01,Plan Change Count,20.52,22.31,1.12,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-02,Plan Adherence,11.39,17.77,0.89,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-02,Constrained Gap,37.56,36.21,1.81,Green,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-02,Capacity Overload,28.8,31.27,1.56,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-02,Inventory Target Adherence,23.29,26.57,1.33,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-02,Plan Change Count,27.4,34.33,1.72,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-03,Plan Adherence,37.42,45.48,2.27,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-03,Constrained Gap,48.85,53.9,2.7,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-03,Capacity Overload,25.29,25.39,1.27,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-03,Inventory Target Adherence,32.65,34.42,1.72,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-03,Plan Change Count,9.51,12.29,0.61,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-04,Plan Adherence,61.22,60.0,3.0,Green,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-04,Constrained Gap,16.42,23.4,1.17,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-04,Capacity Overload,20.21,24.42,1.22,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-04,Inventory Target Adherence,34.18,37.32,1.87,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-04,Plan Change Count,44.54,49.33,2.47,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-05,Plan Adherence,16.27,18.73,0.94,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-05,Constrained Gap,46.86,53.62,2.68,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-05,Capacity Overload,27.69,32.03,1.6,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-05,Inventory Target Adherence,46.42,50.91,2.55,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-05,Plan Change Count,32.83,40.64,2.03,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-06,Plan Adherence,17.83,18.86,0.94,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-06,Constrained Gap,41.27,51.73,2.59,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-06,Capacity Overload,48.03,53.37,2.67,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-06,Inventory Target Adherence,37.25,40.12,2.01,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-06,Plan Change Count,33.88,39.71,1.99,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-07,Plan Adherence,18.57,20.04,1.0,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-07,Constrained Gap,43.29,55.8,2.79,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-07,Capacity Overload,52.78,57.98,2.9,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-07,Inventory Target Adherence,13.79,19.66,0.98,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-07,Plan Change Count,25.64,29.41,1.47,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-08,Plan Adherence,27.93,33.19,1.66,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-08,Constrained Gap,10.99,16.36,0.82,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-08,Capacity Overload,12.29,19.41,0.97,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-08,Inventory Target Adherence,14.98,20.31,1.02,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-08,Plan Change Count,17.03,22.46,1.12,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-09,Plan Adherence,17.94,19.09,0.95,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-09,Constrained Gap,55.82,55.76,2.79,Green,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-09,Capacity Overload,34.24,42.67,2.13,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-09,Inventory Target Adherence,9.9,12.76,0.64,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-09,Plan Change Count,42.49,49.38,2.47,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-10,Plan Adherence,59.93,59.5,2.98,Green,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-10,Constrained Gap,56.35,55.07,2.75,Green,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-10,Capacity Overload,48.52,51.92,2.6,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-10,Inventory Target Adherence,18.94,20.67,1.03,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-10,Plan Change Count,44.63,51.02,2.55,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-11,Plan Adherence,44.85,45.93,2.3,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-11,Constrained Gap,36.57,43.11,2.16,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-11,Capacity Overload,57.23,58.97,2.95,Amber,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-11,Inventory Target Adherence,28.42,35.09,1.75,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-11,Plan Change Count,18.5,20.86,1.04,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-12,Plan Adherence,47.41,53.3,2.67,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-12,Constrained Gap,19.04,24.23,1.21,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-12,Capacity Overload,28.08,32.33,1.62,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-12,Inventory Target Adherence,41.27,50.4,2.52,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory
+sop_ibp2execution,S&OP / IBP2Execution,2025-12,Plan Change Count,8.17,11.0,0.55,Red,IBP Process Owner,IBP; ERP PP; MES; Inventory

@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+plan2produce,Plan2Produce,PLAN2PRODUCE-00001,1,Order Released,2025-07-14,MES,Alex Chen,True,False,410.55
+plan2produce,Plan2Produce,PLAN2PRODUCE-00001,2,Materials Staged,2025-07-14,MES,Alex Chen,False,False,1139.0
+plan2produce,Plan2Produce,PLAN2PRODUCE-00001,3,Production Started,2025-07-15,QMS,Thomas Weber,False,False,4713.02
+plan2produce,Plan2Produce,PLAN2PRODUCE-00001,4,Quality Checked,2025-07-15,MES,Alex Chen,True,False,3897.83
+plan2produce,Plan2Produce,PLAN2PRODUCE-00001,5,Order Confirmed,2025-07-15,MES,Thomas Weber,False,False,3457.21
+plan2produce,Plan2Produce,PLAN2PRODUCE-00002,1,Order Released,2026-02-11,ERP PP,Jon Miller,True,False,6040.61
+plan2produce,Plan2Produce,PLAN2PRODUCE-00002,2,Materials Staged,2026-02-14,ERP PP,Priya Rao,True,False,1506.57
+plan2produce,Plan2Produce,PLAN2PRODUCE-00002,3,Production Started,2026-02-17,MES,Thomas Weber,True,False,590.39
+plan2produce,Plan2Produce,PLAN2PRODUCE-00002,4,Quality Checked,2026-02-19,Historian,Maria Garcia,False,False,3536.14
+plan2produce,Plan2Produce,PLAN2PRODUCE-00002,5,Order Confirmed,2026-02-21,MES,Sara Novak,True,False,2834.21
+plan2produce,Plan2Produce,PLAN2PRODUCE-00003,1,Order Released,2026-01-30,Historian,Sara Novak,True,False,7167.08
+plan2produce,Plan2Produce,PLAN2PRODUCE-00003,2,Materials Staged,2026-02-03,MES,Alex Chen,False,False,4708.34
+plan2produce,Plan2Produce,PLAN2PRODUCE-00003,3,Production Started,2026-02-09,Historian,Alex Chen,False,False,2429.64
+plan2produce,Plan2Produce,PLAN2PRODUCE-00003,4,Quality Checked,2026-02-13,ERP PP,Thomas Weber,True,False,3090.51
+plan2produce,Plan2Produce,PLAN2PRODUCE-00003,5,Order Confirmed,2026-02-19,MES,Jon Miller,True,False,4777.94
+plan2produce,Plan2Produce,PLAN2PRODUCE-00004,1,Order Released,2025-01-20,ERP PP,Kenji Tanaka,False,False,4191.55
+plan2produce,Plan2Produce,PLAN2PRODUCE-00004,2,Materials Staged,2025-01-20,QMS,Priya Rao,True,False,791.36
+plan2produce,Plan2Produce,PLAN2PRODUCE-00004,3,Production Started,2025-01-24,MES,Nina Patel,False,False,5760.91
+plan2produce,Plan2Produce,PLAN2PRODUCE-00004,4,Quality Checked,2025-01-30,Historian,Sara Novak,True,False,1631.42
+plan2produce,Plan2Produce,PLAN2PRODUCE-00004,5,Order Confirmed,2025-02-02,QMS,Priya Rao,True,False,6416.86
+plan2produce,Plan2Produce,PLAN2PRODUCE-00005,1,Order Released,2025-10-30,ERP PP,Kenji Tanaka,True,False,7102.3
+plan2produce,Plan2Produce,PLAN2PRODUCE-00005,2,Materials Staged,2025-11-02,ERP PP,Kenji Tanaka,True,False,2697.8
+plan2produce,Plan2Produce,PLAN2PRODUCE-00005,3,Production Started,2025-11-05,QMS,Jon Miller,False,False,6771.09
+plan2produce,Plan2Produce,PLAN2PRODUCE-00005,4,Quality Checked,2025-11-05,Historian,Thomas Weber,True,False,2815.2
+plan2produce,Plan2Produce,PLAN2PRODUCE-00005,5,Order Confirmed,2025-11-11,ERP PP,Thomas Weber,False,False,6498.34
+plan2produce,Plan2Produce,PLAN2PRODUCE-00006,1,Order Released,2025-09-06,QMS,Kenji Tanaka,False,False,3601.86
+plan2produce,Plan2Produce,PLAN2PRODUCE-00006,2,Materials Staged,2025-09-09,MES,Nina Patel,True,False,3117.3
+plan2produce,Plan2Produce,PLAN2PRODUCE-00006,3,Production Started,2025-09-13,QMS,Nina Patel,True,False,5290.49
+plan2produce,Plan2Produce,PLAN2PRODUCE-00006,4,Quality Checked,2025-09-18,MES,Thomas Weber,True,False,7302.4
+plan2produce,Plan2Produce,PLAN2PRODUCE-00006,5,Order Confirmed,2025-09-22,QMS,Thomas Weber,True,False,5448.38
+plan2produce,Plan2Produce,PLAN2PRODUCE-00007,1,Order Released,2025-02-05,Historian,Maria Garcia,False,False,7900.29
+plan2produce,Plan2Produce,PLAN2PRODUCE-00007,2,Materials Staged,2025-02-10,ERP PP,Priya Rao,False,False,1964.3
+plan2produce,Plan2Produce,PLAN2PRODUCE-00007,3,Production Started,2025-02-11,ERP PP,Sara Novak,True,False,1532.26
+plan2produce,Plan2Produce,PLAN2PRODUCE-00007,4,Quality Checked,2025-02-14,ERP PP,Sara Novak,True,False,2296.97
+plan2produce,Plan2Produce,PLAN2PRODUCE-00007,5,Order Confirmed,2025-02-14,MES,Maria Garcia,True,False,6891.6
+plan2produce,Plan2Produce,PLAN2PRODUCE-00008,1,Order Released,2025-04-05,ERP PP,Priya Rao,False,False,6837.52
+plan2produce,Plan2Produce,PLAN2PRODUCE-00008,2,Materials Staged,2025-04-05,QMS,Sara Novak,False,False,2506.68
+plan2produce,Plan2Produce,PLAN2PRODUCE-00008,3,Production Started,2025-04-08,MES,Kenji Tanaka,True,False,962.37
+plan2produce,Plan2Produce,PLAN2PRODUCE-00008,4,Quality Checked,2025-04-13,Historian,Kenji Tanaka,True,False,399.53
+plan2produce,Plan2Produce,PLAN2PRODUCE-00008,5,Order Confirmed,2025-04-16,QMS,Thomas Weber,True,False,4119.38
+plan2produce,Plan2Produce,PLAN2PRODUCE-00009,1,Order Released,2026-02-24,QMS,Thomas Weber,False,True,6493.35
+plan2produce,Plan2Produce,PLAN2PRODUCE-00009,2,Materials Staged,2026-02-25,ERP PP,Kenji Tanaka,True,False,7466.66
+plan2produce,Plan2Produce,PLAN2PRODUCE-00009,3,Production Started,2026-03-02,ERP PP,Alex Chen,False,False,1577.69
+plan2produce,Plan2Produce,PLAN2PRODUCE-00009,4,Quality Checked,2026-03-02,ERP PP,Jon Miller,True,False,5445.15
+plan2produce,Plan2Produce,PLAN2PRODUCE-00009,5,Order Confirmed,2026-03-08,QMS,Jon Miller,True,False,371.75
+plan2produce,Plan2Produce,PLAN2PRODUCE-00010,1,Order Released,2025-11-07,QMS,Sara Novak,True,False,2352.31
+plan2produce,Plan2Produce,PLAN2PRODUCE-00010,2,Materials Staged,2025-11-09,MES,Maria Garcia,False,False,999.13
+plan2produce,Plan2Produce,PLAN2PRODUCE-00010,3,Production Started,2025-11-10,ERP PP,Priya Rao,False,False,2776.62
+plan2produce,Plan2Produce,PLAN2PRODUCE-00010,4,Quality Checked,2025-11-15,ERP PP,Sara Novak,True,False,4123.72
+plan2produce,Plan2Produce,PLAN2PRODUCE-00010,5,Order Confirmed,2025-11-21,QMS,Maria Garcia,True,False,5137.27
+plan2produce,Plan2Produce,PLAN2PRODUCE-00011,1,Order Released,2025-01-19,Historian,Thomas Weber,True,False,1768.84
+plan2produce,Plan2Produce,PLAN2PRODUCE-00011,2,Materials Staged,2025-01-20,ERP PP,Alex Chen,False,False,1225.82
+plan2produce,Plan2Produce,PLAN2PRODUCE-00011,3,Production Started,2025-01-20,Historian,Thomas Weber,True,False,1943.68
+plan2produce,Plan2Produce,PLAN2PRODUCE-00011,4,Quality Checked,2025-01-22,QMS,Priya Rao,False,True,4023.56
+plan2produce,Plan2Produce,PLAN2PRODUCE-00011,5,Order Confirmed,2025-01-25,Historian,Jon Miller,False,False,439.54
+plan2produce,Plan2Produce,PLAN2PRODUCE-00012,1,Order Released,2025-07-05,MES,Maria Garcia,True,False,7557.79
+plan2produce,Plan2Produce,PLAN2PRODUCE-00012,2,Materials Staged,2025-07-07,QMS,Priya Rao,False,False,4902.04
+plan2produce,Plan2Produce,PLAN2PRODUCE-00012,3,Production Started,2025-07-08,QMS,Alex Chen,False,False,2848.56
+plan2produce,Plan2Produce,PLAN2PRODUCE-00012,4,Quality Checked,2025-07-12,ERP PP,Jon Miller,True,False,3892.9
+plan2produce,Plan2Produce,PLAN2PRODUCE-00012,5,Order Confirmed,2025-07-12,Historian,Thomas Weber,False,False,6561.16
+plan2produce,Plan2Produce,PLAN2PRODUCE-00013,1,Order Released,2025-07-21,QMS,Kenji Tanaka,False,False,7855.08
+plan2produce,Plan2Produce,PLAN2PRODUCE-00013,2,Materials Staged,2025-07-21,ERP PP,Sara Novak,False,False,5030.38
+plan2produce,Plan2Produce,PLAN2PRODUCE-00013,3,Production Started,2025-07-24,Historian,Sara Novak,False,False,2895.1
+plan2produce,Plan2Produce,PLAN2PRODUCE-00013,4,Quality Checked,2025-07-30,Historian,Kenji Tanaka,True,False,1843.71
+plan2produce,Plan2Produce,PLAN2PRODUCE-00013,5,Order Confirmed,2025-08-01,MES,Thomas Weber,False,True,3926.89
+plan2produce,Plan2Produce,PLAN2PRODUCE-00014,1,Order Released,2025-05-22,QMS,Thomas Weber,False,True,399.49
+plan2produce,Plan2Produce,PLAN2PRODUCE-00014,2,Materials Staged,2025-05-23,QMS,Thomas Weber,False,True,3421.37
+plan2produce,Plan2Produce,PLAN2PRODUCE-00014,3,Production Started,2025-05-23,MES,Kenji Tanaka,False,False,7433.42
+plan2produce,Plan2Produce,PLAN2PRODUCE-00014,4,Quality Checked,2025-05-29,Historian,Thomas Weber,False,False,2206.68
+plan2produce,Plan2Produce,PLAN2PRODUCE-00014,5,Order Confirmed,2025-05-30,QMS,Jon Miller,False,True,1475.97
+plan2produce,Plan2Produce,PLAN2PRODUCE-00015,1,Order Released,2025-03-17,ERP PP,Kenji Tanaka,False,False,6286.66
+plan2produce,Plan2Produce,PLAN2PRODUCE-00015,2,Materials Staged,2025-03-19,ERP PP,Kenji Tanaka,False,False,2256.5
+plan2produce,Plan2Produce,PLAN2PRODUCE-00015,3,Production Started,2025-03-24,Historian,Priya Rao,False,False,2778.93
+plan2produce,Plan2Produce,PLAN2PRODUCE-00015,4,Quality Checked,2025-03-29,Historian,Jon Miller,True,False,1520.98
+plan2produce,Plan2Produce,PLAN2PRODUCE-00015,5,Order Confirmed,2025-04-04,QMS,Priya Rao,True,False,3495.58
+plan2produce,Plan2Produce,PLAN2PRODUCE-00016,1,Order Released,2025-03-20,MES,Sara Novak,False,False,221.79
+plan2produce,Plan2Produce,PLAN2PRODUCE-00016,2,Materials Staged,2025-03-21,MES,Priya Rao,False,False,7650.28
+plan2produce,Plan2Produce,PLAN2PRODUCE-00016,3,Production Started,2025-03-25,Historian,Jon Miller,False,False,3839.1
+plan2produce,Plan2Produce,PLAN2PRODUCE-00016,4,Quality Checked,2025-03-31,MES,Sara Novak,True,False,3318.3
+plan2produce,Plan2Produce,PLAN2PRODUCE-00016,5,Order Confirmed,2025-04-06,MES,Jon Miller,True,False,6661.23
+plan2produce,Plan2Produce,PLAN2PRODUCE-00017,1,Order Released,2025-11-17,Historian,Alex Chen,False,True,5438.74
+plan2produce,Plan2Produce,PLAN2PRODUCE-00017,2,Materials Staged,2025-11-23,MES,Sara Novak,False,False,6027.29
+plan2produce,Plan2Produce,PLAN2PRODUCE-00017,3,Production Started,2025-11-27,MES,Maria Garcia,False,False,6805.15
+plan2produce,Plan2Produce,PLAN2PRODUCE-00017,4,Quality Checked,2025-11-29,MES,Alex Chen,False,False,1817.9
+plan2produce,Plan2Produce,PLAN2PRODUCE-00017,5,Order Confirmed,2025-12-03,MES,Alex Chen,True,False,1582.82
+plan2produce,Plan2Produce,PLAN2PRODUCE-00018,1,Order Released,2025-03-04,QMS,Maria Garcia,True,False,7975.61
+plan2produce,Plan2Produce,PLAN2PRODUCE-00018,2,Materials Staged,2025-03-09,MES,Alex Chen,True,True,7061.58
+plan2produce,Plan2Produce,PLAN2PRODUCE-00018,3,Production Started,2025-03-14,QMS,Jon Miller,False,False,7266.3
+plan2produce,Plan2Produce,PLAN2PRODUCE-00018,4,Quality Checked,2025-03-15,Historian,Priya Rao,False,False,965.38
+plan2produce,Plan2Produce,PLAN2PRODUCE-00018,5,Order Confirmed,2025-03-15,ERP PP,Alex Chen,True,False,1610.58
+plan2produce,Plan2Produce,PLAN2PRODUCE-00019,1,Order Released,2025-06-14,MES,Alex Chen,True,False,1722.88
+plan2produce,Plan2Produce,PLAN2PRODUCE-00019,2,Materials Staged,2025-06-20,Historian,Priya Rao,False,False,6139.85
+plan2produce,Plan2Produce,PLAN2PRODUCE-00019,3,Production Started,2025-06-22,ERP PP,Jon Miller,True,False,920.06
+plan2produce,Plan2Produce,PLAN2PRODUCE-00019,4,Quality Checked,2025-06-25,ERP PP,Thomas Weber,True,True,587.9
+plan2produce,Plan2Produce,PLAN2PRODUCE-00019,5,Order Confirmed,2025-06-28,ERP PP,Jon Miller,False,False,5905.62
+plan2produce,Plan2Produce,PLAN2PRODUCE-00020,1,Order Released,2025-12-29,Historian,Maria Garcia,False,False,6422.34
+plan2produce,Plan2Produce,PLAN2PRODUCE-00020,2,Materials Staged,2026-01-02,Historian,Sara Novak,True,False,2805.48
+plan2produce,Plan2Produce,PLAN2PRODUCE-00020,3,Production Started,2026-01-04,Historian,Thomas Weber,False,False,7441.1
+plan2produce,Plan2Produce,PLAN2PRODUCE-00020,4,Quality Checked,2026-01-08,QMS,Thomas Weber,True,True,605.45
+plan2produce,Plan2Produce,PLAN2PRODUCE-00020,5,Order Confirmed,2026-01-14,MES,Priya Rao,True,False,3283.26
+plan2produce,Plan2Produce,PLAN2PRODUCE-00021,1,Order Released,2025-10-25,QMS,Kenji Tanaka,False,False,7726.34
+plan2produce,Plan2Produce,PLAN2PRODUCE-00021,2,Materials Staged,2025-10-29,ERP PP,Alex Chen,True,False,1028.79
+plan2produce,Plan2Produce,PLAN2PRODUCE-00021,3,Production Started,2025-11-03,ERP PP,Thomas Weber,False,False,4304.32
+plan2produce,Plan2Produce,PLAN2PRODUCE-00021,4,Quality Checked,2025-11-04,QMS,Sara Novak,False,False,3690.62
+plan2produce,Plan2Produce,PLAN2PRODUCE-00021,5,Order Confirmed,2025-11-08,MES,Maria Garcia,False,False,829.2
+plan2produce,Plan2Produce,PLAN2PRODUCE-00022,1,Order Released,2026-01-27,MES,Kenji Tanaka,True,False,3308.93
+plan2produce,Plan2Produce,PLAN2PRODUCE-00022,2,Materials Staged,2026-01-30,MES,Jon Miller,True,True,815.24
+plan2produce,Plan2Produce,PLAN2PRODUCE-00022,3,Production Started,2026-01-31,Historian,Maria Garcia,True,False,453.36
+plan2produce,Plan2Produce,PLAN2PRODUCE-00022,4,Quality Checked,2026-02-06,QMS,Priya Rao,True,False,2003.31
+plan2produce,Plan2Produce,PLAN2PRODUCE-00022,5,Order Confirmed,2026-02-11,Historian,Sara Novak,True,False,4705.16
+plan2produce,Plan2Produce,PLAN2PRODUCE-00023,1,Order Released,2025-06-27,ERP PP,Alex Chen,False,False,4279.87
+plan2produce,Plan2Produce,PLAN2PRODUCE-00023,2,Materials Staged,2025-06-30,QMS,Nina Patel,False,False,424.57
+plan2produce,Plan2Produce,PLAN2PRODUCE-00023,3,Production Started,2025-07-05,QMS,Kenji Tanaka,True,False,7047.73
+plan2produce,Plan2Produce,PLAN2PRODUCE-00023,4,Quality Checked,2025-07-08,ERP PP,Alex Chen,True,True,5906.73
+plan2produce,Plan2Produce,PLAN2PRODUCE-00023,5,Order Confirmed,2025-07-14,MES,Jon Miller,True,False,206.91
+plan2produce,Plan2Produce,PLAN2PRODUCE-00024,1,Order Released,2025-01-31,MES,Kenji Tanaka,False,False,2701.0
+plan2produce,Plan2Produce,PLAN2PRODUCE-00024,2,Materials Staged,2025-02-04,ERP PP,Priya Rao,False,False,2669.27
+plan2produce,Plan2Produce,PLAN2PRODUCE-00024,3,Production Started,2025-02-08,QMS,Kenji Tanaka,True,False,5776.46
+plan2produce,Plan2Produce,PLAN2PRODUCE-00024,4,Quality Checked,2025-02-12,ERP PP,Sara Novak,True,False,511.26
+plan2produce,Plan2Produce,PLAN2PRODUCE-00024,5,Order Confirmed,2025-02-17,QMS,Maria Garcia,False,True,1199.25
+plan2produce,Plan2Produce,PLAN2PRODUCE-00025,1,Order Released,2025-12-23,ERP PP,Maria Garcia,False,False,4835.21
+plan2produce,Plan2Produce,PLAN2PRODUCE-00025,2,Materials Staged,2025-12-26,QMS,Kenji Tanaka,False,True,7871.78
+plan2produce,Plan2Produce,PLAN2PRODUCE-00025,3,Production Started,2025-12-26,Historian,Jon Miller,False,True,3579.06
+plan2produce,Plan2Produce,PLAN2PRODUCE-00025,4,Quality Checked,2025-12-28,QMS,Sara Novak,False,False,151.56
+plan2produce,Plan2Produce,PLAN2PRODUCE-00025,5,Order Confirmed,2026-01-03,ERP PP,Maria Garcia,True,False,4408.39
+plan2produce,Plan2Produce,PLAN2PRODUCE-00026,1,Order Released,2025-04-13,QMS,Sara Novak,True,False,1839.77
+plan2produce,Plan2Produce,PLAN2PRODUCE-00026,2,Materials Staged,2025-04-13,Historian,Sara Novak,False,False,7768.27
+plan2produce,Plan2Produce,PLAN2PRODUCE-00026,3,Production Started,2025-04-15,MES,Alex Chen,True,False,6809.05
+plan2produce,Plan2Produce,PLAN2PRODUCE-00026,4,Quality Checked,2025-04-20,Historian,Priya Rao,False,False,4308.6
+plan2produce,Plan2Produce,PLAN2PRODUCE-00026,5,Order Confirmed,2025-04-26,QMS,Sara Novak,True,True,4312.44
+plan2produce,Plan2Produce,PLAN2PRODUCE-00027,1,Order Released,2025-10-24,ERP PP,Sara Novak,False,False,1815.27
+plan2produce,Plan2Produce,PLAN2PRODUCE-00027,2,Materials Staged,2025-10-28,QMS,Jon Miller,False,False,1496.23
+plan2produce,Plan2Produce,PLAN2PRODUCE-00027,3,Production Started,2025-10-31,ERP PP,Kenji Tanaka,False,False,6576.41
+plan2produce,Plan2Produce,PLAN2PRODUCE-00027,4,Quality Checked,2025-11-01,ERP PP,Maria Garcia,True,False,5947.71
+plan2produce,Plan2Produce,PLAN2PRODUCE-00027,5,Order Confirmed,2025-11-03,ERP PP,Nina Patel,True,False,4044.01
+plan2produce,Plan2Produce,PLAN2PRODUCE-00028,1,Order Released,2025-03-23,MES,Maria Garcia,True,False,2347.96
+plan2produce,Plan2Produce,PLAN2PRODUCE-00028,2,Materials Staged,2025-03-27,QMS,Thomas Weber,True,False,1000.72
+plan2produce,Plan2Produce,PLAN2PRODUCE-00028,3,Production Started,2025-04-01,QMS,Priya Rao,True,False,2163.59
+plan2produce,Plan2Produce,PLAN2PRODUCE-00028,4,Quality Checked,2025-04-05,Historian,Sara Novak,False,False,5754.12
+plan2produce,Plan2Produce,PLAN2PRODUCE-00028,5,Order Confirmed,2025-04-08,QMS,Kenji Tanaka,True,True,5613.09
+plan2produce,Plan2Produce,PLAN2PRODUCE-00029,1,Order Released,2026-02-24,ERP PP,Jon Miller,False,False,1955.58
+plan2produce,Plan2Produce,PLAN2PRODUCE-00029,2,Materials Staged,2026-02-24,ERP PP,Maria Garcia,True,False,7255.14
+plan2produce,Plan2Produce,PLAN2PRODUCE-00029,3,Production Started,2026-03-02,QMS,Sara Novak,True,False,410.89
+plan2produce,Plan2Produce,PLAN2PRODUCE-00029,4,Quality Checked,2026-03-07,ERP PP,Jon Miller,True,False,3916.18
+plan2produce,Plan2Produce,PLAN2PRODUCE-00029,5,Order Confirmed,2026-03-07,Historian,Nina Patel,True,True,332.11
+plan2produce,Plan2Produce,PLAN2PRODUCE-00030,1,Order Released,2025-10-17,QMS,Sara Novak,True,False,5137.43
+plan2produce,Plan2Produce,PLAN2PRODUCE-00030,2,Materials Staged,2025-10-20,QMS,Jon Miller,False,True,7503.94
+plan2produce,Plan2Produce,PLAN2PRODUCE-00030,3,Production Started,2025-10-24,ERP PP,Thomas Weber,True,False,1929.49
+plan2produce,Plan2Produce,PLAN2PRODUCE-00030,4,Quality Checked,2025-10-26,MES,Maria Garcia,False,False,5893.99
+plan2produce,Plan2Produce,PLAN2PRODUCE-00030,5,Order Confirmed,2025-10-30,Historian,Jon Miller,False,False,2546.25
+plan2produce,Plan2Produce,PLAN2PRODUCE-00031,1,Order Released,2025-08-22,MES,Nina Patel,False,False,7948.03
+plan2produce,Plan2Produce,PLAN2PRODUCE-00031,2,Materials Staged,2025-08-26,MES,Kenji Tanaka,True,False,4759.28
+plan2produce,Plan2Produce,PLAN2PRODUCE-00031,3,Production Started,2025-08-29,ERP PP,Thomas Weber,False,False,7099.75
+plan2produce,Plan2Produce,PLAN2PRODUCE-00031,4,Quality Checked,2025-09-03,ERP PP,Sara Novak,True,False,7052.77
+plan2produce,Plan2Produce,PLAN2PRODUCE-00031,5,Order Confirmed,2025-09-03,ERP PP,Thomas Weber,False,False,2854.81
+plan2produce,Plan2Produce,PLAN2PRODUCE-00032,1,Order Released,2025-10-25,ERP PP,Alex Chen,True,False,1034.49
+plan2produce,Plan2Produce,PLAN2PRODUCE-00032,2,Materials Staged,2025-10-28,Historian,Maria Garcia,False,False,7716.24
+plan2produce,Plan2Produce,PLAN2PRODUCE-00032,3,Production Started,2025-10-30,ERP PP,Maria Garcia,True,False,5840.52
+plan2produce,Plan2Produce,PLAN2PRODUCE-00032,4,Quality Checked,2025-11-05,ERP PP,Sara Novak,False,False,1755.77
+plan2produce,Plan2Produce,PLAN2PRODUCE-00032,5,Order Confirmed,2025-11-09,MES,Nina Patel,True,False,6026.5
+plan2produce,Plan2Produce,PLAN2PRODUCE-00033,1,Order Released,2025-10-12,QMS,Nina Patel,True,False,5345.23
+plan2produce,Plan2Produce,PLAN2PRODUCE-00033,2,Materials Staged,2025-10-18,ERP PP,Jon Miller,False,False,6683.95
+plan2produce,Plan2Produce,PLAN2PRODUCE-00033,3,Production Started,2025-10-24,ERP PP,Kenji Tanaka,True,False,2578.26
+plan2produce,Plan2Produce,PLAN2PRODUCE-00033,4,Quality Checked,2025-10-25,ERP PP,Jon Miller,True,False,672.87
+plan2produce,Plan2Produce,PLAN2PRODUCE-00033,5,Order Confirmed,2025-10-28,MES,Maria Garcia,True,False,5347.55
+plan2produce,Plan2Produce,PLAN2PRODUCE-00034,1,Order Released,2026-02-13,ERP PP,Jon Miller,True,False,1916.1
+plan2produce,Plan2Produce,PLAN2PRODUCE-00034,2,Materials Staged,2026-02-13,MES,Thomas Weber,True,False,1658.33
+plan2produce,Plan2Produce,PLAN2PRODUCE-00034,3,Production Started,2026-02-17,QMS,Kenji Tanaka,False,False,6572.85
+plan2produce,Plan2Produce,PLAN2PRODUCE-00034,4,Quality Checked,2026-02-17,Historian,Sara Novak,True,False,4955.51
+plan2produce,Plan2Produce,PLAN2PRODUCE-00034,5,Order Confirmed,2026-02-21,Historian,Kenji Tanaka,False,False,5800.48
+plan2produce,Plan2Produce,PLAN2PRODUCE-00035,1,Order Released,2026-02-07,QMS,Alex Chen,False,False,2720.96
+plan2produce,Plan2Produce,PLAN2PRODUCE-00035,2,Materials Staged,2026-02-09,Historian,Thomas Weber,False,True,1641.98
+plan2produce,Plan2Produce,PLAN2PRODUCE-00035,3,Production Started,2026-02-15,ERP PP,Maria Garcia,True,True,2352.32
+plan2produce,Plan2Produce,PLAN2PRODUCE-00035,4,Quality Checked,2026-02-18,QMS,Thomas Weber,False,True,4087.09
+plan2produce,Plan2Produce,PLAN2PRODUCE-00035,5,Order Confirmed,2026-02-24,Historian,Jon Miller,False,False,5175.42
+plan2produce,Plan2Produce,PLAN2PRODUCE-00036,1,Order Released,2026-02-26,Historian,Sara Novak,True,False,7881.77
+plan2produce,Plan2Produce,PLAN2PRODUCE-00036,2,Materials Staged,2026-03-01,Historian,Kenji Tanaka,True,False,7330.5
+plan2produce,Plan2Produce,PLAN2PRODUCE-00036,3,Production Started,2026-03-02,Historian,Alex Chen,False,False,5383.71
+plan2produce,Plan2Produce,PLAN2PRODUCE-00036,4,Quality Checked,2026-03-07,ERP PP,Jon Miller,True,False,3635.42
+plan2produce,Plan2Produce,PLAN2PRODUCE-00036,5,Order Confirmed,2026-03-09,Historian,Nina Patel,False,True,4662.22

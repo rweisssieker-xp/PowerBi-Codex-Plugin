@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+data2insight2action,Data2Insight2Action,2025-01,Insight Adoption,12.29,19.07,0.95,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-01,Action Conversion,34.68,34.64,1.73,Green,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-01,Decision Latency,24.04,33.28,1.66,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-01,Realized Value,13.77,17.77,0.89,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-01,Action Overdue Count,28.86,29.25,1.46,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-02,Insight Adoption,13.85,18.7,0.94,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-02,Action Conversion,38.51,48.12,2.41,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-02,Decision Latency,14.4,21.85,1.09,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-02,Realized Value,30.94,29.98,1.5,Green,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-02,Action Overdue Count,7.42,13.07,0.65,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-03,Insight Adoption,30.33,37.44,1.87,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-03,Action Conversion,19.08,21.4,1.07,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-03,Decision Latency,32.28,35.61,1.78,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-03,Realized Value,21.43,25.32,1.27,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-03,Action Overdue Count,47.62,50.87,2.54,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-04,Insight Adoption,43.51,44.04,2.2,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-04,Action Conversion,53.07,55.95,2.8,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-04,Decision Latency,34.3,38.59,1.93,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-04,Realized Value,44.31,44.29,2.21,Green,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-04,Action Overdue Count,11.25,13.74,0.69,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-05,Insight Adoption,40.15,48.52,2.43,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-05,Action Conversion,6.62,10.15,0.51,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-05,Decision Latency,54.67,55.03,2.75,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-05,Realized Value,21.65,23.61,1.18,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-05,Action Overdue Count,23.31,26.84,1.34,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-06,Insight Adoption,58.14,59.16,2.96,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-06,Action Conversion,9.97,11.58,0.58,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-06,Decision Latency,36.38,37.1,1.86,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-06,Realized Value,51.16,55.34,2.77,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-06,Action Overdue Count,46.43,47.64,2.38,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-07,Insight Adoption,26.49,29.24,1.46,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-07,Action Conversion,11.16,16.77,0.84,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-07,Decision Latency,19.63,24.59,1.23,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-07,Realized Value,41.64,42.31,2.12,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-07,Action Overdue Count,34.15,43.94,2.2,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-08,Insight Adoption,26.81,29.01,1.45,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-08,Action Conversion,26.66,30.08,1.5,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-08,Decision Latency,21.67,27.67,1.38,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-08,Realized Value,31.28,33.75,1.69,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-08,Action Overdue Count,37.45,36.46,1.82,Green,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-09,Insight Adoption,18.41,21.82,1.09,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-09,Action Conversion,48.72,56.06,2.8,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-09,Decision Latency,45.79,44.49,2.22,Green,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-09,Realized Value,20.28,24.69,1.23,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-09,Action Overdue Count,49.79,49.15,2.46,Green,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-10,Insight Adoption,20.3,23.3,1.17,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-10,Action Conversion,31.18,33.7,1.69,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-10,Decision Latency,33.33,38.85,1.94,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-10,Realized Value,28.09,34.95,1.75,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-10,Action Overdue Count,38.76,47.59,2.38,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-11,Insight Adoption,26.63,26.16,1.31,Green,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-11,Action Conversion,7.41,11.76,0.59,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-11,Decision Latency,46.14,49.7,2.49,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-11,Realized Value,33.75,32.55,1.63,Green,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-11,Action Overdue Count,21.39,22.23,1.11,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-12,Insight Adoption,40.14,40.65,2.03,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-12,Action Conversion,15.13,19.77,0.99,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-12,Decision Latency,45.03,52.02,2.6,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-12,Realized Value,13.0,17.01,0.85,Red,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps
+data2insight2action,Data2Insight2Action,2025-12,Action Overdue Count,26.35,26.39,1.32,Amber,Data-to-Action Process Owner,Power BI; Action Tracker; Data Catalog; Business Apps

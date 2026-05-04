@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00001,1,Need Captured,2025-04-27,CPQ,Sara Novak,True,False,6797.61
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00001,2,Configured,2025-05-01,Pricing,Thomas Weber,True,False,3336.05
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00001,3,Priced,2025-05-03,Pricing,Kenji Tanaka,True,False,215.25
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00001,4,Approved,2025-05-03,CPQ,Sara Novak,False,False,1171.4
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00001,5,Quote Sent,2025-05-04,Pricing,Priya Rao,False,False,7799.17
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00002,1,Need Captured,2025-07-22,CPQ,Nina Patel,False,False,3541.07
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00002,2,Configured,2025-07-25,CRM,Kenji Tanaka,True,False,1584.77
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00002,3,Priced,2025-07-25,CRM,Jon Miller,True,False,7117.74
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00002,4,Approved,2025-07-31,CPQ,Thomas Weber,True,False,3019.63
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00002,5,Quote Sent,2025-07-31,CRM,Alex Chen,False,False,6150.3
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00003,1,Need Captured,2025-08-11,ERP Sales,Kenji Tanaka,True,False,6469.13
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00003,2,Configured,2025-08-11,CRM,Jon Miller,False,False,7963.48
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00003,3,Priced,2025-08-13,CPQ,Alex Chen,False,False,736.43
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00003,4,Approved,2025-08-16,CPQ,Kenji Tanaka,True,False,6028.72
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00003,5,Quote Sent,2025-08-20,ERP Sales,Thomas Weber,True,False,4521.49
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00004,1,Need Captured,2026-01-08,CRM,Thomas Weber,True,False,7699.83
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00004,2,Configured,2026-01-12,ERP Sales,Kenji Tanaka,True,False,2146.54
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00004,3,Priced,2026-01-17,ERP Sales,Maria Garcia,True,True,2210.15
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00004,4,Approved,2026-01-22,CRM,Kenji Tanaka,False,False,4342.05
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00004,5,Quote Sent,2026-01-28,CRM,Alex Chen,False,False,4251.54
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00005,1,Need Captured,2025-03-08,Pricing,Thomas Weber,True,False,7628.34
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00005,2,Configured,2025-03-11,ERP Sales,Nina Patel,True,False,6648.58
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00005,3,Priced,2025-03-14,ERP Sales,Priya Rao,False,False,1736.27
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00005,4,Approved,2025-03-14,CRM,Kenji Tanaka,True,False,6859.37
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00005,5,Quote Sent,2025-03-16,CRM,Kenji Tanaka,False,False,5910.15
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00006,1,Need Captured,2025-01-21,Pricing,Kenji Tanaka,True,False,2755.01
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00006,2,Configured,2025-01-23,CRM,Alex Chen,True,True,6024.37
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00006,3,Priced,2025-01-27,CRM,Priya Rao,False,False,2752.57
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00006,4,Approved,2025-01-27,ERP Sales,Kenji Tanaka,True,False,566.09
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00006,5,Quote Sent,2025-01-27,Pricing,Maria Garcia,False,True,5206.83
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00007,1,Need Captured,2026-03-24,Pricing,Maria Garcia,True,False,4632.31
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00007,2,Configured,2026-03-30,Pricing,Nina Patel,False,False,3793.67
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00007,3,Priced,2026-03-30,CPQ,Priya Rao,True,False,1901.22
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00007,4,Approved,2026-04-04,ERP Sales,Nina Patel,True,False,364.3
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00007,5,Quote Sent,2026-04-04,CPQ,Kenji Tanaka,True,False,1315.99
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00008,1,Need Captured,2025-10-04,CPQ,Maria Garcia,True,True,5715.38
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00008,2,Configured,2025-10-05,ERP Sales,Thomas Weber,True,False,5536.57
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00008,3,Priced,2025-10-07,CPQ,Jon Miller,False,False,6779.83
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00008,4,Approved,2025-10-10,ERP Sales,Priya Rao,False,True,7686.96
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00008,5,Quote Sent,2025-10-12,ERP Sales,Kenji Tanaka,True,False,3589.51
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00009,1,Need Captured,2025-04-16,CPQ,Maria Garcia,True,False,6448.43
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00009,2,Configured,2025-04-17,CPQ,Alex Chen,True,False,4519.81
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00009,3,Priced,2025-04-22,Pricing,Maria Garcia,False,False,7526.44
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00009,4,Approved,2025-04-24,CPQ,Maria Garcia,True,False,1293.2
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00009,5,Quote Sent,2025-04-29,Pricing,Kenji Tanaka,True,False,6207.74
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00010,1,Need Captured,2026-02-11,Pricing,Jon Miller,True,False,6028.35
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00010,2,Configured,2026-02-15,CPQ,Maria Garcia,True,False,4194.29
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00010,3,Priced,2026-02-18,ERP Sales,Alex Chen,False,False,3597.9
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00010,4,Approved,2026-02-24,CPQ,Jon Miller,True,False,1431.25
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00010,5,Quote Sent,2026-02-25,Pricing,Thomas Weber,False,False,6312.26
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00011,1,Need Captured,2025-08-22,Pricing,Priya Rao,False,False,147.36
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00011,2,Configured,2025-08-22,ERP Sales,Alex Chen,False,False,6545.74
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00011,3,Priced,2025-08-23,Pricing,Nina Patel,True,False,7741.56
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00011,4,Approved,2025-08-27,Pricing,Jon Miller,False,True,4501.37
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00011,5,Quote Sent,2025-08-27,Pricing,Maria Garcia,False,False,5022.51
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00012,1,Need Captured,2026-02-26,CRM,Kenji Tanaka,False,False,3127.41
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00012,2,Configured,2026-02-28,CPQ,Jon Miller,True,False,2461.91
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00012,3,Priced,2026-03-02,Pricing,Thomas Weber,True,False,6803.97
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00012,4,Approved,2026-03-02,CPQ,Alex Chen,True,False,5795.12
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00012,5,Quote Sent,2026-03-07,Pricing,Thomas Weber,False,False,1536.3
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00013,1,Need Captured,2026-01-29,Pricing,Priya Rao,False,False,1844.14
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00013,2,Configured,2026-02-01,ERP Sales,Kenji Tanaka,True,False,5990.28
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00013,3,Priced,2026-02-07,CPQ,Kenji Tanaka,True,False,4883.29
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00013,4,Approved,2026-02-08,ERP Sales,Kenji Tanaka,True,False,5102.65
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00013,5,Quote Sent,2026-02-12,ERP Sales,Nina Patel,False,False,2134.91
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00014,1,Need Captured,2025-01-12,ERP Sales,Alex Chen,True,False,4191.85
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00014,2,Configured,2025-01-18,CPQ,Sara Novak,True,False,2184.32
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00014,3,Priced,2025-01-21,CPQ,Alex Chen,False,False,4645.25
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00014,4,Approved,2025-01-27,CPQ,Sara Novak,False,True,335.51
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00014,5,Quote Sent,2025-01-29,CRM,Maria Garcia,True,False,2563.83
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00015,1,Need Captured,2025-01-30,ERP Sales,Sara Novak,True,False,5831.22
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00015,2,Configured,2025-02-03,CPQ,Nina Patel,True,False,2370.19
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00015,3,Priced,2025-02-03,CRM,Kenji Tanaka,False,False,4576.36
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00015,4,Approved,2025-02-08,CRM,Nina Patel,False,False,1685.35
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00015,5,Quote Sent,2025-02-10,CRM,Thomas Weber,True,False,2179.91
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00016,1,Need Captured,2026-03-23,CPQ,Maria Garcia,True,False,4106.02
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00016,2,Configured,2026-03-26,CRM,Nina Patel,False,False,178.43
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00016,3,Priced,2026-03-31,Pricing,Thomas Weber,True,False,7499.89
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00016,4,Approved,2026-04-02,ERP Sales,Kenji Tanaka,False,False,4885.82
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00016,5,Quote Sent,2026-04-02,CPQ,Sara Novak,False,False,3327.72
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00017,1,Need Captured,2025-04-11,CPQ,Priya Rao,False,False,3543.33
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00017,2,Configured,2025-04-13,CPQ,Priya Rao,False,False,5949.13
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00017,3,Priced,2025-04-18,Pricing,Priya Rao,True,False,4825.15
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00017,4,Approved,2025-04-18,CPQ,Thomas Weber,True,False,5907.11
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00017,5,Quote Sent,2025-04-22,CRM,Kenji Tanaka,False,True,3814.14
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00018,1,Need Captured,2025-07-17,CRM,Sara Novak,True,False,3746.62
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00018,2,Configured,2025-07-17,CRM,Nina Patel,False,False,1604.17
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00018,3,Priced,2025-07-19,CPQ,Maria Garcia,False,False,2517.92
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00018,4,Approved,2025-07-21,CPQ,Priya Rao,True,False,2480.03
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00018,5,Quote Sent,2025-07-21,CRM,Alex Chen,True,False,3270.82
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00019,1,Need Captured,2025-11-06,Pricing,Nina Patel,False,False,1762.87
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00019,2,Configured,2025-11-08,CPQ,Sara Novak,True,False,7500.14
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00019,3,Priced,2025-11-08,CPQ,Thomas Weber,True,False,7931.65
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00019,4,Approved,2025-11-08,Pricing,Maria Garcia,True,False,580.28
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00019,5,Quote Sent,2025-11-09,ERP Sales,Priya Rao,False,False,6460.2
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00020,1,Need Captured,2025-07-17,ERP Sales,Nina Patel,False,False,5993.06
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00020,2,Configured,2025-07-22,ERP Sales,Maria Garcia,True,False,1223.13
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00020,3,Priced,2025-07-28,CRM,Nina Patel,True,False,6900.08
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00020,4,Approved,2025-07-30,ERP Sales,Alex Chen,False,False,7109.73
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00020,5,Quote Sent,2025-08-01,ERP Sales,Priya Rao,False,False,3077.57
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00021,1,Need Captured,2025-05-31,CRM,Thomas Weber,False,False,5857.89
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00021,2,Configured,2025-06-05,CRM,Alex Chen,False,False,3402.78
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00021,3,Priced,2025-06-10,CRM,Thomas Weber,True,False,7939.35
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00021,4,Approved,2025-06-15,CPQ,Thomas Weber,True,False,3463.9
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00021,5,Quote Sent,2025-06-16,Pricing,Priya Rao,True,True,3018.42
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00022,1,Need Captured,2025-10-22,Pricing,Thomas Weber,False,False,4440.58
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00022,2,Configured,2025-10-23,ERP Sales,Priya Rao,True,False,235.09
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00022,3,Priced,2025-10-27,CRM,Alex Chen,False,False,6758.16
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00022,4,Approved,2025-10-30,ERP Sales,Jon Miller,True,False,4966.02
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00022,5,Quote Sent,2025-11-03,Pricing,Sara Novak,True,False,4944.62
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00023,1,Need Captured,2025-06-17,CRM,Jon Miller,True,True,5393.52
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00023,2,Configured,2025-06-18,CRM,Maria Garcia,False,False,5284.51
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00023,3,Priced,2025-06-20,CRM,Jon Miller,False,False,5491.22
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00023,4,Approved,2025-06-22,CPQ,Priya Rao,True,True,3411.63
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00023,5,Quote Sent,2025-06-24,CRM,Jon Miller,False,False,7161.3
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00024,1,Need Captured,2026-02-15,CRM,Nina Patel,True,False,5350.87
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00024,2,Configured,2026-02-18,Pricing,Maria Garcia,True,False,1302.75
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00024,3,Priced,2026-02-23,CRM,Alex Chen,False,False,5148.03
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00024,4,Approved,2026-02-28,CPQ,Nina Patel,True,False,1177.0
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00024,5,Quote Sent,2026-03-05,ERP Sales,Alex Chen,False,False,3624.24
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00025,1,Need Captured,2025-12-12,CRM,Thomas Weber,False,True,2028.93
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00025,2,Configured,2025-12-18,CRM,Maria Garcia,True,False,6386.47
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00025,3,Priced,2025-12-23,CPQ,Maria Garcia,True,False,3426.65
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00025,4,Approved,2025-12-24,Pricing,Nina Patel,False,False,5834.22
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00025,5,Quote Sent,2025-12-28,CPQ,Thomas Weber,False,False,3529.17
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00026,1,Need Captured,2025-01-30,Pricing,Thomas Weber,True,False,3009.18
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00026,2,Configured,2025-02-03,ERP Sales,Alex Chen,True,False,7997.22
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00026,3,Priced,2025-02-07,CRM,Sara Novak,True,False,4812.52
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00026,4,Approved,2025-02-12,ERP Sales,Nina Patel,True,False,3386.88
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00026,5,Quote Sent,2025-02-12,ERP Sales,Kenji Tanaka,False,True,93.35
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00027,1,Need Captured,2025-09-02,ERP Sales,Thomas Weber,True,False,7218.84
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00027,2,Configured,2025-09-03,CRM,Maria Garcia,False,False,3958.86
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00027,3,Priced,2025-09-07,CPQ,Thomas Weber,True,False,5238.95
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00027,4,Approved,2025-09-13,CRM,Priya Rao,True,False,244.98
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00027,5,Quote Sent,2025-09-18,Pricing,Nina Patel,True,False,66.98
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00028,1,Need Captured,2026-02-22,ERP Sales,Thomas Weber,True,False,1306.36
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00028,2,Configured,2026-02-28,CRM,Sara Novak,False,False,1776.05
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00028,3,Priced,2026-03-06,ERP Sales,Jon Miller,False,False,2904.07
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00028,4,Approved,2026-03-09,ERP Sales,Alex Chen,True,False,1202.26
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00028,5,Quote Sent,2026-03-09,CPQ,Thomas Weber,True,False,7803.76
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00029,1,Need Captured,2025-10-23,ERP Sales,Kenji Tanaka,False,False,4744.66
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00029,2,Configured,2025-10-26,ERP Sales,Maria Garcia,True,False,6429.49
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00029,3,Priced,2025-10-28,CRM,Priya Rao,True,False,166.37
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00029,4,Approved,2025-11-03,ERP Sales,Thomas Weber,True,False,4240.05
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00029,5,Quote Sent,2025-11-03,CRM,Sara Novak,False,False,3151.52
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00030,1,Need Captured,2025-03-06,ERP Sales,Jon Miller,False,False,2344.44
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00030,2,Configured,2025-03-10,CPQ,Priya Rao,False,False,1728.72
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00030,3,Priced,2025-03-15,CRM,Maria Garcia,False,False,5844.21
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00030,4,Approved,2025-03-16,CPQ,Jon Miller,False,False,502.06
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00030,5,Quote Sent,2025-03-22,ERP Sales,Sara Novak,False,False,6302.47
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00031,1,Need Captured,2025-11-21,CRM,Kenji Tanaka,True,False,6670.58
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00031,2,Configured,2025-11-23,CRM,Thomas Weber,True,False,7350.29
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00031,3,Priced,2025-11-23,ERP Sales,Nina Patel,False,False,3208.29
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00031,4,Approved,2025-11-23,CPQ,Kenji Tanaka,False,False,3430.12
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00031,5,Quote Sent,2025-11-27,ERP Sales,Sara Novak,True,False,5266.67
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00032,1,Need Captured,2026-03-21,CPQ,Sara Novak,False,False,518.78
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00032,2,Configured,2026-03-24,ERP Sales,Priya Rao,False,False,3026.33
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00032,3,Priced,2026-03-30,Pricing,Alex Chen,False,False,6897.6
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00032,4,Approved,2026-04-03,CRM,Kenji Tanaka,True,True,6636.8
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00032,5,Quote Sent,2026-04-05,ERP Sales,Thomas Weber,True,False,511.2
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00033,1,Need Captured,2025-06-08,CPQ,Nina Patel,True,False,2166.47
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00033,2,Configured,2025-06-11,CPQ,Nina Patel,True,False,6700.7
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00033,3,Priced,2025-06-16,Pricing,Thomas Weber,True,False,6522.42
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00033,4,Approved,2025-06-19,CPQ,Maria Garcia,False,False,3663.08
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00033,5,Quote Sent,2025-06-19,Pricing,Maria Garcia,True,False,7983.74
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00034,1,Need Captured,2025-01-21,ERP Sales,Nina Patel,False,False,2789.47
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00034,2,Configured,2025-01-25,CRM,Maria Garcia,True,False,1883.0
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00034,3,Priced,2025-01-25,CRM,Sara Novak,True,False,6910.55
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00034,4,Approved,2025-01-31,Pricing,Alex Chen,True,False,7357.42
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00034,5,Quote Sent,2025-02-05,Pricing,Kenji Tanaka,False,False,4743.61
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00035,1,Need Captured,2025-03-28,CPQ,Maria Garcia,False,False,3137.33
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00035,2,Configured,2025-04-02,Pricing,Sara Novak,True,False,812.84
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00035,3,Priced,2025-04-06,ERP Sales,Alex Chen,False,False,4540.66
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00035,4,Approved,2025-04-10,CRM,Thomas Weber,True,False,6767.71
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00035,5,Quote Sent,2025-04-13,Pricing,Maria Garcia,False,False,6972.6
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00036,1,Need Captured,2025-05-02,ERP Sales,Maria Garcia,True,False,6254.24
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00036,2,Configured,2025-05-02,CPQ,Maria Garcia,False,False,6449.33
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00036,3,Priced,2025-05-05,CRM,Jon Miller,True,True,1124.48
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00036,4,Approved,2025-05-10,CPQ,Maria Garcia,False,True,5687.25
+lead2quote,Lead2Quote / Configure2Quote,LEAD2QUOTE-00036,5,Quote Sent,2025-05-11,Pricing,Alex Chen,False,False,2468.6

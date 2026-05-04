@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+order2cash,Order2Cash,ORDER2CASH-00001,1,Order Created,2025-08-15,ERP SD,Thomas Weber,False,False,2072.79
+order2cash,Order2Cash,ORDER2CASH-00001,2,ATP Confirmed,2025-08-15,WMS,Maria Garcia,True,True,2165.39
+order2cash,Order2Cash,ORDER2CASH-00001,3,Delivered,2025-08-20,ERP FI-AR,Nina Patel,False,False,3329.84
+order2cash,Order2Cash,ORDER2CASH-00001,4,Billed,2025-08-23,WMS,Thomas Weber,True,False,5114.74
+order2cash,Order2Cash,ORDER2CASH-00001,5,Cash Collected,2025-08-25,ERP SD,Jon Miller,True,False,71.14
+order2cash,Order2Cash,ORDER2CASH-00002,1,Order Created,2025-07-22,ERP FI-AR,Kenji Tanaka,True,False,2780.02
+order2cash,Order2Cash,ORDER2CASH-00002,2,ATP Confirmed,2025-07-27,ERP SD,Sara Novak,False,False,5711.35
+order2cash,Order2Cash,ORDER2CASH-00002,3,Delivered,2025-07-30,TMS,Priya Rao,False,False,3883.65
+order2cash,Order2Cash,ORDER2CASH-00002,4,Billed,2025-08-03,WMS,Maria Garcia,False,False,7365.02
+order2cash,Order2Cash,ORDER2CASH-00002,5,Cash Collected,2025-08-06,ERP SD,Alex Chen,False,False,4221.03
+order2cash,Order2Cash,ORDER2CASH-00003,1,Order Created,2025-08-30,ERP SD,Kenji Tanaka,False,False,337.95
+order2cash,Order2Cash,ORDER2CASH-00003,2,ATP Confirmed,2025-08-30,ERP SD,Thomas Weber,False,False,6796.62
+order2cash,Order2Cash,ORDER2CASH-00003,3,Delivered,2025-08-30,TMS,Thomas Weber,True,False,2440.4
+order2cash,Order2Cash,ORDER2CASH-00003,4,Billed,2025-09-02,TMS,Jon Miller,True,False,2422.04
+order2cash,Order2Cash,ORDER2CASH-00003,5,Cash Collected,2025-09-05,TMS,Kenji Tanaka,True,False,1310.12
+order2cash,Order2Cash,ORDER2CASH-00004,1,Order Created,2025-03-10,TMS,Jon Miller,False,False,6995.45
+order2cash,Order2Cash,ORDER2CASH-00004,2,ATP Confirmed,2025-03-11,ERP FI-AR,Thomas Weber,True,True,2118.5
+order2cash,Order2Cash,ORDER2CASH-00004,3,Delivered,2025-03-15,ERP FI-AR,Alex Chen,False,False,4342.31
+order2cash,Order2Cash,ORDER2CASH-00004,4,Billed,2025-03-21,ERP FI-AR,Priya Rao,False,False,7384.04
+order2cash,Order2Cash,ORDER2CASH-00004,5,Cash Collected,2025-03-25,ERP FI-AR,Thomas Weber,False,False,1603.36
+order2cash,Order2Cash,ORDER2CASH-00005,1,Order Created,2025-11-05,ERP SD,Nina Patel,False,True,2853.45
+order2cash,Order2Cash,ORDER2CASH-00005,2,ATP Confirmed,2025-11-05,WMS,Sara Novak,True,False,3055.67
+order2cash,Order2Cash,ORDER2CASH-00005,3,Delivered,2025-11-06,ERP SD,Jon Miller,True,False,2780.48
+order2cash,Order2Cash,ORDER2CASH-00005,4,Billed,2025-11-07,ERP FI-AR,Maria Garcia,True,False,2944.48
+order2cash,Order2Cash,ORDER2CASH-00005,5,Cash Collected,2025-11-11,ERP SD,Kenji Tanaka,True,True,5486.0
+order2cash,Order2Cash,ORDER2CASH-00006,1,Order Created,2026-01-24,WMS,Kenji Tanaka,True,False,4870.17
+order2cash,Order2Cash,ORDER2CASH-00006,2,ATP Confirmed,2026-01-28,WMS,Alex Chen,False,False,1861.37
+order2cash,Order2Cash,ORDER2CASH-00006,3,Delivered,2026-02-03,TMS,Sara Novak,True,False,6450.4
+order2cash,Order2Cash,ORDER2CASH-00006,4,Billed,2026-02-09,ERP FI-AR,Maria Garcia,False,False,497.32
+order2cash,Order2Cash,ORDER2CASH-00006,5,Cash Collected,2026-02-14,TMS,Nina Patel,True,False,7572.48
+order2cash,Order2Cash,ORDER2CASH-00007,1,Order Created,2025-09-26,ERP FI-AR,Maria Garcia,True,False,6649.79
+order2cash,Order2Cash,ORDER2CASH-00007,2,ATP Confirmed,2025-10-02,ERP FI-AR,Maria Garcia,True,False,6551.82
+order2cash,Order2Cash,ORDER2CASH-00007,3,Delivered,2025-10-05,WMS,Priya Rao,True,True,4707.65
+order2cash,Order2Cash,ORDER2CASH-00007,4,Billed,2025-10-10,WMS,Thomas Weber,True,False,757.45
+order2cash,Order2Cash,ORDER2CASH-00007,5,Cash Collected,2025-10-11,WMS,Kenji Tanaka,True,False,5919.62
+order2cash,Order2Cash,ORDER2CASH-00008,1,Order Created,2025-06-10,ERP FI-AR,Thomas Weber,True,False,4040.55
+order2cash,Order2Cash,ORDER2CASH-00008,2,ATP Confirmed,2025-06-10,ERP SD,Sara Novak,False,True,6971.03
+order2cash,Order2Cash,ORDER2CASH-00008,3,Delivered,2025-06-11,WMS,Priya Rao,False,False,3852.28
+order2cash,Order2Cash,ORDER2CASH-00008,4,Billed,2025-06-14,ERP FI-AR,Alex Chen,False,False,2746.75
+order2cash,Order2Cash,ORDER2CASH-00008,5,Cash Collected,2025-06-15,ERP FI-AR,Priya Rao,True,False,7046.54
+order2cash,Order2Cash,ORDER2CASH-00009,1,Order Created,2025-08-03,WMS,Sara Novak,True,False,7556.87
+order2cash,Order2Cash,ORDER2CASH-00009,2,ATP Confirmed,2025-08-07,WMS,Kenji Tanaka,True,False,6952.49
+order2cash,Order2Cash,ORDER2CASH-00009,3,Delivered,2025-08-11,ERP SD,Kenji Tanaka,True,False,2448.52
+order2cash,Order2Cash,ORDER2CASH-00009,4,Billed,2025-08-17,ERP FI-AR,Thomas Weber,True,False,5798.33
+order2cash,Order2Cash,ORDER2CASH-00009,5,Cash Collected,2025-08-21,TMS,Maria Garcia,False,False,1083.33
+order2cash,Order2Cash,ORDER2CASH-00010,1,Order Created,2025-06-06,ERP FI-AR,Nina Patel,True,False,6343.03
+order2cash,Order2Cash,ORDER2CASH-00010,2,ATP Confirmed,2025-06-06,TMS,Priya Rao,True,False,7206.31
+order2cash,Order2Cash,ORDER2CASH-00010,3,Delivered,2025-06-08,WMS,Thomas Weber,True,False,2143.31
+order2cash,Order2Cash,ORDER2CASH-00010,4,Billed,2025-06-09,WMS,Sara Novak,False,False,538.74
+order2cash,Order2Cash,ORDER2CASH-00010,5,Cash Collected,2025-06-09,ERP SD,Priya Rao,True,False,4973.91
+order2cash,Order2Cash,ORDER2CASH-00011,1,Order Created,2026-01-20,WMS,Nina Patel,True,False,1886.89
+order2cash,Order2Cash,ORDER2CASH-00011,2,ATP Confirmed,2026-01-23,ERP FI-AR,Thomas Weber,True,False,5981.04
+order2cash,Order2Cash,ORDER2CASH-00011,3,Delivered,2026-01-28,ERP SD,Kenji Tanaka,False,False,5723.69
+order2cash,Order2Cash,ORDER2CASH-00011,4,Billed,2026-01-29,ERP FI-AR,Sara Novak,True,True,2059.0
+order2cash,Order2Cash,ORDER2CASH-00011,5,Cash Collected,2026-01-30,WMS,Thomas Weber,False,False,7267.76
+order2cash,Order2Cash,ORDER2CASH-00012,1,Order Created,2025-04-13,ERP SD,Nina Patel,False,False,4576.54
+order2cash,Order2Cash,ORDER2CASH-00012,2,ATP Confirmed,2025-04-14,TMS,Alex Chen,True,False,6920.29
+order2cash,Order2Cash,ORDER2CASH-00012,3,Delivered,2025-04-18,TMS,Sara Novak,False,False,3547.02
+order2cash,Order2Cash,ORDER2CASH-00012,4,Billed,2025-04-23,ERP SD,Thomas Weber,False,False,3973.62
+order2cash,Order2Cash,ORDER2CASH-00012,5,Cash Collected,2025-04-26,WMS,Jon Miller,True,False,7943.4
+order2cash,Order2Cash,ORDER2CASH-00013,1,Order Created,2025-01-29,WMS,Sara Novak,True,True,7137.05
+order2cash,Order2Cash,ORDER2CASH-00013,2,ATP Confirmed,2025-01-30,WMS,Kenji Tanaka,False,False,4691.81
+order2cash,Order2Cash,ORDER2CASH-00013,3,Delivered,2025-02-03,ERP FI-AR,Thomas Weber,False,False,5951.94
+order2cash,Order2Cash,ORDER2CASH-00013,4,Billed,2025-02-08,TMS,Alex Chen,False,False,6928.12
+order2cash,Order2Cash,ORDER2CASH-00013,5,Cash Collected,2025-02-13,ERP SD,Nina Patel,True,False,5312.59
+order2cash,Order2Cash,ORDER2CASH-00014,1,Order Created,2025-08-22,TMS,Nina Patel,False,False,4669.18
+order2cash,Order2Cash,ORDER2CASH-00014,2,ATP Confirmed,2025-08-22,TMS,Priya Rao,False,False,7777.99
+order2cash,Order2Cash,ORDER2CASH-00014,3,Delivered,2025-08-23,ERP FI-AR,Thomas Weber,True,False,5690.96
+order2cash,Order2Cash,ORDER2CASH-00014,4,Billed,2025-08-23,TMS,Alex Chen,True,False,7879.8
+order2cash,Order2Cash,ORDER2CASH-00014,5,Cash Collected,2025-08-24,WMS,Maria Garcia,False,False,7784.34
+order2cash,Order2Cash,ORDER2CASH-00015,1,Order Created,2026-02-17,TMS,Jon Miller,False,False,3232.81
+order2cash,Order2Cash,ORDER2CASH-00015,2,ATP Confirmed,2026-02-23,TMS,Priya Rao,False,True,3781.51
+order2cash,Order2Cash,ORDER2CASH-00015,3,Delivered,2026-02-28,ERP SD,Sara Novak,True,False,6444.37
+order2cash,Order2Cash,ORDER2CASH-00015,4,Billed,2026-03-04,ERP FI-AR,Priya Rao,True,True,1293.51
+order2cash,Order2Cash,ORDER2CASH-00015,5,Cash Collected,2026-03-07,ERP SD,Thomas Weber,True,False,2953.73
+order2cash,Order2Cash,ORDER2CASH-00016,1,Order Created,2025-06-16,ERP FI-AR,Jon Miller,False,False,257.12
+order2cash,Order2Cash,ORDER2CASH-00016,2,ATP Confirmed,2025-06-18,ERP SD,Jon Miller,True,False,6645.04
+order2cash,Order2Cash,ORDER2CASH-00016,3,Delivered,2025-06-20,ERP SD,Thomas Weber,False,False,2955.41
+order2cash,Order2Cash,ORDER2CASH-00016,4,Billed,2025-06-21,ERP SD,Priya Rao,False,False,6199.71
+order2cash,Order2Cash,ORDER2CASH-00016,5,Cash Collected,2025-06-24,WMS,Nina Patel,True,False,2338.33
+order2cash,Order2Cash,ORDER2CASH-00017,1,Order Created,2025-11-13,TMS,Priya Rao,True,False,303.59
+order2cash,Order2Cash,ORDER2CASH-00017,2,ATP Confirmed,2025-11-19,TMS,Nina Patel,True,False,5394.07
+order2cash,Order2Cash,ORDER2CASH-00017,3,Delivered,2025-11-20,WMS,Nina Patel,True,False,694.35
+order2cash,Order2Cash,ORDER2CASH-00017,4,Billed,2025-11-25,TMS,Maria Garcia,True,False,7808.06
+order2cash,Order2Cash,ORDER2CASH-00017,5,Cash Collected,2025-12-01,ERP FI-AR,Priya Rao,False,False,4779.54
+order2cash,Order2Cash,ORDER2CASH-00018,1,Order Created,2025-04-28,ERP FI-AR,Kenji Tanaka,False,False,7877.61
+order2cash,Order2Cash,ORDER2CASH-00018,2,ATP Confirmed,2025-05-04,ERP SD,Jon Miller,True,False,6030.36
+order2cash,Order2Cash,ORDER2CASH-00018,3,Delivered,2025-05-06,ERP SD,Priya Rao,True,False,3276.93
+order2cash,Order2Cash,ORDER2CASH-00018,4,Billed,2025-05-12,TMS,Nina Patel,False,False,7232.77
+order2cash,Order2Cash,ORDER2CASH-00018,5,Cash Collected,2025-05-18,WMS,Kenji Tanaka,False,False,610.13
+order2cash,Order2Cash,ORDER2CASH-00019,1,Order Created,2026-01-29,WMS,Alex Chen,False,False,1643.72
+order2cash,Order2Cash,ORDER2CASH-00019,2,ATP Confirmed,2026-02-03,TMS,Nina Patel,False,True,5118.45
+order2cash,Order2Cash,ORDER2CASH-00019,3,Delivered,2026-02-07,ERP SD,Thomas Weber,False,False,326.48
+order2cash,Order2Cash,ORDER2CASH-00019,4,Billed,2026-02-08,ERP SD,Nina Patel,False,False,2783.6
+order2cash,Order2Cash,ORDER2CASH-00019,5,Cash Collected,2026-02-09,TMS,Kenji Tanaka,False,False,4061.51
+order2cash,Order2Cash,ORDER2CASH-00020,1,Order Created,2026-03-25,ERP FI-AR,Alex Chen,True,False,5826.69
+order2cash,Order2Cash,ORDER2CASH-00020,2,ATP Confirmed,2026-03-28,TMS,Jon Miller,False,False,437.54
+order2cash,Order2Cash,ORDER2CASH-00020,3,Delivered,2026-03-30,WMS,Jon Miller,True,False,2773.05
+order2cash,Order2Cash,ORDER2CASH-00020,4,Billed,2026-04-04,ERP FI-AR,Nina Patel,True,False,3038.2
+order2cash,Order2Cash,ORDER2CASH-00020,5,Cash Collected,2026-04-10,TMS,Sara Novak,False,False,7503.29
+order2cash,Order2Cash,ORDER2CASH-00021,1,Order Created,2025-10-18,WMS,Sara Novak,True,False,2297.54
+order2cash,Order2Cash,ORDER2CASH-00021,2,ATP Confirmed,2025-10-24,TMS,Priya Rao,True,False,2621.17
+order2cash,Order2Cash,ORDER2CASH-00021,3,Delivered,2025-10-26,WMS,Thomas Weber,True,False,6504.05
+order2cash,Order2Cash,ORDER2CASH-00021,4,Billed,2025-10-30,TMS,Alex Chen,False,False,2789.21
+order2cash,Order2Cash,ORDER2CASH-00021,5,Cash Collected,2025-11-03,ERP FI-AR,Alex Chen,True,False,1534.92
+order2cash,Order2Cash,ORDER2CASH-00022,1,Order Created,2025-08-18,WMS,Alex Chen,True,False,3230.73
+order2cash,Order2Cash,ORDER2CASH-00022,2,ATP Confirmed,2025-08-22,WMS,Alex Chen,True,False,3398.61
+order2cash,Order2Cash,ORDER2CASH-00022,3,Delivered,2025-08-22,ERP SD,Thomas Weber,True,False,7372.75
+order2cash,Order2Cash,ORDER2CASH-00022,4,Billed,2025-08-28,TMS,Thomas Weber,True,True,630.35
+order2cash,Order2Cash,ORDER2CASH-00022,5,Cash Collected,2025-08-31,TMS,Thomas Weber,True,False,1492.68
+order2cash,Order2Cash,ORDER2CASH-00023,1,Order Created,2025-05-25,TMS,Kenji Tanaka,True,False,5339.67
+order2cash,Order2Cash,ORDER2CASH-00023,2,ATP Confirmed,2025-05-29,TMS,Thomas Weber,False,False,6434.21
+order2cash,Order2Cash,ORDER2CASH-00023,3,Delivered,2025-06-02,WMS,Maria Garcia,True,False,7138.39
+order2cash,Order2Cash,ORDER2CASH-00023,4,Billed,2025-06-05,ERP SD,Jon Miller,True,False,3991.38
+order2cash,Order2Cash,ORDER2CASH-00023,5,Cash Collected,2025-06-06,ERP SD,Alex Chen,False,False,7637.97
+order2cash,Order2Cash,ORDER2CASH-00024,1,Order Created,2025-10-03,TMS,Priya Rao,False,False,5134.7
+order2cash,Order2Cash,ORDER2CASH-00024,2,ATP Confirmed,2025-10-03,WMS,Sara Novak,True,False,3980.7
+order2cash,Order2Cash,ORDER2CASH-00024,3,Delivered,2025-10-05,TMS,Alex Chen,False,False,7861.19
+order2cash,Order2Cash,ORDER2CASH-00024,4,Billed,2025-10-09,TMS,Priya Rao,True,False,3278.89
+order2cash,Order2Cash,ORDER2CASH-00024,5,Cash Collected,2025-10-14,TMS,Sara Novak,False,False,4589.0
+order2cash,Order2Cash,ORDER2CASH-00025,1,Order Created,2026-02-22,ERP SD,Thomas Weber,False,False,2238.31
+order2cash,Order2Cash,ORDER2CASH-00025,2,ATP Confirmed,2026-02-28,ERP FI-AR,Nina Patel,False,True,1068.23
+order2cash,Order2Cash,ORDER2CASH-00025,3,Delivered,2026-03-04,ERP FI-AR,Thomas Weber,True,False,3753.51
+order2cash,Order2Cash,ORDER2CASH-00025,4,Billed,2026-03-10,ERP SD,Alex Chen,False,False,3594.79
+order2cash,Order2Cash,ORDER2CASH-00025,5,Cash Collected,2026-03-15,WMS,Maria Garcia,True,False,3432.48
+order2cash,Order2Cash,ORDER2CASH-00026,1,Order Created,2025-12-13,ERP FI-AR,Alex Chen,True,False,2869.56
+order2cash,Order2Cash,ORDER2CASH-00026,2,ATP Confirmed,2025-12-17,TMS,Jon Miller,True,False,430.63
+order2cash,Order2Cash,ORDER2CASH-00026,3,Delivered,2025-12-18,WMS,Priya Rao,False,False,1776.53
+order2cash,Order2Cash,ORDER2CASH-00026,4,Billed,2025-12-24,ERP FI-AR,Kenji Tanaka,False,False,4349.42
+order2cash,Order2Cash,ORDER2CASH-00026,5,Cash Collected,2025-12-27,ERP FI-AR,Sara Novak,False,False,4581.41
+order2cash,Order2Cash,ORDER2CASH-00027,1,Order Created,2026-02-11,TMS,Nina Patel,False,False,7652.6
+order2cash,Order2Cash,ORDER2CASH-00027,2,ATP Confirmed,2026-02-12,WMS,Alex Chen,True,False,7130.17
+order2cash,Order2Cash,ORDER2CASH-00027,3,Delivered,2026-02-12,ERP SD,Priya Rao,False,False,73.83
+order2cash,Order2Cash,ORDER2CASH-00027,4,Billed,2026-02-15,WMS,Kenji Tanaka,True,False,4551.66
+order2cash,Order2Cash,ORDER2CASH-00027,5,Cash Collected,2026-02-16,TMS,Nina Patel,True,False,3186.09
+order2cash,Order2Cash,ORDER2CASH-00028,1,Order Created,2025-04-24,TMS,Priya Rao,False,True,3429.7
+order2cash,Order2Cash,ORDER2CASH-00028,2,ATP Confirmed,2025-04-26,ERP FI-AR,Maria Garcia,True,False,5090.25
+order2cash,Order2Cash,ORDER2CASH-00028,3,Delivered,2025-04-28,WMS,Sara Novak,True,False,5205.56
+order2cash,Order2Cash,ORDER2CASH-00028,4,Billed,2025-05-04,ERP SD,Sara Novak,False,False,5999.28
+order2cash,Order2Cash,ORDER2CASH-00028,5,Cash Collected,2025-05-09,ERP SD,Jon Miller,True,False,828.47
+order2cash,Order2Cash,ORDER2CASH-00029,1,Order Created,2025-08-30,WMS,Thomas Weber,True,False,2722.42
+order2cash,Order2Cash,ORDER2CASH-00029,2,ATP Confirmed,2025-09-03,WMS,Priya Rao,True,False,6810.38
+order2cash,Order2Cash,ORDER2CASH-00029,3,Delivered,2025-09-03,WMS,Priya Rao,True,False,6384.22
+order2cash,Order2Cash,ORDER2CASH-00029,4,Billed,2025-09-05,ERP SD,Kenji Tanaka,True,False,4112.03
+order2cash,Order2Cash,ORDER2CASH-00029,5,Cash Collected,2025-09-08,WMS,Nina Patel,True,False,2883.87
+order2cash,Order2Cash,ORDER2CASH-00030,1,Order Created,2026-02-14,WMS,Nina Patel,False,False,4942.16
+order2cash,Order2Cash,ORDER2CASH-00030,2,ATP Confirmed,2026-02-18,ERP SD,Jon Miller,False,False,1178.8
+order2cash,Order2Cash,ORDER2CASH-00030,3,Delivered,2026-02-23,ERP SD,Maria Garcia,True,False,5020.59
+order2cash,Order2Cash,ORDER2CASH-00030,4,Billed,2026-02-25,ERP SD,Kenji Tanaka,True,False,201.47
+order2cash,Order2Cash,ORDER2CASH-00030,5,Cash Collected,2026-03-02,ERP FI-AR,Nina Patel,False,False,3762.15
+order2cash,Order2Cash,ORDER2CASH-00031,1,Order Created,2025-05-29,TMS,Nina Patel,True,False,7940.1
+order2cash,Order2Cash,ORDER2CASH-00031,2,ATP Confirmed,2025-05-29,ERP FI-AR,Thomas Weber,False,False,7691.82
+order2cash,Order2Cash,ORDER2CASH-00031,3,Delivered,2025-06-03,WMS,Jon Miller,True,False,6048.24
+order2cash,Order2Cash,ORDER2CASH-00031,4,Billed,2025-06-07,TMS,Jon Miller,False,False,4231.06
+order2cash,Order2Cash,ORDER2CASH-00031,5,Cash Collected,2025-06-08,ERP SD,Priya Rao,True,False,1691.72
+order2cash,Order2Cash,ORDER2CASH-00032,1,Order Created,2025-10-27,ERP SD,Jon Miller,True,False,1684.96
+order2cash,Order2Cash,ORDER2CASH-00032,2,ATP Confirmed,2025-10-30,ERP SD,Priya Rao,True,False,547.63
+order2cash,Order2Cash,ORDER2CASH-00032,3,Delivered,2025-11-02,WMS,Thomas Weber,True,True,773.41
+order2cash,Order2Cash,ORDER2CASH-00032,4,Billed,2025-11-08,TMS,Kenji Tanaka,False,False,494.97
+order2cash,Order2Cash,ORDER2CASH-00032,5,Cash Collected,2025-11-14,ERP FI-AR,Maria Garcia,True,False,6745.78
+order2cash,Order2Cash,ORDER2CASH-00033,1,Order Created,2025-11-08,ERP FI-AR,Alex Chen,False,False,3471.13
+order2cash,Order2Cash,ORDER2CASH-00033,2,ATP Confirmed,2025-11-09,ERP FI-AR,Thomas Weber,False,False,2653.06
+order2cash,Order2Cash,ORDER2CASH-00033,3,Delivered,2025-11-09,TMS,Priya Rao,True,False,1266.87
+order2cash,Order2Cash,ORDER2CASH-00033,4,Billed,2025-11-14,ERP SD,Nina Patel,True,False,7578.35
+order2cash,Order2Cash,ORDER2CASH-00033,5,Cash Collected,2025-11-20,WMS,Thomas Weber,False,False,5733.16
+order2cash,Order2Cash,ORDER2CASH-00034,1,Order Created,2025-06-04,WMS,Thomas Weber,False,False,6003.11
+order2cash,Order2Cash,ORDER2CASH-00034,2,ATP Confirmed,2025-06-09,ERP SD,Sara Novak,False,False,267.43
+order2cash,Order2Cash,ORDER2CASH-00034,3,Delivered,2025-06-10,ERP SD,Nina Patel,False,False,1915.73
+order2cash,Order2Cash,ORDER2CASH-00034,4,Billed,2025-06-11,ERP SD,Sara Novak,True,False,4863.37
+order2cash,Order2Cash,ORDER2CASH-00034,5,Cash Collected,2025-06-17,ERP SD,Maria Garcia,False,False,7410.92
+order2cash,Order2Cash,ORDER2CASH-00035,1,Order Created,2025-08-21,WMS,Alex Chen,True,False,3149.33
+order2cash,Order2Cash,ORDER2CASH-00035,2,ATP Confirmed,2025-08-27,TMS,Kenji Tanaka,False,False,3553.53
+order2cash,Order2Cash,ORDER2CASH-00035,3,Delivered,2025-09-02,WMS,Nina Patel,False,False,2616.45
+order2cash,Order2Cash,ORDER2CASH-00035,4,Billed,2025-09-05,WMS,Kenji Tanaka,False,False,5595.6
+order2cash,Order2Cash,ORDER2CASH-00035,5,Cash Collected,2025-09-08,ERP SD,Jon Miller,False,True,2436.39
+order2cash,Order2Cash,ORDER2CASH-00036,1,Order Created,2025-12-19,ERP FI-AR,Thomas Weber,False,False,593.88
+order2cash,Order2Cash,ORDER2CASH-00036,2,ATP Confirmed,2025-12-21,TMS,Kenji Tanaka,True,True,7918.47
+order2cash,Order2Cash,ORDER2CASH-00036,3,Delivered,2025-12-24,WMS,Alex Chen,True,False,1726.98
+order2cash,Order2Cash,ORDER2CASH-00036,4,Billed,2025-12-28,WMS,Priya Rao,False,False,522.54
+order2cash,Order2Cash,ORDER2CASH-00036,5,Cash Collected,2025-12-28,ERP FI-AR,Nina Patel,True,False,1665.26

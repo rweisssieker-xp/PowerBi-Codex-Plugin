@@ -1,0 +1,73 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+order2cash,Order2Cash,2025-01,Order Value,47.24,47.2,2.36,Green,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-01,Backlog Value,15.97,18.39,0.92,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-01,OTIF %,90.73,87.24,4.36,Green,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-01,Billing Block Value,28.91,30.62,1.53,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-01,Open AR,40.07,41.92,2.1,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-01,DSO,53.91,55.18,2.76,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-02,Order Value,36.45,39.46,1.97,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-02,Backlog Value,47.07,45.86,2.29,Green,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-02,OTIF %,71.02,78.66,3.93,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-02,Billing Block Value,38.34,40.5,2.02,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-02,Open AR,32.85,41.68,2.08,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-02,DSO,26.34,27.86,1.39,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-03,Order Value,16.91,19.44,0.97,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-03,Backlog Value,43.17,44.91,2.25,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-03,OTIF %,83.09,92.55,4.63,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-03,Billing Block Value,11.97,16.09,0.8,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-03,Open AR,32.98,40.42,2.02,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-03,DSO,38.17,43.18,2.16,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-04,Order Value,13.34,18.23,0.91,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-04,Backlog Value,16.68,18.71,0.94,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-04,OTIF %,66.98,84.57,4.23,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-04,Billing Block Value,49.11,57.45,2.87,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-04,Open AR,49.15,58.87,2.94,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-04,DSO,36.09,39.22,1.96,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-05,Order Value,60.06,58.17,2.91,Green,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-05,Backlog Value,14.58,18.48,0.92,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-05,OTIF %,84.58,85.51,4.28,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-05,Billing Block Value,37.07,41.25,2.06,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-05,Open AR,32.14,39.5,1.98,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-05,DSO,26.06,32.28,1.61,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-06,Order Value,52.74,59.63,2.98,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-06,Backlog Value,14.02,18.49,0.92,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-06,OTIF %,60.23,78.86,3.94,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-06,Billing Block Value,46.34,52.75,2.64,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-06,Open AR,47.43,57.11,2.86,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-06,DSO,31.22,32.65,1.63,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-07,Order Value,38.58,45.09,2.25,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-07,Backlog Value,21.14,23.25,1.16,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-07,OTIF %,70.3,81.14,4.06,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-07,Billing Block Value,6.95,10.93,0.55,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-07,Open AR,13.34,17.91,0.9,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-07,DSO,47.57,52.59,2.63,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-08,Order Value,8.68,14.81,0.74,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-08,Backlog Value,33.2,42.06,2.1,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-08,OTIF %,64.51,75.96,3.8,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-08,Billing Block Value,34.87,44.73,2.24,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-08,Open AR,14.0,18.26,0.91,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-08,DSO,14.47,18.97,0.95,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-09,Order Value,43.93,55.91,2.8,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-09,Backlog Value,38.07,41.19,2.06,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-09,OTIF %,77.74,94.56,4.73,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-09,Billing Block Value,29.9,30.46,1.52,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-09,Open AR,38.13,43.75,2.19,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-09,DSO,60.29,59.45,2.97,Green,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-10,Order Value,25.23,33.33,1.67,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-10,Backlog Value,14.98,16.45,0.82,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-10,OTIF %,75.32,79.73,3.99,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-10,Billing Block Value,23.4,25.13,1.26,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-10,Open AR,17.37,25.77,1.29,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-10,DSO,53.78,59.25,2.96,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-11,Order Value,37.25,38.16,1.91,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-11,Backlog Value,16.89,24.71,1.24,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-11,OTIF %,92.71,93.28,4.66,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-11,Billing Block Value,38.87,45.18,2.26,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-11,Open AR,28.68,37.46,1.87,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-11,DSO,40.02,41.01,2.05,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-12,Order Value,15.77,20.78,1.04,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-12,Backlog Value,11.88,15.5,0.78,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-12,OTIF %,95.28,95.51,4.78,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-12,Billing Block Value,21.2,27.7,1.39,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-12,Open AR,14.95,19.05,0.95,Red,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR
+order2cash,Order2Cash,2025-12,DSO,49.11,51.43,2.57,Amber,Order-to-Cash Process Owner,ERP SD; WMS; TMS; ERP FI-AR

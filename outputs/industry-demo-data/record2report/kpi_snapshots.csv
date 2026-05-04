@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+record2report,Record2Report,2025-01,Close Cycle Time,13.47,16.75,0.84,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-01,Late Posting Count,26.8,28.82,1.44,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-01,Reconciliation Breaks,25.61,29.36,1.47,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-01,Journal Error Rate,88.01,88.23,4.41,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-01,Audit Finding Count,44.03,51.27,2.56,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-02,Close Cycle Time,35.29,34.61,1.73,Green,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-02,Late Posting Count,14.1,15.4,0.77,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-02,Reconciliation Breaks,39.88,48.7,2.44,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-02,Journal Error Rate,75.17,84.27,4.21,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-02,Audit Finding Count,56.71,55.71,2.79,Green,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-03,Close Cycle Time,12.5,15.72,0.79,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-03,Late Posting Count,31.7,33.38,1.67,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-03,Reconciliation Breaks,51.34,52.94,2.65,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-03,Journal Error Rate,89.59,93.6,4.68,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-03,Audit Finding Count,46.05,58.6,2.93,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-04,Close Cycle Time,31.64,33.86,1.69,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-04,Late Posting Count,43.72,56.58,2.83,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-04,Reconciliation Breaks,27.81,30.88,1.54,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-04,Journal Error Rate,81.4,94.92,4.75,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-04,Audit Finding Count,12.47,13.76,0.69,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-05,Close Cycle Time,26.32,29.99,1.5,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-05,Late Posting Count,39.68,41.77,2.09,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-05,Reconciliation Breaks,19.21,20.12,1.01,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-05,Journal Error Rate,84.43,84.47,4.22,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-05,Audit Finding Count,37.62,47.01,2.35,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-06,Close Cycle Time,23.49,30.85,1.54,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-06,Late Posting Count,54.14,57.54,2.88,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-06,Reconciliation Breaks,49.35,56.88,2.84,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-06,Journal Error Rate,66.34,79.49,3.97,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-06,Audit Finding Count,30.96,35.56,1.78,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-07,Close Cycle Time,17.46,21.02,1.05,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-07,Late Posting Count,6.32,11.57,0.58,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-07,Reconciliation Breaks,35.12,42.85,2.14,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-07,Journal Error Rate,84.64,83.37,4.17,Green,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-07,Audit Finding Count,9.11,13.6,0.68,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-08,Close Cycle Time,16.01,18.89,0.94,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-08,Late Posting Count,22.43,22.44,1.12,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-08,Reconciliation Breaks,46.95,48.68,2.43,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-08,Journal Error Rate,61.31,75.15,3.76,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-08,Audit Finding Count,27.4,28.73,1.44,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-09,Close Cycle Time,16.29,21.44,1.07,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-09,Late Posting Count,45.66,52.23,2.61,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-09,Reconciliation Breaks,25.78,29.4,1.47,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-09,Journal Error Rate,92.73,92.83,4.64,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-09,Audit Finding Count,9.75,12.04,0.6,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-10,Close Cycle Time,23.82,29.46,1.47,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-10,Late Posting Count,16.39,19.91,1.0,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-10,Reconciliation Breaks,11.94,13.05,0.65,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-10,Journal Error Rate,82.8,83.55,4.18,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-10,Audit Finding Count,52.24,50.06,2.5,Green,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-11,Close Cycle Time,9.48,15.4,0.77,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-11,Late Posting Count,13.65,15.47,0.77,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-11,Reconciliation Breaks,38.37,47.85,2.39,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-11,Journal Error Rate,92.57,89.94,4.5,Green,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-11,Audit Finding Count,48.63,54.05,2.7,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-12,Close Cycle Time,23.19,24.27,1.21,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-12,Late Posting Count,37.88,39.29,1.96,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-12,Reconciliation Breaks,38.93,46.85,2.34,Red,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-12,Journal Error Rate,92.09,87.45,4.37,Green,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC
+record2report,Record2Report,2025-12,Audit Finding Count,43.95,46.26,2.31,Amber,Record-to-Report Process Owner,ERP FI/CO; EPM; Consolidation; GRC

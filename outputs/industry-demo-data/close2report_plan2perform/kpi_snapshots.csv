@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+close2report_plan2perform,Close2Report / Plan2Perform,2025-01,Close Cycle,38.28,42.77,2.14,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-01,Late Postings,15.42,19.28,0.96,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-01,Reconciliation Breaks,37.24,43.24,2.16,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-01,Forecast Variance,47.85,59.21,2.96,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-01,Planning Assumption Drift,41.85,49.94,2.5,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-02,Close Cycle,36.21,41.58,2.08,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-02,Late Postings,9.81,12.1,0.6,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-02,Reconciliation Breaks,48.05,48.59,2.43,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-02,Forecast Variance,28.88,29.2,1.46,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-02,Planning Assumption Drift,13.08,14.29,0.71,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-03,Close Cycle,11.27,14.65,0.73,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-03,Late Postings,44.62,50.67,2.53,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-03,Reconciliation Breaks,31.69,32.19,1.61,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-03,Forecast Variance,58.71,59.07,2.95,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-03,Planning Assumption Drift,20.36,20.63,1.03,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-04,Close Cycle,47.67,49.7,2.49,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-04,Late Postings,25.15,30.49,1.52,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-04,Reconciliation Breaks,44.8,45.18,2.26,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-04,Forecast Variance,37.36,40.02,2.0,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-04,Planning Assumption Drift,16.25,22.42,1.12,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-05,Close Cycle,31.62,37.3,1.86,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-05,Late Postings,18.95,25.57,1.28,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-05,Reconciliation Breaks,14.58,18.46,0.92,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-05,Forecast Variance,13.81,18.37,0.92,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-05,Planning Assumption Drift,15.74,16.28,0.81,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-06,Close Cycle,14.37,17.61,0.88,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-06,Late Postings,44.47,59.41,2.97,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-06,Reconciliation Breaks,40.31,39.25,1.96,Green,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-06,Forecast Variance,14.08,17.06,0.85,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-06,Planning Assumption Drift,51.66,56.86,2.84,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-07,Close Cycle,29.87,33.27,1.66,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-07,Late Postings,33.62,37.39,1.87,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-07,Reconciliation Breaks,25.24,27.42,1.37,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-07,Forecast Variance,46.01,55.13,2.76,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-07,Planning Assumption Drift,57.44,55.49,2.77,Green,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-08,Close Cycle,32.95,36.06,1.8,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-08,Late Postings,8.92,13.39,0.67,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-08,Reconciliation Breaks,19.7,26.51,1.33,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-08,Forecast Variance,24.82,30.67,1.53,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-08,Planning Assumption Drift,25.73,29.02,1.45,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-09,Close Cycle,53.34,55.35,2.77,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-09,Late Postings,53.36,58.81,2.94,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-09,Reconciliation Breaks,40.81,44.21,2.21,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-09,Forecast Variance,35.01,37.41,1.87,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-09,Planning Assumption Drift,45.25,50.96,2.55,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-10,Close Cycle,38.95,40.28,2.01,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-10,Late Postings,23.49,24.14,1.21,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-10,Reconciliation Breaks,43.43,49.63,2.48,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-10,Forecast Variance,52.28,54.89,2.74,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-10,Planning Assumption Drift,24.64,30.06,1.5,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-11,Close Cycle,38.63,42.65,2.13,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-11,Late Postings,39.07,52.03,2.6,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-11,Reconciliation Breaks,17.87,18.26,0.91,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-11,Forecast Variance,47.08,46.18,2.31,Green,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-11,Planning Assumption Drift,42.42,45.55,2.28,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-12,Close Cycle,25.54,27.92,1.4,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-12,Late Postings,49.42,52.77,2.64,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-12,Reconciliation Breaks,44.56,50.89,2.54,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-12,Forecast Variance,9.56,13.15,0.66,Red,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation
+close2report_plan2perform,Close2Report / Plan2Perform,2025-12,Planning Assumption Drift,42.46,43.88,2.19,Amber,Close and Planning Process Owner,ERP FI/CO; EPM; Planning; Consolidation

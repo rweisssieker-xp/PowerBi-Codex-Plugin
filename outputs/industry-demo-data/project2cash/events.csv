@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00001,1,Project Created,2025-02-07,Project System,Alex Chen,False,True,2161.42
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00001,2,Engineering Released,2025-02-07,Project System,Jon Miller,False,False,6174.03
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00001,3,Milestone Achieved,2025-02-08,Billing,Thomas Weber,True,False,5215.87
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00001,4,Billed,2025-02-09,ERP CO,Sara Novak,True,False,7722.23
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00001,5,Cash Collected,2025-02-13,Billing,Sara Novak,True,False,1629.93
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00002,1,Project Created,2025-11-28,Billing,Maria Garcia,True,False,75.33
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00002,2,Engineering Released,2025-12-03,ERP CO,Sara Novak,False,False,4783.29
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00002,3,Milestone Achieved,2025-12-04,ERP CO,Maria Garcia,True,False,4848.92
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00002,4,Billed,2025-12-08,PLM,Priya Rao,True,False,6089.2
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00002,5,Cash Collected,2025-12-10,ERP CO,Nina Patel,True,False,976.87
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00003,1,Project Created,2025-02-06,ERP CO,Jon Miller,True,False,1090.47
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00003,2,Engineering Released,2025-02-06,ERP CO,Priya Rao,True,True,3589.37
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00003,3,Milestone Achieved,2025-02-06,Billing,Maria Garcia,True,False,3157.67
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00003,4,Billed,2025-02-09,Project System,Alex Chen,False,False,5100.71
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00003,5,Cash Collected,2025-02-09,PLM,Nina Patel,False,False,6361.35
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00004,1,Project Created,2025-05-01,Project System,Alex Chen,True,True,7428.51
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00004,2,Engineering Released,2025-05-03,Project System,Jon Miller,True,False,1561.7
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00004,3,Milestone Achieved,2025-05-09,ERP CO,Jon Miller,False,False,2798.87
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00004,4,Billed,2025-05-15,Project System,Priya Rao,True,True,969.88
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00004,5,Cash Collected,2025-05-18,Project System,Maria Garcia,False,True,6113.94
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00005,1,Project Created,2025-11-16,Project System,Kenji Tanaka,True,True,1272.49
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00005,2,Engineering Released,2025-11-17,Billing,Sara Novak,True,False,7173.01
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00005,3,Milestone Achieved,2025-11-21,PLM,Thomas Weber,True,False,205.83
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00005,4,Billed,2025-11-27,PLM,Nina Patel,True,False,622.9
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00005,5,Cash Collected,2025-11-28,ERP CO,Priya Rao,True,False,3894.12
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00006,1,Project Created,2025-01-22,Billing,Sara Novak,False,False,118.76
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00006,2,Engineering Released,2025-01-23,ERP CO,Alex Chen,False,False,4970.07
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00006,3,Milestone Achieved,2025-01-25,Billing,Maria Garcia,False,False,5645.92
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00006,4,Billed,2025-01-25,PLM,Jon Miller,True,False,7999.53
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00006,5,Cash Collected,2025-01-28,ERP CO,Jon Miller,False,False,2188.07
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00007,1,Project Created,2025-06-20,Project System,Kenji Tanaka,False,False,570.88
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00007,2,Engineering Released,2025-06-26,PLM,Sara Novak,False,False,1063.54
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00007,3,Milestone Achieved,2025-06-28,PLM,Maria Garcia,False,False,5761.1
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00007,4,Billed,2025-07-04,PLM,Thomas Weber,True,False,3334.16
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00007,5,Cash Collected,2025-07-08,Billing,Sara Novak,True,False,1735.07
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00008,1,Project Created,2026-01-13,ERP CO,Nina Patel,True,False,7582.59
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00008,2,Engineering Released,2026-01-16,ERP CO,Priya Rao,False,False,6599.91
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00008,3,Milestone Achieved,2026-01-22,PLM,Jon Miller,False,False,4241.32
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00008,4,Billed,2026-01-26,Project System,Priya Rao,True,False,3015.02
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00008,5,Cash Collected,2026-01-28,Billing,Sara Novak,False,False,855.83
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00009,1,Project Created,2025-03-31,Project System,Kenji Tanaka,True,False,5034.92
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00009,2,Engineering Released,2025-04-03,Project System,Sara Novak,False,False,4602.6
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00009,3,Milestone Achieved,2025-04-07,ERP CO,Priya Rao,False,False,339.24
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00009,4,Billed,2025-04-12,ERP CO,Alex Chen,False,False,5086.82
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00009,5,Cash Collected,2025-04-13,PLM,Thomas Weber,False,False,3124.68
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00010,1,Project Created,2025-06-28,Project System,Nina Patel,True,False,2185.74
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00010,2,Engineering Released,2025-07-02,ERP CO,Priya Rao,True,False,3260.06
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00010,3,Milestone Achieved,2025-07-03,Project System,Sara Novak,False,False,5380.29
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00010,4,Billed,2025-07-08,Project System,Kenji Tanaka,True,False,3281.4
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00010,5,Cash Collected,2025-07-14,Project System,Sara Novak,False,False,810.27
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00011,1,Project Created,2025-11-16,Billing,Alex Chen,False,False,1126.31
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00011,2,Engineering Released,2025-11-18,ERP CO,Thomas Weber,False,False,6131.86
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00011,3,Milestone Achieved,2025-11-21,Billing,Maria Garcia,False,False,3555.76
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00011,4,Billed,2025-11-23,Project System,Maria Garcia,True,False,4789.87
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00011,5,Cash Collected,2025-11-25,Billing,Kenji Tanaka,True,False,6819.52
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00012,1,Project Created,2025-05-27,Project System,Jon Miller,True,True,3892.99
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00012,2,Engineering Released,2025-06-01,Project System,Sara Novak,True,False,5303.47
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00012,3,Milestone Achieved,2025-06-03,Billing,Alex Chen,True,False,7977.95
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00012,4,Billed,2025-06-07,Project System,Kenji Tanaka,True,False,6032.32
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00012,5,Cash Collected,2025-06-10,ERP CO,Sara Novak,False,True,6181.06
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00013,1,Project Created,2025-03-13,Billing,Thomas Weber,True,False,3562.55
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00013,2,Engineering Released,2025-03-15,Billing,Priya Rao,False,False,5460.11
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00013,3,Milestone Achieved,2025-03-18,PLM,Priya Rao,True,False,4671.67
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00013,4,Billed,2025-03-20,PLM,Maria Garcia,False,True,3437.02
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00013,5,Cash Collected,2025-03-25,ERP CO,Priya Rao,True,False,5968.97
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00014,1,Project Created,2025-07-01,Project System,Kenji Tanaka,True,False,7782.6
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00014,2,Engineering Released,2025-07-03,ERP CO,Jon Miller,False,False,7007.95
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00014,3,Milestone Achieved,2025-07-08,Project System,Nina Patel,False,False,2020.76
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00014,4,Billed,2025-07-10,ERP CO,Maria Garcia,True,False,6410.52
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00014,5,Cash Collected,2025-07-14,Billing,Alex Chen,True,False,1514.03
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00015,1,Project Created,2025-04-27,Billing,Alex Chen,False,True,6240.08
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00015,2,Engineering Released,2025-05-02,ERP CO,Nina Patel,False,False,2960.46
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00015,3,Milestone Achieved,2025-05-04,ERP CO,Nina Patel,False,False,1475.77
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00015,4,Billed,2025-05-08,Billing,Sara Novak,False,False,6489.98
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00015,5,Cash Collected,2025-05-09,Project System,Alex Chen,False,False,2987.59
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00016,1,Project Created,2025-07-01,ERP CO,Kenji Tanaka,True,False,4381.66
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00016,2,Engineering Released,2025-07-04,Project System,Nina Patel,False,False,3601.2
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00016,3,Milestone Achieved,2025-07-08,PLM,Kenji Tanaka,True,False,3792.74
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00016,4,Billed,2025-07-14,PLM,Thomas Weber,True,False,3843.34
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00016,5,Cash Collected,2025-07-15,ERP CO,Maria Garcia,True,True,7734.47
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00017,1,Project Created,2026-02-08,Billing,Jon Miller,False,False,1055.63
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00017,2,Engineering Released,2026-02-12,Billing,Sara Novak,False,False,1928.81
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00017,3,Milestone Achieved,2026-02-13,Billing,Thomas Weber,False,False,116.49
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00017,4,Billed,2026-02-15,Project System,Thomas Weber,True,False,6201.33
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00017,5,Cash Collected,2026-02-16,Billing,Sara Novak,True,False,4174.45
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00018,1,Project Created,2025-07-03,PLM,Sara Novak,False,False,4060.97
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00018,2,Engineering Released,2025-07-08,PLM,Alex Chen,True,False,1233.72
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00018,3,Milestone Achieved,2025-07-12,ERP CO,Nina Patel,True,True,2067.28
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00018,4,Billed,2025-07-13,Project System,Jon Miller,True,False,4372.04
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00018,5,Cash Collected,2025-07-14,ERP CO,Priya Rao,True,False,675.54
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00019,1,Project Created,2025-05-27,PLM,Jon Miller,False,False,1143.25
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00019,2,Engineering Released,2025-05-28,Project System,Jon Miller,False,False,1580.07
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00019,3,Milestone Achieved,2025-05-31,Project System,Jon Miller,False,False,3580.13
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00019,4,Billed,2025-06-01,PLM,Sara Novak,True,False,1471.3
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00019,5,Cash Collected,2025-06-04,Project System,Thomas Weber,True,False,6385.57
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00020,1,Project Created,2025-03-14,Billing,Priya Rao,True,False,5521.15
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00020,2,Engineering Released,2025-03-20,ERP CO,Priya Rao,False,True,7772.26
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00020,3,Milestone Achieved,2025-03-25,ERP CO,Priya Rao,False,False,5407.76
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00020,4,Billed,2025-03-30,ERP CO,Priya Rao,False,True,6282.34
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00020,5,Cash Collected,2025-03-30,PLM,Sara Novak,True,False,7279.94
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00021,1,Project Created,2026-03-25,ERP CO,Alex Chen,False,False,7454.98
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00021,2,Engineering Released,2026-03-27,ERP CO,Alex Chen,False,False,7513.11
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00021,3,Milestone Achieved,2026-03-28,ERP CO,Alex Chen,True,False,226.52
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00021,4,Billed,2026-03-31,PLM,Nina Patel,True,True,7107.37
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00021,5,Cash Collected,2026-03-31,Project System,Sara Novak,False,False,6887.66
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00022,1,Project Created,2025-09-15,Project System,Priya Rao,True,False,5672.86
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00022,2,Engineering Released,2025-09-17,Project System,Maria Garcia,True,False,1227.02
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00022,3,Milestone Achieved,2025-09-22,Project System,Nina Patel,True,False,3816.13
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00022,4,Billed,2025-09-24,ERP CO,Sara Novak,True,False,6986.94
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00022,5,Cash Collected,2025-09-28,PLM,Thomas Weber,False,False,4407.58
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00023,1,Project Created,2026-03-25,Billing,Thomas Weber,True,False,4330.2
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00023,2,Engineering Released,2026-03-29,Billing,Thomas Weber,True,False,7943.69
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00023,3,Milestone Achieved,2026-03-29,PLM,Maria Garcia,True,False,6479.72
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00023,4,Billed,2026-03-30,PLM,Thomas Weber,True,False,7924.6
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00023,5,Cash Collected,2026-04-05,Project System,Nina Patel,True,False,6984.76
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00024,1,Project Created,2025-10-23,PLM,Nina Patel,False,True,4542.28
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00024,2,Engineering Released,2025-10-23,Billing,Nina Patel,True,False,4244.8
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00024,3,Milestone Achieved,2025-10-27,Project System,Sara Novak,True,False,6965.93
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00024,4,Billed,2025-10-27,Billing,Maria Garcia,True,False,2489.43
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00024,5,Cash Collected,2025-10-27,Project System,Maria Garcia,True,False,1557.98
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00025,1,Project Created,2025-01-15,ERP CO,Thomas Weber,True,False,6904.02
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00025,2,Engineering Released,2025-01-16,PLM,Thomas Weber,False,True,4161.97
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00025,3,Milestone Achieved,2025-01-20,ERP CO,Nina Patel,True,False,1429.41
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00025,4,Billed,2025-01-21,Billing,Nina Patel,True,True,6937.1
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00025,5,Cash Collected,2025-01-26,ERP CO,Sara Novak,True,False,6382.97
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00026,1,Project Created,2025-03-18,PLM,Jon Miller,True,False,6047.22
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00026,2,Engineering Released,2025-03-21,Project System,Sara Novak,True,False,6541.14
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00026,3,Milestone Achieved,2025-03-25,Billing,Thomas Weber,True,True,7565.06
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00026,4,Billed,2025-03-27,PLM,Kenji Tanaka,True,False,6323.51
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00026,5,Cash Collected,2025-03-31,Project System,Alex Chen,False,True,3321.41
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00027,1,Project Created,2025-08-30,ERP CO,Kenji Tanaka,True,False,3152.49
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00027,2,Engineering Released,2025-09-03,PLM,Thomas Weber,True,False,740.37
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00027,3,Milestone Achieved,2025-09-09,Project System,Thomas Weber,False,False,2006.31
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00027,4,Billed,2025-09-12,ERP CO,Thomas Weber,False,False,2322.96
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00027,5,Cash Collected,2025-09-12,PLM,Thomas Weber,True,True,1642.91
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00028,1,Project Created,2025-09-05,PLM,Alex Chen,True,False,7074.32
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00028,2,Engineering Released,2025-09-10,PLM,Priya Rao,True,False,1146.64
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00028,3,Milestone Achieved,2025-09-11,PLM,Priya Rao,False,False,1393.87
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00028,4,Billed,2025-09-16,Project System,Sara Novak,False,False,6688.92
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00028,5,Cash Collected,2025-09-19,ERP CO,Sara Novak,False,False,3822.58
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00029,1,Project Created,2025-12-03,Project System,Jon Miller,False,False,1065.09
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00029,2,Engineering Released,2025-12-04,Project System,Kenji Tanaka,False,False,3174.28
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00029,3,Milestone Achieved,2025-12-05,PLM,Jon Miller,True,True,2616.35
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00029,4,Billed,2025-12-11,ERP CO,Jon Miller,True,False,2284.07
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00029,5,Cash Collected,2025-12-11,Billing,Alex Chen,True,False,1475.95
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00030,1,Project Created,2025-11-27,Project System,Jon Miller,True,False,5559.84
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00030,2,Engineering Released,2025-12-01,PLM,Thomas Weber,True,False,4451.64
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00030,3,Milestone Achieved,2025-12-03,Project System,Nina Patel,True,False,4825.21
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00030,4,Billed,2025-12-04,ERP CO,Alex Chen,False,False,6560.11
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00030,5,Cash Collected,2025-12-10,Project System,Jon Miller,True,False,1015.76
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00031,1,Project Created,2025-09-05,Billing,Maria Garcia,True,False,6365.8
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00031,2,Engineering Released,2025-09-05,Project System,Alex Chen,False,False,1770.99
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00031,3,Milestone Achieved,2025-09-08,Billing,Jon Miller,True,False,2654.03
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00031,4,Billed,2025-09-09,ERP CO,Sara Novak,True,False,7189.31
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00031,5,Cash Collected,2025-09-14,PLM,Sara Novak,True,False,4853.42
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00032,1,Project Created,2025-01-17,Billing,Thomas Weber,False,False,6451.98
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00032,2,Engineering Released,2025-01-17,Project System,Sara Novak,False,False,3007.75
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00032,3,Milestone Achieved,2025-01-23,PLM,Nina Patel,True,False,3461.3
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00032,4,Billed,2025-01-27,Project System,Maria Garcia,True,False,5266.97
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00032,5,Cash Collected,2025-02-02,ERP CO,Alex Chen,True,False,5701.8
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00033,1,Project Created,2026-03-05,Project System,Kenji Tanaka,False,False,5048.8
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00033,2,Engineering Released,2026-03-08,ERP CO,Priya Rao,True,False,5829.21
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00033,3,Milestone Achieved,2026-03-11,Project System,Sara Novak,True,True,6535.03
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00033,4,Billed,2026-03-14,PLM,Thomas Weber,True,False,7783.9
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00033,5,Cash Collected,2026-03-14,ERP CO,Maria Garcia,True,False,4776.3
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00034,1,Project Created,2025-01-21,ERP CO,Nina Patel,False,False,4723.65
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00034,2,Engineering Released,2025-01-25,Project System,Jon Miller,False,False,7867.71
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00034,3,Milestone Achieved,2025-01-28,Billing,Nina Patel,True,True,2033.01
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00034,4,Billed,2025-01-28,PLM,Nina Patel,True,False,2203.04
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00034,5,Cash Collected,2025-01-29,Billing,Alex Chen,False,True,891.32
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00035,1,Project Created,2026-01-25,Project System,Alex Chen,False,False,3759.36
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00035,2,Engineering Released,2026-01-31,Project System,Priya Rao,True,False,5174.56
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00035,3,Milestone Achieved,2026-02-02,PLM,Priya Rao,True,False,6224.42
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00035,4,Billed,2026-02-03,PLM,Nina Patel,False,False,7394.6
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00035,5,Cash Collected,2026-02-04,Project System,Kenji Tanaka,True,False,491.97
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00036,1,Project Created,2026-01-06,PLM,Thomas Weber,False,False,4680.76
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00036,2,Engineering Released,2026-01-10,ERP CO,Alex Chen,True,False,7895.11
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00036,3,Milestone Achieved,2026-01-15,Project System,Priya Rao,True,False,3130.38
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00036,4,Billed,2026-01-18,Billing,Sara Novak,True,False,1584.73
+project2cash,Engineer2Order / Project2Cash,PROJECT2CASH-00036,5,Cash Collected,2026-01-21,PLM,Sara Novak,True,False,2328.86

@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+incident2action,Incident2Action,INCIDENT2ACTION-00001,1,Incident Reported,2025-04-06,Action Tracking,Maria Garcia,False,False,3415.33
+incident2action,Incident2Action,INCIDENT2ACTION-00001,2,Triage Complete,2025-04-07,Action Tracking,Maria Garcia,False,False,6197.9
+incident2action,Incident2Action,INCIDENT2ACTION-00001,3,Investigation Complete,2025-04-09,HR,Nina Patel,True,False,5403.8
+incident2action,Incident2Action,INCIDENT2ACTION-00001,4,Action Assigned,2025-04-12,GRC,Sara Novak,False,False,5138.27
+incident2action,Incident2Action,INCIDENT2ACTION-00001,5,Action Closed,2025-04-18,GRC,Sara Novak,False,True,306.53
+incident2action,Incident2Action,INCIDENT2ACTION-00002,1,Incident Reported,2025-12-25,GRC,Sara Novak,True,False,5492.84
+incident2action,Incident2Action,INCIDENT2ACTION-00002,2,Triage Complete,2025-12-25,EHS,Sara Novak,True,False,2916.08
+incident2action,Incident2Action,INCIDENT2ACTION-00002,3,Investigation Complete,2025-12-29,HR,Priya Rao,True,False,7869.97
+incident2action,Incident2Action,INCIDENT2ACTION-00002,4,Action Assigned,2026-01-02,GRC,Maria Garcia,True,False,3665.48
+incident2action,Incident2Action,INCIDENT2ACTION-00002,5,Action Closed,2026-01-05,Action Tracking,Kenji Tanaka,False,False,5172.89
+incident2action,Incident2Action,INCIDENT2ACTION-00003,1,Incident Reported,2025-08-06,GRC,Maria Garcia,True,False,1562.21
+incident2action,Incident2Action,INCIDENT2ACTION-00003,2,Triage Complete,2025-08-10,GRC,Jon Miller,False,False,4588.23
+incident2action,Incident2Action,INCIDENT2ACTION-00003,3,Investigation Complete,2025-08-13,Action Tracking,Maria Garcia,True,False,870.93
+incident2action,Incident2Action,INCIDENT2ACTION-00003,4,Action Assigned,2025-08-13,EHS,Kenji Tanaka,True,False,5831.73
+incident2action,Incident2Action,INCIDENT2ACTION-00003,5,Action Closed,2025-08-18,GRC,Alex Chen,False,False,1286.49
+incident2action,Incident2Action,INCIDENT2ACTION-00004,1,Incident Reported,2025-04-01,GRC,Maria Garcia,True,False,1226.62
+incident2action,Incident2Action,INCIDENT2ACTION-00004,2,Triage Complete,2025-04-05,Action Tracking,Maria Garcia,False,True,2148.0
+incident2action,Incident2Action,INCIDENT2ACTION-00004,3,Investigation Complete,2025-04-08,HR,Sara Novak,True,False,693.18
+incident2action,Incident2Action,INCIDENT2ACTION-00004,4,Action Assigned,2025-04-13,HR,Priya Rao,True,False,6152.42
+incident2action,Incident2Action,INCIDENT2ACTION-00004,5,Action Closed,2025-04-13,EHS,Priya Rao,True,False,3057.1
+incident2action,Incident2Action,INCIDENT2ACTION-00005,1,Incident Reported,2025-01-09,GRC,Kenji Tanaka,False,False,2405.62
+incident2action,Incident2Action,INCIDENT2ACTION-00005,2,Triage Complete,2025-01-13,EHS,Priya Rao,True,False,6400.29
+incident2action,Incident2Action,INCIDENT2ACTION-00005,3,Investigation Complete,2025-01-18,EHS,Kenji Tanaka,True,False,3084.55
+incident2action,Incident2Action,INCIDENT2ACTION-00005,4,Action Assigned,2025-01-22,GRC,Alex Chen,True,False,2654.94
+incident2action,Incident2Action,INCIDENT2ACTION-00005,5,Action Closed,2025-01-27,EHS,Jon Miller,False,False,1344.19
+incident2action,Incident2Action,INCIDENT2ACTION-00006,1,Incident Reported,2025-10-26,EHS,Maria Garcia,False,False,7381.63
+incident2action,Incident2Action,INCIDENT2ACTION-00006,2,Triage Complete,2025-10-27,HR,Priya Rao,False,False,2695.63
+incident2action,Incident2Action,INCIDENT2ACTION-00006,3,Investigation Complete,2025-10-30,Action Tracking,Nina Patel,True,False,7671.0
+incident2action,Incident2Action,INCIDENT2ACTION-00006,4,Action Assigned,2025-11-02,Action Tracking,Thomas Weber,False,False,2948.05
+incident2action,Incident2Action,INCIDENT2ACTION-00006,5,Action Closed,2025-11-08,GRC,Thomas Weber,True,True,1734.12
+incident2action,Incident2Action,INCIDENT2ACTION-00007,1,Incident Reported,2025-06-07,Action Tracking,Alex Chen,False,True,2558.16
+incident2action,Incident2Action,INCIDENT2ACTION-00007,2,Triage Complete,2025-06-08,HR,Priya Rao,False,False,7629.92
+incident2action,Incident2Action,INCIDENT2ACTION-00007,3,Investigation Complete,2025-06-14,Action Tracking,Alex Chen,True,False,6797.51
+incident2action,Incident2Action,INCIDENT2ACTION-00007,4,Action Assigned,2025-06-17,GRC,Priya Rao,False,False,4892.99
+incident2action,Incident2Action,INCIDENT2ACTION-00007,5,Action Closed,2025-06-20,GRC,Alex Chen,False,False,4600.93
+incident2action,Incident2Action,INCIDENT2ACTION-00008,1,Incident Reported,2025-05-15,HR,Jon Miller,True,False,3418.1
+incident2action,Incident2Action,INCIDENT2ACTION-00008,2,Triage Complete,2025-05-16,Action Tracking,Thomas Weber,True,False,1779.2
+incident2action,Incident2Action,INCIDENT2ACTION-00008,3,Investigation Complete,2025-05-21,HR,Priya Rao,False,False,4913.08
+incident2action,Incident2Action,INCIDENT2ACTION-00008,4,Action Assigned,2025-05-24,GRC,Jon Miller,True,False,6284.01
+incident2action,Incident2Action,INCIDENT2ACTION-00008,5,Action Closed,2025-05-25,GRC,Nina Patel,False,False,1391.7
+incident2action,Incident2Action,INCIDENT2ACTION-00009,1,Incident Reported,2025-10-14,Action Tracking,Nina Patel,False,False,6977.71
+incident2action,Incident2Action,INCIDENT2ACTION-00009,2,Triage Complete,2025-10-15,GRC,Nina Patel,True,False,3320.82
+incident2action,Incident2Action,INCIDENT2ACTION-00009,3,Investigation Complete,2025-10-18,HR,Sara Novak,True,False,3122.64
+incident2action,Incident2Action,INCIDENT2ACTION-00009,4,Action Assigned,2025-10-19,GRC,Priya Rao,True,False,2685.0
+incident2action,Incident2Action,INCIDENT2ACTION-00009,5,Action Closed,2025-10-24,GRC,Sara Novak,True,True,6154.13
+incident2action,Incident2Action,INCIDENT2ACTION-00010,1,Incident Reported,2025-09-06,GRC,Priya Rao,True,False,2691.09
+incident2action,Incident2Action,INCIDENT2ACTION-00010,2,Triage Complete,2025-09-11,HR,Kenji Tanaka,False,False,6893.17
+incident2action,Incident2Action,INCIDENT2ACTION-00010,3,Investigation Complete,2025-09-15,Action Tracking,Jon Miller,True,False,4371.08
+incident2action,Incident2Action,INCIDENT2ACTION-00010,4,Action Assigned,2025-09-20,HR,Jon Miller,False,False,6363.21
+incident2action,Incident2Action,INCIDENT2ACTION-00010,5,Action Closed,2025-09-22,Action Tracking,Priya Rao,False,False,7958.81
+incident2action,Incident2Action,INCIDENT2ACTION-00011,1,Incident Reported,2025-07-21,GRC,Alex Chen,False,True,2383.79
+incident2action,Incident2Action,INCIDENT2ACTION-00011,2,Triage Complete,2025-07-25,Action Tracking,Maria Garcia,False,False,5545.11
+incident2action,Incident2Action,INCIDENT2ACTION-00011,3,Investigation Complete,2025-07-29,Action Tracking,Sara Novak,False,False,4771.67
+incident2action,Incident2Action,INCIDENT2ACTION-00011,4,Action Assigned,2025-08-04,EHS,Thomas Weber,True,False,2338.0
+incident2action,Incident2Action,INCIDENT2ACTION-00011,5,Action Closed,2025-08-09,Action Tracking,Jon Miller,True,False,2281.35
+incident2action,Incident2Action,INCIDENT2ACTION-00012,1,Incident Reported,2026-02-28,HR,Priya Rao,False,True,6677.53
+incident2action,Incident2Action,INCIDENT2ACTION-00012,2,Triage Complete,2026-03-06,EHS,Jon Miller,False,True,1930.41
+incident2action,Incident2Action,INCIDENT2ACTION-00012,3,Investigation Complete,2026-03-09,EHS,Priya Rao,False,True,1771.97
+incident2action,Incident2Action,INCIDENT2ACTION-00012,4,Action Assigned,2026-03-10,EHS,Maria Garcia,False,False,7200.77
+incident2action,Incident2Action,INCIDENT2ACTION-00012,5,Action Closed,2026-03-13,EHS,Thomas Weber,True,True,6769.06
+incident2action,Incident2Action,INCIDENT2ACTION-00013,1,Incident Reported,2026-01-25,GRC,Maria Garcia,False,False,3556.62
+incident2action,Incident2Action,INCIDENT2ACTION-00013,2,Triage Complete,2026-01-31,HR,Nina Patel,True,False,7194.13
+incident2action,Incident2Action,INCIDENT2ACTION-00013,3,Investigation Complete,2026-01-31,GRC,Kenji Tanaka,False,False,866.93
+incident2action,Incident2Action,INCIDENT2ACTION-00013,4,Action Assigned,2026-02-05,HR,Maria Garcia,False,False,5246.2
+incident2action,Incident2Action,INCIDENT2ACTION-00013,5,Action Closed,2026-02-09,HR,Alex Chen,False,False,1729.22
+incident2action,Incident2Action,INCIDENT2ACTION-00014,1,Incident Reported,2025-11-20,GRC,Kenji Tanaka,False,False,3046.29
+incident2action,Incident2Action,INCIDENT2ACTION-00014,2,Triage Complete,2025-11-21,GRC,Nina Patel,False,False,2560.8
+incident2action,Incident2Action,INCIDENT2ACTION-00014,3,Investigation Complete,2025-11-25,Action Tracking,Nina Patel,True,False,157.75
+incident2action,Incident2Action,INCIDENT2ACTION-00014,4,Action Assigned,2025-11-27,GRC,Kenji Tanaka,False,False,2756.69
+incident2action,Incident2Action,INCIDENT2ACTION-00014,5,Action Closed,2025-11-30,Action Tracking,Alex Chen,True,False,7563.18
+incident2action,Incident2Action,INCIDENT2ACTION-00015,1,Incident Reported,2026-03-15,Action Tracking,Priya Rao,True,False,5420.05
+incident2action,Incident2Action,INCIDENT2ACTION-00015,2,Triage Complete,2026-03-16,EHS,Sara Novak,True,False,737.99
+incident2action,Incident2Action,INCIDENT2ACTION-00015,3,Investigation Complete,2026-03-18,Action Tracking,Alex Chen,False,False,4360.8
+incident2action,Incident2Action,INCIDENT2ACTION-00015,4,Action Assigned,2026-03-18,EHS,Nina Patel,True,False,7723.57
+incident2action,Incident2Action,INCIDENT2ACTION-00015,5,Action Closed,2026-03-19,HR,Thomas Weber,True,True,2206.14
+incident2action,Incident2Action,INCIDENT2ACTION-00016,1,Incident Reported,2025-01-14,EHS,Maria Garcia,True,False,6658.74
+incident2action,Incident2Action,INCIDENT2ACTION-00016,2,Triage Complete,2025-01-18,Action Tracking,Sara Novak,True,False,2964.16
+incident2action,Incident2Action,INCIDENT2ACTION-00016,3,Investigation Complete,2025-01-19,GRC,Kenji Tanaka,False,True,7003.12
+incident2action,Incident2Action,INCIDENT2ACTION-00016,4,Action Assigned,2025-01-22,GRC,Maria Garcia,True,False,1117.9
+incident2action,Incident2Action,INCIDENT2ACTION-00016,5,Action Closed,2025-01-27,Action Tracking,Nina Patel,False,True,4789.52
+incident2action,Incident2Action,INCIDENT2ACTION-00017,1,Incident Reported,2025-12-03,EHS,Maria Garcia,False,False,7972.48
+incident2action,Incident2Action,INCIDENT2ACTION-00017,2,Triage Complete,2025-12-08,HR,Priya Rao,True,False,6251.61
+incident2action,Incident2Action,INCIDENT2ACTION-00017,3,Investigation Complete,2025-12-14,EHS,Thomas Weber,True,False,1671.63
+incident2action,Incident2Action,INCIDENT2ACTION-00017,4,Action Assigned,2025-12-16,EHS,Maria Garcia,False,False,180.07
+incident2action,Incident2Action,INCIDENT2ACTION-00017,5,Action Closed,2025-12-19,EHS,Kenji Tanaka,True,False,5722.81
+incident2action,Incident2Action,INCIDENT2ACTION-00018,1,Incident Reported,2025-09-27,EHS,Priya Rao,True,False,3505.81
+incident2action,Incident2Action,INCIDENT2ACTION-00018,2,Triage Complete,2025-09-30,HR,Alex Chen,False,False,377.32
+incident2action,Incident2Action,INCIDENT2ACTION-00018,3,Investigation Complete,2025-09-30,EHS,Thomas Weber,True,True,3275.08
+incident2action,Incident2Action,INCIDENT2ACTION-00018,4,Action Assigned,2025-09-30,HR,Priya Rao,True,False,659.59
+incident2action,Incident2Action,INCIDENT2ACTION-00018,5,Action Closed,2025-10-06,EHS,Nina Patel,True,False,7566.45
+incident2action,Incident2Action,INCIDENT2ACTION-00019,1,Incident Reported,2025-07-07,HR,Jon Miller,False,False,1030.85
+incident2action,Incident2Action,INCIDENT2ACTION-00019,2,Triage Complete,2025-07-07,HR,Alex Chen,True,False,440.86
+incident2action,Incident2Action,INCIDENT2ACTION-00019,3,Investigation Complete,2025-07-10,EHS,Kenji Tanaka,False,False,7964.24
+incident2action,Incident2Action,INCIDENT2ACTION-00019,4,Action Assigned,2025-07-13,EHS,Priya Rao,False,False,4416.09
+incident2action,Incident2Action,INCIDENT2ACTION-00019,5,Action Closed,2025-07-19,HR,Alex Chen,True,False,235.22
+incident2action,Incident2Action,INCIDENT2ACTION-00020,1,Incident Reported,2025-04-13,EHS,Alex Chen,True,False,5062.01
+incident2action,Incident2Action,INCIDENT2ACTION-00020,2,Triage Complete,2025-04-16,GRC,Thomas Weber,False,False,7815.22
+incident2action,Incident2Action,INCIDENT2ACTION-00020,3,Investigation Complete,2025-04-17,GRC,Maria Garcia,False,False,3041.9
+incident2action,Incident2Action,INCIDENT2ACTION-00020,4,Action Assigned,2025-04-21,Action Tracking,Alex Chen,True,False,390.11
+incident2action,Incident2Action,INCIDENT2ACTION-00020,5,Action Closed,2025-04-24,Action Tracking,Jon Miller,True,False,1654.35
+incident2action,Incident2Action,INCIDENT2ACTION-00021,1,Incident Reported,2025-09-14,HR,Sara Novak,True,False,6606.82
+incident2action,Incident2Action,INCIDENT2ACTION-00021,2,Triage Complete,2025-09-16,EHS,Nina Patel,True,True,5978.01
+incident2action,Incident2Action,INCIDENT2ACTION-00021,3,Investigation Complete,2025-09-16,EHS,Nina Patel,True,False,6898.42
+incident2action,Incident2Action,INCIDENT2ACTION-00021,4,Action Assigned,2025-09-18,Action Tracking,Sara Novak,False,False,4692.51
+incident2action,Incident2Action,INCIDENT2ACTION-00021,5,Action Closed,2025-09-20,HR,Jon Miller,True,False,6645.81
+incident2action,Incident2Action,INCIDENT2ACTION-00022,1,Incident Reported,2026-03-11,HR,Maria Garcia,True,True,7160.66
+incident2action,Incident2Action,INCIDENT2ACTION-00022,2,Triage Complete,2026-03-12,GRC,Nina Patel,False,False,5373.94
+incident2action,Incident2Action,INCIDENT2ACTION-00022,3,Investigation Complete,2026-03-18,HR,Thomas Weber,False,False,3976.52
+incident2action,Incident2Action,INCIDENT2ACTION-00022,4,Action Assigned,2026-03-23,HR,Sara Novak,True,False,7292.4
+incident2action,Incident2Action,INCIDENT2ACTION-00022,5,Action Closed,2026-03-24,HR,Sara Novak,True,False,7239.06
+incident2action,Incident2Action,INCIDENT2ACTION-00023,1,Incident Reported,2025-09-03,Action Tracking,Kenji Tanaka,False,True,2546.51
+incident2action,Incident2Action,INCIDENT2ACTION-00023,2,Triage Complete,2025-09-03,Action Tracking,Nina Patel,True,False,4197.71
+incident2action,Incident2Action,INCIDENT2ACTION-00023,3,Investigation Complete,2025-09-05,GRC,Jon Miller,False,False,2725.52
+incident2action,Incident2Action,INCIDENT2ACTION-00023,4,Action Assigned,2025-09-11,EHS,Sara Novak,True,True,1999.36
+incident2action,Incident2Action,INCIDENT2ACTION-00023,5,Action Closed,2025-09-17,GRC,Thomas Weber,True,False,7024.15
+incident2action,Incident2Action,INCIDENT2ACTION-00024,1,Incident Reported,2025-09-10,GRC,Maria Garcia,False,False,3091.6
+incident2action,Incident2Action,INCIDENT2ACTION-00024,2,Triage Complete,2025-09-16,Action Tracking,Alex Chen,False,False,3644.08
+incident2action,Incident2Action,INCIDENT2ACTION-00024,3,Investigation Complete,2025-09-20,EHS,Sara Novak,True,False,463.03
+incident2action,Incident2Action,INCIDENT2ACTION-00024,4,Action Assigned,2025-09-21,EHS,Kenji Tanaka,False,False,1957.12
+incident2action,Incident2Action,INCIDENT2ACTION-00024,5,Action Closed,2025-09-27,EHS,Priya Rao,False,False,1930.33
+incident2action,Incident2Action,INCIDENT2ACTION-00025,1,Incident Reported,2025-03-28,Action Tracking,Thomas Weber,True,False,4208.86
+incident2action,Incident2Action,INCIDENT2ACTION-00025,2,Triage Complete,2025-03-30,HR,Jon Miller,False,False,828.5
+incident2action,Incident2Action,INCIDENT2ACTION-00025,3,Investigation Complete,2025-04-01,Action Tracking,Nina Patel,True,False,2035.13
+incident2action,Incident2Action,INCIDENT2ACTION-00025,4,Action Assigned,2025-04-06,EHS,Alex Chen,True,False,4451.81
+incident2action,Incident2Action,INCIDENT2ACTION-00025,5,Action Closed,2025-04-10,Action Tracking,Jon Miller,True,False,6879.76
+incident2action,Incident2Action,INCIDENT2ACTION-00026,1,Incident Reported,2025-08-20,Action Tracking,Priya Rao,True,False,6252.53
+incident2action,Incident2Action,INCIDENT2ACTION-00026,2,Triage Complete,2025-08-20,HR,Kenji Tanaka,False,False,7815.0
+incident2action,Incident2Action,INCIDENT2ACTION-00026,3,Investigation Complete,2025-08-21,EHS,Alex Chen,True,False,3371.21
+incident2action,Incident2Action,INCIDENT2ACTION-00026,4,Action Assigned,2025-08-25,GRC,Priya Rao,False,False,5106.16
+incident2action,Incident2Action,INCIDENT2ACTION-00026,5,Action Closed,2025-08-25,GRC,Maria Garcia,False,False,5589.56
+incident2action,Incident2Action,INCIDENT2ACTION-00027,1,Incident Reported,2025-03-04,HR,Thomas Weber,True,False,2698.28
+incident2action,Incident2Action,INCIDENT2ACTION-00027,2,Triage Complete,2025-03-07,HR,Thomas Weber,False,False,6867.44
+incident2action,Incident2Action,INCIDENT2ACTION-00027,3,Investigation Complete,2025-03-10,EHS,Thomas Weber,False,False,4033.75
+incident2action,Incident2Action,INCIDENT2ACTION-00027,4,Action Assigned,2025-03-13,Action Tracking,Alex Chen,True,False,2630.13
+incident2action,Incident2Action,INCIDENT2ACTION-00027,5,Action Closed,2025-03-15,EHS,Thomas Weber,False,False,5729.79
+incident2action,Incident2Action,INCIDENT2ACTION-00028,1,Incident Reported,2025-01-18,HR,Priya Rao,True,False,2833.17
+incident2action,Incident2Action,INCIDENT2ACTION-00028,2,Triage Complete,2025-01-23,HR,Maria Garcia,True,False,7990.6
+incident2action,Incident2Action,INCIDENT2ACTION-00028,3,Investigation Complete,2025-01-23,HR,Priya Rao,True,False,6103.99
+incident2action,Incident2Action,INCIDENT2ACTION-00028,4,Action Assigned,2025-01-25,Action Tracking,Alex Chen,True,True,6268.21
+incident2action,Incident2Action,INCIDENT2ACTION-00028,5,Action Closed,2025-01-30,GRC,Thomas Weber,False,False,3657.98
+incident2action,Incident2Action,INCIDENT2ACTION-00029,1,Incident Reported,2025-06-03,Action Tracking,Thomas Weber,True,False,3138.98
+incident2action,Incident2Action,INCIDENT2ACTION-00029,2,Triage Complete,2025-06-09,GRC,Sara Novak,False,False,6123.72
+incident2action,Incident2Action,INCIDENT2ACTION-00029,3,Investigation Complete,2025-06-09,Action Tracking,Jon Miller,False,False,1607.8
+incident2action,Incident2Action,INCIDENT2ACTION-00029,4,Action Assigned,2025-06-13,GRC,Thomas Weber,False,False,1117.91
+incident2action,Incident2Action,INCIDENT2ACTION-00029,5,Action Closed,2025-06-19,GRC,Kenji Tanaka,True,False,3020.21
+incident2action,Incident2Action,INCIDENT2ACTION-00030,1,Incident Reported,2025-12-30,EHS,Priya Rao,True,False,6071.85
+incident2action,Incident2Action,INCIDENT2ACTION-00030,2,Triage Complete,2026-01-05,GRC,Jon Miller,True,False,4251.41
+incident2action,Incident2Action,INCIDENT2ACTION-00030,3,Investigation Complete,2026-01-07,Action Tracking,Thomas Weber,True,False,6533.31
+incident2action,Incident2Action,INCIDENT2ACTION-00030,4,Action Assigned,2026-01-12,EHS,Maria Garcia,False,False,2095.58
+incident2action,Incident2Action,INCIDENT2ACTION-00030,5,Action Closed,2026-01-14,EHS,Alex Chen,True,False,6913.33
+incident2action,Incident2Action,INCIDENT2ACTION-00031,1,Incident Reported,2026-01-25,EHS,Thomas Weber,True,False,4432.99
+incident2action,Incident2Action,INCIDENT2ACTION-00031,2,Triage Complete,2026-01-30,HR,Maria Garcia,False,False,2685.13
+incident2action,Incident2Action,INCIDENT2ACTION-00031,3,Investigation Complete,2026-02-05,GRC,Nina Patel,False,True,7427.29
+incident2action,Incident2Action,INCIDENT2ACTION-00031,4,Action Assigned,2026-02-08,HR,Alex Chen,False,True,7228.7
+incident2action,Incident2Action,INCIDENT2ACTION-00031,5,Action Closed,2026-02-14,GRC,Maria Garcia,True,True,240.39
+incident2action,Incident2Action,INCIDENT2ACTION-00032,1,Incident Reported,2025-02-08,EHS,Alex Chen,True,False,6745.38
+incident2action,Incident2Action,INCIDENT2ACTION-00032,2,Triage Complete,2025-02-11,EHS,Nina Patel,True,False,2844.47
+incident2action,Incident2Action,INCIDENT2ACTION-00032,3,Investigation Complete,2025-02-14,Action Tracking,Kenji Tanaka,True,False,3637.47
+incident2action,Incident2Action,INCIDENT2ACTION-00032,4,Action Assigned,2025-02-14,GRC,Maria Garcia,False,False,2900.26
+incident2action,Incident2Action,INCIDENT2ACTION-00032,5,Action Closed,2025-02-15,HR,Sara Novak,False,False,976.04
+incident2action,Incident2Action,INCIDENT2ACTION-00033,1,Incident Reported,2025-11-14,Action Tracking,Thomas Weber,True,False,3065.48
+incident2action,Incident2Action,INCIDENT2ACTION-00033,2,Triage Complete,2025-11-18,HR,Alex Chen,True,False,7150.09
+incident2action,Incident2Action,INCIDENT2ACTION-00033,3,Investigation Complete,2025-11-18,HR,Priya Rao,False,False,6532.97
+incident2action,Incident2Action,INCIDENT2ACTION-00033,4,Action Assigned,2025-11-20,Action Tracking,Priya Rao,False,False,6236.5
+incident2action,Incident2Action,INCIDENT2ACTION-00033,5,Action Closed,2025-11-21,GRC,Nina Patel,False,False,7661.58
+incident2action,Incident2Action,INCIDENT2ACTION-00034,1,Incident Reported,2025-09-13,GRC,Kenji Tanaka,False,False,2673.78
+incident2action,Incident2Action,INCIDENT2ACTION-00034,2,Triage Complete,2025-09-19,HR,Kenji Tanaka,True,False,1979.06
+incident2action,Incident2Action,INCIDENT2ACTION-00034,3,Investigation Complete,2025-09-22,HR,Jon Miller,True,False,764.0
+incident2action,Incident2Action,INCIDENT2ACTION-00034,4,Action Assigned,2025-09-23,Action Tracking,Jon Miller,True,False,4568.39
+incident2action,Incident2Action,INCIDENT2ACTION-00034,5,Action Closed,2025-09-25,GRC,Jon Miller,True,False,1718.31
+incident2action,Incident2Action,INCIDENT2ACTION-00035,1,Incident Reported,2025-05-08,HR,Alex Chen,False,False,4339.82
+incident2action,Incident2Action,INCIDENT2ACTION-00035,2,Triage Complete,2025-05-10,EHS,Sara Novak,False,True,4240.22
+incident2action,Incident2Action,INCIDENT2ACTION-00035,3,Investigation Complete,2025-05-11,GRC,Jon Miller,False,False,105.18
+incident2action,Incident2Action,INCIDENT2ACTION-00035,4,Action Assigned,2025-05-16,GRC,Priya Rao,True,False,6294.33
+incident2action,Incident2Action,INCIDENT2ACTION-00035,5,Action Closed,2025-05-19,EHS,Nina Patel,False,False,793.44
+incident2action,Incident2Action,INCIDENT2ACTION-00036,1,Incident Reported,2025-12-07,EHS,Maria Garcia,True,False,7611.7
+incident2action,Incident2Action,INCIDENT2ACTION-00036,2,Triage Complete,2025-12-11,EHS,Kenji Tanaka,False,False,7015.16
+incident2action,Incident2Action,INCIDENT2ACTION-00036,3,Investigation Complete,2025-12-16,GRC,Alex Chen,False,False,4370.15
+incident2action,Incident2Action,INCIDENT2ACTION-00036,4,Action Assigned,2025-12-19,GRC,Priya Rao,True,False,1868.06
+incident2action,Incident2Action,INCIDENT2ACTION-00036,5,Action Closed,2025-12-23,HR,Nina Patel,False,False,711.05

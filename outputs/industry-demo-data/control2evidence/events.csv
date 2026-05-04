@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00001,1,Control Defined,2025-06-21,Audit Management,Kenji Tanaka,True,False,2279.09
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00001,2,Evidence Requested,2025-06-21,GRC,Thomas Weber,False,False,7563.32
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00001,3,Evidence Collected,2025-06-27,ERP,Thomas Weber,False,False,7385.58
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00001,4,Tested,2025-07-03,IAM,Kenji Tanaka,True,False,2759.88
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00001,5,Remediated,2025-07-08,IAM,Jon Miller,True,False,445.9
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00002,1,Control Defined,2025-07-25,IAM,Jon Miller,False,False,2000.59
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00002,2,Evidence Requested,2025-07-25,IAM,Thomas Weber,False,False,5146.51
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00002,3,Evidence Collected,2025-07-31,ERP,Nina Patel,True,False,6913.32
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00002,4,Tested,2025-08-04,ERP,Jon Miller,True,False,674.27
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00002,5,Remediated,2025-08-08,Audit Management,Alex Chen,True,False,6208.33
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00003,1,Control Defined,2026-03-10,ERP,Priya Rao,False,False,6351.51
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00003,2,Evidence Requested,2026-03-13,ERP,Kenji Tanaka,False,False,3927.12
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00003,3,Evidence Collected,2026-03-19,IAM,Priya Rao,False,True,3795.32
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00003,4,Tested,2026-03-20,GRC,Alex Chen,False,False,1883.49
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00003,5,Remediated,2026-03-26,ERP,Jon Miller,True,False,3067.6
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00004,1,Control Defined,2026-03-12,IAM,Thomas Weber,False,False,4879.35
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00004,2,Evidence Requested,2026-03-17,ERP,Priya Rao,False,False,2070.78
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00004,3,Evidence Collected,2026-03-22,ERP,Priya Rao,False,False,6313.15
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00004,4,Tested,2026-03-23,IAM,Thomas Weber,True,False,444.9
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00004,5,Remediated,2026-03-28,ERP,Jon Miller,False,False,1786.4
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00005,1,Control Defined,2025-09-20,IAM,Priya Rao,False,False,7454.29
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00005,2,Evidence Requested,2025-09-24,ERP,Nina Patel,False,False,6416.49
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00005,3,Evidence Collected,2025-09-24,ERP,Priya Rao,False,False,5822.44
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00005,4,Tested,2025-09-30,ERP,Jon Miller,True,False,1409.29
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00005,5,Remediated,2025-10-04,ERP,Thomas Weber,True,False,6876.53
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00006,1,Control Defined,2025-02-04,ERP,Sara Novak,False,False,3155.47
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00006,2,Evidence Requested,2025-02-04,GRC,Sara Novak,True,False,2757.89
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00006,3,Evidence Collected,2025-02-08,Audit Management,Kenji Tanaka,True,False,2750.23
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00006,4,Tested,2025-02-13,IAM,Sara Novak,False,False,266.48
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00006,5,Remediated,2025-02-15,Audit Management,Jon Miller,True,False,2285.29
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00007,1,Control Defined,2025-09-06,GRC,Alex Chen,False,False,7425.94
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00007,2,Evidence Requested,2025-09-06,ERP,Maria Garcia,True,False,5713.6
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00007,3,Evidence Collected,2025-09-12,GRC,Maria Garcia,False,False,6555.02
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00007,4,Tested,2025-09-12,IAM,Nina Patel,True,True,2765.1
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00007,5,Remediated,2025-09-17,ERP,Sara Novak,True,False,3625.62
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00008,1,Control Defined,2025-04-18,ERP,Maria Garcia,False,False,3511.73
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00008,2,Evidence Requested,2025-04-18,IAM,Thomas Weber,False,False,834.09
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00008,3,Evidence Collected,2025-04-19,GRC,Kenji Tanaka,True,True,4863.2
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00008,4,Tested,2025-04-23,IAM,Priya Rao,False,True,3004.2
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00008,5,Remediated,2025-04-24,GRC,Thomas Weber,True,False,5671.05
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00009,1,Control Defined,2026-01-24,ERP,Jon Miller,False,False,7493.97
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00009,2,Evidence Requested,2026-01-27,GRC,Sara Novak,True,False,1427.69
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00009,3,Evidence Collected,2026-01-28,ERP,Nina Patel,False,False,6924.91
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00009,4,Tested,2026-01-29,Audit Management,Alex Chen,False,False,6425.28
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00009,5,Remediated,2026-02-04,Audit Management,Kenji Tanaka,False,True,6624.76
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00010,1,Control Defined,2025-03-19,GRC,Alex Chen,False,True,6692.46
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00010,2,Evidence Requested,2025-03-24,IAM,Kenji Tanaka,True,False,6446.21
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00010,3,Evidence Collected,2025-03-30,GRC,Sara Novak,True,False,529.67
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00010,4,Tested,2025-04-03,IAM,Priya Rao,True,False,4930.96
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00010,5,Remediated,2025-04-08,Audit Management,Jon Miller,False,False,5179.92
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00011,1,Control Defined,2025-12-29,GRC,Sara Novak,False,False,4854.94
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00011,2,Evidence Requested,2026-01-01,GRC,Alex Chen,True,False,2799.93
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00011,3,Evidence Collected,2026-01-06,Audit Management,Sara Novak,True,False,3628.99
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00011,4,Tested,2026-01-08,GRC,Jon Miller,False,False,4449.18
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00011,5,Remediated,2026-01-12,IAM,Thomas Weber,True,False,7529.99
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00012,1,Control Defined,2025-03-31,Audit Management,Priya Rao,False,False,5113.24
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00012,2,Evidence Requested,2025-04-01,GRC,Jon Miller,True,False,1511.38
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00012,3,Evidence Collected,2025-04-02,GRC,Sara Novak,True,False,5524.54
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00012,4,Tested,2025-04-02,Audit Management,Maria Garcia,True,False,7146.72
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00012,5,Remediated,2025-04-07,IAM,Kenji Tanaka,True,False,1564.87
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00013,1,Control Defined,2025-09-19,ERP,Alex Chen,False,False,7300.65
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00013,2,Evidence Requested,2025-09-22,Audit Management,Priya Rao,False,False,2111.51
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00013,3,Evidence Collected,2025-09-25,Audit Management,Thomas Weber,False,False,7338.57
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00013,4,Tested,2025-09-25,GRC,Sara Novak,True,False,1957.98
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00013,5,Remediated,2025-09-30,ERP,Nina Patel,True,False,974.4
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00014,1,Control Defined,2026-01-09,GRC,Nina Patel,False,True,5949.04
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00014,2,Evidence Requested,2026-01-14,IAM,Kenji Tanaka,True,False,7035.54
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00014,3,Evidence Collected,2026-01-18,GRC,Kenji Tanaka,True,False,181.29
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00014,4,Tested,2026-01-21,IAM,Thomas Weber,False,False,5905.69
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00014,5,Remediated,2026-01-25,IAM,Sara Novak,False,True,5073.15
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00015,1,Control Defined,2025-06-14,GRC,Nina Patel,True,False,1728.18
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00015,2,Evidence Requested,2025-06-14,Audit Management,Alex Chen,False,False,3028.57
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00015,3,Evidence Collected,2025-06-20,Audit Management,Thomas Weber,True,False,2808.29
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00015,4,Tested,2025-06-22,GRC,Jon Miller,False,False,2334.67
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00015,5,Remediated,2025-06-28,GRC,Alex Chen,False,False,5642.86
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00016,1,Control Defined,2025-01-27,GRC,Thomas Weber,True,True,6495.09
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00016,2,Evidence Requested,2025-01-30,GRC,Sara Novak,True,False,6071.94
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00016,3,Evidence Collected,2025-02-05,ERP,Maria Garcia,True,True,4456.85
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00016,4,Tested,2025-02-09,IAM,Maria Garcia,False,False,1632.29
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00016,5,Remediated,2025-02-15,IAM,Sara Novak,True,False,1934.13
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00017,1,Control Defined,2026-01-17,IAM,Maria Garcia,True,False,1778.12
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00017,2,Evidence Requested,2026-01-22,IAM,Kenji Tanaka,False,False,1350.98
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00017,3,Evidence Collected,2026-01-26,GRC,Maria Garcia,False,False,805.82
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00017,4,Tested,2026-01-27,IAM,Kenji Tanaka,False,False,438.86
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00017,5,Remediated,2026-01-29,GRC,Kenji Tanaka,False,False,2344.34
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00018,1,Control Defined,2025-09-25,ERP,Sara Novak,False,False,6432.99
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00018,2,Evidence Requested,2025-09-26,IAM,Maria Garcia,False,True,468.8
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00018,3,Evidence Collected,2025-09-29,ERP,Priya Rao,False,False,3700.18
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00018,4,Tested,2025-09-30,GRC,Maria Garcia,True,False,970.37
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00018,5,Remediated,2025-10-01,GRC,Kenji Tanaka,False,False,3260.85
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00019,1,Control Defined,2025-10-15,IAM,Kenji Tanaka,True,False,5402.74
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00019,2,Evidence Requested,2025-10-19,Audit Management,Thomas Weber,False,False,6772.58
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00019,3,Evidence Collected,2025-10-20,GRC,Jon Miller,True,False,2650.1
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00019,4,Tested,2025-10-20,ERP,Alex Chen,True,False,820.87
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00019,5,Remediated,2025-10-20,ERP,Nina Patel,False,False,5747.85
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00020,1,Control Defined,2025-11-11,GRC,Nina Patel,True,False,4832.2
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00020,2,Evidence Requested,2025-11-16,ERP,Sara Novak,True,True,4507.77
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00020,3,Evidence Collected,2025-11-18,Audit Management,Thomas Weber,True,False,7946.53
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00020,4,Tested,2025-11-20,GRC,Priya Rao,True,False,4438.07
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00020,5,Remediated,2025-11-20,ERP,Maria Garcia,False,False,4227.13
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00021,1,Control Defined,2025-11-10,IAM,Thomas Weber,True,True,569.76
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00021,2,Evidence Requested,2025-11-10,IAM,Priya Rao,False,False,3603.75
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00021,3,Evidence Collected,2025-11-12,GRC,Alex Chen,True,False,6107.16
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00021,4,Tested,2025-11-13,Audit Management,Maria Garcia,False,False,4746.7
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00021,5,Remediated,2025-11-18,ERP,Kenji Tanaka,False,False,3881.03
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00022,1,Control Defined,2025-10-14,ERP,Sara Novak,False,False,2193.44
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00022,2,Evidence Requested,2025-10-14,Audit Management,Kenji Tanaka,True,False,2045.09
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00022,3,Evidence Collected,2025-10-19,GRC,Nina Patel,True,False,1886.54
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00022,4,Tested,2025-10-21,Audit Management,Kenji Tanaka,False,False,6252.85
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00022,5,Remediated,2025-10-23,GRC,Priya Rao,False,False,1845.81
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00023,1,Control Defined,2025-03-26,IAM,Thomas Weber,False,False,726.61
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00023,2,Evidence Requested,2025-03-27,Audit Management,Jon Miller,False,True,7997.75
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00023,3,Evidence Collected,2025-03-31,ERP,Thomas Weber,True,False,5246.67
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00023,4,Tested,2025-04-06,IAM,Kenji Tanaka,False,False,1247.01
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00023,5,Remediated,2025-04-06,GRC,Maria Garcia,False,False,5149.18
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00024,1,Control Defined,2025-07-12,Audit Management,Thomas Weber,True,False,5063.28
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00024,2,Evidence Requested,2025-07-17,IAM,Thomas Weber,False,False,2718.25
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00024,3,Evidence Collected,2025-07-20,GRC,Thomas Weber,False,False,4652.66
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00024,4,Tested,2025-07-25,GRC,Nina Patel,False,False,4299.68
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00024,5,Remediated,2025-07-30,GRC,Alex Chen,False,False,7373.81
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00025,1,Control Defined,2025-07-31,ERP,Nina Patel,True,False,3600.47
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00025,2,Evidence Requested,2025-08-02,GRC,Sara Novak,False,False,898.85
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00025,3,Evidence Collected,2025-08-04,Audit Management,Priya Rao,False,False,5282.42
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00025,4,Tested,2025-08-10,IAM,Maria Garcia,False,False,7841.19
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00025,5,Remediated,2025-08-13,ERP,Thomas Weber,True,False,7787.66
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00026,1,Control Defined,2025-07-08,GRC,Jon Miller,True,False,6737.57
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00026,2,Evidence Requested,2025-07-14,ERP,Sara Novak,False,False,2984.21
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00026,3,Evidence Collected,2025-07-14,GRC,Kenji Tanaka,True,False,6716.98
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00026,4,Tested,2025-07-18,GRC,Sara Novak,True,True,5364.51
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00026,5,Remediated,2025-07-18,ERP,Maria Garcia,False,False,2353.24
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00027,1,Control Defined,2025-08-22,Audit Management,Alex Chen,False,False,4804.4
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00027,2,Evidence Requested,2025-08-24,GRC,Jon Miller,True,False,5695.01
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00027,3,Evidence Collected,2025-08-28,GRC,Kenji Tanaka,False,False,1522.32
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00027,4,Tested,2025-08-28,IAM,Jon Miller,False,False,6503.12
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00027,5,Remediated,2025-08-29,GRC,Nina Patel,True,False,6768.22
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00028,1,Control Defined,2026-03-25,GRC,Sara Novak,False,True,6407.42
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00028,2,Evidence Requested,2026-03-30,ERP,Sara Novak,False,False,6121.94
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00028,3,Evidence Collected,2026-04-05,GRC,Priya Rao,True,False,6624.77
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00028,4,Tested,2026-04-05,ERP,Maria Garcia,True,False,473.59
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00028,5,Remediated,2026-04-11,Audit Management,Kenji Tanaka,False,False,7829.01
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00029,1,Control Defined,2025-10-12,ERP,Kenji Tanaka,False,False,2373.59
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00029,2,Evidence Requested,2025-10-18,Audit Management,Thomas Weber,False,False,3425.78
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00029,3,Evidence Collected,2025-10-22,IAM,Maria Garcia,True,False,2368.72
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00029,4,Tested,2025-10-23,Audit Management,Kenji Tanaka,True,False,4417.19
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00029,5,Remediated,2025-10-27,GRC,Alex Chen,False,False,1348.02
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00030,1,Control Defined,2025-08-11,GRC,Jon Miller,False,False,4141.4
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00030,2,Evidence Requested,2025-08-15,GRC,Maria Garcia,False,False,3567.95
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00030,3,Evidence Collected,2025-08-18,IAM,Kenji Tanaka,True,False,4804.93
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00030,4,Tested,2025-08-24,ERP,Thomas Weber,False,False,5297.67
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00030,5,Remediated,2025-08-28,IAM,Alex Chen,True,False,6878.16
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00031,1,Control Defined,2025-11-19,ERP,Thomas Weber,True,False,101.27
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00031,2,Evidence Requested,2025-11-22,ERP,Kenji Tanaka,False,True,1660.81
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00031,3,Evidence Collected,2025-11-27,ERP,Jon Miller,True,False,6887.99
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00031,4,Tested,2025-12-03,IAM,Nina Patel,True,False,7970.94
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00031,5,Remediated,2025-12-05,Audit Management,Thomas Weber,True,False,7837.8
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00032,1,Control Defined,2026-01-10,IAM,Priya Rao,True,False,4356.01
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00032,2,Evidence Requested,2026-01-10,GRC,Sara Novak,False,False,2206.52
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00032,3,Evidence Collected,2026-01-12,ERP,Jon Miller,True,False,3457.41
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00032,4,Tested,2026-01-14,GRC,Priya Rao,False,False,6834.67
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00032,5,Remediated,2026-01-15,GRC,Alex Chen,True,False,7140.36
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00033,1,Control Defined,2025-09-08,GRC,Kenji Tanaka,False,False,3450.34
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00033,2,Evidence Requested,2025-09-13,GRC,Jon Miller,True,False,7221.47
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00033,3,Evidence Collected,2025-09-14,ERP,Kenji Tanaka,True,False,3524.49
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00033,4,Tested,2025-09-18,ERP,Alex Chen,True,False,3483.5
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00033,5,Remediated,2025-09-21,ERP,Thomas Weber,True,False,4805.68
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00034,1,Control Defined,2025-05-05,Audit Management,Thomas Weber,True,False,2300.83
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00034,2,Evidence Requested,2025-05-05,IAM,Thomas Weber,False,False,5778.09
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00034,3,Evidence Collected,2025-05-07,GRC,Kenji Tanaka,True,False,3329.94
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00034,4,Tested,2025-05-12,IAM,Maria Garcia,False,False,3025.56
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00034,5,Remediated,2025-05-13,Audit Management,Jon Miller,True,False,1388.58
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00035,1,Control Defined,2026-03-04,GRC,Priya Rao,True,True,7766.22
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00035,2,Evidence Requested,2026-03-07,Audit Management,Nina Patel,True,False,6230.58
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00035,3,Evidence Collected,2026-03-13,ERP,Jon Miller,True,False,2977.79
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00035,4,Tested,2026-03-14,IAM,Jon Miller,True,False,6883.46
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00035,5,Remediated,2026-03-14,IAM,Nina Patel,False,False,3403.92
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00036,1,Control Defined,2026-03-22,Audit Management,Nina Patel,True,False,1989.7
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00036,2,Evidence Requested,2026-03-27,ERP,Sara Novak,False,False,7545.05
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00036,3,Evidence Collected,2026-03-28,ERP,Priya Rao,True,False,1632.59
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00036,4,Tested,2026-03-31,Audit Management,Kenji Tanaka,True,False,460.62
+control2evidence,Control2Evidence,CONTROL2EVIDENCE-00036,5,Remediated,2026-03-31,Audit Management,Sara Novak,True,False,2548.34

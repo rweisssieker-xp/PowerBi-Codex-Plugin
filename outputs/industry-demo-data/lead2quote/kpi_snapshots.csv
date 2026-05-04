@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+lead2quote,Lead2Quote / Configure2Quote,2025-01,Quote Cycle Time,10.54,16.65,0.83,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-01,Configuration Error Rate,65.24,81.69,4.08,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-01,Approval Aging,12.36,16.23,0.81,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-01,Discount Leakage,14.13,15.31,0.77,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-01,Quote Win Rate,87.48,95.59,4.78,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-02,Quote Cycle Time,16.1,20.26,1.01,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-02,Configuration Error Rate,80.24,77.76,3.89,Green,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-02,Approval Aging,36.89,38.44,1.92,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-02,Discount Leakage,49.76,52.68,2.63,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-02,Quote Win Rate,82.09,95.57,4.78,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-03,Quote Cycle Time,13.74,15.59,0.78,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-03,Configuration Error Rate,74.13,84.36,4.22,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-03,Approval Aging,37.16,46.21,2.31,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-03,Discount Leakage,10.36,11.63,0.58,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-03,Quote Win Rate,78.65,97.4,4.87,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-04,Quote Cycle Time,48.52,47.36,2.37,Green,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-04,Configuration Error Rate,68.69,78.27,3.91,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-04,Approval Aging,8.32,10.88,0.54,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-04,Discount Leakage,46.88,53.08,2.65,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-04,Quote Win Rate,90.07,87.58,4.38,Green,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-05,Quote Cycle Time,19.33,26.59,1.33,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-05,Configuration Error Rate,77.89,90.66,4.53,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-05,Approval Aging,29.94,35.88,1.79,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-05,Discount Leakage,9.86,13.62,0.68,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-05,Quote Win Rate,79.9,78.01,3.9,Green,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-06,Quote Cycle Time,41.17,47.22,2.36,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-06,Configuration Error Rate,88.91,97.03,4.85,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-06,Approval Aging,55.77,57.21,2.86,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-06,Discount Leakage,23.11,24.21,1.21,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-06,Quote Win Rate,70.9,84.6,4.23,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-07,Quote Cycle Time,32.52,35.18,1.76,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-07,Configuration Error Rate,76.95,91.83,4.59,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-07,Approval Aging,30.13,35.1,1.76,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-07,Discount Leakage,49.95,52.29,2.61,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-07,Quote Win Rate,82.23,90.91,4.55,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-08,Quote Cycle Time,13.66,16.98,0.85,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-08,Configuration Error Rate,94.39,97.95,4.9,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-08,Approval Aging,14.92,15.94,0.8,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-08,Discount Leakage,29.13,37.17,1.86,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-08,Quote Win Rate,71.06,88.95,4.45,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-09,Quote Cycle Time,20.59,25.57,1.28,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-09,Configuration Error Rate,79.92,80.47,4.02,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-09,Approval Aging,34.23,33.15,1.66,Green,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-09,Discount Leakage,27.76,31.17,1.56,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-09,Quote Win Rate,75.55,89.03,4.45,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-10,Quote Cycle Time,47.91,50.95,2.55,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-10,Configuration Error Rate,76.92,87.52,4.38,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-10,Approval Aging,18.36,23.25,1.16,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-10,Discount Leakage,47.82,52.42,2.62,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-10,Quote Win Rate,81.84,85.47,4.27,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-11,Quote Cycle Time,14.66,16.77,0.84,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-11,Configuration Error Rate,75.54,90.65,4.53,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-11,Approval Aging,54.41,54.17,2.71,Green,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-11,Discount Leakage,11.41,12.23,0.61,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-11,Quote Win Rate,70.27,84.2,4.21,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-12,Quote Cycle Time,52.37,53.14,2.66,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-12,Configuration Error Rate,92.32,93.0,4.65,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-12,Approval Aging,14.26,20.79,1.04,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-12,Discount Leakage,50.1,57.49,2.87,Red,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales
+lead2quote,Lead2Quote / Configure2Quote,2025-12,Quote Win Rate,74.54,82.67,4.13,Amber,Quote Process Owner,CRM; CPQ; Pricing; ERP Sales

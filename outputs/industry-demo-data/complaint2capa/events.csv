@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00001,1,Complaint Logged,2026-02-09,QMS,Maria Garcia,False,False,4378.93
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00001,2,Investigation Opened,2026-02-12,CRM Service,Nina Patel,True,True,6910.91
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00001,3,Root Cause Confirmed,2026-02-16,QMS,Sara Novak,True,False,2161.19
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00001,4,CAPA Assigned,2026-02-22,ERP QM,Thomas Weber,True,False,906.74
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00001,5,Effectiveness Checked,2026-02-26,Warranty,Thomas Weber,True,False,6991.52
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00002,1,Complaint Logged,2026-02-22,ERP QM,Thomas Weber,False,False,4020.21
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00002,2,Investigation Opened,2026-02-27,Warranty,Thomas Weber,False,False,3994.11
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00002,3,Root Cause Confirmed,2026-03-03,ERP QM,Thomas Weber,True,False,2642.64
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00002,4,CAPA Assigned,2026-03-08,Warranty,Kenji Tanaka,True,True,6610.68
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00002,5,Effectiveness Checked,2026-03-14,CRM Service,Priya Rao,True,False,7543.33
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00003,1,Complaint Logged,2025-11-08,QMS,Priya Rao,True,False,1009.76
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00003,2,Investigation Opened,2025-11-14,QMS,Maria Garcia,True,False,4232.49
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00003,3,Root Cause Confirmed,2025-11-19,Warranty,Thomas Weber,False,False,1480.01
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00003,4,CAPA Assigned,2025-11-25,ERP QM,Nina Patel,False,False,5695.66
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00003,5,Effectiveness Checked,2025-11-27,QMS,Priya Rao,False,True,4259.86
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00004,1,Complaint Logged,2025-07-16,CRM Service,Sara Novak,True,False,6860.44
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00004,2,Investigation Opened,2025-07-17,ERP QM,Sara Novak,False,False,4670.89
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00004,3,Root Cause Confirmed,2025-07-17,Warranty,Jon Miller,False,False,6179.55
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00004,4,CAPA Assigned,2025-07-23,QMS,Kenji Tanaka,False,False,7654.24
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00004,5,Effectiveness Checked,2025-07-29,Warranty,Priya Rao,True,False,2203.74
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00005,1,Complaint Logged,2026-01-29,QMS,Nina Patel,False,False,7464.26
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00005,2,Investigation Opened,2026-02-02,QMS,Alex Chen,True,False,591.49
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00005,3,Root Cause Confirmed,2026-02-08,QMS,Maria Garcia,False,False,423.45
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00005,4,CAPA Assigned,2026-02-13,QMS,Thomas Weber,False,False,397.17
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00005,5,Effectiveness Checked,2026-02-14,QMS,Kenji Tanaka,False,True,5859.75
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00006,1,Complaint Logged,2025-03-03,Warranty,Priya Rao,False,False,1535.69
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00006,2,Investigation Opened,2025-03-09,ERP QM,Alex Chen,False,True,5555.4
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00006,3,Root Cause Confirmed,2025-03-09,QMS,Nina Patel,False,False,1653.82
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00006,4,CAPA Assigned,2025-03-09,ERP QM,Jon Miller,True,True,785.73
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00006,5,Effectiveness Checked,2025-03-09,CRM Service,Alex Chen,False,False,1383.52
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00007,1,Complaint Logged,2025-04-19,QMS,Alex Chen,False,False,1717.95
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00007,2,Investigation Opened,2025-04-21,Warranty,Thomas Weber,True,False,4642.53
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00007,3,Root Cause Confirmed,2025-04-21,QMS,Nina Patel,False,False,2343.79
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00007,4,CAPA Assigned,2025-04-27,Warranty,Thomas Weber,False,False,5119.94
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00007,5,Effectiveness Checked,2025-05-02,QMS,Jon Miller,True,False,7359.47
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00008,1,Complaint Logged,2025-07-22,CRM Service,Maria Garcia,True,False,3597.04
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00008,2,Investigation Opened,2025-07-24,QMS,Thomas Weber,False,True,7254.47
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00008,3,Root Cause Confirmed,2025-07-24,QMS,Maria Garcia,True,False,4743.34
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00008,4,CAPA Assigned,2025-07-30,QMS,Thomas Weber,True,False,1019.43
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00008,5,Effectiveness Checked,2025-08-03,QMS,Nina Patel,True,True,5677.74
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00009,1,Complaint Logged,2025-02-07,CRM Service,Alex Chen,True,False,7775.76
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00009,2,Investigation Opened,2025-02-13,Warranty,Jon Miller,True,False,5610.9
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00009,3,Root Cause Confirmed,2025-02-17,ERP QM,Maria Garcia,True,False,3134.06
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00009,4,CAPA Assigned,2025-02-22,QMS,Nina Patel,True,False,5984.14
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00009,5,Effectiveness Checked,2025-02-25,CRM Service,Nina Patel,False,False,2170.21
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00010,1,Complaint Logged,2025-07-18,QMS,Priya Rao,False,False,2181.74
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00010,2,Investigation Opened,2025-07-20,CRM Service,Nina Patel,True,False,593.95
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00010,3,Root Cause Confirmed,2025-07-21,CRM Service,Thomas Weber,True,False,7754.12
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00010,4,CAPA Assigned,2025-07-22,Warranty,Thomas Weber,False,False,4779.67
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00010,5,Effectiveness Checked,2025-07-22,ERP QM,Nina Patel,True,False,6443.77
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00011,1,Complaint Logged,2025-09-15,ERP QM,Kenji Tanaka,True,False,3686.12
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00011,2,Investigation Opened,2025-09-16,CRM Service,Sara Novak,True,False,7061.55
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00011,3,Root Cause Confirmed,2025-09-21,QMS,Thomas Weber,True,False,2045.28
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00011,4,CAPA Assigned,2025-09-25,Warranty,Nina Patel,False,False,2669.23
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00011,5,Effectiveness Checked,2025-10-01,ERP QM,Kenji Tanaka,True,False,1797.6
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00012,1,Complaint Logged,2025-10-20,ERP QM,Priya Rao,True,False,5411.49
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00012,2,Investigation Opened,2025-10-26,ERP QM,Alex Chen,True,False,6811.44
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00012,3,Root Cause Confirmed,2025-11-01,ERP QM,Jon Miller,False,False,4056.03
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00012,4,CAPA Assigned,2025-11-05,Warranty,Maria Garcia,False,False,4099.23
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00012,5,Effectiveness Checked,2025-11-07,CRM Service,Nina Patel,False,False,4148.18
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00013,1,Complaint Logged,2026-03-16,QMS,Maria Garcia,False,False,3142.73
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00013,2,Investigation Opened,2026-03-21,ERP QM,Nina Patel,False,False,7165.71
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00013,3,Root Cause Confirmed,2026-03-21,QMS,Nina Patel,True,False,990.57
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00013,4,CAPA Assigned,2026-03-22,QMS,Thomas Weber,True,False,5840.87
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00013,5,Effectiveness Checked,2026-03-25,CRM Service,Maria Garcia,True,False,3429.7
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00014,1,Complaint Logged,2025-04-23,Warranty,Jon Miller,False,False,374.56
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00014,2,Investigation Opened,2025-04-23,CRM Service,Jon Miller,False,False,1405.64
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00014,3,Root Cause Confirmed,2025-04-29,Warranty,Priya Rao,False,False,2331.01
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00014,4,CAPA Assigned,2025-04-29,CRM Service,Jon Miller,True,True,2964.95
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00014,5,Effectiveness Checked,2025-05-01,QMS,Nina Patel,True,False,7359.55
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00015,1,Complaint Logged,2025-09-04,QMS,Alex Chen,False,True,4194.79
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00015,2,Investigation Opened,2025-09-10,CRM Service,Priya Rao,True,False,4178.97
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00015,3,Root Cause Confirmed,2025-09-14,ERP QM,Alex Chen,True,False,136.36
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00015,4,CAPA Assigned,2025-09-14,Warranty,Alex Chen,False,False,216.77
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00015,5,Effectiveness Checked,2025-09-18,ERP QM,Thomas Weber,False,False,1482.77
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00016,1,Complaint Logged,2026-01-28,QMS,Thomas Weber,True,False,7126.71
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00016,2,Investigation Opened,2026-01-31,Warranty,Jon Miller,True,False,1428.12
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00016,3,Root Cause Confirmed,2026-02-05,ERP QM,Jon Miller,False,False,5403.67
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00016,4,CAPA Assigned,2026-02-06,ERP QM,Jon Miller,True,False,2801.92
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00016,5,Effectiveness Checked,2026-02-06,ERP QM,Maria Garcia,True,False,6875.01
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00017,1,Complaint Logged,2026-01-21,CRM Service,Nina Patel,True,False,3534.25
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00017,2,Investigation Opened,2026-01-25,Warranty,Kenji Tanaka,True,False,2522.37
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00017,3,Root Cause Confirmed,2026-01-26,ERP QM,Sara Novak,False,False,5071.44
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00017,4,CAPA Assigned,2026-01-31,ERP QM,Kenji Tanaka,True,False,3014.15
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00017,5,Effectiveness Checked,2026-02-03,CRM Service,Kenji Tanaka,True,True,6113.33
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00018,1,Complaint Logged,2025-05-17,Warranty,Sara Novak,True,False,7693.72
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00018,2,Investigation Opened,2025-05-17,CRM Service,Priya Rao,False,True,6061.35
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00018,3,Root Cause Confirmed,2025-05-18,Warranty,Priya Rao,True,False,2895.95
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00018,4,CAPA Assigned,2025-05-20,Warranty,Thomas Weber,True,False,186.17
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00018,5,Effectiveness Checked,2025-05-23,QMS,Sara Novak,True,False,1399.03
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00019,1,Complaint Logged,2026-03-23,QMS,Sara Novak,False,True,7717.11
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00019,2,Investigation Opened,2026-03-29,QMS,Priya Rao,True,False,1854.48
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00019,3,Root Cause Confirmed,2026-04-02,Warranty,Nina Patel,False,False,2381.37
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00019,4,CAPA Assigned,2026-04-08,ERP QM,Kenji Tanaka,True,False,3086.87
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00019,5,Effectiveness Checked,2026-04-08,ERP QM,Jon Miller,False,False,7330.16
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00020,1,Complaint Logged,2025-03-30,Warranty,Jon Miller,True,False,1378.09
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00020,2,Investigation Opened,2025-04-05,CRM Service,Thomas Weber,True,True,7103.03
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00020,3,Root Cause Confirmed,2025-04-07,ERP QM,Sara Novak,False,False,2675.79
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00020,4,CAPA Assigned,2025-04-07,CRM Service,Nina Patel,False,False,4549.05
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00020,5,Effectiveness Checked,2025-04-11,CRM Service,Maria Garcia,False,False,750.48
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00021,1,Complaint Logged,2025-09-24,QMS,Sara Novak,False,False,1125.68
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00021,2,Investigation Opened,2025-09-27,QMS,Jon Miller,False,False,94.62
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00021,3,Root Cause Confirmed,2025-09-28,QMS,Kenji Tanaka,True,False,2185.93
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00021,4,CAPA Assigned,2025-09-30,CRM Service,Nina Patel,True,False,2971.69
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00021,5,Effectiveness Checked,2025-10-05,QMS,Maria Garcia,True,False,4807.64
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00022,1,Complaint Logged,2025-04-10,ERP QM,Alex Chen,True,False,408.75
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00022,2,Investigation Opened,2025-04-14,QMS,Jon Miller,True,False,5407.7
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00022,3,Root Cause Confirmed,2025-04-20,Warranty,Priya Rao,True,False,3288.47
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00022,4,CAPA Assigned,2025-04-24,Warranty,Sara Novak,False,False,7018.94
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00022,5,Effectiveness Checked,2025-04-26,CRM Service,Jon Miller,True,True,7504.76
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00023,1,Complaint Logged,2025-03-10,QMS,Sara Novak,True,False,4213.29
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00023,2,Investigation Opened,2025-03-15,Warranty,Nina Patel,True,False,4579.8
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00023,3,Root Cause Confirmed,2025-03-18,CRM Service,Kenji Tanaka,True,False,2243.17
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00023,4,CAPA Assigned,2025-03-22,Warranty,Alex Chen,False,False,4879.08
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00023,5,Effectiveness Checked,2025-03-28,ERP QM,Maria Garcia,False,False,1732.74
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00024,1,Complaint Logged,2025-03-18,QMS,Thomas Weber,True,False,1282.56
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00024,2,Investigation Opened,2025-03-22,ERP QM,Jon Miller,False,False,4254.69
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00024,3,Root Cause Confirmed,2025-03-25,QMS,Alex Chen,False,False,2788.59
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00024,4,CAPA Assigned,2025-03-30,CRM Service,Nina Patel,False,False,4604.51
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00024,5,Effectiveness Checked,2025-03-30,QMS,Maria Garcia,True,False,2802.53
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00025,1,Complaint Logged,2025-04-27,Warranty,Sara Novak,True,False,726.71
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00025,2,Investigation Opened,2025-05-02,ERP QM,Jon Miller,True,False,2698.31
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00025,3,Root Cause Confirmed,2025-05-06,CRM Service,Sara Novak,False,False,507.1
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00025,4,CAPA Assigned,2025-05-07,CRM Service,Maria Garcia,False,True,3759.82
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00025,5,Effectiveness Checked,2025-05-11,ERP QM,Alex Chen,False,False,5410.69
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00026,1,Complaint Logged,2025-08-14,QMS,Jon Miller,True,True,5504.82
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00026,2,Investigation Opened,2025-08-15,ERP QM,Maria Garcia,False,False,5952.83
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00026,3,Root Cause Confirmed,2025-08-21,QMS,Kenji Tanaka,False,False,899.24
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00026,4,CAPA Assigned,2025-08-26,QMS,Maria Garcia,True,False,2215.4
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00026,5,Effectiveness Checked,2025-09-01,CRM Service,Alex Chen,True,False,553.63
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00027,1,Complaint Logged,2025-01-25,QMS,Maria Garcia,False,False,6266.61
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00027,2,Investigation Opened,2025-01-29,Warranty,Nina Patel,True,False,2172.95
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00027,3,Root Cause Confirmed,2025-02-03,ERP QM,Jon Miller,True,False,4137.64
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00027,4,CAPA Assigned,2025-02-04,QMS,Maria Garcia,True,False,5410.87
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00027,5,Effectiveness Checked,2025-02-10,ERP QM,Jon Miller,True,False,2551.05
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00028,1,Complaint Logged,2026-02-23,Warranty,Jon Miller,False,False,1077.38
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00028,2,Investigation Opened,2026-02-23,CRM Service,Jon Miller,False,False,5377.86
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00028,3,Root Cause Confirmed,2026-02-26,Warranty,Sara Novak,True,False,2618.47
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00028,4,CAPA Assigned,2026-02-27,QMS,Alex Chen,True,False,4401.15
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00028,5,Effectiveness Checked,2026-03-02,QMS,Jon Miller,False,False,7096.91
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00029,1,Complaint Logged,2026-01-30,ERP QM,Alex Chen,True,True,2946.45
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00029,2,Investigation Opened,2026-02-05,Warranty,Sara Novak,True,True,7556.32
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00029,3,Root Cause Confirmed,2026-02-10,CRM Service,Priya Rao,True,False,6301.03
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00029,4,CAPA Assigned,2026-02-15,ERP QM,Kenji Tanaka,True,False,5792.14
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00029,5,Effectiveness Checked,2026-02-19,CRM Service,Nina Patel,True,False,1961.96
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00030,1,Complaint Logged,2025-10-14,CRM Service,Kenji Tanaka,True,False,7426.41
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00030,2,Investigation Opened,2025-10-14,QMS,Alex Chen,False,False,428.89
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00030,3,Root Cause Confirmed,2025-10-16,ERP QM,Maria Garcia,True,False,6185.04
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00030,4,CAPA Assigned,2025-10-17,ERP QM,Priya Rao,True,False,2640.88
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00030,5,Effectiveness Checked,2025-10-22,CRM Service,Jon Miller,False,False,2013.03
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00031,1,Complaint Logged,2026-02-14,QMS,Priya Rao,True,False,231.54
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00031,2,Investigation Opened,2026-02-14,QMS,Sara Novak,False,False,7491.36
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00031,3,Root Cause Confirmed,2026-02-20,QMS,Kenji Tanaka,False,False,4143.44
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00031,4,CAPA Assigned,2026-02-21,CRM Service,Nina Patel,True,True,5958.96
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00031,5,Effectiveness Checked,2026-02-23,QMS,Alex Chen,True,False,4372.47
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00032,1,Complaint Logged,2025-11-13,Warranty,Thomas Weber,False,False,2129.7
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00032,2,Investigation Opened,2025-11-14,CRM Service,Alex Chen,False,False,206.18
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00032,3,Root Cause Confirmed,2025-11-16,CRM Service,Alex Chen,True,False,4252.58
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00032,4,CAPA Assigned,2025-11-19,QMS,Jon Miller,False,False,898.12
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00032,5,Effectiveness Checked,2025-11-24,Warranty,Priya Rao,True,False,6275.35
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00033,1,Complaint Logged,2025-01-21,CRM Service,Priya Rao,True,False,1129.15
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00033,2,Investigation Opened,2025-01-26,Warranty,Alex Chen,False,True,4937.88
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00033,3,Root Cause Confirmed,2025-01-31,ERP QM,Alex Chen,False,False,1196.67
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00033,4,CAPA Assigned,2025-01-31,CRM Service,Maria Garcia,True,False,7765.28
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00033,5,Effectiveness Checked,2025-02-06,Warranty,Jon Miller,True,False,2919.01
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00034,1,Complaint Logged,2025-01-19,Warranty,Nina Patel,False,False,7290.31
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00034,2,Investigation Opened,2025-01-21,ERP QM,Thomas Weber,True,False,1212.54
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00034,3,Root Cause Confirmed,2025-01-21,CRM Service,Thomas Weber,False,False,5795.66
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00034,4,CAPA Assigned,2025-01-24,CRM Service,Alex Chen,False,False,221.52
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00034,5,Effectiveness Checked,2025-01-30,QMS,Priya Rao,True,False,7325.07
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00035,1,Complaint Logged,2025-10-30,CRM Service,Priya Rao,True,False,3212.16
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00035,2,Investigation Opened,2025-10-31,ERP QM,Jon Miller,False,False,2918.07
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00035,3,Root Cause Confirmed,2025-11-03,CRM Service,Alex Chen,False,False,3324.95
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00035,4,CAPA Assigned,2025-11-04,Warranty,Thomas Weber,True,False,1636.65
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00035,5,Effectiveness Checked,2025-11-05,Warranty,Jon Miller,False,False,5101.65
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00036,1,Complaint Logged,2025-05-22,ERP QM,Nina Patel,True,False,729.07
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00036,2,Investigation Opened,2025-05-26,CRM Service,Thomas Weber,True,False,3769.87
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00036,3,Root Cause Confirmed,2025-05-26,Warranty,Thomas Weber,True,True,2380.51
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00036,4,CAPA Assigned,2025-05-30,QMS,Kenji Tanaka,False,False,5403.54
+complaint2capa,Complaint2CAPA,COMPLAINT2CAPA-00036,5,Effectiveness Checked,2025-06-02,ERP QM,Alex Chen,False,True,781.89

@@ -11,6 +11,7 @@ Detailed product documentation for the Power BI Expert-Replacement Factory.
 - [Process Chain KPIs](PROCESS_CHAIN_KPIS.md)
 - [Skills Catalog](SKILLS_CATALOG.md)
 - [Source System Coverage](SOURCE_SYSTEM_COVERAGE.md)
+- [Industry Demo Data](../../outputs/industry-demo-data/README.md)
 
 ## Scope
 

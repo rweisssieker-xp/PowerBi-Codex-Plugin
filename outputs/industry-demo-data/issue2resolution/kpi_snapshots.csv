@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+issue2resolution,Issue2Resolution,2025-01,Issue Aging,26.64,29.17,1.46,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-01,SLA Breach %,89.65,92.76,4.64,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-01,Warranty Cost,36.35,39.74,1.99,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-01,Repeat Issue Rate,83.07,87.37,4.37,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-01,Corrective Action Aging,15.02,19.1,0.96,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-02,Issue Aging,35.26,40.72,2.04,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-02,SLA Breach %,62.41,78.84,3.94,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-02,Warranty Cost,36.8,36.03,1.8,Green,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-02,Repeat Issue Rate,96.56,92.82,4.64,Green,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-02,Corrective Action Aging,20.04,21.0,1.05,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-03,Issue Aging,55.99,56.95,2.85,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-03,SLA Breach %,80.41,85.8,4.29,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-03,Warranty Cost,15.56,16.67,0.83,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-03,Repeat Issue Rate,73.57,76.52,3.83,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-03,Corrective Action Aging,32.84,32.29,1.61,Green,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-04,Issue Aging,36.34,37.0,1.85,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-04,SLA Breach %,73.06,83.7,4.19,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-04,Warranty Cost,9.48,12.36,0.62,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-04,Repeat Issue Rate,96.56,92.63,4.63,Green,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-04,Corrective Action Aging,26.71,28.33,1.42,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-05,Issue Aging,22.18,24.3,1.22,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-05,SLA Breach %,70.56,87.0,4.35,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-05,Warranty Cost,21.71,23.46,1.17,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-05,Repeat Issue Rate,97.48,96.83,4.84,Green,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-05,Corrective Action Aging,49.09,55.71,2.79,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-06,Issue Aging,17.89,22.61,1.13,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-06,SLA Breach %,74.93,84.74,4.24,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-06,Warranty Cost,51.45,53.44,2.67,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-06,Repeat Issue Rate,76.73,89.78,4.49,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-06,Corrective Action Aging,13.34,14.03,0.7,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-07,Issue Aging,33.07,41.33,2.07,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-07,SLA Breach %,81.52,89.29,4.46,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-07,Warranty Cost,33.14,41.12,2.06,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-07,Repeat Issue Rate,88.21,95.43,4.77,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-07,Corrective Action Aging,19.38,21.13,1.06,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-08,Issue Aging,26.65,26.08,1.3,Green,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-08,SLA Breach %,86.21,94.24,4.71,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-08,Warranty Cost,52.12,50.96,2.55,Green,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-08,Repeat Issue Rate,68.22,84.89,4.24,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-08,Corrective Action Aging,8.45,10.46,0.52,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-09,Issue Aging,26.96,33.51,1.68,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-09,SLA Breach %,69.09,81.55,4.08,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-09,Warranty Cost,25.35,29.18,1.46,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-09,Repeat Issue Rate,81.15,88.03,4.4,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-09,Corrective Action Aging,14.27,17.0,0.85,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-10,Issue Aging,44.91,51.55,2.58,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-10,SLA Breach %,83.02,84.71,4.24,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-10,Warranty Cost,27.66,29.68,1.48,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-10,Repeat Issue Rate,63.26,76.74,3.84,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-10,Corrective Action Aging,61.22,59.85,2.99,Green,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-11,Issue Aging,39.21,41.88,2.09,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-11,SLA Breach %,84.55,81.95,4.1,Green,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-11,Warranty Cost,37.18,41.3,2.06,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-11,Repeat Issue Rate,102.95,97.21,4.86,Green,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-11,Corrective Action Aging,27.93,33.7,1.69,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-12,Issue Aging,25.95,35.19,1.76,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-12,SLA Breach %,86.05,90.64,4.53,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-12,Warranty Cost,11.23,13.46,0.67,Red,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-12,Repeat Issue Rate,83.63,91.5,4.58,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service
+issue2resolution,Issue2Resolution,2025-12,Corrective Action Aging,46.61,47.56,2.38,Amber,Issue Resolution Process Owner,CRM Service; Warranty; QMS; Field Service

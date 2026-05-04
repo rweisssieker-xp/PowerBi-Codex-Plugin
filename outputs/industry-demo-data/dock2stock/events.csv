@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+dock2stock,Dock2Stock,DOCK2STOCK-00001,1,ASN Received,2025-08-26,QMS,Maria Garcia,True,False,2224.1
+dock2stock,Dock2Stock,DOCK2STOCK-00001,2,Truck Arrived,2025-09-01,Yard Management,Jon Miller,False,False,7527.3
+dock2stock,Dock2Stock,DOCK2STOCK-00001,3,Goods Received,2025-09-03,WMS,Alex Chen,False,True,4667.73
+dock2stock,Dock2Stock,DOCK2STOCK-00001,4,Quality Released,2025-09-04,QMS,Kenji Tanaka,True,True,6928.29
+dock2stock,Dock2Stock,DOCK2STOCK-00001,5,Putaway Complete,2025-09-09,ERP MM,Sara Novak,False,False,2645.22
+dock2stock,Dock2Stock,DOCK2STOCK-00002,1,ASN Received,2026-02-17,WMS,Priya Rao,False,False,3987.28
+dock2stock,Dock2Stock,DOCK2STOCK-00002,2,Truck Arrived,2026-02-18,Yard Management,Alex Chen,True,False,523.9
+dock2stock,Dock2Stock,DOCK2STOCK-00002,3,Goods Received,2026-02-23,ERP MM,Sara Novak,False,False,4861.01
+dock2stock,Dock2Stock,DOCK2STOCK-00002,4,Quality Released,2026-02-26,ERP MM,Nina Patel,True,False,6971.78
+dock2stock,Dock2Stock,DOCK2STOCK-00002,5,Putaway Complete,2026-02-27,Yard Management,Priya Rao,True,False,2430.97
+dock2stock,Dock2Stock,DOCK2STOCK-00003,1,ASN Received,2025-04-01,ERP MM,Priya Rao,False,False,5379.9
+dock2stock,Dock2Stock,DOCK2STOCK-00003,2,Truck Arrived,2025-04-04,QMS,Kenji Tanaka,True,False,5906.31
+dock2stock,Dock2Stock,DOCK2STOCK-00003,3,Goods Received,2025-04-04,ERP MM,Priya Rao,False,False,5731.53
+dock2stock,Dock2Stock,DOCK2STOCK-00003,4,Quality Released,2025-04-08,QMS,Maria Garcia,True,False,4629.93
+dock2stock,Dock2Stock,DOCK2STOCK-00003,5,Putaway Complete,2025-04-14,QMS,Alex Chen,True,False,7806.2
+dock2stock,Dock2Stock,DOCK2STOCK-00004,1,ASN Received,2025-04-22,QMS,Alex Chen,False,False,2717.35
+dock2stock,Dock2Stock,DOCK2STOCK-00004,2,Truck Arrived,2025-04-28,ERP MM,Thomas Weber,False,False,7464.39
+dock2stock,Dock2Stock,DOCK2STOCK-00004,3,Goods Received,2025-04-29,WMS,Jon Miller,True,False,2275.35
+dock2stock,Dock2Stock,DOCK2STOCK-00004,4,Quality Released,2025-05-05,WMS,Nina Patel,True,False,3627.93
+dock2stock,Dock2Stock,DOCK2STOCK-00004,5,Putaway Complete,2025-05-05,Yard Management,Maria Garcia,True,False,3611.71
+dock2stock,Dock2Stock,DOCK2STOCK-00005,1,ASN Received,2025-01-09,Yard Management,Kenji Tanaka,False,False,1468.48
+dock2stock,Dock2Stock,DOCK2STOCK-00005,2,Truck Arrived,2025-01-11,Yard Management,Priya Rao,False,False,2758.47
+dock2stock,Dock2Stock,DOCK2STOCK-00005,3,Goods Received,2025-01-16,Yard Management,Kenji Tanaka,True,False,3247.54
+dock2stock,Dock2Stock,DOCK2STOCK-00005,4,Quality Released,2025-01-22,QMS,Maria Garcia,False,True,442.18
+dock2stock,Dock2Stock,DOCK2STOCK-00005,5,Putaway Complete,2025-01-23,WMS,Maria Garcia,True,False,189.64
+dock2stock,Dock2Stock,DOCK2STOCK-00006,1,ASN Received,2025-11-03,WMS,Kenji Tanaka,False,False,4956.89
+dock2stock,Dock2Stock,DOCK2STOCK-00006,2,Truck Arrived,2025-11-09,QMS,Nina Patel,False,False,4618.46
+dock2stock,Dock2Stock,DOCK2STOCK-00006,3,Goods Received,2025-11-12,Yard Management,Jon Miller,True,False,1541.67
+dock2stock,Dock2Stock,DOCK2STOCK-00006,4,Quality Released,2025-11-14,WMS,Alex Chen,True,False,3262.16
+dock2stock,Dock2Stock,DOCK2STOCK-00006,5,Putaway Complete,2025-11-14,ERP MM,Thomas Weber,False,True,5158.78
+dock2stock,Dock2Stock,DOCK2STOCK-00007,1,ASN Received,2025-02-17,Yard Management,Sara Novak,False,False,232.23
+dock2stock,Dock2Stock,DOCK2STOCK-00007,2,Truck Arrived,2025-02-22,Yard Management,Sara Novak,True,False,4072.56
+dock2stock,Dock2Stock,DOCK2STOCK-00007,3,Goods Received,2025-02-27,WMS,Nina Patel,True,False,3124.38
+dock2stock,Dock2Stock,DOCK2STOCK-00007,4,Quality Released,2025-03-04,QMS,Nina Patel,False,False,6084.05
+dock2stock,Dock2Stock,DOCK2STOCK-00007,5,Putaway Complete,2025-03-07,ERP MM,Kenji Tanaka,True,False,4383.32
+dock2stock,Dock2Stock,DOCK2STOCK-00008,1,ASN Received,2025-02-23,QMS,Thomas Weber,False,False,2360.7
+dock2stock,Dock2Stock,DOCK2STOCK-00008,2,Truck Arrived,2025-03-01,WMS,Maria Garcia,False,False,3037.83
+dock2stock,Dock2Stock,DOCK2STOCK-00008,3,Goods Received,2025-03-06,WMS,Thomas Weber,True,False,2715.21
+dock2stock,Dock2Stock,DOCK2STOCK-00008,4,Quality Released,2025-03-12,WMS,Sara Novak,False,False,7334.75
+dock2stock,Dock2Stock,DOCK2STOCK-00008,5,Putaway Complete,2025-03-12,Yard Management,Alex Chen,True,True,296.27
+dock2stock,Dock2Stock,DOCK2STOCK-00009,1,ASN Received,2026-01-22,WMS,Sara Novak,False,False,6301.15
+dock2stock,Dock2Stock,DOCK2STOCK-00009,2,Truck Arrived,2026-01-24,WMS,Kenji Tanaka,True,True,7358.03
+dock2stock,Dock2Stock,DOCK2STOCK-00009,3,Goods Received,2026-01-27,Yard Management,Sara Novak,False,False,4985.86
+dock2stock,Dock2Stock,DOCK2STOCK-00009,4,Quality Released,2026-01-30,Yard Management,Thomas Weber,False,False,2038.14
+dock2stock,Dock2Stock,DOCK2STOCK-00009,5,Putaway Complete,2026-01-30,QMS,Jon Miller,True,False,694.42
+dock2stock,Dock2Stock,DOCK2STOCK-00010,1,ASN Received,2025-06-22,ERP MM,Kenji Tanaka,False,False,4511.09
+dock2stock,Dock2Stock,DOCK2STOCK-00010,2,Truck Arrived,2025-06-23,QMS,Maria Garcia,True,False,4841.74
+dock2stock,Dock2Stock,DOCK2STOCK-00010,3,Goods Received,2025-06-25,WMS,Maria Garcia,True,False,1471.56
+dock2stock,Dock2Stock,DOCK2STOCK-00010,4,Quality Released,2025-06-29,QMS,Maria Garcia,True,False,652.62
+dock2stock,Dock2Stock,DOCK2STOCK-00010,5,Putaway Complete,2025-07-03,ERP MM,Jon Miller,False,False,1388.54
+dock2stock,Dock2Stock,DOCK2STOCK-00011,1,ASN Received,2025-06-17,Yard Management,Sara Novak,False,True,2401.09
+dock2stock,Dock2Stock,DOCK2STOCK-00011,2,Truck Arrived,2025-06-19,ERP MM,Sara Novak,True,True,6959.25
+dock2stock,Dock2Stock,DOCK2STOCK-00011,3,Goods Received,2025-06-25,QMS,Nina Patel,False,False,7560.45
+dock2stock,Dock2Stock,DOCK2STOCK-00011,4,Quality Released,2025-07-01,QMS,Nina Patel,True,False,6962.02
+dock2stock,Dock2Stock,DOCK2STOCK-00011,5,Putaway Complete,2025-07-07,Yard Management,Kenji Tanaka,False,False,5666.53
+dock2stock,Dock2Stock,DOCK2STOCK-00012,1,ASN Received,2025-06-17,Yard Management,Alex Chen,False,True,5990.71
+dock2stock,Dock2Stock,DOCK2STOCK-00012,2,Truck Arrived,2025-06-17,WMS,Jon Miller,True,False,3143.01
+dock2stock,Dock2Stock,DOCK2STOCK-00012,3,Goods Received,2025-06-21,Yard Management,Jon Miller,True,True,3619.05
+dock2stock,Dock2Stock,DOCK2STOCK-00012,4,Quality Released,2025-06-23,Yard Management,Sara Novak,True,False,6566.78
+dock2stock,Dock2Stock,DOCK2STOCK-00012,5,Putaway Complete,2025-06-24,ERP MM,Priya Rao,False,False,7949.35
+dock2stock,Dock2Stock,DOCK2STOCK-00013,1,ASN Received,2026-02-07,ERP MM,Jon Miller,False,False,2522.7
+dock2stock,Dock2Stock,DOCK2STOCK-00013,2,Truck Arrived,2026-02-08,QMS,Nina Patel,True,False,7473.45
+dock2stock,Dock2Stock,DOCK2STOCK-00013,3,Goods Received,2026-02-10,WMS,Thomas Weber,True,False,7053.78
+dock2stock,Dock2Stock,DOCK2STOCK-00013,4,Quality Released,2026-02-12,QMS,Nina Patel,False,False,3368.21
+dock2stock,Dock2Stock,DOCK2STOCK-00013,5,Putaway Complete,2026-02-17,ERP MM,Sara Novak,True,False,3277.01
+dock2stock,Dock2Stock,DOCK2STOCK-00014,1,ASN Received,2026-01-24,ERP MM,Thomas Weber,False,True,3820.7
+dock2stock,Dock2Stock,DOCK2STOCK-00014,2,Truck Arrived,2026-01-28,Yard Management,Alex Chen,True,False,1274.65
+dock2stock,Dock2Stock,DOCK2STOCK-00014,3,Goods Received,2026-01-29,WMS,Sara Novak,False,False,3520.93
+dock2stock,Dock2Stock,DOCK2STOCK-00014,4,Quality Released,2026-01-29,WMS,Alex Chen,True,False,2307.86
+dock2stock,Dock2Stock,DOCK2STOCK-00014,5,Putaway Complete,2026-02-04,WMS,Nina Patel,False,False,4189.48
+dock2stock,Dock2Stock,DOCK2STOCK-00015,1,ASN Received,2025-01-31,ERP MM,Nina Patel,True,False,3568.09
+dock2stock,Dock2Stock,DOCK2STOCK-00015,2,Truck Arrived,2025-02-02,QMS,Jon Miller,True,False,1639.73
+dock2stock,Dock2Stock,DOCK2STOCK-00015,3,Goods Received,2025-02-03,QMS,Jon Miller,False,False,5300.97
+dock2stock,Dock2Stock,DOCK2STOCK-00015,4,Quality Released,2025-02-09,ERP MM,Thomas Weber,True,False,3584.98
+dock2stock,Dock2Stock,DOCK2STOCK-00015,5,Putaway Complete,2025-02-11,Yard Management,Sara Novak,False,True,4294.58
+dock2stock,Dock2Stock,DOCK2STOCK-00016,1,ASN Received,2025-08-17,QMS,Alex Chen,True,False,3666.82
+dock2stock,Dock2Stock,DOCK2STOCK-00016,2,Truck Arrived,2025-08-18,QMS,Kenji Tanaka,False,True,3573.78
+dock2stock,Dock2Stock,DOCK2STOCK-00016,3,Goods Received,2025-08-20,ERP MM,Thomas Weber,True,False,2185.89
+dock2stock,Dock2Stock,DOCK2STOCK-00016,4,Quality Released,2025-08-22,WMS,Sara Novak,False,True,2408.19
+dock2stock,Dock2Stock,DOCK2STOCK-00016,5,Putaway Complete,2025-08-28,QMS,Alex Chen,False,False,1605.64
+dock2stock,Dock2Stock,DOCK2STOCK-00017,1,ASN Received,2026-02-07,Yard Management,Priya Rao,True,False,6133.65
+dock2stock,Dock2Stock,DOCK2STOCK-00017,2,Truck Arrived,2026-02-07,ERP MM,Alex Chen,True,False,7959.52
+dock2stock,Dock2Stock,DOCK2STOCK-00017,3,Goods Received,2026-02-07,Yard Management,Nina Patel,False,False,4920.18
+dock2stock,Dock2Stock,DOCK2STOCK-00017,4,Quality Released,2026-02-10,ERP MM,Thomas Weber,True,False,3040.26
+dock2stock,Dock2Stock,DOCK2STOCK-00017,5,Putaway Complete,2026-02-13,QMS,Alex Chen,True,True,4586.92
+dock2stock,Dock2Stock,DOCK2STOCK-00018,1,ASN Received,2025-08-12,ERP MM,Nina Patel,True,False,5302.3
+dock2stock,Dock2Stock,DOCK2STOCK-00018,2,Truck Arrived,2025-08-18,WMS,Priya Rao,False,False,1763.43
+dock2stock,Dock2Stock,DOCK2STOCK-00018,3,Goods Received,2025-08-18,QMS,Kenji Tanaka,True,False,1425.67
+dock2stock,Dock2Stock,DOCK2STOCK-00018,4,Quality Released,2025-08-24,ERP MM,Maria Garcia,False,False,1249.27
+dock2stock,Dock2Stock,DOCK2STOCK-00018,5,Putaway Complete,2025-08-30,Yard Management,Sara Novak,False,False,4130.28
+dock2stock,Dock2Stock,DOCK2STOCK-00019,1,ASN Received,2026-01-23,WMS,Thomas Weber,True,False,2252.45
+dock2stock,Dock2Stock,DOCK2STOCK-00019,2,Truck Arrived,2026-01-28,ERP MM,Priya Rao,False,False,1562.3
+dock2stock,Dock2Stock,DOCK2STOCK-00019,3,Goods Received,2026-01-29,ERP MM,Alex Chen,False,False,1136.84
+dock2stock,Dock2Stock,DOCK2STOCK-00019,4,Quality Released,2026-02-02,WMS,Nina Patel,False,False,6761.85
+dock2stock,Dock2Stock,DOCK2STOCK-00019,5,Putaway Complete,2026-02-03,ERP MM,Priya Rao,True,False,1413.2
+dock2stock,Dock2Stock,DOCK2STOCK-00020,1,ASN Received,2025-09-09,Yard Management,Sara Novak,True,False,3586.5
+dock2stock,Dock2Stock,DOCK2STOCK-00020,2,Truck Arrived,2025-09-13,QMS,Priya Rao,True,False,3359.55
+dock2stock,Dock2Stock,DOCK2STOCK-00020,3,Goods Received,2025-09-13,ERP MM,Kenji Tanaka,False,False,5177.15
+dock2stock,Dock2Stock,DOCK2STOCK-00020,4,Quality Released,2025-09-15,QMS,Priya Rao,True,False,3674.3
+dock2stock,Dock2Stock,DOCK2STOCK-00020,5,Putaway Complete,2025-09-17,WMS,Alex Chen,False,False,6908.31
+dock2stock,Dock2Stock,DOCK2STOCK-00021,1,ASN Received,2025-09-04,WMS,Kenji Tanaka,False,True,4027.29
+dock2stock,Dock2Stock,DOCK2STOCK-00021,2,Truck Arrived,2025-09-07,ERP MM,Alex Chen,False,False,2717.44
+dock2stock,Dock2Stock,DOCK2STOCK-00021,3,Goods Received,2025-09-12,Yard Management,Kenji Tanaka,False,False,2583.44
+dock2stock,Dock2Stock,DOCK2STOCK-00021,4,Quality Released,2025-09-15,WMS,Maria Garcia,False,False,1259.92
+dock2stock,Dock2Stock,DOCK2STOCK-00021,5,Putaway Complete,2025-09-15,ERP MM,Maria Garcia,True,False,1415.54
+dock2stock,Dock2Stock,DOCK2STOCK-00022,1,ASN Received,2026-02-17,Yard Management,Sara Novak,False,True,3772.49
+dock2stock,Dock2Stock,DOCK2STOCK-00022,2,Truck Arrived,2026-02-18,ERP MM,Jon Miller,True,False,2996.45
+dock2stock,Dock2Stock,DOCK2STOCK-00022,3,Goods Received,2026-02-22,WMS,Thomas Weber,True,False,3031.96
+dock2stock,Dock2Stock,DOCK2STOCK-00022,4,Quality Released,2026-02-25,ERP MM,Sara Novak,True,False,3394.38
+dock2stock,Dock2Stock,DOCK2STOCK-00022,5,Putaway Complete,2026-03-01,ERP MM,Alex Chen,False,False,3306.18
+dock2stock,Dock2Stock,DOCK2STOCK-00023,1,ASN Received,2025-04-17,Yard Management,Alex Chen,True,True,7540.47
+dock2stock,Dock2Stock,DOCK2STOCK-00023,2,Truck Arrived,2025-04-19,Yard Management,Sara Novak,False,False,4681.79
+dock2stock,Dock2Stock,DOCK2STOCK-00023,3,Goods Received,2025-04-22,QMS,Maria Garcia,True,False,7518.16
+dock2stock,Dock2Stock,DOCK2STOCK-00023,4,Quality Released,2025-04-28,Yard Management,Nina Patel,False,True,2395.11
+dock2stock,Dock2Stock,DOCK2STOCK-00023,5,Putaway Complete,2025-05-02,WMS,Sara Novak,True,False,6744.8
+dock2stock,Dock2Stock,DOCK2STOCK-00024,1,ASN Received,2025-03-17,WMS,Kenji Tanaka,False,False,7798.09
+dock2stock,Dock2Stock,DOCK2STOCK-00024,2,Truck Arrived,2025-03-19,WMS,Alex Chen,True,False,1394.49
+dock2stock,Dock2Stock,DOCK2STOCK-00024,3,Goods Received,2025-03-22,ERP MM,Priya Rao,True,False,3663.94
+dock2stock,Dock2Stock,DOCK2STOCK-00024,4,Quality Released,2025-03-26,QMS,Alex Chen,False,False,4909.13
+dock2stock,Dock2Stock,DOCK2STOCK-00024,5,Putaway Complete,2025-04-01,WMS,Sara Novak,True,False,7102.81
+dock2stock,Dock2Stock,DOCK2STOCK-00025,1,ASN Received,2025-08-19,QMS,Jon Miller,True,False,4329.22
+dock2stock,Dock2Stock,DOCK2STOCK-00025,2,Truck Arrived,2025-08-25,ERP MM,Priya Rao,False,False,5098.73
+dock2stock,Dock2Stock,DOCK2STOCK-00025,3,Goods Received,2025-08-29,Yard Management,Priya Rao,False,False,5148.56
+dock2stock,Dock2Stock,DOCK2STOCK-00025,4,Quality Released,2025-08-29,Yard Management,Sara Novak,False,False,3916.55
+dock2stock,Dock2Stock,DOCK2STOCK-00025,5,Putaway Complete,2025-09-01,WMS,Thomas Weber,True,False,1826.81
+dock2stock,Dock2Stock,DOCK2STOCK-00026,1,ASN Received,2025-09-07,QMS,Maria Garcia,True,False,4763.1
+dock2stock,Dock2Stock,DOCK2STOCK-00026,2,Truck Arrived,2025-09-10,WMS,Sara Novak,False,False,2143.57
+dock2stock,Dock2Stock,DOCK2STOCK-00026,3,Goods Received,2025-09-14,QMS,Kenji Tanaka,False,False,7822.49
+dock2stock,Dock2Stock,DOCK2STOCK-00026,4,Quality Released,2025-09-15,QMS,Alex Chen,True,True,4164.57
+dock2stock,Dock2Stock,DOCK2STOCK-00026,5,Putaway Complete,2025-09-16,QMS,Sara Novak,True,False,2145.33
+dock2stock,Dock2Stock,DOCK2STOCK-00027,1,ASN Received,2025-07-14,WMS,Jon Miller,True,False,1636.72
+dock2stock,Dock2Stock,DOCK2STOCK-00027,2,Truck Arrived,2025-07-16,QMS,Sara Novak,False,True,7698.92
+dock2stock,Dock2Stock,DOCK2STOCK-00027,3,Goods Received,2025-07-21,Yard Management,Maria Garcia,False,False,5818.03
+dock2stock,Dock2Stock,DOCK2STOCK-00027,4,Quality Released,2025-07-21,Yard Management,Nina Patel,False,False,586.92
+dock2stock,Dock2Stock,DOCK2STOCK-00027,5,Putaway Complete,2025-07-21,Yard Management,Priya Rao,False,True,7193.25
+dock2stock,Dock2Stock,DOCK2STOCK-00028,1,ASN Received,2025-10-15,ERP MM,Kenji Tanaka,False,False,736.18
+dock2stock,Dock2Stock,DOCK2STOCK-00028,2,Truck Arrived,2025-10-18,ERP MM,Maria Garcia,True,False,2568.8
+dock2stock,Dock2Stock,DOCK2STOCK-00028,3,Goods Received,2025-10-23,QMS,Priya Rao,True,False,1049.97
+dock2stock,Dock2Stock,DOCK2STOCK-00028,4,Quality Released,2025-10-24,QMS,Maria Garcia,True,False,3976.53
+dock2stock,Dock2Stock,DOCK2STOCK-00028,5,Putaway Complete,2025-10-29,WMS,Maria Garcia,False,False,3867.89
+dock2stock,Dock2Stock,DOCK2STOCK-00029,1,ASN Received,2025-07-27,QMS,Kenji Tanaka,True,False,2181.32
+dock2stock,Dock2Stock,DOCK2STOCK-00029,2,Truck Arrived,2025-07-29,Yard Management,Nina Patel,False,False,5115.28
+dock2stock,Dock2Stock,DOCK2STOCK-00029,3,Goods Received,2025-07-30,WMS,Maria Garcia,True,False,404.6
+dock2stock,Dock2Stock,DOCK2STOCK-00029,4,Quality Released,2025-08-02,ERP MM,Jon Miller,True,False,4037.89
+dock2stock,Dock2Stock,DOCK2STOCK-00029,5,Putaway Complete,2025-08-05,WMS,Sara Novak,True,False,2999.97
+dock2stock,Dock2Stock,DOCK2STOCK-00030,1,ASN Received,2025-07-07,WMS,Priya Rao,False,False,6125.63
+dock2stock,Dock2Stock,DOCK2STOCK-00030,2,Truck Arrived,2025-07-07,QMS,Nina Patel,True,False,1298.92
+dock2stock,Dock2Stock,DOCK2STOCK-00030,3,Goods Received,2025-07-09,WMS,Jon Miller,False,False,6128.0
+dock2stock,Dock2Stock,DOCK2STOCK-00030,4,Quality Released,2025-07-10,WMS,Kenji Tanaka,False,False,4168.13
+dock2stock,Dock2Stock,DOCK2STOCK-00030,5,Putaway Complete,2025-07-11,WMS,Jon Miller,False,True,3465.23
+dock2stock,Dock2Stock,DOCK2STOCK-00031,1,ASN Received,2025-04-13,ERP MM,Priya Rao,False,False,7942.4
+dock2stock,Dock2Stock,DOCK2STOCK-00031,2,Truck Arrived,2025-04-18,ERP MM,Kenji Tanaka,True,False,1272.52
+dock2stock,Dock2Stock,DOCK2STOCK-00031,3,Goods Received,2025-04-21,QMS,Alex Chen,True,False,1035.65
+dock2stock,Dock2Stock,DOCK2STOCK-00031,4,Quality Released,2025-04-26,ERP MM,Alex Chen,False,False,1999.28
+dock2stock,Dock2Stock,DOCK2STOCK-00031,5,Putaway Complete,2025-04-30,QMS,Alex Chen,False,False,5384.64
+dock2stock,Dock2Stock,DOCK2STOCK-00032,1,ASN Received,2025-10-05,ERP MM,Maria Garcia,False,False,5929.05
+dock2stock,Dock2Stock,DOCK2STOCK-00032,2,Truck Arrived,2025-10-08,QMS,Thomas Weber,False,False,5027.96
+dock2stock,Dock2Stock,DOCK2STOCK-00032,3,Goods Received,2025-10-09,Yard Management,Maria Garcia,False,False,3122.77
+dock2stock,Dock2Stock,DOCK2STOCK-00032,4,Quality Released,2025-10-09,ERP MM,Alex Chen,False,False,1795.76
+dock2stock,Dock2Stock,DOCK2STOCK-00032,5,Putaway Complete,2025-10-13,WMS,Thomas Weber,False,False,2280.76
+dock2stock,Dock2Stock,DOCK2STOCK-00033,1,ASN Received,2025-10-13,Yard Management,Maria Garcia,False,False,683.78
+dock2stock,Dock2Stock,DOCK2STOCK-00033,2,Truck Arrived,2025-10-15,Yard Management,Jon Miller,False,False,4108.74
+dock2stock,Dock2Stock,DOCK2STOCK-00033,3,Goods Received,2025-10-16,WMS,Sara Novak,True,False,7365.51
+dock2stock,Dock2Stock,DOCK2STOCK-00033,4,Quality Released,2025-10-22,ERP MM,Nina Patel,False,False,815.21
+dock2stock,Dock2Stock,DOCK2STOCK-00033,5,Putaway Complete,2025-10-27,QMS,Maria Garcia,False,False,7289.41
+dock2stock,Dock2Stock,DOCK2STOCK-00034,1,ASN Received,2025-11-19,Yard Management,Alex Chen,True,False,5406.36
+dock2stock,Dock2Stock,DOCK2STOCK-00034,2,Truck Arrived,2025-11-23,ERP MM,Nina Patel,True,False,255.67
+dock2stock,Dock2Stock,DOCK2STOCK-00034,3,Goods Received,2025-11-24,QMS,Alex Chen,False,False,4081.34
+dock2stock,Dock2Stock,DOCK2STOCK-00034,4,Quality Released,2025-11-27,Yard Management,Alex Chen,False,False,6768.6
+dock2stock,Dock2Stock,DOCK2STOCK-00034,5,Putaway Complete,2025-12-03,QMS,Maria Garcia,True,False,662.4
+dock2stock,Dock2Stock,DOCK2STOCK-00035,1,ASN Received,2025-07-22,QMS,Nina Patel,True,False,1326.06
+dock2stock,Dock2Stock,DOCK2STOCK-00035,2,Truck Arrived,2025-07-26,WMS,Priya Rao,True,False,7617.56
+dock2stock,Dock2Stock,DOCK2STOCK-00035,3,Goods Received,2025-07-27,Yard Management,Alex Chen,True,False,2469.53
+dock2stock,Dock2Stock,DOCK2STOCK-00035,4,Quality Released,2025-07-30,Yard Management,Maria Garcia,False,False,6286.86
+dock2stock,Dock2Stock,DOCK2STOCK-00035,5,Putaway Complete,2025-08-02,QMS,Jon Miller,True,True,5667.47
+dock2stock,Dock2Stock,DOCK2STOCK-00036,1,ASN Received,2025-12-05,WMS,Thomas Weber,True,False,6907.79
+dock2stock,Dock2Stock,DOCK2STOCK-00036,2,Truck Arrived,2025-12-08,WMS,Nina Patel,True,False,7741.27
+dock2stock,Dock2Stock,DOCK2STOCK-00036,3,Goods Received,2025-12-13,ERP MM,Priya Rao,True,False,7813.95
+dock2stock,Dock2Stock,DOCK2STOCK-00036,4,Quality Released,2025-12-15,WMS,Jon Miller,False,False,7909.16
+dock2stock,Dock2Stock,DOCK2STOCK-00036,5,Putaway Complete,2025-12-16,QMS,Priya Rao,False,False,2481.26

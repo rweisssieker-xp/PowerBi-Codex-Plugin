@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00001,1,Supplier Invited,2025-12-25,GRC,Nina Patel,False,False,3363.22
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00001,2,Documents Submitted,2025-12-30,ERP Vendor Master,Maria Garcia,True,False,1320.98
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00001,3,Audit Completed,2026-01-02,Sourcing,Maria Garcia,False,False,3576.69
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00001,4,Risk Approved,2026-01-04,GRC,Priya Rao,False,False,3141.83
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00001,5,Supplier Activated,2026-01-09,Sourcing,Sara Novak,True,False,2416.53
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00002,1,Supplier Invited,2026-01-06,ERP Vendor Master,Priya Rao,True,False,943.1
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00002,2,Documents Submitted,2026-01-11,Sourcing,Thomas Weber,False,False,3668.85
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00002,3,Audit Completed,2026-01-13,Supplier Portal,Nina Patel,True,False,7864.77
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00002,4,Risk Approved,2026-01-15,Sourcing,Jon Miller,True,False,897.21
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00002,5,Supplier Activated,2026-01-18,GRC,Jon Miller,True,False,3916.57
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00003,1,Supplier Invited,2025-03-31,ERP Vendor Master,Maria Garcia,True,False,4629.67
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00003,2,Documents Submitted,2025-03-31,ERP Vendor Master,Priya Rao,True,False,3073.14
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00003,3,Audit Completed,2025-04-01,Supplier Portal,Thomas Weber,True,False,6494.94
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00003,4,Risk Approved,2025-04-07,Sourcing,Kenji Tanaka,False,False,7919.2
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00003,5,Supplier Activated,2025-04-13,Supplier Portal,Nina Patel,True,False,2939.06
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00004,1,Supplier Invited,2025-09-14,Supplier Portal,Maria Garcia,False,True,7236.66
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00004,2,Documents Submitted,2025-09-20,GRC,Jon Miller,True,False,6873.99
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00004,3,Audit Completed,2025-09-20,Supplier Portal,Maria Garcia,False,False,2761.7
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00004,4,Risk Approved,2025-09-25,Sourcing,Maria Garcia,False,False,4256.12
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00004,5,Supplier Activated,2025-10-01,Supplier Portal,Kenji Tanaka,True,True,4020.0
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00005,1,Supplier Invited,2025-05-30,Sourcing,Jon Miller,True,False,4061.21
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00005,2,Documents Submitted,2025-06-02,Supplier Portal,Thomas Weber,False,False,5337.21
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00005,3,Audit Completed,2025-06-06,Supplier Portal,Thomas Weber,False,False,1961.66
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00005,4,Risk Approved,2025-06-06,GRC,Alex Chen,False,True,3579.93
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00005,5,Supplier Activated,2025-06-12,Sourcing,Nina Patel,False,False,5065.29
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00006,1,Supplier Invited,2025-11-15,Sourcing,Alex Chen,True,False,6693.07
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00006,2,Documents Submitted,2025-11-19,GRC,Nina Patel,True,False,248.95
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00006,3,Audit Completed,2025-11-23,GRC,Alex Chen,True,False,4286.49
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00006,4,Risk Approved,2025-11-27,ERP Vendor Master,Alex Chen,False,False,6874.06
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00006,5,Supplier Activated,2025-12-01,Supplier Portal,Thomas Weber,False,False,5275.15
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00007,1,Supplier Invited,2025-03-18,Supplier Portal,Alex Chen,True,False,7330.82
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00007,2,Documents Submitted,2025-03-20,Sourcing,Thomas Weber,True,False,215.56
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00007,3,Audit Completed,2025-03-21,GRC,Kenji Tanaka,False,False,5590.64
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00007,4,Risk Approved,2025-03-27,Sourcing,Jon Miller,True,False,4122.0
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00007,5,Supplier Activated,2025-03-27,Sourcing,Thomas Weber,False,False,3657.33
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00008,1,Supplier Invited,2025-10-28,Supplier Portal,Priya Rao,False,True,538.23
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00008,2,Documents Submitted,2025-10-31,ERP Vendor Master,Thomas Weber,False,False,7422.63
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00008,3,Audit Completed,2025-11-05,ERP Vendor Master,Maria Garcia,False,False,453.76
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00008,4,Risk Approved,2025-11-07,GRC,Maria Garcia,True,False,4545.05
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00008,5,Supplier Activated,2025-11-12,Supplier Portal,Sara Novak,True,False,5543.72
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00009,1,Supplier Invited,2025-06-23,GRC,Thomas Weber,True,False,6435.43
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00009,2,Documents Submitted,2025-06-23,Supplier Portal,Maria Garcia,False,False,5781.83
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00009,3,Audit Completed,2025-06-25,GRC,Sara Novak,True,False,3356.86
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00009,4,Risk Approved,2025-06-28,ERP Vendor Master,Jon Miller,False,False,3607.7
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00009,5,Supplier Activated,2025-06-28,ERP Vendor Master,Kenji Tanaka,False,False,5290.33
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00010,1,Supplier Invited,2025-04-20,GRC,Jon Miller,False,False,2640.11
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00010,2,Documents Submitted,2025-04-26,Supplier Portal,Thomas Weber,True,False,3581.43
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00010,3,Audit Completed,2025-04-29,Supplier Portal,Sara Novak,False,False,2003.05
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00010,4,Risk Approved,2025-05-02,ERP Vendor Master,Nina Patel,True,False,1230.7
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00010,5,Supplier Activated,2025-05-02,GRC,Thomas Weber,False,False,7065.96
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00011,1,Supplier Invited,2025-05-01,GRC,Priya Rao,False,False,329.79
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00011,2,Documents Submitted,2025-05-01,Supplier Portal,Sara Novak,True,False,6900.16
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00011,3,Audit Completed,2025-05-07,Sourcing,Thomas Weber,True,False,2499.44
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00011,4,Risk Approved,2025-05-10,Supplier Portal,Nina Patel,False,False,498.55
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00011,5,Supplier Activated,2025-05-10,Sourcing,Thomas Weber,True,False,5009.6
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00012,1,Supplier Invited,2025-06-26,Sourcing,Kenji Tanaka,False,False,6280.1
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00012,2,Documents Submitted,2025-06-30,Supplier Portal,Sara Novak,False,False,1776.9
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00012,3,Audit Completed,2025-07-02,ERP Vendor Master,Priya Rao,True,False,4032.3
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00012,4,Risk Approved,2025-07-05,Supplier Portal,Thomas Weber,True,True,7755.25
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00012,5,Supplier Activated,2025-07-11,Supplier Portal,Jon Miller,False,False,1675.57
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00013,1,Supplier Invited,2025-12-17,Supplier Portal,Nina Patel,False,False,5622.75
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00013,2,Documents Submitted,2025-12-23,ERP Vendor Master,Alex Chen,False,False,1745.3
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00013,3,Audit Completed,2025-12-27,Supplier Portal,Maria Garcia,False,False,2722.13
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00013,4,Risk Approved,2025-12-29,ERP Vendor Master,Alex Chen,True,False,3864.01
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00013,5,Supplier Activated,2025-12-31,Sourcing,Alex Chen,False,False,4887.88
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00014,1,Supplier Invited,2025-11-26,Supplier Portal,Maria Garcia,True,False,2544.43
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00014,2,Documents Submitted,2025-11-28,Sourcing,Thomas Weber,False,True,715.72
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00014,3,Audit Completed,2025-11-30,GRC,Priya Rao,True,False,5351.21
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00014,4,Risk Approved,2025-12-06,Supplier Portal,Jon Miller,False,True,5393.44
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00014,5,Supplier Activated,2025-12-07,GRC,Alex Chen,True,True,3438.1
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00015,1,Supplier Invited,2025-09-16,Sourcing,Alex Chen,False,False,1606.18
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00015,2,Documents Submitted,2025-09-22,Supplier Portal,Nina Patel,True,False,653.61
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00015,3,Audit Completed,2025-09-22,GRC,Jon Miller,True,False,792.5
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00015,4,Risk Approved,2025-09-24,Sourcing,Sara Novak,True,False,6647.8
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00015,5,Supplier Activated,2025-09-27,GRC,Kenji Tanaka,True,False,3563.09
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00016,1,Supplier Invited,2025-11-17,GRC,Sara Novak,False,True,1537.43
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00016,2,Documents Submitted,2025-11-20,ERP Vendor Master,Priya Rao,True,False,7320.96
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00016,3,Audit Completed,2025-11-20,GRC,Thomas Weber,False,False,2745.82
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00016,4,Risk Approved,2025-11-26,Sourcing,Thomas Weber,True,True,6878.18
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00016,5,Supplier Activated,2025-12-01,GRC,Maria Garcia,True,False,1535.43
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00017,1,Supplier Invited,2026-01-09,Sourcing,Thomas Weber,False,False,6571.48
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00017,2,Documents Submitted,2026-01-14,Sourcing,Nina Patel,True,True,3588.21
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00017,3,Audit Completed,2026-01-15,ERP Vendor Master,Kenji Tanaka,True,False,1957.89
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00017,4,Risk Approved,2026-01-19,Sourcing,Sara Novak,False,True,4398.98
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00017,5,Supplier Activated,2026-01-19,GRC,Alex Chen,True,False,5132.14
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00018,1,Supplier Invited,2025-11-23,Supplier Portal,Nina Patel,True,True,7635.79
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00018,2,Documents Submitted,2025-11-25,GRC,Nina Patel,False,False,2203.28
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00018,3,Audit Completed,2025-12-01,Supplier Portal,Thomas Weber,True,False,2053.26
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00018,4,Risk Approved,2025-12-06,ERP Vendor Master,Nina Patel,False,False,5861.74
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00018,5,Supplier Activated,2025-12-09,Supplier Portal,Priya Rao,True,False,5948.32
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00019,1,Supplier Invited,2026-01-03,GRC,Thomas Weber,True,False,7664.71
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00019,2,Documents Submitted,2026-01-04,Sourcing,Sara Novak,False,False,5429.34
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00019,3,Audit Completed,2026-01-07,ERP Vendor Master,Kenji Tanaka,True,False,3248.45
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00019,4,Risk Approved,2026-01-08,Sourcing,Jon Miller,True,True,1027.8
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00019,5,Supplier Activated,2026-01-11,ERP Vendor Master,Kenji Tanaka,False,False,6911.28
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00020,1,Supplier Invited,2025-07-04,ERP Vendor Master,Nina Patel,True,False,2432.07
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00020,2,Documents Submitted,2025-07-06,ERP Vendor Master,Kenji Tanaka,False,False,1834.32
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00020,3,Audit Completed,2025-07-08,ERP Vendor Master,Priya Rao,False,False,5553.07
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00020,4,Risk Approved,2025-07-11,ERP Vendor Master,Priya Rao,True,False,7586.15
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00020,5,Supplier Activated,2025-07-11,ERP Vendor Master,Alex Chen,True,False,3598.89
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00021,1,Supplier Invited,2025-03-28,ERP Vendor Master,Kenji Tanaka,True,False,3980.02
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00021,2,Documents Submitted,2025-04-02,Supplier Portal,Priya Rao,True,False,6540.42
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00021,3,Audit Completed,2025-04-02,GRC,Maria Garcia,True,False,7923.04
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00021,4,Risk Approved,2025-04-06,Sourcing,Sara Novak,False,True,4393.34
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00021,5,Supplier Activated,2025-04-12,Sourcing,Alex Chen,True,False,2277.35
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00022,1,Supplier Invited,2026-02-04,GRC,Priya Rao,False,False,559.02
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00022,2,Documents Submitted,2026-02-10,GRC,Priya Rao,False,True,7540.39
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00022,3,Audit Completed,2026-02-14,Supplier Portal,Maria Garcia,True,False,6738.0
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00022,4,Risk Approved,2026-02-14,Sourcing,Nina Patel,True,True,1924.44
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00022,5,Supplier Activated,2026-02-17,Sourcing,Sara Novak,False,False,1380.44
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00023,1,Supplier Invited,2025-11-19,ERP Vendor Master,Kenji Tanaka,True,False,1297.33
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00023,2,Documents Submitted,2025-11-25,Supplier Portal,Jon Miller,True,False,2514.96
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00023,3,Audit Completed,2025-11-28,Supplier Portal,Jon Miller,False,False,5342.52
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00023,4,Risk Approved,2025-12-03,GRC,Alex Chen,True,False,87.09
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00023,5,Supplier Activated,2025-12-08,ERP Vendor Master,Sara Novak,False,False,7872.31
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00024,1,Supplier Invited,2025-02-15,ERP Vendor Master,Maria Garcia,False,False,2276.06
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00024,2,Documents Submitted,2025-02-17,Supplier Portal,Priya Rao,False,False,5674.87
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00024,3,Audit Completed,2025-02-18,Sourcing,Priya Rao,False,False,6953.19
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00024,4,Risk Approved,2025-02-18,Supplier Portal,Priya Rao,True,False,903.81
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00024,5,Supplier Activated,2025-02-22,GRC,Kenji Tanaka,True,True,3979.22
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00025,1,Supplier Invited,2025-03-28,Sourcing,Nina Patel,True,False,4003.21
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00025,2,Documents Submitted,2025-03-30,Supplier Portal,Kenji Tanaka,True,False,1142.71
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00025,3,Audit Completed,2025-03-31,Supplier Portal,Thomas Weber,False,False,1910.45
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00025,4,Risk Approved,2025-03-31,GRC,Jon Miller,True,False,6572.4
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00025,5,Supplier Activated,2025-04-02,ERP Vendor Master,Maria Garcia,False,True,5839.34
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00026,1,Supplier Invited,2025-12-16,Sourcing,Kenji Tanaka,True,False,6676.48
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00026,2,Documents Submitted,2025-12-20,ERP Vendor Master,Sara Novak,True,False,6341.23
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00026,3,Audit Completed,2025-12-23,Supplier Portal,Jon Miller,False,False,5846.48
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00026,4,Risk Approved,2025-12-29,Sourcing,Sara Novak,True,False,2131.26
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00026,5,Supplier Activated,2026-01-04,GRC,Jon Miller,False,False,1406.22
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00027,1,Supplier Invited,2025-08-09,Sourcing,Kenji Tanaka,False,True,3466.51
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00027,2,Documents Submitted,2025-08-14,Sourcing,Sara Novak,True,False,3970.06
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00027,3,Audit Completed,2025-08-19,Sourcing,Kenji Tanaka,False,False,3028.12
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00027,4,Risk Approved,2025-08-20,Sourcing,Thomas Weber,False,True,7547.19
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00027,5,Supplier Activated,2025-08-26,GRC,Priya Rao,True,False,568.05
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00028,1,Supplier Invited,2026-03-27,Supplier Portal,Alex Chen,False,False,3724.13
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00028,2,Documents Submitted,2026-03-27,Sourcing,Sara Novak,False,False,4651.52
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00028,3,Audit Completed,2026-04-02,Sourcing,Priya Rao,True,False,5805.12
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00028,4,Risk Approved,2026-04-04,ERP Vendor Master,Alex Chen,True,False,3615.62
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00028,5,Supplier Activated,2026-04-07,ERP Vendor Master,Maria Garcia,False,False,5131.77
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00029,1,Supplier Invited,2025-10-03,ERP Vendor Master,Kenji Tanaka,True,False,7993.71
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00029,2,Documents Submitted,2025-10-06,Sourcing,Kenji Tanaka,False,False,2784.45
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00029,3,Audit Completed,2025-10-06,ERP Vendor Master,Alex Chen,True,False,5907.71
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00029,4,Risk Approved,2025-10-08,Supplier Portal,Alex Chen,True,False,7351.44
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00029,5,Supplier Activated,2025-10-08,Supplier Portal,Maria Garcia,False,True,2224.13
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00030,1,Supplier Invited,2025-05-08,Supplier Portal,Thomas Weber,False,False,3862.49
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00030,2,Documents Submitted,2025-05-11,GRC,Alex Chen,True,False,2322.82
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00030,3,Audit Completed,2025-05-12,ERP Vendor Master,Thomas Weber,False,False,5033.53
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00030,4,Risk Approved,2025-05-15,ERP Vendor Master,Maria Garcia,True,False,1403.15
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00030,5,Supplier Activated,2025-05-20,ERP Vendor Master,Sara Novak,True,False,2738.19
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00031,1,Supplier Invited,2025-06-15,ERP Vendor Master,Kenji Tanaka,True,False,5772.75
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00031,2,Documents Submitted,2025-06-18,ERP Vendor Master,Thomas Weber,True,False,6388.68
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00031,3,Audit Completed,2025-06-20,Supplier Portal,Nina Patel,False,False,4992.74
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00031,4,Risk Approved,2025-06-26,Sourcing,Nina Patel,False,False,1810.51
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00031,5,Supplier Activated,2025-07-01,Sourcing,Maria Garcia,True,False,5144.71
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00032,1,Supplier Invited,2025-10-14,ERP Vendor Master,Alex Chen,False,False,1733.91
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00032,2,Documents Submitted,2025-10-16,GRC,Kenji Tanaka,False,False,6863.26
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00032,3,Audit Completed,2025-10-22,ERP Vendor Master,Jon Miller,True,False,3207.54
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00032,4,Risk Approved,2025-10-22,ERP Vendor Master,Sara Novak,False,False,917.23
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00032,5,Supplier Activated,2025-10-27,GRC,Sara Novak,False,False,130.77
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00033,1,Supplier Invited,2025-03-14,GRC,Sara Novak,False,False,5373.18
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00033,2,Documents Submitted,2025-03-17,GRC,Kenji Tanaka,False,False,388.18
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00033,3,Audit Completed,2025-03-19,Supplier Portal,Thomas Weber,True,False,4560.32
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00033,4,Risk Approved,2025-03-23,ERP Vendor Master,Jon Miller,False,False,198.28
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00033,5,Supplier Activated,2025-03-29,ERP Vendor Master,Jon Miller,True,True,2223.17
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00034,1,Supplier Invited,2026-02-08,GRC,Alex Chen,True,False,3439.7
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00034,2,Documents Submitted,2026-02-09,ERP Vendor Master,Alex Chen,True,False,4735.53
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00034,3,Audit Completed,2026-02-14,GRC,Alex Chen,False,True,2084.83
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00034,4,Risk Approved,2026-02-17,ERP Vendor Master,Sara Novak,True,False,3895.2
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00034,5,Supplier Activated,2026-02-18,Sourcing,Jon Miller,True,False,3339.91
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00035,1,Supplier Invited,2025-10-30,Supplier Portal,Sara Novak,True,True,5195.92
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00035,2,Documents Submitted,2025-11-05,Supplier Portal,Thomas Weber,False,False,4995.5
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00035,3,Audit Completed,2025-11-11,GRC,Priya Rao,True,False,4613.63
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00035,4,Risk Approved,2025-11-15,ERP Vendor Master,Alex Chen,True,False,6710.03
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00035,5,Supplier Activated,2025-11-17,GRC,Jon Miller,True,False,7992.32
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00036,1,Supplier Invited,2025-04-07,Sourcing,Alex Chen,False,False,6199.15
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00036,2,Documents Submitted,2025-04-13,GRC,Nina Patel,True,False,3745.1
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00036,3,Audit Completed,2025-04-13,GRC,Alex Chen,True,False,1650.29
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00036,4,Risk Approved,2025-04-18,GRC,Jon Miller,True,True,3894.51
+supplieronboarding2risk,SupplierOnboarding2Risk,SUPPLIERONBOARDING2RISK-00036,5,Supplier Activated,2025-04-18,GRC,Alex Chen,True,True,5629.05

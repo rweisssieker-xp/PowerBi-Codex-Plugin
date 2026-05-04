@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+complaint2capa,Complaint2CAPA,2025-01,Complaint Rate,83.5,82.17,4.11,Green,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-01,CAPA Aging,27.13,28.26,1.41,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-01,Repeat Defect Rate,88.97,90.66,4.53,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-01,Cost Of Poor Quality,29.77,29.8,1.49,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-01,CAPA Effectiveness,27.2,30.83,1.54,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-02,Complaint Rate,79.09,86.55,4.33,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-02,CAPA Aging,18.48,22.7,1.14,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-02,Repeat Defect Rate,74.18,86.26,4.31,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-02,Cost Of Poor Quality,8.3,10.92,0.55,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-02,CAPA Effectiveness,46.82,48.83,2.44,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-03,Complaint Rate,76.39,85.22,4.26,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-03,CAPA Aging,34.15,36.59,1.83,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-03,Repeat Defect Rate,84.38,90.13,4.51,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-03,Cost Of Poor Quality,12.53,16.92,0.85,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-03,CAPA Effectiveness,12.84,18.77,0.94,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-04,Complaint Rate,71.56,87.37,4.37,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-04,CAPA Aging,27.9,35.19,1.76,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-04,Repeat Defect Rate,81.92,93.77,4.69,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-04,Cost Of Poor Quality,43.12,52.85,2.64,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-04,CAPA Effectiveness,23.53,25.3,1.27,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-05,Complaint Rate,68.25,76.66,3.83,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-05,CAPA Aging,13.52,17.94,0.9,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-05,Repeat Defect Rate,86.44,83.09,4.15,Green,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-05,Cost Of Poor Quality,37.92,37.94,1.9,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-05,CAPA Effectiveness,31.2,31.21,1.56,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-06,Complaint Rate,81.89,78.84,3.94,Green,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-06,CAPA Aging,18.86,25.9,1.29,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-06,Repeat Defect Rate,89.31,95.88,4.79,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-06,Cost Of Poor Quality,26.16,26.74,1.34,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-06,CAPA Effectiveness,7.84,10.26,0.51,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-07,Complaint Rate,64.77,77.29,3.86,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-07,CAPA Aging,28.2,27.78,1.39,Green,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-07,Repeat Defect Rate,68.84,82.7,4.14,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-07,Cost Of Poor Quality,24.59,25.68,1.28,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-07,CAPA Effectiveness,26.87,34.16,1.71,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-08,Complaint Rate,82.49,92.23,4.61,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-08,CAPA Aging,39.82,50.9,2.54,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-08,Repeat Defect Rate,83.56,84.58,4.23,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-08,Cost Of Poor Quality,40.89,50.34,2.52,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-08,CAPA Effectiveness,48.33,51.85,2.59,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-09,Complaint Rate,81.31,77.63,3.88,Green,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-09,CAPA Aging,14.71,17.39,0.87,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-09,Repeat Defect Rate,92.98,96.05,4.8,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-09,Cost Of Poor Quality,37.16,45.45,2.27,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-09,CAPA Effectiveness,56.88,56.91,2.85,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-10,Complaint Rate,93.19,91.0,4.55,Green,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-10,CAPA Aging,53.09,57.59,2.88,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-10,Repeat Defect Rate,81.23,86.34,4.32,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-10,Cost Of Poor Quality,36.31,35.57,1.78,Green,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-10,CAPA Effectiveness,17.02,19.99,1.0,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-11,Complaint Rate,88.93,88.23,4.41,Green,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-11,CAPA Aging,15.2,18.69,0.93,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-11,Repeat Defect Rate,68.15,76.62,3.83,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-11,Cost Of Poor Quality,10.32,12.07,0.6,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-11,CAPA Effectiveness,32.37,31.92,1.6,Green,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-12,Complaint Rate,72.0,85.32,4.27,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-12,CAPA Aging,21.11,26.92,1.35,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-12,Repeat Defect Rate,83.68,82.87,4.14,Green,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-12,Cost Of Poor Quality,55.66,59.47,2.97,Amber,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM
+complaint2capa,Complaint2CAPA,2025-12,CAPA Effectiveness,34.61,38.91,1.95,Red,Complaint-to-CAPA Process Owner,QMS; CRM Service; Warranty; ERP QM

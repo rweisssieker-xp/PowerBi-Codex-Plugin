@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00001,1,Wave Released,2025-08-14,WMS,Sara Novak,False,False,5741.67
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00001,2,Picked,2025-08-18,Carrier Portal,Alex Chen,True,False,5872.98
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00001,3,Packed,2025-08-18,TMS,Thomas Weber,True,False,6881.64
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00001,4,Staged,2025-08-23,TMS,Jon Miller,True,False,835.03
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00001,5,Shipped,2025-08-29,ERP SD,Jon Miller,True,False,281.85
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00002,1,Wave Released,2025-06-05,ERP SD,Kenji Tanaka,False,False,2192.48
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00002,2,Picked,2025-06-08,Carrier Portal,Thomas Weber,True,False,1878.21
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00002,3,Packed,2025-06-09,Carrier Portal,Jon Miller,True,False,5683.67
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00002,4,Staged,2025-06-12,TMS,Priya Rao,True,False,5731.73
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00002,5,Shipped,2025-06-18,TMS,Kenji Tanaka,True,False,4330.46
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00003,1,Wave Released,2025-02-06,WMS,Nina Patel,True,False,3847.3
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00003,2,Picked,2025-02-06,WMS,Priya Rao,False,False,2189.52
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00003,3,Packed,2025-02-08,Carrier Portal,Jon Miller,True,False,7912.33
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00003,4,Staged,2025-02-12,WMS,Priya Rao,True,True,4463.9
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00003,5,Shipped,2025-02-13,Carrier Portal,Sara Novak,True,False,1783.29
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00004,1,Wave Released,2025-04-07,WMS,Thomas Weber,True,False,4517.92
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00004,2,Picked,2025-04-11,TMS,Alex Chen,True,False,5017.77
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00004,3,Packed,2025-04-17,Carrier Portal,Nina Patel,True,False,3623.91
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00004,4,Staged,2025-04-19,WMS,Thomas Weber,True,False,1508.2
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00004,5,Shipped,2025-04-19,TMS,Alex Chen,True,False,175.12
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00005,1,Wave Released,2026-03-03,TMS,Nina Patel,True,False,856.79
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00005,2,Picked,2026-03-07,ERP SD,Priya Rao,False,False,3396.91
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00005,3,Packed,2026-03-09,ERP SD,Maria Garcia,True,True,1171.2
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00005,4,Staged,2026-03-12,Carrier Portal,Sara Novak,True,False,6481.51
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00005,5,Shipped,2026-03-13,Carrier Portal,Sara Novak,False,False,1331.52
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00006,1,Wave Released,2025-01-26,ERP SD,Thomas Weber,False,False,4452.8
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00006,2,Picked,2025-01-31,Carrier Portal,Thomas Weber,True,False,3572.36
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00006,3,Packed,2025-02-04,WMS,Maria Garcia,False,False,3671.26
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00006,4,Staged,2025-02-06,TMS,Maria Garcia,False,False,1238.15
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00006,5,Shipped,2025-02-10,Carrier Portal,Priya Rao,False,False,4939.23
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00007,1,Wave Released,2025-12-16,TMS,Thomas Weber,False,True,4625.14
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00007,2,Picked,2025-12-20,WMS,Sara Novak,False,False,7595.0
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00007,3,Packed,2025-12-23,TMS,Maria Garcia,True,False,4781.85
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00007,4,Staged,2025-12-24,ERP SD,Kenji Tanaka,False,False,6500.84
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00007,5,Shipped,2025-12-26,TMS,Kenji Tanaka,True,False,1013.39
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00008,1,Wave Released,2025-01-24,Carrier Portal,Maria Garcia,True,False,645.66
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00008,2,Picked,2025-01-25,ERP SD,Nina Patel,True,False,6684.48
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00008,3,Packed,2025-01-26,ERP SD,Nina Patel,True,False,7063.05
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00008,4,Staged,2025-01-31,WMS,Jon Miller,True,True,7941.58
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00008,5,Shipped,2025-02-01,ERP SD,Thomas Weber,True,False,6821.37
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00009,1,Wave Released,2025-12-21,WMS,Priya Rao,False,False,1933.28
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00009,2,Picked,2025-12-24,TMS,Priya Rao,False,False,2213.88
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00009,3,Packed,2025-12-29,WMS,Thomas Weber,False,False,2653.9
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00009,4,Staged,2026-01-03,ERP SD,Alex Chen,False,False,5841.47
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00009,5,Shipped,2026-01-04,WMS,Nina Patel,True,False,7417.0
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00010,1,Wave Released,2025-12-08,Carrier Portal,Kenji Tanaka,False,False,1214.04
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00010,2,Picked,2025-12-12,Carrier Portal,Priya Rao,False,True,531.86
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00010,3,Packed,2025-12-12,TMS,Alex Chen,True,False,1418.4
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00010,4,Staged,2025-12-17,Carrier Portal,Jon Miller,True,False,7461.22
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00010,5,Shipped,2025-12-19,Carrier Portal,Nina Patel,False,False,5492.14
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00011,1,Wave Released,2025-12-30,TMS,Thomas Weber,True,False,1056.33
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00011,2,Picked,2026-01-01,Carrier Portal,Maria Garcia,False,False,2416.74
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00011,3,Packed,2026-01-02,ERP SD,Alex Chen,True,False,5611.85
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00011,4,Staged,2026-01-05,TMS,Jon Miller,True,False,7956.07
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00011,5,Shipped,2026-01-10,WMS,Kenji Tanaka,False,False,5980.45
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00012,1,Wave Released,2025-05-18,TMS,Jon Miller,False,False,7954.61
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00012,2,Picked,2025-05-21,Carrier Portal,Priya Rao,True,False,786.07
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00012,3,Packed,2025-05-25,Carrier Portal,Jon Miller,True,False,1058.36
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00012,4,Staged,2025-05-26,TMS,Thomas Weber,True,False,6621.88
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00012,5,Shipped,2025-05-28,Carrier Portal,Jon Miller,False,True,5037.31
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00013,1,Wave Released,2025-01-07,TMS,Sara Novak,True,False,7435.6
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00013,2,Picked,2025-01-11,Carrier Portal,Kenji Tanaka,False,False,760.37
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00013,3,Packed,2025-01-13,ERP SD,Alex Chen,True,True,5168.03
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00013,4,Staged,2025-01-17,TMS,Nina Patel,False,False,5759.04
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00013,5,Shipped,2025-01-18,Carrier Portal,Nina Patel,True,False,5650.48
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00014,1,Wave Released,2025-03-04,Carrier Portal,Thomas Weber,False,False,7643.29
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00014,2,Picked,2025-03-07,Carrier Portal,Maria Garcia,True,False,6130.71
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00014,3,Packed,2025-03-13,WMS,Alex Chen,True,False,5203.1
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00014,4,Staged,2025-03-19,TMS,Maria Garcia,True,False,4329.69
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00014,5,Shipped,2025-03-21,ERP SD,Nina Patel,False,True,2185.81
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00015,1,Wave Released,2025-09-03,TMS,Sara Novak,True,False,5396.79
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00015,2,Picked,2025-09-06,WMS,Alex Chen,True,False,7368.7
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00015,3,Packed,2025-09-08,WMS,Kenji Tanaka,True,False,2443.61
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00015,4,Staged,2025-09-12,Carrier Portal,Jon Miller,False,False,3840.64
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00015,5,Shipped,2025-09-18,Carrier Portal,Thomas Weber,False,True,4135.9
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00016,1,Wave Released,2025-05-02,Carrier Portal,Kenji Tanaka,False,False,1660.25
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00016,2,Picked,2025-05-08,WMS,Thomas Weber,False,False,7515.61
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00016,3,Packed,2025-05-10,ERP SD,Sara Novak,False,False,2770.42
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00016,4,Staged,2025-05-14,ERP SD,Alex Chen,True,False,4296.13
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00016,5,Shipped,2025-05-15,ERP SD,Jon Miller,True,True,4664.37
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00017,1,Wave Released,2025-02-23,ERP SD,Thomas Weber,True,False,3038.07
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00017,2,Picked,2025-02-26,ERP SD,Thomas Weber,True,False,4461.32
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00017,3,Packed,2025-02-27,WMS,Maria Garcia,True,False,3479.6
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00017,4,Staged,2025-03-04,ERP SD,Priya Rao,False,False,7511.4
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00017,5,Shipped,2025-03-06,TMS,Sara Novak,True,False,6639.1
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00018,1,Wave Released,2025-02-21,WMS,Kenji Tanaka,False,False,6277.16
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00018,2,Picked,2025-02-21,WMS,Alex Chen,True,False,7865.45
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00018,3,Packed,2025-02-27,Carrier Portal,Priya Rao,False,True,3351.76
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00018,4,Staged,2025-03-02,Carrier Portal,Thomas Weber,True,False,7860.28
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00018,5,Shipped,2025-03-04,Carrier Portal,Alex Chen,True,False,5243.82
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00019,1,Wave Released,2025-10-05,Carrier Portal,Thomas Weber,True,False,6219.33
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00019,2,Picked,2025-10-07,WMS,Sara Novak,False,False,5103.36
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00019,3,Packed,2025-10-11,ERP SD,Nina Patel,True,False,7106.02
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00019,4,Staged,2025-10-17,WMS,Sara Novak,True,False,4351.35
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00019,5,Shipped,2025-10-18,Carrier Portal,Thomas Weber,True,False,7616.6
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00020,1,Wave Released,2025-01-22,Carrier Portal,Alex Chen,True,False,2388.96
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00020,2,Picked,2025-01-25,ERP SD,Thomas Weber,False,False,2291.91
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00020,3,Packed,2025-01-26,TMS,Alex Chen,True,False,7630.47
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00020,4,Staged,2025-01-28,Carrier Portal,Priya Rao,True,False,5641.15
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00020,5,Shipped,2025-01-31,Carrier Portal,Maria Garcia,True,False,5085.37
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00021,1,Wave Released,2025-02-02,TMS,Maria Garcia,False,True,3403.44
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00021,2,Picked,2025-02-05,Carrier Portal,Sara Novak,True,False,2111.66
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00021,3,Packed,2025-02-10,TMS,Priya Rao,False,False,1100.95
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00021,4,Staged,2025-02-16,ERP SD,Alex Chen,True,False,2992.93
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00021,5,Shipped,2025-02-22,ERP SD,Kenji Tanaka,True,True,5704.75
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00022,1,Wave Released,2025-09-11,TMS,Nina Patel,True,False,3431.77
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00022,2,Picked,2025-09-13,WMS,Nina Patel,True,True,3331.22
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00022,3,Packed,2025-09-16,ERP SD,Thomas Weber,False,False,4894.66
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00022,4,Staged,2025-09-18,WMS,Sara Novak,True,True,3130.06
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00022,5,Shipped,2025-09-21,Carrier Portal,Thomas Weber,True,False,7384.8
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00023,1,Wave Released,2025-06-12,WMS,Thomas Weber,False,True,2875.96
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00023,2,Picked,2025-06-17,TMS,Sara Novak,True,False,2907.84
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00023,3,Packed,2025-06-21,TMS,Thomas Weber,False,False,3650.14
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00023,4,Staged,2025-06-23,ERP SD,Thomas Weber,True,False,3325.41
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00023,5,Shipped,2025-06-25,Carrier Portal,Kenji Tanaka,True,False,4645.61
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00024,1,Wave Released,2025-12-11,Carrier Portal,Maria Garcia,True,True,5358.96
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00024,2,Picked,2025-12-12,ERP SD,Sara Novak,True,False,7557.44
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00024,3,Packed,2025-12-17,TMS,Jon Miller,True,False,7646.31
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00024,4,Staged,2025-12-23,Carrier Portal,Thomas Weber,False,False,3302.94
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00024,5,Shipped,2025-12-23,TMS,Nina Patel,False,False,3979.04
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00025,1,Wave Released,2025-01-29,Carrier Portal,Thomas Weber,False,False,3124.5
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00025,2,Picked,2025-01-30,TMS,Priya Rao,False,False,7662.01
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00025,3,Packed,2025-02-02,TMS,Jon Miller,True,False,7797.34
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00025,4,Staged,2025-02-06,TMS,Alex Chen,True,False,2873.06
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00025,5,Shipped,2025-02-07,TMS,Sara Novak,True,True,492.59
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00026,1,Wave Released,2025-02-20,TMS,Jon Miller,True,False,1462.21
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00026,2,Picked,2025-02-26,ERP SD,Priya Rao,True,False,4815.78
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00026,3,Packed,2025-02-27,TMS,Alex Chen,True,False,7034.39
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00026,4,Staged,2025-03-05,Carrier Portal,Thomas Weber,True,True,7618.44
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00026,5,Shipped,2025-03-09,ERP SD,Jon Miller,False,False,1078.91
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00027,1,Wave Released,2026-02-19,WMS,Thomas Weber,True,False,7455.53
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00027,2,Picked,2026-02-25,TMS,Priya Rao,False,False,6270.18
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00027,3,Packed,2026-03-03,ERP SD,Maria Garcia,True,True,4521.7
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00027,4,Staged,2026-03-05,WMS,Nina Patel,True,False,627.5
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00027,5,Shipped,2026-03-08,TMS,Thomas Weber,False,False,6491.51
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00028,1,Wave Released,2025-03-23,TMS,Kenji Tanaka,True,False,7662.96
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00028,2,Picked,2025-03-26,Carrier Portal,Kenji Tanaka,False,False,7314.19
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00028,3,Packed,2025-03-27,ERP SD,Kenji Tanaka,False,False,5673.86
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00028,4,Staged,2025-04-01,WMS,Priya Rao,True,False,7737.41
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00028,5,Shipped,2025-04-06,ERP SD,Jon Miller,True,False,819.82
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00029,1,Wave Released,2025-04-03,TMS,Priya Rao,False,False,1864.68
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00029,2,Picked,2025-04-05,ERP SD,Sara Novak,False,False,7966.71
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00029,3,Packed,2025-04-06,WMS,Sara Novak,True,False,2899.81
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00029,4,Staged,2025-04-07,TMS,Nina Patel,False,False,5927.0
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00029,5,Shipped,2025-04-07,ERP SD,Thomas Weber,False,False,7126.9
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00030,1,Wave Released,2025-10-15,WMS,Sara Novak,False,False,3720.54
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00030,2,Picked,2025-10-16,Carrier Portal,Maria Garcia,False,False,285.12
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00030,3,Packed,2025-10-19,ERP SD,Alex Chen,True,False,3611.02
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00030,4,Staged,2025-10-22,ERP SD,Nina Patel,True,True,4337.67
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00030,5,Shipped,2025-10-23,Carrier Portal,Alex Chen,False,False,4303.82
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00031,1,Wave Released,2025-01-23,ERP SD,Sara Novak,False,False,2909.88
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00031,2,Picked,2025-01-28,Carrier Portal,Priya Rao,True,False,882.99
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00031,3,Packed,2025-01-30,WMS,Maria Garcia,False,False,5189.23
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00031,4,Staged,2025-02-03,TMS,Priya Rao,False,False,5893.82
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00031,5,Shipped,2025-02-09,TMS,Thomas Weber,True,False,4292.71
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00032,1,Wave Released,2025-05-09,Carrier Portal,Kenji Tanaka,True,False,2579.86
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00032,2,Picked,2025-05-10,WMS,Sara Novak,False,False,3369.86
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00032,3,Packed,2025-05-11,Carrier Portal,Alex Chen,True,False,7025.82
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00032,4,Staged,2025-05-16,WMS,Nina Patel,False,True,3875.9
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00032,5,Shipped,2025-05-18,ERP SD,Maria Garcia,True,False,7704.6
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00033,1,Wave Released,2026-03-04,Carrier Portal,Kenji Tanaka,True,False,4459.64
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00033,2,Picked,2026-03-04,ERP SD,Jon Miller,True,True,3918.32
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00033,3,Packed,2026-03-07,ERP SD,Nina Patel,False,False,3017.5
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00033,4,Staged,2026-03-08,Carrier Portal,Priya Rao,True,False,2589.22
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00033,5,Shipped,2026-03-09,WMS,Sara Novak,False,False,5098.27
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00034,1,Wave Released,2025-09-27,TMS,Thomas Weber,False,False,1874.36
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00034,2,Picked,2025-09-29,WMS,Kenji Tanaka,False,False,7036.22
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00034,3,Packed,2025-09-29,TMS,Maria Garcia,False,False,5055.09
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00034,4,Staged,2025-10-01,Carrier Portal,Kenji Tanaka,False,False,2677.7
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00034,5,Shipped,2025-10-06,TMS,Nina Patel,True,False,3460.72
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00035,1,Wave Released,2025-10-31,TMS,Alex Chen,False,False,72.57
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00035,2,Picked,2025-11-01,TMS,Maria Garcia,False,False,2236.8
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00035,3,Packed,2025-11-07,ERP SD,Maria Garcia,True,False,4375.89
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00035,4,Staged,2025-11-10,ERP SD,Priya Rao,True,False,4189.06
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00035,5,Shipped,2025-11-14,ERP SD,Alex Chen,False,False,3596.68
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00036,1,Wave Released,2025-03-18,ERP SD,Jon Miller,True,False,5747.09
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00036,2,Picked,2025-03-24,TMS,Alex Chen,True,False,2558.08
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00036,3,Packed,2025-03-30,Carrier Portal,Maria Garcia,True,True,1989.02
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00036,4,Staged,2025-03-30,WMS,Priya Rao,False,False,4102.17
+pick2pack2ship,Pick2Pack2Ship,PICK2PACK2SHIP-00036,5,Shipped,2025-03-30,ERP SD,Kenji Tanaka,False,False,5211.11

@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00001,1,Notification Created,2025-07-08,Historian,Priya Rao,False,False,3870.54
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00001,2,Work Order Planned,2025-07-14,Historian,Nina Patel,False,True,7245.76
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00001,3,Parts Available,2025-07-17,CMMS,Kenji Tanaka,False,False,7084.67
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00001,4,Work Completed,2025-07-17,EAM,Thomas Weber,False,True,7940.88
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00001,5,Asset Released,2025-07-22,CMMS,Sara Novak,True,False,6819.95
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00002,1,Notification Created,2025-06-08,MES,Priya Rao,False,False,3309.28
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00002,2,Work Order Planned,2025-06-10,Historian,Priya Rao,False,False,4049.44
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00002,3,Parts Available,2025-06-10,MES,Maria Garcia,True,False,2767.39
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00002,4,Work Completed,2025-06-10,EAM,Kenji Tanaka,True,True,1927.67
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00002,5,Asset Released,2025-06-11,EAM,Jon Miller,True,False,4465.61
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00003,1,Notification Created,2025-11-06,Historian,Jon Miller,True,False,3245.56
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00003,2,Work Order Planned,2025-11-06,Historian,Nina Patel,False,False,1226.31
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00003,3,Parts Available,2025-11-10,MES,Jon Miller,False,False,1035.77
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00003,4,Work Completed,2025-11-10,CMMS,Alex Chen,True,False,228.51
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00003,5,Asset Released,2025-11-12,MES,Jon Miller,True,False,1551.75
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00004,1,Notification Created,2025-05-23,EAM,Priya Rao,True,True,5629.81
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00004,2,Work Order Planned,2025-05-24,MES,Sara Novak,False,False,7590.08
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00004,3,Parts Available,2025-05-24,CMMS,Alex Chen,True,True,2569.7
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00004,4,Work Completed,2025-05-28,MES,Maria Garcia,False,False,3683.24
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00004,5,Asset Released,2025-05-29,CMMS,Jon Miller,True,False,3970.86
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00005,1,Notification Created,2025-04-28,Historian,Jon Miller,True,False,1349.51
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00005,2,Work Order Planned,2025-05-01,EAM,Thomas Weber,True,False,2106.39
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00005,3,Parts Available,2025-05-03,MES,Jon Miller,False,False,2405.86
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00005,4,Work Completed,2025-05-09,EAM,Maria Garcia,True,False,225.55
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00005,5,Asset Released,2025-05-14,EAM,Priya Rao,True,True,1544.04
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00006,1,Notification Created,2025-06-02,Historian,Jon Miller,False,False,1105.87
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00006,2,Work Order Planned,2025-06-08,MES,Sara Novak,True,False,740.46
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00006,3,Parts Available,2025-06-08,CMMS,Nina Patel,False,False,5705.92
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00006,4,Work Completed,2025-06-11,EAM,Priya Rao,True,False,5885.91
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00006,5,Asset Released,2025-06-12,Historian,Sara Novak,True,False,2501.77
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00007,1,Notification Created,2025-03-19,Historian,Kenji Tanaka,True,False,5259.8
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00007,2,Work Order Planned,2025-03-23,MES,Maria Garcia,False,False,716.05
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00007,3,Parts Available,2025-03-28,MES,Thomas Weber,False,False,1191.16
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00007,4,Work Completed,2025-04-01,CMMS,Nina Patel,True,False,6534.01
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00007,5,Asset Released,2025-04-03,MES,Thomas Weber,True,False,6434.74
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00008,1,Notification Created,2025-08-01,EAM,Nina Patel,True,False,7715.19
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00008,2,Work Order Planned,2025-08-01,Historian,Sara Novak,False,False,6924.65
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00008,3,Parts Available,2025-08-01,Historian,Jon Miller,True,False,1843.34
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00008,4,Work Completed,2025-08-07,MES,Thomas Weber,True,False,6780.19
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00008,5,Asset Released,2025-08-09,EAM,Alex Chen,True,True,4732.08
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00009,1,Notification Created,2026-02-20,MES,Alex Chen,True,False,3686.86
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00009,2,Work Order Planned,2026-02-24,Historian,Priya Rao,True,False,2461.1
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00009,3,Parts Available,2026-02-26,Historian,Thomas Weber,False,False,7191.69
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00009,4,Work Completed,2026-02-28,EAM,Kenji Tanaka,True,False,5917.71
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00009,5,Asset Released,2026-03-03,MES,Alex Chen,False,False,6124.95
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00010,1,Notification Created,2026-03-27,EAM,Jon Miller,False,False,5587.79
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00010,2,Work Order Planned,2026-03-27,CMMS,Jon Miller,True,False,7033.61
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00010,3,Parts Available,2026-04-02,CMMS,Thomas Weber,False,True,2450.55
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00010,4,Work Completed,2026-04-03,MES,Jon Miller,False,False,7631.08
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00010,5,Asset Released,2026-04-04,EAM,Thomas Weber,True,False,5575.97
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00011,1,Notification Created,2026-01-01,MES,Nina Patel,False,False,3946.49
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00011,2,Work Order Planned,2026-01-03,Historian,Kenji Tanaka,True,False,7456.74
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00011,3,Parts Available,2026-01-09,MES,Maria Garcia,False,False,1057.73
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00011,4,Work Completed,2026-01-14,Historian,Thomas Weber,False,False,3293.69
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00011,5,Asset Released,2026-01-16,CMMS,Sara Novak,False,False,7955.4
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00012,1,Notification Created,2025-06-29,Historian,Alex Chen,True,True,5723.39
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00012,2,Work Order Planned,2025-07-04,CMMS,Sara Novak,False,False,5605.04
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00012,3,Parts Available,2025-07-10,Historian,Sara Novak,False,False,4667.84
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00012,4,Work Completed,2025-07-13,MES,Nina Patel,False,False,3079.15
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00012,5,Asset Released,2025-07-16,MES,Nina Patel,True,False,4999.97
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00013,1,Notification Created,2025-08-04,Historian,Jon Miller,False,True,3043.08
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00013,2,Work Order Planned,2025-08-04,CMMS,Priya Rao,False,False,5045.26
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00013,3,Parts Available,2025-08-04,Historian,Nina Patel,True,False,1069.14
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00013,4,Work Completed,2025-08-07,EAM,Nina Patel,False,False,455.59
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00013,5,Asset Released,2025-08-09,Historian,Alex Chen,True,False,5781.19
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00014,1,Notification Created,2025-12-10,CMMS,Maria Garcia,False,False,1498.42
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00014,2,Work Order Planned,2025-12-15,Historian,Thomas Weber,True,True,5679.03
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00014,3,Parts Available,2025-12-21,Historian,Nina Patel,False,False,5812.02
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00014,4,Work Completed,2025-12-25,MES,Alex Chen,False,False,7660.18
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00014,5,Asset Released,2025-12-29,CMMS,Kenji Tanaka,False,True,4708.84
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00015,1,Notification Created,2026-02-03,Historian,Priya Rao,False,False,4323.57
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00015,2,Work Order Planned,2026-02-03,CMMS,Maria Garcia,True,False,7165.91
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00015,3,Parts Available,2026-02-04,EAM,Jon Miller,True,True,6117.12
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00015,4,Work Completed,2026-02-06,CMMS,Priya Rao,True,False,4124.57
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00015,5,Asset Released,2026-02-07,MES,Maria Garcia,False,False,5767.81
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00016,1,Notification Created,2025-06-08,MES,Priya Rao,True,False,4930.43
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00016,2,Work Order Planned,2025-06-12,MES,Jon Miller,True,False,1996.19
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00016,3,Parts Available,2025-06-18,EAM,Priya Rao,False,False,1782.43
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00016,4,Work Completed,2025-06-18,CMMS,Alex Chen,True,False,5382.55
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00016,5,Asset Released,2025-06-19,EAM,Jon Miller,False,False,6688.04
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00017,1,Notification Created,2025-12-02,EAM,Maria Garcia,False,False,3821.11
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00017,2,Work Order Planned,2025-12-07,CMMS,Priya Rao,False,False,4326.15
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00017,3,Parts Available,2025-12-09,MES,Alex Chen,False,False,62.39
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00017,4,Work Completed,2025-12-12,EAM,Thomas Weber,True,False,6069.63
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00017,5,Asset Released,2025-12-13,EAM,Thomas Weber,False,True,6227.84
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00018,1,Notification Created,2025-05-29,EAM,Alex Chen,True,True,4160.28
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00018,2,Work Order Planned,2025-06-04,Historian,Priya Rao,False,False,1164.15
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00018,3,Parts Available,2025-06-06,CMMS,Thomas Weber,True,False,6736.13
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00018,4,Work Completed,2025-06-09,CMMS,Kenji Tanaka,True,False,593.21
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00018,5,Asset Released,2025-06-10,CMMS,Kenji Tanaka,True,False,6581.14
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00019,1,Notification Created,2025-01-17,EAM,Maria Garcia,True,False,5229.7
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00019,2,Work Order Planned,2025-01-23,EAM,Priya Rao,True,False,2040.82
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00019,3,Parts Available,2025-01-28,CMMS,Thomas Weber,False,False,3589.18
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00019,4,Work Completed,2025-01-30,MES,Kenji Tanaka,True,True,1264.37
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00019,5,Asset Released,2025-02-02,CMMS,Kenji Tanaka,False,False,6615.57
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00020,1,Notification Created,2025-05-04,CMMS,Maria Garcia,False,False,5559.23
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00020,2,Work Order Planned,2025-05-10,EAM,Thomas Weber,False,False,3752.8
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00020,3,Parts Available,2025-05-14,CMMS,Sara Novak,False,False,4233.07
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00020,4,Work Completed,2025-05-15,CMMS,Jon Miller,False,False,2216.77
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00020,5,Asset Released,2025-05-20,EAM,Alex Chen,True,False,3821.29
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00021,1,Notification Created,2025-11-05,CMMS,Maria Garcia,True,False,2044.63
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00021,2,Work Order Planned,2025-11-07,EAM,Sara Novak,False,False,6716.38
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00021,3,Parts Available,2025-11-07,Historian,Priya Rao,True,True,5183.8
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00021,4,Work Completed,2025-11-13,CMMS,Kenji Tanaka,True,False,1434.54
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00021,5,Asset Released,2025-11-16,MES,Maria Garcia,True,True,7544.68
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00022,1,Notification Created,2025-11-23,MES,Sara Novak,False,False,2149.68
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00022,2,Work Order Planned,2025-11-27,MES,Priya Rao,True,False,4103.49
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00022,3,Parts Available,2025-12-03,MES,Maria Garcia,True,False,4253.03
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00022,4,Work Completed,2025-12-06,EAM,Priya Rao,False,True,6093.99
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00022,5,Asset Released,2025-12-09,EAM,Jon Miller,False,False,4908.53
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00023,1,Notification Created,2025-11-28,EAM,Thomas Weber,True,False,1542.89
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00023,2,Work Order Planned,2025-12-03,CMMS,Kenji Tanaka,True,False,5225.77
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00023,3,Parts Available,2025-12-05,Historian,Priya Rao,True,False,4388.93
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00023,4,Work Completed,2025-12-11,EAM,Jon Miller,False,False,3174.7
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00023,5,Asset Released,2025-12-17,MES,Priya Rao,True,False,2418.29
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00024,1,Notification Created,2025-02-17,EAM,Alex Chen,True,False,5285.87
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00024,2,Work Order Planned,2025-02-22,MES,Jon Miller,True,False,5628.83
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00024,3,Parts Available,2025-02-23,CMMS,Thomas Weber,True,False,7463.02
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00024,4,Work Completed,2025-02-26,Historian,Jon Miller,False,False,6300.4
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00024,5,Asset Released,2025-03-02,CMMS,Jon Miller,True,True,6214.81
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00025,1,Notification Created,2025-01-26,EAM,Alex Chen,True,False,2840.25
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00025,2,Work Order Planned,2025-01-27,EAM,Alex Chen,False,True,4912.83
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00025,3,Parts Available,2025-01-29,CMMS,Maria Garcia,True,False,6289.67
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00025,4,Work Completed,2025-02-01,Historian,Thomas Weber,True,False,7247.36
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00025,5,Asset Released,2025-02-06,Historian,Thomas Weber,True,False,879.17
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00026,1,Notification Created,2026-03-20,Historian,Thomas Weber,True,False,7196.44
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00026,2,Work Order Planned,2026-03-23,MES,Priya Rao,False,False,798.09
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00026,3,Parts Available,2026-03-26,Historian,Nina Patel,False,False,1664.03
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00026,4,Work Completed,2026-03-27,MES,Priya Rao,False,False,7552.47
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00026,5,Asset Released,2026-03-31,EAM,Sara Novak,False,False,3408.87
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00027,1,Notification Created,2025-03-06,MES,Kenji Tanaka,True,False,3429.52
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00027,2,Work Order Planned,2025-03-09,CMMS,Nina Patel,False,False,984.39
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00027,3,Parts Available,2025-03-12,EAM,Jon Miller,True,True,7664.42
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00027,4,Work Completed,2025-03-12,Historian,Alex Chen,False,False,4471.5
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00027,5,Asset Released,2025-03-14,EAM,Thomas Weber,False,False,6915.48
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00028,1,Notification Created,2025-03-03,EAM,Priya Rao,False,False,1761.24
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00028,2,Work Order Planned,2025-03-03,MES,Kenji Tanaka,False,False,5380.52
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00028,3,Parts Available,2025-03-04,MES,Alex Chen,False,False,7144.56
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00028,4,Work Completed,2025-03-08,MES,Maria Garcia,True,False,7668.77
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00028,5,Asset Released,2025-03-10,Historian,Maria Garcia,True,False,2405.32
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00029,1,Notification Created,2026-03-27,EAM,Kenji Tanaka,False,False,2601.1
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00029,2,Work Order Planned,2026-03-28,CMMS,Nina Patel,True,False,1716.45
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00029,3,Parts Available,2026-04-02,CMMS,Thomas Weber,True,False,5229.48
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00029,4,Work Completed,2026-04-02,Historian,Nina Patel,True,False,1183.32
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00029,5,Asset Released,2026-04-08,Historian,Maria Garcia,False,True,3623.2
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00030,1,Notification Created,2025-10-19,MES,Nina Patel,False,False,6440.84
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00030,2,Work Order Planned,2025-10-24,EAM,Thomas Weber,False,True,3754.67
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00030,3,Parts Available,2025-10-27,CMMS,Thomas Weber,True,False,4084.11
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00030,4,Work Completed,2025-10-28,Historian,Jon Miller,True,False,4880.88
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00030,5,Asset Released,2025-11-01,Historian,Thomas Weber,False,False,1121.42
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00031,1,Notification Created,2025-12-16,MES,Jon Miller,True,False,4345.02
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00031,2,Work Order Planned,2025-12-19,MES,Thomas Weber,True,False,6967.17
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00031,3,Parts Available,2025-12-25,EAM,Nina Patel,True,False,7092.81
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00031,4,Work Completed,2025-12-29,CMMS,Nina Patel,True,False,7879.38
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00031,5,Asset Released,2025-12-31,Historian,Thomas Weber,True,False,6086.51
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00032,1,Notification Created,2025-08-22,EAM,Maria Garcia,True,False,2288.64
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00032,2,Work Order Planned,2025-08-27,Historian,Maria Garcia,True,False,7791.16
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00032,3,Parts Available,2025-08-28,CMMS,Nina Patel,True,False,5190.04
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00032,4,Work Completed,2025-09-01,EAM,Thomas Weber,False,False,300.16
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00032,5,Asset Released,2025-09-01,EAM,Jon Miller,False,False,7531.16
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00033,1,Notification Created,2025-01-31,EAM,Alex Chen,True,False,1767.96
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00033,2,Work Order Planned,2025-02-01,EAM,Jon Miller,False,False,2240.98
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00033,3,Parts Available,2025-02-04,CMMS,Alex Chen,False,False,3212.09
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00033,4,Work Completed,2025-02-10,MES,Maria Garcia,True,True,2006.48
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00033,5,Asset Released,2025-02-14,MES,Sara Novak,False,True,4641.63
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00034,1,Notification Created,2025-12-08,CMMS,Kenji Tanaka,True,False,3972.01
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00034,2,Work Order Planned,2025-12-10,MES,Alex Chen,True,False,2047.23
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00034,3,Parts Available,2025-12-13,Historian,Nina Patel,True,False,4751.5
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00034,4,Work Completed,2025-12-19,CMMS,Thomas Weber,False,False,4375.52
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00034,5,Asset Released,2025-12-23,EAM,Jon Miller,True,False,4072.98
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00035,1,Notification Created,2025-02-16,CMMS,Nina Patel,False,False,4278.04
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00035,2,Work Order Planned,2025-02-19,Historian,Alex Chen,False,False,1388.14
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00035,3,Parts Available,2025-02-20,CMMS,Alex Chen,True,False,5207.63
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00035,4,Work Completed,2025-02-21,CMMS,Kenji Tanaka,False,False,7368.51
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00035,5,Asset Released,2025-02-22,EAM,Jon Miller,True,True,7086.23
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00036,1,Notification Created,2025-02-08,MES,Maria Garcia,True,False,1046.82
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00036,2,Work Order Planned,2025-02-09,MES,Nina Patel,True,False,5995.9
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00036,3,Parts Available,2025-02-09,MES,Priya Rao,True,False,3304.07
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00036,4,Work Completed,2025-02-15,Historian,Nina Patel,True,False,3738.05
+maintain2operate,Maintain2Operate,MAINTAIN2OPERATE-00036,5,Asset Released,2025-02-18,CMMS,Kenji Tanaka,False,False,3661.69

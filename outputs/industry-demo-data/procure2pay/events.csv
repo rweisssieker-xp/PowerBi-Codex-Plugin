@@ -1,0 +1,181 @@
+ProcessID,ProcessName,CaseID,EventSequence,EventName,EventDate,SourceSystem,TouchedBy,AutomationFlag,ReworkFlag,EventCost
+procure2pay,Procure2Pay,PROCURE2PAY-00001,1,Requisition Approved,2025-12-27,ERP FI-AP,Thomas Weber,True,False,4840.63
+procure2pay,Procure2Pay,PROCURE2PAY-00001,2,PO Created,2026-01-01,Supplier Portal,Thomas Weber,True,False,4139.96
+procure2pay,Procure2Pay,PROCURE2PAY-00001,3,Goods Received,2026-01-01,WMS,Nina Patel,False,False,7758.68
+procure2pay,Procure2Pay,PROCURE2PAY-00001,4,Invoice Posted,2026-01-06,ERP MM,Maria Garcia,False,False,5078.7
+procure2pay,Procure2Pay,PROCURE2PAY-00001,5,Paid,2026-01-11,ERP MM,Priya Rao,True,False,4436.41
+procure2pay,Procure2Pay,PROCURE2PAY-00002,1,Requisition Approved,2025-05-20,ERP MM,Kenji Tanaka,True,False,1638.84
+procure2pay,Procure2Pay,PROCURE2PAY-00002,2,PO Created,2025-05-24,Supplier Portal,Priya Rao,False,False,6819.9
+procure2pay,Procure2Pay,PROCURE2PAY-00002,3,Goods Received,2025-05-30,ERP MM,Maria Garcia,False,False,1795.45
+procure2pay,Procure2Pay,PROCURE2PAY-00002,4,Invoice Posted,2025-06-03,Supplier Portal,Priya Rao,False,False,6082.05
+procure2pay,Procure2Pay,PROCURE2PAY-00002,5,Paid,2025-06-07,ERP FI-AP,Nina Patel,True,False,3162.38
+procure2pay,Procure2Pay,PROCURE2PAY-00003,1,Requisition Approved,2025-09-16,ERP MM,Thomas Weber,False,False,2138.35
+procure2pay,Procure2Pay,PROCURE2PAY-00003,2,PO Created,2025-09-17,ERP MM,Alex Chen,False,True,6660.89
+procure2pay,Procure2Pay,PROCURE2PAY-00003,3,Goods Received,2025-09-20,WMS,Alex Chen,True,False,7608.17
+procure2pay,Procure2Pay,PROCURE2PAY-00003,4,Invoice Posted,2025-09-20,Supplier Portal,Nina Patel,True,False,2216.07
+procure2pay,Procure2Pay,PROCURE2PAY-00003,5,Paid,2025-09-22,ERP FI-AP,Jon Miller,True,False,478.02
+procure2pay,Procure2Pay,PROCURE2PAY-00004,1,Requisition Approved,2025-06-25,ERP MM,Thomas Weber,True,False,2488.59
+procure2pay,Procure2Pay,PROCURE2PAY-00004,2,PO Created,2025-06-25,WMS,Maria Garcia,True,False,7743.13
+procure2pay,Procure2Pay,PROCURE2PAY-00004,3,Goods Received,2025-07-01,ERP MM,Alex Chen,False,False,7387.8
+procure2pay,Procure2Pay,PROCURE2PAY-00004,4,Invoice Posted,2025-07-07,Supplier Portal,Priya Rao,True,False,6637.32
+procure2pay,Procure2Pay,PROCURE2PAY-00004,5,Paid,2025-07-12,WMS,Thomas Weber,True,False,5669.23
+procure2pay,Procure2Pay,PROCURE2PAY-00005,1,Requisition Approved,2025-01-14,ERP MM,Nina Patel,True,False,1665.17
+procure2pay,Procure2Pay,PROCURE2PAY-00005,2,PO Created,2025-01-16,WMS,Jon Miller,True,False,6023.18
+procure2pay,Procure2Pay,PROCURE2PAY-00005,3,Goods Received,2025-01-22,ERP MM,Jon Miller,True,False,1238.23
+procure2pay,Procure2Pay,PROCURE2PAY-00005,4,Invoice Posted,2025-01-26,ERP MM,Nina Patel,False,False,7591.89
+procure2pay,Procure2Pay,PROCURE2PAY-00005,5,Paid,2025-01-29,WMS,Maria Garcia,False,False,403.33
+procure2pay,Procure2Pay,PROCURE2PAY-00006,1,Requisition Approved,2025-04-20,ERP MM,Priya Rao,False,False,6833.86
+procure2pay,Procure2Pay,PROCURE2PAY-00006,2,PO Created,2025-04-25,ERP MM,Alex Chen,True,False,4286.48
+procure2pay,Procure2Pay,PROCURE2PAY-00006,3,Goods Received,2025-04-25,WMS,Priya Rao,True,True,4337.72
+procure2pay,Procure2Pay,PROCURE2PAY-00006,4,Invoice Posted,2025-04-29,Supplier Portal,Alex Chen,True,False,7170.65
+procure2pay,Procure2Pay,PROCURE2PAY-00006,5,Paid,2025-05-01,ERP MM,Sara Novak,False,False,6724.2
+procure2pay,Procure2Pay,PROCURE2PAY-00007,1,Requisition Approved,2025-05-18,ERP FI-AP,Priya Rao,False,False,788.11
+procure2pay,Procure2Pay,PROCURE2PAY-00007,2,PO Created,2025-05-19,ERP MM,Jon Miller,True,False,6487.54
+procure2pay,Procure2Pay,PROCURE2PAY-00007,3,Goods Received,2025-05-24,ERP MM,Nina Patel,True,False,2811.22
+procure2pay,Procure2Pay,PROCURE2PAY-00007,4,Invoice Posted,2025-05-25,WMS,Kenji Tanaka,False,False,1631.67
+procure2pay,Procure2Pay,PROCURE2PAY-00007,5,Paid,2025-05-30,ERP FI-AP,Sara Novak,False,False,3218.55
+procure2pay,Procure2Pay,PROCURE2PAY-00008,1,Requisition Approved,2025-12-05,ERP MM,Priya Rao,True,False,2940.67
+procure2pay,Procure2Pay,PROCURE2PAY-00008,2,PO Created,2025-12-05,WMS,Thomas Weber,True,False,3204.41
+procure2pay,Procure2Pay,PROCURE2PAY-00008,3,Goods Received,2025-12-09,ERP MM,Nina Patel,False,False,629.16
+procure2pay,Procure2Pay,PROCURE2PAY-00008,4,Invoice Posted,2025-12-10,Supplier Portal,Nina Patel,True,False,152.96
+procure2pay,Procure2Pay,PROCURE2PAY-00008,5,Paid,2025-12-10,ERP MM,Kenji Tanaka,True,False,3294.26
+procure2pay,Procure2Pay,PROCURE2PAY-00009,1,Requisition Approved,2025-06-14,ERP MM,Kenji Tanaka,True,False,7979.7
+procure2pay,Procure2Pay,PROCURE2PAY-00009,2,PO Created,2025-06-17,WMS,Priya Rao,True,False,7019.75
+procure2pay,Procure2Pay,PROCURE2PAY-00009,3,Goods Received,2025-06-17,WMS,Nina Patel,True,False,1041.89
+procure2pay,Procure2Pay,PROCURE2PAY-00009,4,Invoice Posted,2025-06-18,ERP MM,Maria Garcia,False,False,1589.85
+procure2pay,Procure2Pay,PROCURE2PAY-00009,5,Paid,2025-06-23,WMS,Sara Novak,False,False,6223.74
+procure2pay,Procure2Pay,PROCURE2PAY-00010,1,Requisition Approved,2025-12-12,ERP MM,Kenji Tanaka,True,False,983.24
+procure2pay,Procure2Pay,PROCURE2PAY-00010,2,PO Created,2025-12-18,ERP FI-AP,Nina Patel,False,True,6460.3
+procure2pay,Procure2Pay,PROCURE2PAY-00010,3,Goods Received,2025-12-20,Supplier Portal,Jon Miller,True,False,2262.82
+procure2pay,Procure2Pay,PROCURE2PAY-00010,4,Invoice Posted,2025-12-22,Supplier Portal,Jon Miller,True,False,179.7
+procure2pay,Procure2Pay,PROCURE2PAY-00010,5,Paid,2025-12-22,ERP MM,Jon Miller,False,False,7284.65
+procure2pay,Procure2Pay,PROCURE2PAY-00011,1,Requisition Approved,2025-10-18,WMS,Kenji Tanaka,True,False,4628.93
+procure2pay,Procure2Pay,PROCURE2PAY-00011,2,PO Created,2025-10-24,ERP FI-AP,Maria Garcia,False,False,6942.01
+procure2pay,Procure2Pay,PROCURE2PAY-00011,3,Goods Received,2025-10-26,WMS,Thomas Weber,True,False,4535.94
+procure2pay,Procure2Pay,PROCURE2PAY-00011,4,Invoice Posted,2025-10-27,ERP MM,Sara Novak,True,False,5588.03
+procure2pay,Procure2Pay,PROCURE2PAY-00011,5,Paid,2025-11-02,ERP MM,Priya Rao,True,True,1366.45
+procure2pay,Procure2Pay,PROCURE2PAY-00012,1,Requisition Approved,2025-08-08,ERP MM,Priya Rao,False,False,1499.47
+procure2pay,Procure2Pay,PROCURE2PAY-00012,2,PO Created,2025-08-14,Supplier Portal,Jon Miller,False,False,613.16
+procure2pay,Procure2Pay,PROCURE2PAY-00012,3,Goods Received,2025-08-19,ERP FI-AP,Priya Rao,True,False,5258.04
+procure2pay,Procure2Pay,PROCURE2PAY-00012,4,Invoice Posted,2025-08-25,ERP MM,Maria Garcia,True,False,3063.44
+procure2pay,Procure2Pay,PROCURE2PAY-00012,5,Paid,2025-08-27,WMS,Sara Novak,False,False,1335.16
+procure2pay,Procure2Pay,PROCURE2PAY-00013,1,Requisition Approved,2025-02-24,ERP MM,Maria Garcia,False,False,5364.69
+procure2pay,Procure2Pay,PROCURE2PAY-00013,2,PO Created,2025-03-01,WMS,Nina Patel,False,True,7806.33
+procure2pay,Procure2Pay,PROCURE2PAY-00013,3,Goods Received,2025-03-04,ERP MM,Jon Miller,False,False,4429.75
+procure2pay,Procure2Pay,PROCURE2PAY-00013,4,Invoice Posted,2025-03-04,Supplier Portal,Maria Garcia,True,False,7842.13
+procure2pay,Procure2Pay,PROCURE2PAY-00013,5,Paid,2025-03-09,WMS,Priya Rao,True,False,7125.25
+procure2pay,Procure2Pay,PROCURE2PAY-00014,1,Requisition Approved,2026-01-15,WMS,Maria Garcia,True,True,3235.37
+procure2pay,Procure2Pay,PROCURE2PAY-00014,2,PO Created,2026-01-17,WMS,Alex Chen,True,False,3948.67
+procure2pay,Procure2Pay,PROCURE2PAY-00014,3,Goods Received,2026-01-20,WMS,Alex Chen,False,False,2871.15
+procure2pay,Procure2Pay,PROCURE2PAY-00014,4,Invoice Posted,2026-01-25,WMS,Priya Rao,False,False,2983.97
+procure2pay,Procure2Pay,PROCURE2PAY-00014,5,Paid,2026-01-25,ERP MM,Maria Garcia,True,True,5954.17
+procure2pay,Procure2Pay,PROCURE2PAY-00015,1,Requisition Approved,2025-06-10,Supplier Portal,Maria Garcia,False,False,1916.57
+procure2pay,Procure2Pay,PROCURE2PAY-00015,2,PO Created,2025-06-10,ERP FI-AP,Maria Garcia,True,False,6869.8
+procure2pay,Procure2Pay,PROCURE2PAY-00015,3,Goods Received,2025-06-15,ERP MM,Priya Rao,True,False,3436.22
+procure2pay,Procure2Pay,PROCURE2PAY-00015,4,Invoice Posted,2025-06-15,ERP FI-AP,Alex Chen,False,False,6837.56
+procure2pay,Procure2Pay,PROCURE2PAY-00015,5,Paid,2025-06-17,ERP MM,Kenji Tanaka,True,False,3091.29
+procure2pay,Procure2Pay,PROCURE2PAY-00016,1,Requisition Approved,2026-01-09,ERP MM,Thomas Weber,True,False,6133.47
+procure2pay,Procure2Pay,PROCURE2PAY-00016,2,PO Created,2026-01-13,WMS,Priya Rao,False,False,1036.6
+procure2pay,Procure2Pay,PROCURE2PAY-00016,3,Goods Received,2026-01-13,ERP MM,Nina Patel,True,False,3202.03
+procure2pay,Procure2Pay,PROCURE2PAY-00016,4,Invoice Posted,2026-01-18,WMS,Alex Chen,False,False,5042.48
+procure2pay,Procure2Pay,PROCURE2PAY-00016,5,Paid,2026-01-22,ERP MM,Nina Patel,True,False,273.22
+procure2pay,Procure2Pay,PROCURE2PAY-00017,1,Requisition Approved,2025-10-28,ERP FI-AP,Thomas Weber,False,True,5509.56
+procure2pay,Procure2Pay,PROCURE2PAY-00017,2,PO Created,2025-11-02,ERP MM,Alex Chen,True,False,6363.42
+procure2pay,Procure2Pay,PROCURE2PAY-00017,3,Goods Received,2025-11-06,Supplier Portal,Priya Rao,False,False,560.74
+procure2pay,Procure2Pay,PROCURE2PAY-00017,4,Invoice Posted,2025-11-09,ERP FI-AP,Priya Rao,False,False,4228.36
+procure2pay,Procure2Pay,PROCURE2PAY-00017,5,Paid,2025-11-13,Supplier Portal,Alex Chen,True,False,298.2
+procure2pay,Procure2Pay,PROCURE2PAY-00018,1,Requisition Approved,2025-09-15,ERP FI-AP,Priya Rao,False,False,7001.0
+procure2pay,Procure2Pay,PROCURE2PAY-00018,2,PO Created,2025-09-21,Supplier Portal,Priya Rao,False,True,4980.08
+procure2pay,Procure2Pay,PROCURE2PAY-00018,3,Goods Received,2025-09-27,ERP MM,Sara Novak,False,False,5211.54
+procure2pay,Procure2Pay,PROCURE2PAY-00018,4,Invoice Posted,2025-09-27,Supplier Portal,Alex Chen,True,False,7644.18
+procure2pay,Procure2Pay,PROCURE2PAY-00018,5,Paid,2025-09-27,ERP FI-AP,Kenji Tanaka,False,False,2600.19
+procure2pay,Procure2Pay,PROCURE2PAY-00019,1,Requisition Approved,2026-01-06,ERP FI-AP,Priya Rao,False,False,2553.23
+procure2pay,Procure2Pay,PROCURE2PAY-00019,2,PO Created,2026-01-12,ERP MM,Sara Novak,True,False,3121.96
+procure2pay,Procure2Pay,PROCURE2PAY-00019,3,Goods Received,2026-01-16,Supplier Portal,Jon Miller,True,False,4189.31
+procure2pay,Procure2Pay,PROCURE2PAY-00019,4,Invoice Posted,2026-01-21,WMS,Priya Rao,True,False,4745.1
+procure2pay,Procure2Pay,PROCURE2PAY-00019,5,Paid,2026-01-22,WMS,Maria Garcia,True,False,175.87
+procure2pay,Procure2Pay,PROCURE2PAY-00020,1,Requisition Approved,2025-07-29,WMS,Maria Garcia,False,False,4768.82
+procure2pay,Procure2Pay,PROCURE2PAY-00020,2,PO Created,2025-07-30,ERP MM,Kenji Tanaka,True,False,2995.53
+procure2pay,Procure2Pay,PROCURE2PAY-00020,3,Goods Received,2025-08-04,ERP MM,Kenji Tanaka,True,True,3082.3
+procure2pay,Procure2Pay,PROCURE2PAY-00020,4,Invoice Posted,2025-08-09,ERP MM,Sara Novak,False,False,844.91
+procure2pay,Procure2Pay,PROCURE2PAY-00020,5,Paid,2025-08-09,WMS,Maria Garcia,False,False,7376.48
+procure2pay,Procure2Pay,PROCURE2PAY-00021,1,Requisition Approved,2025-08-09,ERP FI-AP,Kenji Tanaka,True,False,321.85
+procure2pay,Procure2Pay,PROCURE2PAY-00021,2,PO Created,2025-08-13,ERP FI-AP,Maria Garcia,True,False,6512.45
+procure2pay,Procure2Pay,PROCURE2PAY-00021,3,Goods Received,2025-08-17,WMS,Thomas Weber,True,False,2106.82
+procure2pay,Procure2Pay,PROCURE2PAY-00021,4,Invoice Posted,2025-08-20,WMS,Kenji Tanaka,False,False,4487.54
+procure2pay,Procure2Pay,PROCURE2PAY-00021,5,Paid,2025-08-24,ERP FI-AP,Sara Novak,True,False,1088.66
+procure2pay,Procure2Pay,PROCURE2PAY-00022,1,Requisition Approved,2025-06-27,WMS,Nina Patel,False,False,5673.8
+procure2pay,Procure2Pay,PROCURE2PAY-00022,2,PO Created,2025-06-30,Supplier Portal,Maria Garcia,True,False,3520.44
+procure2pay,Procure2Pay,PROCURE2PAY-00022,3,Goods Received,2025-06-30,ERP MM,Thomas Weber,False,False,4783.8
+procure2pay,Procure2Pay,PROCURE2PAY-00022,4,Invoice Posted,2025-07-05,WMS,Nina Patel,True,False,2707.77
+procure2pay,Procure2Pay,PROCURE2PAY-00022,5,Paid,2025-07-08,WMS,Priya Rao,True,False,6908.16
+procure2pay,Procure2Pay,PROCURE2PAY-00023,1,Requisition Approved,2025-12-25,WMS,Jon Miller,False,False,1582.72
+procure2pay,Procure2Pay,PROCURE2PAY-00023,2,PO Created,2025-12-28,WMS,Priya Rao,False,False,2300.18
+procure2pay,Procure2Pay,PROCURE2PAY-00023,3,Goods Received,2026-01-02,WMS,Sara Novak,True,False,6839.25
+procure2pay,Procure2Pay,PROCURE2PAY-00023,4,Invoice Posted,2026-01-06,WMS,Sara Novak,False,True,3923.65
+procure2pay,Procure2Pay,PROCURE2PAY-00023,5,Paid,2026-01-08,ERP FI-AP,Nina Patel,True,False,2480.54
+procure2pay,Procure2Pay,PROCURE2PAY-00024,1,Requisition Approved,2025-08-21,Supplier Portal,Alex Chen,False,False,6147.08
+procure2pay,Procure2Pay,PROCURE2PAY-00024,2,PO Created,2025-08-24,ERP FI-AP,Nina Patel,True,False,5101.19
+procure2pay,Procure2Pay,PROCURE2PAY-00024,3,Goods Received,2025-08-27,ERP MM,Maria Garcia,False,False,4288.36
+procure2pay,Procure2Pay,PROCURE2PAY-00024,4,Invoice Posted,2025-08-31,ERP MM,Jon Miller,False,False,7425.51
+procure2pay,Procure2Pay,PROCURE2PAY-00024,5,Paid,2025-08-31,ERP FI-AP,Kenji Tanaka,False,False,4396.02
+procure2pay,Procure2Pay,PROCURE2PAY-00025,1,Requisition Approved,2025-10-05,ERP MM,Maria Garcia,True,False,1685.03
+procure2pay,Procure2Pay,PROCURE2PAY-00025,2,PO Created,2025-10-07,Supplier Portal,Thomas Weber,False,False,2183.06
+procure2pay,Procure2Pay,PROCURE2PAY-00025,3,Goods Received,2025-10-08,WMS,Alex Chen,True,False,3645.49
+procure2pay,Procure2Pay,PROCURE2PAY-00025,4,Invoice Posted,2025-10-09,ERP FI-AP,Jon Miller,True,False,2949.4
+procure2pay,Procure2Pay,PROCURE2PAY-00025,5,Paid,2025-10-14,Supplier Portal,Jon Miller,False,False,5383.83
+procure2pay,Procure2Pay,PROCURE2PAY-00026,1,Requisition Approved,2025-02-24,Supplier Portal,Jon Miller,True,False,914.21
+procure2pay,Procure2Pay,PROCURE2PAY-00026,2,PO Created,2025-03-01,Supplier Portal,Sara Novak,False,False,1017.89
+procure2pay,Procure2Pay,PROCURE2PAY-00026,3,Goods Received,2025-03-02,ERP MM,Jon Miller,True,False,1587.03
+procure2pay,Procure2Pay,PROCURE2PAY-00026,4,Invoice Posted,2025-03-04,Supplier Portal,Jon Miller,False,False,1142.57
+procure2pay,Procure2Pay,PROCURE2PAY-00026,5,Paid,2025-03-09,ERP FI-AP,Alex Chen,True,False,7154.21
+procure2pay,Procure2Pay,PROCURE2PAY-00027,1,Requisition Approved,2025-08-25,WMS,Thomas Weber,True,False,1601.37
+procure2pay,Procure2Pay,PROCURE2PAY-00027,2,PO Created,2025-08-25,WMS,Maria Garcia,True,False,3133.04
+procure2pay,Procure2Pay,PROCURE2PAY-00027,3,Goods Received,2025-08-31,WMS,Alex Chen,True,False,7698.65
+procure2pay,Procure2Pay,PROCURE2PAY-00027,4,Invoice Posted,2025-09-06,WMS,Jon Miller,True,False,3339.35
+procure2pay,Procure2Pay,PROCURE2PAY-00027,5,Paid,2025-09-11,WMS,Jon Miller,False,False,351.6
+procure2pay,Procure2Pay,PROCURE2PAY-00028,1,Requisition Approved,2025-08-13,WMS,Kenji Tanaka,True,False,3561.04
+procure2pay,Procure2Pay,PROCURE2PAY-00028,2,PO Created,2025-08-19,WMS,Priya Rao,False,True,5114.3
+procure2pay,Procure2Pay,PROCURE2PAY-00028,3,Goods Received,2025-08-21,ERP MM,Jon Miller,True,False,6472.77
+procure2pay,Procure2Pay,PROCURE2PAY-00028,4,Invoice Posted,2025-08-25,WMS,Nina Patel,False,False,601.54
+procure2pay,Procure2Pay,PROCURE2PAY-00028,5,Paid,2025-08-28,Supplier Portal,Priya Rao,False,False,4192.99
+procure2pay,Procure2Pay,PROCURE2PAY-00029,1,Requisition Approved,2025-08-04,ERP FI-AP,Kenji Tanaka,True,False,6087.92
+procure2pay,Procure2Pay,PROCURE2PAY-00029,2,PO Created,2025-08-08,ERP MM,Kenji Tanaka,True,False,5255.75
+procure2pay,Procure2Pay,PROCURE2PAY-00029,3,Goods Received,2025-08-11,Supplier Portal,Sara Novak,False,False,7889.21
+procure2pay,Procure2Pay,PROCURE2PAY-00029,4,Invoice Posted,2025-08-11,Supplier Portal,Priya Rao,True,False,2164.82
+procure2pay,Procure2Pay,PROCURE2PAY-00029,5,Paid,2025-08-14,Supplier Portal,Jon Miller,False,False,7179.32
+procure2pay,Procure2Pay,PROCURE2PAY-00030,1,Requisition Approved,2025-01-24,ERP FI-AP,Thomas Weber,True,False,7918.83
+procure2pay,Procure2Pay,PROCURE2PAY-00030,2,PO Created,2025-01-28,WMS,Nina Patel,False,False,7574.75
+procure2pay,Procure2Pay,PROCURE2PAY-00030,3,Goods Received,2025-01-29,ERP MM,Kenji Tanaka,False,False,7908.01
+procure2pay,Procure2Pay,PROCURE2PAY-00030,4,Invoice Posted,2025-02-02,ERP FI-AP,Kenji Tanaka,True,False,2952.06
+procure2pay,Procure2Pay,PROCURE2PAY-00030,5,Paid,2025-02-02,Supplier Portal,Maria Garcia,False,False,3163.7
+procure2pay,Procure2Pay,PROCURE2PAY-00031,1,Requisition Approved,2026-03-15,Supplier Portal,Alex Chen,False,False,7435.41
+procure2pay,Procure2Pay,PROCURE2PAY-00031,2,PO Created,2026-03-16,WMS,Kenji Tanaka,False,False,4975.23
+procure2pay,Procure2Pay,PROCURE2PAY-00031,3,Goods Received,2026-03-16,WMS,Sara Novak,True,False,5475.63
+procure2pay,Procure2Pay,PROCURE2PAY-00031,4,Invoice Posted,2026-03-21,ERP MM,Nina Patel,True,False,2408.87
+procure2pay,Procure2Pay,PROCURE2PAY-00031,5,Paid,2026-03-27,WMS,Sara Novak,True,False,5478.39
+procure2pay,Procure2Pay,PROCURE2PAY-00032,1,Requisition Approved,2026-01-30,ERP FI-AP,Sara Novak,False,True,7506.11
+procure2pay,Procure2Pay,PROCURE2PAY-00032,2,PO Created,2026-02-02,WMS,Sara Novak,True,False,7911.17
+procure2pay,Procure2Pay,PROCURE2PAY-00032,3,Goods Received,2026-02-08,ERP MM,Kenji Tanaka,True,False,6069.21
+procure2pay,Procure2Pay,PROCURE2PAY-00032,4,Invoice Posted,2026-02-12,WMS,Alex Chen,True,False,2080.63
+procure2pay,Procure2Pay,PROCURE2PAY-00032,5,Paid,2026-02-18,WMS,Maria Garcia,True,False,2664.37
+procure2pay,Procure2Pay,PROCURE2PAY-00033,1,Requisition Approved,2025-02-19,Supplier Portal,Thomas Weber,True,False,705.21
+procure2pay,Procure2Pay,PROCURE2PAY-00033,2,PO Created,2025-02-25,ERP MM,Jon Miller,True,False,7090.68
+procure2pay,Procure2Pay,PROCURE2PAY-00033,3,Goods Received,2025-03-03,ERP FI-AP,Sara Novak,True,False,7494.9
+procure2pay,Procure2Pay,PROCURE2PAY-00033,4,Invoice Posted,2025-03-06,Supplier Portal,Kenji Tanaka,True,False,4855.97
+procure2pay,Procure2Pay,PROCURE2PAY-00033,5,Paid,2025-03-11,ERP MM,Priya Rao,True,False,7716.6
+procure2pay,Procure2Pay,PROCURE2PAY-00034,1,Requisition Approved,2026-03-12,ERP MM,Priya Rao,False,True,724.02
+procure2pay,Procure2Pay,PROCURE2PAY-00034,2,PO Created,2026-03-18,ERP FI-AP,Nina Patel,False,False,7496.97
+procure2pay,Procure2Pay,PROCURE2PAY-00034,3,Goods Received,2026-03-19,ERP MM,Kenji Tanaka,True,True,1368.56
+procure2pay,Procure2Pay,PROCURE2PAY-00034,4,Invoice Posted,2026-03-23,Supplier Portal,Maria Garcia,True,True,5132.96
+procure2pay,Procure2Pay,PROCURE2PAY-00034,5,Paid,2026-03-27,WMS,Priya Rao,True,False,5800.44
+procure2pay,Procure2Pay,PROCURE2PAY-00035,1,Requisition Approved,2025-10-09,Supplier Portal,Priya Rao,False,False,7872.05
+procure2pay,Procure2Pay,PROCURE2PAY-00035,2,PO Created,2025-10-14,ERP MM,Sara Novak,True,False,4929.24
+procure2pay,Procure2Pay,PROCURE2PAY-00035,3,Goods Received,2025-10-15,WMS,Jon Miller,True,False,6383.47
+procure2pay,Procure2Pay,PROCURE2PAY-00035,4,Invoice Posted,2025-10-15,WMS,Priya Rao,True,False,4875.79
+procure2pay,Procure2Pay,PROCURE2PAY-00035,5,Paid,2025-10-15,ERP FI-AP,Kenji Tanaka,False,False,5121.97
+procure2pay,Procure2Pay,PROCURE2PAY-00036,1,Requisition Approved,2025-06-11,Supplier Portal,Thomas Weber,True,False,5262.78
+procure2pay,Procure2Pay,PROCURE2PAY-00036,2,PO Created,2025-06-16,WMS,Kenji Tanaka,True,False,4000.87
+procure2pay,Procure2Pay,PROCURE2PAY-00036,3,Goods Received,2025-06-21,WMS,Alex Chen,True,False,463.67
+procure2pay,Procure2Pay,PROCURE2PAY-00036,4,Invoice Posted,2025-06-21,Supplier Portal,Priya Rao,False,False,6068.23
+procure2pay,Procure2Pay,PROCURE2PAY-00036,5,Paid,2025-06-26,ERP FI-AP,Sara Novak,True,False,1559.29

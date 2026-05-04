@@ -1,0 +1,61 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+source2contract,Source2Contract,2025-01,Sourcing Cycle Time,13.06,18.14,0.91,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-01,Contract Value At Risk,40.25,40.86,2.04,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-01,Supplier Compliance %,87.29,85.51,4.28,Green,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-01,Legal Loop Count,25.25,28.37,1.42,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-01,Savings Value,23.9,25.7,1.29,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-02,Sourcing Cycle Time,52.2,53.63,2.68,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-02,Contract Value At Risk,38.13,43.23,2.16,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-02,Supplier Compliance %,80.41,97.56,4.88,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-02,Legal Loop Count,17.49,20.11,1.01,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-02,Savings Value,22.49,27.45,1.37,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-03,Sourcing Cycle Time,26.74,33.68,1.68,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-03,Contract Value At Risk,28.99,32.63,1.63,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-03,Supplier Compliance %,86.98,92.34,4.62,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-03,Legal Loop Count,42.54,48.3,2.42,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-03,Savings Value,9.67,14.36,0.72,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-04,Sourcing Cycle Time,42.9,42.29,2.11,Green,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-04,Contract Value At Risk,10.98,13.96,0.7,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-04,Supplier Compliance %,90.34,87.64,4.38,Green,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-04,Legal Loop Count,46.52,45.93,2.3,Green,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-04,Savings Value,35.09,38.08,1.9,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-05,Sourcing Cycle Time,36.35,39.25,1.96,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-05,Contract Value At Risk,39.14,50.27,2.51,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-05,Supplier Compliance %,77.49,84.99,4.25,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-05,Legal Loop Count,14.15,18.36,0.92,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-05,Savings Value,35.37,45.92,2.3,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-06,Sourcing Cycle Time,53.66,56.39,2.82,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-06,Contract Value At Risk,25.24,30.89,1.54,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-06,Supplier Compliance %,63.03,78.17,3.91,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-06,Legal Loop Count,28.15,28.98,1.45,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-06,Savings Value,10.6,12.06,0.6,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-07,Sourcing Cycle Time,48.49,50.2,2.51,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-07,Contract Value At Risk,36.9,45.4,2.27,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-07,Supplier Compliance %,75.4,83.72,4.19,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-07,Legal Loop Count,56.93,58.81,2.94,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-07,Savings Value,19.18,22.73,1.14,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-08,Sourcing Cycle Time,15.94,19.87,0.99,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-08,Contract Value At Risk,38.67,49.04,2.45,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-08,Supplier Compliance %,77.44,89.01,4.45,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-08,Legal Loop Count,32.28,38.98,1.95,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-08,Savings Value,32.89,36.15,1.81,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-09,Sourcing Cycle Time,15.31,16.75,0.84,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-09,Contract Value At Risk,9.94,15.39,0.77,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-09,Supplier Compliance %,71.66,76.88,3.84,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-09,Legal Loop Count,23.83,30.33,1.52,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-09,Savings Value,14.15,16.55,0.83,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-10,Sourcing Cycle Time,25.75,34.84,1.74,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-10,Contract Value At Risk,15.27,17.9,0.9,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-10,Supplier Compliance %,85.84,97.18,4.86,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-10,Legal Loop Count,29.28,32.01,1.6,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-10,Savings Value,54.5,56.92,2.85,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-11,Sourcing Cycle Time,50.66,51.78,2.59,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-11,Contract Value At Risk,8.42,13.01,0.65,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-11,Supplier Compliance %,83.14,82.7,4.14,Green,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-11,Legal Loop Count,20.16,23.24,1.16,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-11,Savings Value,43.14,55.82,2.79,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-12,Sourcing Cycle Time,17.05,20.13,1.01,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-12,Contract Value At Risk,37.54,43.65,2.18,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-12,Supplier Compliance %,80.7,97.13,4.86,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-12,Legal Loop Count,14.79,22.35,1.12,Red,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
+source2contract,Source2Contract,2025-12,Savings Value,27.06,29.24,1.46,Amber,Source-to-Contract Process Owner,Sourcing Suite; CLM; Supplier Portal; ERP MM
