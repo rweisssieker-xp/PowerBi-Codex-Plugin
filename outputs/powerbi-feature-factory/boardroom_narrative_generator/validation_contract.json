@@ -1,0 +1,15 @@
+{
+  "id": "boardroom_narrative_generator",
+  "name": "Boardroom Narrative Generator",
+  "acceptanceChecks": [
+    "executive page exists",
+    "KPI status exists",
+    "decision path exists"
+  ],
+  "minimumEvidence": [
+    "Executive Overview",
+    "KPI status",
+    "financial value field"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

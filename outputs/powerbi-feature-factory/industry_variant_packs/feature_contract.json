@@ -1,0 +1,31 @@
+{
+  "id": "industry_variant_packs",
+  "name": "Industry Variant Packs",
+  "summary": "Support industry-specific process variants through domain, plant, source, and KPI metadata.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "variant-engine",
+  "inputs": [
+    "industry",
+    "plant/site",
+    "source systems",
+    "compliance context"
+  ],
+  "outputs": [
+    "industry variant metadata",
+    "source variants",
+    "KPI variants"
+  ],
+  "requiredArtifacts": [
+    "industry_process_catalog.json",
+    "cases.csv"
+  ],
+  "evidence": [
+    "domain",
+    "plant",
+    "source systems",
+    "KPIs"
+  ],
+  "cliCommands": [
+    "python scripts\\build_industry_process_demo_data.py"
+  ]
+}

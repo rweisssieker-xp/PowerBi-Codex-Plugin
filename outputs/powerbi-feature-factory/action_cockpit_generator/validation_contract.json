@@ -1,0 +1,14 @@
+{
+  "id": "action_cockpit_generator",
+  "name": "Action Cockpit Generator",
+  "acceptanceChecks": [
+    "ActionRequired available",
+    "owner field available",
+    "action page declared"
+  ],
+  "minimumEvidence": [
+    "Owner Action Cockpit page",
+    "ActionRequired field"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

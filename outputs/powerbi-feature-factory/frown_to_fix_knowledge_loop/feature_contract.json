@@ -1,0 +1,27 @@
+{
+  "id": "frown_to_fix_knowledge_loop",
+  "name": "Frown-to-Fix Knowledge Loop",
+  "summary": "Classify Power BI Desktop errors and map them to repair and validation steps.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "triage",
+  "inputs": [
+    "Power BI frown message",
+    "stack trace",
+    "artifact path"
+  ],
+  "outputs": [
+    "root-cause class",
+    "repair checklist",
+    "validation rerun command"
+  ],
+  "requiredArtifacts": [
+    "quality_gate.json"
+  ],
+  "evidence": [
+    "manual Desktop checks",
+    "repair checklist"
+  ],
+  "cliCommands": [
+    "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+  ]
+}

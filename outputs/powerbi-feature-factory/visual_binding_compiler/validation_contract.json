@@ -1,0 +1,14 @@
+{
+  "id": "visual_binding_compiler",
+  "name": "Visual Binding Compiler",
+  "acceptanceChecks": [
+    "all columns exist",
+    "all measures exist",
+    "visual count reported"
+  ],
+  "minimumEvidence": [
+    "required fields",
+    "required measures"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

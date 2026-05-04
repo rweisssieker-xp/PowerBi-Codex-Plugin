@@ -1,0 +1,27 @@
+{
+  "id": "process_pack_marketplace",
+  "name": "Process Pack Marketplace",
+  "summary": "Expose each process as a cataloged reusable Power BI data product.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "catalog",
+  "inputs": [
+    "industry process catalog",
+    "process pack outputs"
+  ],
+  "outputs": [
+    "pack index",
+    "reuse metadata",
+    "selection criteria"
+  ],
+  "requiredArtifacts": [
+    "industry_process_catalog.json",
+    "industry-process-packs index"
+  ],
+  "evidence": [
+    "process catalog",
+    "process-pack index"
+  ],
+  "cliCommands": [
+    "python scripts\\build_industry_process_packs.py"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "query_folding_verifier",
+  "name": "Query Folding Verifier",
+  "acceptanceChecks": [
+    "query folding property declared",
+    "source mode declared",
+    "fallback declared"
+  ],
+  "minimumEvidence": [
+    "queryFolding property",
+    "connector mode"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

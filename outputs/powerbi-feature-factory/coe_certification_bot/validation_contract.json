@@ -1,0 +1,14 @@
+{
+  "id": "coe_certification_bot",
+  "name": "Power BI CoE Certification Bot",
+  "acceptanceChecks": [
+    "required checks pass",
+    "evidence exists",
+    "release blockers listed"
+  ],
+  "minimumEvidence": [
+    "required checks",
+    "acceptance criteria"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

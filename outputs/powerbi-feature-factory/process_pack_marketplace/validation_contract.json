@@ -1,0 +1,14 @@
+{
+  "id": "process_pack_marketplace",
+  "name": "Process Pack Marketplace",
+  "acceptanceChecks": [
+    "pack indexed",
+    "domain assigned",
+    "KPI library linked"
+  ],
+  "minimumEvidence": [
+    "process catalog",
+    "process-pack index"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

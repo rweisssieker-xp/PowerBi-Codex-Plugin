@@ -1,0 +1,27 @@
+{
+  "id": "coe_certification_bot",
+  "name": "Power BI CoE Certification Bot",
+  "summary": "Evaluate process packs against certification gates and evidence requirements.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "governance",
+  "inputs": [
+    "quality gate",
+    "validation evidence",
+    "owner signoff"
+  ],
+  "outputs": [
+    "certification decision",
+    "release evidence",
+    "open risks"
+  ],
+  "requiredArtifacts": [
+    "quality_gate.json"
+  ],
+  "evidence": [
+    "required checks",
+    "acceptance criteria"
+  ],
+  "cliCommands": [
+    "python scripts\\ci_repository_checks.py"
+  ]
+}

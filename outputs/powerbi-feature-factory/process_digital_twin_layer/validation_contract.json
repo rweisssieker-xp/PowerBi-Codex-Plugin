@@ -1,0 +1,15 @@
+{
+  "id": "process_digital_twin_layer",
+  "name": "Process Digital Twin Layer",
+  "acceptanceChecks": [
+    "case grain exists",
+    "event log exists",
+    "KPI snapshots exist"
+  ],
+  "minimumEvidence": [
+    "event log",
+    "case cycle times",
+    "KPI snapshots"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

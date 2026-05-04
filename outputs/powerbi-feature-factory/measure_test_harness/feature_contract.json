@@ -1,0 +1,28 @@
+{
+  "id": "measure_test_harness",
+  "name": "Measure Test Harness",
+  "summary": "Attach test/reconciliation strategy to every generated KPI measure.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "test-harness",
+  "inputs": [
+    "DAX catalog",
+    "demo data",
+    "expected KPI tolerances"
+  ],
+  "outputs": [
+    "measure test plan",
+    "reconciliation strategy",
+    "risk score"
+  ],
+  "requiredArtifacts": [
+    "dax_measures.dax",
+    "quality_gate.json"
+  ],
+  "evidence": [
+    "DAX catalog",
+    "acceptance criteria"
+  ],
+  "cliCommands": [
+    "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+  ]
+}

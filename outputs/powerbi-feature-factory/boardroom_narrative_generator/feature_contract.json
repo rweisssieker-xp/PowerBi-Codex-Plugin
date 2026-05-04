@@ -1,0 +1,30 @@
+{
+  "id": "boardroom_narrative_generator",
+  "name": "Boardroom Narrative Generator",
+  "summary": "Generate executive storyline from KPI status, root causes, financial impact, and decisions needed.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "narrative",
+  "inputs": [
+    "KPI status",
+    "root causes",
+    "financial impact",
+    "decisions needed"
+  ],
+  "outputs": [
+    "executive narrative",
+    "decision brief",
+    "boardroom page spec"
+  ],
+  "requiredArtifacts": [
+    "report_pages.json",
+    "kpi_snapshots.csv"
+  ],
+  "evidence": [
+    "Executive Overview",
+    "KPI status",
+    "financial value field"
+  ],
+  "cliCommands": [
+    "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+  ]
+}

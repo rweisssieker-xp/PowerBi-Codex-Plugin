@@ -1,0 +1,30 @@
+{
+  "id": "refresh_failure_triage",
+  "name": "Refresh Failure Triage",
+  "summary": "Map gateway, auth, schema, privacy, folding, timeout, and source errors to repair decisions.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "operations",
+  "inputs": [
+    "refresh error",
+    "gateway settings",
+    "privacy level",
+    "schema drift evidence"
+  ],
+  "outputs": [
+    "failure class",
+    "repair owner",
+    "retry/rollback decision"
+  ],
+  "requiredArtifacts": [
+    "requiredSourceDecisions",
+    "quality_gate.json"
+  ],
+  "evidence": [
+    "gateway decision",
+    "schema drift handling",
+    "refresh checks"
+  ],
+  "cliCommands": [
+    "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+  ]
+}

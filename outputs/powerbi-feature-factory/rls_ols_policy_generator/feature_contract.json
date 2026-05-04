@@ -1,0 +1,27 @@
+{
+  "id": "rls_ols_policy_generator",
+  "name": "RLS/OLS Policy Generator",
+  "summary": "Generate process-owner role policy and note required enterprise identity mapping.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "security-design",
+  "inputs": [
+    "process owner",
+    "organization scope",
+    "sensitive fields"
+  ],
+  "outputs": [
+    "RLS role draft",
+    "OLS sensitivity notes",
+    "identity mapping requirements"
+  ],
+  "requiredArtifacts": [
+    "model_spec.json"
+  ],
+  "evidence": [
+    "rls section",
+    "ProcessOwner role"
+  ],
+  "cliCommands": [
+    "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+  ]
+}

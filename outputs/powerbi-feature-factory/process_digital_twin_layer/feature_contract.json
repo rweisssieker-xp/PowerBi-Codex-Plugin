@@ -1,0 +1,30 @@
+{
+  "id": "process_digital_twin_layer",
+  "name": "Process Digital Twin Layer",
+  "summary": "Use case/event/KPI structures to simulate and compare process-flow scenarios.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "process-mining",
+  "inputs": [
+    "cases.csv",
+    "events.csv",
+    "kpi_snapshots.csv"
+  ],
+  "outputs": [
+    "case flow",
+    "bottleneck candidates",
+    "simulation baseline"
+  ],
+  "requiredArtifacts": [
+    "cases.csv",
+    "events.csv",
+    "kpi_snapshots.csv"
+  ],
+  "evidence": [
+    "event log",
+    "case cycle times",
+    "KPI snapshots"
+  ],
+  "cliCommands": [
+    "python scripts\\build_industry_process_demo_data.py"
+  ]
+}

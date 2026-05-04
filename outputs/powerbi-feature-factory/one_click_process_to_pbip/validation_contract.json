@@ -1,0 +1,15 @@
+{
+  "id": "one_click_process_to_pbip",
+  "name": "One-Click Process-to-PBIP",
+  "acceptanceChecks": [
+    "process pack exists",
+    "model spec exists",
+    "report page specs exist"
+  ],
+  "minimumEvidence": [
+    "process pack exists",
+    "model spec declares tables and relationships",
+    "report pages declared"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

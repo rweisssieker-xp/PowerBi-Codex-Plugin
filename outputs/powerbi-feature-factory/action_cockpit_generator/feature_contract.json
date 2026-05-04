@@ -1,0 +1,29 @@
+{
+  "id": "action_cockpit_generator",
+  "name": "Action Cockpit Generator",
+  "summary": "Generate owner/action cockpit specs from exceptions, root causes, risk, and value.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "report-generator",
+  "inputs": [
+    "exceptions",
+    "owners",
+    "root causes",
+    "value impact"
+  ],
+  "outputs": [
+    "owner action cockpit page",
+    "action backlog fields",
+    "value priority"
+  ],
+  "requiredArtifacts": [
+    "report_pages.json",
+    "cases.csv"
+  ],
+  "evidence": [
+    "Owner Action Cockpit page",
+    "ActionRequired field"
+  ],
+  "cliCommands": [
+    "python scripts\\build_industry_process_packs.py"
+  ]
+}

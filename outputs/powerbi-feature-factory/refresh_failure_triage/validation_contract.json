@@ -1,0 +1,15 @@
+{
+  "id": "refresh_failure_triage",
+  "name": "Refresh Failure Triage",
+  "acceptanceChecks": [
+    "gateway decision exists",
+    "schema drift handling exists",
+    "refresh check exists"
+  ],
+  "minimumEvidence": [
+    "gateway decision",
+    "schema drift handling",
+    "refresh checks"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

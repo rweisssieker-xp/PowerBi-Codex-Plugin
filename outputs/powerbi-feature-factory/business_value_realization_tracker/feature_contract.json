@@ -1,0 +1,30 @@
+{
+  "id": "business_value_realization_tracker",
+  "name": "Business Value Realization Tracker",
+  "summary": "Track insight-to-action-to-value using action count, risk, and value fields.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "value-management",
+  "inputs": [
+    "actions",
+    "financial impact",
+    "status",
+    "owner"
+  ],
+  "outputs": [
+    "value realization dashboard spec",
+    "action ROI",
+    "benefit tracking"
+  ],
+  "requiredArtifacts": [
+    "cases.csv",
+    "report_pages.json"
+  ],
+  "evidence": [
+    "ActionRequired",
+    "value column",
+    "Owner Action Cockpit"
+  ],
+  "cliCommands": [
+    "python scripts\\build_industry_process_packs.py"
+  ]
+}

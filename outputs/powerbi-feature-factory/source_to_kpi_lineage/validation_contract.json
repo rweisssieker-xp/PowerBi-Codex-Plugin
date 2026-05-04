@@ -1,0 +1,16 @@
+{
+  "id": "source_to_kpi_lineage",
+  "name": "Source-to-KPI Lineage",
+  "acceptanceChecks": [
+    "source linked",
+    "model table linked",
+    "measure linked",
+    "visual linked"
+  ],
+  "minimumEvidence": [
+    "source systems",
+    "table list",
+    "required measures"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "ambiguous_path_prevention_engine",
+  "name": "Ambiguous-Path Prevention Engine",
+  "acceptanceChecks": [
+    "no fact-to-fact relationship",
+    "no alternate active relationship path"
+  ],
+  "minimumEvidence": [
+    "relationship list",
+    "no ambiguous relationship paths check"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

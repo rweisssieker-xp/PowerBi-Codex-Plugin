@@ -1,0 +1,581 @@
+{
+  "eventType": "powerbi_expert_factory_feature_delivery_plan",
+  "generatedAt": "2026-05-04T05:55:50.379036+00:00",
+  "requestedProcessId": "lead-to-order",
+  "processId": "lead2order",
+  "processName": "Lead2Order",
+  "domain": "Commercial",
+  "featureCount": 20,
+  "features": [
+    {
+      "sequence": 1,
+      "featureId": "one_click_process_to_pbip",
+      "featureName": "One-Click Process-to-PBIP",
+      "implementationType": "generator",
+      "inputs": [
+        "processId",
+        "sourceMode",
+        "sourceProfile",
+        "outputFolder"
+      ],
+      "outputs": [
+        "PBIP folder",
+        "TMDL semantic model",
+        "PBIR report spec",
+        "validation evidence"
+      ],
+      "cliCommands": [
+        "python scripts\\build_industry_process_packs.py",
+        "python scripts\\powerbi_expert_factory.py feature-plan --process <processId> --out <file>"
+      ],
+      "acceptanceChecks": [
+        "process pack exists",
+        "model spec exists",
+        "report page specs exist"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/one_click_process_to_pbip/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/one_click_process_to_pbip/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 2,
+      "featureId": "connector_aware_source_interview",
+      "featureName": "Connector-Aware Source Interview",
+      "implementationType": "source-intake",
+      "inputs": [
+        "source system",
+        "connector category",
+        "authentication mode",
+        "gateway decision"
+      ],
+      "outputs": [
+        "native connector recommendation",
+        "required source decisions",
+        "refresh constraints"
+      ],
+      "cliCommands": [
+        "python scripts\\build_powerbi_source_routing.py",
+        "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+      ],
+      "acceptanceChecks": [
+        "native connector declared",
+        "gateway owner declared",
+        "schema drift decision declared"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/connector_aware_source_interview/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/connector_aware_source_interview/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 3,
+      "featureId": "kpi_contract_negotiator",
+      "featureName": "KPI Contract Negotiator",
+      "implementationType": "kpi-contract",
+      "inputs": [
+        "business question",
+        "grain",
+        "date basis",
+        "numerator",
+        "denominator",
+        "tolerance"
+      ],
+      "outputs": [
+        "KPI contract",
+        "DAX measure intent",
+        "test tolerance"
+      ],
+      "cliCommands": [
+        "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+      ],
+      "acceptanceChecks": [
+        "KPI owner exists",
+        "measure strategy exists",
+        "acceptance criteria exists"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/kpi_contract_negotiator/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/kpi_contract_negotiator/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 4,
+      "featureId": "ambiguous_path_prevention_engine",
+      "featureName": "Ambiguous-Path Prevention Engine",
+      "implementationType": "validator",
+      "inputs": [
+        "relationships.tmdl",
+        "model_spec.json"
+      ],
+      "outputs": [
+        "model graph validation result",
+        "ambiguous path errors"
+      ],
+      "cliCommands": [
+        "python scripts\\powerbi_expert_factory.py validate --project <pbip-folder>"
+      ],
+      "acceptanceChecks": [
+        "no fact-to-fact relationship",
+        "no alternate active relationship path"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/ambiguous_path_prevention_engine/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/ambiguous_path_prevention_engine/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 5,
+      "featureId": "frown_to_fix_knowledge_loop",
+      "featureName": "Frown-to-Fix Knowledge Loop",
+      "implementationType": "triage",
+      "inputs": [
+        "Power BI frown message",
+        "stack trace",
+        "artifact path"
+      ],
+      "outputs": [
+        "root-cause class",
+        "repair checklist",
+        "validation rerun command"
+      ],
+      "cliCommands": [
+        "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+      ],
+      "acceptanceChecks": [
+        "error class mapped",
+        "repair action mapped",
+        "post-fix validation declared"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/frown_to_fix_knowledge_loop/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/frown_to_fix_knowledge_loop/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 6,
+      "featureId": "visual_binding_compiler",
+      "featureName": "Visual Binding Compiler",
+      "implementationType": "validator",
+      "inputs": [
+        "report_pages.json",
+        "visual.json",
+        "model tables",
+        "measures"
+      ],
+      "outputs": [
+        "visual binding validation result",
+        "missing field errors"
+      ],
+      "cliCommands": [
+        "python scripts\\powerbi_expert_factory.py validate --project <pbip-folder>"
+      ],
+      "acceptanceChecks": [
+        "all columns exist",
+        "all measures exist",
+        "visual count reported"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/visual_binding_compiler/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/visual_binding_compiler/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 7,
+      "featureId": "measure_test_harness",
+      "featureName": "Measure Test Harness",
+      "implementationType": "test-harness",
+      "inputs": [
+        "DAX catalog",
+        "demo data",
+        "expected KPI tolerances"
+      ],
+      "outputs": [
+        "measure test plan",
+        "reconciliation strategy",
+        "risk score"
+      ],
+      "cliCommands": [
+        "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+      ],
+      "acceptanceChecks": [
+        "each KPI has DAX",
+        "each KPI has expected-result strategy"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/measure_test_harness/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/measure_test_harness/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 8,
+      "featureId": "process_digital_twin_layer",
+      "featureName": "Process Digital Twin Layer",
+      "implementationType": "process-mining",
+      "inputs": [
+        "cases.csv",
+        "events.csv",
+        "kpi_snapshots.csv"
+      ],
+      "outputs": [
+        "case flow",
+        "bottleneck candidates",
+        "simulation baseline"
+      ],
+      "cliCommands": [
+        "python scripts\\build_industry_process_demo_data.py"
+      ],
+      "acceptanceChecks": [
+        "case grain exists",
+        "event log exists",
+        "KPI snapshots exist"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/process_digital_twin_layer/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/process_digital_twin_layer/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 9,
+      "featureId": "action_cockpit_generator",
+      "featureName": "Action Cockpit Generator",
+      "implementationType": "report-generator",
+      "inputs": [
+        "exceptions",
+        "owners",
+        "root causes",
+        "value impact"
+      ],
+      "outputs": [
+        "owner action cockpit page",
+        "action backlog fields",
+        "value priority"
+      ],
+      "cliCommands": [
+        "python scripts\\build_industry_process_packs.py"
+      ],
+      "acceptanceChecks": [
+        "ActionRequired available",
+        "owner field available",
+        "action page declared"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/action_cockpit_generator/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/action_cockpit_generator/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 10,
+      "featureId": "rls_ols_policy_generator",
+      "featureName": "RLS/OLS Policy Generator",
+      "implementationType": "security-design",
+      "inputs": [
+        "process owner",
+        "organization scope",
+        "sensitive fields"
+      ],
+      "outputs": [
+        "RLS role draft",
+        "OLS sensitivity notes",
+        "identity mapping requirements"
+      ],
+      "cliCommands": [
+        "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+      ],
+      "acceptanceChecks": [
+        "role declared",
+        "scope rule declared",
+        "enterprise identity mapping noted"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/rls_ols_policy_generator/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/rls_ols_policy_generator/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 11,
+      "featureId": "source_to_kpi_lineage",
+      "featureName": "Source-to-KPI Lineage",
+      "implementationType": "lineage",
+      "inputs": [
+        "source routes",
+        "model tables",
+        "DAX measures",
+        "visual specs"
+      ],
+      "outputs": [
+        "source-to-KPI lineage graph",
+        "governance evidence"
+      ],
+      "cliCommands": [
+        "python scripts\\build_powerbi_feature_factory.py"
+      ],
+      "acceptanceChecks": [
+        "source linked",
+        "model table linked",
+        "measure linked",
+        "visual linked"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/source_to_kpi_lineage/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/source_to_kpi_lineage/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 12,
+      "featureId": "process_pack_marketplace",
+      "featureName": "Process Pack Marketplace",
+      "implementationType": "catalog",
+      "inputs": [
+        "industry process catalog",
+        "process pack outputs"
+      ],
+      "outputs": [
+        "pack index",
+        "reuse metadata",
+        "selection criteria"
+      ],
+      "cliCommands": [
+        "python scripts\\build_industry_process_packs.py"
+      ],
+      "acceptanceChecks": [
+        "pack indexed",
+        "domain assigned",
+        "KPI library linked"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/process_pack_marketplace/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/process_pack_marketplace/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 13,
+      "featureId": "industry_variant_packs",
+      "featureName": "Industry Variant Packs",
+      "implementationType": "variant-engine",
+      "inputs": [
+        "industry",
+        "plant/site",
+        "source systems",
+        "compliance context"
+      ],
+      "outputs": [
+        "industry variant metadata",
+        "source variants",
+        "KPI variants"
+      ],
+      "cliCommands": [
+        "python scripts\\build_industry_process_demo_data.py"
+      ],
+      "acceptanceChecks": [
+        "domain exists",
+        "source systems exist",
+        "industry context exists"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/industry_variant_packs/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/industry_variant_packs/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 14,
+      "featureId": "coe_certification_bot",
+      "featureName": "Power BI CoE Certification Bot",
+      "implementationType": "governance",
+      "inputs": [
+        "quality gate",
+        "validation evidence",
+        "owner signoff"
+      ],
+      "outputs": [
+        "certification decision",
+        "release evidence",
+        "open risks"
+      ],
+      "cliCommands": [
+        "python scripts\\ci_repository_checks.py"
+      ],
+      "acceptanceChecks": [
+        "required checks pass",
+        "evidence exists",
+        "release blockers listed"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/coe_certification_bot/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/coe_certification_bot/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 15,
+      "featureId": "report_consolidation_ai",
+      "featureName": "Report Consolidation AI",
+      "implementationType": "portfolio-optimizer",
+      "inputs": [
+        "report inventory",
+        "KPI names",
+        "measure definitions"
+      ],
+      "outputs": [
+        "duplicate report candidates",
+        "reuse target",
+        "retirement proposal"
+      ],
+      "cliCommands": [
+        "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+      ],
+      "acceptanceChecks": [
+        "KPI names comparable",
+        "measure names comparable",
+        "process pack reuse target exists"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/report_consolidation_ai/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/report_consolidation_ai/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 16,
+      "featureId": "semantic_model_refactoring",
+      "featureName": "Semantic Model Refactoring",
+      "implementationType": "model-refactoring",
+      "inputs": [
+        "flat tables",
+        "candidate keys",
+        "measures",
+        "relationships"
+      ],
+      "outputs": [
+        "fact/dimension split",
+        "relationship plan",
+        "renamed semantic objects"
+      ],
+      "cliCommands": [
+        "python scripts\\build_industry_process_packs.py"
+      ],
+      "acceptanceChecks": [
+        "facts declared",
+        "dimensions declared",
+        "many-to-one relationships declared"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/semantic_model_refactoring/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/semantic_model_refactoring/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 17,
+      "featureId": "query_folding_verifier",
+      "featureName": "Query Folding Verifier",
+      "implementationType": "source-validator",
+      "inputs": [
+        "connector mode",
+        "Power Query/M",
+        "source capability matrix"
+      ],
+      "outputs": [
+        "folding expectation",
+        "DirectQuery risk",
+        "fallback import recommendation"
+      ],
+      "cliCommands": [
+        "python scripts\\build_powerbi_source_routing.py"
+      ],
+      "acceptanceChecks": [
+        "query folding property declared",
+        "source mode declared",
+        "fallback declared"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/query_folding_verifier/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/query_folding_verifier/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 18,
+      "featureId": "refresh_failure_triage",
+      "featureName": "Refresh Failure Triage",
+      "implementationType": "operations",
+      "inputs": [
+        "refresh error",
+        "gateway settings",
+        "privacy level",
+        "schema drift evidence"
+      ],
+      "outputs": [
+        "failure class",
+        "repair owner",
+        "retry/rollback decision"
+      ],
+      "cliCommands": [
+        "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+      ],
+      "acceptanceChecks": [
+        "gateway decision exists",
+        "schema drift handling exists",
+        "refresh check exists"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/refresh_failure_triage/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/refresh_failure_triage/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 19,
+      "featureId": "business_value_realization_tracker",
+      "featureName": "Business Value Realization Tracker",
+      "implementationType": "value-management",
+      "inputs": [
+        "actions",
+        "financial impact",
+        "status",
+        "owner"
+      ],
+      "outputs": [
+        "value realization dashboard spec",
+        "action ROI",
+        "benefit tracking"
+      ],
+      "cliCommands": [
+        "python scripts\\build_industry_process_packs.py"
+      ],
+      "acceptanceChecks": [
+        "value field exists",
+        "action field exists",
+        "owner action cockpit exists"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/business_value_realization_tracker/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/business_value_realization_tracker/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    },
+    {
+      "sequence": 20,
+      "featureId": "boardroom_narrative_generator",
+      "featureName": "Boardroom Narrative Generator",
+      "implementationType": "narrative",
+      "inputs": [
+        "KPI status",
+        "root causes",
+        "financial impact",
+        "decisions needed"
+      ],
+      "outputs": [
+        "executive narrative",
+        "decision brief",
+        "boardroom page spec"
+      ],
+      "cliCommands": [
+        "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+      ],
+      "acceptanceChecks": [
+        "executive page exists",
+        "KPI status exists",
+        "decision path exists"
+      ],
+      "contractPath": "outputs/powerbi-feature-factory/boardroom_narrative_generator/feature_contract.json",
+      "validationContractPath": "outputs/powerbi-feature-factory/boardroom_narrative_generator/validation_contract.json",
+      "contractExists": true,
+      "validationContractExists": true
+    }
+  ]
+}

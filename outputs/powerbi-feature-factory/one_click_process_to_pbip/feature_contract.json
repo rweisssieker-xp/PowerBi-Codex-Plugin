@@ -1,0 +1,34 @@
+{
+  "id": "one_click_process_to_pbip",
+  "name": "One-Click Process-to-PBIP",
+  "summary": "Turn a selected process pack into a PBIP/TMDL/PBIR generation target.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "generator",
+  "inputs": [
+    "processId",
+    "sourceMode",
+    "sourceProfile",
+    "outputFolder"
+  ],
+  "outputs": [
+    "PBIP folder",
+    "TMDL semantic model",
+    "PBIR report spec",
+    "validation evidence"
+  ],
+  "requiredArtifacts": [
+    "model_spec.json",
+    "dax_measures.dax",
+    "report_pages.json",
+    "quality_gate.json"
+  ],
+  "evidence": [
+    "process pack exists",
+    "model spec declares tables and relationships",
+    "report pages declared"
+  ],
+  "cliCommands": [
+    "python scripts\\build_industry_process_packs.py",
+    "python scripts\\powerbi_expert_factory.py feature-plan --process <processId> --out <file>"
+  ]
+}

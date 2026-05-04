@@ -19,6 +19,10 @@ from pathlib import Path
 from typing import Any
 
 
+ROOT = Path(__file__).resolve().parents[1]
+FEATURE_CATALOG_PATH = ROOT / "data" / "powerbi_feature_catalog.json"
+PROCESS_CATALOG_PATH = ROOT / "data" / "industry_process_catalog.json"
+
 TABLE_RE = re.compile(r"^table\s+(.+?)\s*$")
 COLUMN_RE = re.compile(r"^\s*column\s+(.+?)\s*$")
 MEASURE_RE = re.compile(r"^\s*measure\s+'?([^'=]+?)'?\s*=")
@@ -375,6 +379,67 @@ def write_evidence(project: str | Path, out: str | Path) -> dict[str, Any]:
     return evidence
 
 
+def load_feature_catalog(root: Path = ROOT) -> dict[str, Any]:
+    path = root / "data" / "powerbi_feature_catalog.json"
+    if not path.exists():
+        raise FileNotFoundError(f"{path} does not exist; run scripts\\build_powerbi_feature_factory.py first.")
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def build_feature_delivery_plan(process_id: str, root: Path = ROOT) -> dict[str, Any]:
+    catalog = load_feature_catalog(root)
+    process_catalog = json.loads((root / "data" / "industry_process_catalog.json").read_text(encoding="utf-8"))
+    processes = {process["processId"]: process for process in process_catalog.get("processes", [])}
+    normalized_process_id = _normalize_process_id(process_id, processes)
+    if normalized_process_id not in processes:
+        known = ", ".join(sorted(processes)[:8])
+        raise ValueError(f"Unknown processId '{process_id}'. Known examples: {known}")
+
+    process = processes[normalized_process_id]
+    feature_steps = []
+    for index, feature in enumerate(catalog.get("features", []), start=1):
+        contract_path = root / feature["contractPath"]
+        validation_path = root / feature["validationContractPath"]
+        feature_steps.append(
+            {
+                "sequence": index,
+                "featureId": feature["id"],
+                "featureName": feature["name"],
+                "implementationType": feature["implementationType"],
+                "inputs": feature["inputs"],
+                "outputs": feature["outputs"],
+                "cliCommands": feature["cliCommands"],
+                "acceptanceChecks": feature["acceptanceChecks"],
+                "contractPath": feature["contractPath"],
+                "validationContractPath": feature["validationContractPath"],
+                "contractExists": contract_path.exists(),
+                "validationContractExists": validation_path.exists(),
+            }
+        )
+
+    return {
+        "eventType": "powerbi_expert_factory_feature_delivery_plan",
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "requestedProcessId": process_id,
+        "processId": normalized_process_id,
+        "processName": process["name"],
+        "domain": process["domain"],
+        "featureCount": len(feature_steps),
+        "features": feature_steps,
+    }
+
+
+def _normalize_process_id(process_id: str, processes: dict[str, Any]) -> str:
+    if process_id in processes:
+        return process_id
+    normalized = process_id.lower().replace("-to-", "2").replace("_to_", "2").replace(" ", "")
+    normalized = normalized.replace("-", "").replace("_", "")
+    for known in processes:
+        if known.lower().replace("-", "").replace("_", "") == normalized:
+            return known
+    return process_id
+
+
 def _result(name: str, errors: list[str], warnings: list[str], meta: dict[str, Any]) -> dict[str, Any]:
     return {
         "name": name,
@@ -397,6 +462,13 @@ def main() -> int:
     evidence.add_argument("--project", required=True)
     evidence.add_argument("--out", required=True)
 
+    features = sub.add_parser("features", help="List executable USP feature contracts.")
+    features.add_argument("--out")
+
+    feature_plan = sub.add_parser("feature-plan", help="Create a 20-feature delivery plan for a process.")
+    feature_plan.add_argument("--process", required=True)
+    feature_plan.add_argument("--out")
+
     args = parser.parse_args()
     if args.command == "validate":
         result = run_acceptance(args.project)
@@ -408,6 +480,22 @@ def main() -> int:
         return 1 if result["status"] == "fail" else 0
     if args.command == "evidence":
         print(json.dumps(write_evidence(args.project, args.out), indent=2))
+        return 0
+    if args.command == "features":
+        result = load_feature_catalog()
+        text = json.dumps(result, indent=2)
+        if args.out:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.out).write_text(text, encoding="utf-8")
+        print(text)
+        return 0
+    if args.command == "feature-plan":
+        result = build_feature_delivery_plan(args.process)
+        text = json.dumps(result, indent=2)
+        if args.out:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.out).write_text(text, encoding="utf-8")
+        print(text)
         return 0
     return 2
 

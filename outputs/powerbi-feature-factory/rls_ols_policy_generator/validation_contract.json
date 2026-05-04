@@ -1,0 +1,14 @@
+{
+  "id": "rls_ols_policy_generator",
+  "name": "RLS/OLS Policy Generator",
+  "acceptanceChecks": [
+    "role declared",
+    "scope rule declared",
+    "enterprise identity mapping noted"
+  ],
+  "minimumEvidence": [
+    "rls section",
+    "ProcessOwner role"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

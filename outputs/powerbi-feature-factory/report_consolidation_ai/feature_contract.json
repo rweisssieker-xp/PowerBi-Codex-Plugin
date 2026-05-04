@@ -1,0 +1,28 @@
+{
+  "id": "report_consolidation_ai",
+  "name": "Report Consolidation AI",
+  "summary": "Detect duplicate KPI/report intents and route them to the reusable process pack.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "portfolio-optimizer",
+  "inputs": [
+    "report inventory",
+    "KPI names",
+    "measure definitions"
+  ],
+  "outputs": [
+    "duplicate report candidates",
+    "reuse target",
+    "retirement proposal"
+  ],
+  "requiredArtifacts": [
+    "process catalog",
+    "DAX catalog"
+  ],
+  "evidence": [
+    "KPI names",
+    "measure names"
+  ],
+  "cliCommands": [
+    "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+  ]
+}

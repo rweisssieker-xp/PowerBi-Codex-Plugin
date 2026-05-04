@@ -1,0 +1,15 @@
+{
+  "id": "business_value_realization_tracker",
+  "name": "Business Value Realization Tracker",
+  "acceptanceChecks": [
+    "value field exists",
+    "action field exists",
+    "owner action cockpit exists"
+  ],
+  "minimumEvidence": [
+    "ActionRequired",
+    "value column",
+    "Owner Action Cockpit"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

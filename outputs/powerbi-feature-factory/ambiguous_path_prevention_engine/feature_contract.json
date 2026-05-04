@@ -1,0 +1,26 @@
+{
+  "id": "ambiguous_path_prevention_engine",
+  "name": "Ambiguous-Path Prevention Engine",
+  "summary": "Check model relationships for ambiguity before Power BI Desktop load.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "validator",
+  "inputs": [
+    "relationships.tmdl",
+    "model_spec.json"
+  ],
+  "outputs": [
+    "model graph validation result",
+    "ambiguous path errors"
+  ],
+  "requiredArtifacts": [
+    "model_spec.json",
+    "quality_gate.json"
+  ],
+  "evidence": [
+    "relationship list",
+    "no ambiguous relationship paths check"
+  ],
+  "cliCommands": [
+    "python scripts\\powerbi_expert_factory.py validate --project <pbip-folder>"
+  ]
+}

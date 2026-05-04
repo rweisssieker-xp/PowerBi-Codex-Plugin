@@ -1,0 +1,14 @@
+{
+  "id": "kpi_contract_negotiator",
+  "name": "KPI Contract Negotiator",
+  "acceptanceChecks": [
+    "KPI owner exists",
+    "measure strategy exists",
+    "acceptance criteria exists"
+  ],
+  "minimumEvidence": [
+    "KPI list",
+    "owner acceptance criteria"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

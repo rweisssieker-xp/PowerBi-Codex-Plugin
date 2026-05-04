@@ -291,6 +291,76 @@ def check_usp_capability_coverage(root: Path) -> list[str]:
     return errors
 
 
+def check_powerbi_feature_factory(root: Path) -> list[str]:
+    errors: list[str] = []
+    catalog_path = root / "data/powerbi_feature_catalog.json"
+    output_root = root / "outputs/powerbi-feature-factory"
+    process_catalog_path = root / "data/industry_process_catalog.json"
+
+    if not catalog_path.exists():
+        return [f"{catalog_path}: executable Power BI feature catalog is missing"]
+    if not output_root.exists():
+        return [f"{output_root}: Power BI feature factory output folder is missing"]
+
+    catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+    features = catalog.get("features", [])
+    if catalog.get("featureCount") != 20 or len(features) != 20:
+        errors.append(f"{catalog_path}: expected exactly 20 executable features")
+
+    required_feature_fields = [
+        "id",
+        "name",
+        "implementationStatus",
+        "implementationType",
+        "inputs",
+        "outputs",
+        "cliCommands",
+        "acceptanceChecks",
+        "contractPath",
+        "validationContractPath",
+        "cliRecipePath",
+    ]
+    for feature in features:
+        for field in required_feature_fields:
+            if not feature.get(field):
+                errors.append(f"{catalog_path}: feature {feature.get('id')} missing {field}")
+        if feature.get("implementationStatus") != "implemented_as_executable_contract":
+            errors.append(f"{catalog_path}: feature {feature.get('id')} has non-executable status")
+        for key in ["contractPath", "validationContractPath", "cliRecipePath"]:
+            target = root / feature.get(key, "")
+            if not target.exists():
+                errors.append(f"{target}: required feature artifact is missing")
+
+        contract_path = root / feature.get("contractPath", "")
+        validation_path = root / feature.get("validationContractPath", "")
+        if contract_path.exists():
+            contract = json.loads(contract_path.read_text(encoding="utf-8"))
+            if contract.get("id") != feature.get("id"):
+                errors.append(f"{contract_path}: contract id does not match catalog")
+            for field in ["inputs", "outputs", "cliCommands"]:
+                if not contract.get(field):
+                    errors.append(f"{contract_path}: missing {field}")
+        if validation_path.exists():
+            validation = json.loads(validation_path.read_text(encoding="utf-8"))
+            if not validation.get("acceptanceChecks"):
+                errors.append(f"{validation_path}: missing acceptanceChecks")
+
+    index_path = output_root / "feature_index.csv"
+    matrix_path = output_root / "process_feature_matrix.csv"
+    if not index_path.exists():
+        errors.append(f"{index_path}: feature index is missing")
+    if not matrix_path.exists():
+        errors.append(f"{matrix_path}: process feature matrix is missing")
+    else:
+        process_count = len(json.loads(process_catalog_path.read_text(encoding="utf-8")).get("processes", []))
+        row_count = max(0, len(matrix_path.read_text(encoding="utf-8").splitlines()) - 1)
+        expected_rows = process_count * 20
+        if row_count != expected_rows:
+            errors.append(f"{matrix_path}: expected {expected_rows} rows, found {row_count}")
+
+    return errors
+
+
 def run(root: Path) -> int:
     errors: list[str] = []
     errors.extend(check_required_files(root))
@@ -309,6 +379,7 @@ def run(root: Path) -> int:
     errors.extend(check_powerbi_source_routing(root))
     errors.extend(check_industry_process_packs(root))
     errors.extend(check_usp_capability_coverage(root))
+    errors.extend(check_powerbi_feature_factory(root))
 
     if errors:
         for error in errors:

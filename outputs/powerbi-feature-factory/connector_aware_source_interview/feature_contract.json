@@ -1,0 +1,30 @@
+{
+  "id": "connector_aware_source_interview",
+  "name": "Connector-Aware Source Interview",
+  "summary": "Ask source-specific questions and route to native Power BI connectors and modes.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "source-intake",
+  "inputs": [
+    "source system",
+    "connector category",
+    "authentication mode",
+    "gateway decision"
+  ],
+  "outputs": [
+    "native connector recommendation",
+    "required source decisions",
+    "refresh constraints"
+  ],
+  "requiredArtifacts": [
+    "productionSourceRouting",
+    "requiredSourceDecisions"
+  ],
+  "evidence": [
+    "source-routing map",
+    "Power BI capability matrix"
+  ],
+  "cliCommands": [
+    "python scripts\\build_powerbi_source_routing.py",
+    "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "semantic_model_refactoring",
+  "name": "Semantic Model Refactoring",
+  "summary": "Refactor poor models into declared facts, dimensions, and many-to-one relationships.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "model-refactoring",
+  "inputs": [
+    "flat tables",
+    "candidate keys",
+    "measures",
+    "relationships"
+  ],
+  "outputs": [
+    "fact/dimension split",
+    "relationship plan",
+    "renamed semantic objects"
+  ],
+  "requiredArtifacts": [
+    "model_spec.json"
+  ],
+  "evidence": [
+    "fact tables",
+    "dimensions",
+    "relationship cardinalities"
+  ],
+  "cliCommands": [
+    "python scripts\\build_industry_process_packs.py"
+  ]
+}

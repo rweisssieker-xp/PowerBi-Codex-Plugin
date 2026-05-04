@@ -16,6 +16,7 @@ Detailed product documentation for the Power BI Expert-Replacement Factory.
 - [Industry Process Packs](../../outputs/industry-process-packs/README.md)
 - [Power BI Source Routing](../../outputs/source-routing/README.md)
 - [USP Capability Coverage](../../outputs/usp-capability-coverage/README.md)
+- [Power BI Feature Factory](../../outputs/powerbi-feature-factory/README.md)
 
 ## Scope
 

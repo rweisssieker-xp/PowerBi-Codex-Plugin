@@ -1,0 +1,30 @@
+{
+  "id": "source_to_kpi_lineage",
+  "name": "Source-to-KPI Lineage",
+  "summary": "Connect source systems, model tables, measures, and visuals for governance.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "lineage",
+  "inputs": [
+    "source routes",
+    "model tables",
+    "DAX measures",
+    "visual specs"
+  ],
+  "outputs": [
+    "source-to-KPI lineage graph",
+    "governance evidence"
+  ],
+  "requiredArtifacts": [
+    "model_spec.json",
+    "report_pages.json",
+    "source-routing"
+  ],
+  "evidence": [
+    "source systems",
+    "table list",
+    "required measures"
+  ],
+  "cliCommands": [
+    "python scripts\\build_powerbi_feature_factory.py"
+  ]
+}

@@ -4,6 +4,8 @@ The product differentiates through 20 generated and testable USP capabilities. T
 
 Coverage evidence is generated for every industrial process pack in [usp-capability-coverage](../../outputs/usp-capability-coverage/README.md).
 
+Executable feature contracts are generated in [powerbi-feature-factory](../../outputs/powerbi-feature-factory/README.md). Each USP has a machine-readable input/output contract, CLI recipe, validation contract, and process mapping.
+
 ## The 20 USP Capabilities
 
 1. One-Click Process-to-PBIP
@@ -38,3 +40,20 @@ Each USP defines:
 - evidence expected from generated files.
 
 Each process coverage file maps all 20 capabilities to the generated factory artifacts for that process. CI fails if a process has incomplete USP coverage.
+
+## Executable Feature Layer
+
+The feature layer turns every USP into a testable delivery unit:
+
+- `data/powerbi_feature_catalog.json`: all 20 executable USP features.
+- `outputs/powerbi-feature-factory/feature_index.csv`: feature index for tooling.
+- `outputs/powerbi-feature-factory/process_feature_matrix.csv`: all 20 features mapped to every industrial process.
+- `outputs/powerbi-feature-factory/<feature>/feature_contract.json`: feature inputs, outputs, artifacts, evidence, and commands.
+- `outputs/powerbi-feature-factory/<feature>/validation_contract.json`: release-readiness checks.
+- `outputs/powerbi-feature-factory/<feature>/cli_recipe.md`: local execution recipe.
+
+Use the CLI to create a process-specific delivery plan:
+
+```powershell
+python scripts\powerbi_expert_factory.py feature-plan --process lead-to-order --out outputs\powerbi-feature-factory\lead-to-order-feature-plan.json
+```

@@ -1,0 +1,27 @@
+{
+  "id": "query_folding_verifier",
+  "name": "Query Folding Verifier",
+  "summary": "Record folding expectations for native production connectors and route risky sources.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "source-validator",
+  "inputs": [
+    "connector mode",
+    "Power Query/M",
+    "source capability matrix"
+  ],
+  "outputs": [
+    "folding expectation",
+    "DirectQuery risk",
+    "fallback import recommendation"
+  ],
+  "requiredArtifacts": [
+    "productionSourceRouting"
+  ],
+  "evidence": [
+    "queryFolding property",
+    "connector mode"
+  ],
+  "cliCommands": [
+    "python scripts\\build_powerbi_source_routing.py"
+  ]
+}

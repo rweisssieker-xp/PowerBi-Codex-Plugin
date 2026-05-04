@@ -1,0 +1,16 @@
+{
+  "id": "industry_variant_packs",
+  "name": "Industry Variant Packs",
+  "acceptanceChecks": [
+    "domain exists",
+    "source systems exist",
+    "industry context exists"
+  ],
+  "minimumEvidence": [
+    "domain",
+    "plant",
+    "source systems",
+    "KPIs"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

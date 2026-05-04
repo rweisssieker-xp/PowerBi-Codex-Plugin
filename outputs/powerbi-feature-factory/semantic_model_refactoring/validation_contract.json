@@ -1,0 +1,15 @@
+{
+  "id": "semantic_model_refactoring",
+  "name": "Semantic Model Refactoring",
+  "acceptanceChecks": [
+    "facts declared",
+    "dimensions declared",
+    "many-to-one relationships declared"
+  ],
+  "minimumEvidence": [
+    "fact tables",
+    "dimensions",
+    "relationship cardinalities"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

@@ -20,6 +20,7 @@ The product turns business and process questions into validated Power BI deliver
 - Provides generated Power BI process-pack specifications for all 32 process chains under `outputs/industry-process-packs/`.
 - Provides production source-routing recommendations for native Power BI sources under `data/powerbi_source_capability_matrix.json` and `outputs/source-routing/`.
 - Provides a 20-USP capability catalog and process-level coverage evidence under `data/powerbi_usp_capability_catalog.json` and `outputs/usp-capability-coverage/`.
+- Provides executable feature contracts for all 20 USPs under `data/powerbi_feature_catalog.json` and `outputs/powerbi-feature-factory/`.
 - Adds executable trust checks for model graph quality, native source routing, visual bindings, DAX static checks, and Power BI Desktop smoke validation workflows.
 
 ## Repository Structure
@@ -62,6 +63,7 @@ Key guides:
 - [Industry Process Packs](outputs/industry-process-packs/README.md)
 - [Power BI Source Routing](outputs/source-routing/README.md)
 - [USP Capability Coverage](outputs/usp-capability-coverage/README.md)
+- [Power BI Feature Factory](outputs/powerbi-feature-factory/README.md)
 - [Skills Catalog](docs/product/SKILLS_CATALOG.md)
 - [Power BI Expert-Replacement Factory Plan](docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
 - [Power BI Expert-Replacement Skill Map](docs/product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
@@ -105,12 +107,14 @@ python scripts\build_industry_process_demo_data.py
 python scripts\build_industry_process_packs.py
 python scripts\build_powerbi_source_routing.py
 python scripts\build_usp_capability_coverage.py
+python scripts\build_powerbi_feature_factory.py
 ```
 
 Run the sample PBIP validation:
 
 ```powershell
 python scripts\powerbi_expert_factory.py validate --project outputs\powerbi-order2cash-pbip\Order2Cash_NativeExcel --out outputs\powerbi-order2cash-pbip\expert_factory_validation.json
+python scripts\powerbi_expert_factory.py feature-plan --process lead-to-order --out outputs\powerbi-feature-factory\lead-to-order-feature-plan.json
 ```
 
 ## Design Principles

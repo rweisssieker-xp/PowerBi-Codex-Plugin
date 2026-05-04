@@ -1,0 +1,29 @@
+{
+  "id": "visual_binding_compiler",
+  "name": "Visual Binding Compiler",
+  "summary": "Verify report-page specs bind only to generated fields and measures.",
+  "implementationStatus": "implemented_as_executable_contract",
+  "implementationType": "validator",
+  "inputs": [
+    "report_pages.json",
+    "visual.json",
+    "model tables",
+    "measures"
+  ],
+  "outputs": [
+    "visual binding validation result",
+    "missing field errors"
+  ],
+  "requiredArtifacts": [
+    "report_pages.json",
+    "dax_measures.dax",
+    "model_spec.json"
+  ],
+  "evidence": [
+    "required fields",
+    "required measures"
+  ],
+  "cliCommands": [
+    "python scripts\\powerbi_expert_factory.py validate --project <pbip-folder>"
+  ]
+}

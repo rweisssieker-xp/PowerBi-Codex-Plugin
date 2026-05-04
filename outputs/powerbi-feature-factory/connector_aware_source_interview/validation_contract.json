@@ -1,0 +1,14 @@
+{
+  "id": "connector_aware_source_interview",
+  "name": "Connector-Aware Source Interview",
+  "acceptanceChecks": [
+    "native connector declared",
+    "gateway owner declared",
+    "schema drift decision declared"
+  ],
+  "minimumEvidence": [
+    "source-routing map",
+    "Power BI capability matrix"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

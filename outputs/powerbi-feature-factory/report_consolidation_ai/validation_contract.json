@@ -1,0 +1,14 @@
+{
+  "id": "report_consolidation_ai",
+  "name": "Report Consolidation AI",
+  "acceptanceChecks": [
+    "KPI names comparable",
+    "measure names comparable",
+    "process pack reuse target exists"
+  ],
+  "minimumEvidence": [
+    "KPI names",
+    "measure names"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

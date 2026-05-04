@@ -1,0 +1,14 @@
+{
+  "id": "frown_to_fix_knowledge_loop",
+  "name": "Frown-to-Fix Knowledge Loop",
+  "acceptanceChecks": [
+    "error class mapped",
+    "repair action mapped",
+    "post-fix validation declared"
+  ],
+  "minimumEvidence": [
+    "manual Desktop checks",
+    "repair checklist"
+  ],
+  "blockingRule": "The feature is not release-ready for a process if any acceptance check lacks generated evidence."
+}

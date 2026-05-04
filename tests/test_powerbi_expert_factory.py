@@ -4,6 +4,8 @@ import unittest
 from pathlib import Path
 
 from scripts.powerbi_expert_factory import (
+    build_feature_delivery_plan,
+    load_feature_catalog,
     parse_model,
     run_acceptance,
     validate_model_graph,
@@ -189,6 +191,28 @@ relationship rel_returns_customer
         self.assertEqual(result["status"], "pass")
         self.assertEqual(result["summary"]["tables"], 2)
         self.assertEqual(result["summary"]["relationships"], 1)
+
+    def test_feature_catalog_exposes_all_twenty_executable_features(self):
+        catalog = load_feature_catalog()
+
+        self.assertEqual(catalog["featureCount"], 20)
+        self.assertEqual(len(catalog["features"]), 20)
+        for feature in catalog["features"]:
+            self.assertEqual(feature["implementationStatus"], "implemented_as_executable_contract")
+            self.assertTrue(feature["inputs"])
+            self.assertTrue(feature["outputs"])
+            self.assertTrue(feature["cliCommands"])
+            self.assertTrue(feature["acceptanceChecks"])
+
+    def test_feature_delivery_plan_maps_all_features_to_process(self):
+        result = build_feature_delivery_plan("lead-to-order")
+
+        self.assertEqual(result["requestedProcessId"], "lead-to-order")
+        self.assertEqual(result["processId"], "lead2order")
+        self.assertEqual(result["featureCount"], 20)
+        self.assertEqual(len(result["features"]), 20)
+        self.assertTrue(all(feature["contractExists"] for feature in result["features"]))
+        self.assertTrue(all(feature["validationContractExists"] for feature in result["features"]))
 
 
 if __name__ == "__main__":
