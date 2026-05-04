@@ -28,6 +28,8 @@ This is the single navigation index for repository-level documentation. Root fil
 - [Security](SECURITY.md)
 - [Support](SUPPORT.md)
 - [Governance](GOVERNANCE.md)
+- [CI Workflow](.github/workflows/ci.yml)
+- [Dependabot](.github/dependabot.yml)
 - [Maintainers](MAINTAINERS.md)
 - [Release Process](RELEASE.md)
 - [Roadmap](ROADMAP.md)

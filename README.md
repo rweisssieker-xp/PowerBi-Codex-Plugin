@@ -1,5 +1,10 @@
 # AI-native Power BI Expert-Replacement Factory
 
+[![CI](https://github.com/rweisssieker-xp/PowerBi-Codex-Plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/rweisssieker-xp/PowerBi-Codex-Plugin/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python tests](https://img.shields.io/badge/tests-unittest-blue.svg)](tests/test_powerbi_expert_factory.py)
+[![Power BI validation](https://img.shields.io/badge/Power%20BI%20validation-PBIP%20static%20checks-blueviolet.svg)](scripts/powerbi_expert_factory.py)
+
 Codex plugin for replacing repeatable Power BI expert, designer, data analyst, semantic modeling, DAX, Power Query/M, QA, governance, and documentation work with governed AI skills.
 
 The product turns business and process questions into validated Power BI delivery artifacts: source analysis, semantic models, KPI contracts, DAX measures, Power Query/M designs, report layouts, root-cause paths, action cockpits, governance evidence, tests, documentation, and PBIP/PBIR/TMDL output.
@@ -77,6 +82,12 @@ Run the core test suite:
 
 ```powershell
 python -m unittest tests\test_powerbi_expert_factory.py -v
+```
+
+Run repository checks:
+
+```powershell
+python scripts\ci_repository_checks.py
 ```
 
 Run the sample PBIP validation:

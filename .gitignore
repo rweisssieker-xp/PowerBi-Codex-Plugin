@@ -72,6 +72,7 @@ pnpm-debug.log*
 **/.platform.user
 **/localSettings.json
 **/cache.abf
+outputs/**/expert_factory_validation.ci.json
 
 # ---------------------------------------------------------------------------
 # Editors & IDEs
