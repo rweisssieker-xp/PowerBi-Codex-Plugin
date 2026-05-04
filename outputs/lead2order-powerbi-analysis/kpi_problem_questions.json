@@ -1,0 +1,170 @@
+{
+  "processId": "lead2order",
+  "processName": "Lead2Order",
+  "catalogKpis": [
+    "Lead Volume",
+    "MQL Rate",
+    "SQL Rate",
+    "Order Conversion Rate",
+    "Lead-to-Order Cycle Time",
+    "Pipeline Value"
+  ],
+  "problemQuestions": [
+    {
+      "area": "Funnel throughput",
+      "question": "Where do leads drop between lead creation, qualification, opportunity, quote, and booked order?",
+      "primaryMeasures": [
+        "Lead Count",
+        "MQL Rate",
+        "SQL Rate",
+        "Order Conversion Rate"
+      ],
+      "drilldowns": [
+        "CurrentStage",
+        "Region",
+        "OwnerName",
+        "BusinessPartner"
+      ],
+      "action": "Fix the stage with the largest conversion loss and assign owner-specific follow-up."
+    },
+    {
+      "area": "Pipeline value protection",
+      "question": "Which high-value leads are blocked, delayed, or high risk?",
+      "primaryMeasures": [
+        "Pipeline Value",
+        "High Risk Pipeline Value",
+        "Action Required Count"
+      ],
+      "drilldowns": [
+        "BusinessPartner",
+        "OwnerName",
+        "RootCause",
+        "CurrentStage"
+      ],
+      "action": "Escalate high-value, high-risk cases before quote or order loss."
+    },
+    {
+      "area": "Cycle time and SLA",
+      "question": "Why is Lead2Order slower than target and which owner queues create the delay?",
+      "primaryMeasures": [
+        "Lead-to-Order Cycle Days",
+        "Cycle Days vs Target",
+        "SLA Breach Rate"
+      ],
+      "drilldowns": [
+        "CurrentStage",
+        "OwnerName",
+        "Region",
+        "RootCause"
+      ],
+      "action": "Remove bottlenecks and rebalance workload for owners with SLA concentration."
+    },
+    {
+      "area": "Marketing-to-sales handoff",
+      "question": "Are MQLs becoming SQLs with sufficient quality and speed?",
+      "primaryMeasures": [
+        "MQL Count",
+        "MQL Rate",
+        "SQL Count",
+        "SQL Rate"
+      ],
+      "drilldowns": [
+        "Region",
+        "BusinessPartner",
+        "OwnerName"
+      ],
+      "action": "Tune lead scoring and acceptance criteria where SQL conversion is weak."
+    },
+    {
+      "area": "Quote and CPQ execution",
+      "question": "Which leads reach quote stage, and where do pricing, approval, or configuration delays appear?",
+      "primaryMeasures": [
+        "Quote Count",
+        "Order Conversion Rate",
+        "Lead-to-Order Cycle Days"
+      ],
+      "drilldowns": [
+        "CurrentStage",
+        "RootCause",
+        "OwnerName"
+      ],
+      "action": "Target CPQ and approval process improvements."
+    },
+    {
+      "area": "Root-cause quality",
+      "question": "Are SLA breaches explained with enough root-cause evidence?",
+      "primaryMeasures": [
+        "Root Cause Case Count",
+        "Root Cause Coverage Rate",
+        "SLA Breach Count"
+      ],
+      "drilldowns": [
+        "RootCause",
+        "OwnerName",
+        "Region"
+      ],
+      "action": "Require root-cause completion for all actionable breaches."
+    },
+    {
+      "area": "Operational cost and rework",
+      "question": "Which activities create avoidable event cost and rework?",
+      "primaryMeasures": [
+        "Rework Event Count",
+        "Total Event Cost",
+        "Average Event Cost"
+      ],
+      "drilldowns": [
+        "EventName",
+        "SourceSystem",
+        "TouchedBy"
+      ],
+      "action": "Automate, simplify, or standardize high-cost event paths."
+    },
+    {
+      "area": "Automation opportunity",
+      "question": "Which Lead2Order steps remain manual and should be automated?",
+      "primaryMeasures": [
+        "Automation Event Count",
+        "Automation Rate",
+        "Rework Event Count"
+      ],
+      "drilldowns": [
+        "EventName",
+        "SourceSystem",
+        "TouchedBy"
+      ],
+      "action": "Prioritize workflow automation where manual effort and rework overlap."
+    },
+    {
+      "area": "KPI health",
+      "question": "Which KPIs are red or amber, and what is the target gap?",
+      "primaryMeasures": [
+        "KPI Red Count",
+        "KPI Amber Count",
+        "Average KPI Gap"
+      ],
+      "drilldowns": [
+        "KPIName",
+        "Period",
+        "OwnerRole"
+      ],
+      "action": "Create a KPI recovery plan for red metrics and preventive action for amber metrics."
+    },
+    {
+      "area": "Owner action cockpit",
+      "question": "Who needs to do what today to improve Lead2Order performance?",
+      "primaryMeasures": [
+        "Action Required Count",
+        "High Risk Lead Count",
+        "SLA Breach Count"
+      ],
+      "drilldowns": [
+        "OwnerName",
+        "CaseID",
+        "CurrentStage",
+        "RootCause"
+      ],
+      "action": "Run daily action review by owner, severity, and value exposure."
+    }
+  ]
+}

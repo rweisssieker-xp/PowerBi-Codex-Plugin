@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "control2evidence",
+  "processName": "Control2Evidence",
+  "capabilityId": "legacy_report_reverse_engineer",
+  "capabilityName": "Legacy Report Reverse Engineer",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to manually document legacy reports before modernization work can start.",
+  "autonomyLevel": "autonomous_for_pbip_and_contract_driven_for_pbix",
+  "deliverables": [
+    "legacy report inventory",
+    "measure and visual map",
+    "migration plan"
+  ],
+  "acceptanceChecks": [
+    "sources identified",
+    "measures cataloged",
+    "migration blockers listed"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "market2lead",
+  "processName": "Market2Lead",
+  "capabilityId": "fabric_scaffold_runtime",
+  "capabilityName": "Fabric Scaffold Runtime",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to manually outline common Fabric scaffolding for process analytics.",
+  "autonomyLevel": "autonomous_scaffold_plan",
+  "deliverables": [
+    "Lakehouse plan",
+    "Warehouse plan",
+    "Notebook plan",
+    "Pipeline plan"
+  ],
+  "acceptanceChecks": [
+    "storage artifact listed",
+    "transform artifact listed",
+    "pipeline artifact listed"
+  ]
+}

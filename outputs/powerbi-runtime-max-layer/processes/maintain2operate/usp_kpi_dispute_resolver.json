@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "maintain2operate",
+  "processName": "Maintain2Operate",
+  "capabilityId": "kpi_dispute_resolver",
+  "capabilityName": "KPI Dispute Resolver",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually reconcile competing metric definitions across Finance, Sales, and Operations.",
+  "autonomyLevel": "autonomous_conflict_detection_with_owner_decision",
+  "deliverables": [
+    "KPI conflict report",
+    "definition options",
+    "decision record"
+  ],
+  "acceptanceChecks": [
+    "conflict reason stated",
+    "impacted reports listed",
+    "owner decision required"
+  ]
+}

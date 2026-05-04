@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "lead2quote",
+  "processName": "Lead2Quote / Configure2Quote",
+  "capabilityId": "pbix_binary_intake",
+  "capabilityName": "PBIX Binary Intake",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to manually unpack and document PBIX assets before migration or review.",
+  "autonomyLevel": "contract_driven_with_binary_parser_runtime",
+  "deliverables": [
+    "PBIX intake manifest",
+    "extractable metadata map",
+    "unsupported artifact queue"
+  ],
+  "acceptanceChecks": [
+    "binary source recorded",
+    "extract status explicit",
+    "unsupported parts listed"
+  ]
+}

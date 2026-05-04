@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "control2evidence",
+  "processName": "Control2Evidence",
+  "capabilityId": "refresh_failure_triage_agent",
+  "capabilityName": "Refresh Failure Triage Agent",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to manually classify routine refresh incidents before the first repair action.",
+  "autonomyLevel": "autonomous_classification_with_escalation",
+  "deliverables": [
+    "failure class",
+    "probable cause",
+    "repair checklist"
+  ],
+  "acceptanceChecks": [
+    "failure evidence parsed",
+    "category assigned",
+    "next repair action stated"
+  ]
+}

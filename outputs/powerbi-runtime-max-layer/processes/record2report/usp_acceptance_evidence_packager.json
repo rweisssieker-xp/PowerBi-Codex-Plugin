@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "record2report",
+  "processName": "Record2Report",
+  "capabilityId": "acceptance_evidence_packager",
+  "capabilityName": "Acceptance Evidence Packager",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No expert has to manually compile proof that generated delivery artifacts are release-ready.",
+  "autonomyLevel": "autonomous_evidence_packaging",
+  "deliverables": [
+    "acceptance evidence",
+    "quality gate summary",
+    "release decision input"
+  ],
+  "acceptanceChecks": [
+    "all checks summarized",
+    "artifact manifest linked",
+    "release status explicit"
+  ]
+}

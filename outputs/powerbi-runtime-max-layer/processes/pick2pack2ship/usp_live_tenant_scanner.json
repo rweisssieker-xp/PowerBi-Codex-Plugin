@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "pick2pack2ship",
+  "processName": "Pick2Pack2Ship",
+  "capabilityId": "live_tenant_scanner",
+  "capabilityName": "Live Tenant Scanner",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No tenant admin or CoE analyst has to manually inventory the Power BI estate.",
+  "autonomyLevel": "api_runtime_requires_tenant_credentials",
+  "deliverables": [
+    "tenant inventory",
+    "workspace lineage map",
+    "refresh and owner evidence"
+  ],
+  "acceptanceChecks": [
+    "workspace list captured",
+    "dataset/report links captured",
+    "credential boundary enforced"
+  ]
+}

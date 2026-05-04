@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "forecast2plan",
+  "processName": "Forecast2Plan",
+  "capabilityId": "semantic_model_refactoring_autopilot",
+  "capabilityName": "Semantic Model Refactoring Autopilot",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No semantic modeling expert has to manually inspect routine model smells and draft refactoring actions.",
+  "autonomyLevel": "autonomous_diagnostics_with_refactor_plan",
+  "deliverables": [
+    "model smell report",
+    "target star schema",
+    "refactor backlog"
+  ],
+  "acceptanceChecks": [
+    "grain issues flagged",
+    "duplicate measures detected",
+    "target model described"
+  ]
+}

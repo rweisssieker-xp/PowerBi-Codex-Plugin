@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "hire2retire",
+  "processName": "Hire2Retire",
+  "capabilityId": "question_to_model_autopilot",
+  "capabilityName": "Question-to-Model Autopilot",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst workshop is needed to translate the business question into a model-ready analytics scope.",
+  "autonomyLevel": "autonomous_with_governance_review",
+  "deliverables": [
+    "intake interpretation",
+    "model grain decision",
+    "KPI contract set"
+  ],
+  "acceptanceChecks": [
+    "scope maps to one process",
+    "grain is explicit",
+    "every KPI has owner and formula"
+  ]
+}

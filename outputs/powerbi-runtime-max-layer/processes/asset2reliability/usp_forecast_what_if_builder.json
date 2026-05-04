@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "asset2reliability",
+  "processName": "Asset2Reliability",
+  "capabilityId": "forecast_what_if_builder",
+  "capabilityName": "Forecast / What-If Builder",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually design standard forecast and what-if structures.",
+  "autonomyLevel": "autonomous_with_model_quality_threshold",
+  "deliverables": [
+    "forecast contract",
+    "what-if parameters",
+    "scenario page plan"
+  ],
+  "acceptanceChecks": [
+    "history sufficiency checked",
+    "parameter range defined",
+    "scenario output listed"
+  ]
+}

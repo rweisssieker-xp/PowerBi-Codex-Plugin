@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "quote2contract",
+  "processName": "Quote2Contract",
+  "capabilityId": "release_decision_copilot",
+  "capabilityName": "Release Decision Copilot",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No expert has to manually synthesize every validation signal into the first release decision.",
+  "autonomyLevel": "autonomous_recommendation_with_human_approval",
+  "deliverables": [
+    "release recommendation",
+    "blocking issues",
+    "next action"
+  ],
+  "acceptanceChecks": [
+    "blocking errors stop release",
+    "warnings are counted",
+    "next action is explicit"
+  ]
+}

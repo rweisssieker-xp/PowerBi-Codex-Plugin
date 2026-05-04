@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "lead2quote",
+  "processName": "Lead2Quote / Configure2Quote",
+  "capabilityId": "dax_expected_result_runner",
+  "capabilityName": "DAX Expected-Result Runner",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No expert has to manually reconcile every generated measure against source totals.",
+  "autonomyLevel": "autonomous_for_contract_checks",
+  "deliverables": [
+    "expected-result contract",
+    "tolerance policy",
+    "reconciliation evidence"
+  ],
+  "acceptanceChecks": [
+    "source aggregate defined",
+    "measure aggregate defined",
+    "tolerance is explicit"
+  ]
+}

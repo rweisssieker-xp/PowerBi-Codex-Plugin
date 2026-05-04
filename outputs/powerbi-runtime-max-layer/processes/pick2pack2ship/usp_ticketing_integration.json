@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "pick2pack2ship",
+  "processName": "Pick2Pack2Ship",
+  "capabilityId": "ticketing_integration",
+  "capabilityName": "Ticketing Integration",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually transfer BI findings and release blockers into operational ticket queues.",
+  "autonomyLevel": "api_runtime_requires_ticketing_credentials",
+  "deliverables": [
+    "ticket payloads",
+    "ticket routing map",
+    "ticket creation evidence"
+  ],
+  "acceptanceChecks": [
+    "ticket system selected",
+    "owner queue mapped",
+    "created ticket id recorded"
+  ]
+}

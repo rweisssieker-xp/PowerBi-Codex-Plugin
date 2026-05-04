@@ -1,0 +1,122 @@
+-- Lead2Order analysis DAX catalog
+-- Generated for Process Owner, Process Manager, Data Analyst, and Power BI Designer replacement workflows.
+
+measure 'Lead Count' =
+	COUNTROWS('ProcessCases')
+	formatString: #,0
+
+measure 'Pipeline Value' =
+	SUM('ProcessCases'[PipelineValue])
+	formatString: #,0.00
+
+measure 'Average Pipeline Value' =
+	AVERAGE('ProcessCases'[PipelineValue])
+	formatString: #,0.00
+
+measure 'MQL Count' =
+	CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[CurrentStage] <> "Lead Created")
+	formatString: #,0
+
+measure 'MQL Rate' =
+	DIVIDE([MQL Count], [Lead Count])
+	formatString: 0.0%
+
+measure 'SQL Count' =
+	CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[CurrentStage] IN {"Opportunity Created", "Quote Sent", "Order Booked"})
+	formatString: #,0
+
+measure 'SQL Rate' =
+	DIVIDE([SQL Count], [MQL Count])
+	formatString: 0.0%
+
+measure 'Quote Count' =
+	CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[CurrentStage] IN {"Quote Sent", "Order Booked"})
+	formatString: #,0
+
+measure 'Order Count' =
+	CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[CurrentStage] = "Order Booked")
+	formatString: #,0
+
+measure 'Order Conversion Rate' =
+	DIVIDE([Order Count], [Lead Count])
+	formatString: 0.0%
+
+measure 'Lead-to-Order Cycle Days' =
+	AVERAGE('ProcessCases'[ActualCycleDays])
+	formatString: #,0.0
+
+measure 'Cycle Days vs Target' =
+	AVERAGE('ProcessCases'[ActualCycleDays]) - AVERAGE('ProcessCases'[TargetCycleDays])
+	formatString: #,0.0
+
+measure 'SLA Breach Count' =
+	CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = TRUE())
+	formatString: #,0
+
+measure 'SLA Breach Rate' =
+	DIVIDE([SLA Breach Count], [Lead Count])
+	formatString: 0.0%
+
+measure 'Action Required Count' =
+	CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[ActionRequired] = TRUE())
+	formatString: #,0
+
+measure 'Action Required Rate' =
+	DIVIDE([Action Required Count], [Lead Count])
+	formatString: 0.0%
+
+measure 'High Risk Lead Count' =
+	CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[RiskScore] >= 70)
+	formatString: #,0
+
+measure 'High Risk Pipeline Value' =
+	CALCULATE([Pipeline Value], 'ProcessCases'[RiskScore] >= 70)
+	formatString: #,0.00
+
+measure 'Average Risk Score' =
+	AVERAGE('ProcessCases'[RiskScore])
+	formatString: #,0.0
+
+measure 'Rework Event Count' =
+	CALCULATE(COUNTROWS('ProcessEvents'), 'ProcessEvents'[ReworkFlag] = TRUE())
+	formatString: #,0
+
+measure 'Automation Event Count' =
+	CALCULATE(COUNTROWS('ProcessEvents'), 'ProcessEvents'[AutomationFlag] = TRUE())
+	formatString: #,0
+
+measure 'Automation Rate' =
+	DIVIDE([Automation Event Count], COUNTROWS('ProcessEvents'))
+	formatString: 0.0%
+
+measure 'Total Event Cost' =
+	SUM('ProcessEvents'[EventCost])
+	formatString: #,0.00
+
+measure 'Average Event Cost' =
+	AVERAGE('ProcessEvents'[EventCost])
+	formatString: #,0.00
+
+measure 'KPI Red Count' =
+	CALCULATE(COUNTROWS('ProcessKpiSnapshots'), 'ProcessKpiSnapshots'[Status] = "Red")
+	formatString: #,0
+
+measure 'KPI Amber Count' =
+	CALCULATE(COUNTROWS('ProcessKpiSnapshots'), 'ProcessKpiSnapshots'[Status] = "Amber")
+	formatString: #,0
+
+measure 'KPI Green Count' =
+	CALCULATE(COUNTROWS('ProcessKpiSnapshots'), 'ProcessKpiSnapshots'[Status] = "Green")
+	formatString: #,0
+
+measure 'Average KPI Gap' =
+	AVERAGE('ProcessKpiSnapshots'[ActualValue]) - AVERAGE('ProcessKpiSnapshots'[TargetValue])
+	formatString: #,0.00
+
+measure 'Root Cause Case Count' =
+	CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[RootCause] <> "")
+	formatString: #,0
+
+measure 'Root Cause Coverage Rate' =
+	DIVIDE([Root Cause Case Count], [SLA Breach Count])
+	formatString: 0.0%

@@ -1,0 +1,246 @@
+{
+  "processId": "lead2order",
+  "processName": "Lead2Order",
+  "measures": [
+    {
+      "name": "Lead Count",
+      "kpi": "Lead Volume",
+      "expression": "COUNTROWS('ProcessCases')",
+      "format": "#,0",
+      "question": "How many leads are currently in the Lead2Order funnel?",
+      "decision": "Size daily intake, qualification workload, and sales follow-up capacity."
+    },
+    {
+      "name": "Pipeline Value",
+      "kpi": "Pipeline Value",
+      "expression": "SUM('ProcessCases'[PipelineValue])",
+      "format": "#,0.00",
+      "question": "How much commercial value is currently exposed in the funnel?",
+      "decision": "Prioritize high-value leads and opportunity follow-up."
+    },
+    {
+      "name": "Average Pipeline Value",
+      "kpi": "Pipeline Value",
+      "expression": "AVERAGE('ProcessCases'[PipelineValue])",
+      "format": "#,0.00",
+      "question": "Which segments create high-value or low-value leads?",
+      "decision": "Tune campaign targeting, qualification thresholds, and sales coverage."
+    },
+    {
+      "name": "MQL Count",
+      "kpi": "MQL Rate",
+      "expression": "CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[CurrentStage] <> \"Lead Created\")",
+      "format": "#,0",
+      "question": "How many leads moved beyond raw lead creation?",
+      "decision": "Validate marketing qualification throughput."
+    },
+    {
+      "name": "MQL Rate",
+      "kpi": "MQL Rate",
+      "expression": "DIVIDE([MQL Count], [Lead Count])",
+      "format": "0.0%",
+      "question": "What share of leads becomes marketing qualified?",
+      "decision": "Identify campaign, segment, and data-quality weaknesses."
+    },
+    {
+      "name": "SQL Count",
+      "kpi": "SQL Rate",
+      "expression": "CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[CurrentStage] IN {\"Opportunity Created\", \"Quote Sent\", \"Order Booked\"})",
+      "format": "#,0",
+      "question": "How many qualified leads become sales-accepted pipeline?",
+      "decision": "Balance marketing handoff quality and sales acceptance capacity."
+    },
+    {
+      "name": "SQL Rate",
+      "kpi": "SQL Rate",
+      "expression": "DIVIDE([SQL Count], [MQL Count])",
+      "format": "0.0%",
+      "question": "Where does marketing-to-sales handoff leak conversion?",
+      "decision": "Improve lead scoring, acceptance criteria, and routing logic."
+    },
+    {
+      "name": "Quote Count",
+      "kpi": "Order Conversion Rate",
+      "expression": "CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[CurrentStage] IN {\"Quote Sent\", \"Order Booked\"})",
+      "format": "#,0",
+      "question": "How many opportunities reach commercial quotation?",
+      "decision": "Spot CPQ, pricing, or approval bottlenecks."
+    },
+    {
+      "name": "Order Count",
+      "kpi": "Order Conversion Rate",
+      "expression": "CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[CurrentStage] = \"Order Booked\")",
+      "format": "#,0",
+      "question": "How many Lead2Order cases become booked orders?",
+      "decision": "Track conversion outcome and compare against target."
+    },
+    {
+      "name": "Order Conversion Rate",
+      "kpi": "Order Conversion Rate",
+      "expression": "DIVIDE([Order Count], [Lead Count])",
+      "format": "0.0%",
+      "question": "Which leads, owners, regions, and partners convert to orders?",
+      "decision": "Focus sales actions on conversion blockers and high-yield segments."
+    },
+    {
+      "name": "Lead-to-Order Cycle Days",
+      "kpi": "Lead-to-Order Cycle Time",
+      "expression": "AVERAGE('ProcessCases'[ActualCycleDays])",
+      "format": "#,0.0",
+      "question": "How long does Lead2Order take end to end?",
+      "decision": "Find cycle-time waste and target bottleneck removal."
+    },
+    {
+      "name": "Cycle Days vs Target",
+      "kpi": "Lead-to-Order Cycle Time",
+      "expression": "AVERAGE('ProcessCases'[ActualCycleDays]) - AVERAGE('ProcessCases'[TargetCycleDays])",
+      "format": "#,0.0",
+      "question": "Is Lead2Order faster or slower than target?",
+      "decision": "Quantify process drift and SLA exposure."
+    },
+    {
+      "name": "SLA Breach Count",
+      "kpi": "Lead-to-Order Cycle Time",
+      "expression": "CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = TRUE())",
+      "format": "#,0",
+      "question": "How many Lead2Order cases breach SLA?",
+      "decision": "Prioritize exception queues and owner escalation."
+    },
+    {
+      "name": "SLA Breach Rate",
+      "kpi": "Lead-to-Order Cycle Time",
+      "expression": "DIVIDE([SLA Breach Count], [Lead Count])",
+      "format": "0.0%",
+      "question": "What share of cases violates the Lead2Order SLA?",
+      "decision": "Assess process reliability and backlog pressure."
+    },
+    {
+      "name": "Action Required Count",
+      "kpi": "Action Backlog",
+      "expression": "CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[ActionRequired] = TRUE())",
+      "format": "#,0",
+      "question": "How many cases need owner action now?",
+      "decision": "Drive daily process-owner action management."
+    },
+    {
+      "name": "Action Required Rate",
+      "kpi": "Action Backlog",
+      "expression": "DIVIDE([Action Required Count], [Lead Count])",
+      "format": "0.0%",
+      "question": "How large is the actionable exception share?",
+      "decision": "Assess whether the process is under control."
+    },
+    {
+      "name": "High Risk Lead Count",
+      "kpi": "Pipeline Risk",
+      "expression": "CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[RiskScore] >= 70)",
+      "format": "#,0",
+      "question": "Which leads carry high process or conversion risk?",
+      "decision": "Focus owner attention on cases likely to fail or delay."
+    },
+    {
+      "name": "High Risk Pipeline Value",
+      "kpi": "Pipeline Risk",
+      "expression": "CALCULATE([Pipeline Value], 'ProcessCases'[RiskScore] >= 70)",
+      "format": "#,0.00",
+      "question": "How much pipeline value is at high risk?",
+      "decision": "Protect revenue by escalating high-value risk cases."
+    },
+    {
+      "name": "Average Risk Score",
+      "kpi": "Pipeline Risk",
+      "expression": "AVERAGE('ProcessCases'[RiskScore])",
+      "format": "#,0.0",
+      "question": "Which regions, owners, or partners create elevated process risk?",
+      "decision": "Prioritize root-cause remediation by segment."
+    },
+    {
+      "name": "Rework Event Count",
+      "kpi": "Process Rework",
+      "expression": "CALCULATE(COUNTROWS('ProcessEvents'), 'ProcessEvents'[ReworkFlag] = TRUE())",
+      "format": "#,0",
+      "question": "How much rework occurs in the Lead2Order event stream?",
+      "decision": "Remove avoidable loops in qualification, CPQ, pricing, and order booking."
+    },
+    {
+      "name": "Automation Event Count",
+      "kpi": "Automation Coverage",
+      "expression": "CALCULATE(COUNTROWS('ProcessEvents'), 'ProcessEvents'[AutomationFlag] = TRUE())",
+      "format": "#,0",
+      "question": "How many process events run automated?",
+      "decision": "Measure digital execution maturity."
+    },
+    {
+      "name": "Automation Rate",
+      "kpi": "Automation Coverage",
+      "expression": "DIVIDE([Automation Event Count], COUNTROWS('ProcessEvents'))",
+      "format": "0.0%",
+      "question": "Where is Lead2Order still manually executed?",
+      "decision": "Find automation and workflow opportunities."
+    },
+    {
+      "name": "Total Event Cost",
+      "kpi": "Process Cost",
+      "expression": "SUM('ProcessEvents'[EventCost])",
+      "format": "#,0.00",
+      "question": "What is the operational event cost of Lead2Order?",
+      "decision": "Quantify cost-to-serve and rework economics."
+    },
+    {
+      "name": "Average Event Cost",
+      "kpi": "Process Cost",
+      "expression": "AVERAGE('ProcessEvents'[EventCost])",
+      "format": "#,0.00",
+      "question": "Which activities are cost outliers?",
+      "decision": "Prioritize cost optimization by event and owner."
+    },
+    {
+      "name": "KPI Red Count",
+      "kpi": "KPI Health",
+      "expression": "CALCULATE(COUNTROWS('ProcessKpiSnapshots'), 'ProcessKpiSnapshots'[Status] = \"Red\")",
+      "format": "#,0",
+      "question": "How many KPI periods are red?",
+      "decision": "Focus management attention on failing metrics."
+    },
+    {
+      "name": "KPI Amber Count",
+      "kpi": "KPI Health",
+      "expression": "CALCULATE(COUNTROWS('ProcessKpiSnapshots'), 'ProcessKpiSnapshots'[Status] = \"Amber\")",
+      "format": "#,0",
+      "question": "How many KPI periods show early warning?",
+      "decision": "Act before red KPI failure occurs."
+    },
+    {
+      "name": "KPI Green Count",
+      "kpi": "KPI Health",
+      "expression": "CALCULATE(COUNTROWS('ProcessKpiSnapshots'), 'ProcessKpiSnapshots'[Status] = \"Green\")",
+      "format": "#,0",
+      "question": "How many KPI periods are healthy?",
+      "decision": "Distinguish controlled segments from exceptions."
+    },
+    {
+      "name": "Average KPI Gap",
+      "kpi": "KPI Health",
+      "expression": "AVERAGE('ProcessKpiSnapshots'[ActualValue]) - AVERAGE('ProcessKpiSnapshots'[TargetValue])",
+      "format": "#,0.00",
+      "question": "How far are Lead2Order KPIs from target?",
+      "decision": "Quantify performance gap and management priority."
+    },
+    {
+      "name": "Root Cause Case Count",
+      "kpi": "Root Cause",
+      "expression": "CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[RootCause] <> \"\")",
+      "format": "#,0",
+      "question": "How many exceptions have a root cause recorded?",
+      "decision": "Assess diagnostic completeness and evidence quality."
+    },
+    {
+      "name": "Root Cause Coverage Rate",
+      "kpi": "Root Cause",
+      "expression": "DIVIDE([Root Cause Case Count], [SLA Breach Count])",
+      "format": "0.0%",
+      "question": "Are breached cases explained well enough to act?",
+      "decision": "Improve root-cause discipline before assigning actions."
+    }
+  ]
+}

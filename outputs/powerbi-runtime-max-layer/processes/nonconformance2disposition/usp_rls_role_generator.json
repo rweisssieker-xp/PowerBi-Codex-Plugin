@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "nonconformance2disposition",
+  "processName": "Nonconformance2Disposition",
+  "capabilityId": "rls_role_generator",
+  "capabilityName": "RLS Role Generator",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No expert has to manually draft standard row-level security roles for each process pack.",
+  "autonomyLevel": "contract_generated_requires_security_review",
+  "deliverables": [
+    "RLS role contract",
+    "filter expression plan",
+    "test persona matrix"
+  ],
+  "acceptanceChecks": [
+    "owner role present",
+    "test persona exists",
+    "security review required"
+  ]
+}

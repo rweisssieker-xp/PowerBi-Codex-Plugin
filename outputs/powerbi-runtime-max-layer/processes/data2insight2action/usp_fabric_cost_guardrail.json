@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "data2insight2action",
+  "processName": "Data2Insight2Action",
+  "capabilityId": "fabric_cost_guardrail",
+  "capabilityName": "Fabric Cost Guardrail",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No Fabric expert has to manually create the first cost-risk assessment for standard process analytics.",
+  "autonomyLevel": "autonomous_estimation_with_capacity_owner_review",
+  "deliverables": [
+    "cost risk estimate",
+    "capacity guardrails",
+    "optimization recommendations"
+  ],
+  "acceptanceChecks": [
+    "capacity driver listed",
+    "cost risk scored",
+    "owner review required"
+  ]
+}

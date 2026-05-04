@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "procure2pay",
+  "processName": "Procure2Pay",
+  "capabilityId": "tenant_readiness_runtime",
+  "capabilityName": "Tenant Readiness Runtime",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No expert has to create a tenant readiness checklist from scratch.",
+  "autonomyLevel": "autonomous_checklist_generation",
+  "deliverables": [
+    "tenant checklist",
+    "capacity assumptions",
+    "governance gaps"
+  ],
+  "acceptanceChecks": [
+    "gateway checked",
+    "capacity checked",
+    "sensitivity labels checked"
+  ]
+}

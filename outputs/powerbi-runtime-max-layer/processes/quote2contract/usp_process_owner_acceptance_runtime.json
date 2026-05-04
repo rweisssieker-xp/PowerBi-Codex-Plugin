@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "quote2contract",
+  "processName": "Quote2Contract",
+  "capabilityId": "process_owner_acceptance_runtime",
+  "capabilityName": "Process Owner Acceptance Runtime",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually translate technical outputs into process-owner acceptance language.",
+  "autonomyLevel": "autonomous_with_owner_signoff",
+  "deliverables": [
+    "acceptance checklist",
+    "signoff questions",
+    "owner-facing evidence"
+  ],
+  "acceptanceChecks": [
+    "business criteria exist",
+    "technical jargon minimized",
+    "owner signoff required"
+  ]
+}

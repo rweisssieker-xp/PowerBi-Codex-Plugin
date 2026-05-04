@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "source2contract",
+  "processName": "Source2Contract",
+  "capabilityId": "natural_language_data_mart_builder",
+  "capabilityName": "Natural Language Data Mart Builder",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually draft the first data mart structure from a business question.",
+  "autonomyLevel": "autonomous_plan_generation_with_architecture_review",
+  "deliverables": [
+    "data mart plan",
+    "table grain map",
+    "history and refresh policy"
+  ],
+  "acceptanceChecks": [
+    "facts and dimensions defined",
+    "history policy exists",
+    "refresh rule exists"
+  ]
+}

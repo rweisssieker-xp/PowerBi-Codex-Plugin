@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "issue2resolution",
+  "processName": "Issue2Resolution",
+  "capabilityId": "desktop_frown_log_parser",
+  "capabilityName": "Desktop/Frown Log Parser",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No expert has to manually inspect Desktop logs before the first failure classification.",
+  "autonomyLevel": "autonomous_classification_with_manual_escalation",
+  "deliverables": [
+    "log parser contract",
+    "issue class",
+    "repair recommendation"
+  ],
+  "acceptanceChecks": [
+    "input artifact defined",
+    "classification taxonomy present",
+    "escalation path exists"
+  ]
+}

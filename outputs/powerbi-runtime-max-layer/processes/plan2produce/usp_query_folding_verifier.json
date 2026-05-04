@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "plan2produce",
+  "processName": "Plan2Produce",
+  "capabilityId": "query_folding_verifier",
+  "capabilityName": "Query Folding Verifier",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No Power Query expert has to manually inspect every folding-sensitive transformation.",
+  "autonomyLevel": "hybrid_static_and_runtime_verification",
+  "deliverables": [
+    "folding check result",
+    "non-folding step list",
+    "performance risk evidence"
+  ],
+  "acceptanceChecks": [
+    "folding-sensitive source identified",
+    "breaking step listed",
+    "fallback risk scored"
+  ]
+}

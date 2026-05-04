@@ -1,0 +1,21 @@
+{
+  "eventType": "lead2order_powerbi_analysis_package",
+  "generatedAt": "2026-05-04T10:16:15.689596+00:00",
+  "processId": "lead2order",
+  "processName": "Lead2Order",
+  "ownerRole": "Lead-to-Order Process Owner",
+  "sourceSystems": [
+    "CRM",
+    "Marketing Automation",
+    "CPQ",
+    "ERP Sales"
+  ],
+  "kpiCount": 6,
+  "measureCount": 30,
+  "problemQuestionCount": 10,
+  "reportPageCount": 6,
+  "pbipPath": "outputs/lead2order-powerbi-analysis/pbip/Lead2OrderAnalysis/Lead2Order.pbip",
+  "semanticModelPath": "outputs/lead2order-powerbi-analysis/pbip/Lead2OrderAnalysis/Lead2Order.SemanticModel",
+  "reportPath": "outputs/lead2order-powerbi-analysis/pbip/Lead2OrderAnalysis/Lead2Order.Report",
+  "demoDataPath": "outputs/industry-demo-data/lead2order"
+}

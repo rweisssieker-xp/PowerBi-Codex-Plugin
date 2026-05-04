@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "make_strategy",
+  "processName": "Make2Stock / Make2Order / Engineer2Order",
+  "capabilityId": "access_review_automation",
+  "capabilityName": "Access Review Automation",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No access reviewer has to manually perform recurring Power BI permission reviews.",
+  "autonomyLevel": "api_runtime_with_security_owner_signoff",
+  "deliverables": [
+    "access review report",
+    "permission exception list",
+    "signoff evidence"
+  ],
+  "acceptanceChecks": [
+    "principal list captured",
+    "exceptions flagged",
+    "security owner signoff required"
+  ]
+}

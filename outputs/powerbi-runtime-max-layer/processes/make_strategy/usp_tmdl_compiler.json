@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "make_strategy",
+  "processName": "Make2Stock / Make2Order / Engineer2Order",
+  "capabilityId": "tmdl_compiler",
+  "capabilityName": "TMDL Compiler",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to hand-author baseline TMDL tables, measures, and relationship files.",
+  "autonomyLevel": "autonomous_with_static_validation",
+  "deliverables": [
+    "TMDL tables",
+    "relationships.tmdl",
+    "baseline measures"
+  ],
+  "acceptanceChecks": [
+    "parse_model succeeds",
+    "relationships reference existing columns",
+    "measures are discoverable"
+  ]
+}

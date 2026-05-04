@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "nonconformance2disposition",
+  "processName": "Nonconformance2Disposition",
+  "capabilityId": "autonomous_bi_sprint_manager",
+  "capabilityName": "Autonomous BI Sprint Manager",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No lead analyst or BI manager has to manually orchestrate the standard delivery sprint.",
+  "autonomyLevel": "autonomous_sprint_plan_with_human_release_approval",
+  "deliverables": [
+    "sprint plan",
+    "delivery checklist",
+    "release and backlog status"
+  ],
+  "acceptanceChecks": [
+    "all delivery stages listed",
+    "quality gates included",
+    "release approval required"
+  ]
+}

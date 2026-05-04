@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "plan2produce",
+  "processName": "Plan2Produce",
+  "capabilityId": "deployment_rollback_executor",
+  "capabilityName": "Deployment Rollback Executor",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to manually restore a previous Power BI release after failed deployment.",
+  "autonomyLevel": "api_runtime_requires_release_policy",
+  "deliverables": [
+    "rollback snapshot",
+    "rollback operation plan",
+    "rollback evidence"
+  ],
+  "acceptanceChecks": [
+    "previous version captured",
+    "rollback trigger defined",
+    "rollback result recorded"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "data2insight2action",
+  "processName": "Data2Insight2Action",
+  "capabilityId": "full_pbip_generator",
+  "capabilityName": "Full PBIP Generator",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to create the project folder, semantic model, report shell, or PBIP metadata manually.",
+  "autonomyLevel": "autonomous_for_supported_processes",
+  "deliverables": [
+    "PBIP project",
+    "semantic model folder",
+    "report folder"
+  ],
+  "acceptanceChecks": [
+    "PBIP path exists",
+    "semantic model exists",
+    "report definition exists"
+  ]
+}

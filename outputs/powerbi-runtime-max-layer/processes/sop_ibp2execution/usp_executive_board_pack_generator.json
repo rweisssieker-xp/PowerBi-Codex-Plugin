@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "sop_ibp2execution",
+  "processName": "S&OP / IBP2Execution",
+  "capabilityId": "executive_board_pack_generator",
+  "capabilityName": "Executive Board Pack Generator",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually prepare recurring executive packs from dashboard data.",
+  "autonomyLevel": "autonomous_when_evidence_is_sufficient",
+  "deliverables": [
+    "board summary",
+    "risk and action list",
+    "decision prompts"
+  ],
+  "acceptanceChecks": [
+    "claims cite metrics",
+    "risks map to KPIs",
+    "decision questions are explicit"
+  ]
+}

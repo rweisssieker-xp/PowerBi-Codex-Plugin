@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "installedbase2servicerevenue",
+  "processName": "InstalledBase2ServiceRevenue",
+  "capabilityId": "ai_field_mapping_runtime",
+  "capabilityName": "AI Field Mapping Runtime",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to map every source column to semantic fields manually.",
+  "autonomyLevel": "autonomous_with_exception_queue",
+  "deliverables": [
+    "field candidates",
+    "confidence scores",
+    "unmapped-field queue"
+  ],
+  "acceptanceChecks": [
+    "required fields mapped",
+    "low-confidence mappings flagged",
+    "type compatibility checked"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "return2disposition",
+  "processName": "Return2Disposition",
+  "capabilityId": "usage_based_refactoring_agent",
+  "capabilityName": "Usage-Based Refactoring Agent",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No BI lead has to manually rank modernization work from scattered operational signals.",
+  "autonomyLevel": "autonomous_when_telemetry_contracts_exist",
+  "deliverables": [
+    "refactor priority list",
+    "usage and performance evidence",
+    "modernization roadmap"
+  ],
+  "acceptanceChecks": [
+    "usage signal included",
+    "performance signal included",
+    "priority score assigned"
+  ]
+}

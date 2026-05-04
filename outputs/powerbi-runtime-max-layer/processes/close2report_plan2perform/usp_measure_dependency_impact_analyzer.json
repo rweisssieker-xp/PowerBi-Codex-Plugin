@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "close2report_plan2perform",
+  "processName": "Close2Report / Plan2Perform",
+  "capabilityId": "measure_dependency_impact_analyzer",
+  "capabilityName": "Measure Dependency Impact Analyzer",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to manually trace dependency blast radius before changing a semantic model.",
+  "autonomyLevel": "autonomous_static_lineage_analysis",
+  "deliverables": [
+    "impact map",
+    "affected visual list",
+    "regression test list"
+  ],
+  "acceptanceChecks": [
+    "changed object identified",
+    "dependents listed",
+    "regression scope exists"
+  ]
+}

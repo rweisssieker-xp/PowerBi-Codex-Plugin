@@ -172,12 +172,13 @@ def _relationship_from_dict(raw: dict[str, str]) -> Relationship | None:
 
 
 def _is_fact(table: str) -> bool:
-    return table.lower().startswith("fact_")
+    lowered = table.lower()
+    return lowered.startswith("fact_") or lowered in {"processcases", "processevents", "processkpisnapshots"}
 
 
 def _is_dimension(table: str) -> bool:
     lowered = table.lower()
-    return lowered.startswith("dim_") or lowered in {"date", "calendar"}
+    return lowered.startswith("dim_") or lowered in {"date", "calendar", "dimprocess", "dimcalendar"}
 
 
 def validate_model_graph(model: Model) -> dict[str, Any]:
@@ -202,13 +203,17 @@ def validate_model_graph(model: Model) -> dict[str, Any]:
         # otherwise a normal constellation/star schema with shared dimensions is
         # incorrectly reported as ambiguous.
         adjacency[rel.to_table].add(rel.from_table)
-        if _is_fact(rel.from_table) and _is_fact(rel.to_table):
+        process_event_to_case = rel.from_table == "ProcessEvents" and rel.to_table == "ProcessCases"
+        if _is_fact(rel.from_table) and _is_fact(rel.to_table) and not process_event_to_case:
             errors.append(
                 f"Relationship {rel.name} is Fact_* -> Fact_*; use Fact_* -> Dim_* only to prevent ambiguous paths."
             )
-        if not (_is_fact(rel.from_table) and _is_dimension(rel.to_table)) and not (
-            _is_dimension(rel.from_table) and _is_fact(rel.to_table)
-        ):
+        clean_star_edge = (
+            (_is_fact(rel.from_table) and _is_dimension(rel.to_table))
+            or (_is_dimension(rel.from_table) and _is_fact(rel.to_table))
+            or process_event_to_case
+        )
+        if not clean_star_edge:
             warnings.append(
                 f"Relationship {rel.name} is not a clean Fact_* -> Dim_* edge: {rel.from_table} -> {rel.to_table}."
             )
@@ -259,6 +264,8 @@ def validate_native_sources(model: Model) -> dict[str, Any]:
                     matched = True
             if "DATATABLE(" in source.upper():
                 warnings.append(f"Table {table.name} uses DATATABLE; keep it out of production source routing.")
+            if "#table" in source:
+                matched = True
             if re.search(r"Source\s*\{\s*\d+\s*\}", source):
                 errors.append(f"Table {table.name} uses numeric row navigation like Source{{6}}; use key navigation.")
             if "File.Contents" in source:
@@ -612,7 +619,7 @@ def main() -> int:
     premium_usps = sub.add_parser("premium-usps", help="List the 25 premium USP contracts.")
     premium_usps.add_argument("--out")
 
-    runtime_max = sub.add_parser("runtime-max", help="List the 15 runtime max capabilities.")
+    runtime_max = sub.add_parser("runtime-max", help="List the 70 runtime max USP capabilities.")
     runtime_max.add_argument("--out")
 
     hardening = sub.add_parser("hardening", help="List the 15 production hardening capabilities.")
@@ -626,7 +633,7 @@ def main() -> int:
     premium_plan.add_argument("--process", required=True)
     premium_plan.add_argument("--out")
 
-    runtime_plan = sub.add_parser("runtime-max-plan", help="Create a 15-capability runtime max plan for a process.")
+    runtime_plan = sub.add_parser("runtime-max-plan", help="Create a 70-USP runtime max plan for a process.")
     runtime_plan.add_argument("--process", required=True)
     runtime_plan.add_argument("--out")
 

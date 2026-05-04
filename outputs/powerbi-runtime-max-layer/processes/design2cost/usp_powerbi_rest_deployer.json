@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "design2cost",
+  "processName": "Design2Cost / Design2Source",
+  "capabilityId": "powerbi_rest_deployer",
+  "capabilityName": "Power BI REST Deployer",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to manually execute routine Power BI deployment API steps.",
+  "autonomyLevel": "api_runtime_with_release_approval",
+  "deliverables": [
+    "REST deployment plan",
+    "API operation manifest",
+    "deployment evidence"
+  ],
+  "acceptanceChecks": [
+    "target workspace defined",
+    "release approval present",
+    "API evidence captured"
+  ]
+}

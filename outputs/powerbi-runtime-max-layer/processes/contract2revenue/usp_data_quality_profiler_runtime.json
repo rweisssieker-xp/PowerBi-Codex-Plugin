@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "contract2revenue",
+  "processName": "Contract2Revenue",
+  "capabilityId": "data_quality_profiler_runtime",
+  "capabilityName": "Data Quality Profiler Runtime",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually perform routine data-quality profiling before report delivery.",
+  "autonomyLevel": "runtime_execution_when_source_access_exists",
+  "deliverables": [
+    "data quality profile",
+    "DQ findings",
+    "quality gate verdict"
+  ],
+  "acceptanceChecks": [
+    "null profile exists",
+    "duplicate check exists",
+    "freshness check exists"
+  ]
+}

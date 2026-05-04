@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "issue2resolution",
+  "processName": "Issue2Resolution",
+  "capabilityId": "user_adoption_tracker",
+  "capabilityName": "User Adoption Tracker",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually review adoption and report-value signals after release.",
+  "autonomyLevel": "contract_driven_until_usage_telemetry_is_connected",
+  "deliverables": [
+    "adoption score",
+    "stale asset list",
+    "usage-driven backlog"
+  ],
+  "acceptanceChecks": [
+    "telemetry contract exists",
+    "unused assets flagged",
+    "owner action assigned"
+  ]
+}

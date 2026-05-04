@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "control2evidence",
+  "processName": "Control2Evidence",
+  "capabilityId": "audit_ready_evidence_vault",
+  "capabilityName": "Audit-Ready Evidence Vault",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No governance expert has to manually compile recurring audit evidence for generated BI deliveries.",
+  "autonomyLevel": "autonomous_evidence_assembly_with_retention_policy",
+  "deliverables": [
+    "audit evidence record",
+    "lineage package",
+    "signoff manifest"
+  ],
+  "acceptanceChecks": [
+    "source evidence linked",
+    "test evidence linked",
+    "owner signoff linked"
+  ]
+}

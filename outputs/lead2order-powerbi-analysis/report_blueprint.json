@@ -1,0 +1,205 @@
+{
+  "processId": "lead2order",
+  "processName": "Lead2Order",
+  "pages": [
+    {
+      "page": "Executive Lead2Order Overview",
+      "purpose": "One-screen management view of funnel volume, pipeline value, conversion, SLA health, and action backlog.",
+      "visuals": [
+        {
+          "type": "card",
+          "title": "Lead Count",
+          "measure": "Lead Count"
+        },
+        {
+          "type": "card",
+          "title": "Pipeline Value",
+          "measure": "Pipeline Value"
+        },
+        {
+          "type": "card",
+          "title": "Order Conversion Rate",
+          "measure": "Order Conversion Rate"
+        },
+        {
+          "type": "card",
+          "title": "SLA Breach Rate",
+          "measure": "SLA Breach Rate"
+        },
+        {
+          "type": "bar",
+          "title": "Pipeline by Stage",
+          "fields": [
+            "CurrentStage",
+            "Pipeline Value"
+          ]
+        },
+        {
+          "type": "table",
+          "title": "Top Action Cases",
+          "fields": [
+            "CaseID",
+            "OwnerName",
+            "CurrentStage",
+            "PipelineValue",
+            "RiskScore"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "Funnel Conversion",
+      "purpose": "Explain stage conversion from raw lead to booked order.",
+      "visuals": [
+        {
+          "type": "funnel",
+          "title": "Lead Funnel",
+          "measures": [
+            "Lead Count",
+            "MQL Count",
+            "SQL Count",
+            "Quote Count",
+            "Order Count"
+          ]
+        },
+        {
+          "type": "matrix",
+          "title": "Conversion by Region and Owner",
+          "fields": [
+            "Region",
+            "OwnerName"
+          ],
+          "measures": [
+            "MQL Rate",
+            "SQL Rate",
+            "Order Conversion Rate"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "Cycle Time and SLA",
+      "purpose": "Find cycle-time delays, SLA breaches, and target variance.",
+      "visuals": [
+        {
+          "type": "line",
+          "title": "Cycle Days Trend",
+          "fields": [
+            "Period"
+          ],
+          "measure": "Lead-to-Order Cycle Days"
+        },
+        {
+          "type": "bar",
+          "title": "SLA Breaches by Root Cause",
+          "fields": [
+            "RootCause"
+          ],
+          "measure": "SLA Breach Count"
+        },
+        {
+          "type": "scatter",
+          "title": "Risk vs Pipeline Value",
+          "fields": [
+            "RiskScore",
+            "PipelineValue",
+            "OwnerName"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "Root Cause and Rework",
+      "purpose": "Prioritize structural issues behind breaches, rework, and cost.",
+      "visuals": [
+        {
+          "type": "matrix",
+          "title": "Root Cause by Owner",
+          "fields": [
+            "RootCause",
+            "OwnerName"
+          ],
+          "measures": [
+            "SLA Breach Count",
+            "High Risk Pipeline Value"
+          ]
+        },
+        {
+          "type": "bar",
+          "title": "Rework by Event",
+          "fields": [
+            "EventName"
+          ],
+          "measure": "Rework Event Count"
+        },
+        {
+          "type": "bar",
+          "title": "Event Cost by Source",
+          "fields": [
+            "SourceSystem"
+          ],
+          "measure": "Total Event Cost"
+        }
+      ]
+    },
+    {
+      "page": "Owner Action Cockpit",
+      "purpose": "Turn findings into actionable queues for process owners and managers.",
+      "visuals": [
+        {
+          "type": "table",
+          "title": "Owner Action Queue",
+          "fields": [
+            "OwnerName",
+            "CaseID",
+            "CurrentStage",
+            "RootCause",
+            "PipelineValue",
+            "RiskScore"
+          ]
+        },
+        {
+          "type": "bar",
+          "title": "Actions by Owner",
+          "fields": [
+            "OwnerName"
+          ],
+          "measure": "Action Required Count"
+        },
+        {
+          "type": "card",
+          "title": "High Risk Pipeline",
+          "measure": "High Risk Pipeline Value"
+        }
+      ]
+    },
+    {
+      "page": "KPI Recovery Plan",
+      "purpose": "Translate red and amber KPI periods into recovery actions.",
+      "visuals": [
+        {
+          "type": "matrix",
+          "title": "KPI Status by Period",
+          "fields": [
+            "KPIName",
+            "Period",
+            "Status"
+          ],
+          "measures": [
+            "Average KPI Gap"
+          ]
+        },
+        {
+          "type": "card",
+          "title": "Red KPI Periods",
+          "measure": "KPI Red Count"
+        },
+        {
+          "type": "card",
+          "title": "Amber KPI Periods",
+          "measure": "KPI Amber Count"
+        }
+      ]
+    }
+  ]
+}

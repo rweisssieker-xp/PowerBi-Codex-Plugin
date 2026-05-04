@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "pick2pack2ship",
+  "processName": "Pick2Pack2Ship",
+  "capabilityId": "pbir_visual_materializer",
+  "capabilityName": "PBIR Visual Materializer",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to build the first report pages and visual bindings by hand.",
+  "autonomyLevel": "autonomous_with_visual_binding_validation",
+  "deliverables": [
+    "PBIR pages",
+    "visual.json files",
+    "visual binding map"
+  ],
+  "acceptanceChecks": [
+    "all visuals bind to known fields",
+    "page count is nonzero",
+    "visual count is nonzero"
+  ]
+}

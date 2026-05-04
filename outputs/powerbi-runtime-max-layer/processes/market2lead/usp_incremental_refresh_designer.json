@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "market2lead",
+  "processName": "Market2Lead",
+  "capabilityId": "incremental_refresh_designer",
+  "capabilityName": "Incremental Refresh Designer",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to manually design routine incremental refresh policies.",
+  "autonomyLevel": "autonomous_policy_generation_with_capacity_review",
+  "deliverables": [
+    "incremental refresh policy",
+    "partition plan",
+    "refresh validation plan"
+  ],
+  "acceptanceChecks": [
+    "date column selected",
+    "historical window defined",
+    "refresh window defined"
+  ]
+}

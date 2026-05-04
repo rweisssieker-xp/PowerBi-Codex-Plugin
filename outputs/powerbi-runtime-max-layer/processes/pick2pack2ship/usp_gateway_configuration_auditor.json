@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "pick2pack2ship",
+  "processName": "Pick2Pack2Ship",
+  "capabilityId": "gateway_configuration_auditor",
+  "capabilityName": "Gateway Configuration Auditor",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No gateway specialist has to manually perform first-pass gateway readiness reviews.",
+  "autonomyLevel": "api_runtime_requires_gateway_admin_scope",
+  "deliverables": [
+    "gateway inventory",
+    "datasource mapping",
+    "risk and SPOF findings"
+  ],
+  "acceptanceChecks": [
+    "gateway owner captured",
+    "datasource mapping exists",
+    "SPOF risk scored"
+  ]
+}

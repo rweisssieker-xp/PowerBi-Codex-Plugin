@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "source2contract",
+  "processName": "Source2Contract",
+  "capabilityId": "enterprise_glossary_sync",
+  "capabilityName": "Enterprise Glossary Sync",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually copy KPI and field definitions between BI artifacts and data catalogs.",
+  "autonomyLevel": "api_or_export_runtime_with_steward_approval",
+  "deliverables": [
+    "glossary mapping",
+    "sync evidence",
+    "steward review queue"
+  ],
+  "acceptanceChecks": [
+    "glossary target defined",
+    "term owner present",
+    "sync conflict listed"
+  ]
+}

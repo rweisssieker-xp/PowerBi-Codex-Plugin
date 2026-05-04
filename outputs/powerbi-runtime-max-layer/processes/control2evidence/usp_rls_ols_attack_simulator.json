@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "control2evidence",
+  "processName": "Control2Evidence",
+  "capabilityId": "rls_ols_attack_simulator",
+  "capabilityName": "RLS/OLS Attack Simulator",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No security-focused Power BI expert has to manually design first-pass role leakage tests.",
+  "autonomyLevel": "contract_generated_requires_security_review",
+  "deliverables": [
+    "attack scenarios",
+    "persona matrix",
+    "security findings"
+  ],
+  "acceptanceChecks": [
+    "leakage scenario exists",
+    "persona coverage checked",
+    "manual security signoff required"
+  ]
+}

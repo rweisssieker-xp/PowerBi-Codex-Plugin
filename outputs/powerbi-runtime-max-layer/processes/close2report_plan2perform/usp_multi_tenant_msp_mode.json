@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "close2report_plan2perform",
+  "processName": "Close2Report / Plan2Perform",
+  "capabilityId": "multi_tenant_msp_mode",
+  "capabilityName": "Multi-Tenant / MSP Mode",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No MSP delivery lead has to manually separate tenant policies, artifacts, and rollout evidence.",
+  "autonomyLevel": "autonomous_isolation_contract_with_external_credentials",
+  "deliverables": [
+    "tenant isolation manifest",
+    "policy matrix",
+    "rollout status board"
+  ],
+  "acceptanceChecks": [
+    "tenant boundary explicit",
+    "policy isolation checked",
+    "cross-tenant leakage blocked"
+  ]
+}

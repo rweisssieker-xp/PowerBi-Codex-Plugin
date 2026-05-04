@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "idea2launch",
+  "processName": "Idea2Launch / Engineer2Release",
+  "capabilityId": "narrative_insight_writer",
+  "capabilityName": "Narrative Insight Writer",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to write recurring management commentary from dashboard evidence.",
+  "autonomyLevel": "autonomous_when_evidence_thresholds_pass",
+  "deliverables": [
+    "executive summary",
+    "variance explanation",
+    "recommended action text"
+  ],
+  "acceptanceChecks": [
+    "claims cite metric evidence",
+    "no unsupported causal language",
+    "actions map to owner role"
+  ]
+}

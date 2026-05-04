@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "control2evidence",
+  "processName": "Control2Evidence",
+  "capabilityId": "anomaly_detection_pack",
+  "capabilityName": "Anomaly Detection Pack",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually scan KPI trends for common anomalies and process breaks.",
+  "autonomyLevel": "autonomous_when_time_series_exists",
+  "deliverables": [
+    "anomaly findings",
+    "seasonality notes",
+    "exception queue"
+  ],
+  "acceptanceChecks": [
+    "baseline window defined",
+    "anomaly threshold stated",
+    "owner action attached"
+  ]
+}

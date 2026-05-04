@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "procure2pay",
+  "processName": "Procure2Pay",
+  "capabilityId": "dax_explainability_layer",
+  "capabilityName": "DAX Explainability Layer",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No DAX expert has to manually document standard measure behavior for business and CoE review.",
+  "autonomyLevel": "autonomous_measure_documentation",
+  "deliverables": [
+    "measure explanation",
+    "filter-context notes",
+    "risk and test notes"
+  ],
+  "acceptanceChecks": [
+    "business explanation exists",
+    "dependencies listed",
+    "test scenario attached"
+  ]
+}

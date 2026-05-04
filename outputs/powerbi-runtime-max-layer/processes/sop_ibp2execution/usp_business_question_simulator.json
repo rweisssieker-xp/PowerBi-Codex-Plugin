@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "sop_ibp2execution",
+  "processName": "S&OP / IBP2Execution",
+  "capabilityId": "business_question_simulator",
+  "capabilityName": "Business Question Simulator",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually create coverage tests for common business questions.",
+  "autonomyLevel": "autonomous_question_coverage_testing",
+  "deliverables": [
+    "question set",
+    "coverage matrix",
+    "unanswered question backlog"
+  ],
+  "acceptanceChecks": [
+    "questions map to process KPIs",
+    "coverage verdict exists",
+    "gaps become backlog items"
+  ]
+}

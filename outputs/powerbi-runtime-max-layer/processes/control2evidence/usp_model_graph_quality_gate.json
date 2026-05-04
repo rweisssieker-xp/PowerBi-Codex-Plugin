@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "control2evidence",
+  "processName": "Control2Evidence",
+  "capabilityId": "model_graph_quality_gate",
+  "capabilityName": "Model Graph Quality Gate",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No model expert has to manually inspect basic relationship correctness.",
+  "autonomyLevel": "autonomous_static_quality_gate",
+  "deliverables": [
+    "model graph check",
+    "relationship diagnostics",
+    "quality verdict"
+  ],
+  "acceptanceChecks": [
+    "fact-to-fact blocked",
+    "missing columns blocked",
+    "ambiguous path checked"
+  ]
+}

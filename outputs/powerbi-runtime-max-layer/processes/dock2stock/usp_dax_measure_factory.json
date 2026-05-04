@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "dock2stock",
+  "processName": "Dock2Stock",
+  "capabilityId": "dax_measure_factory",
+  "capabilityName": "DAX Measure Factory",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No DAX expert has to hand-write the standard KPI measure catalog.",
+  "autonomyLevel": "autonomous_with_expected_result_tests",
+  "deliverables": [
+    "DAX measures",
+    "format strings",
+    "KPI-to-measure lineage"
+  ],
+  "acceptanceChecks": [
+    "measure names match KPI contracts",
+    "static DAX warnings reviewed",
+    "expected-result rule exists"
+  ]
+}

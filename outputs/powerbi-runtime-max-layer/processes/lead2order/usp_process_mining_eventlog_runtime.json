@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "lead2order",
+  "processName": "Lead2Order",
+  "capabilityId": "process_mining_eventlog_runtime",
+  "capabilityName": "Process Mining Event Log Runtime",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually shape case/activity/timestamp event logs.",
+  "autonomyLevel": "autonomous_for_catalog_processes",
+  "deliverables": [
+    "event log schema",
+    "case/activity mapping",
+    "process flow fields"
+  ],
+  "acceptanceChecks": [
+    "case id exists",
+    "activity exists",
+    "timestamp exists"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "nonconformance2disposition",
+  "processName": "Nonconformance2Disposition",
+  "capabilityId": "tabular_editor_tom_bridge",
+  "capabilityName": "Tabular Editor / TOM Bridge",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No tabular model developer has to manually run standard TOM/TMSL validation and patch routines.",
+  "autonomyLevel": "runtime_bridge_requires_tabular_tooling",
+  "deliverables": [
+    "TOM validation contract",
+    "TMSL patch plan",
+    "tabular execution evidence"
+  ],
+  "acceptanceChecks": [
+    "model endpoint defined",
+    "patch is deterministic",
+    "validation result recorded"
+  ]
+}

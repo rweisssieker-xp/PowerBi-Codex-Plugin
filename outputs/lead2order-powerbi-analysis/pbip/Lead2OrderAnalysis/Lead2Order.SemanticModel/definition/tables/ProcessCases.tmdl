@@ -1,0 +1,223 @@
+table ProcessCases
+	column ProcessID
+		dataType: string
+		sourceColumn: [ProcessID]
+
+	column ProcessName
+		dataType: string
+		sourceColumn: [ProcessName]
+
+	column CaseID
+		dataType: string
+		sourceColumn: [CaseID]
+
+	column CaseName
+		dataType: string
+		sourceColumn: [CaseName]
+
+	column Domain
+		dataType: string
+		sourceColumn: [Domain]
+
+	column OwnerRole
+		dataType: string
+		sourceColumn: [OwnerRole]
+
+	column OwnerName
+		dataType: string
+		sourceColumn: [OwnerName]
+
+	column Region
+		dataType: string
+		sourceColumn: [Region]
+
+	column PlantID
+		dataType: string
+		sourceColumn: [PlantID]
+
+	column BusinessPartner
+		dataType: string
+		sourceColumn: [BusinessPartner]
+
+	column CurrentStage
+		dataType: string
+		sourceColumn: [CurrentStage]
+
+	column StartDate
+		dataType: dateTime
+		sourceColumn: [StartDate]
+
+	column TargetDate
+		dataType: dateTime
+		sourceColumn: [TargetDate]
+
+	column ActualOrForecastDate
+		dataType: dateTime
+		sourceColumn: [ActualOrForecastDate]
+
+	column TargetCycleDays
+		dataType: int64
+		sourceColumn: [TargetCycleDays]
+
+	column ActualCycleDays
+		dataType: int64
+		sourceColumn: [ActualCycleDays]
+
+	column SlaBreached
+		dataType: boolean
+		sourceColumn: [SlaBreached]
+
+	column RootCause
+		dataType: string
+		sourceColumn: [RootCause]
+
+	column PipelineValue
+		dataType: double
+		sourceColumn: [PipelineValue]
+
+	column RiskScore
+		dataType: int64
+		sourceColumn: [RiskScore]
+
+	column ActionRequired
+		dataType: boolean
+		sourceColumn: [ActionRequired]
+
+	measure 'Case Count' =
+		COUNTROWS('ProcessCases')
+
+	measure 'SLA Breach Count' =
+		CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = TRUE())
+
+	measure 'Action Required Count' =
+		CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[ActionRequired] = TRUE())
+
+	measure 'Lead Count' =
+		COUNTROWS('ProcessCases')
+		formatString: #,0
+
+	measure 'Pipeline Value' =
+		SUM('ProcessCases'[PipelineValue])
+		formatString: #,0.00
+
+	measure 'Average Pipeline Value' =
+		AVERAGE('ProcessCases'[PipelineValue])
+		formatString: #,0.00
+
+	measure 'MQL Count' =
+		CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[CurrentStage] <> "Lead Created")
+		formatString: #,0
+
+	measure 'MQL Rate' =
+		DIVIDE([MQL Count], [Lead Count])
+		formatString: 0.0%
+
+	measure 'SQL Count' =
+		CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[CurrentStage] IN {"Opportunity Created", "Quote Sent", "Order Booked"})
+		formatString: #,0
+
+	measure 'SQL Rate' =
+		DIVIDE([SQL Count], [MQL Count])
+		formatString: 0.0%
+
+	measure 'Quote Count' =
+		CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[CurrentStage] IN {"Quote Sent", "Order Booked"})
+		formatString: #,0
+
+	measure 'Order Count' =
+		CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[CurrentStage] = "Order Booked")
+		formatString: #,0
+
+	measure 'Order Conversion Rate' =
+		DIVIDE([Order Count], [Lead Count])
+		formatString: 0.0%
+
+	measure 'Lead-to-Order Cycle Days' =
+		AVERAGE('ProcessCases'[ActualCycleDays])
+		formatString: #,0.0
+
+	measure 'Cycle Days vs Target' =
+		AVERAGE('ProcessCases'[ActualCycleDays]) - AVERAGE('ProcessCases'[TargetCycleDays])
+		formatString: #,0.0
+
+	measure 'SLA Breach Count' =
+		CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[SlaBreached] = TRUE())
+		formatString: #,0
+
+	measure 'SLA Breach Rate' =
+		DIVIDE([SLA Breach Count], [Lead Count])
+		formatString: 0.0%
+
+	measure 'Action Required Count' =
+		CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[ActionRequired] = TRUE())
+		formatString: #,0
+
+	measure 'Action Required Rate' =
+		DIVIDE([Action Required Count], [Lead Count])
+		formatString: 0.0%
+
+	measure 'High Risk Lead Count' =
+		CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[RiskScore] >= 70)
+		formatString: #,0
+
+	measure 'High Risk Pipeline Value' =
+		CALCULATE([Pipeline Value], 'ProcessCases'[RiskScore] >= 70)
+		formatString: #,0.00
+
+	measure 'Average Risk Score' =
+		AVERAGE('ProcessCases'[RiskScore])
+		formatString: #,0.0
+
+	measure 'Rework Event Count' =
+		CALCULATE(COUNTROWS('ProcessEvents'), 'ProcessEvents'[ReworkFlag] = TRUE())
+		formatString: #,0
+
+	measure 'Automation Event Count' =
+		CALCULATE(COUNTROWS('ProcessEvents'), 'ProcessEvents'[AutomationFlag] = TRUE())
+		formatString: #,0
+
+	measure 'Automation Rate' =
+		DIVIDE([Automation Event Count], COUNTROWS('ProcessEvents'))
+		formatString: 0.0%
+
+	measure 'Total Event Cost' =
+		SUM('ProcessEvents'[EventCost])
+		formatString: #,0.00
+
+	measure 'Average Event Cost' =
+		AVERAGE('ProcessEvents'[EventCost])
+		formatString: #,0.00
+
+	measure 'KPI Red Count' =
+		CALCULATE(COUNTROWS('ProcessKpiSnapshots'), 'ProcessKpiSnapshots'[Status] = "Red")
+		formatString: #,0
+
+	measure 'KPI Amber Count' =
+		CALCULATE(COUNTROWS('ProcessKpiSnapshots'), 'ProcessKpiSnapshots'[Status] = "Amber")
+		formatString: #,0
+
+	measure 'KPI Green Count' =
+		CALCULATE(COUNTROWS('ProcessKpiSnapshots'), 'ProcessKpiSnapshots'[Status] = "Green")
+		formatString: #,0
+
+	measure 'Average KPI Gap' =
+		AVERAGE('ProcessKpiSnapshots'[ActualValue]) - AVERAGE('ProcessKpiSnapshots'[TargetValue])
+		formatString: #,0.00
+
+	measure 'Root Cause Case Count' =
+		CALCULATE(COUNTROWS('ProcessCases'), 'ProcessCases'[RootCause] <> "")
+		formatString: #,0
+
+	measure 'Root Cause Coverage Rate' =
+		DIVIDE([Root Cause Case Count], [SLA Breach Count])
+		formatString: 0.0%
+
+	partition ProcessCases = m
+		mode: import
+		source =
+			let
+			    Source = Csv.Document(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/industry-demo-data/lead2order/cases.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+			    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+			    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"ProcessID", type text}, {"ProcessName", type text}, {"CaseID", type text}, {"CaseName", type text}, {"Domain", type text}, {"OwnerRole", type text}, {"OwnerName", type text}, {"Region", type text}, {"PlantID", type text}, {"BusinessPartner", type text}, {"CurrentStage", type text}, {"StartDate", type date}, {"TargetDate", type date}, {"ActualOrForecastDate", type date}, {"TargetCycleDays", Int64.Type}, {"ActualCycleDays", Int64.Type}, {"SlaBreached", type logical}, {"RootCause", type text}, {"PipelineValue", type number}, {"RiskScore", Int64.Type}, {"ActionRequired", type logical}}, "en-US")
+			in
+			    ChangedType

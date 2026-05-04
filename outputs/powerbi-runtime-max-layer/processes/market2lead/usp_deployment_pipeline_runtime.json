@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "market2lead",
+  "processName": "Market2Lead",
+  "capabilityId": "deployment_pipeline_runtime",
+  "capabilityName": "Deployment Pipeline Runtime",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to manually define routine deployment pipeline steps.",
+  "autonomyLevel": "autonomous_plan_generation",
+  "deliverables": [
+    "deployment plan",
+    "approval gates",
+    "rollback plan"
+  ],
+  "acceptanceChecks": [
+    "dev/test/prod stages exist",
+    "rollback defined",
+    "approval gate present"
+  ]
+}

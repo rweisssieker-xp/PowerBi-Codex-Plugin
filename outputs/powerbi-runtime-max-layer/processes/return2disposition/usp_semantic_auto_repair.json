@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "return2disposition",
+  "processName": "Return2Disposition",
+  "capabilityId": "semantic_auto_repair",
+  "capabilityName": "Semantic Auto-Repair",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No expert has to diagnose common model, relationship, and visual-binding failures manually.",
+  "autonomyLevel": "autonomous_for_known_failure_classes",
+  "deliverables": [
+    "repair rules",
+    "failure classification",
+    "validation command"
+  ],
+  "acceptanceChecks": [
+    "known failure class mapped",
+    "repair action deterministic",
+    "post-repair validation listed"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "supplieronboarding2risk",
+  "processName": "SupplierOnboarding2Risk",
+  "capabilityId": "dax_query_runner",
+  "capabilityName": "DAX Query Runner",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No DAX expert has to manually run routine validation queries against generated models.",
+  "autonomyLevel": "runtime_execution_requires_model_endpoint",
+  "deliverables": [
+    "DAX query suite",
+    "query result evidence",
+    "measure reconciliation verdict"
+  ],
+  "acceptanceChecks": [
+    "model endpoint defined",
+    "query text recorded",
+    "expected-vs-actual verdict exists"
+  ]
+}

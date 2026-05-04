@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "pick2pack2ship",
+  "processName": "Pick2Pack2Ship",
+  "capabilityId": "composite_model_advisor",
+  "capabilityName": "Composite Model Advisor",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No model architect has to manually decide standard storage-mode trade-offs from scratch.",
+  "autonomyLevel": "autonomous_advice_with_architecture_review",
+  "deliverables": [
+    "storage mode recommendation",
+    "aggregation plan",
+    "hybrid boundary notes"
+  ],
+  "acceptanceChecks": [
+    "latency need captured",
+    "volume driver captured",
+    "trade-off stated"
+  ]
+}

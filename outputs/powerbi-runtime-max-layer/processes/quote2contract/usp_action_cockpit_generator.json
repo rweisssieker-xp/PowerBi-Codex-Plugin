@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "quote2contract",
+  "processName": "Quote2Contract",
+  "capabilityId": "action_cockpit_generator",
+  "capabilityName": "Action Cockpit Generator",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually convert insights into owner-specific action lists.",
+  "autonomyLevel": "autonomous_for_standard_owner_workflows",
+  "deliverables": [
+    "owner queue",
+    "severity rules",
+    "action status model"
+  ],
+  "acceptanceChecks": [
+    "owner field exists",
+    "action required flag exists",
+    "SLA breach rule exists"
+  ]
+}

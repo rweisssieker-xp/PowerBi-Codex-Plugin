@@ -509,13 +509,23 @@ def check_powerbi_runtime_max_layer(root: Path) -> list[str]:
 
     catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
     capabilities = catalog.get("capabilities", [])
-    if catalog.get("capabilityCount") != 15 or len(capabilities) != 15:
-        errors.append(f"{catalog_path}: expected exactly 15 runtime max capabilities")
+    if catalog.get("capabilityCount") != 70 or len(capabilities) != 70:
+        errors.append(f"{catalog_path}: expected exactly 70 runtime max USP capabilities")
     for capability in capabilities:
-        for field in ["id", "name", "summary", "implementationStatus"]:
+        for field in [
+            "id",
+            "name",
+            "summary",
+            "implementationStatus",
+            "replacementRole",
+            "replacementOutcome",
+            "autonomyLevel",
+            "deliverables",
+            "acceptanceChecks",
+        ]:
             if not capability.get(field):
                 errors.append(f"{catalog_path}: runtime max capability missing {field}")
-        if capability.get("implementationStatus") != "implemented_as_runtime_max_artifact":
+        if capability.get("implementationStatus") != "implemented_as_runtime_max_usp_artifact":
             errors.append(f"{catalog_path}: runtime max capability {capability.get('id')} has invalid status")
 
     required_files = [
@@ -544,8 +554,15 @@ def check_powerbi_runtime_max_layer(root: Path) -> list[str]:
         manifest_path = folder / "runtime_manifest.json"
         if manifest_path.exists():
             manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
-            if manifest.get("capabilityCount") != 15:
-                errors.append(f"{manifest_path}: expected capabilityCount 15")
+            if manifest.get("capabilityCount") != 70:
+                errors.append(f"{manifest_path}: expected capabilityCount 70")
+            runtime_usps = manifest.get("runtimeMaxUsps", [])
+            if len(runtime_usps) != 70:
+                errors.append(f"{manifest_path}: expected 70 runtimeMaxUsps")
+            for usp in runtime_usps:
+                artifact_path = root / usp.get("artifactPath", "")
+                if not artifact_path.exists():
+                    errors.append(f"{manifest_path}: runtime max USP artifact is missing: {artifact_path}")
             pbip = Path(manifest.get("pbip", {}).get("projectPath", ""))
             if not pbip.exists():
                 errors.append(f"{manifest_path}: generated PBIP path does not exist")
@@ -623,6 +640,67 @@ def check_powerbi_production_hardening(root: Path) -> list[str]:
     return errors
 
 
+def check_lead2order_analysis_package(root: Path) -> list[str]:
+    errors: list[str] = []
+    output_root = root / "outputs" / "lead2order-powerbi-analysis"
+    required_files = [
+        "README.md",
+        "lead2order_powerbi_manifest.json",
+        "measure_catalog.json",
+        "kpi_problem_questions.json",
+        "report_blueprint.json",
+        "dax_measures.dax",
+        "validation_result.json",
+        "pbip/Lead2OrderAnalysis/Lead2Order.pbip",
+    ]
+    for filename in required_files:
+        if not (output_root / filename).exists():
+            errors.append(f"{output_root / filename}: required Lead2Order analysis artifact is missing")
+
+    manifest_path = output_root / "lead2order_powerbi_manifest.json"
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        if manifest.get("processId") != "lead2order":
+            errors.append(f"{manifest_path}: expected processId lead2order")
+        if manifest.get("measureCount") != 30:
+            errors.append(f"{manifest_path}: expected 30 measures")
+        if manifest.get("problemQuestionCount") != 10:
+            errors.append(f"{manifest_path}: expected 10 problem questions")
+        if manifest.get("reportPageCount") != 6:
+            errors.append(f"{manifest_path}: expected 6 report pages")
+
+    measure_path = output_root / "measure_catalog.json"
+    if measure_path.exists():
+        measures = json.loads(measure_path.read_text(encoding="utf-8")).get("measures", [])
+        if len(measures) != 30:
+            errors.append(f"{measure_path}: expected 30 measures")
+        for measure in measures:
+            for field in ["name", "kpi", "expression", "question", "decision"]:
+                if not measure.get(field):
+                    errors.append(f"{measure_path}: measure {measure.get('name')} missing {field}")
+
+    questions_path = output_root / "kpi_problem_questions.json"
+    if questions_path.exists():
+        questions = json.loads(questions_path.read_text(encoding="utf-8")).get("problemQuestions", [])
+        if len(questions) != 10:
+            errors.append(f"{questions_path}: expected 10 problem questions")
+        for question in questions:
+            for field in ["area", "question", "primaryMeasures", "drilldowns", "action"]:
+                if not question.get(field):
+                    errors.append(f"{questions_path}: problem question missing {field}")
+
+    validation_path = output_root / "validation_result.json"
+    if validation_path.exists():
+        validation = json.loads(validation_path.read_text(encoding="utf-8"))
+        if validation.get("status") != "pass":
+            errors.append(f"{validation_path}: expected validation status pass")
+        summary = validation.get("summary", {})
+        if summary.get("errors") != 0 or summary.get("warnings") != 0:
+            errors.append(f"{validation_path}: expected zero errors and zero warnings")
+
+    return errors
+
+
 def run(root: Path) -> int:
     errors: list[str] = []
     errors.extend(check_required_files(root))
@@ -646,6 +724,7 @@ def run(root: Path) -> int:
     errors.extend(check_powerbi_premium_usp_layer(root))
     errors.extend(check_powerbi_runtime_max_layer(root))
     errors.extend(check_powerbi_production_hardening(root))
+    errors.extend(check_lead2order_analysis_package(root))
 
     if errors:
         for error in errors:

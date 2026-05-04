@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "issue2resolution",
+  "processName": "Issue2Resolution",
+  "capabilityId": "dashboard_consolidation_autopilot",
+  "capabilityName": "Dashboard Consolidation Autopilot",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No expert has to manually compare report inventories to find redundant dashboards and rationalization targets.",
+  "autonomyLevel": "autonomous_inventory_analysis_with_owner_approval",
+  "deliverables": [
+    "consolidation candidates",
+    "duplicate KPI map",
+    "target report proposal"
+  ],
+  "acceptanceChecks": [
+    "duplicate logic scored",
+    "owners identified",
+    "target-state recommendation exists"
+  ]
+}

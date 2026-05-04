@@ -1,0 +1,21 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "supplieronboarding2risk",
+  "processName": "SupplierOnboarding2Risk",
+  "capabilityId": "documentation_publisher_runtime",
+  "capabilityName": "Documentation Publisher Runtime",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually assemble recurring model, KPI, and release documentation.",
+  "autonomyLevel": "autonomous_manifest_generation",
+  "deliverables": [
+    "owner handbook",
+    "CoE evidence pack",
+    "KPI glossary",
+    "release notes"
+  ],
+  "acceptanceChecks": [
+    "owner document listed",
+    "model document listed",
+    "release evidence listed"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "record2report",
+  "processName": "Record2Report",
+  "capabilityId": "data_contract_negotiator",
+  "capabilityName": "Data Contract Negotiator",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually translate report requirements into source-system contracts.",
+  "autonomyLevel": "autonomous_contract_drafting_with_source_owner_signoff",
+  "deliverables": [
+    "source data contract",
+    "field obligation list",
+    "SLA and owner matrix"
+  ],
+  "acceptanceChecks": [
+    "required fields listed",
+    "freshness requirement exists",
+    "source owner assigned"
+  ]
+}

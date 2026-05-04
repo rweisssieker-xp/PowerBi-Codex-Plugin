@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "make_strategy",
+  "processName": "Make2Stock / Make2Order / Engineer2Order",
+  "capabilityId": "power_query_m_factory",
+  "capabilityName": "Power Query/M Factory",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to hand-author routine Power Query ingestion and typing logic.",
+  "autonomyLevel": "autonomous_for_supported_connectors",
+  "deliverables": [
+    "M query templates",
+    "type transformations",
+    "source navigation contract"
+  ],
+  "acceptanceChecks": [
+    "native connector used",
+    "numeric row navigation absent",
+    "type conversion present"
+  ]
+}

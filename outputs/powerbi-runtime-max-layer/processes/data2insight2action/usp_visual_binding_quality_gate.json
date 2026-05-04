@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "data2insight2action",
+  "processName": "Data2Insight2Action",
+  "capabilityId": "visual_binding_quality_gate",
+  "capabilityName": "Visual Binding Quality Gate",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to click through every visual just to find broken field bindings.",
+  "autonomyLevel": "autonomous_static_quality_gate",
+  "deliverables": [
+    "visual binding report",
+    "missing field diagnostics",
+    "visual count evidence"
+  ],
+  "acceptanceChecks": [
+    "all bound tables exist",
+    "all bound columns exist",
+    "all bound measures exist"
+  ]
+}

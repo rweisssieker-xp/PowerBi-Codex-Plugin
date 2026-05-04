@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "close2report_plan2perform",
+  "processName": "Close2Report / Plan2Perform",
+  "capabilityId": "root_cause_path_builder",
+  "capabilityName": "Root-Cause Path Builder",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually design root-cause navigation for each exception KPI.",
+  "autonomyLevel": "autonomous_for_standard_process_chains",
+  "deliverables": [
+    "driver tree",
+    "drill path contract",
+    "exception segmentation"
+  ],
+  "acceptanceChecks": [
+    "breach KPI has at least one driver",
+    "owner field exists",
+    "case-level drill is present"
+  ]
+}

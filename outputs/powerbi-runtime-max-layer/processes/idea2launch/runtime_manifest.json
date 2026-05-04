@@ -3,7 +3,7 @@
   "generatedAt": "2026-05-04T07:05:34.834459+00:00",
   "processId": "idea2launch",
   "processName": "Idea2Launch / Engineer2Release",
-  "capabilityCount": 15,
+  "capabilityCount": 70,
   "pbip": {
     "projectName": "Idea2Launch_Engineer2Release",
     "projectPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/pbip/Idea2Launch_Engineer2Release",
@@ -13,5 +13,1409 @@
     "relationships": 3,
     "pages": 4,
     "visuals": 16
-  }
+  },
+  "runtimeMaxUsps": [
+    {
+      "sequence": 1,
+      "capabilityId": "question_to_model_autopilot",
+      "capabilityName": "Question-to-Model Autopilot",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst workshop is needed to translate the business question into a model-ready analytics scope.",
+      "autonomyLevel": "autonomous_with_governance_review",
+      "deliverables": [
+        "intake interpretation",
+        "model grain decision",
+        "KPI contract set"
+      ],
+      "acceptanceChecks": [
+        "scope maps to one process",
+        "grain is explicit",
+        "every KPI has owner and formula"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_question_to_model_autopilot.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 2,
+      "capabilityId": "source_discovery_autopilot",
+      "capabilityName": "Source Discovery Autopilot",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to inventory columns, types, nulls, row counts, and source fit by hand.",
+      "autonomyLevel": "autonomous_for_demo_and_contract_driven_for_production",
+      "deliverables": [
+        "source profile",
+        "native connector choice",
+        "credential-safe evidence"
+      ],
+      "acceptanceChecks": [
+        "secrets absent",
+        "row-count evidence exists",
+        "connector policy selected"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_source_discovery_autopilot.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 3,
+      "capabilityId": "ai_field_mapping_runtime",
+      "capabilityName": "AI Field Mapping Runtime",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to map every source column to semantic fields manually.",
+      "autonomyLevel": "autonomous_with_exception_queue",
+      "deliverables": [
+        "field candidates",
+        "confidence scores",
+        "unmapped-field queue"
+      ],
+      "acceptanceChecks": [
+        "required fields mapped",
+        "low-confidence mappings flagged",
+        "type compatibility checked"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_ai_field_mapping_runtime.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 4,
+      "capabilityId": "kpi_ontology_runtime",
+      "capabilityName": "KPI Ontology Runtime",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to reconcile KPI naming, metric meaning, and owner definitions manually.",
+      "autonomyLevel": "autonomous_with_owner_signoff",
+      "deliverables": [
+        "KPI glossary",
+        "formula contracts",
+        "comparability notes"
+      ],
+      "acceptanceChecks": [
+        "duplicate KPI names resolved",
+        "formula is explicit",
+        "owner role assigned"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_kpi_ontology_runtime.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 5,
+      "capabilityId": "root_cause_path_builder",
+      "capabilityName": "Root-Cause Path Builder",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually design root-cause navigation for each exception KPI.",
+      "autonomyLevel": "autonomous_for_standard_process_chains",
+      "deliverables": [
+        "driver tree",
+        "drill path contract",
+        "exception segmentation"
+      ],
+      "acceptanceChecks": [
+        "breach KPI has at least one driver",
+        "owner field exists",
+        "case-level drill is present"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_root_cause_path_builder.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 6,
+      "capabilityId": "narrative_insight_writer",
+      "capabilityName": "Narrative Insight Writer",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to write recurring management commentary from dashboard evidence.",
+      "autonomyLevel": "autonomous_when_evidence_thresholds_pass",
+      "deliverables": [
+        "executive summary",
+        "variance explanation",
+        "recommended action text"
+      ],
+      "acceptanceChecks": [
+        "claims cite metric evidence",
+        "no unsupported causal language",
+        "actions map to owner role"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_narrative_insight_writer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 7,
+      "capabilityId": "tmdl_compiler",
+      "capabilityName": "TMDL Compiler",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to hand-author baseline TMDL tables, measures, and relationship files.",
+      "autonomyLevel": "autonomous_with_static_validation",
+      "deliverables": [
+        "TMDL tables",
+        "relationships.tmdl",
+        "baseline measures"
+      ],
+      "acceptanceChecks": [
+        "parse_model succeeds",
+        "relationships reference existing columns",
+        "measures are discoverable"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_tmdl_compiler.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 8,
+      "capabilityId": "full_pbip_generator",
+      "capabilityName": "Full PBIP Generator",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to create the project folder, semantic model, report shell, or PBIP metadata manually.",
+      "autonomyLevel": "autonomous_for_supported_processes",
+      "deliverables": [
+        "PBIP project",
+        "semantic model folder",
+        "report folder"
+      ],
+      "acceptanceChecks": [
+        "PBIP path exists",
+        "semantic model exists",
+        "report definition exists"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_full_pbip_generator.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 9,
+      "capabilityId": "pbir_visual_materializer",
+      "capabilityName": "PBIR Visual Materializer",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to build the first report pages and visual bindings by hand.",
+      "autonomyLevel": "autonomous_with_visual_binding_validation",
+      "deliverables": [
+        "PBIR pages",
+        "visual.json files",
+        "visual binding map"
+      ],
+      "acceptanceChecks": [
+        "all visuals bind to known fields",
+        "page count is nonzero",
+        "visual count is nonzero"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_pbir_visual_materializer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 10,
+      "capabilityId": "dax_measure_factory",
+      "capabilityName": "DAX Measure Factory",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No DAX expert has to hand-write the standard KPI measure catalog.",
+      "autonomyLevel": "autonomous_with_expected_result_tests",
+      "deliverables": [
+        "DAX measures",
+        "format strings",
+        "KPI-to-measure lineage"
+      ],
+      "acceptanceChecks": [
+        "measure names match KPI contracts",
+        "static DAX warnings reviewed",
+        "expected-result rule exists"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_dax_measure_factory.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 11,
+      "capabilityId": "dax_expected_result_runner",
+      "capabilityName": "DAX Expected-Result Runner",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No expert has to manually reconcile every generated measure against source totals.",
+      "autonomyLevel": "autonomous_for_contract_checks",
+      "deliverables": [
+        "expected-result contract",
+        "tolerance policy",
+        "reconciliation evidence"
+      ],
+      "acceptanceChecks": [
+        "source aggregate defined",
+        "measure aggregate defined",
+        "tolerance is explicit"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_dax_expected_result_runner.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 12,
+      "capabilityId": "power_query_m_factory",
+      "capabilityName": "Power Query/M Factory",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to hand-author routine Power Query ingestion and typing logic.",
+      "autonomyLevel": "autonomous_for_supported_connectors",
+      "deliverables": [
+        "M query templates",
+        "type transformations",
+        "source navigation contract"
+      ],
+      "acceptanceChecks": [
+        "native connector used",
+        "numeric row navigation absent",
+        "type conversion present"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_power_query_m_factory.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 13,
+      "capabilityId": "real_connector_runner_contracts",
+      "capabilityName": "Real Connector Runner Contracts",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to redesign connector execution and credential boundaries per project.",
+      "autonomyLevel": "contract_driven_until_credentials_are_available",
+      "deliverables": [
+        "connector runtime contract",
+        "credential boundary",
+        "source evidence policy"
+      ],
+      "acceptanceChecks": [
+        "credential policy is ephemeral",
+        "connector list is explicit",
+        "evidence excludes secrets"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_real_connector_runner_contracts.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 14,
+      "capabilityId": "credential_safe_runtime",
+      "capabilityName": "Credential-Safe Runtime",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to manually scrub generated artifacts for credentials.",
+      "autonomyLevel": "autonomous_policy_enforcement",
+      "deliverables": [
+        "secret exclusion policy",
+        "runtime-only credential plan",
+        "evidence manifest"
+      ],
+      "acceptanceChecks": [
+        "no secret-like fields emitted",
+        "evidence contains metadata only",
+        "runtime handoff documented"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_credential_safe_runtime.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 15,
+      "capabilityId": "semantic_auto_repair",
+      "capabilityName": "Semantic Auto-Repair",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No expert has to diagnose common model, relationship, and visual-binding failures manually.",
+      "autonomyLevel": "autonomous_for_known_failure_classes",
+      "deliverables": [
+        "repair rules",
+        "failure classification",
+        "validation command"
+      ],
+      "acceptanceChecks": [
+        "known failure class mapped",
+        "repair action deterministic",
+        "post-repair validation listed"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_semantic_auto_repair.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 16,
+      "capabilityId": "desktop_frown_log_parser",
+      "capabilityName": "Desktop/Frown Log Parser",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No expert has to manually inspect Desktop logs before the first failure classification.",
+      "autonomyLevel": "autonomous_classification_with_manual_escalation",
+      "deliverables": [
+        "log parser contract",
+        "issue class",
+        "repair recommendation"
+      ],
+      "acceptanceChecks": [
+        "input artifact defined",
+        "classification taxonomy present",
+        "escalation path exists"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_desktop_frown_log_parser.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 17,
+      "capabilityId": "model_graph_quality_gate",
+      "capabilityName": "Model Graph Quality Gate",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No model expert has to manually inspect basic relationship correctness.",
+      "autonomyLevel": "autonomous_static_quality_gate",
+      "deliverables": [
+        "model graph check",
+        "relationship diagnostics",
+        "quality verdict"
+      ],
+      "acceptanceChecks": [
+        "fact-to-fact blocked",
+        "missing columns blocked",
+        "ambiguous path checked"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_model_graph_quality_gate.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 18,
+      "capabilityId": "visual_binding_quality_gate",
+      "capabilityName": "Visual Binding Quality Gate",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to click through every visual just to find broken field bindings.",
+      "autonomyLevel": "autonomous_static_quality_gate",
+      "deliverables": [
+        "visual binding report",
+        "missing field diagnostics",
+        "visual count evidence"
+      ],
+      "acceptanceChecks": [
+        "all bound tables exist",
+        "all bound columns exist",
+        "all bound measures exist"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_visual_binding_quality_gate.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 19,
+      "capabilityId": "report_layout_scoring_runtime",
+      "capabilityName": "Report Layout Scoring Runtime",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No report expert has to manually review every first-pass layout against design rules.",
+      "autonomyLevel": "autonomous_with_design_review_escalation",
+      "deliverables": [
+        "layout score",
+        "page-level findings",
+        "improvement queue"
+      ],
+      "acceptanceChecks": [
+        "score threshold defined",
+        "action cockpit present",
+        "oversized header risk checked"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_report_layout_scoring_runtime.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 20,
+      "capabilityId": "rls_role_generator",
+      "capabilityName": "RLS Role Generator",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No expert has to manually draft standard row-level security roles for each process pack.",
+      "autonomyLevel": "contract_generated_requires_security_review",
+      "deliverables": [
+        "RLS role contract",
+        "filter expression plan",
+        "test persona matrix"
+      ],
+      "acceptanceChecks": [
+        "owner role present",
+        "test persona exists",
+        "security review required"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_rls_role_generator.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 21,
+      "capabilityId": "process_mining_eventlog_runtime",
+      "capabilityName": "Process Mining Event Log Runtime",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually shape case/activity/timestamp event logs.",
+      "autonomyLevel": "autonomous_for_catalog_processes",
+      "deliverables": [
+        "event log schema",
+        "case/activity mapping",
+        "process flow fields"
+      ],
+      "acceptanceChecks": [
+        "case id exists",
+        "activity exists",
+        "timestamp exists"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_process_mining_eventlog_runtime.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 22,
+      "capabilityId": "action_cockpit_generator",
+      "capabilityName": "Action Cockpit Generator",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually convert insights into owner-specific action lists.",
+      "autonomyLevel": "autonomous_for_standard_owner_workflows",
+      "deliverables": [
+        "owner queue",
+        "severity rules",
+        "action status model"
+      ],
+      "acceptanceChecks": [
+        "owner field exists",
+        "action required flag exists",
+        "SLA breach rule exists"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_action_cockpit_generator.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 23,
+      "capabilityId": "tenant_readiness_runtime",
+      "capabilityName": "Tenant Readiness Runtime",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No expert has to create a tenant readiness checklist from scratch.",
+      "autonomyLevel": "autonomous_checklist_generation",
+      "deliverables": [
+        "tenant checklist",
+        "capacity assumptions",
+        "governance gaps"
+      ],
+      "acceptanceChecks": [
+        "gateway checked",
+        "capacity checked",
+        "sensitivity labels checked"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_tenant_readiness_runtime.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 24,
+      "capabilityId": "deployment_pipeline_runtime",
+      "capabilityName": "Deployment Pipeline Runtime",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to manually define routine deployment pipeline steps.",
+      "autonomyLevel": "autonomous_plan_generation",
+      "deliverables": [
+        "deployment plan",
+        "approval gates",
+        "rollback plan"
+      ],
+      "acceptanceChecks": [
+        "dev/test/prod stages exist",
+        "rollback defined",
+        "approval gate present"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_deployment_pipeline_runtime.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 25,
+      "capabilityId": "fabric_scaffold_runtime",
+      "capabilityName": "Fabric Scaffold Runtime",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to manually outline common Fabric scaffolding for process analytics.",
+      "autonomyLevel": "autonomous_scaffold_plan",
+      "deliverables": [
+        "Lakehouse plan",
+        "Warehouse plan",
+        "Notebook plan",
+        "Pipeline plan"
+      ],
+      "acceptanceChecks": [
+        "storage artifact listed",
+        "transform artifact listed",
+        "pipeline artifact listed"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_fabric_scaffold_runtime.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 26,
+      "capabilityId": "documentation_publisher_runtime",
+      "capabilityName": "Documentation Publisher Runtime",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually assemble recurring model, KPI, and release documentation.",
+      "autonomyLevel": "autonomous_manifest_generation",
+      "deliverables": [
+        "owner handbook",
+        "CoE evidence pack",
+        "KPI glossary",
+        "release notes"
+      ],
+      "acceptanceChecks": [
+        "owner document listed",
+        "model document listed",
+        "release evidence listed"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_documentation_publisher_runtime.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 27,
+      "capabilityId": "acceptance_evidence_packager",
+      "capabilityName": "Acceptance Evidence Packager",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No expert has to manually compile proof that generated delivery artifacts are release-ready.",
+      "autonomyLevel": "autonomous_evidence_packaging",
+      "deliverables": [
+        "acceptance evidence",
+        "quality gate summary",
+        "release decision input"
+      ],
+      "acceptanceChecks": [
+        "all checks summarized",
+        "artifact manifest linked",
+        "release status explicit"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_acceptance_evidence_packager.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 28,
+      "capabilityId": "process_owner_acceptance_runtime",
+      "capabilityName": "Process Owner Acceptance Runtime",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually translate technical outputs into process-owner acceptance language.",
+      "autonomyLevel": "autonomous_with_owner_signoff",
+      "deliverables": [
+        "acceptance checklist",
+        "signoff questions",
+        "owner-facing evidence"
+      ],
+      "acceptanceChecks": [
+        "business criteria exist",
+        "technical jargon minimized",
+        "owner signoff required"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_process_owner_acceptance_runtime.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 29,
+      "capabilityId": "release_decision_copilot",
+      "capabilityName": "Release Decision Copilot",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No expert has to manually synthesize every validation signal into the first release decision.",
+      "autonomyLevel": "autonomous_recommendation_with_human_approval",
+      "deliverables": [
+        "release recommendation",
+        "blocking issues",
+        "next action"
+      ],
+      "acceptanceChecks": [
+        "blocking errors stop release",
+        "warnings are counted",
+        "next action is explicit"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_release_decision_copilot.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 30,
+      "capabilityId": "continuous_improvement_backlog",
+      "capabilityName": "Continuous Improvement Backlog",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually maintain the improvement backlog after each generated delivery.",
+      "autonomyLevel": "autonomous_backlog_generation",
+      "deliverables": [
+        "improvement backlog",
+        "priority score",
+        "evidence link"
+      ],
+      "acceptanceChecks": [
+        "each item has evidence",
+        "priority assigned",
+        "owner role assigned"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_continuous_improvement_backlog.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 31,
+      "capabilityId": "dashboard_consolidation_autopilot",
+      "capabilityName": "Dashboard Consolidation Autopilot",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No expert has to manually compare report inventories to find redundant dashboards and rationalization targets.",
+      "autonomyLevel": "autonomous_inventory_analysis_with_owner_approval",
+      "deliverables": [
+        "consolidation candidates",
+        "duplicate KPI map",
+        "target report proposal"
+      ],
+      "acceptanceChecks": [
+        "duplicate logic scored",
+        "owners identified",
+        "target-state recommendation exists"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_dashboard_consolidation_autopilot.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 32,
+      "capabilityId": "legacy_report_reverse_engineer",
+      "capabilityName": "Legacy Report Reverse Engineer",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to manually document legacy reports before modernization work can start.",
+      "autonomyLevel": "autonomous_for_pbip_and_contract_driven_for_pbix",
+      "deliverables": [
+        "legacy report inventory",
+        "measure and visual map",
+        "migration plan"
+      ],
+      "acceptanceChecks": [
+        "sources identified",
+        "measures cataloged",
+        "migration blockers listed"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_legacy_report_reverse_engineer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 33,
+      "capabilityId": "business_question_simulator",
+      "capabilityName": "Business Question Simulator",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually create coverage tests for common business questions.",
+      "autonomyLevel": "autonomous_question_coverage_testing",
+      "deliverables": [
+        "question set",
+        "coverage matrix",
+        "unanswered question backlog"
+      ],
+      "acceptanceChecks": [
+        "questions map to process KPIs",
+        "coverage verdict exists",
+        "gaps become backlog items"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_business_question_simulator.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 34,
+      "capabilityId": "kpi_dispute_resolver",
+      "capabilityName": "KPI Dispute Resolver",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually reconcile competing metric definitions across Finance, Sales, and Operations.",
+      "autonomyLevel": "autonomous_conflict_detection_with_owner_decision",
+      "deliverables": [
+        "KPI conflict report",
+        "definition options",
+        "decision record"
+      ],
+      "acceptanceChecks": [
+        "conflict reason stated",
+        "impacted reports listed",
+        "owner decision required"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_kpi_dispute_resolver.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 35,
+      "capabilityId": "semantic_model_refactoring_autopilot",
+      "capabilityName": "Semantic Model Refactoring Autopilot",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No semantic modeling expert has to manually inspect routine model smells and draft refactoring actions.",
+      "autonomyLevel": "autonomous_diagnostics_with_refactor_plan",
+      "deliverables": [
+        "model smell report",
+        "target star schema",
+        "refactor backlog"
+      ],
+      "acceptanceChecks": [
+        "grain issues flagged",
+        "duplicate measures detected",
+        "target model described"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_semantic_model_refactoring_autopilot.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 36,
+      "capabilityId": "executive_board_pack_generator",
+      "capabilityName": "Executive Board Pack Generator",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually prepare recurring executive packs from dashboard data.",
+      "autonomyLevel": "autonomous_when_evidence_is_sufficient",
+      "deliverables": [
+        "board summary",
+        "risk and action list",
+        "decision prompts"
+      ],
+      "acceptanceChecks": [
+        "claims cite metrics",
+        "risks map to KPIs",
+        "decision questions are explicit"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_executive_board_pack_generator.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 37,
+      "capabilityId": "powerbi_performance_engineer",
+      "capabilityName": "Power BI Performance Engineer",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No performance expert has to manually triage standard Power BI performance risks.",
+      "autonomyLevel": "autonomous_static_and_contract_based_analysis",
+      "deliverables": [
+        "performance budget",
+        "optimization findings",
+        "refresh risk plan"
+      ],
+      "acceptanceChecks": [
+        "expensive patterns flagged",
+        "budget thresholds defined",
+        "mitigation proposed"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_powerbi_performance_engineer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 38,
+      "capabilityId": "refresh_failure_triage_agent",
+      "capabilityName": "Refresh Failure Triage Agent",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to manually classify routine refresh incidents before the first repair action.",
+      "autonomyLevel": "autonomous_classification_with_escalation",
+      "deliverables": [
+        "failure class",
+        "probable cause",
+        "repair checklist"
+      ],
+      "acceptanceChecks": [
+        "failure evidence parsed",
+        "category assigned",
+        "next repair action stated"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_refresh_failure_triage_agent.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 39,
+      "capabilityId": "data_contract_negotiator",
+      "capabilityName": "Data Contract Negotiator",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually translate report requirements into source-system contracts.",
+      "autonomyLevel": "autonomous_contract_drafting_with_source_owner_signoff",
+      "deliverables": [
+        "source data contract",
+        "field obligation list",
+        "SLA and owner matrix"
+      ],
+      "acceptanceChecks": [
+        "required fields listed",
+        "freshness requirement exists",
+        "source owner assigned"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_data_contract_negotiator.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 40,
+      "capabilityId": "report_ux_critic",
+      "capabilityName": "Report UX Critic",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No report design expert has to manually perform the first UX quality review.",
+      "autonomyLevel": "autonomous_review_with_design_backlog",
+      "deliverables": [
+        "UX scorecard",
+        "page findings",
+        "design improvement backlog"
+      ],
+      "acceptanceChecks": [
+        "visual overload checked",
+        "action path checked",
+        "chart fit reviewed"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_report_ux_critic.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 41,
+      "capabilityId": "dax_explainability_layer",
+      "capabilityName": "DAX Explainability Layer",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No DAX expert has to manually document standard measure behavior for business and CoE review.",
+      "autonomyLevel": "autonomous_measure_documentation",
+      "deliverables": [
+        "measure explanation",
+        "filter-context notes",
+        "risk and test notes"
+      ],
+      "acceptanceChecks": [
+        "business explanation exists",
+        "dependencies listed",
+        "test scenario attached"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_dax_explainability_layer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 42,
+      "capabilityId": "measure_dependency_impact_analyzer",
+      "capabilityName": "Measure Dependency Impact Analyzer",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to manually trace dependency blast radius before changing a semantic model.",
+      "autonomyLevel": "autonomous_static_lineage_analysis",
+      "deliverables": [
+        "impact map",
+        "affected visual list",
+        "regression test list"
+      ],
+      "acceptanceChecks": [
+        "changed object identified",
+        "dependents listed",
+        "regression scope exists"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_measure_dependency_impact_analyzer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 43,
+      "capabilityId": "rls_ols_attack_simulator",
+      "capabilityName": "RLS/OLS Attack Simulator",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No security-focused Power BI expert has to manually design first-pass role leakage tests.",
+      "autonomyLevel": "contract_generated_requires_security_review",
+      "deliverables": [
+        "attack scenarios",
+        "persona matrix",
+        "security findings"
+      ],
+      "acceptanceChecks": [
+        "leakage scenario exists",
+        "persona coverage checked",
+        "manual security signoff required"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_rls_ols_attack_simulator.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 44,
+      "capabilityId": "powerbi_coe_certification_bot",
+      "capabilityName": "Power BI CoE Certification Bot",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No CoE reviewer has to manually perform the first certification decision pass.",
+      "autonomyLevel": "autonomous_recommendation_with_coe_approval",
+      "deliverables": [
+        "certification status",
+        "certification reasons",
+        "blocking evidence"
+      ],
+      "acceptanceChecks": [
+        "status is explicit",
+        "blocking issues listed",
+        "CoE approval gate present"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_powerbi_coe_certification_bot.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 45,
+      "capabilityId": "fabric_cost_guardrail",
+      "capabilityName": "Fabric Cost Guardrail",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No Fabric expert has to manually create the first cost-risk assessment for standard process analytics.",
+      "autonomyLevel": "autonomous_estimation_with_capacity_owner_review",
+      "deliverables": [
+        "cost risk estimate",
+        "capacity guardrails",
+        "optimization recommendations"
+      ],
+      "acceptanceChecks": [
+        "capacity driver listed",
+        "cost risk scored",
+        "owner review required"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_fabric_cost_guardrail.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 46,
+      "capabilityId": "natural_language_data_mart_builder",
+      "capabilityName": "Natural Language Data Mart Builder",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually draft the first data mart structure from a business question.",
+      "autonomyLevel": "autonomous_plan_generation_with_architecture_review",
+      "deliverables": [
+        "data mart plan",
+        "table grain map",
+        "history and refresh policy"
+      ],
+      "acceptanceChecks": [
+        "facts and dimensions defined",
+        "history policy exists",
+        "refresh rule exists"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_natural_language_data_mart_builder.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 47,
+      "capabilityId": "process_benchmark_pack",
+      "capabilityName": "Process Benchmark Pack",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually assemble benchmark comparisons for every process pack.",
+      "autonomyLevel": "autonomous_when_benchmark_source_is_available",
+      "deliverables": [
+        "benchmark bands",
+        "deviation flags",
+        "benchmark evidence"
+      ],
+      "acceptanceChecks": [
+        "benchmark source stated",
+        "variance threshold exists",
+        "outliers listed"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_process_benchmark_pack.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 48,
+      "capabilityId": "audit_ready_evidence_vault",
+      "capabilityName": "Audit-Ready Evidence Vault",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No governance expert has to manually compile recurring audit evidence for generated BI deliveries.",
+      "autonomyLevel": "autonomous_evidence_assembly_with_retention_policy",
+      "deliverables": [
+        "audit evidence record",
+        "lineage package",
+        "signoff manifest"
+      ],
+      "acceptanceChecks": [
+        "source evidence linked",
+        "test evidence linked",
+        "owner signoff linked"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_audit_ready_evidence_vault.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 49,
+      "capabilityId": "user_adoption_tracker",
+      "capabilityName": "User Adoption Tracker",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually review adoption and report-value signals after release.",
+      "autonomyLevel": "contract_driven_until_usage_telemetry_is_connected",
+      "deliverables": [
+        "adoption score",
+        "stale asset list",
+        "usage-driven backlog"
+      ],
+      "acceptanceChecks": [
+        "telemetry contract exists",
+        "unused assets flagged",
+        "owner action assigned"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_user_adoption_tracker.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 50,
+      "capabilityId": "autonomous_bi_sprint_manager",
+      "capabilityName": "Autonomous BI Sprint Manager",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No lead analyst or BI manager has to manually orchestrate the standard delivery sprint.",
+      "autonomyLevel": "autonomous_sprint_plan_with_human_release_approval",
+      "deliverables": [
+        "sprint plan",
+        "delivery checklist",
+        "release and backlog status"
+      ],
+      "acceptanceChecks": [
+        "all delivery stages listed",
+        "quality gates included",
+        "release approval required"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_autonomous_bi_sprint_manager.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 51,
+      "capabilityId": "pbix_binary_intake",
+      "capabilityName": "PBIX Binary Intake",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to manually unpack and document PBIX assets before migration or review.",
+      "autonomyLevel": "contract_driven_with_binary_parser_runtime",
+      "deliverables": [
+        "PBIX intake manifest",
+        "extractable metadata map",
+        "unsupported artifact queue"
+      ],
+      "acceptanceChecks": [
+        "binary source recorded",
+        "extract status explicit",
+        "unsupported parts listed"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_pbix_binary_intake.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 52,
+      "capabilityId": "live_tenant_scanner",
+      "capabilityName": "Live Tenant Scanner",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No tenant admin or CoE analyst has to manually inventory the Power BI estate.",
+      "autonomyLevel": "api_runtime_requires_tenant_credentials",
+      "deliverables": [
+        "tenant inventory",
+        "workspace lineage map",
+        "refresh and owner evidence"
+      ],
+      "acceptanceChecks": [
+        "workspace list captured",
+        "dataset/report links captured",
+        "credential boundary enforced"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_live_tenant_scanner.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 53,
+      "capabilityId": "powerbi_rest_deployer",
+      "capabilityName": "Power BI REST Deployer",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to manually execute routine Power BI deployment API steps.",
+      "autonomyLevel": "api_runtime_with_release_approval",
+      "deliverables": [
+        "REST deployment plan",
+        "API operation manifest",
+        "deployment evidence"
+      ],
+      "acceptanceChecks": [
+        "target workspace defined",
+        "release approval present",
+        "API evidence captured"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_powerbi_rest_deployer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 54,
+      "capabilityId": "tabular_editor_tom_bridge",
+      "capabilityName": "Tabular Editor / TOM Bridge",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No tabular model developer has to manually run standard TOM/TMSL validation and patch routines.",
+      "autonomyLevel": "runtime_bridge_requires_tabular_tooling",
+      "deliverables": [
+        "TOM validation contract",
+        "TMSL patch plan",
+        "tabular execution evidence"
+      ],
+      "acceptanceChecks": [
+        "model endpoint defined",
+        "patch is deterministic",
+        "validation result recorded"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_tabular_editor_tom_bridge.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 55,
+      "capabilityId": "dax_query_runner",
+      "capabilityName": "DAX Query Runner",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No DAX expert has to manually run routine validation queries against generated models.",
+      "autonomyLevel": "runtime_execution_requires_model_endpoint",
+      "deliverables": [
+        "DAX query suite",
+        "query result evidence",
+        "measure reconciliation verdict"
+      ],
+      "acceptanceChecks": [
+        "model endpoint defined",
+        "query text recorded",
+        "expected-vs-actual verdict exists"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_dax_query_runner.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 56,
+      "capabilityId": "query_folding_verifier",
+      "capabilityName": "Query Folding Verifier",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No Power Query expert has to manually inspect every folding-sensitive transformation.",
+      "autonomyLevel": "hybrid_static_and_runtime_verification",
+      "deliverables": [
+        "folding check result",
+        "non-folding step list",
+        "performance risk evidence"
+      ],
+      "acceptanceChecks": [
+        "folding-sensitive source identified",
+        "breaking step listed",
+        "fallback risk scored"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_query_folding_verifier.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 57,
+      "capabilityId": "incremental_refresh_designer",
+      "capabilityName": "Incremental Refresh Designer",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to manually design routine incremental refresh policies.",
+      "autonomyLevel": "autonomous_policy_generation_with_capacity_review",
+      "deliverables": [
+        "incremental refresh policy",
+        "partition plan",
+        "refresh validation plan"
+      ],
+      "acceptanceChecks": [
+        "date column selected",
+        "historical window defined",
+        "refresh window defined"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_incremental_refresh_designer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 58,
+      "capabilityId": "composite_model_advisor",
+      "capabilityName": "Composite Model Advisor",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No model architect has to manually decide standard storage-mode trade-offs from scratch.",
+      "autonomyLevel": "autonomous_advice_with_architecture_review",
+      "deliverables": [
+        "storage mode recommendation",
+        "aggregation plan",
+        "hybrid boundary notes"
+      ],
+      "acceptanceChecks": [
+        "latency need captured",
+        "volume driver captured",
+        "trade-off stated"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_composite_model_advisor.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 59,
+      "capabilityId": "deployment_rollback_executor",
+      "capabilityName": "Deployment Rollback Executor",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to manually restore a previous Power BI release after failed deployment.",
+      "autonomyLevel": "api_runtime_requires_release_policy",
+      "deliverables": [
+        "rollback snapshot",
+        "rollback operation plan",
+        "rollback evidence"
+      ],
+      "acceptanceChecks": [
+        "previous version captured",
+        "rollback trigger defined",
+        "rollback result recorded"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_deployment_rollback_executor.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 60,
+      "capabilityId": "gateway_configuration_auditor",
+      "capabilityName": "Gateway Configuration Auditor",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No gateway specialist has to manually perform first-pass gateway readiness reviews.",
+      "autonomyLevel": "api_runtime_requires_gateway_admin_scope",
+      "deliverables": [
+        "gateway inventory",
+        "datasource mapping",
+        "risk and SPOF findings"
+      ],
+      "acceptanceChecks": [
+        "gateway owner captured",
+        "datasource mapping exists",
+        "SPOF risk scored"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_gateway_configuration_auditor.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 61,
+      "capabilityId": "sensitivity_purview_classifier",
+      "capabilityName": "Sensitivity / Purview Classifier",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No governance reviewer has to manually classify routine sensitivity and endorsement signals.",
+      "autonomyLevel": "hybrid_metadata_and_policy_runtime",
+      "deliverables": [
+        "classification map",
+        "label recommendation",
+        "governance evidence"
+      ],
+      "acceptanceChecks": [
+        "sensitive fields flagged",
+        "label recommendation exists",
+        "policy source recorded"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_sensitivity_purview_classifier.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 62,
+      "capabilityId": "data_quality_profiler_runtime",
+      "capabilityName": "Data Quality Profiler Runtime",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually perform routine data-quality profiling before report delivery.",
+      "autonomyLevel": "runtime_execution_when_source_access_exists",
+      "deliverables": [
+        "data quality profile",
+        "DQ findings",
+        "quality gate verdict"
+      ],
+      "acceptanceChecks": [
+        "null profile exists",
+        "duplicate check exists",
+        "freshness check exists"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_data_quality_profiler_runtime.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 63,
+      "capabilityId": "anomaly_detection_pack",
+      "capabilityName": "Anomaly Detection Pack",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually scan KPI trends for common anomalies and process breaks.",
+      "autonomyLevel": "autonomous_when_time_series_exists",
+      "deliverables": [
+        "anomaly findings",
+        "seasonality notes",
+        "exception queue"
+      ],
+      "acceptanceChecks": [
+        "baseline window defined",
+        "anomaly threshold stated",
+        "owner action attached"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_anomaly_detection_pack.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 64,
+      "capabilityId": "forecast_what_if_builder",
+      "capabilityName": "Forecast / What-If Builder",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually design standard forecast and what-if structures.",
+      "autonomyLevel": "autonomous_with_model_quality_threshold",
+      "deliverables": [
+        "forecast contract",
+        "what-if parameters",
+        "scenario page plan"
+      ],
+      "acceptanceChecks": [
+        "history sufficiency checked",
+        "parameter range defined",
+        "scenario output listed"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_forecast_what_if_builder.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 65,
+      "capabilityId": "metric_store_connector",
+      "capabilityName": "Metric Store Connector",
+      "replacementRole": "Power BI Developer",
+      "replacementOutcome": "No developer has to manually align generated KPI contracts with central metric-store records.",
+      "autonomyLevel": "api_runtime_requires_metric_store_access",
+      "deliverables": [
+        "metric-store mapping",
+        "sync plan",
+        "definition drift evidence"
+      ],
+      "acceptanceChecks": [
+        "KPI id mapped",
+        "sync direction stated",
+        "definition drift checked"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_metric_store_connector.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 66,
+      "capabilityId": "enterprise_glossary_sync",
+      "capabilityName": "Enterprise Glossary Sync",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually copy KPI and field definitions between BI artifacts and data catalogs.",
+      "autonomyLevel": "api_or_export_runtime_with_steward_approval",
+      "deliverables": [
+        "glossary mapping",
+        "sync evidence",
+        "steward review queue"
+      ],
+      "acceptanceChecks": [
+        "glossary target defined",
+        "term owner present",
+        "sync conflict listed"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_enterprise_glossary_sync.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 67,
+      "capabilityId": "ticketing_integration",
+      "capabilityName": "Ticketing Integration",
+      "replacementRole": "Data Analyst",
+      "replacementOutcome": "No analyst has to manually transfer BI findings and release blockers into operational ticket queues.",
+      "autonomyLevel": "api_runtime_requires_ticketing_credentials",
+      "deliverables": [
+        "ticket payloads",
+        "ticket routing map",
+        "ticket creation evidence"
+      ],
+      "acceptanceChecks": [
+        "ticket system selected",
+        "owner queue mapped",
+        "created ticket id recorded"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_ticketing_integration.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 68,
+      "capabilityId": "access_review_automation",
+      "capabilityName": "Access Review Automation",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No access reviewer has to manually perform recurring Power BI permission reviews.",
+      "autonomyLevel": "api_runtime_with_security_owner_signoff",
+      "deliverables": [
+        "access review report",
+        "permission exception list",
+        "signoff evidence"
+      ],
+      "acceptanceChecks": [
+        "principal list captured",
+        "exceptions flagged",
+        "security owner signoff required"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_access_review_automation.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 69,
+      "capabilityId": "usage_based_refactoring_agent",
+      "capabilityName": "Usage-Based Refactoring Agent",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No BI lead has to manually rank modernization work from scattered operational signals.",
+      "autonomyLevel": "autonomous_when_telemetry_contracts_exist",
+      "deliverables": [
+        "refactor priority list",
+        "usage and performance evidence",
+        "modernization roadmap"
+      ],
+      "acceptanceChecks": [
+        "usage signal included",
+        "performance signal included",
+        "priority score assigned"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_usage_based_refactoring_agent.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 70,
+      "capabilityId": "multi_tenant_msp_mode",
+      "capabilityName": "Multi-Tenant / MSP Mode",
+      "replacementRole": "Power BI Expert",
+      "replacementOutcome": "No MSP delivery lead has to manually separate tenant policies, artifacts, and rollout evidence.",
+      "autonomyLevel": "autonomous_isolation_contract_with_external_credentials",
+      "deliverables": [
+        "tenant isolation manifest",
+        "policy matrix",
+        "rollout status board"
+      ],
+      "acceptanceChecks": [
+        "tenant boundary explicit",
+        "policy isolation checked",
+        "cross-tenant leakage blocked"
+      ],
+      "artifactPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/usp_multi_tenant_msp_mode.json",
+      "artifactExists": true
+    }
+  ]
 }

@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "nonconformance2disposition",
+  "processName": "Nonconformance2Disposition",
+  "capabilityId": "report_ux_critic",
+  "capabilityName": "Report UX Critic",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No report design expert has to manually perform the first UX quality review.",
+  "autonomyLevel": "autonomous_review_with_design_backlog",
+  "deliverables": [
+    "UX scorecard",
+    "page findings",
+    "design improvement backlog"
+  ],
+  "acceptanceChecks": [
+    "visual overload checked",
+    "action path checked",
+    "chart fit reviewed"
+  ]
+}

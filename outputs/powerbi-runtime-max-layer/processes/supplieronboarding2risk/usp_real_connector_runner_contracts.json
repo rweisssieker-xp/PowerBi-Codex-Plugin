@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "supplieronboarding2risk",
+  "processName": "SupplierOnboarding2Risk",
+  "capabilityId": "real_connector_runner_contracts",
+  "capabilityName": "Real Connector Runner Contracts",
+  "replacementRole": "Power BI Developer",
+  "replacementOutcome": "No developer has to redesign connector execution and credential boundaries per project.",
+  "autonomyLevel": "contract_driven_until_credentials_are_available",
+  "deliverables": [
+    "connector runtime contract",
+    "credential boundary",
+    "source evidence policy"
+  ],
+  "acceptanceChecks": [
+    "credential policy is ephemeral",
+    "connector list is explicit",
+    "evidence excludes secrets"
+  ]
+}

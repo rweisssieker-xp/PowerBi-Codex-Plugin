@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "project2cash",
+  "processName": "Engineer2Order / Project2Cash",
+  "capabilityId": "powerbi_coe_certification_bot",
+  "capabilityName": "Power BI CoE Certification Bot",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No CoE reviewer has to manually perform the first certification decision pass.",
+  "autonomyLevel": "autonomous_recommendation_with_coe_approval",
+  "deliverables": [
+    "certification status",
+    "certification reasons",
+    "blocking evidence"
+  ],
+  "acceptanceChecks": [
+    "status is explicit",
+    "blocking issues listed",
+    "CoE approval gate present"
+  ]
+}

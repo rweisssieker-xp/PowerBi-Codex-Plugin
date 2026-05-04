@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "control2evidence",
+  "processName": "Control2Evidence",
+  "capabilityId": "source_discovery_autopilot",
+  "capabilityName": "Source Discovery Autopilot",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to inventory columns, types, nulls, row counts, and source fit by hand.",
+  "autonomyLevel": "autonomous_for_demo_and_contract_driven_for_production",
+  "deliverables": [
+    "source profile",
+    "native connector choice",
+    "credential-safe evidence"
+  ],
+  "acceptanceChecks": [
+    "secrets absent",
+    "row-count evidence exists",
+    "connector policy selected"
+  ]
+}

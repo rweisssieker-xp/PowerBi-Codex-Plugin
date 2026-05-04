@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "market2lead",
+  "processName": "Market2Lead",
+  "capabilityId": "report_layout_scoring_runtime",
+  "capabilityName": "Report Layout Scoring Runtime",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No report expert has to manually review every first-pass layout against design rules.",
+  "autonomyLevel": "autonomous_with_design_review_escalation",
+  "deliverables": [
+    "layout score",
+    "page-level findings",
+    "improvement queue"
+  ],
+  "acceptanceChecks": [
+    "score threshold defined",
+    "action cockpit present",
+    "oversized header risk checked"
+  ]
+}

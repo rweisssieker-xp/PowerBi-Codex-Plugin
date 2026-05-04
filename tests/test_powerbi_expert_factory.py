@@ -251,19 +251,39 @@ relationship rel_returns_customer
         self.assertEqual(result["premiumUspCount"], 25)
         self.assertEqual(len(result["premiumUsps"]), 25)
 
-    def test_runtime_max_catalog_exposes_all_fifteen_capabilities(self):
+    def test_runtime_max_catalog_exposes_max_usp_replacement_capabilities(self):
         catalog = load_runtime_max_catalog()
 
-        self.assertEqual(catalog["capabilityCount"], 15)
-        self.assertEqual(len(catalog["capabilities"]), 15)
-        self.assertTrue(all(item["implementationStatus"] == "implemented_as_runtime_max_artifact" for item in catalog["capabilities"]))
+        self.assertEqual(catalog["capabilityCount"], 70)
+        self.assertEqual(len(catalog["capabilities"]), 70)
+        for item in catalog["capabilities"]:
+            self.assertEqual(item["implementationStatus"], "implemented_as_runtime_max_usp_artifact")
+            self.assertIn(item["replacementRole"], {"Data Analyst", "Power BI Expert", "Power BI Developer"})
+            self.assertTrue(item["replacementOutcome"])
+            self.assertTrue(item["autonomyLevel"])
+            self.assertTrue(item["deliverables"])
+            self.assertTrue(item["acceptanceChecks"])
 
-    def test_runtime_max_plan_points_to_generated_pbip(self):
+    def test_runtime_max_plan_points_to_generated_pbip_and_all_max_usps(self):
         result = build_runtime_max_plan("lead-to-order")
 
         self.assertEqual(result["requestedProcessId"], "lead-to-order")
         self.assertEqual(result["processId"], "lead2order")
-        self.assertEqual(result["capabilityCount"], 15)
+        self.assertEqual(result["capabilityCount"], 70)
+        self.assertEqual(len(result["runtimeMaxUsps"]), 70)
+        self.assertTrue(all(usp["artifactExists"] for usp in result["runtimeMaxUsps"]))
+        self.assertTrue(any(usp["replacementRole"] == "Data Analyst" for usp in result["runtimeMaxUsps"]))
+        self.assertTrue(any(usp["replacementRole"] == "Power BI Expert" for usp in result["runtimeMaxUsps"]))
+        self.assertTrue(any(usp["replacementRole"] == "Power BI Developer" for usp in result["runtimeMaxUsps"]))
+        capability_ids = {usp["capabilityId"] for usp in result["runtimeMaxUsps"]}
+        self.assertIn("legacy_report_reverse_engineer", capability_ids)
+        self.assertIn("dashboard_consolidation_autopilot", capability_ids)
+        self.assertIn("autonomous_bi_sprint_manager", capability_ids)
+        self.assertIn("pbix_binary_intake", capability_ids)
+        self.assertIn("live_tenant_scanner", capability_ids)
+        self.assertIn("dax_query_runner", capability_ids)
+        self.assertIn("powerbi_rest_deployer", capability_ids)
+        self.assertIn("multi_tenant_msp_mode", capability_ids)
         self.assertTrue(Path(result["pbip"]["projectPath"]).exists())
 
     def test_production_hardening_catalog_exposes_all_fifteen_capabilities(self):
@@ -285,6 +305,23 @@ relationship rel_returns_customer
         self.assertEqual(result["processId"], "lead2order")
         self.assertEqual(result["capabilityCount"], 15)
         self.assertEqual(result["releaseDecision"], "ready_for_desktop_smoke")
+
+    def test_lead2order_powerbi_analysis_package_validates_cleanly(self):
+        package_root = Path("outputs/lead2order-powerbi-analysis")
+        manifest = json.loads((package_root / "lead2order_powerbi_manifest.json").read_text(encoding="utf-8"))
+        measures = json.loads((package_root / "measure_catalog.json").read_text(encoding="utf-8"))
+        questions = json.loads((package_root / "kpi_problem_questions.json").read_text(encoding="utf-8"))
+
+        self.assertEqual(manifest["processId"], "lead2order")
+        self.assertEqual(manifest["measureCount"], 30)
+        self.assertEqual(manifest["problemQuestionCount"], 10)
+        self.assertEqual(len(measures["measures"]), 30)
+        self.assertEqual(len(questions["problemQuestions"]), 10)
+
+        result = run_acceptance(package_root / "pbip" / "Lead2OrderAnalysis")
+        self.assertEqual(result["status"], "pass")
+        self.assertEqual(result["summary"]["errors"], 0)
+        self.assertEqual(result["summary"]["warnings"], 0)
 
 
 if __name__ == "__main__":

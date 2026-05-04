@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "project2cash",
+  "processName": "Engineer2Order / Project2Cash",
+  "capabilityId": "kpi_ontology_runtime",
+  "capabilityName": "KPI Ontology Runtime",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to reconcile KPI naming, metric meaning, and owner definitions manually.",
+  "autonomyLevel": "autonomous_with_owner_signoff",
+  "deliverables": [
+    "KPI glossary",
+    "formula contracts",
+    "comparability notes"
+  ],
+  "acceptanceChecks": [
+    "duplicate KPI names resolved",
+    "formula is explicit",
+    "owner role assigned"
+  ]
+}

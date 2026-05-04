@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "supplieronboarding2risk",
+  "processName": "SupplierOnboarding2Risk",
+  "capabilityId": "process_benchmark_pack",
+  "capabilityName": "Process Benchmark Pack",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually assemble benchmark comparisons for every process pack.",
+  "autonomyLevel": "autonomous_when_benchmark_source_is_available",
+  "deliverables": [
+    "benchmark bands",
+    "deviation flags",
+    "benchmark evidence"
+  ],
+  "acceptanceChecks": [
+    "benchmark source stated",
+    "variance threshold exists",
+    "outliers listed"
+  ]
+}

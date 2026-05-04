@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "contract2revenue",
+  "processName": "Contract2Revenue",
+  "capabilityId": "continuous_improvement_backlog",
+  "capabilityName": "Continuous Improvement Backlog",
+  "replacementRole": "Data Analyst",
+  "replacementOutcome": "No analyst has to manually maintain the improvement backlog after each generated delivery.",
+  "autonomyLevel": "autonomous_backlog_generation",
+  "deliverables": [
+    "improvement backlog",
+    "priority score",
+    "evidence link"
+  ],
+  "acceptanceChecks": [
+    "each item has evidence",
+    "priority assigned",
+    "owner role assigned"
+  ]
+}

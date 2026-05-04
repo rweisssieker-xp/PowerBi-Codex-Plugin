@@ -1,33 +1,33 @@
 ProcessID,ProcessName,RuntimeFolder,PBIPPath,CapabilityCount
-lead2order,Lead2Order,outputs/powerbi-runtime-max-layer/processes/lead2order,outputs/powerbi-runtime-max-layer/processes/lead2order/pbip/Lead2Order,15
-order2cash,Order2Cash,outputs/powerbi-runtime-max-layer/processes/order2cash,outputs/powerbi-runtime-max-layer/processes/order2cash/pbip/Order2Cash,15
-source2contract,Source2Contract,outputs/powerbi-runtime-max-layer/processes/source2contract,outputs/powerbi-runtime-max-layer/processes/source2contract/pbip/Source2Contract,15
-procure2pay,Procure2Pay,outputs/powerbi-runtime-max-layer/processes/procure2pay,outputs/powerbi-runtime-max-layer/processes/procure2pay/pbip/Procure2Pay,15
-forecast2plan,Forecast2Plan,outputs/powerbi-runtime-max-layer/processes/forecast2plan,outputs/powerbi-runtime-max-layer/processes/forecast2plan/pbip/Forecast2Plan,15
-plan2produce,Plan2Produce,outputs/powerbi-runtime-max-layer/processes/plan2produce,outputs/powerbi-runtime-max-layer/processes/plan2produce/pbip/Plan2Produce,15
-make_strategy,Make2Stock / Make2Order / Engineer2Order,outputs/powerbi-runtime-max-layer/processes/make_strategy,outputs/powerbi-runtime-max-layer/processes/make_strategy/pbip/Make2Stock_Make2Order_Engineer2Order,15
-idea2launch,Idea2Launch / Engineer2Release,outputs/powerbi-runtime-max-layer/processes/idea2launch,outputs/powerbi-runtime-max-layer/processes/idea2launch/pbip/Idea2Launch_Engineer2Release,15
-maintain2operate,Maintain2Operate,outputs/powerbi-runtime-max-layer/processes/maintain2operate,outputs/powerbi-runtime-max-layer/processes/maintain2operate/pbip/Maintain2Operate,15
-issue2resolution,Issue2Resolution,outputs/powerbi-runtime-max-layer/processes/issue2resolution,outputs/powerbi-runtime-max-layer/processes/issue2resolution/pbip/Issue2Resolution,15
-record2report,Record2Report,outputs/powerbi-runtime-max-layer/processes/record2report,outputs/powerbi-runtime-max-layer/processes/record2report/pbip/Record2Report,15
-hire2retire,Hire2Retire,outputs/powerbi-runtime-max-layer/processes/hire2retire,outputs/powerbi-runtime-max-layer/processes/hire2retire/pbip/Hire2Retire,15
-market2lead,Market2Lead,outputs/powerbi-runtime-max-layer/processes/market2lead,outputs/powerbi-runtime-max-layer/processes/market2lead/pbip/Market2Lead,15
-lead2quote,Lead2Quote / Configure2Quote,outputs/powerbi-runtime-max-layer/processes/lead2quote,outputs/powerbi-runtime-max-layer/processes/lead2quote/pbip/Lead2Quote_Configure2Quote,15
-quote2contract,Quote2Contract,outputs/powerbi-runtime-max-layer/processes/quote2contract,outputs/powerbi-runtime-max-layer/processes/quote2contract/pbip/Quote2Contract,15
-contract2revenue,Contract2Revenue,outputs/powerbi-runtime-max-layer/processes/contract2revenue,outputs/powerbi-runtime-max-layer/processes/contract2revenue/pbip/Contract2Revenue,15
-demand2supply,Demand2Supply,outputs/powerbi-runtime-max-layer/processes/demand2supply,outputs/powerbi-runtime-max-layer/processes/demand2supply/pbip/Demand2Supply,15
-sop_ibp2execution,S&OP / IBP2Execution,outputs/powerbi-runtime-max-layer/processes/sop_ibp2execution,outputs/powerbi-runtime-max-layer/processes/sop_ibp2execution/pbip/S_OP_IBP2Execution,15
-design2cost,Design2Cost / Design2Source,outputs/powerbi-runtime-max-layer/processes/design2cost,outputs/powerbi-runtime-max-layer/processes/design2cost/pbip/Design2Cost_Design2Source,15
-project2cash,Engineer2Order / Project2Cash,outputs/powerbi-runtime-max-layer/processes/project2cash,outputs/powerbi-runtime-max-layer/processes/project2cash/pbip/Engineer2Order_Project2Cash,15
-dock2stock,Dock2Stock,outputs/powerbi-runtime-max-layer/processes/dock2stock,outputs/powerbi-runtime-max-layer/processes/dock2stock/pbip/Dock2Stock,15
-pick2pack2ship,Pick2Pack2Ship,outputs/powerbi-runtime-max-layer/processes/pick2pack2ship,outputs/powerbi-runtime-max-layer/processes/pick2pack2ship/pbip/Pick2Pack2Ship,15
-return2disposition,Return2Disposition,outputs/powerbi-runtime-max-layer/processes/return2disposition,outputs/powerbi-runtime-max-layer/processes/return2disposition/pbip/Return2Disposition,15
-complaint2capa,Complaint2CAPA,outputs/powerbi-runtime-max-layer/processes/complaint2capa,outputs/powerbi-runtime-max-layer/processes/complaint2capa/pbip/Complaint2CAPA,15
-nonconformance2disposition,Nonconformance2Disposition,outputs/powerbi-runtime-max-layer/processes/nonconformance2disposition,outputs/powerbi-runtime-max-layer/processes/nonconformance2disposition/pbip/Nonconformance2Disposition,15
-incident2action,Incident2Action,outputs/powerbi-runtime-max-layer/processes/incident2action,outputs/powerbi-runtime-max-layer/processes/incident2action/pbip/Incident2Action,15
-asset2reliability,Asset2Reliability,outputs/powerbi-runtime-max-layer/processes/asset2reliability,outputs/powerbi-runtime-max-layer/processes/asset2reliability/pbip/Asset2Reliability,15
-installedbase2servicerevenue,InstalledBase2ServiceRevenue,outputs/powerbi-runtime-max-layer/processes/installedbase2servicerevenue,outputs/powerbi-runtime-max-layer/processes/installedbase2servicerevenue/pbip/InstalledBase2ServiceRevenue,15
-supplieronboarding2risk,SupplierOnboarding2Risk,outputs/powerbi-runtime-max-layer/processes/supplieronboarding2risk,outputs/powerbi-runtime-max-layer/processes/supplieronboarding2risk/pbip/SupplierOnboarding2Risk,15
-control2evidence,Control2Evidence,outputs/powerbi-runtime-max-layer/processes/control2evidence,outputs/powerbi-runtime-max-layer/processes/control2evidence/pbip/Control2Evidence,15
-close2report_plan2perform,Close2Report / Plan2Perform,outputs/powerbi-runtime-max-layer/processes/close2report_plan2perform,outputs/powerbi-runtime-max-layer/processes/close2report_plan2perform/pbip/Close2Report_Plan2Perform,15
-data2insight2action,Data2Insight2Action,outputs/powerbi-runtime-max-layer/processes/data2insight2action,outputs/powerbi-runtime-max-layer/processes/data2insight2action/pbip/Data2Insight2Action,15
+asset2reliability,Asset2Reliability,outputs/powerbi-runtime-max-layer/processes/asset2reliability,outputs/powerbi-runtime-max-layer/processes/asset2reliability/pbip/Asset2Reliability,70
+close2report_plan2perform,Close2Report / Plan2Perform,outputs/powerbi-runtime-max-layer/processes/close2report_plan2perform,outputs/powerbi-runtime-max-layer/processes/close2report_plan2perform/pbip/Close2Report_Plan2Perform,70
+complaint2capa,Complaint2CAPA,outputs/powerbi-runtime-max-layer/processes/complaint2capa,outputs/powerbi-runtime-max-layer/processes/complaint2capa/pbip/Complaint2CAPA,70
+contract2revenue,Contract2Revenue,outputs/powerbi-runtime-max-layer/processes/contract2revenue,outputs/powerbi-runtime-max-layer/processes/contract2revenue/pbip/Contract2Revenue,70
+control2evidence,Control2Evidence,outputs/powerbi-runtime-max-layer/processes/control2evidence,outputs/powerbi-runtime-max-layer/processes/control2evidence/pbip/Control2Evidence,70
+data2insight2action,Data2Insight2Action,outputs/powerbi-runtime-max-layer/processes/data2insight2action,outputs/powerbi-runtime-max-layer/processes/data2insight2action/pbip/Data2Insight2Action,70
+demand2supply,Demand2Supply,outputs/powerbi-runtime-max-layer/processes/demand2supply,outputs/powerbi-runtime-max-layer/processes/demand2supply/pbip/Demand2Supply,70
+design2cost,Design2Cost / Design2Source,outputs/powerbi-runtime-max-layer/processes/design2cost,outputs/powerbi-runtime-max-layer/processes/design2cost/pbip/Design2Cost_Design2Source,70
+dock2stock,Dock2Stock,outputs/powerbi-runtime-max-layer/processes/dock2stock,outputs/powerbi-runtime-max-layer/processes/dock2stock/pbip/Dock2Stock,70
+forecast2plan,Forecast2Plan,outputs/powerbi-runtime-max-layer/processes/forecast2plan,outputs/powerbi-runtime-max-layer/processes/forecast2plan/pbip/Forecast2Plan,70
+hire2retire,Hire2Retire,outputs/powerbi-runtime-max-layer/processes/hire2retire,outputs/powerbi-runtime-max-layer/processes/hire2retire/pbip/Hire2Retire,70
+idea2launch,Idea2Launch / Engineer2Release,outputs/powerbi-runtime-max-layer/processes/idea2launch,outputs/powerbi-runtime-max-layer/processes/idea2launch/pbip/Idea2Launch_Engineer2Release,70
+incident2action,Incident2Action,outputs/powerbi-runtime-max-layer/processes/incident2action,outputs/powerbi-runtime-max-layer/processes/incident2action/pbip/Incident2Action,70
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,outputs/powerbi-runtime-max-layer/processes/installedbase2servicerevenue,outputs/powerbi-runtime-max-layer/processes/installedbase2servicerevenue/pbip/InstalledBase2ServiceRevenue,70
+issue2resolution,Issue2Resolution,outputs/powerbi-runtime-max-layer/processes/issue2resolution,outputs/powerbi-runtime-max-layer/processes/issue2resolution/pbip/Issue2Resolution,70
+lead2order,Lead2Order,outputs/powerbi-runtime-max-layer/processes/lead2order,outputs/powerbi-runtime-max-layer/processes/lead2order/pbip/Lead2Order,70
+lead2quote,Lead2Quote / Configure2Quote,outputs/powerbi-runtime-max-layer/processes/lead2quote,outputs/powerbi-runtime-max-layer/processes/lead2quote/pbip/Lead2Quote_Configure2Quote,70
+maintain2operate,Maintain2Operate,outputs/powerbi-runtime-max-layer/processes/maintain2operate,outputs/powerbi-runtime-max-layer/processes/maintain2operate/pbip/Maintain2Operate,70
+make_strategy,Make2Stock / Make2Order / Engineer2Order,outputs/powerbi-runtime-max-layer/processes/make_strategy,outputs/powerbi-runtime-max-layer/processes/make_strategy/pbip/Make2Stock_Make2Order_Engineer2Order,70
+market2lead,Market2Lead,outputs/powerbi-runtime-max-layer/processes/market2lead,outputs/powerbi-runtime-max-layer/processes/market2lead/pbip/Market2Lead,70
+nonconformance2disposition,Nonconformance2Disposition,outputs/powerbi-runtime-max-layer/processes/nonconformance2disposition,outputs/powerbi-runtime-max-layer/processes/nonconformance2disposition/pbip/Nonconformance2Disposition,70
+order2cash,Order2Cash,outputs/powerbi-runtime-max-layer/processes/order2cash,outputs/powerbi-runtime-max-layer/processes/order2cash/pbip/Order2Cash,70
+pick2pack2ship,Pick2Pack2Ship,outputs/powerbi-runtime-max-layer/processes/pick2pack2ship,outputs/powerbi-runtime-max-layer/processes/pick2pack2ship/pbip/Pick2Pack2Ship,70
+plan2produce,Plan2Produce,outputs/powerbi-runtime-max-layer/processes/plan2produce,outputs/powerbi-runtime-max-layer/processes/plan2produce/pbip/Plan2Produce,70
+procure2pay,Procure2Pay,outputs/powerbi-runtime-max-layer/processes/procure2pay,outputs/powerbi-runtime-max-layer/processes/procure2pay/pbip/Procure2Pay,70
+project2cash,Engineer2Order / Project2Cash,outputs/powerbi-runtime-max-layer/processes/project2cash,outputs/powerbi-runtime-max-layer/processes/project2cash/pbip/Engineer2Order_Project2Cash,70
+quote2contract,Quote2Contract,outputs/powerbi-runtime-max-layer/processes/quote2contract,outputs/powerbi-runtime-max-layer/processes/quote2contract/pbip/Quote2Contract,70
+record2report,Record2Report,outputs/powerbi-runtime-max-layer/processes/record2report,outputs/powerbi-runtime-max-layer/processes/record2report/pbip/Record2Report,70
+return2disposition,Return2Disposition,outputs/powerbi-runtime-max-layer/processes/return2disposition,outputs/powerbi-runtime-max-layer/processes/return2disposition/pbip/Return2Disposition,70
+sop_ibp2execution,S&OP / IBP2Execution,outputs/powerbi-runtime-max-layer/processes/sop_ibp2execution,outputs/powerbi-runtime-max-layer/processes/sop_ibp2execution/pbip/S_OP_IBP2Execution,70
+source2contract,Source2Contract,outputs/powerbi-runtime-max-layer/processes/source2contract,outputs/powerbi-runtime-max-layer/processes/source2contract/pbip/Source2Contract,70
+supplieronboarding2risk,SupplierOnboarding2Risk,outputs/powerbi-runtime-max-layer/processes/supplieronboarding2risk,outputs/powerbi-runtime-max-layer/processes/supplieronboarding2risk/pbip/SupplierOnboarding2Risk,70

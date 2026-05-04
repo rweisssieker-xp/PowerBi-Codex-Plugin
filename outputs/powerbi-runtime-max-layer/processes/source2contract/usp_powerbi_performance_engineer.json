@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "source2contract",
+  "processName": "Source2Contract",
+  "capabilityId": "powerbi_performance_engineer",
+  "capabilityName": "Power BI Performance Engineer",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No performance expert has to manually triage standard Power BI performance risks.",
+  "autonomyLevel": "autonomous_static_and_contract_based_analysis",
+  "deliverables": [
+    "performance budget",
+    "optimization findings",
+    "refresh risk plan"
+  ],
+  "acceptanceChecks": [
+    "expensive patterns flagged",
+    "budget thresholds defined",
+    "mitigation proposed"
+  ]
+}

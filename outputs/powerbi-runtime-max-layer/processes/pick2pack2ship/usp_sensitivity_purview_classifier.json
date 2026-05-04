@@ -1,0 +1,20 @@
+{
+  "eventType": "powerbi_runtime_max_usp_artifact",
+  "processId": "pick2pack2ship",
+  "processName": "Pick2Pack2Ship",
+  "capabilityId": "sensitivity_purview_classifier",
+  "capabilityName": "Sensitivity / Purview Classifier",
+  "replacementRole": "Power BI Expert",
+  "replacementOutcome": "No governance reviewer has to manually classify routine sensitivity and endorsement signals.",
+  "autonomyLevel": "hybrid_metadata_and_policy_runtime",
+  "deliverables": [
+    "classification map",
+    "label recommendation",
+    "governance evidence"
+  ],
+  "acceptanceChecks": [
+    "sensitive fields flagged",
+    "label recommendation exists",
+    "policy source recorded"
+  ]
+}
