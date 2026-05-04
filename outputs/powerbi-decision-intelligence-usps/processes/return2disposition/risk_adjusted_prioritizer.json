@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.735025+00:00",
+  "processId": "return2disposition",
+  "processName": "Return2Disposition",
+  "domain": "Service",
+  "ownerRole": "Returns Process Owner",
+  "capabilityId": "risk_adjusted_prioritizer",
+  "capabilityName": "Risk-Adjusted Prioritizer",
+  "primaryPersona": "Risk Owner",
+  "decisionArtifact": "risk-adjusted backlog",
+  "decisionInputs": {
+    "caseName": "Return",
+    "valueLabel": "RecoveryValue",
+    "kpis": [
+      "Return Rate",
+      "Disposition Aging",
+      "Recovery Value",
+      "Scrap Rate",
+      "Resale Rate"
+    ],
+    "sourceSystems": [
+      "RMA",
+      "WMS",
+      "QMS",
+      "ERP SD"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Return2Disposition Decision Cockpit",
+    "measuresToExplain": [
+      "Return Rate",
+      "Disposition Aging",
+      "Recovery Value",
+      "Scrap Rate",
+      "Resale Rate"
+    ],
+    "sourceEvidence": [
+      "RMA",
+      "WMS",
+      "QMS",
+      "ERP SD"
+    ],
+    "ownerActionQueue": "Returns Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "risk-adjusted backlog",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/return2disposition/risk_adjusted_prioritizer.json",
+  "status": "evidence-ready"
+}

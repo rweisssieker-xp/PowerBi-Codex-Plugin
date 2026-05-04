@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.491428+00:00",
+  "processId": "hire2retire",
+  "processName": "Hire2Retire",
+  "domain": "Workforce",
+  "ownerRole": "Hire-to-Retire Process Owner",
+  "capabilityId": "constraint_bottleneck_detector",
+  "capabilityName": "Constraint Bottleneck Detector",
+  "primaryPersona": "Process Excellence Lead",
+  "decisionArtifact": "bottleneck map",
+  "decisionInputs": {
+    "caseName": "Employee Lifecycle Case",
+    "valueLabel": "WorkforceCost",
+    "kpis": [
+      "Time To Hire",
+      "Absence Rate",
+      "Skill Gap",
+      "Training Compliance",
+      "Safety Incident Rate"
+    ],
+    "sourceSystems": [
+      "HCM",
+      "Time Management",
+      "Learning",
+      "EHS"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Hire2Retire Decision Cockpit",
+    "measuresToExplain": [
+      "Time To Hire",
+      "Absence Rate",
+      "Skill Gap",
+      "Training Compliance",
+      "Safety Incident Rate"
+    ],
+    "sourceEvidence": [
+      "HCM",
+      "Time Management",
+      "Learning",
+      "EHS"
+    ],
+    "ownerActionQueue": "Hire-to-Retire Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "bottleneck map",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/hire2retire/constraint_bottleneck_detector.json",
+  "status": "evidence-ready"
+}

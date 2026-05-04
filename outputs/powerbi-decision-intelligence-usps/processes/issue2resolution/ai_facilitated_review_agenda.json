@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.454168+00:00",
+  "processId": "issue2resolution",
+  "processName": "Issue2Resolution",
+  "domain": "Service",
+  "ownerRole": "Issue Resolution Process Owner",
+  "capabilityId": "ai_facilitated_review_agenda",
+  "capabilityName": "AI-Facilitated Review Agenda",
+  "primaryPersona": "Process Manager",
+  "decisionArtifact": "review agenda",
+  "decisionInputs": {
+    "caseName": "Customer Issue",
+    "valueLabel": "IssueCost",
+    "kpis": [
+      "Issue Aging",
+      "SLA Breach %",
+      "Warranty Cost",
+      "Repeat Issue Rate",
+      "Corrective Action Aging"
+    ],
+    "sourceSystems": [
+      "CRM Service",
+      "Warranty",
+      "QMS",
+      "Field Service"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Issue2Resolution Decision Cockpit",
+    "measuresToExplain": [
+      "Issue Aging",
+      "SLA Breach %",
+      "Warranty Cost",
+      "Repeat Issue Rate",
+      "Corrective Action Aging"
+    ],
+    "sourceEvidence": [
+      "CRM Service",
+      "Warranty",
+      "QMS",
+      "Field Service"
+    ],
+    "ownerActionQueue": "Issue Resolution Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "review agenda",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/issue2resolution/ai_facilitated_review_agenda.json",
+  "status": "evidence-ready"
+}

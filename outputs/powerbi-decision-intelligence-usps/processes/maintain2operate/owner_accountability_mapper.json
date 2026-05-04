@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.427154+00:00",
+  "processId": "maintain2operate",
+  "processName": "Maintain2Operate",
+  "domain": "Maintenance",
+  "ownerRole": "Maintenance Process Owner",
+  "capabilityId": "owner_accountability_mapper",
+  "capabilityName": "Owner Accountability Mapper",
+  "primaryPersona": "Process Owner",
+  "decisionArtifact": "accountability map",
+  "decisionInputs": {
+    "caseName": "Work Order",
+    "valueLabel": "DowntimeCost",
+    "kpis": [
+      "PM Compliance",
+      "Downtime Cost",
+      "MTBF",
+      "MTTR",
+      "Maintenance Backlog"
+    ],
+    "sourceSystems": [
+      "EAM",
+      "CMMS",
+      "MES",
+      "Historian"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Maintain2Operate Decision Cockpit",
+    "measuresToExplain": [
+      "PM Compliance",
+      "Downtime Cost",
+      "MTBF",
+      "MTTR",
+      "Maintenance Backlog"
+    ],
+    "sourceEvidence": [
+      "EAM",
+      "CMMS",
+      "MES",
+      "Historian"
+    ],
+    "ownerActionQueue": "Maintenance Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "accountability map",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/maintain2operate/owner_accountability_mapper.json",
+  "status": "evidence-ready"
+}

@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.723386+00:00",
+  "processId": "return2disposition",
+  "processName": "Return2Disposition",
+  "domain": "Service",
+  "ownerRole": "Returns Process Owner",
+  "capabilityId": "decision_room_copilot",
+  "capabilityName": "Decision Room Copilot",
+  "primaryPersona": "Process Owner",
+  "decisionArtifact": "decision pack",
+  "decisionInputs": {
+    "caseName": "Return",
+    "valueLabel": "RecoveryValue",
+    "kpis": [
+      "Return Rate",
+      "Disposition Aging",
+      "Recovery Value",
+      "Scrap Rate",
+      "Resale Rate"
+    ],
+    "sourceSystems": [
+      "RMA",
+      "WMS",
+      "QMS",
+      "ERP SD"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Return2Disposition Decision Cockpit",
+    "measuresToExplain": [
+      "Return Rate",
+      "Disposition Aging",
+      "Recovery Value",
+      "Scrap Rate",
+      "Resale Rate"
+    ],
+    "sourceEvidence": [
+      "RMA",
+      "WMS",
+      "QMS",
+      "ERP SD"
+    ],
+    "ownerActionQueue": "Returns Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "decision pack",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/return2disposition/decision_room_copilot.json",
+  "status": "evidence-ready"
+}

@@ -16,6 +16,8 @@ The production hardening layer is generated in [powerbi-production-hardening](..
 
 The market differentiator USP layer is generated in [powerbi-market-differentiator-usps](../../outputs/powerbi-market-differentiator-usps/README.md). It adds 30 market-facing proof points such as process digital twin, KPI contract negotiation, root-cause narrative, value-at-risk prioritization, autonomous action boards, benchmark twins, exception pattern memory, audit evidence vault, process-mining bridge, predictive SLA radar, what-if simulation, governance-by-design, cost-to-serve lens, data-quality negotiation, and board-to-action cascade.
 
+The decision intelligence USP layer is generated in [powerbi-decision-intelligence-usps](../../outputs/powerbi-decision-intelligence-usps/README.md). It adds 20 decision-facing proof points such as decision-room copilots, scenario option generation, tradeoff matrices, decision confidence scoring, action ROI estimates, counterfactual explanations, decision audit trails, accountability mapping, next-best-action ranking, decision-page composition, target negotiation, bottleneck detection, intervention simulation, dependency graphs, risk-adjusted prioritization, policy guards, business-case storyboards, and decision learning memory.
+
 The runtime executor entrypoints in [powerbi_expert_factory.py](../../scripts/powerbi_expert_factory.py) turn the highest-leverage enterprise USPs into executable local or credential-safe runtime requests: PBIX/PBIT binary intake, tenant scanning, DAX query execution, Power BI REST deployment, and gateway configuration audit.
 
 The `report-package` command is the primary request-to-delivery path for generated Power BI work. It creates a PBIP/PBIR/TMDL report package plus source profile, model build plan, DAX measure plan, Power Query/M plan, report page plan, model improvement plan, validation plan, and a manifest for the requested process and source description.
@@ -100,4 +102,10 @@ Use the CLI to inspect market differentiator USP evidence:
 
 ```powershell
 python scripts\powerbi_expert_factory.py market-usp-plan --process lead-to-order --out outputs\powerbi-market-differentiator-usps\lead-to-order-market-usp-plan.json
+```
+
+Use the CLI to inspect decision intelligence USP evidence:
+
+```powershell
+python scripts\powerbi_expert_factory.py decision-usp-plan --process lead-to-order --out outputs\powerbi-decision-intelligence-usps\lead-to-order-decision-usp-plan.json
 ```

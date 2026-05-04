@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.305843+00:00",
+  "processId": "source2contract",
+  "processName": "Source2Contract",
+  "domain": "Procurement",
+  "ownerRole": "Source-to-Contract Process Owner",
+  "capabilityId": "decision_confidence_score",
+  "capabilityName": "Decision Confidence Score",
+  "primaryPersona": "CoE Reviewer",
+  "decisionArtifact": "confidence evidence",
+  "decisionInputs": {
+    "caseName": "Sourcing Event",
+    "valueLabel": "ContractValue",
+    "kpis": [
+      "Sourcing Cycle Time",
+      "Contract Value At Risk",
+      "Supplier Compliance %",
+      "Legal Loop Count",
+      "Savings Value"
+    ],
+    "sourceSystems": [
+      "Sourcing Suite",
+      "CLM",
+      "Supplier Portal",
+      "ERP MM"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Source2Contract Decision Cockpit",
+    "measuresToExplain": [
+      "Sourcing Cycle Time",
+      "Contract Value At Risk",
+      "Supplier Compliance %",
+      "Legal Loop Count",
+      "Savings Value"
+    ],
+    "sourceEvidence": [
+      "Sourcing Suite",
+      "CLM",
+      "Supplier Portal",
+      "ERP MM"
+    ],
+    "ownerActionQueue": "Source-to-Contract Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "confidence evidence",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/source2contract/decision_confidence_score.json",
+  "status": "evidence-ready"
+}

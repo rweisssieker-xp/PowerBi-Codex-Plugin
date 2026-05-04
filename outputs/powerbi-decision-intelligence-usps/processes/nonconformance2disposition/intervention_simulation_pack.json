@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.773859+00:00",
+  "processId": "nonconformance2disposition",
+  "processName": "Nonconformance2Disposition",
+  "domain": "Quality",
+  "ownerRole": "Nonconformance Process Owner",
+  "capabilityId": "intervention_simulation_pack",
+  "capabilityName": "Intervention Simulation Pack",
+  "primaryPersona": "Transformation Lead",
+  "decisionArtifact": "intervention plan",
+  "decisionInputs": {
+    "caseName": "Nonconformance",
+    "valueLabel": "BlockedValue",
+    "kpis": [
+      "Defect Rate",
+      "Blocked Stock Value",
+      "Rework Cost",
+      "Supplier PPM",
+      "Disposition Aging"
+    ],
+    "sourceSystems": [
+      "QMS",
+      "ERP QM",
+      "WMS",
+      "Supplier Portal"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Nonconformance2Disposition Decision Cockpit",
+    "measuresToExplain": [
+      "Defect Rate",
+      "Blocked Stock Value",
+      "Rework Cost",
+      "Supplier PPM",
+      "Disposition Aging"
+    ],
+    "sourceEvidence": [
+      "QMS",
+      "ERP QM",
+      "WMS",
+      "Supplier Portal"
+    ],
+    "ownerActionQueue": "Nonconformance Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "intervention plan",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/nonconformance2disposition/intervention_simulation_pack.json",
+  "status": "evidence-ready"
+}

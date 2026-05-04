@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.789588+00:00",
+  "processId": "incident2action",
+  "processName": "Incident2Action",
+  "domain": "EHS",
+  "ownerRole": "Incident-to-Action Process Owner",
+  "capabilityId": "counterfactual_explainer",
+  "capabilityName": "Counterfactual Explainer",
+  "primaryPersona": "Data Analyst",
+  "decisionArtifact": "counterfactual",
+  "decisionInputs": {
+    "caseName": "Incident",
+    "valueLabel": "RiskValue",
+    "kpis": [
+      "Incident Rate",
+      "Severity Score",
+      "Response Time",
+      "Overdue Actions",
+      "Risk Exposure"
+    ],
+    "sourceSystems": [
+      "EHS",
+      "GRC",
+      "Action Tracking",
+      "HR"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Incident2Action Decision Cockpit",
+    "measuresToExplain": [
+      "Incident Rate",
+      "Severity Score",
+      "Response Time",
+      "Overdue Actions",
+      "Risk Exposure"
+    ],
+    "sourceEvidence": [
+      "EHS",
+      "GRC",
+      "Action Tracking",
+      "HR"
+    ],
+    "ownerActionQueue": "Incident-to-Action Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "counterfactual",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/incident2action/counterfactual_explainer.json",
+  "status": "evidence-ready"
+}

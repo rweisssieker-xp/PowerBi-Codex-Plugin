@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.854892+00:00",
+  "processId": "supplieronboarding2risk",
+  "processName": "SupplierOnboarding2Risk",
+  "domain": "Procurement",
+  "ownerRole": "Supplier Risk Process Owner",
+  "capabilityId": "owner_accountability_mapper",
+  "capabilityName": "Owner Accountability Mapper",
+  "primaryPersona": "Process Owner",
+  "decisionArtifact": "accountability map",
+  "decisionInputs": {
+    "caseName": "Supplier Onboarding",
+    "valueLabel": "RiskExposure",
+    "kpis": [
+      "Qualification Status",
+      "Audit Score",
+      "ESG Risk",
+      "Onboarding Aging",
+      "Supplier Risk Exposure"
+    ],
+    "sourceSystems": [
+      "Supplier Portal",
+      "GRC",
+      "Sourcing",
+      "ERP Vendor Master"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "SupplierOnboarding2Risk Decision Cockpit",
+    "measuresToExplain": [
+      "Qualification Status",
+      "Audit Score",
+      "ESG Risk",
+      "Onboarding Aging",
+      "Supplier Risk Exposure"
+    ],
+    "sourceEvidence": [
+      "Supplier Portal",
+      "GRC",
+      "Sourcing",
+      "ERP Vendor Master"
+    ],
+    "ownerActionQueue": "Supplier Risk Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "accountability map",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/supplieronboarding2risk/owner_accountability_mapper.json",
+  "status": "evidence-ready"
+}

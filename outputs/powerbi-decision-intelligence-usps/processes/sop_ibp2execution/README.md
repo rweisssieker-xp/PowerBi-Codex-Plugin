@@ -1,0 +1,3 @@
+# S&OP / IBP2Execution Decision Intelligence USPs
+
+Generated evidence for 20 decision-intelligence USPs.

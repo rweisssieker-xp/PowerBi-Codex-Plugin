@@ -1,0 +1,33 @@
+ProcessID,ProcessName,Domain,CapabilityCount,Plan
+lead2order,Lead2Order,Commercial,20,outputs/powerbi-decision-intelligence-usps/processes/lead2order/decision_intelligence_plan.json
+order2cash,Order2Cash,Commercial,20,outputs/powerbi-decision-intelligence-usps/processes/order2cash/decision_intelligence_plan.json
+source2contract,Source2Contract,Procurement,20,outputs/powerbi-decision-intelligence-usps/processes/source2contract/decision_intelligence_plan.json
+procure2pay,Procure2Pay,Procurement,20,outputs/powerbi-decision-intelligence-usps/processes/procure2pay/decision_intelligence_plan.json
+forecast2plan,Forecast2Plan,Supply Chain,20,outputs/powerbi-decision-intelligence-usps/processes/forecast2plan/decision_intelligence_plan.json
+plan2produce,Plan2Produce,Manufacturing,20,outputs/powerbi-decision-intelligence-usps/processes/plan2produce/decision_intelligence_plan.json
+make_strategy,Make2Stock / Make2Order / Engineer2Order,Manufacturing,20,outputs/powerbi-decision-intelligence-usps/processes/make_strategy/decision_intelligence_plan.json
+idea2launch,Idea2Launch / Engineer2Release,Engineering,20,outputs/powerbi-decision-intelligence-usps/processes/idea2launch/decision_intelligence_plan.json
+maintain2operate,Maintain2Operate,Maintenance,20,outputs/powerbi-decision-intelligence-usps/processes/maintain2operate/decision_intelligence_plan.json
+issue2resolution,Issue2Resolution,Service,20,outputs/powerbi-decision-intelligence-usps/processes/issue2resolution/decision_intelligence_plan.json
+record2report,Record2Report,Finance,20,outputs/powerbi-decision-intelligence-usps/processes/record2report/decision_intelligence_plan.json
+hire2retire,Hire2Retire,Workforce,20,outputs/powerbi-decision-intelligence-usps/processes/hire2retire/decision_intelligence_plan.json
+market2lead,Market2Lead,Commercial,20,outputs/powerbi-decision-intelligence-usps/processes/market2lead/decision_intelligence_plan.json
+lead2quote,Lead2Quote / Configure2Quote,Commercial,20,outputs/powerbi-decision-intelligence-usps/processes/lead2quote/decision_intelligence_plan.json
+quote2contract,Quote2Contract,Commercial,20,outputs/powerbi-decision-intelligence-usps/processes/quote2contract/decision_intelligence_plan.json
+contract2revenue,Contract2Revenue,Finance,20,outputs/powerbi-decision-intelligence-usps/processes/contract2revenue/decision_intelligence_plan.json
+demand2supply,Demand2Supply,Supply Chain,20,outputs/powerbi-decision-intelligence-usps/processes/demand2supply/decision_intelligence_plan.json
+sop_ibp2execution,S&OP / IBP2Execution,Supply Chain,20,outputs/powerbi-decision-intelligence-usps/processes/sop_ibp2execution/decision_intelligence_plan.json
+design2cost,Design2Cost / Design2Source,Engineering,20,outputs/powerbi-decision-intelligence-usps/processes/design2cost/decision_intelligence_plan.json
+project2cash,Engineer2Order / Project2Cash,Projects,20,outputs/powerbi-decision-intelligence-usps/processes/project2cash/decision_intelligence_plan.json
+dock2stock,Dock2Stock,Warehouse,20,outputs/powerbi-decision-intelligence-usps/processes/dock2stock/decision_intelligence_plan.json
+pick2pack2ship,Pick2Pack2Ship,Warehouse,20,outputs/powerbi-decision-intelligence-usps/processes/pick2pack2ship/decision_intelligence_plan.json
+return2disposition,Return2Disposition,Service,20,outputs/powerbi-decision-intelligence-usps/processes/return2disposition/decision_intelligence_plan.json
+complaint2capa,Complaint2CAPA,Quality,20,outputs/powerbi-decision-intelligence-usps/processes/complaint2capa/decision_intelligence_plan.json
+nonconformance2disposition,Nonconformance2Disposition,Quality,20,outputs/powerbi-decision-intelligence-usps/processes/nonconformance2disposition/decision_intelligence_plan.json
+incident2action,Incident2Action,EHS,20,outputs/powerbi-decision-intelligence-usps/processes/incident2action/decision_intelligence_plan.json
+asset2reliability,Asset2Reliability,Maintenance,20,outputs/powerbi-decision-intelligence-usps/processes/asset2reliability/decision_intelligence_plan.json
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,Service,20,outputs/powerbi-decision-intelligence-usps/processes/installedbase2servicerevenue/decision_intelligence_plan.json
+supplieronboarding2risk,SupplierOnboarding2Risk,Procurement,20,outputs/powerbi-decision-intelligence-usps/processes/supplieronboarding2risk/decision_intelligence_plan.json
+control2evidence,Control2Evidence,Governance,20,outputs/powerbi-decision-intelligence-usps/processes/control2evidence/decision_intelligence_plan.json
+close2report_plan2perform,Close2Report / Plan2Perform,Finance,20,outputs/powerbi-decision-intelligence-usps/processes/close2report_plan2perform/decision_intelligence_plan.json
+data2insight2action,Data2Insight2Action,Analytics,20,outputs/powerbi-decision-intelligence-usps/processes/data2insight2action/decision_intelligence_plan.json

@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.829334+00:00",
+  "processId": "installedbase2servicerevenue",
+  "processName": "InstalledBase2ServiceRevenue",
+  "domain": "Service",
+  "ownerRole": "Installed Base Service Process Owner",
+  "capabilityId": "decision_confidence_score",
+  "capabilityName": "Decision Confidence Score",
+  "primaryPersona": "CoE Reviewer",
+  "decisionArtifact": "confidence evidence",
+  "decisionInputs": {
+    "caseName": "Installed Base Account",
+    "valueLabel": "ServiceRevenue",
+    "kpis": [
+      "Attach Rate",
+      "SLA Adherence",
+      "Service Margin",
+      "Renewal Opportunity",
+      "Coverage Gap"
+    ],
+    "sourceSystems": [
+      "Installed Base",
+      "CRM Service",
+      "FSM",
+      "Billing"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "InstalledBase2ServiceRevenue Decision Cockpit",
+    "measuresToExplain": [
+      "Attach Rate",
+      "SLA Adherence",
+      "Service Margin",
+      "Renewal Opportunity",
+      "Coverage Gap"
+    ],
+    "sourceEvidence": [
+      "Installed Base",
+      "CRM Service",
+      "FSM",
+      "Billing"
+    ],
+    "ownerActionQueue": "Installed Base Service Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "confidence evidence",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/installedbase2servicerevenue/decision_confidence_score.json",
+  "status": "evidence-ready"
+}

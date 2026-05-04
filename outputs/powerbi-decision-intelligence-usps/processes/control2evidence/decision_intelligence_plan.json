@@ -1,0 +1,192 @@
+{
+  "eventType": "powerbi_decision_intelligence_process_plan",
+  "generatedAt": "2026-05-04T15:29:52.885984+00:00",
+  "processId": "control2evidence",
+  "processName": "Control2Evidence",
+  "domain": "Governance",
+  "ownerRole": "Control-to-Evidence Process Owner",
+  "capabilityCount": 20,
+  "decisionIntelligenceUsps": [
+    {
+      "sequence": 1,
+      "capabilityId": "decision_room_copilot",
+      "capabilityName": "Decision Room Copilot",
+      "primaryPersona": "Process Owner",
+      "decisionArtifact": "decision pack",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/decision_room_copilot.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 2,
+      "capabilityId": "scenario_option_generator",
+      "capabilityName": "Scenario Option Generator",
+      "primaryPersona": "Process Manager",
+      "decisionArtifact": "scenario model",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/scenario_option_generator.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 3,
+      "capabilityId": "tradeoff_matrix_builder",
+      "capabilityName": "Tradeoff Matrix Builder",
+      "primaryPersona": "Executive Sponsor",
+      "decisionArtifact": "tradeoff matrix",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/tradeoff_matrix_builder.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 4,
+      "capabilityId": "decision_confidence_score",
+      "capabilityName": "Decision Confidence Score",
+      "primaryPersona": "CoE Reviewer",
+      "decisionArtifact": "confidence evidence",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/decision_confidence_score.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 5,
+      "capabilityId": "action_roi_estimator",
+      "capabilityName": "Action ROI Estimator",
+      "primaryPersona": "Finance Partner",
+      "decisionArtifact": "ROI estimate",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/action_roi_estimator.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 6,
+      "capabilityId": "counterfactual_explainer",
+      "capabilityName": "Counterfactual Explainer",
+      "primaryPersona": "Data Analyst",
+      "decisionArtifact": "counterfactual",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/counterfactual_explainer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 7,
+      "capabilityId": "decision_audit_trail",
+      "capabilityName": "Decision Audit Trail",
+      "primaryPersona": "Auditor",
+      "decisionArtifact": "audit trail",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/decision_audit_trail.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 8,
+      "capabilityId": "owner_accountability_mapper",
+      "capabilityName": "Owner Accountability Mapper",
+      "primaryPersona": "Process Owner",
+      "decisionArtifact": "accountability map",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/owner_accountability_mapper.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 9,
+      "capabilityId": "next_best_action_ranker",
+      "capabilityName": "Next Best Action Ranker",
+      "primaryPersona": "Process Manager",
+      "decisionArtifact": "ranked action queue",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/next_best_action_ranker.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 10,
+      "capabilityId": "decision_to_powerbi_page_composer",
+      "capabilityName": "Decision-to-Power-BI Page Composer",
+      "primaryPersona": "Power BI Designer",
+      "decisionArtifact": "decision page spec",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/decision_to_powerbi_page_composer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 11,
+      "capabilityId": "kpi_target_negotiation_pack",
+      "capabilityName": "KPI Target Negotiation Pack",
+      "primaryPersona": "Process Owner",
+      "decisionArtifact": "target contract",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/kpi_target_negotiation_pack.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 12,
+      "capabilityId": "constraint_bottleneck_detector",
+      "capabilityName": "Constraint Bottleneck Detector",
+      "primaryPersona": "Process Excellence Lead",
+      "decisionArtifact": "bottleneck map",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/constraint_bottleneck_detector.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 13,
+      "capabilityId": "intervention_simulation_pack",
+      "capabilityName": "Intervention Simulation Pack",
+      "primaryPersona": "Transformation Lead",
+      "decisionArtifact": "intervention plan",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/intervention_simulation_pack.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 14,
+      "capabilityId": "decision_dependency_graph",
+      "capabilityName": "Decision Dependency Graph",
+      "primaryPersona": "Enterprise Process Owner",
+      "decisionArtifact": "dependency graph",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/decision_dependency_graph.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 15,
+      "capabilityId": "risk_adjusted_prioritizer",
+      "capabilityName": "Risk-Adjusted Prioritizer",
+      "primaryPersona": "Risk Owner",
+      "decisionArtifact": "risk-adjusted backlog",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/risk_adjusted_prioritizer.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 16,
+      "capabilityId": "decision_feedback_loop",
+      "capabilityName": "Decision Feedback Loop",
+      "primaryPersona": "BI Adoption Lead",
+      "decisionArtifact": "feedback loop",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/decision_feedback_loop.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 17,
+      "capabilityId": "ai_facilitated_review_agenda",
+      "capabilityName": "AI-Facilitated Review Agenda",
+      "primaryPersona": "Process Manager",
+      "decisionArtifact": "review agenda",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/ai_facilitated_review_agenda.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 18,
+      "capabilityId": "decision_policy_guard",
+      "capabilityName": "Decision Policy Guard",
+      "primaryPersona": "Governance Owner",
+      "decisionArtifact": "policy gate",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/decision_policy_guard.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 19,
+      "capabilityId": "business_case_storyboard",
+      "capabilityName": "Business Case Storyboard",
+      "primaryPersona": "Executive Sponsor",
+      "decisionArtifact": "business case",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/business_case_storyboard.json",
+      "artifactExists": true
+    },
+    {
+      "sequence": 20,
+      "capabilityId": "decision_learning_memory",
+      "capabilityName": "Decision Learning Memory",
+      "primaryPersona": "CoE Reviewer",
+      "decisionArtifact": "learning memory",
+      "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/control2evidence/decision_learning_memory.json",
+      "artifactExists": true
+    }
+  ],
+  "releaseUse": "decision review, scenario planning, action prioritization, owner signoff, and CoE evidence"
+}

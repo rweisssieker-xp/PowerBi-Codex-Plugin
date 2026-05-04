@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.553857+00:00",
+  "processId": "quote2contract",
+  "processName": "Quote2Contract",
+  "domain": "Commercial",
+  "ownerRole": "Quote-to-Contract Process Owner",
+  "capabilityId": "owner_accountability_mapper",
+  "capabilityName": "Owner Accountability Mapper",
+  "primaryPersona": "Process Owner",
+  "decisionArtifact": "accountability map",
+  "decisionInputs": {
+    "caseName": "Contract",
+    "valueLabel": "ContractValue",
+    "kpis": [
+      "Contract Cycle Time",
+      "Redline Loops",
+      "Term Deviation Count",
+      "Value At Risk",
+      "Signature Aging"
+    ],
+    "sourceSystems": [
+      "CRM",
+      "CPQ",
+      "CLM",
+      "E-Signature"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Quote2Contract Decision Cockpit",
+    "measuresToExplain": [
+      "Contract Cycle Time",
+      "Redline Loops",
+      "Term Deviation Count",
+      "Value At Risk",
+      "Signature Aging"
+    ],
+    "sourceEvidence": [
+      "CRM",
+      "CPQ",
+      "CLM",
+      "E-Signature"
+    ],
+    "ownerActionQueue": "Quote-to-Contract Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "accountability map",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/quote2contract/owner_accountability_mapper.json",
+  "status": "evidence-ready"
+}

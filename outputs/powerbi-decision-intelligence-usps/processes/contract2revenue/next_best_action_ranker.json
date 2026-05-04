@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.578914+00:00",
+  "processId": "contract2revenue",
+  "processName": "Contract2Revenue",
+  "domain": "Finance",
+  "ownerRole": "Revenue Process Owner",
+  "capabilityId": "next_best_action_ranker",
+  "capabilityName": "Next Best Action Ranker",
+  "primaryPersona": "Process Manager",
+  "decisionArtifact": "ranked action queue",
+  "decisionInputs": {
+    "caseName": "Revenue Contract",
+    "valueLabel": "RevenueValue",
+    "kpis": [
+      "Billing Readiness",
+      "Revenue Leakage",
+      "Deferred Revenue",
+      "Renewal Risk",
+      "Missing Billing Data"
+    ],
+    "sourceSystems": [
+      "CLM",
+      "ERP SD",
+      "Billing",
+      "Revenue Recognition"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Contract2Revenue Decision Cockpit",
+    "measuresToExplain": [
+      "Billing Readiness",
+      "Revenue Leakage",
+      "Deferred Revenue",
+      "Renewal Risk",
+      "Missing Billing Data"
+    ],
+    "sourceEvidence": [
+      "CLM",
+      "ERP SD",
+      "Billing",
+      "Revenue Recognition"
+    ],
+    "ownerActionQueue": "Revenue Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "ranked action queue",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/contract2revenue/next_best_action_ranker.json",
+  "status": "evidence-ready"
+}

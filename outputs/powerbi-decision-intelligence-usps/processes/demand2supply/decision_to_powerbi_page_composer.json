@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.601187+00:00",
+  "processId": "demand2supply",
+  "processName": "Demand2Supply",
+  "domain": "Supply Chain",
+  "ownerRole": "Demand-to-Supply Process Owner",
+  "capabilityId": "decision_to_powerbi_page_composer",
+  "capabilityName": "Decision-to-Power-BI Page Composer",
+  "primaryPersona": "Power BI Designer",
+  "decisionArtifact": "decision page spec",
+  "decisionInputs": {
+    "caseName": "Demand-Supply Match",
+    "valueLabel": "ShortageValue",
+    "kpis": [
+      "Shortage Value",
+      "ATP Failure Rate",
+      "Lost Sales",
+      "Supply Gap",
+      "Allocation Aging"
+    ],
+    "sourceSystems": [
+      "Demand Planning",
+      "ERP ATP",
+      "APS",
+      "Inventory"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Demand2Supply Decision Cockpit",
+    "measuresToExplain": [
+      "Shortage Value",
+      "ATP Failure Rate",
+      "Lost Sales",
+      "Supply Gap",
+      "Allocation Aging"
+    ],
+    "sourceEvidence": [
+      "Demand Planning",
+      "ERP ATP",
+      "APS",
+      "Inventory"
+    ],
+    "ownerActionQueue": "Demand-to-Supply Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "decision page spec",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/demand2supply/decision_to_powerbi_page_composer.json",
+  "status": "evidence-ready"
+}

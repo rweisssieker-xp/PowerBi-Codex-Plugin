@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.388768+00:00",
+  "processId": "make_strategy",
+  "processName": "Make2Stock / Make2Order / Engineer2Order",
+  "domain": "Manufacturing",
+  "ownerRole": "Manufacturing Strategy Process Owner",
+  "capabilityId": "decision_to_powerbi_page_composer",
+  "capabilityName": "Decision-to-Power-BI Page Composer",
+  "primaryPersona": "Power BI Designer",
+  "decisionArtifact": "decision page spec",
+  "decisionInputs": {
+    "caseName": "Manufacturing Commitment",
+    "valueLabel": "CommitmentValue",
+    "kpis": [
+      "Lead Time",
+      "WIP Value",
+      "Stock Cover",
+      "Milestone Adherence",
+      "Expedite Count"
+    ],
+    "sourceSystems": [
+      "ERP PP",
+      "PLM",
+      "MES",
+      "APS"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Make2Stock / Make2Order / Engineer2Order Decision Cockpit",
+    "measuresToExplain": [
+      "Lead Time",
+      "WIP Value",
+      "Stock Cover",
+      "Milestone Adherence",
+      "Expedite Count"
+    ],
+    "sourceEvidence": [
+      "ERP PP",
+      "PLM",
+      "MES",
+      "APS"
+    ],
+    "ownerActionQueue": "Manufacturing Strategy Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "decision page spec",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/make_strategy/decision_to_powerbi_page_composer.json",
+  "status": "evidence-ready"
+}

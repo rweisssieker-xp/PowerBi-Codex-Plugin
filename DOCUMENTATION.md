@@ -30,6 +30,7 @@ This is the single navigation index for repository-level documentation. Root fil
 - [Runtime USP Skill Matrix](data/powerbi_runtime_usp_skill_matrix.json)
 - [Power BI Production Hardening](outputs/powerbi-production-hardening/README.md)
 - [Power BI Market Differentiator USPs](outputs/powerbi-market-differentiator-usps/README.md)
+- [Power BI Decision Intelligence USPs](outputs/powerbi-decision-intelligence-usps/README.md)
 - [Lead2Order Power BI Analysis Package](outputs/lead2order-powerbi-analysis/README.md)
 - [Source System Coverage](docs/product/SOURCE_SYSTEM_COVERAGE.md)
 - [Power BI Native Connector Coverage](docs/product/POWERBI_NATIVE_CONNECTOR_COVERAGE.md)

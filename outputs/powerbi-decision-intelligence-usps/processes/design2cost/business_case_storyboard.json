@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.654587+00:00",
+  "processId": "design2cost",
+  "processName": "Design2Cost / Design2Source",
+  "domain": "Engineering",
+  "ownerRole": "Design-to-Cost Process Owner",
+  "capabilityId": "business_case_storyboard",
+  "capabilityName": "Business Case Storyboard",
+  "primaryPersona": "Executive Sponsor",
+  "decisionArtifact": "business case",
+  "decisionInputs": {
+    "caseName": "Design Item",
+    "valueLabel": "CostVariance",
+    "kpis": [
+      "Target Cost Variance",
+      "Part Reuse %",
+      "Single-Source Exposure",
+      "Sourcing Readiness",
+      "Engineering Cost Risk"
+    ],
+    "sourceSystems": [
+      "PLM",
+      "Costing",
+      "Sourcing",
+      "ERP MM"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Design2Cost / Design2Source Decision Cockpit",
+    "measuresToExplain": [
+      "Target Cost Variance",
+      "Part Reuse %",
+      "Single-Source Exposure",
+      "Sourcing Readiness",
+      "Engineering Cost Risk"
+    ],
+    "sourceEvidence": [
+      "PLM",
+      "Costing",
+      "Sourcing",
+      "ERP MM"
+    ],
+    "ownerActionQueue": "Design-to-Cost Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "business case",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/design2cost/business_case_storyboard.json",
+  "status": "evidence-ready"
+}

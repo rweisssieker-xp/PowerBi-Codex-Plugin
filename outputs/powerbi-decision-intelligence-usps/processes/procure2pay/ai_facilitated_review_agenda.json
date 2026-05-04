@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.337726+00:00",
+  "processId": "procure2pay",
+  "processName": "Procure2Pay",
+  "domain": "Procurement",
+  "ownerRole": "Procure-to-Pay Process Owner",
+  "capabilityId": "ai_facilitated_review_agenda",
+  "capabilityName": "AI-Facilitated Review Agenda",
+  "primaryPersona": "Process Manager",
+  "decisionArtifact": "review agenda",
+  "decisionInputs": {
+    "caseName": "Purchase Order",
+    "valueLabel": "SpendValue",
+    "kpis": [
+      "Spend Value",
+      "Invoice Block Value",
+      "GR/IR Aging",
+      "Discount Capture %",
+      "Supplier On-Time %"
+    ],
+    "sourceSystems": [
+      "ERP MM",
+      "Supplier Portal",
+      "WMS",
+      "ERP FI-AP"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Procure2Pay Decision Cockpit",
+    "measuresToExplain": [
+      "Spend Value",
+      "Invoice Block Value",
+      "GR/IR Aging",
+      "Discount Capture %",
+      "Supplier On-Time %"
+    ],
+    "sourceEvidence": [
+      "ERP MM",
+      "Supplier Portal",
+      "WMS",
+      "ERP FI-AP"
+    ],
+    "ownerActionQueue": "Procure-to-Pay Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "review agenda",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/procure2pay/ai_facilitated_review_agenda.json",
+  "status": "evidence-ready"
+}

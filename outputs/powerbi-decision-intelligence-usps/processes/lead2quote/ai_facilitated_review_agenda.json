@@ -1,0 +1,67 @@
+{
+  "eventType": "powerbi_decision_intelligence_usp_evidence",
+  "generatedAt": "2026-05-04T15:29:52.545187+00:00",
+  "processId": "lead2quote",
+  "processName": "Lead2Quote / Configure2Quote",
+  "domain": "Commercial",
+  "ownerRole": "Quote Process Owner",
+  "capabilityId": "ai_facilitated_review_agenda",
+  "capabilityName": "AI-Facilitated Review Agenda",
+  "primaryPersona": "Process Manager",
+  "decisionArtifact": "review agenda",
+  "decisionInputs": {
+    "caseName": "Quote",
+    "valueLabel": "QuoteValue",
+    "kpis": [
+      "Quote Cycle Time",
+      "Configuration Error Rate",
+      "Approval Aging",
+      "Discount Leakage",
+      "Quote Win Rate"
+    ],
+    "sourceSystems": [
+      "CRM",
+      "CPQ",
+      "Pricing",
+      "ERP Sales"
+    ]
+  },
+  "decisionOutputs": {
+    "powerBiPage": "Lead2Quote / Configure2Quote Decision Cockpit",
+    "measuresToExplain": [
+      "Quote Cycle Time",
+      "Configuration Error Rate",
+      "Approval Aging",
+      "Discount Leakage",
+      "Quote Win Rate"
+    ],
+    "sourceEvidence": [
+      "CRM",
+      "CPQ",
+      "Pricing",
+      "ERP Sales"
+    ],
+    "ownerActionQueue": "Quote Process Owner action queue",
+    "governanceGate": "decision_policy_guard"
+  },
+  "inputs": [
+    "process catalog",
+    "KPI catalog",
+    "source-routing evidence",
+    "quality gates",
+    "owner problem question"
+  ],
+  "outputs": [
+    "review agenda",
+    "Power BI decision-page evidence",
+    "action and owner evidence",
+    "governance review evidence"
+  ],
+  "acceptanceChecks": [
+    "capability maps to a decision owner",
+    "capability has process-specific KPI evidence",
+    "capability has an action or governance outcome"
+  ],
+  "artifactPath": "outputs/powerbi-decision-intelligence-usps/processes/lead2quote/ai_facilitated_review_agenda.json",
+  "status": "evidence-ready"
+}

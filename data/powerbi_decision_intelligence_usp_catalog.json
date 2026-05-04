@@ -1,0 +1,547 @@
+{
+  "version": "2026-05-04",
+  "description": "Decision Intelligence USP layer for process-owner Power BI expert replacement.",
+  "capabilityCount": 20,
+  "capabilities": [
+    {
+      "sequence": 1,
+      "id": "decision_room_copilot",
+      "name": "Decision Room Copilot",
+      "summary": "Turns a process question into decision options, evidence, risks, and recommended next action.",
+      "primaryPersona": "Process Owner",
+      "decisionArtifact": "decision pack",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "decision pack",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 2,
+      "id": "scenario_option_generator",
+      "name": "Scenario Option Generator",
+      "summary": "Creates improvement scenarios from KPI gaps, constraints, backlog, capacity, cost, and value drivers.",
+      "primaryPersona": "Process Manager",
+      "decisionArtifact": "scenario model",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "scenario model",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 3,
+      "id": "tradeoff_matrix_builder",
+      "name": "Tradeoff Matrix Builder",
+      "summary": "Compares decision options by value, time, risk, confidence, effort, compliance, and customer impact.",
+      "primaryPersona": "Executive Sponsor",
+      "decisionArtifact": "tradeoff matrix",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "tradeoff matrix",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 4,
+      "id": "decision_confidence_score",
+      "name": "Decision Confidence Score",
+      "summary": "Scores each recommendation by source quality, model quality, KPI lineage, sample coverage, and validation status.",
+      "primaryPersona": "CoE Reviewer",
+      "decisionArtifact": "confidence evidence",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "confidence evidence",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 5,
+      "id": "action_roi_estimator",
+      "name": "Action ROI Estimator",
+      "summary": "Estimates value capture, leakage reduction, cost avoidance, and payback for process actions.",
+      "primaryPersona": "Finance Partner",
+      "decisionArtifact": "ROI estimate",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "ROI estimate",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 6,
+      "id": "counterfactual_explainer",
+      "name": "Counterfactual Explainer",
+      "summary": "Explains what would need to change for a KPI breach to disappear or a target to be reached.",
+      "primaryPersona": "Data Analyst",
+      "decisionArtifact": "counterfactual",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "counterfactual",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 7,
+      "id": "decision_audit_trail",
+      "name": "Decision Audit Trail",
+      "summary": "Stores decision question, evidence, assumptions, alternatives, approval, owner, and follow-up checks.",
+      "primaryPersona": "Auditor",
+      "decisionArtifact": "audit trail",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "audit trail",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 8,
+      "id": "owner_accountability_mapper",
+      "name": "Owner Accountability Mapper",
+      "summary": "Maps every decision, exception, KPI, and action to accountable process, data, and system owners.",
+      "primaryPersona": "Process Owner",
+      "decisionArtifact": "accountability map",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "accountability map",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 9,
+      "id": "next_best_action_ranker",
+      "name": "Next Best Action Ranker",
+      "summary": "Ranks recommended actions by value at risk, SLA urgency, feasibility, confidence, and dependency state.",
+      "primaryPersona": "Process Manager",
+      "decisionArtifact": "ranked action queue",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "ranked action queue",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 10,
+      "id": "decision_to_powerbi_page_composer",
+      "name": "Decision-to-Power-BI Page Composer",
+      "summary": "Defines Power BI pages that show the evidence a process owner needs to make and monitor a decision.",
+      "primaryPersona": "Power BI Designer",
+      "decisionArtifact": "decision page spec",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "decision page spec",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 11,
+      "id": "kpi_target_negotiation_pack",
+      "name": "KPI Target Negotiation Pack",
+      "summary": "Creates target proposals, tolerances, baselines, outlier rules, and approval evidence for KPI target setting.",
+      "primaryPersona": "Process Owner",
+      "decisionArtifact": "target contract",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "target contract",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 12,
+      "id": "constraint_bottleneck_detector",
+      "name": "Constraint Bottleneck Detector",
+      "summary": "Identifies capacity, queue, source, supplier, customer, approval, and handover bottlenecks.",
+      "primaryPersona": "Process Excellence Lead",
+      "decisionArtifact": "bottleneck map",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "bottleneck map",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 13,
+      "id": "intervention_simulation_pack",
+      "name": "Intervention Simulation Pack",
+      "summary": "Defines intervention tests for automation, staffing, policy, threshold, routing, and prioritization changes.",
+      "primaryPersona": "Transformation Lead",
+      "decisionArtifact": "intervention plan",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "intervention plan",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 14,
+      "id": "decision_dependency_graph",
+      "name": "Decision Dependency Graph",
+      "summary": "Links decisions to upstream sources, process stages, approvals, teams, systems, and downstream KPIs.",
+      "primaryPersona": "Enterprise Process Owner",
+      "decisionArtifact": "dependency graph",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "dependency graph",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 15,
+      "id": "risk_adjusted_prioritizer",
+      "name": "Risk-Adjusted Prioritizer",
+      "summary": "Prioritizes improvement moves with operational, financial, compliance, delivery, and data-quality risk adjustments.",
+      "primaryPersona": "Risk Owner",
+      "decisionArtifact": "risk-adjusted backlog",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "risk-adjusted backlog",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 16,
+      "id": "decision_feedback_loop",
+      "name": "Decision Feedback Loop",
+      "summary": "Defines how decisions are monitored after release through KPI movement, action closure, and variance explanations.",
+      "primaryPersona": "BI Adoption Lead",
+      "decisionArtifact": "feedback loop",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "feedback loop",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 17,
+      "id": "ai_facilitated_review_agenda",
+      "name": "AI-Facilitated Review Agenda",
+      "summary": "Generates weekly and monthly performance-review agenda items from evidence, unresolved actions, and KPI movements.",
+      "primaryPersona": "Process Manager",
+      "decisionArtifact": "review agenda",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "review agenda",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 18,
+      "id": "decision_policy_guard",
+      "name": "Decision Policy Guard",
+      "summary": "Checks recommendations against governance, security, compliance, RLS, data-quality, and release-policy boundaries.",
+      "primaryPersona": "Governance Owner",
+      "decisionArtifact": "policy gate",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "policy gate",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 19,
+      "id": "business_case_storyboard",
+      "name": "Business Case Storyboard",
+      "summary": "Converts Power BI evidence into a business-case narrative with problem, value, options, ask, and expected impact.",
+      "primaryPersona": "Executive Sponsor",
+      "decisionArtifact": "business case",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "business case",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    },
+    {
+      "sequence": 20,
+      "id": "decision_learning_memory",
+      "name": "Decision Learning Memory",
+      "summary": "Captures which decisions worked, which assumptions failed, and which process patterns should be reused.",
+      "primaryPersona": "CoE Reviewer",
+      "decisionArtifact": "learning memory",
+      "implementationStatus": "implemented_as_decision_intelligence_evidence",
+      "inputs": [
+        "process catalog",
+        "KPI catalog",
+        "source-routing evidence",
+        "quality gates",
+        "owner problem question"
+      ],
+      "outputs": [
+        "learning memory",
+        "Power BI decision-page evidence",
+        "action and owner evidence",
+        "governance review evidence"
+      ],
+      "acceptanceChecks": [
+        "capability maps to a decision owner",
+        "capability has process-specific KPI evidence",
+        "capability has an action or governance outcome"
+      ]
+    }
+  ]
+}
