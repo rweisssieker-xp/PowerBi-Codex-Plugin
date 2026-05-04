@@ -1,0 +1,499 @@
+{
+  "processId": "procure2pay",
+  "tables": {
+    "cases.csv": {
+      "file": "cases.csv",
+      "rowCount": 36,
+      "columnCount": 21,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "procure2pay",
+            "procure2pay",
+            "procure2pay"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Procure2Pay",
+            "Procure2Pay",
+            "Procure2Pay"
+          ]
+        },
+        {
+          "name": "CaseID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "PROCURE2PAY-00001",
+            "PROCURE2PAY-00002",
+            "PROCURE2PAY-00003"
+          ]
+        },
+        {
+          "name": "CaseName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Purchase Order",
+            "Purchase Order",
+            "Purchase Order"
+          ]
+        },
+        {
+          "name": "Domain",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Procurement",
+            "Procurement",
+            "Procurement"
+          ]
+        },
+        {
+          "name": "OwnerRole",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Procure-to-Pay Process Owner",
+            "Procure-to-Pay Process Owner",
+            "Procure-to-Pay Process Owner"
+          ]
+        },
+        {
+          "name": "OwnerName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 8,
+          "sampleValues": [
+            "Nina Patel",
+            "Kenji Tanaka",
+            "Alex Chen"
+          ]
+        },
+        {
+          "name": "Region",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 3,
+          "sampleValues": [
+            "EMEA",
+            "AMER",
+            "EMEA"
+          ]
+        },
+        {
+          "name": "PlantID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "DE20",
+            "SG10",
+            "DE10"
+          ]
+        },
+        {
+          "name": "BusinessPartner",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Euro Logistics",
+            "Summit Supply",
+            "Pacific Electronics"
+          ]
+        },
+        {
+          "name": "CurrentStage",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Requisition Approved",
+            "Goods Received",
+            "Invoice Posted"
+          ]
+        },
+        {
+          "name": "StartDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 32,
+          "sampleValues": [
+            "2025-12-21",
+            "2025-05-17",
+            "2025-09-15"
+          ]
+        },
+        {
+          "name": "TargetDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 34,
+          "sampleValues": [
+            "2026-01-04",
+            "2025-05-22",
+            "2025-09-25"
+          ]
+        },
+        {
+          "name": "ActualOrForecastDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "2026-01-08",
+            "2025-05-21",
+            "2025-10-07"
+          ]
+        },
+        {
+          "name": "TargetCycleDays",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 7,
+          "sampleValues": [
+            "14",
+            "5",
+            "10"
+          ]
+        },
+        {
+          "name": "ActualCycleDays",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 17,
+          "sampleValues": [
+            "18",
+            "4",
+            "22"
+          ]
+        },
+        {
+          "name": "SlaBreached",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "True",
+            "False",
+            "True"
+          ]
+        },
+        {
+          "name": "RootCause",
+          "inferredType": "string",
+          "nullCount": 16,
+          "distinctCount": 7,
+          "sampleValues": [
+            "Quality hold",
+            "Pricing exception",
+            "Quality hold"
+          ]
+        },
+        {
+          "name": "SpendValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "11919.73",
+            "467256.84",
+            "517733.32"
+          ]
+        },
+        {
+          "name": "RiskScore",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 33,
+          "sampleValues": [
+            "50",
+            "94",
+            "33"
+          ]
+        },
+        {
+          "name": "ActionRequired",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "True",
+            "False",
+            "True"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "CaseID",
+        "ActualOrForecastDate",
+        "SpendValue"
+      ]
+    },
+    "events.csv": {
+      "file": "events.csv",
+      "rowCount": 180,
+      "columnCount": 11,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "procure2pay",
+            "procure2pay",
+            "procure2pay"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Procure2Pay",
+            "Procure2Pay",
+            "Procure2Pay"
+          ]
+        },
+        {
+          "name": "CaseID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "PROCURE2PAY-00001",
+            "PROCURE2PAY-00001",
+            "PROCURE2PAY-00001"
+          ]
+        },
+        {
+          "name": "EventSequence",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "EventName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Requisition Approved",
+            "PO Created",
+            "Goods Received"
+          ]
+        },
+        {
+          "name": "EventDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 128,
+          "sampleValues": [
+            "2025-12-27",
+            "2026-01-01",
+            "2026-01-01"
+          ]
+        },
+        {
+          "name": "SourceSystem",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 4,
+          "sampleValues": [
+            "ERP FI-AP",
+            "Supplier Portal",
+            "WMS"
+          ]
+        },
+        {
+          "name": "TouchedBy",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 8,
+          "sampleValues": [
+            "Thomas Weber",
+            "Thomas Weber",
+            "Nina Patel"
+          ]
+        },
+        {
+          "name": "AutomationFlag",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "True",
+            "True",
+            "False"
+          ]
+        },
+        {
+          "name": "ReworkFlag",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "name": "EventCost",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 180,
+          "sampleValues": [
+            "4840.63",
+            "4139.96",
+            "7758.68"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "EventCost"
+      ]
+    },
+    "kpi_snapshots.csv": {
+      "file": "kpi_snapshots.csv",
+      "rowCount": 60,
+      "columnCount": 10,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "procure2pay",
+            "procure2pay",
+            "procure2pay"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Procure2Pay",
+            "Procure2Pay",
+            "Procure2Pay"
+          ]
+        },
+        {
+          "name": "Period",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 12,
+          "sampleValues": [
+            "2025-01",
+            "2025-01",
+            "2025-01"
+          ]
+        },
+        {
+          "name": "KPIName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Spend Value",
+            "Invoice Block Value",
+            "GR/IR Aging"
+          ]
+        },
+        {
+          "name": "ActualValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 60,
+          "sampleValues": [
+            "43.07",
+            "7.56",
+            "11.78"
+          ]
+        },
+        {
+          "name": "TargetValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 59,
+          "sampleValues": [
+            "47.44",
+            "11.01",
+            "15.86"
+          ]
+        },
+        {
+          "name": "Tolerance",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 50,
+          "sampleValues": [
+            "2.37",
+            "0.55",
+            "0.79"
+          ]
+        },
+        {
+          "name": "Status",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 3,
+          "sampleValues": [
+            "Amber",
+            "Red",
+            "Red"
+          ]
+        },
+        {
+          "name": "OwnerRole",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Procure-to-Pay Process Owner",
+            "Procure-to-Pay Process Owner",
+            "Procure-to-Pay Process Owner"
+          ]
+        },
+        {
+          "name": "SourceSystems",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "ERP MM; Supplier Portal; WMS; ERP FI-AP",
+            "ERP MM; Supplier Portal; WMS; ERP FI-AP",
+            "ERP MM; Supplier Portal; WMS; ERP FI-AP"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "ActualValue"
+      ]
+    }
+  }
+}

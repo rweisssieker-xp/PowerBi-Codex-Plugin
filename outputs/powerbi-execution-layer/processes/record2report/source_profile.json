@@ -1,0 +1,498 @@
+{
+  "processId": "record2report",
+  "tables": {
+    "cases.csv": {
+      "file": "cases.csv",
+      "rowCount": 36,
+      "columnCount": 21,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "record2report",
+            "record2report",
+            "record2report"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Record2Report",
+            "Record2Report",
+            "Record2Report"
+          ]
+        },
+        {
+          "name": "CaseID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "RECORD2REPORT-00001",
+            "RECORD2REPORT-00002",
+            "RECORD2REPORT-00003"
+          ]
+        },
+        {
+          "name": "CaseName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Close Task",
+            "Close Task",
+            "Close Task"
+          ]
+        },
+        {
+          "name": "Domain",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Finance",
+            "Finance",
+            "Finance"
+          ]
+        },
+        {
+          "name": "OwnerRole",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Record-to-Report Process Owner",
+            "Record-to-Report Process Owner",
+            "Record-to-Report Process Owner"
+          ]
+        },
+        {
+          "name": "OwnerName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 8,
+          "sampleValues": [
+            "Sara Novak",
+            "Priya Rao",
+            "Sara Novak"
+          ]
+        },
+        {
+          "name": "Region",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 3,
+          "sampleValues": [
+            "AMER",
+            "AMER",
+            "AMER"
+          ]
+        },
+        {
+          "name": "PlantID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "DE10",
+            "DE10",
+            "SG10"
+          ]
+        },
+        {
+          "name": "BusinessPartner",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Pacific Electronics",
+            "Zenith Precision",
+            "Pacific Electronics"
+          ]
+        },
+        {
+          "name": "CurrentStage",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Subledger Closed",
+            "Subledger Closed",
+            "Subledger Closed"
+          ]
+        },
+        {
+          "name": "StartDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 35,
+          "sampleValues": [
+            "2025-01-15",
+            "2025-01-23",
+            "2025-08-02"
+          ]
+        },
+        {
+          "name": "TargetDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 34,
+          "sampleValues": [
+            "2025-01-25",
+            "2025-02-02",
+            "2025-09-01"
+          ]
+        },
+        {
+          "name": "ActualOrForecastDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 35,
+          "sampleValues": [
+            "2025-02-05",
+            "2025-02-07",
+            "2025-09-19"
+          ]
+        },
+        {
+          "name": "TargetCycleDays",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 7,
+          "sampleValues": [
+            "10",
+            "10",
+            "30"
+          ]
+        },
+        {
+          "name": "ActualCycleDays",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 18,
+          "sampleValues": [
+            "21",
+            "15",
+            "48"
+          ]
+        },
+        {
+          "name": "SlaBreached",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "True",
+            "True",
+            "True"
+          ]
+        },
+        {
+          "name": "RootCause",
+          "inferredType": "string",
+          "nullCount": 15,
+          "distinctCount": 6,
+          "sampleValues": [
+            "System integration gap",
+            "Approval delay",
+            "Missing master data"
+          ]
+        },
+        {
+          "name": "FinancialImpact",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "445732.06",
+            "401942.73",
+            "664290.63"
+          ]
+        },
+        {
+          "name": "RiskScore",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 30,
+          "sampleValues": [
+            "54",
+            "28",
+            "90"
+          ]
+        },
+        {
+          "name": "ActionRequired",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "True",
+            "True",
+            "True"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "CaseID",
+        "FinancialImpact"
+      ]
+    },
+    "events.csv": {
+      "file": "events.csv",
+      "rowCount": 180,
+      "columnCount": 11,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "record2report",
+            "record2report",
+            "record2report"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Record2Report",
+            "Record2Report",
+            "Record2Report"
+          ]
+        },
+        {
+          "name": "CaseID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "RECORD2REPORT-00001",
+            "RECORD2REPORT-00001",
+            "RECORD2REPORT-00001"
+          ]
+        },
+        {
+          "name": "EventSequence",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "EventName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Subledger Closed",
+            "Journal Posted",
+            "Reconciled"
+          ]
+        },
+        {
+          "name": "EventDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 140,
+          "sampleValues": [
+            "2025-01-18",
+            "2025-01-18",
+            "2025-01-21"
+          ]
+        },
+        {
+          "name": "SourceSystem",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 4,
+          "sampleValues": [
+            "EPM",
+            "ERP FI/CO",
+            "GRC"
+          ]
+        },
+        {
+          "name": "TouchedBy",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 8,
+          "sampleValues": [
+            "Jon Miller",
+            "Kenji Tanaka",
+            "Maria Garcia"
+          ]
+        },
+        {
+          "name": "AutomationFlag",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "True",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "name": "ReworkFlag",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "name": "EventCost",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 180,
+          "sampleValues": [
+            "2198.31",
+            "1094.91",
+            "1160.48"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "EventCost"
+      ]
+    },
+    "kpi_snapshots.csv": {
+      "file": "kpi_snapshots.csv",
+      "rowCount": 60,
+      "columnCount": 10,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "record2report",
+            "record2report",
+            "record2report"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Record2Report",
+            "Record2Report",
+            "Record2Report"
+          ]
+        },
+        {
+          "name": "Period",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 12,
+          "sampleValues": [
+            "2025-01",
+            "2025-01",
+            "2025-01"
+          ]
+        },
+        {
+          "name": "KPIName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Close Cycle Time",
+            "Late Posting Count",
+            "Reconciliation Breaks"
+          ]
+        },
+        {
+          "name": "ActualValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 60,
+          "sampleValues": [
+            "13.47",
+            "26.8",
+            "25.61"
+          ]
+        },
+        {
+          "name": "TargetValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 59,
+          "sampleValues": [
+            "16.75",
+            "28.82",
+            "29.36"
+          ]
+        },
+        {
+          "name": "Tolerance",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 54,
+          "sampleValues": [
+            "0.84",
+            "1.44",
+            "1.47"
+          ]
+        },
+        {
+          "name": "Status",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 3,
+          "sampleValues": [
+            "Red",
+            "Amber",
+            "Red"
+          ]
+        },
+        {
+          "name": "OwnerRole",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Record-to-Report Process Owner",
+            "Record-to-Report Process Owner",
+            "Record-to-Report Process Owner"
+          ]
+        },
+        {
+          "name": "SourceSystems",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "ERP FI/CO; EPM; Consolidation; GRC",
+            "ERP FI/CO; EPM; Consolidation; GRC",
+            "ERP FI/CO; EPM; Consolidation; GRC"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "ActualValue"
+      ]
+    }
+  }
+}

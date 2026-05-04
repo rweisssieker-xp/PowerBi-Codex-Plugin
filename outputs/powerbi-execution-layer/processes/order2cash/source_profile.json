@@ -1,0 +1,499 @@
+{
+  "processId": "order2cash",
+  "tables": {
+    "cases.csv": {
+      "file": "cases.csv",
+      "rowCount": 36,
+      "columnCount": 21,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "order2cash",
+            "order2cash",
+            "order2cash"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Order2Cash",
+            "Order2Cash",
+            "Order2Cash"
+          ]
+        },
+        {
+          "name": "CaseID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "ORDER2CASH-00001",
+            "ORDER2CASH-00002",
+            "ORDER2CASH-00003"
+          ]
+        },
+        {
+          "name": "CaseName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Sales Order",
+            "Sales Order",
+            "Sales Order"
+          ]
+        },
+        {
+          "name": "Domain",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Commercial",
+            "Commercial",
+            "Commercial"
+          ]
+        },
+        {
+          "name": "OwnerRole",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Order-to-Cash Process Owner",
+            "Order-to-Cash Process Owner",
+            "Order-to-Cash Process Owner"
+          ]
+        },
+        {
+          "name": "OwnerName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 8,
+          "sampleValues": [
+            "Kenji Tanaka",
+            "Jon Miller",
+            "Alex Chen"
+          ]
+        },
+        {
+          "name": "Region",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 3,
+          "sampleValues": [
+            "EMEA",
+            "EMEA",
+            "AMER"
+          ]
+        },
+        {
+          "name": "PlantID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "PL10",
+            "DE10",
+            "SG10"
+          ]
+        },
+        {
+          "name": "BusinessPartner",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Global Components",
+            "Orion Technologies",
+            "Orion Technologies"
+          ]
+        },
+        {
+          "name": "CurrentStage",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Billed",
+            "ATP Confirmed",
+            "Billed"
+          ]
+        },
+        {
+          "name": "StartDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 34,
+          "sampleValues": [
+            "2025-08-10",
+            "2025-07-22",
+            "2025-08-24"
+          ]
+        },
+        {
+          "name": "TargetDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "2025-08-15",
+            "2025-08-21",
+            "2025-08-29"
+          ]
+        },
+        {
+          "name": "ActualOrForecastDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 34,
+          "sampleValues": [
+            "2025-08-19",
+            "2025-08-23",
+            "2025-08-31"
+          ]
+        },
+        {
+          "name": "TargetCycleDays",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 7,
+          "sampleValues": [
+            "5",
+            "30",
+            "5"
+          ]
+        },
+        {
+          "name": "ActualCycleDays",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 20,
+          "sampleValues": [
+            "9",
+            "32",
+            "7"
+          ]
+        },
+        {
+          "name": "SlaBreached",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "True",
+            "True",
+            "True"
+          ]
+        },
+        {
+          "name": "RootCause",
+          "inferredType": "string",
+          "nullCount": 12,
+          "distinctCount": 6,
+          "sampleValues": [
+            "System integration gap",
+            "Quality hold",
+            "Approval delay"
+          ]
+        },
+        {
+          "name": "OrderValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "239052.89",
+            "586260.39",
+            "284624.58"
+          ]
+        },
+        {
+          "name": "RiskScore",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 30,
+          "sampleValues": [
+            "92",
+            "70",
+            "62"
+          ]
+        },
+        {
+          "name": "ActionRequired",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "True",
+            "True",
+            "True"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "CaseID",
+        "TargetDate",
+        "OrderValue"
+      ]
+    },
+    "events.csv": {
+      "file": "events.csv",
+      "rowCount": 180,
+      "columnCount": 11,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "order2cash",
+            "order2cash",
+            "order2cash"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Order2Cash",
+            "Order2Cash",
+            "Order2Cash"
+          ]
+        },
+        {
+          "name": "CaseID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "ORDER2CASH-00001",
+            "ORDER2CASH-00001",
+            "ORDER2CASH-00001"
+          ]
+        },
+        {
+          "name": "EventSequence",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "EventName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Order Created",
+            "ATP Confirmed",
+            "Delivered"
+          ]
+        },
+        {
+          "name": "EventDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 132,
+          "sampleValues": [
+            "2025-08-15",
+            "2025-08-15",
+            "2025-08-20"
+          ]
+        },
+        {
+          "name": "SourceSystem",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 4,
+          "sampleValues": [
+            "ERP SD",
+            "WMS",
+            "ERP FI-AR"
+          ]
+        },
+        {
+          "name": "TouchedBy",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 8,
+          "sampleValues": [
+            "Thomas Weber",
+            "Maria Garcia",
+            "Nina Patel"
+          ]
+        },
+        {
+          "name": "AutomationFlag",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "False",
+            "True",
+            "False"
+          ]
+        },
+        {
+          "name": "ReworkFlag",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "False",
+            "True",
+            "False"
+          ]
+        },
+        {
+          "name": "EventCost",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 180,
+          "sampleValues": [
+            "2072.79",
+            "2165.39",
+            "3329.84"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "EventCost"
+      ]
+    },
+    "kpi_snapshots.csv": {
+      "file": "kpi_snapshots.csv",
+      "rowCount": 72,
+      "columnCount": 10,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "order2cash",
+            "order2cash",
+            "order2cash"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Order2Cash",
+            "Order2Cash",
+            "Order2Cash"
+          ]
+        },
+        {
+          "name": "Period",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 12,
+          "sampleValues": [
+            "2025-01",
+            "2025-01",
+            "2025-01"
+          ]
+        },
+        {
+          "name": "KPIName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 6,
+          "sampleValues": [
+            "Order Value",
+            "Backlog Value",
+            "OTIF %"
+          ]
+        },
+        {
+          "name": "ActualValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 70,
+          "sampleValues": [
+            "47.24",
+            "15.97",
+            "90.73"
+          ]
+        },
+        {
+          "name": "TargetValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 72,
+          "sampleValues": [
+            "47.2",
+            "18.39",
+            "87.24"
+          ]
+        },
+        {
+          "name": "Tolerance",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 63,
+          "sampleValues": [
+            "2.36",
+            "0.92",
+            "4.36"
+          ]
+        },
+        {
+          "name": "Status",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 3,
+          "sampleValues": [
+            "Green",
+            "Red",
+            "Green"
+          ]
+        },
+        {
+          "name": "OwnerRole",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Order-to-Cash Process Owner",
+            "Order-to-Cash Process Owner",
+            "Order-to-Cash Process Owner"
+          ]
+        },
+        {
+          "name": "SourceSystems",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "ERP SD; WMS; TMS; ERP FI-AR",
+            "ERP SD; WMS; TMS; ERP FI-AR",
+            "ERP SD; WMS; TMS; ERP FI-AR"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "TargetValue"
+      ]
+    }
+  }
+}

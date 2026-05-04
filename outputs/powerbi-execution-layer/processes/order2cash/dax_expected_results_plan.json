@@ -1,0 +1,36 @@
+{
+  "processId": "order2cash",
+  "measuresFile": "outputs/industry-process-packs/order2cash/dax_measures.dax",
+  "testCases": [
+    {
+      "kpi": "Order Value",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Backlog Value",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "OTIF %",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Billing Block Value",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Open AR",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "DSO",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    }
+  ]
+}

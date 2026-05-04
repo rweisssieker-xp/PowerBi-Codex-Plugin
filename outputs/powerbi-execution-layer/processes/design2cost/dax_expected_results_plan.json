@@ -1,0 +1,31 @@
+{
+  "processId": "design2cost",
+  "measuresFile": "outputs/industry-process-packs/design2cost/dax_measures.dax",
+  "testCases": [
+    {
+      "kpi": "Target Cost Variance",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Part Reuse %",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Single-Source Exposure",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Sourcing Readiness",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Engineering Cost Risk",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "processId": "maintain2operate",
+  "tables": {
+    "cases.csv": {
+      "file": "cases.csv",
+      "rowCount": 36,
+      "columnCount": 21,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "maintain2operate",
+            "maintain2operate",
+            "maintain2operate"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Maintain2Operate",
+            "Maintain2Operate",
+            "Maintain2Operate"
+          ]
+        },
+        {
+          "name": "CaseID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "MAINTAIN2OPERATE-00001",
+            "MAINTAIN2OPERATE-00002",
+            "MAINTAIN2OPERATE-00003"
+          ]
+        },
+        {
+          "name": "CaseName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Work Order",
+            "Work Order",
+            "Work Order"
+          ]
+        },
+        {
+          "name": "Domain",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Maintenance",
+            "Maintenance",
+            "Maintenance"
+          ]
+        },
+        {
+          "name": "OwnerRole",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Maintenance Process Owner",
+            "Maintenance Process Owner",
+            "Maintenance Process Owner"
+          ]
+        },
+        {
+          "name": "OwnerName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 8,
+          "sampleValues": [
+            "Priya Rao",
+            "Maria Garcia",
+            "Sara Novak"
+          ]
+        },
+        {
+          "name": "Region",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 3,
+          "sampleValues": [
+            "AMER",
+            "EMEA",
+            "EMEA"
+          ]
+        },
+        {
+          "name": "PlantID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "DE20",
+            "DE20",
+            "PL10"
+          ]
+        },
+        {
+          "name": "BusinessPartner",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Euro Logistics",
+            "Zenith Precision",
+            "Summit Supply"
+          ]
+        },
+        {
+          "name": "CurrentStage",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Work Order Planned",
+            "Parts Available",
+            "Parts Available"
+          ]
+        },
+        {
+          "name": "StartDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 35,
+          "sampleValues": [
+            "2025-07-08",
+            "2025-06-02",
+            "2025-10-31"
+          ]
+        },
+        {
+          "name": "TargetDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 35,
+          "sampleValues": [
+            "2025-07-29",
+            "2025-06-23",
+            "2025-11-07"
+          ]
+        },
+        {
+          "name": "ActualOrForecastDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 33,
+          "sampleValues": [
+            "2025-07-27",
+            "2025-06-03",
+            "2025-11-12"
+          ]
+        },
+        {
+          "name": "TargetCycleDays",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 7,
+          "sampleValues": [
+            "21",
+            "21",
+            "7"
+          ]
+        },
+        {
+          "name": "ActualCycleDays",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 19,
+          "sampleValues": [
+            "19",
+            "1",
+            "12"
+          ]
+        },
+        {
+          "name": "SlaBreached",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "False",
+            "False",
+            "True"
+          ]
+        },
+        {
+          "name": "RootCause",
+          "inferredType": "string",
+          "nullCount": 16,
+          "distinctCount": 6,
+          "sampleValues": [
+            "Missing master data",
+            "Missing master data",
+            "Quality hold"
+          ]
+        },
+        {
+          "name": "DowntimeCost",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "382820.17",
+            "643004.48",
+            "323990.83"
+          ]
+        },
+        {
+          "name": "RiskScore",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 31,
+          "sampleValues": [
+            "12",
+            "8",
+            "97"
+          ]
+        },
+        {
+          "name": "ActionRequired",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "True",
+            "False",
+            "True"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "CaseID",
+        "DowntimeCost"
+      ]
+    },
+    "events.csv": {
+      "file": "events.csv",
+      "rowCount": 180,
+      "columnCount": 11,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "maintain2operate",
+            "maintain2operate",
+            "maintain2operate"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Maintain2Operate",
+            "Maintain2Operate",
+            "Maintain2Operate"
+          ]
+        },
+        {
+          "name": "CaseID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "MAINTAIN2OPERATE-00001",
+            "MAINTAIN2OPERATE-00001",
+            "MAINTAIN2OPERATE-00001"
+          ]
+        },
+        {
+          "name": "EventSequence",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "EventName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Notification Created",
+            "Work Order Planned",
+            "Parts Available"
+          ]
+        },
+        {
+          "name": "EventDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 139,
+          "sampleValues": [
+            "2025-07-08",
+            "2025-07-14",
+            "2025-07-17"
+          ]
+        },
+        {
+          "name": "SourceSystem",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 4,
+          "sampleValues": [
+            "Historian",
+            "Historian",
+            "CMMS"
+          ]
+        },
+        {
+          "name": "TouchedBy",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 8,
+          "sampleValues": [
+            "Priya Rao",
+            "Nina Patel",
+            "Kenji Tanaka"
+          ]
+        },
+        {
+          "name": "AutomationFlag",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "name": "ReworkFlag",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "False",
+            "True",
+            "False"
+          ]
+        },
+        {
+          "name": "EventCost",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 180,
+          "sampleValues": [
+            "3870.54",
+            "7245.76",
+            "7084.67"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "EventCost"
+      ]
+    },
+    "kpi_snapshots.csv": {
+      "file": "kpi_snapshots.csv",
+      "rowCount": 60,
+      "columnCount": 10,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "maintain2operate",
+            "maintain2operate",
+            "maintain2operate"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Maintain2Operate",
+            "Maintain2Operate",
+            "Maintain2Operate"
+          ]
+        },
+        {
+          "name": "Period",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 12,
+          "sampleValues": [
+            "2025-01",
+            "2025-01",
+            "2025-01"
+          ]
+        },
+        {
+          "name": "KPIName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "PM Compliance",
+            "Downtime Cost",
+            "MTBF"
+          ]
+        },
+        {
+          "name": "ActualValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 60,
+          "sampleValues": [
+            "17.51",
+            "33.47",
+            "44.43"
+          ]
+        },
+        {
+          "name": "TargetValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 59,
+          "sampleValues": [
+            "20.06",
+            "34.6",
+            "45.66"
+          ]
+        },
+        {
+          "name": "Tolerance",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 51,
+          "sampleValues": [
+            "1.0",
+            "1.73",
+            "2.28"
+          ]
+        },
+        {
+          "name": "Status",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 3,
+          "sampleValues": [
+            "Red",
+            "Amber",
+            "Amber"
+          ]
+        },
+        {
+          "name": "OwnerRole",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Maintenance Process Owner",
+            "Maintenance Process Owner",
+            "Maintenance Process Owner"
+          ]
+        },
+        {
+          "name": "SourceSystems",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "EAM; CMMS; MES; Historian",
+            "EAM; CMMS; MES; Historian",
+            "EAM; CMMS; MES; Historian"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "ActualValue"
+      ]
+    }
+  }
+}

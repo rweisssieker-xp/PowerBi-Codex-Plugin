@@ -1,0 +1,31 @@
+{
+  "processId": "demand2supply",
+  "measuresFile": "outputs/industry-process-packs/demand2supply/dax_measures.dax",
+  "testCases": [
+    {
+      "kpi": "Shortage Value",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "ATP Failure Rate",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Lost Sales",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Supply Gap",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Allocation Aging",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    }
+  ]
+}

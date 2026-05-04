@@ -1,0 +1,31 @@
+{
+  "processId": "dock2stock",
+  "measuresFile": "outputs/industry-process-packs/dock2stock/dax_measures.dax",
+  "testCases": [
+    {
+      "kpi": "Dock-to-Stock Time",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "GR Accuracy",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Inspection Aging",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Putaway Backlog",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Blocked Stock Value",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "processId": "installedbase2servicerevenue",
+  "measuresFile": "outputs/industry-process-packs/installedbase2servicerevenue/dax_measures.dax",
+  "testCases": [
+    {
+      "kpi": "Attach Rate",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "SLA Adherence",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Service Margin",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Renewal Opportunity",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    },
+    {
+      "kpi": "Coverage Gap",
+      "expectedResultStrategy": "reconcile generated DAX against demo source totals and KPI snapshot tolerance",
+      "tolerance": "use ProcessKpiSnapshots[Tolerance]"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "processId": "lead2order",
+  "version": "1.0.0",
+  "compatibleFactoryVersion": "2026-05-04",
+  "changePolicy": "semantic versioning for process packs; breaking source or KPI changes require minor/major release notes"
+}

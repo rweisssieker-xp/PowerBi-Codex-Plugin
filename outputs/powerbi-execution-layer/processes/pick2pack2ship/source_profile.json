@@ -1,0 +1,498 @@
+{
+  "processId": "pick2pack2ship",
+  "tables": {
+    "cases.csv": {
+      "file": "cases.csv",
+      "rowCount": 36,
+      "columnCount": 21,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "pick2pack2ship",
+            "pick2pack2ship",
+            "pick2pack2ship"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Pick2Pack2Ship",
+            "Pick2Pack2Ship",
+            "Pick2Pack2Ship"
+          ]
+        },
+        {
+          "name": "CaseID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "PICK2PACK2SHIP-00001",
+            "PICK2PACK2SHIP-00002",
+            "PICK2PACK2SHIP-00003"
+          ]
+        },
+        {
+          "name": "CaseName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Shipment",
+            "Shipment",
+            "Shipment"
+          ]
+        },
+        {
+          "name": "Domain",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Warehouse",
+            "Warehouse",
+            "Warehouse"
+          ]
+        },
+        {
+          "name": "OwnerRole",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Outbound Warehouse Process Owner",
+            "Outbound Warehouse Process Owner",
+            "Outbound Warehouse Process Owner"
+          ]
+        },
+        {
+          "name": "OwnerName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 8,
+          "sampleValues": [
+            "Thomas Weber",
+            "Nina Patel",
+            "Maria Garcia"
+          ]
+        },
+        {
+          "name": "Region",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 3,
+          "sampleValues": [
+            "APAC",
+            "APAC",
+            "AMER"
+          ]
+        },
+        {
+          "name": "PlantID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "PL10",
+            "SG10",
+            "US10"
+          ]
+        },
+        {
+          "name": "BusinessPartner",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Pacific Electronics",
+            "Zenith Precision",
+            "Meyer Metals"
+          ]
+        },
+        {
+          "name": "CurrentStage",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Packed",
+            "Picked",
+            "Wave Released"
+          ]
+        },
+        {
+          "name": "StartDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 34,
+          "sampleValues": [
+            "2025-08-08",
+            "2025-05-31",
+            "2025-02-03"
+          ]
+        },
+        {
+          "name": "TargetDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 35,
+          "sampleValues": [
+            "2025-08-29",
+            "2025-06-10",
+            "2025-02-24"
+          ]
+        },
+        {
+          "name": "ActualOrForecastDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 35,
+          "sampleValues": [
+            "2025-08-27",
+            "2025-06-03",
+            "2025-02-04"
+          ]
+        },
+        {
+          "name": "TargetCycleDays",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 7,
+          "sampleValues": [
+            "21",
+            "10",
+            "21"
+          ]
+        },
+        {
+          "name": "ActualCycleDays",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 20,
+          "sampleValues": [
+            "19",
+            "3",
+            "1"
+          ]
+        },
+        {
+          "name": "SlaBreached",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "name": "RootCause",
+          "inferredType": "string",
+          "nullCount": 16,
+          "distinctCount": 7,
+          "sampleValues": [
+            "Missing master data",
+            "Capacity constraint",
+            "Approval delay"
+          ]
+        },
+        {
+          "name": "ShipmentValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "273009.74",
+            "149141.67",
+            "9441.98"
+          ]
+        },
+        {
+          "name": "RiskScore",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 29,
+          "sampleValues": [
+            "46",
+            "59",
+            "37"
+          ]
+        },
+        {
+          "name": "ActionRequired",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "False",
+            "False",
+            "False"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "CaseID",
+        "ShipmentValue"
+      ]
+    },
+    "events.csv": {
+      "file": "events.csv",
+      "rowCount": 180,
+      "columnCount": 11,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "pick2pack2ship",
+            "pick2pack2ship",
+            "pick2pack2ship"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Pick2Pack2Ship",
+            "Pick2Pack2Ship",
+            "Pick2Pack2Ship"
+          ]
+        },
+        {
+          "name": "CaseID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "PICK2PACK2SHIP-00001",
+            "PICK2PACK2SHIP-00001",
+            "PICK2PACK2SHIP-00001"
+          ]
+        },
+        {
+          "name": "EventSequence",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "EventName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Wave Released",
+            "Picked",
+            "Packed"
+          ]
+        },
+        {
+          "name": "EventDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 139,
+          "sampleValues": [
+            "2025-08-14",
+            "2025-08-18",
+            "2025-08-18"
+          ]
+        },
+        {
+          "name": "SourceSystem",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 4,
+          "sampleValues": [
+            "WMS",
+            "Carrier Portal",
+            "TMS"
+          ]
+        },
+        {
+          "name": "TouchedBy",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 8,
+          "sampleValues": [
+            "Sara Novak",
+            "Alex Chen",
+            "Thomas Weber"
+          ]
+        },
+        {
+          "name": "AutomationFlag",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "False",
+            "True",
+            "True"
+          ]
+        },
+        {
+          "name": "ReworkFlag",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "False",
+            "False",
+            "False"
+          ]
+        },
+        {
+          "name": "EventCost",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 180,
+          "sampleValues": [
+            "5741.67",
+            "5872.98",
+            "6881.64"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "EventCost"
+      ]
+    },
+    "kpi_snapshots.csv": {
+      "file": "kpi_snapshots.csv",
+      "rowCount": 60,
+      "columnCount": 10,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "pick2pack2ship",
+            "pick2pack2ship",
+            "pick2pack2ship"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Pick2Pack2Ship",
+            "Pick2Pack2Ship",
+            "Pick2Pack2Ship"
+          ]
+        },
+        {
+          "name": "Period",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 12,
+          "sampleValues": [
+            "2025-01",
+            "2025-01",
+            "2025-01"
+          ]
+        },
+        {
+          "name": "KPIName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Pick Accuracy",
+            "Lines Per Hour",
+            "Wave Adherence"
+          ]
+        },
+        {
+          "name": "ActualValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 59,
+          "sampleValues": [
+            "15.12",
+            "12.62",
+            "19.36"
+          ]
+        },
+        {
+          "name": "TargetValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 60,
+          "sampleValues": [
+            "21.51",
+            "15.57",
+            "20.2"
+          ]
+        },
+        {
+          "name": "Tolerance",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 52,
+          "sampleValues": [
+            "1.08",
+            "0.78",
+            "1.01"
+          ]
+        },
+        {
+          "name": "Status",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 3,
+          "sampleValues": [
+            "Red",
+            "Red",
+            "Amber"
+          ]
+        },
+        {
+          "name": "OwnerRole",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Outbound Warehouse Process Owner",
+            "Outbound Warehouse Process Owner",
+            "Outbound Warehouse Process Owner"
+          ]
+        },
+        {
+          "name": "SourceSystems",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "WMS; ERP SD; TMS; Carrier Portal",
+            "WMS; ERP SD; TMS; Carrier Portal",
+            "WMS; ERP SD; TMS; Carrier Portal"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "TargetValue"
+      ]
+    }
+  }
+}

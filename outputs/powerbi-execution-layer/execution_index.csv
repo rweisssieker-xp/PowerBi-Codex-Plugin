@@ -1,0 +1,33 @@
+ProcessID,ProcessName,ExecutionFolder,ArtifactCount,FeatureCount
+lead2order,Lead2Order,outputs/powerbi-execution-layer/processes/lead2order,12,20
+order2cash,Order2Cash,outputs/powerbi-execution-layer/processes/order2cash,12,20
+source2contract,Source2Contract,outputs/powerbi-execution-layer/processes/source2contract,12,20
+procure2pay,Procure2Pay,outputs/powerbi-execution-layer/processes/procure2pay,12,20
+forecast2plan,Forecast2Plan,outputs/powerbi-execution-layer/processes/forecast2plan,12,20
+plan2produce,Plan2Produce,outputs/powerbi-execution-layer/processes/plan2produce,12,20
+make_strategy,Make2Stock / Make2Order / Engineer2Order,outputs/powerbi-execution-layer/processes/make_strategy,12,20
+idea2launch,Idea2Launch / Engineer2Release,outputs/powerbi-execution-layer/processes/idea2launch,12,20
+maintain2operate,Maintain2Operate,outputs/powerbi-execution-layer/processes/maintain2operate,12,20
+issue2resolution,Issue2Resolution,outputs/powerbi-execution-layer/processes/issue2resolution,12,20
+record2report,Record2Report,outputs/powerbi-execution-layer/processes/record2report,12,20
+hire2retire,Hire2Retire,outputs/powerbi-execution-layer/processes/hire2retire,12,20
+market2lead,Market2Lead,outputs/powerbi-execution-layer/processes/market2lead,12,20
+lead2quote,Lead2Quote / Configure2Quote,outputs/powerbi-execution-layer/processes/lead2quote,12,20
+quote2contract,Quote2Contract,outputs/powerbi-execution-layer/processes/quote2contract,12,20
+contract2revenue,Contract2Revenue,outputs/powerbi-execution-layer/processes/contract2revenue,12,20
+demand2supply,Demand2Supply,outputs/powerbi-execution-layer/processes/demand2supply,12,20
+sop_ibp2execution,S&OP / IBP2Execution,outputs/powerbi-execution-layer/processes/sop_ibp2execution,12,20
+design2cost,Design2Cost / Design2Source,outputs/powerbi-execution-layer/processes/design2cost,12,20
+project2cash,Engineer2Order / Project2Cash,outputs/powerbi-execution-layer/processes/project2cash,12,20
+dock2stock,Dock2Stock,outputs/powerbi-execution-layer/processes/dock2stock,12,20
+pick2pack2ship,Pick2Pack2Ship,outputs/powerbi-execution-layer/processes/pick2pack2ship,12,20
+return2disposition,Return2Disposition,outputs/powerbi-execution-layer/processes/return2disposition,12,20
+complaint2capa,Complaint2CAPA,outputs/powerbi-execution-layer/processes/complaint2capa,12,20
+nonconformance2disposition,Nonconformance2Disposition,outputs/powerbi-execution-layer/processes/nonconformance2disposition,12,20
+incident2action,Incident2Action,outputs/powerbi-execution-layer/processes/incident2action,12,20
+asset2reliability,Asset2Reliability,outputs/powerbi-execution-layer/processes/asset2reliability,12,20
+installedbase2servicerevenue,InstalledBase2ServiceRevenue,outputs/powerbi-execution-layer/processes/installedbase2servicerevenue,12,20
+supplieronboarding2risk,SupplierOnboarding2Risk,outputs/powerbi-execution-layer/processes/supplieronboarding2risk,12,20
+control2evidence,Control2Evidence,outputs/powerbi-execution-layer/processes/control2evidence,12,20
+close2report_plan2perform,Close2Report / Plan2Perform,outputs/powerbi-execution-layer/processes/close2report_plan2perform,12,20
+data2insight2action,Data2Insight2Action,outputs/powerbi-execution-layer/processes/data2insight2action,12,20

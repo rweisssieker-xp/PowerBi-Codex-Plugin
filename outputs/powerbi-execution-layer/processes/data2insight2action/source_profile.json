@@ -1,0 +1,499 @@
+{
+  "processId": "data2insight2action",
+  "tables": {
+    "cases.csv": {
+      "file": "cases.csv",
+      "rowCount": 36,
+      "columnCount": 21,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "data2insight2action",
+            "data2insight2action",
+            "data2insight2action"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Data2Insight2Action",
+            "Data2Insight2Action",
+            "Data2Insight2Action"
+          ]
+        },
+        {
+          "name": "CaseID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "DATA2INSIGHT2ACTION-00001",
+            "DATA2INSIGHT2ACTION-00002",
+            "DATA2INSIGHT2ACTION-00003"
+          ]
+        },
+        {
+          "name": "CaseName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Insight",
+            "Insight",
+            "Insight"
+          ]
+        },
+        {
+          "name": "Domain",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Analytics",
+            "Analytics",
+            "Analytics"
+          ]
+        },
+        {
+          "name": "OwnerRole",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Data-to-Action Process Owner",
+            "Data-to-Action Process Owner",
+            "Data-to-Action Process Owner"
+          ]
+        },
+        {
+          "name": "OwnerName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 8,
+          "sampleValues": [
+            "Jon Miller",
+            "Maria Garcia",
+            "Jon Miller"
+          ]
+        },
+        {
+          "name": "Region",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 3,
+          "sampleValues": [
+            "APAC",
+            "AMER",
+            "APAC"
+          ]
+        },
+        {
+          "name": "PlantID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "PL10",
+            "SG10",
+            "DE10"
+          ]
+        },
+        {
+          "name": "BusinessPartner",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Pacific Electronics",
+            "Pacific Electronics",
+            "Pacific Electronics"
+          ]
+        },
+        {
+          "name": "CurrentStage",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Value Realized",
+            "Insight Generated",
+            "Insight Generated"
+          ]
+        },
+        {
+          "name": "StartDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 34,
+          "sampleValues": [
+            "2025-03-04",
+            "2025-11-05",
+            "2025-04-06"
+          ]
+        },
+        {
+          "name": "TargetDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 34,
+          "sampleValues": [
+            "2025-03-18",
+            "2025-11-26",
+            "2025-05-06"
+          ]
+        },
+        {
+          "name": "ActualOrForecastDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 35,
+          "sampleValues": [
+            "2025-03-19",
+            "2025-12-17",
+            "2025-05-10"
+          ]
+        },
+        {
+          "name": "TargetCycleDays",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 7,
+          "sampleValues": [
+            "14",
+            "21",
+            "30"
+          ]
+        },
+        {
+          "name": "ActualCycleDays",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 21,
+          "sampleValues": [
+            "15",
+            "42",
+            "34"
+          ]
+        },
+        {
+          "name": "SlaBreached",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "True",
+            "True",
+            "True"
+          ]
+        },
+        {
+          "name": "RootCause",
+          "inferredType": "string",
+          "nullCount": 15,
+          "distinctCount": 6,
+          "sampleValues": [
+            "Supplier delay",
+            "Supplier delay",
+            "System integration gap"
+          ]
+        },
+        {
+          "name": "RealizedValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "236252.87",
+            "391062.49",
+            "146723.28"
+          ]
+        },
+        {
+          "name": "RiskScore",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 32,
+          "sampleValues": [
+            "81",
+            "47",
+            "19"
+          ]
+        },
+        {
+          "name": "ActionRequired",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "True",
+            "True",
+            "True"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "CaseID",
+        "RealizedValue"
+      ]
+    },
+    "events.csv": {
+      "file": "events.csv",
+      "rowCount": 180,
+      "columnCount": 11,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "data2insight2action",
+            "data2insight2action",
+            "data2insight2action"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Data2Insight2Action",
+            "Data2Insight2Action",
+            "Data2Insight2Action"
+          ]
+        },
+        {
+          "name": "CaseID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 36,
+          "sampleValues": [
+            "DATA2INSIGHT2ACTION-00001",
+            "DATA2INSIGHT2ACTION-00001",
+            "DATA2INSIGHT2ACTION-00001"
+          ]
+        },
+        {
+          "name": "EventSequence",
+          "inferredType": "int64",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "name": "EventName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Insight Generated",
+            "Owner Assigned",
+            "Action Created"
+          ]
+        },
+        {
+          "name": "EventDate",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 144,
+          "sampleValues": [
+            "2025-03-06",
+            "2025-03-11",
+            "2025-03-12"
+          ]
+        },
+        {
+          "name": "SourceSystem",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 4,
+          "sampleValues": [
+            "Business Apps",
+            "Data Catalog",
+            "Data Catalog"
+          ]
+        },
+        {
+          "name": "TouchedBy",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 8,
+          "sampleValues": [
+            "Alex Chen",
+            "Alex Chen",
+            "Priya Rao"
+          ]
+        },
+        {
+          "name": "AutomationFlag",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "False",
+            "True",
+            "False"
+          ]
+        },
+        {
+          "name": "ReworkFlag",
+          "inferredType": "boolean",
+          "nullCount": 0,
+          "distinctCount": 2,
+          "sampleValues": [
+            "False",
+            "False",
+            "True"
+          ]
+        },
+        {
+          "name": "EventCost",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 180,
+          "sampleValues": [
+            "260.78",
+            "3198.41",
+            "7503.02"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "EventCost"
+      ]
+    },
+    "kpi_snapshots.csv": {
+      "file": "kpi_snapshots.csv",
+      "rowCount": 60,
+      "columnCount": 10,
+      "columns": [
+        {
+          "name": "ProcessID",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "data2insight2action",
+            "data2insight2action",
+            "data2insight2action"
+          ]
+        },
+        {
+          "name": "ProcessName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Data2Insight2Action",
+            "Data2Insight2Action",
+            "Data2Insight2Action"
+          ]
+        },
+        {
+          "name": "Period",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 12,
+          "sampleValues": [
+            "2025-01",
+            "2025-01",
+            "2025-01"
+          ]
+        },
+        {
+          "name": "KPIName",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 5,
+          "sampleValues": [
+            "Insight Adoption",
+            "Action Conversion",
+            "Decision Latency"
+          ]
+        },
+        {
+          "name": "ActualValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 60,
+          "sampleValues": [
+            "12.29",
+            "34.68",
+            "24.04"
+          ]
+        },
+        {
+          "name": "TargetValue",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 60,
+          "sampleValues": [
+            "19.07",
+            "34.64",
+            "33.28"
+          ]
+        },
+        {
+          "name": "Tolerance",
+          "inferredType": "double",
+          "nullCount": 0,
+          "distinctCount": 52,
+          "sampleValues": [
+            "0.95",
+            "1.73",
+            "1.66"
+          ]
+        },
+        {
+          "name": "Status",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 3,
+          "sampleValues": [
+            "Red",
+            "Green",
+            "Red"
+          ]
+        },
+        {
+          "name": "OwnerRole",
+          "inferredType": "date",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Data-to-Action Process Owner",
+            "Data-to-Action Process Owner",
+            "Data-to-Action Process Owner"
+          ]
+        },
+        {
+          "name": "SourceSystems",
+          "inferredType": "string",
+          "nullCount": 0,
+          "distinctCount": 1,
+          "sampleValues": [
+            "Power BI; Action Tracker; Data Catalog; Business Apps",
+            "Power BI; Action Tracker; Data Catalog; Business Apps",
+            "Power BI; Action Tracker; Data Catalog; Business Apps"
+          ]
+        }
+      ],
+      "candidateKeys": [
+        "ActualValue",
+        "TargetValue"
+      ]
+    }
+  }
+}

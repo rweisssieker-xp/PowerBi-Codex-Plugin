@@ -1,0 +1,16 @@
+{
+  "version": "2026-05-04",
+  "referenceProcesses": [
+    "order2cash",
+    "lead2order",
+    "procure2pay",
+    "record2report"
+  ],
+  "requiredEvidence": [
+    "source_profile.json",
+    "semantic_compile_plan.json",
+    "report_materialization_plan.json",
+    "dax_expected_results_plan.json",
+    "build_manifest.json"
+  ]
+}

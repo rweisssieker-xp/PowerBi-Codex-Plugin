@@ -1,0 +1,10 @@
+{
+  "steps": [
+    "Select generated demo process pack",
+    "Profile production source with native connector",
+    "Map production fields to schema_drift_contract.json",
+    "Regenerate M queries from m_query_templates.json",
+    "Run semantic, visual, DAX, refresh, and Desktop smoke validation",
+    "Create process owner and CoE acceptance evidence"
+  ]
+}

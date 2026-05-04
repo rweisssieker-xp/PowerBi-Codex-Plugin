@@ -24,6 +24,7 @@ This is the single navigation index for repository-level documentation. Root fil
 - [Power BI Source Routing](outputs/source-routing/README.md)
 - [USP Capability Coverage](outputs/usp-capability-coverage/README.md)
 - [Power BI Feature Factory](outputs/powerbi-feature-factory/README.md)
+- [Power BI Execution Layer](outputs/powerbi-execution-layer/README.md)
 - [Source System Coverage](docs/product/SOURCE_SYSTEM_COVERAGE.md)
 - [Power BI Native Connector Coverage](docs/product/POWERBI_NATIVE_CONNECTOR_COVERAGE.md)
 

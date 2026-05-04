@@ -1,0 +1,73 @@
+ProcessID,ProcessName,Period,KPIName,ActualValue,TargetValue,Tolerance,Status,OwnerRole,SourceSystems
+lead2order,Lead2Order,2025-01,Lead Volume,31.73,31.95,1.6,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-01,MQL Rate,75.66,75.3,3.77,Green,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-01,SQL Rate,86.63,94.82,4.74,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-01,Order Conversion Rate,70.23,85.35,4.27,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-01,Lead-to-Order Cycle Time,27.23,28.61,1.43,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-01,Pipeline Value,8.9,10.76,0.54,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-02,Lead Volume,52.28,58.52,2.93,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-02,MQL Rate,71.31,77.98,3.9,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-02,SQL Rate,96.75,93.15,4.66,Green,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-02,Order Conversion Rate,72.22,85.17,4.26,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-02,Lead-to-Order Cycle Time,56.71,57.0,2.85,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-02,Pipeline Value,25.39,29.5,1.48,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-03,Lead Volume,31.7,31.59,1.58,Green,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-03,MQL Rate,96.02,97.03,4.85,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-03,SQL Rate,63.42,76.13,3.81,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-03,Order Conversion Rate,76.63,83.24,4.16,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-03,Lead-to-Order Cycle Time,23.85,28.79,1.44,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-03,Pipeline Value,37.39,45.77,2.29,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-04,Lead Volume,42.7,52.43,2.62,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-04,MQL Rate,91.07,94.92,4.75,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-04,SQL Rate,76.92,83.4,4.17,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-04,Order Conversion Rate,80.78,88.54,4.43,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-04,Lead-to-Order Cycle Time,16.51,22.71,1.14,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-04,Pipeline Value,37.63,48.5,2.43,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-05,Lead Volume,18.49,26.69,1.33,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-05,MQL Rate,67.35,76.93,3.85,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-05,SQL Rate,80.84,84.22,4.21,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-05,Order Conversion Rate,66.07,79.08,3.95,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-05,Lead-to-Order Cycle Time,20.15,24.1,1.21,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-05,Pipeline Value,37.09,44.37,2.22,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-06,Lead Volume,49.08,50.14,2.51,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-06,MQL Rate,64.0,77.78,3.89,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-06,SQL Rate,76.66,80.73,4.04,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-06,Order Conversion Rate,71.27,77.85,3.89,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-06,Lead-to-Order Cycle Time,52.53,54.2,2.71,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-06,Pipeline Value,15.39,18.0,0.9,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-07,Lead Volume,35.96,44.39,2.22,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-07,MQL Rate,64.22,76.85,3.84,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-07,SQL Rate,79.89,87.65,4.38,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-07,Order Conversion Rate,97.88,96.13,4.81,Green,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-07,Lead-to-Order Cycle Time,23.9,29.54,1.48,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-07,Pipeline Value,47.59,53.31,2.67,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-08,Lead Volume,52.27,54.58,2.73,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-08,MQL Rate,75.85,76.11,3.81,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-08,SQL Rate,78.04,81.47,4.07,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-08,Order Conversion Rate,77.42,90.0,4.5,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-08,Lead-to-Order Cycle Time,17.07,20.39,1.02,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-08,Pipeline Value,25.89,29.94,1.5,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-09,Lead Volume,18.04,23.05,1.15,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-09,MQL Rate,64.0,81.3,4.07,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-09,SQL Rate,63.67,77.35,3.87,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-09,Order Conversion Rate,66.82,82.75,4.14,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-09,Lead-to-Order Cycle Time,31.08,31.47,1.57,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-09,Pipeline Value,24.56,29.69,1.48,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-10,Lead Volume,30.08,33.07,1.65,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-10,MQL Rate,74.06,80.08,4.0,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-10,SQL Rate,84.46,82.09,4.1,Green,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-10,Order Conversion Rate,64.08,82.9,4.15,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-10,Lead-to-Order Cycle Time,34.07,38.42,1.92,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-10,Pipeline Value,11.91,15.0,0.75,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-11,Lead Volume,15.85,17.91,0.9,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-11,MQL Rate,76.93,79.25,3.96,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-11,SQL Rate,91.08,93.99,4.7,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-11,Order Conversion Rate,75.97,75.48,3.77,Green,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-11,Lead-to-Order Cycle Time,43.62,45.44,2.27,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-11,Pipeline Value,43.77,46.42,2.32,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-12,Lead Volume,21.95,28.15,1.41,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-12,MQL Rate,74.92,87.59,4.38,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-12,SQL Rate,74.32,78.05,3.9,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-12,Order Conversion Rate,75.5,86.16,4.31,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-12,Lead-to-Order Cycle Time,51.24,59.79,2.99,Red,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales
+lead2order,Lead2Order,2025-12,Pipeline Value,18.9,20.3,1.02,Amber,Lead-to-Order Process Owner,CRM; Marketing Automation; CPQ; ERP Sales

@@ -5,6 +5,7 @@ from pathlib import Path
 
 from scripts.powerbi_expert_factory import (
     build_feature_delivery_plan,
+    build_process_delivery,
     load_feature_catalog,
     parse_model,
     run_acceptance,
@@ -213,6 +214,17 @@ relationship rel_returns_customer
         self.assertEqual(len(result["features"]), 20)
         self.assertTrue(all(feature["contractExists"] for feature in result["features"]))
         self.assertTrue(all(feature["validationContractExists"] for feature in result["features"]))
+
+    def test_build_process_delivery_creates_local_bundle(self):
+        out = Path(tempfile.mkdtemp()) / "lead-to-order"
+        result = build_process_delivery("lead-to-order", "demo", out)
+
+        self.assertEqual(result["requestedProcessId"], "lead-to-order")
+        self.assertEqual(result["processId"], "lead2order")
+        self.assertTrue((out / "source_profile.json").exists())
+        self.assertTrue((out / "m_query_templates.json").exists())
+        self.assertTrue((out / "demo-data" / "cases.csv").exists())
+        self.assertTrue((out / "process-pack" / "model_spec.json").exists())
 
 
 if __name__ == "__main__":

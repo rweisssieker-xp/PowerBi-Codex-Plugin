@@ -21,6 +21,7 @@ The product turns business and process questions into validated Power BI deliver
 - Provides production source-routing recommendations for native Power BI sources under `data/powerbi_source_capability_matrix.json` and `outputs/source-routing/`.
 - Provides a 20-USP capability catalog and process-level coverage evidence under `data/powerbi_usp_capability_catalog.json` and `outputs/usp-capability-coverage/`.
 - Provides executable feature contracts for all 20 USPs under `data/powerbi_feature_catalog.json` and `outputs/powerbi-feature-factory/`.
+- Provides a concrete execution layer for all 20 features and all 32 processes under `outputs/powerbi-execution-layer/`, including source profiles, M templates, schema drift contracts, semantic compile plans, report materialization plans, DAX test plans, lineage, performance budgets, process-owner acceptance packs, and build manifests.
 - Adds executable trust checks for model graph quality, native source routing, visual bindings, DAX static checks, and Power BI Desktop smoke validation workflows.
 
 ## Repository Structure
@@ -64,6 +65,7 @@ Key guides:
 - [Power BI Source Routing](outputs/source-routing/README.md)
 - [USP Capability Coverage](outputs/usp-capability-coverage/README.md)
 - [Power BI Feature Factory](outputs/powerbi-feature-factory/README.md)
+- [Power BI Execution Layer](outputs/powerbi-execution-layer/README.md)
 - [Skills Catalog](docs/product/SKILLS_CATALOG.md)
 - [Power BI Expert-Replacement Factory Plan](docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
 - [Power BI Expert-Replacement Skill Map](docs/product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
@@ -108,6 +110,7 @@ python scripts\build_industry_process_packs.py
 python scripts\build_powerbi_source_routing.py
 python scripts\build_usp_capability_coverage.py
 python scripts\build_powerbi_feature_factory.py
+python scripts\build_powerbi_execution_layer.py
 ```
 
 Run the sample PBIP validation:
@@ -115,6 +118,7 @@ Run the sample PBIP validation:
 ```powershell
 python scripts\powerbi_expert_factory.py validate --project outputs\powerbi-order2cash-pbip\Order2Cash_NativeExcel --out outputs\powerbi-order2cash-pbip\expert_factory_validation.json
 python scripts\powerbi_expert_factory.py feature-plan --process lead-to-order --out outputs\powerbi-feature-factory\lead-to-order-feature-plan.json
+python scripts\powerbi_expert_factory.py build --process lead-to-order --source demo --out outputs\local-builds\lead-to-order
 ```
 
 ## Design Principles

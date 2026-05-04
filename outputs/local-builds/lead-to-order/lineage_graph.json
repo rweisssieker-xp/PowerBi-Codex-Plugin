@@ -1,0 +1,53 @@
+{
+  "processId": "lead2order",
+  "nodes": {
+    "sources": [
+      "cases.csv",
+      "events.csv",
+      "kpi_snapshots.csv"
+    ],
+    "tables": [
+      "ProcessCases",
+      "ProcessEvents",
+      "ProcessKpiSnapshots",
+      "DimProcess",
+      "DimCalendar"
+    ],
+    "measures": [
+      "Lead Volume",
+      "MQL Rate",
+      "SQL Rate",
+      "Order Conversion Rate",
+      "Lead-to-Order Cycle Time",
+      "Pipeline Value"
+    ],
+    "reportPages": [
+      "Executive Overview",
+      "Process Flow And Aging",
+      "Exception And Root Cause",
+      "Owner Action Cockpit"
+    ]
+  },
+  "edges": [
+    {
+      "from": "cases.csv",
+      "to": "ProcessCases"
+    },
+    {
+      "from": "events.csv",
+      "to": "ProcessEvents"
+    },
+    {
+      "from": "kpi_snapshots.csv",
+      "to": "ProcessKpiSnapshots"
+    },
+    {
+      "from": "ProcessCases",
+      "to": "generated KPI measures"
+    },
+    {
+      "from": "generated KPI measures",
+      "to": "Executive Overview"
+    }
+  ]
+}

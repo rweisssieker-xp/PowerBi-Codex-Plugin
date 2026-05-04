@@ -12,6 +12,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import shutil
 from collections import defaultdict, deque
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
@@ -429,6 +430,62 @@ def build_feature_delivery_plan(process_id: str, root: Path = ROOT) -> dict[str,
     }
 
 
+def build_process_delivery(process_id: str, source: str, out: str | Path, root: Path = ROOT) -> dict[str, Any]:
+    process_catalog = json.loads((root / "data" / "industry_process_catalog.json").read_text(encoding="utf-8"))
+    processes = {process["processId"]: process for process in process_catalog.get("processes", [])}
+    normalized_process_id = _normalize_process_id(process_id, processes)
+    if normalized_process_id not in processes:
+        known = ", ".join(sorted(processes)[:8])
+        raise ValueError(f"Unknown processId '{process_id}'. Known examples: {known}")
+    if source != "demo":
+        raise ValueError("Only --source demo is executable locally; production sources require connector credentials.")
+
+    execution_folder = root / "outputs" / "powerbi-execution-layer" / "processes" / normalized_process_id
+    if not execution_folder.exists():
+        raise FileNotFoundError(
+            f"{execution_folder} does not exist; run scripts\\build_powerbi_execution_layer.py first."
+        )
+
+    out_path = Path(out)
+    if out_path.exists():
+        shutil.rmtree(out_path)
+    out_path.mkdir(parents=True, exist_ok=True)
+
+    copied = []
+    for path in sorted(execution_folder.iterdir()):
+        if path.is_file():
+            target = out_path / path.name
+            shutil.copy2(path, target)
+            copied.append(target.name)
+
+    source_demo = root / "outputs" / "industry-demo-data" / normalized_process_id
+    demo_target = out_path / "demo-data"
+    shutil.copytree(source_demo, demo_target)
+    copied.append("demo-data/")
+
+    pack_source = root / "outputs" / "industry-process-packs" / normalized_process_id
+    pack_target = out_path / "process-pack"
+    shutil.copytree(pack_source, pack_target)
+    copied.append("process-pack/")
+
+    result = {
+        "eventType": "powerbi_expert_factory_local_build",
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "requestedProcessId": process_id,
+        "processId": normalized_process_id,
+        "source": source,
+        "output": str(out_path),
+        "artifactCount": len(copied),
+        "artifacts": copied,
+        "nextValidationCommands": [
+            "python scripts\\ci_repository_checks.py",
+            f"python scripts\\powerbi_expert_factory.py feature-plan --process {normalized_process_id}",
+        ],
+    }
+    (out_path / "local_build_result.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
+    return result
+
+
 def _normalize_process_id(process_id: str, processes: dict[str, Any]) -> str:
     if process_id in processes:
         return process_id
@@ -469,6 +526,11 @@ def main() -> int:
     feature_plan.add_argument("--process", required=True)
     feature_plan.add_argument("--out")
 
+    build = sub.add_parser("build", help="Build a local process delivery bundle from the execution layer.")
+    build.add_argument("--process", required=True)
+    build.add_argument("--source", default="demo", choices=["demo"])
+    build.add_argument("--out", required=True)
+
     args = parser.parse_args()
     if args.command == "validate":
         result = run_acceptance(args.project)
@@ -496,6 +558,10 @@ def main() -> int:
             Path(args.out).parent.mkdir(parents=True, exist_ok=True)
             Path(args.out).write_text(text, encoding="utf-8")
         print(text)
+        return 0
+    if args.command == "build":
+        result = build_process_delivery(args.process, args.source, args.out)
+        print(json.dumps(result, indent=2))
         return 0
     return 2
 

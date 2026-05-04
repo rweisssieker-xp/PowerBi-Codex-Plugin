@@ -1,0 +1,21 @@
+{
+  "eventType": "powerbi_factory_process_build",
+  "generatedAt": "2026-05-04T06:34:55.970986+00:00",
+  "processId": "dock2stock",
+  "processName": "Dock2Stock",
+  "sourceMode": "demo",
+  "artifacts": [
+    "source_profile.json",
+    "m_query_templates.json",
+    "schema_drift_contract.json",
+    "semantic_compile_plan.json",
+    "report_materialization_plan.json",
+    "dax_expected_results_plan.json",
+    "lineage_graph.json",
+    "process_owner_acceptance_pack.json",
+    "security_policy_plan.json",
+    "performance_budget.json",
+    "process_pack_version.json",
+    "feature_execution_status.json"
+  ]
+}

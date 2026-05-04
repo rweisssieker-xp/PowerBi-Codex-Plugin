@@ -1,0 +1,6 @@
+graph LR
+  cases[cases.csv] --> ProcessCases
+  events[events.csv] --> ProcessEvents
+  kpi[kpi_snapshots.csv] --> ProcessKpiSnapshots
+  ProcessCases --> Measures
+  Measures --> ReportPages

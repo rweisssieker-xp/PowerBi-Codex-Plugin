@@ -361,6 +361,76 @@ def check_powerbi_feature_factory(root: Path) -> list[str]:
     return errors
 
 
+def check_powerbi_execution_layer(root: Path) -> list[str]:
+    errors: list[str] = []
+    output_root = root / "outputs/powerbi-execution-layer"
+    frown_path = root / "data/powerbi_frown_knowledge_base.json"
+    process_catalog_path = root / "data/industry_process_catalog.json"
+    feature_catalog_path = root / "data/powerbi_feature_catalog.json"
+
+    if not output_root.exists():
+        return [f"{output_root}: Power BI execution layer output folder is missing"]
+    if not frown_path.exists():
+        errors.append(f"{frown_path}: Frown-to-Fix knowledge base is missing")
+    else:
+        patterns = json.loads(frown_path.read_text(encoding="utf-8")).get("patterns", [])
+        if len(patterns) < 5:
+            errors.append(f"{frown_path}: expected at least 5 known Power BI Frown patterns")
+
+    processes = json.loads(process_catalog_path.read_text(encoding="utf-8")).get("processes", [])
+    feature_count = json.loads(feature_catalog_path.read_text(encoding="utf-8")).get("featureCount")
+    required_process_artifacts = [
+        "source_profile.json",
+        "m_query_templates.json",
+        "schema_drift_contract.json",
+        "semantic_compile_plan.json",
+        "report_materialization_plan.json",
+        "dax_expected_results_plan.json",
+        "lineage_graph.json",
+        "lineage_graph.mmd",
+        "process_owner_acceptance_pack.json",
+        "security_policy_plan.json",
+        "performance_budget.json",
+        "process_pack_version.json",
+        "feature_execution_status.json",
+        "build_manifest.json",
+        "README.md",
+    ]
+    for process in processes:
+        process_id = process.get("processId")
+        folder = output_root / "processes" / str(process_id)
+        for filename in required_process_artifacts:
+            path = folder / filename
+            if not path.exists():
+                errors.append(f"{path}: required execution-layer artifact is missing")
+        source_profile = folder / "source_profile.json"
+        if source_profile.exists():
+            tables = json.loads(source_profile.read_text(encoding="utf-8")).get("tables", {})
+            for required_file in ["cases.csv", "events.csv", "kpi_snapshots.csv"]:
+                if required_file not in tables:
+                    errors.append(f"{source_profile}: missing profile for {required_file}")
+        feature_status = folder / "feature_execution_status.json"
+        if feature_status.exists():
+            status = json.loads(feature_status.read_text(encoding="utf-8"))
+            if status.get("featureCount") != feature_count:
+                errors.append(f"{feature_status}: expected featureCount {feature_count}")
+            if not all(item.get("status") == "generated" for item in status.get("features", [])):
+                errors.append(f"{feature_status}: all features must have generated status")
+
+    index_path = output_root / "execution_index.csv"
+    if not index_path.exists():
+        errors.append(f"{index_path}: execution index is missing")
+    else:
+        row_count = max(0, len(index_path.read_text(encoding="utf-8").splitlines()) - 1)
+        if row_count != len(processes):
+            errors.append(f"{index_path}: expected {len(processes)} process rows, found {row_count}")
+
+    for global_file in ["golden_reference_suite.json", "demo_to_production_migration_wizard.json", "README.md"]:
+        if not (output_root / global_file).exists():
+            errors.append(f"{output_root / global_file}: required global execution artifact is missing")
+    return errors
+
+
 def run(root: Path) -> int:
     errors: list[str] = []
     errors.extend(check_required_files(root))
@@ -380,6 +450,7 @@ def run(root: Path) -> int:
     errors.extend(check_industry_process_packs(root))
     errors.extend(check_usp_capability_coverage(root))
     errors.extend(check_powerbi_feature_factory(root))
+    errors.extend(check_powerbi_execution_layer(root))
 
     if errors:
         for error in errors:

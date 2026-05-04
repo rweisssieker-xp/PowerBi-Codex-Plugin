@@ -1,0 +1,52 @@
+{
+  "processId": "quote2contract",
+  "nodes": {
+    "sources": [
+      "cases.csv",
+      "events.csv",
+      "kpi_snapshots.csv"
+    ],
+    "tables": [
+      "ProcessCases",
+      "ProcessEvents",
+      "ProcessKpiSnapshots",
+      "DimProcess",
+      "DimCalendar"
+    ],
+    "measures": [
+      "Contract Cycle Time",
+      "Redline Loops",
+      "Term Deviation Count",
+      "Value At Risk",
+      "Signature Aging"
+    ],
+    "reportPages": [
+      "Executive Overview",
+      "Process Flow And Aging",
+      "Exception And Root Cause",
+      "Owner Action Cockpit"
+    ]
+  },
+  "edges": [
+    {
+      "from": "cases.csv",
+      "to": "ProcessCases"
+    },
+    {
+      "from": "events.csv",
+      "to": "ProcessEvents"
+    },
+    {
+      "from": "kpi_snapshots.csv",
+      "to": "ProcessKpiSnapshots"
+    },
+    {
+      "from": "ProcessCases",
+      "to": "generated KPI measures"
+    },
+    {
+      "from": "generated KPI measures",
+      "to": "Executive Overview"
+    }
+  ]
+}

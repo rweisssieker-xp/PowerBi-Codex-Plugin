@@ -6,6 +6,8 @@ Coverage evidence is generated for every industrial process pack in [usp-capabil
 
 Executable feature contracts are generated in [powerbi-feature-factory](../../outputs/powerbi-feature-factory/README.md). Each USP has a machine-readable input/output contract, CLI recipe, validation contract, and process mapping.
 
+The concrete execution layer is generated in [powerbi-execution-layer](../../outputs/powerbi-execution-layer/README.md). It materializes all 20 feature contracts for every process into source profiles, native M templates, schema drift contracts, semantic compile plans, report materialization plans, DAX expected-result plans, lineage, security plans, performance budgets, acceptance packs, and build manifests.
+
 ## The 20 USP Capabilities
 
 1. One-Click Process-to-PBIP
@@ -56,4 +58,10 @@ Use the CLI to create a process-specific delivery plan:
 
 ```powershell
 python scripts\powerbi_expert_factory.py feature-plan --process lead-to-order --out outputs\powerbi-feature-factory\lead-to-order-feature-plan.json
+```
+
+Use the CLI to create a local delivery bundle from the execution layer:
+
+```powershell
+python scripts\powerbi_expert_factory.py build --process lead-to-order --source demo --out outputs\local-builds\lead-to-order
 ```

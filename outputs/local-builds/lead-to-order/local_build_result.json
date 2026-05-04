@@ -1,0 +1,32 @@
+{
+  "eventType": "powerbi_expert_factory_local_build",
+  "generatedAt": "2026-05-04T06:35:07.729580+00:00",
+  "requestedProcessId": "lead-to-order",
+  "processId": "lead2order",
+  "source": "demo",
+  "output": "outputs\\local-builds\\lead-to-order",
+  "artifactCount": 17,
+  "artifacts": [
+    "build_manifest.json",
+    "dax_expected_results_plan.json",
+    "feature_execution_status.json",
+    "lineage_graph.json",
+    "lineage_graph.mmd",
+    "m_query_templates.json",
+    "performance_budget.json",
+    "process_owner_acceptance_pack.json",
+    "process_pack_version.json",
+    "README.md",
+    "report_materialization_plan.json",
+    "schema_drift_contract.json",
+    "security_policy_plan.json",
+    "semantic_compile_plan.json",
+    "source_profile.json",
+    "demo-data/",
+    "process-pack/"
+  ],
+  "nextValidationCommands": [
+    "python scripts\\ci_repository_checks.py",
+    "python scripts\\powerbi_expert_factory.py feature-plan --process lead2order"
+  ]
+}

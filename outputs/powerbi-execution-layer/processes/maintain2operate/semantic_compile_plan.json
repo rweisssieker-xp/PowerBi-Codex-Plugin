@@ -1,0 +1,130 @@
+{
+  "processId": "maintain2operate",
+  "sourceProfile": "source_profile.json",
+  "modelSpec": "outputs/industry-process-packs/maintain2operate/model_spec.json",
+  "tables": [
+    {
+      "name": "ProcessCases",
+      "sourceFile": "cases.csv",
+      "type": "fact",
+      "key": "CaseID",
+      "valueColumn": "DowntimeCost",
+      "columns": [
+        "ProcessID",
+        "ProcessName",
+        "CaseID",
+        "CaseName",
+        "Domain",
+        "OwnerRole",
+        "OwnerName",
+        "Region",
+        "PlantID",
+        "BusinessPartner",
+        "CurrentStage",
+        "StartDate",
+        "TargetDate",
+        "ActualOrForecastDate",
+        "TargetCycleDays",
+        "ActualCycleDays",
+        "SlaBreached",
+        "RootCause",
+        "DowntimeCost",
+        "RiskScore",
+        "ActionRequired"
+      ]
+    },
+    {
+      "name": "ProcessEvents",
+      "sourceFile": "events.csv",
+      "type": "fact",
+      "key": "CaseID|EventSequence",
+      "columns": [
+        "ProcessID",
+        "ProcessName",
+        "CaseID",
+        "EventSequence",
+        "EventName",
+        "EventDate",
+        "SourceSystem",
+        "TouchedBy",
+        "AutomationFlag",
+        "ReworkFlag",
+        "EventCost"
+      ]
+    },
+    {
+      "name": "ProcessKpiSnapshots",
+      "sourceFile": "kpi_snapshots.csv",
+      "type": "fact",
+      "key": "ProcessID|Period|KPIName",
+      "columns": [
+        "ProcessID",
+        "ProcessName",
+        "Period",
+        "KPIName",
+        "ActualValue",
+        "TargetValue",
+        "Tolerance",
+        "Status",
+        "OwnerRole",
+        "SourceSystems"
+      ]
+    },
+    {
+      "name": "DimProcess",
+      "type": "dimension",
+      "columns": [
+        "ProcessID",
+        "ProcessName",
+        "Domain",
+        "OwnerRole"
+      ]
+    },
+    {
+      "name": "DimCalendar",
+      "type": "dimension",
+      "columns": [
+        "Date",
+        "Year",
+        "Quarter",
+        "Month",
+        "FiscalPeriod"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "fromTable": "ProcessEvents",
+      "fromColumn": "CaseID",
+      "toTable": "ProcessCases",
+      "toColumn": "CaseID",
+      "cardinality": "many-to-one",
+      "crossFilter": "single",
+      "active": true
+    },
+    {
+      "fromTable": "ProcessKpiSnapshots",
+      "fromColumn": "ProcessID",
+      "toTable": "DimProcess",
+      "toColumn": "ProcessID",
+      "cardinality": "many-to-one",
+      "crossFilter": "single",
+      "active": true
+    },
+    {
+      "fromTable": "ProcessCases",
+      "fromColumn": "ProcessID",
+      "toTable": "DimProcess",
+      "toColumn": "ProcessID",
+      "cardinality": "many-to-one",
+      "crossFilter": "single",
+      "active": true
+    }
+  ],
+  "compileOutputs": [
+    "TMDL tables",
+    "relationships.tmdl",
+    "measure table",
+    "format strings"
+  ]
+}

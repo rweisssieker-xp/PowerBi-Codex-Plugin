@@ -1,0 +1,39 @@
+{
+  "processId": "demand2supply",
+  "processName": "Demand2Supply",
+  "ownerRole": "Demand-to-Supply Process Owner",
+  "qualityGate": {
+    "processId": "demand2supply",
+    "processName": "Demand2Supply",
+    "requiredChecks": [
+      "demo_data_files_exist",
+      "model_spec_valid",
+      "dax_measures_present",
+      "report_pages_present",
+      "quality_gate_present",
+      "native_source_pattern_declared",
+      "no_ambiguous_relationship_paths",
+      "visual_bindings_resolvable",
+      "kpi_owner_acceptance_required"
+    ],
+    "acceptanceCriteria": [
+      "All process KPIs have a generated DAX measure or documented mapping.",
+      "All report pages have purpose, visuals, and required measures or fields.",
+      "Model relationships are many-to-one or explicitly documented.",
+      "Demo source path uses CSV files and production path requires native connector routing.",
+      "Generated artifacts contain no tenant secrets or customer-sensitive data."
+    ],
+    "manualPowerBIDesktopChecks": [
+      "Open generated PBIP/PBIR when available.",
+      "Refresh all demo CSV sources.",
+      "Confirm no Frown errors.",
+      "Confirm visuals bind to existing fields/measures."
+    ]
+  },
+  "ownerAcceptanceQuestions": [
+    "Are KPI definitions and tolerances approved?",
+    "Are native production source owners and gateways assigned?",
+    "Are RLS/OLS assumptions approved by IT/CoE?",
+    "Are action owners accountable for generated exception cockpits?"
+  ]
+}

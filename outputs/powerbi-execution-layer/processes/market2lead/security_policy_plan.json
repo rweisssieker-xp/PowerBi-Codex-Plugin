@@ -1,0 +1,13 @@
+{
+  "processId": "market2lead",
+  "roles": [
+    {
+      "role": "ProcessOwner",
+      "table": "ProcessCases",
+      "filter": "[OwnerRole] = USERPRINCIPALNAME() or [OwnerName] = USERPRINCIPALNAME()",
+      "note": "Replace with enterprise identity mapping before production."
+    }
+  ],
+  "olsPolicy": "classify sensitive partner, employee, financial, and compliance fields before production release",
+  "tenantBoundary": "No credentials or secrets are stored in generated artifacts."
+}

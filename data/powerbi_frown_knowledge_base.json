@@ -1,0 +1,41 @@
+{
+  "version": "2026-05-04",
+  "description": "Power BI Frown-to-Fix knowledge base for generated expert-replacement artifacts.",
+  "patterns": [
+    {
+      "id": "ambiguous_relationship_path",
+      "errorContains": "ambiguous paths",
+      "rootCause": "Two active filter paths connect the same fact and dimension grain.",
+      "fixStrategy": "Remove fact-to-fact relationships, deactivate alternate paths, or route through conformed dimensions only.",
+      "validationCommand": "python scripts\\powerbi_expert_factory.py validate --project <pbip-folder>"
+    },
+    {
+      "id": "numeric_powerquery_navigation",
+      "errorContains": "key didn't match any rows",
+      "rootCause": "Power Query navigates source tables by numeric row index such as Source{6}.",
+      "fixStrategy": "Use key-based navigation such as Source{[Item=\"Table\", Kind=\"Sheet\"]}[Data].",
+      "validationCommand": "python scripts\\powerbi_expert_factory.py validate --project <pbip-folder>"
+    },
+    {
+      "id": "directquery_olap_unsupported_edit",
+      "errorContains": "not supported for DirectQuery connections to OLAP sources",
+      "rootCause": "Model contains semantic edits that Power BI blocks for DirectQuery over OLAP sources.",
+      "fixStrategy": "Move calculations to the source model or switch to an Import/composite design supported by the source.",
+      "validationCommand": "python scripts\\powerbi_expert_factory.py feature-plan --process <processId>"
+    },
+    {
+      "id": "missing_visual_binding",
+      "errorContains": "visual has missing fields",
+      "rootCause": "PBIR visual references a table column or measure that is not present in TMDL.",
+      "fixStrategy": "Regenerate visuals from the semantic model inventory and rerun visual binding validation.",
+      "validationCommand": "python scripts\\powerbi_expert_factory.py validate --project <pbip-folder>"
+    },
+    {
+      "id": "schema_drift_missing_column",
+      "errorContains": "column of the table wasn't found",
+      "rootCause": "Source schema changed after model generation.",
+      "fixStrategy": "Run source profiling, compare against schema_drift_contract.json, and update the source mapping.",
+      "validationCommand": "python scripts\\powerbi_expert_factory.py build --process <processId> --source demo --out <folder>"
+    }
+  ]
+}

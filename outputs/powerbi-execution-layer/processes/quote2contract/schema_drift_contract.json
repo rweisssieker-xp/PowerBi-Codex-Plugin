@@ -1,0 +1,113 @@
+{
+  "processId": "quote2contract",
+  "rules": [
+    {
+      "file": "cases.csv",
+      "requiredColumns": [
+        "ProcessID",
+        "ProcessName",
+        "CaseID",
+        "CaseName",
+        "Domain",
+        "OwnerRole",
+        "OwnerName",
+        "Region",
+        "PlantID",
+        "BusinessPartner",
+        "CurrentStage",
+        "StartDate",
+        "TargetDate",
+        "ActualOrForecastDate",
+        "TargetCycleDays",
+        "ActualCycleDays",
+        "SlaBreached",
+        "RootCause",
+        "ContractValue",
+        "RiskScore",
+        "ActionRequired"
+      ],
+      "typeExpectations": {
+        "ProcessID": "string",
+        "ProcessName": "string",
+        "CaseID": "string",
+        "CaseName": "string",
+        "Domain": "string",
+        "OwnerRole": "string",
+        "OwnerName": "string",
+        "Region": "string",
+        "PlantID": "string",
+        "BusinessPartner": "string",
+        "CurrentStage": "string",
+        "StartDate": "date",
+        "TargetDate": "date",
+        "ActualOrForecastDate": "date",
+        "TargetCycleDays": "int64",
+        "ActualCycleDays": "int64",
+        "SlaBreached": "boolean",
+        "RootCause": "string",
+        "ContractValue": "double",
+        "RiskScore": "int64",
+        "ActionRequired": "boolean"
+      },
+      "driftPolicy": "block build on missing columns; warn on type widening; require owner signoff on renamed fields"
+    },
+    {
+      "file": "events.csv",
+      "requiredColumns": [
+        "ProcessID",
+        "ProcessName",
+        "CaseID",
+        "EventSequence",
+        "EventName",
+        "EventDate",
+        "SourceSystem",
+        "TouchedBy",
+        "AutomationFlag",
+        "ReworkFlag",
+        "EventCost"
+      ],
+      "typeExpectations": {
+        "ProcessID": "string",
+        "ProcessName": "string",
+        "CaseID": "string",
+        "EventSequence": "int64",
+        "EventName": "string",
+        "EventDate": "date",
+        "SourceSystem": "string",
+        "TouchedBy": "string",
+        "AutomationFlag": "boolean",
+        "ReworkFlag": "boolean",
+        "EventCost": "double"
+      },
+      "driftPolicy": "block build on missing columns; warn on type widening; require owner signoff on renamed fields"
+    },
+    {
+      "file": "kpi_snapshots.csv",
+      "requiredColumns": [
+        "ProcessID",
+        "ProcessName",
+        "Period",
+        "KPIName",
+        "ActualValue",
+        "TargetValue",
+        "Tolerance",
+        "Status",
+        "OwnerRole",
+        "SourceSystems"
+      ],
+      "typeExpectations": {
+        "ProcessID": "string",
+        "ProcessName": "string",
+        "Period": "string",
+        "KPIName": "string",
+        "ActualValue": "double",
+        "TargetValue": "double",
+        "Tolerance": "double",
+        "Status": "string",
+        "OwnerRole": "string",
+        "SourceSystems": "string"
+      },
+      "driftPolicy": "block build on missing columns; warn on type widening; require owner signoff on renamed fields"
+    }
+  ]
+}

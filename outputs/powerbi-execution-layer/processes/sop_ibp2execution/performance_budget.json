@@ -1,0 +1,8 @@
+{
+  "processId": "sop_ibp2execution",
+  "rowBudget": 276,
+  "visualBudgetPerPage": 8,
+  "relationshipBudget": 3,
+  "directQueryRisk": "medium",
+  "refreshBudget": "demo import under 5 minutes; production requires gateway/load test evidence"
+}

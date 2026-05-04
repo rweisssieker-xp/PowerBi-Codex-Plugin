@@ -1,0 +1,126 @@
+{
+  "processId": "close2report_plan2perform",
+  "featureCount": 20,
+  "features": [
+    {
+      "featureId": "one_click_process_to_pbip",
+      "featureName": "One-Click Process-to-PBIP",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "connector_aware_source_interview",
+      "featureName": "Connector-Aware Source Interview",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "kpi_contract_negotiator",
+      "featureName": "KPI Contract Negotiator",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "ambiguous_path_prevention_engine",
+      "featureName": "Ambiguous-Path Prevention Engine",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "frown_to_fix_knowledge_loop",
+      "featureName": "Frown-to-Fix Knowledge Loop",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "visual_binding_compiler",
+      "featureName": "Visual Binding Compiler",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "measure_test_harness",
+      "featureName": "Measure Test Harness",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "process_digital_twin_layer",
+      "featureName": "Process Digital Twin Layer",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "action_cockpit_generator",
+      "featureName": "Action Cockpit Generator",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "rls_ols_policy_generator",
+      "featureName": "RLS/OLS Policy Generator",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "source_to_kpi_lineage",
+      "featureName": "Source-to-KPI Lineage",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "process_pack_marketplace",
+      "featureName": "Process Pack Marketplace",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "industry_variant_packs",
+      "featureName": "Industry Variant Packs",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "coe_certification_bot",
+      "featureName": "Power BI CoE Certification Bot",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "report_consolidation_ai",
+      "featureName": "Report Consolidation AI",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "semantic_model_refactoring",
+      "featureName": "Semantic Model Refactoring",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "query_folding_verifier",
+      "featureName": "Query Folding Verifier",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "refresh_failure_triage",
+      "featureName": "Refresh Failure Triage",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "business_value_realization_tracker",
+      "featureName": "Business Value Realization Tracker",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    },
+    {
+      "featureId": "boardroom_narrative_generator",
+      "featureName": "Boardroom Narrative Generator",
+      "status": "generated",
+      "evidenceFolder": "outputs/powerbi-execution-layer/processes/close2report_plan2perform"
+    }
+  ]
+}
