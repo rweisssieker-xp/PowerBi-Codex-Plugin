@@ -1,0 +1,9 @@
+{
+  "processId": "maintain2operate",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

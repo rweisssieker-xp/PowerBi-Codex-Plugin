@@ -6,9 +6,11 @@ from pathlib import Path
 from scripts.powerbi_expert_factory import (
     build_feature_delivery_plan,
     build_premium_usp_plan,
+    build_runtime_max_plan,
     build_process_delivery,
     load_feature_catalog,
     load_premium_usp_catalog,
+    load_runtime_max_catalog,
     parse_model,
     run_acceptance,
     validate_model_graph,
@@ -246,6 +248,21 @@ relationship rel_returns_customer
         self.assertEqual(result["processId"], "lead2order")
         self.assertEqual(result["premiumUspCount"], 25)
         self.assertEqual(len(result["premiumUsps"]), 25)
+
+    def test_runtime_max_catalog_exposes_all_fifteen_capabilities(self):
+        catalog = load_runtime_max_catalog()
+
+        self.assertEqual(catalog["capabilityCount"], 15)
+        self.assertEqual(len(catalog["capabilities"]), 15)
+        self.assertTrue(all(item["implementationStatus"] == "implemented_as_runtime_max_artifact" for item in catalog["capabilities"]))
+
+    def test_runtime_max_plan_points_to_generated_pbip(self):
+        result = build_runtime_max_plan("lead-to-order")
+
+        self.assertEqual(result["requestedProcessId"], "lead-to-order")
+        self.assertEqual(result["processId"], "lead2order")
+        self.assertEqual(result["capabilityCount"], 15)
+        self.assertTrue(Path(result["pbip"]["projectPath"]).exists())
 
 
 if __name__ == "__main__":

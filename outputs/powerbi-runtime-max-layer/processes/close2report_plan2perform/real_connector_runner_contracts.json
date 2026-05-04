@@ -1,0 +1,16 @@
+{
+  "processId": "close2report_plan2perform",
+  "connectors": [
+    "Excel",
+    "Folder",
+    "SQL Server",
+    "SharePoint",
+    "Fabric",
+    "Dataverse",
+    "OData",
+    "REST",
+    "SAP",
+    "Snowflake"
+  ],
+  "credentialPolicy": "ephemeral runtime only"
+}

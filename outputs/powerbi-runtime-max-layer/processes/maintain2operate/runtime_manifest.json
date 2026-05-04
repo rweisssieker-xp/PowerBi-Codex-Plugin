@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.843430+00:00",
+  "processId": "maintain2operate",
+  "processName": "Maintain2Operate",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Maintain2Operate",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/maintain2operate/pbip/Maintain2Operate",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/maintain2operate/pbip/Maintain2Operate/Maintain2Operate.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/maintain2operate/pbip/Maintain2Operate/Maintain2Operate.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "processId": "asset2reliability",
+  "strategy": "map source aliases to semantic fields using name, type, value pattern, and process context"
+}

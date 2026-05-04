@@ -1,0 +1,9 @@
+{
+  "processId": "forecast2plan",
+  "stages": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "rollback": "restore previous certified PBIP artifact"
+}

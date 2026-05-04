@@ -1,0 +1,40 @@
+{
+  "processId": "project2cash",
+  "kpis": [
+    {
+      "name": "Milestone Adherence",
+      "ownerRole": "Project-to-Cash Process Owner",
+      "synonyms": [
+        "milestone_adherence"
+      ]
+    },
+    {
+      "name": "Project Margin",
+      "ownerRole": "Project-to-Cash Process Owner",
+      "synonyms": [
+        "project_margin"
+      ]
+    },
+    {
+      "name": "WIP Value",
+      "ownerRole": "Project-to-Cash Process Owner",
+      "synonyms": [
+        "wip_value"
+      ]
+    },
+    {
+      "name": "Billing Readiness",
+      "ownerRole": "Project-to-Cash Process Owner",
+      "synonyms": [
+        "billing_readiness"
+      ]
+    },
+    {
+      "name": "Cash Exposure",
+      "ownerRole": "Project-to-Cash Process Owner",
+      "synonyms": [
+        "cash_exposure"
+      ]
+    }
+  ]
+}

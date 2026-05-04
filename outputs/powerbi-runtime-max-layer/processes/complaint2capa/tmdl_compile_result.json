@@ -1,0 +1,14 @@
+{
+  "processId": "complaint2capa",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Complaint2CAPA",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/complaint2capa/pbip/Complaint2CAPA",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/complaint2capa/pbip/Complaint2CAPA/Complaint2CAPA.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/complaint2capa/pbip/Complaint2CAPA/Complaint2CAPA.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

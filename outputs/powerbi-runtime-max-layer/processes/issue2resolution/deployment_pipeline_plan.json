@@ -1,0 +1,9 @@
+{
+  "processId": "issue2resolution",
+  "stages": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "rollback": "restore previous certified PBIP artifact"
+}

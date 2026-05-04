@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:35.089991+00:00",
+  "processId": "close2report_plan2perform",
+  "processName": "Close2Report / Plan2Perform",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Close2Report_Plan2Perform",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/close2report_plan2perform/pbip/Close2Report_Plan2Perform",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/close2report_plan2perform/pbip/Close2Report_Plan2Perform/Close2Report_Plan2Perform.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/close2report_plan2perform/pbip/Close2Report_Plan2Perform/Close2Report_Plan2Perform.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "processId": "supplieronboarding2risk",
+  "kpis": [
+    {
+      "name": "Qualification Status",
+      "ownerRole": "Supplier Risk Process Owner",
+      "synonyms": [
+        "qualification_status"
+      ]
+    },
+    {
+      "name": "Audit Score",
+      "ownerRole": "Supplier Risk Process Owner",
+      "synonyms": [
+        "audit_score"
+      ]
+    },
+    {
+      "name": "ESG Risk",
+      "ownerRole": "Supplier Risk Process Owner",
+      "synonyms": [
+        "esg_risk"
+      ]
+    },
+    {
+      "name": "Onboarding Aging",
+      "ownerRole": "Supplier Risk Process Owner",
+      "synonyms": [
+        "onboarding_aging"
+      ]
+    },
+    {
+      "name": "Supplier Risk Exposure",
+      "ownerRole": "Supplier Risk Process Owner",
+      "synonyms": [
+        "supplier_risk_exposure"
+      ]
+    }
+  ]
+}

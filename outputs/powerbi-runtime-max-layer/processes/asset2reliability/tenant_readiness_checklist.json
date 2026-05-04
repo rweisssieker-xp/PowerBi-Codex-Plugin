@@ -1,0 +1,10 @@
+{
+  "processId": "asset2reliability",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

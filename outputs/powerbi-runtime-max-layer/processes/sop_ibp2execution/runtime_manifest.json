@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.942570+00:00",
+  "processId": "sop_ibp2execution",
+  "processName": "S&OP / IBP2Execution",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "S_OP_IBP2Execution",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/sop_ibp2execution/pbip/S_OP_IBP2Execution",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/sop_ibp2execution/pbip/S_OP_IBP2Execution/S_OP_IBP2Execution.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/sop_ibp2execution/pbip/S_OP_IBP2Execution/S_OP_IBP2Execution.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

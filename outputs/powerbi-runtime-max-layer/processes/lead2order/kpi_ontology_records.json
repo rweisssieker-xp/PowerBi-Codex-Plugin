@@ -1,0 +1,47 @@
+{
+  "processId": "lead2order",
+  "kpis": [
+    {
+      "name": "Lead Volume",
+      "ownerRole": "Lead-to-Order Process Owner",
+      "synonyms": [
+        "lead_volume"
+      ]
+    },
+    {
+      "name": "MQL Rate",
+      "ownerRole": "Lead-to-Order Process Owner",
+      "synonyms": [
+        "mql_rate"
+      ]
+    },
+    {
+      "name": "SQL Rate",
+      "ownerRole": "Lead-to-Order Process Owner",
+      "synonyms": [
+        "sql_rate"
+      ]
+    },
+    {
+      "name": "Order Conversion Rate",
+      "ownerRole": "Lead-to-Order Process Owner",
+      "synonyms": [
+        "order_conversion_rate"
+      ]
+    },
+    {
+      "name": "Lead-to-Order Cycle Time",
+      "ownerRole": "Lead-to-Order Process Owner",
+      "synonyms": [
+        "lead-to-order_cycle_time"
+      ]
+    },
+    {
+      "name": "Pipeline Value",
+      "ownerRole": "Lead-to-Order Process Owner",
+      "synonyms": [
+        "pipeline_value"
+      ]
+    }
+  ]
+}

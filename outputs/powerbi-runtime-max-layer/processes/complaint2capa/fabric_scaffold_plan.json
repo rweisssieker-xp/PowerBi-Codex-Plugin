@@ -1,0 +1,9 @@
+{
+  "processId": "complaint2capa",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

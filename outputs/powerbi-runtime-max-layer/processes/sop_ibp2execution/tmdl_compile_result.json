@@ -1,0 +1,14 @@
+{
+  "processId": "sop_ibp2execution",
+  "status": "generated",
+  "pbip": {
+    "projectName": "S_OP_IBP2Execution",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/sop_ibp2execution/pbip/S_OP_IBP2Execution",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/sop_ibp2execution/pbip/S_OP_IBP2Execution/S_OP_IBP2Execution.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/sop_ibp2execution/pbip/S_OP_IBP2Execution/S_OP_IBP2Execution.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

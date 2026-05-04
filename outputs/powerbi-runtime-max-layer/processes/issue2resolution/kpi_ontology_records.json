@@ -1,0 +1,40 @@
+{
+  "processId": "issue2resolution",
+  "kpis": [
+    {
+      "name": "Issue Aging",
+      "ownerRole": "Issue Resolution Process Owner",
+      "synonyms": [
+        "issue_aging"
+      ]
+    },
+    {
+      "name": "SLA Breach %",
+      "ownerRole": "Issue Resolution Process Owner",
+      "synonyms": [
+        "sla_breach_%"
+      ]
+    },
+    {
+      "name": "Warranty Cost",
+      "ownerRole": "Issue Resolution Process Owner",
+      "synonyms": [
+        "warranty_cost"
+      ]
+    },
+    {
+      "name": "Repeat Issue Rate",
+      "ownerRole": "Issue Resolution Process Owner",
+      "synonyms": [
+        "repeat_issue_rate"
+      ]
+    },
+    {
+      "name": "Corrective Action Aging",
+      "ownerRole": "Issue Resolution Process Owner",
+      "synonyms": [
+        "corrective_action_aging"
+      ]
+    }
+  ]
+}

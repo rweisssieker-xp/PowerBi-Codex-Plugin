@@ -1,0 +1,10 @@
+{
+  "processId": "close2report_plan2perform",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

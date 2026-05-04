@@ -1,0 +1,9 @@
+{
+  "processId": "design2cost",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

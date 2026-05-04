@@ -1,0 +1,40 @@
+{
+  "processId": "source2contract",
+  "kpis": [
+    {
+      "name": "Sourcing Cycle Time",
+      "ownerRole": "Source-to-Contract Process Owner",
+      "synonyms": [
+        "sourcing_cycle_time"
+      ]
+    },
+    {
+      "name": "Contract Value At Risk",
+      "ownerRole": "Source-to-Contract Process Owner",
+      "synonyms": [
+        "contract_value_at_risk"
+      ]
+    },
+    {
+      "name": "Supplier Compliance %",
+      "ownerRole": "Source-to-Contract Process Owner",
+      "synonyms": [
+        "supplier_compliance_%"
+      ]
+    },
+    {
+      "name": "Legal Loop Count",
+      "ownerRole": "Source-to-Contract Process Owner",
+      "synonyms": [
+        "legal_loop_count"
+      ]
+    },
+    {
+      "name": "Savings Value",
+      "ownerRole": "Source-to-Contract Process Owner",
+      "synonyms": [
+        "savings_value"
+      ]
+    }
+  ]
+}

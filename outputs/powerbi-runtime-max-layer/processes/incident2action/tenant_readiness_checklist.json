@@ -1,0 +1,10 @@
+{
+  "processId": "incident2action",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

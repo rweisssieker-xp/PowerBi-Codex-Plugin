@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:35.029231+00:00",
+  "processId": "incident2action",
+  "processName": "Incident2Action",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Incident2Action",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/incident2action/pbip/Incident2Action",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/incident2action/pbip/Incident2Action/Incident2Action.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/incident2action/pbip/Incident2Action/Incident2Action.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

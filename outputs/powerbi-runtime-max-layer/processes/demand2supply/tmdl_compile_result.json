@@ -1,0 +1,14 @@
+{
+  "processId": "demand2supply",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Demand2Supply",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/demand2supply/pbip/Demand2Supply",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/demand2supply/pbip/Demand2Supply/Demand2Supply.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/demand2supply/pbip/Demand2Supply/Demand2Supply.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

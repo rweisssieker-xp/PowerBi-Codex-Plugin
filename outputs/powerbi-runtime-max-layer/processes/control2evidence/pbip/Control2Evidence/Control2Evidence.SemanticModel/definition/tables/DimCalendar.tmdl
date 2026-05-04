@@ -1,0 +1,28 @@
+table DimCalendar
+	column Date
+		dataType: dateTime
+		sourceColumn: [Date]
+
+	column Year
+		dataType: string
+		sourceColumn: [Year]
+
+	column Quarter
+		dataType: string
+		sourceColumn: [Quarter]
+
+	column Month
+		dataType: string
+		sourceColumn: [Month]
+
+	column FiscalPeriod
+		dataType: string
+		sourceColumn: [FiscalPeriod]
+
+	partition DimCalendar = m
+		mode: import
+		source =
+			let
+			    Source = #table({}, {})
+			in
+			    Source

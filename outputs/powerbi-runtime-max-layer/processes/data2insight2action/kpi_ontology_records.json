@@ -1,0 +1,40 @@
+{
+  "processId": "data2insight2action",
+  "kpis": [
+    {
+      "name": "Insight Adoption",
+      "ownerRole": "Data-to-Action Process Owner",
+      "synonyms": [
+        "insight_adoption"
+      ]
+    },
+    {
+      "name": "Action Conversion",
+      "ownerRole": "Data-to-Action Process Owner",
+      "synonyms": [
+        "action_conversion"
+      ]
+    },
+    {
+      "name": "Decision Latency",
+      "ownerRole": "Data-to-Action Process Owner",
+      "synonyms": [
+        "decision_latency"
+      ]
+    },
+    {
+      "name": "Realized Value",
+      "ownerRole": "Data-to-Action Process Owner",
+      "synonyms": [
+        "realized_value"
+      ]
+    },
+    {
+      "name": "Action Overdue Count",
+      "ownerRole": "Data-to-Action Process Owner",
+      "synonyms": [
+        "action_overdue_count"
+      ]
+    }
+  ]
+}

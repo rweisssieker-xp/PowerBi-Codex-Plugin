@@ -1,0 +1,10 @@
+{
+  "processId": "procure2pay",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

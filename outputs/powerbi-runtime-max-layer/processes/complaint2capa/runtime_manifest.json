@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:35.007905+00:00",
+  "processId": "complaint2capa",
+  "processName": "Complaint2CAPA",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Complaint2CAPA",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/complaint2capa/pbip/Complaint2CAPA",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/complaint2capa/pbip/Complaint2CAPA/Complaint2CAPA.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/complaint2capa/pbip/Complaint2CAPA/Complaint2CAPA.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

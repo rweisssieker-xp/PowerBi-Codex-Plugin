@@ -1,0 +1,40 @@
+{
+  "processId": "record2report",
+  "kpis": [
+    {
+      "name": "Close Cycle Time",
+      "ownerRole": "Record-to-Report Process Owner",
+      "synonyms": [
+        "close_cycle_time"
+      ]
+    },
+    {
+      "name": "Late Posting Count",
+      "ownerRole": "Record-to-Report Process Owner",
+      "synonyms": [
+        "late_posting_count"
+      ]
+    },
+    {
+      "name": "Reconciliation Breaks",
+      "ownerRole": "Record-to-Report Process Owner",
+      "synonyms": [
+        "reconciliation_breaks"
+      ]
+    },
+    {
+      "name": "Journal Error Rate",
+      "ownerRole": "Record-to-Report Process Owner",
+      "synonyms": [
+        "journal_error_rate"
+      ]
+    },
+    {
+      "name": "Audit Finding Count",
+      "ownerRole": "Record-to-Report Process Owner",
+      "synonyms": [
+        "audit_finding_count"
+      ]
+    }
+  ]
+}

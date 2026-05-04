@@ -1,0 +1,9 @@
+{
+  "processId": "demand2supply",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "processId": "incident2action",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Incident2Action",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/incident2action/pbip/Incident2Action",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/incident2action/pbip/Incident2Action/Incident2Action.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/incident2action/pbip/Incident2Action/Incident2Action.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

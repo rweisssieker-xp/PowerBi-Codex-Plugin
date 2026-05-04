@@ -1,0 +1,9 @@
+{
+  "processId": "nonconformance2disposition",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

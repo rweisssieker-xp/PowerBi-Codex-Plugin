@@ -1,0 +1,12 @@
+{
+  "processId": "close2report_plan2perform",
+  "inputs": [
+    "Frown snapshot zip",
+    "PerformanceTraces.zip"
+  ],
+  "outputs": [
+    "classified issue",
+    "repair rule",
+    "validation command"
+  ]
+}

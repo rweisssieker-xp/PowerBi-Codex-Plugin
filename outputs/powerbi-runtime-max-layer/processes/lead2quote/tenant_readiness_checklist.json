@@ -1,0 +1,10 @@
+{
+  "processId": "lead2quote",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.809890+00:00",
+  "processId": "plan2produce",
+  "processName": "Plan2Produce",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Plan2Produce",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/plan2produce/pbip/Plan2Produce",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/plan2produce/pbip/Plan2Produce/Plan2Produce.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/plan2produce/pbip/Plan2Produce/Plan2Produce.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

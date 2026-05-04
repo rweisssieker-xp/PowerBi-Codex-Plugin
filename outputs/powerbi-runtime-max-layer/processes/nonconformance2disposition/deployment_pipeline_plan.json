@@ -1,0 +1,9 @@
+{
+  "processId": "nonconformance2disposition",
+  "stages": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "rollback": "restore previous certified PBIP artifact"
+}

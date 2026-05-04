@@ -1,0 +1,10 @@
+{
+  "processId": "idea2launch",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

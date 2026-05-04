@@ -1,0 +1,9 @@
+{
+  "processId": "incident2action",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

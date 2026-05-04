@@ -1,0 +1,9 @@
+{
+  "processId": "installedbase2servicerevenue",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "processId": "maintain2operate",
+  "kpis": [
+    {
+      "name": "PM Compliance",
+      "ownerRole": "Maintenance Process Owner",
+      "synonyms": [
+        "pm_compliance"
+      ]
+    },
+    {
+      "name": "Downtime Cost",
+      "ownerRole": "Maintenance Process Owner",
+      "synonyms": [
+        "downtime_cost"
+      ]
+    },
+    {
+      "name": "MTBF",
+      "ownerRole": "Maintenance Process Owner",
+      "synonyms": [
+        "mtbf"
+      ]
+    },
+    {
+      "name": "MTTR",
+      "ownerRole": "Maintenance Process Owner",
+      "synonyms": [
+        "mttr"
+      ]
+    },
+    {
+      "name": "Maintenance Backlog",
+      "ownerRole": "Maintenance Process Owner",
+      "synonyms": [
+        "maintenance_backlog"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "processId": "asset2reliability",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

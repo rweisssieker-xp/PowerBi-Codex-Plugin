@@ -1,0 +1,9 @@
+{
+  "processId": "order2cash",
+  "stages": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "rollback": "restore previous certified PBIP artifact"
+}

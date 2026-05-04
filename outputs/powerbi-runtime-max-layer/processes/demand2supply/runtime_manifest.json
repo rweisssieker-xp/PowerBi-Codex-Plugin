@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.931619+00:00",
+  "processId": "demand2supply",
+  "processName": "Demand2Supply",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Demand2Supply",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/demand2supply/pbip/Demand2Supply",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/demand2supply/pbip/Demand2Supply/Demand2Supply.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/demand2supply/pbip/Demand2Supply/Demand2Supply.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

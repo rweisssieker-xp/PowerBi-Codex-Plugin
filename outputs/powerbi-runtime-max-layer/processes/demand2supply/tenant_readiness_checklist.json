@@ -1,0 +1,10 @@
+{
+  "processId": "demand2supply",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

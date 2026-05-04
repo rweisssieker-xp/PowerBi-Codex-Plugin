@@ -1,0 +1,14 @@
+{
+  "processId": "make_strategy",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Make2Stock_Make2Order_Engineer2Order",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/make_strategy/pbip/Make2Stock_Make2Order_Engineer2Order",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/make_strategy/pbip/Make2Stock_Make2Order_Engineer2Order/Make2Stock_Make2Order_Engineer2Order.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/make_strategy/pbip/Make2Stock_Make2Order_Engineer2Order/Make2Stock_Make2Order_Engineer2Order.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

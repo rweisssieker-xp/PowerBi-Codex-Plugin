@@ -1,0 +1,9 @@
+{
+  "processId": "idea2launch",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "processId": "close2report_plan2perform",
+  "kpis": [
+    {
+      "name": "Close Cycle",
+      "ownerRole": "Close and Planning Process Owner",
+      "synonyms": [
+        "close_cycle"
+      ]
+    },
+    {
+      "name": "Late Postings",
+      "ownerRole": "Close and Planning Process Owner",
+      "synonyms": [
+        "late_postings"
+      ]
+    },
+    {
+      "name": "Reconciliation Breaks",
+      "ownerRole": "Close and Planning Process Owner",
+      "synonyms": [
+        "reconciliation_breaks"
+      ]
+    },
+    {
+      "name": "Forecast Variance",
+      "ownerRole": "Close and Planning Process Owner",
+      "synonyms": [
+        "forecast_variance"
+      ]
+    },
+    {
+      "name": "Planning Assumption Drift",
+      "ownerRole": "Close and Planning Process Owner",
+      "synonyms": [
+        "planning_assumption_drift"
+      ]
+    }
+  ]
+}

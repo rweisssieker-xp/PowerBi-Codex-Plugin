@@ -1,0 +1,9 @@
+{
+  "processId": "sop_ibp2execution",
+  "stages": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "rollback": "restore previous certified PBIP artifact"
+}

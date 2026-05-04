@@ -1,0 +1,10 @@
+{
+  "processId": "plan2produce",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

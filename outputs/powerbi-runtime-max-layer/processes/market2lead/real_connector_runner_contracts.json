@@ -1,0 +1,16 @@
+{
+  "processId": "market2lead",
+  "connectors": [
+    "Excel",
+    "Folder",
+    "SQL Server",
+    "SharePoint",
+    "Fabric",
+    "Dataverse",
+    "OData",
+    "REST",
+    "SAP",
+    "Snowflake"
+  ],
+  "credentialPolicy": "ephemeral runtime only"
+}

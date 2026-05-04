@@ -1,0 +1,9 @@
+{
+  "processId": "make_strategy",
+  "rules": [
+    "replace numeric Source{n} navigation",
+    "remove fact-to-fact relationships",
+    "regenerate missing visual bindings",
+    "rebuild relationship graph"
+  ]
+}

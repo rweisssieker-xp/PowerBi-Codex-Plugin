@@ -1,0 +1,10 @@
+{
+  "processId": "nonconformance2disposition",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

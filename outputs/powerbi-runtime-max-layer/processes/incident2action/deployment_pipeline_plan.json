@@ -1,0 +1,9 @@
+{
+  "processId": "incident2action",
+  "stages": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "rollback": "restore previous certified PBIP artifact"
+}

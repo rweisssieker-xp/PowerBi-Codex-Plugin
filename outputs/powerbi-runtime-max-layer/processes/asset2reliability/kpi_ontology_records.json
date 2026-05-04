@@ -1,0 +1,40 @@
+{
+  "processId": "asset2reliability",
+  "kpis": [
+    {
+      "name": "OEE",
+      "ownerRole": "Asset Reliability Process Owner",
+      "synonyms": [
+        "oee"
+      ]
+    },
+    {
+      "name": "MTBF",
+      "ownerRole": "Asset Reliability Process Owner",
+      "synonyms": [
+        "mtbf"
+      ]
+    },
+    {
+      "name": "MTTR",
+      "ownerRole": "Asset Reliability Process Owner",
+      "synonyms": [
+        "mttr"
+      ]
+    },
+    {
+      "name": "Downtime Cost",
+      "ownerRole": "Asset Reliability Process Owner",
+      "synonyms": [
+        "downtime_cost"
+      ]
+    },
+    {
+      "name": "PM Compliance",
+      "ownerRole": "Asset Reliability Process Owner",
+      "synonyms": [
+        "pm_compliance"
+      ]
+    }
+  ]
+}

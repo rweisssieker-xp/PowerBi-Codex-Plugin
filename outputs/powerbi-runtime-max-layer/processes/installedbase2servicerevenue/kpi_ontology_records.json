@@ -1,0 +1,40 @@
+{
+  "processId": "installedbase2servicerevenue",
+  "kpis": [
+    {
+      "name": "Attach Rate",
+      "ownerRole": "Installed Base Service Process Owner",
+      "synonyms": [
+        "attach_rate"
+      ]
+    },
+    {
+      "name": "SLA Adherence",
+      "ownerRole": "Installed Base Service Process Owner",
+      "synonyms": [
+        "sla_adherence"
+      ]
+    },
+    {
+      "name": "Service Margin",
+      "ownerRole": "Installed Base Service Process Owner",
+      "synonyms": [
+        "service_margin"
+      ]
+    },
+    {
+      "name": "Renewal Opportunity",
+      "ownerRole": "Installed Base Service Process Owner",
+      "synonyms": [
+        "renewal_opportunity"
+      ]
+    },
+    {
+      "name": "Coverage Gap",
+      "ownerRole": "Installed Base Service Process Owner",
+      "synonyms": [
+        "coverage_gap"
+      ]
+    }
+  ]
+}

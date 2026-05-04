@@ -1,0 +1,40 @@
+{
+  "processId": "plan2produce",
+  "kpis": [
+    {
+      "name": "Schedule Adherence",
+      "ownerRole": "Plan-to-Produce Process Owner",
+      "synonyms": [
+        "schedule_adherence"
+      ]
+    },
+    {
+      "name": "Yield %",
+      "ownerRole": "Plan-to-Produce Process Owner",
+      "synonyms": [
+        "yield_%"
+      ]
+    },
+    {
+      "name": "Scrap Value",
+      "ownerRole": "Plan-to-Produce Process Owner",
+      "synonyms": [
+        "scrap_value"
+      ]
+    },
+    {
+      "name": "Capacity Utilization",
+      "ownerRole": "Plan-to-Produce Process Owner",
+      "synonyms": [
+        "capacity_utilization"
+      ]
+    },
+    {
+      "name": "Production Variance",
+      "ownerRole": "Plan-to-Produce Process Owner",
+      "synonyms": [
+        "production_variance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.743887+00:00",
+  "processId": "lead2order",
+  "processName": "Lead2Order",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Lead2Order",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/lead2order/pbip/Lead2Order",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/lead2order/pbip/Lead2Order/Lead2Order.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/lead2order/pbip/Lead2Order/Lead2Order.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

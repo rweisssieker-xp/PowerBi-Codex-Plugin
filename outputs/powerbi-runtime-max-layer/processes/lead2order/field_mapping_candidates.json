@@ -1,0 +1,4 @@
+{
+  "processId": "lead2order",
+  "strategy": "map source aliases to semantic fields using name, type, value pattern, and process context"
+}

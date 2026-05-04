@@ -1,0 +1,14 @@
+{
+  "processId": "data2insight2action",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Data2Insight2Action",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/data2insight2action/pbip/Data2Insight2Action",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/data2insight2action/pbip/Data2Insight2Action/Data2Insight2Action.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/data2insight2action/pbip/Data2Insight2Action/Data2Insight2Action.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

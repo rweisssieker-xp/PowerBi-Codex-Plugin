@@ -1,0 +1,40 @@
+{
+  "processId": "complaint2capa",
+  "kpis": [
+    {
+      "name": "Complaint Rate",
+      "ownerRole": "Complaint-to-CAPA Process Owner",
+      "synonyms": [
+        "complaint_rate"
+      ]
+    },
+    {
+      "name": "CAPA Aging",
+      "ownerRole": "Complaint-to-CAPA Process Owner",
+      "synonyms": [
+        "capa_aging"
+      ]
+    },
+    {
+      "name": "Repeat Defect Rate",
+      "ownerRole": "Complaint-to-CAPA Process Owner",
+      "synonyms": [
+        "repeat_defect_rate"
+      ]
+    },
+    {
+      "name": "Cost Of Poor Quality",
+      "ownerRole": "Complaint-to-CAPA Process Owner",
+      "synonyms": [
+        "cost_of_poor_quality"
+      ]
+    },
+    {
+      "name": "CAPA Effectiveness",
+      "ownerRole": "Complaint-to-CAPA Process Owner",
+      "synonyms": [
+        "capa_effectiveness"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "processId": "procure2pay",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

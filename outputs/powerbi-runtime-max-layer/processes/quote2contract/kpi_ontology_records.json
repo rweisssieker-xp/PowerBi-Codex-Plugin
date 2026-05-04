@@ -1,0 +1,40 @@
+{
+  "processId": "quote2contract",
+  "kpis": [
+    {
+      "name": "Contract Cycle Time",
+      "ownerRole": "Quote-to-Contract Process Owner",
+      "synonyms": [
+        "contract_cycle_time"
+      ]
+    },
+    {
+      "name": "Redline Loops",
+      "ownerRole": "Quote-to-Contract Process Owner",
+      "synonyms": [
+        "redline_loops"
+      ]
+    },
+    {
+      "name": "Term Deviation Count",
+      "ownerRole": "Quote-to-Contract Process Owner",
+      "synonyms": [
+        "term_deviation_count"
+      ]
+    },
+    {
+      "name": "Value At Risk",
+      "ownerRole": "Quote-to-Contract Process Owner",
+      "synonyms": [
+        "value_at_risk"
+      ]
+    },
+    {
+      "name": "Signature Aging",
+      "ownerRole": "Quote-to-Contract Process Owner",
+      "synonyms": [
+        "signature_aging"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "processId": "hire2retire",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Hire2Retire",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/hire2retire/pbip/Hire2Retire",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/hire2retire/pbip/Hire2Retire/Hire2Retire.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/hire2retire/pbip/Hire2Retire/Hire2Retire.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "processId": "close2report_plan2perform",
+  "strategy": "compare generated measures to demo CSV aggregates and KPI snapshot tolerances"
+}

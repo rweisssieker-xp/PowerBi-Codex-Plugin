@@ -1,0 +1,24 @@
+table DimProcess
+	column ProcessID
+		dataType: string
+		sourceColumn: [ProcessID]
+
+	column ProcessName
+		dataType: string
+		sourceColumn: [ProcessName]
+
+	column Domain
+		dataType: string
+		sourceColumn: [Domain]
+
+	column OwnerRole
+		dataType: string
+		sourceColumn: [OwnerRole]
+
+	partition DimProcess = m
+		mode: import
+		source =
+			let
+			    Source = #table({}, {})
+			in
+			    Source

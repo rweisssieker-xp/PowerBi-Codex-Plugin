@@ -1,0 +1,10 @@
+{
+  "processId": "project2cash",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

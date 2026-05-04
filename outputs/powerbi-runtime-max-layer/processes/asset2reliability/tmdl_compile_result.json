@@ -1,0 +1,14 @@
+{
+  "processId": "asset2reliability",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Asset2Reliability",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/asset2reliability/pbip/Asset2Reliability",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/asset2reliability/pbip/Asset2Reliability/Asset2Reliability.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/asset2reliability/pbip/Asset2Reliability/Asset2Reliability.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

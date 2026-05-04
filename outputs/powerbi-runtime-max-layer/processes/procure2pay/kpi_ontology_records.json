@@ -1,0 +1,40 @@
+{
+  "processId": "procure2pay",
+  "kpis": [
+    {
+      "name": "Spend Value",
+      "ownerRole": "Procure-to-Pay Process Owner",
+      "synonyms": [
+        "spend_value"
+      ]
+    },
+    {
+      "name": "Invoice Block Value",
+      "ownerRole": "Procure-to-Pay Process Owner",
+      "synonyms": [
+        "invoice_block_value"
+      ]
+    },
+    {
+      "name": "GR/IR Aging",
+      "ownerRole": "Procure-to-Pay Process Owner",
+      "synonyms": [
+        "gr/ir_aging"
+      ]
+    },
+    {
+      "name": "Discount Capture %",
+      "ownerRole": "Procure-to-Pay Process Owner",
+      "synonyms": [
+        "discount_capture_%"
+      ]
+    },
+    {
+      "name": "Supplier On-Time %",
+      "ownerRole": "Procure-to-Pay Process Owner",
+      "synonyms": [
+        "supplier_on-time_%"
+      ]
+    }
+  ]
+}

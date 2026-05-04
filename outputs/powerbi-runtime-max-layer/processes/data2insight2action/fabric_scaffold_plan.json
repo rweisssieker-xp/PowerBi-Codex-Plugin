@@ -1,0 +1,9 @@
+{
+  "processId": "data2insight2action",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

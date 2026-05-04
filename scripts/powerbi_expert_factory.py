@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 FEATURE_CATALOG_PATH = ROOT / "data" / "powerbi_feature_catalog.json"
 PROCESS_CATALOG_PATH = ROOT / "data" / "industry_process_catalog.json"
 PREMIUM_USP_CATALOG_PATH = ROOT / "data" / "powerbi_premium_usp_catalog.json"
+RUNTIME_MAX_CATALOG_PATH = ROOT / "data" / "powerbi_runtime_max_catalog.json"
 
 TABLE_RE = re.compile(r"^table\s+(.+?)\s*$")
 COLUMN_RE = re.compile(r"^\s*column\s+(.+?)\s*$")
@@ -412,6 +413,30 @@ def build_premium_usp_plan(process_id: str, root: Path = ROOT) -> dict[str, Any]
     return plan
 
 
+def load_runtime_max_catalog(root: Path = ROOT) -> dict[str, Any]:
+    path = root / "data" / "powerbi_runtime_max_catalog.json"
+    if not path.exists():
+        raise FileNotFoundError(f"{path} does not exist; run scripts\\build_powerbi_runtime_max_layer.py first.")
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def build_runtime_max_plan(process_id: str, root: Path = ROOT) -> dict[str, Any]:
+    catalog = load_runtime_max_catalog(root)
+    process_catalog = json.loads((root / "data" / "industry_process_catalog.json").read_text(encoding="utf-8"))
+    processes = {process["processId"]: process for process in process_catalog.get("processes", [])}
+    normalized_process_id = _normalize_process_id(process_id, processes)
+    if normalized_process_id not in processes:
+        known = ", ".join(sorted(processes)[:8])
+        raise ValueError(f"Unknown processId '{process_id}'. Known examples: {known}")
+    manifest_path = root / "outputs" / "powerbi-runtime-max-layer" / "processes" / normalized_process_id / "runtime_manifest.json"
+    if not manifest_path.exists():
+        raise FileNotFoundError(f"{manifest_path} does not exist; run scripts\\build_powerbi_runtime_max_layer.py first.")
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    manifest["requestedProcessId"] = process_id
+    manifest["catalogCapabilityCount"] = catalog.get("capabilityCount")
+    return manifest
+
+
 def build_feature_delivery_plan(process_id: str, root: Path = ROOT) -> dict[str, Any]:
     catalog = load_feature_catalog(root)
     process_catalog = json.loads((root / "data" / "industry_process_catalog.json").read_text(encoding="utf-8"))
@@ -550,6 +575,9 @@ def main() -> int:
     premium_usps = sub.add_parser("premium-usps", help="List the 25 premium USP contracts.")
     premium_usps.add_argument("--out")
 
+    runtime_max = sub.add_parser("runtime-max", help="List the 15 runtime max capabilities.")
+    runtime_max.add_argument("--out")
+
     feature_plan = sub.add_parser("feature-plan", help="Create a 20-feature delivery plan for a process.")
     feature_plan.add_argument("--process", required=True)
     feature_plan.add_argument("--out")
@@ -557,6 +585,10 @@ def main() -> int:
     premium_plan = sub.add_parser("premium-usp-plan", help="Create a 25-premium-USP plan for a process.")
     premium_plan.add_argument("--process", required=True)
     premium_plan.add_argument("--out")
+
+    runtime_plan = sub.add_parser("runtime-max-plan", help="Create a 15-capability runtime max plan for a process.")
+    runtime_plan.add_argument("--process", required=True)
+    runtime_plan.add_argument("--out")
 
     build = sub.add_parser("build", help="Build a local process delivery bundle from the execution layer.")
     build.add_argument("--process", required=True)
@@ -591,6 +623,14 @@ def main() -> int:
             Path(args.out).write_text(text, encoding="utf-8")
         print(text)
         return 0
+    if args.command == "runtime-max":
+        result = load_runtime_max_catalog()
+        text = json.dumps(result, indent=2)
+        if args.out:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.out).write_text(text, encoding="utf-8")
+        print(text)
+        return 0
     if args.command == "feature-plan":
         result = build_feature_delivery_plan(args.process)
         text = json.dumps(result, indent=2)
@@ -601,6 +641,14 @@ def main() -> int:
         return 0
     if args.command == "premium-usp-plan":
         result = build_premium_usp_plan(args.process)
+        text = json.dumps(result, indent=2)
+        if args.out:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.out).write_text(text, encoding="utf-8")
+        print(text)
+        return 0
+    if args.command == "runtime-max-plan":
+        result = build_runtime_max_plan(args.process)
         text = json.dumps(result, indent=2)
         if args.out:
             Path(args.out).parent.mkdir(parents=True, exist_ok=True)

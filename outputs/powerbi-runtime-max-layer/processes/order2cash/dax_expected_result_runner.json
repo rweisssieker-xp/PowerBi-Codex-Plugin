@@ -1,0 +1,4 @@
+{
+  "processId": "order2cash",
+  "strategy": "compare generated measures to demo CSV aggregates and KPI snapshot tolerances"
+}

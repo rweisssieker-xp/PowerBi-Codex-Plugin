@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.952990+00:00",
+  "processId": "design2cost",
+  "processName": "Design2Cost / Design2Source",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Design2Cost_Design2Source",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/design2cost/pbip/Design2Cost_Design2Source",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/design2cost/pbip/Design2Cost_Design2Source/Design2Cost_Design2Source.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/design2cost/pbip/Design2Cost_Design2Source/Design2Cost_Design2Source.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

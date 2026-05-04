@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.975387+00:00",
+  "processId": "dock2stock",
+  "processName": "Dock2Stock",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Dock2Stock",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/dock2stock/pbip/Dock2Stock",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/dock2stock/pbip/Dock2Stock/Dock2Stock.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/dock2stock/pbip/Dock2Stock/Dock2Stock.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

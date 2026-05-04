@@ -1,0 +1,54 @@
+table ProcessEvents
+	column ProcessID
+		dataType: string
+		sourceColumn: [ProcessID]
+
+	column ProcessName
+		dataType: string
+		sourceColumn: [ProcessName]
+
+	column CaseID
+		dataType: string
+		sourceColumn: [CaseID]
+
+	column EventSequence
+		dataType: int64
+		sourceColumn: [EventSequence]
+
+	column EventName
+		dataType: string
+		sourceColumn: [EventName]
+
+	column EventDate
+		dataType: dateTime
+		sourceColumn: [EventDate]
+
+	column SourceSystem
+		dataType: string
+		sourceColumn: [SourceSystem]
+
+	column TouchedBy
+		dataType: string
+		sourceColumn: [TouchedBy]
+
+	column AutomationFlag
+		dataType: boolean
+		sourceColumn: [AutomationFlag]
+
+	column ReworkFlag
+		dataType: boolean
+		sourceColumn: [ReworkFlag]
+
+	column EventCost
+		dataType: double
+		sourceColumn: [EventCost]
+
+	partition ProcessEvents = m
+		mode: import
+		source =
+			let
+			    Source = Csv.Document(File.Contents("C:/tmp/PowerBi-Codex-Plugin/outputs/industry-demo-data/hire2retire/events.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+			    PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+			    ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"ProcessID", type text}, {"ProcessName", type text}, {"CaseID", type text}, {"EventSequence", Int64.Type}, {"EventName", type text}, {"EventDate", type date}, {"SourceSystem", type text}, {"TouchedBy", type text}, {"AutomationFlag", type logical}, {"ReworkFlag", type logical}, {"EventCost", type number}}, "en-US")
+			in
+			    ChangedType

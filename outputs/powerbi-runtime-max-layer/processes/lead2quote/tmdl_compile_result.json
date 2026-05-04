@@ -1,0 +1,14 @@
+{
+  "processId": "lead2quote",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Lead2Quote_Configure2Quote",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/lead2quote/pbip/Lead2Quote_Configure2Quote",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/lead2quote/pbip/Lead2Quote_Configure2Quote/Lead2Quote_Configure2Quote.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/lead2quote/pbip/Lead2Quote_Configure2Quote/Lead2Quote_Configure2Quote.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

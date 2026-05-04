@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:35.053959+00:00",
+  "processId": "installedbase2servicerevenue",
+  "processName": "InstalledBase2ServiceRevenue",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "InstalledBase2ServiceRevenue",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/installedbase2servicerevenue/pbip/InstalledBase2ServiceRevenue",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/installedbase2servicerevenue/pbip/InstalledBase2ServiceRevenue/InstalledBase2ServiceRevenue.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/installedbase2servicerevenue/pbip/InstalledBase2ServiceRevenue/InstalledBase2ServiceRevenue.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

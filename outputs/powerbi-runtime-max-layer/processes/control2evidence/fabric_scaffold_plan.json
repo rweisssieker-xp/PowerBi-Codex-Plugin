@@ -1,0 +1,9 @@
+{
+  "processId": "control2evidence",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

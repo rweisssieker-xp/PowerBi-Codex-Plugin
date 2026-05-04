@@ -1,0 +1,10 @@
+{
+  "processId": "complaint2capa",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

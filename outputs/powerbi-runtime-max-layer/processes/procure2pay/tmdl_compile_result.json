@@ -1,0 +1,14 @@
+{
+  "processId": "procure2pay",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Procure2Pay",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/procure2pay/pbip/Procure2Pay",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/procure2pay/pbip/Procure2Pay/Procure2Pay.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/procure2pay/pbip/Procure2Pay/Procure2Pay.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

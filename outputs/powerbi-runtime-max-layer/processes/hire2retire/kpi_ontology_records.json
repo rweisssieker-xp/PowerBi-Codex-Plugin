@@ -1,0 +1,40 @@
+{
+  "processId": "hire2retire",
+  "kpis": [
+    {
+      "name": "Time To Hire",
+      "ownerRole": "Hire-to-Retire Process Owner",
+      "synonyms": [
+        "time_to_hire"
+      ]
+    },
+    {
+      "name": "Absence Rate",
+      "ownerRole": "Hire-to-Retire Process Owner",
+      "synonyms": [
+        "absence_rate"
+      ]
+    },
+    {
+      "name": "Skill Gap",
+      "ownerRole": "Hire-to-Retire Process Owner",
+      "synonyms": [
+        "skill_gap"
+      ]
+    },
+    {
+      "name": "Training Compliance",
+      "ownerRole": "Hire-to-Retire Process Owner",
+      "synonyms": [
+        "training_compliance"
+      ]
+    },
+    {
+      "name": "Safety Incident Rate",
+      "ownerRole": "Hire-to-Retire Process Owner",
+      "synonyms": [
+        "safety_incident_rate"
+      ]
+    }
+  ]
+}

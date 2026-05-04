@@ -1,0 +1,9 @@
+{
+  "processId": "market2lead",
+  "stages": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "rollback": "restore previous certified PBIP artifact"
+}

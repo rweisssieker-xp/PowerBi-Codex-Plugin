@@ -1,0 +1,9 @@
+{
+  "processId": "pick2pack2ship",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

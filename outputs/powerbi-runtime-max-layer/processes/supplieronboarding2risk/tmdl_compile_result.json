@@ -1,0 +1,14 @@
+{
+  "processId": "supplieronboarding2risk",
+  "status": "generated",
+  "pbip": {
+    "projectName": "SupplierOnboarding2Risk",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/supplieronboarding2risk/pbip/SupplierOnboarding2Risk",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/supplieronboarding2risk/pbip/SupplierOnboarding2Risk/SupplierOnboarding2Risk.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/supplieronboarding2risk/pbip/SupplierOnboarding2Risk/SupplierOnboarding2Risk.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

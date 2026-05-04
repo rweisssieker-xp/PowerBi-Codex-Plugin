@@ -497,6 +497,75 @@ def check_powerbi_premium_usp_layer(root: Path) -> list[str]:
     return errors
 
 
+def check_powerbi_runtime_max_layer(root: Path) -> list[str]:
+    errors: list[str] = []
+    catalog_path = root / "data/powerbi_runtime_max_catalog.json"
+    output_root = root / "outputs/powerbi-runtime-max-layer"
+    process_catalog_path = root / "data/industry_process_catalog.json"
+    if not catalog_path.exists():
+        return [f"{catalog_path}: runtime max catalog is missing"]
+    if not output_root.exists():
+        return [f"{output_root}: runtime max output folder is missing"]
+
+    catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+    capabilities = catalog.get("capabilities", [])
+    if catalog.get("capabilityCount") != 15 or len(capabilities) != 15:
+        errors.append(f"{catalog_path}: expected exactly 15 runtime max capabilities")
+    for capability in capabilities:
+        for field in ["id", "name", "summary", "implementationStatus"]:
+            if not capability.get(field):
+                errors.append(f"{catalog_path}: runtime max capability missing {field}")
+        if capability.get("implementationStatus") != "implemented_as_runtime_max_artifact":
+            errors.append(f"{catalog_path}: runtime max capability {capability.get('id')} has invalid status")
+
+    required_files = [
+        "runtime_manifest.json",
+        "tmdl_compile_result.json",
+        "pbir_materialization_result.json",
+        "desktop_log_parser_contract.json",
+        "semantic_auto_repair_rules.json",
+        "dax_expected_result_runner.json",
+        "real_connector_runner_contracts.json",
+        "field_mapping_candidates.json",
+        "kpi_ontology_records.json",
+        "tenant_readiness_checklist.json",
+        "deployment_pipeline_plan.json",
+        "fabric_scaffold_plan.json",
+        "documentation_publish_manifest.json",
+        "README.md",
+    ]
+    processes = json.loads(process_catalog_path.read_text(encoding="utf-8")).get("processes", [])
+    for process in processes:
+        process_id = process.get("processId")
+        folder = output_root / "processes" / str(process_id)
+        for filename in required_files:
+            if not (folder / filename).exists():
+                errors.append(f"{folder / filename}: required runtime max artifact is missing")
+        manifest_path = folder / "runtime_manifest.json"
+        if manifest_path.exists():
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            if manifest.get("capabilityCount") != 15:
+                errors.append(f"{manifest_path}: expected capabilityCount 15")
+            pbip = Path(manifest.get("pbip", {}).get("projectPath", ""))
+            if not pbip.exists():
+                errors.append(f"{manifest_path}: generated PBIP path does not exist")
+            if not list(pbip.glob("*.SemanticModel/definition/tables/*.tmdl")):
+                errors.append(f"{manifest_path}: generated PBIP has no TMDL tables")
+            if not list(pbip.glob("*.Report/definition/pages/*/visuals/*/visual.json")):
+                errors.append(f"{manifest_path}: generated PBIP has no PBIR visual files")
+
+    index_path = output_root / "runtime_index.csv"
+    if not index_path.exists():
+        errors.append(f"{index_path}: runtime max index is missing")
+    else:
+        row_count = max(0, len(index_path.read_text(encoding="utf-8").splitlines()) - 1)
+        if row_count != len(processes):
+            errors.append(f"{index_path}: expected {len(processes)} rows, found {row_count}")
+    if not (output_root / "README.md").exists():
+        errors.append(f"{output_root / 'README.md'}: runtime max README is missing")
+    return errors
+
+
 def run(root: Path) -> int:
     errors: list[str] = []
     errors.extend(check_required_files(root))
@@ -518,6 +587,7 @@ def run(root: Path) -> int:
     errors.extend(check_powerbi_feature_factory(root))
     errors.extend(check_powerbi_execution_layer(root))
     errors.extend(check_powerbi_premium_usp_layer(root))
+    errors.extend(check_powerbi_runtime_max_layer(root))
 
     if errors:
         for error in errors:

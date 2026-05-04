@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:35.041543+00:00",
+  "processId": "asset2reliability",
+  "processName": "Asset2Reliability",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Asset2Reliability",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/asset2reliability/pbip/Asset2Reliability",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/asset2reliability/pbip/Asset2Reliability/Asset2Reliability.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/asset2reliability/pbip/Asset2Reliability/Asset2Reliability.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

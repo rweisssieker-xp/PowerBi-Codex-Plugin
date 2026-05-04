@@ -1,0 +1,9 @@
+{
+  "processId": "lead2order",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

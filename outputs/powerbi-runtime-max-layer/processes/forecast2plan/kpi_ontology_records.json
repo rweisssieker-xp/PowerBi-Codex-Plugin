@@ -1,0 +1,40 @@
+{
+  "processId": "forecast2plan",
+  "kpis": [
+    {
+      "name": "Forecast Accuracy",
+      "ownerRole": "Demand Planning Process Owner",
+      "synonyms": [
+        "forecast_accuracy"
+      ]
+    },
+    {
+      "name": "Forecast Bias",
+      "ownerRole": "Demand Planning Process Owner",
+      "synonyms": [
+        "forecast_bias"
+      ]
+    },
+    {
+      "name": "S&OP Gap",
+      "ownerRole": "Demand Planning Process Owner",
+      "synonyms": [
+        "s&op_gap"
+      ]
+    },
+    {
+      "name": "Inventory Target Gap",
+      "ownerRole": "Demand Planning Process Owner",
+      "synonyms": [
+        "inventory_target_gap"
+      ]
+    },
+    {
+      "name": "Demand Volatility",
+      "ownerRole": "Demand Planning Process Owner",
+      "synonyms": [
+        "demand_volatility"
+      ]
+    }
+  ]
+}

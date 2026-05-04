@@ -1,0 +1,10 @@
+{
+  "processId": "contract2revenue",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

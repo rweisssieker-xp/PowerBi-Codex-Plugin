@@ -1,0 +1,14 @@
+{
+  "processId": "return2disposition",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Return2Disposition",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/return2disposition/pbip/Return2Disposition",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/return2disposition/pbip/Return2Disposition/Return2Disposition.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/return2disposition/pbip/Return2Disposition/Return2Disposition.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "processId": "maintain2operate",
+  "stages": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "rollback": "restore previous certified PBIP artifact"
+}

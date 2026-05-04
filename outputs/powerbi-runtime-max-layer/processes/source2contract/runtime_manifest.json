@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.771435+00:00",
+  "processId": "source2contract",
+  "processName": "Source2Contract",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Source2Contract",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/source2contract/pbip/Source2Contract",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/source2contract/pbip/Source2Contract/Source2Contract.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/source2contract/pbip/Source2Contract/Source2Contract.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

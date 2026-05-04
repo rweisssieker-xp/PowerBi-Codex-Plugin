@@ -1,0 +1,14 @@
+{
+  "processId": "market2lead",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Market2Lead",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/market2lead/pbip/Market2Lead",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/market2lead/pbip/Market2Lead/Market2Lead.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/market2lead/pbip/Market2Lead/Market2Lead.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

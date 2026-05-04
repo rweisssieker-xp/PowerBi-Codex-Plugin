@@ -1,0 +1,14 @@
+{
+  "processId": "design2cost",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Design2Cost_Design2Source",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/design2cost/pbip/Design2Cost_Design2Source",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/design2cost/pbip/Design2Cost_Design2Source/Design2Cost_Design2Source.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/design2cost/pbip/Design2Cost_Design2Source/Design2Cost_Design2Source.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

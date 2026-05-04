@@ -1,0 +1,10 @@
+{
+  "processId": "lead2order",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

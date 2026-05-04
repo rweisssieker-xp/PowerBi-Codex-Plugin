@@ -1,0 +1,40 @@
+{
+  "processId": "contract2revenue",
+  "kpis": [
+    {
+      "name": "Billing Readiness",
+      "ownerRole": "Revenue Process Owner",
+      "synonyms": [
+        "billing_readiness"
+      ]
+    },
+    {
+      "name": "Revenue Leakage",
+      "ownerRole": "Revenue Process Owner",
+      "synonyms": [
+        "revenue_leakage"
+      ]
+    },
+    {
+      "name": "Deferred Revenue",
+      "ownerRole": "Revenue Process Owner",
+      "synonyms": [
+        "deferred_revenue"
+      ]
+    },
+    {
+      "name": "Renewal Risk",
+      "ownerRole": "Revenue Process Owner",
+      "synonyms": [
+        "renewal_risk"
+      ]
+    },
+    {
+      "name": "Missing Billing Data",
+      "ownerRole": "Revenue Process Owner",
+      "synonyms": [
+        "missing_billing_data"
+      ]
+    }
+  ]
+}

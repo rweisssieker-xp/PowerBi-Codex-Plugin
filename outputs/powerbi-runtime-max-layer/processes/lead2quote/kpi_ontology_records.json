@@ -1,0 +1,40 @@
+{
+  "processId": "lead2quote",
+  "kpis": [
+    {
+      "name": "Quote Cycle Time",
+      "ownerRole": "Quote Process Owner",
+      "synonyms": [
+        "quote_cycle_time"
+      ]
+    },
+    {
+      "name": "Configuration Error Rate",
+      "ownerRole": "Quote Process Owner",
+      "synonyms": [
+        "configuration_error_rate"
+      ]
+    },
+    {
+      "name": "Approval Aging",
+      "ownerRole": "Quote Process Owner",
+      "synonyms": [
+        "approval_aging"
+      ]
+    },
+    {
+      "name": "Discount Leakage",
+      "ownerRole": "Quote Process Owner",
+      "synonyms": [
+        "discount_leakage"
+      ]
+    },
+    {
+      "name": "Quote Win Rate",
+      "ownerRole": "Quote Process Owner",
+      "synonyms": [
+        "quote_win_rate"
+      ]
+    }
+  ]
+}

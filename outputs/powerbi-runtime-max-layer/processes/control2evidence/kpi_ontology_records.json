@@ -1,0 +1,40 @@
+{
+  "processId": "control2evidence",
+  "kpis": [
+    {
+      "name": "Control Effectiveness",
+      "ownerRole": "Control-to-Evidence Process Owner",
+      "synonyms": [
+        "control_effectiveness"
+      ]
+    },
+    {
+      "name": "Evidence Coverage",
+      "ownerRole": "Control-to-Evidence Process Owner",
+      "synonyms": [
+        "evidence_coverage"
+      ]
+    },
+    {
+      "name": "SoD Violations",
+      "ownerRole": "Control-to-Evidence Process Owner",
+      "synonyms": [
+        "sod_violations"
+      ]
+    },
+    {
+      "name": "Remediation Aging",
+      "ownerRole": "Control-to-Evidence Process Owner",
+      "synonyms": [
+        "remediation_aging"
+      ]
+    },
+    {
+      "name": "Audit Gap Count",
+      "ownerRole": "Control-to-Evidence Process Owner",
+      "synonyms": [
+        "audit_gap_count"
+      ]
+    }
+  ]
+}

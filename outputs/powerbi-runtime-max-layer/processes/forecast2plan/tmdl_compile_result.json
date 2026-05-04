@@ -1,0 +1,14 @@
+{
+  "processId": "forecast2plan",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Forecast2Plan",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/forecast2plan/pbip/Forecast2Plan",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/forecast2plan/pbip/Forecast2Plan/Forecast2Plan.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/forecast2plan/pbip/Forecast2Plan/Forecast2Plan.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

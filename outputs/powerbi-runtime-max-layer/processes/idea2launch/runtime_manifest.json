@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.834459+00:00",
+  "processId": "idea2launch",
+  "processName": "Idea2Launch / Engineer2Release",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Idea2Launch_Engineer2Release",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/pbip/Idea2Launch_Engineer2Release",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/pbip/Idea2Launch_Engineer2Release/Idea2Launch_Engineer2Release.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/pbip/Idea2Launch_Engineer2Release/Idea2Launch_Engineer2Release.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

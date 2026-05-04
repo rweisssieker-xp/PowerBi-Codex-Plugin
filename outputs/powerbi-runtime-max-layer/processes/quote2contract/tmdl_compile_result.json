@@ -1,0 +1,14 @@
+{
+  "processId": "quote2contract",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Quote2Contract",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/quote2contract/pbip/Quote2Contract",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/quote2contract/pbip/Quote2Contract/Quote2Contract.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/quote2contract/pbip/Quote2Contract/Quote2Contract.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

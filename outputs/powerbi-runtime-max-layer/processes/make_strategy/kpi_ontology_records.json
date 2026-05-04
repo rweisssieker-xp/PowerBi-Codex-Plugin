@@ -1,0 +1,40 @@
+{
+  "processId": "make_strategy",
+  "kpis": [
+    {
+      "name": "Lead Time",
+      "ownerRole": "Manufacturing Strategy Process Owner",
+      "synonyms": [
+        "lead_time"
+      ]
+    },
+    {
+      "name": "WIP Value",
+      "ownerRole": "Manufacturing Strategy Process Owner",
+      "synonyms": [
+        "wip_value"
+      ]
+    },
+    {
+      "name": "Stock Cover",
+      "ownerRole": "Manufacturing Strategy Process Owner",
+      "synonyms": [
+        "stock_cover"
+      ]
+    },
+    {
+      "name": "Milestone Adherence",
+      "ownerRole": "Manufacturing Strategy Process Owner",
+      "synonyms": [
+        "milestone_adherence"
+      ]
+    },
+    {
+      "name": "Expedite Count",
+      "ownerRole": "Manufacturing Strategy Process Owner",
+      "synonyms": [
+        "expedite_count"
+      ]
+    }
+  ]
+}

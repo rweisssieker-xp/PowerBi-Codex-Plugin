@@ -1,0 +1,9 @@
+{
+  "processId": "contract2revenue",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

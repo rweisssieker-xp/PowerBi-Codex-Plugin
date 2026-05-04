@@ -1,0 +1,4 @@
+{
+  "processId": "return2disposition",
+  "strategy": "compare generated measures to demo CSV aggregates and KPI snapshot tolerances"
+}

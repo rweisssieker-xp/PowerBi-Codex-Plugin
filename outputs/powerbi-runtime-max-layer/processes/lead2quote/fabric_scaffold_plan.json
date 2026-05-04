@@ -1,0 +1,9 @@
+{
+  "processId": "lead2quote",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

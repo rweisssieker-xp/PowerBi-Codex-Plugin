@@ -1,0 +1,40 @@
+{
+  "processId": "dock2stock",
+  "kpis": [
+    {
+      "name": "Dock-to-Stock Time",
+      "ownerRole": "Inbound Warehouse Process Owner",
+      "synonyms": [
+        "dock-to-stock_time"
+      ]
+    },
+    {
+      "name": "GR Accuracy",
+      "ownerRole": "Inbound Warehouse Process Owner",
+      "synonyms": [
+        "gr_accuracy"
+      ]
+    },
+    {
+      "name": "Inspection Aging",
+      "ownerRole": "Inbound Warehouse Process Owner",
+      "synonyms": [
+        "inspection_aging"
+      ]
+    },
+    {
+      "name": "Putaway Backlog",
+      "ownerRole": "Inbound Warehouse Process Owner",
+      "synonyms": [
+        "putaway_backlog"
+      ]
+    },
+    {
+      "name": "Blocked Stock Value",
+      "ownerRole": "Inbound Warehouse Process Owner",
+      "synonyms": [
+        "blocked_stock_value"
+      ]
+    }
+  ]
+}

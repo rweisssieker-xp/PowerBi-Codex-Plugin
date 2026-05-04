@@ -1,0 +1,12 @@
+{
+  "processId": "forecast2plan",
+  "inputs": [
+    "Frown snapshot zip",
+    "PerformanceTraces.zip"
+  ],
+  "outputs": [
+    "classified issue",
+    "repair rule",
+    "validation command"
+  ]
+}

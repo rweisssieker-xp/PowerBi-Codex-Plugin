@@ -1,0 +1,40 @@
+{
+  "processId": "sop_ibp2execution",
+  "kpis": [
+    {
+      "name": "Plan Adherence",
+      "ownerRole": "IBP Process Owner",
+      "synonyms": [
+        "plan_adherence"
+      ]
+    },
+    {
+      "name": "Constrained Gap",
+      "ownerRole": "IBP Process Owner",
+      "synonyms": [
+        "constrained_gap"
+      ]
+    },
+    {
+      "name": "Capacity Overload",
+      "ownerRole": "IBP Process Owner",
+      "synonyms": [
+        "capacity_overload"
+      ]
+    },
+    {
+      "name": "Inventory Target Adherence",
+      "ownerRole": "IBP Process Owner",
+      "synonyms": [
+        "inventory_target_adherence"
+      ]
+    },
+    {
+      "name": "Plan Change Count",
+      "ownerRole": "IBP Process Owner",
+      "synonyms": [
+        "plan_change_count"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "processId": "maintain2operate",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

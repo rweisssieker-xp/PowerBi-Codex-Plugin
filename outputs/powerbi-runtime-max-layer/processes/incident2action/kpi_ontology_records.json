@@ -1,0 +1,40 @@
+{
+  "processId": "incident2action",
+  "kpis": [
+    {
+      "name": "Incident Rate",
+      "ownerRole": "Incident-to-Action Process Owner",
+      "synonyms": [
+        "incident_rate"
+      ]
+    },
+    {
+      "name": "Severity Score",
+      "ownerRole": "Incident-to-Action Process Owner",
+      "synonyms": [
+        "severity_score"
+      ]
+    },
+    {
+      "name": "Response Time",
+      "ownerRole": "Incident-to-Action Process Owner",
+      "synonyms": [
+        "response_time"
+      ]
+    },
+    {
+      "name": "Overdue Actions",
+      "ownerRole": "Incident-to-Action Process Owner",
+      "synonyms": [
+        "overdue_actions"
+      ]
+    },
+    {
+      "name": "Risk Exposure",
+      "ownerRole": "Incident-to-Action Process Owner",
+      "synonyms": [
+        "risk_exposure"
+      ]
+    }
+  ]
+}

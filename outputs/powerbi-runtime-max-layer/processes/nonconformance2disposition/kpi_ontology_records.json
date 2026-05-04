@@ -1,0 +1,40 @@
+{
+  "processId": "nonconformance2disposition",
+  "kpis": [
+    {
+      "name": "Defect Rate",
+      "ownerRole": "Nonconformance Process Owner",
+      "synonyms": [
+        "defect_rate"
+      ]
+    },
+    {
+      "name": "Blocked Stock Value",
+      "ownerRole": "Nonconformance Process Owner",
+      "synonyms": [
+        "blocked_stock_value"
+      ]
+    },
+    {
+      "name": "Rework Cost",
+      "ownerRole": "Nonconformance Process Owner",
+      "synonyms": [
+        "rework_cost"
+      ]
+    },
+    {
+      "name": "Supplier PPM",
+      "ownerRole": "Nonconformance Process Owner",
+      "synonyms": [
+        "supplier_ppm"
+      ]
+    },
+    {
+      "name": "Disposition Aging",
+      "ownerRole": "Nonconformance Process Owner",
+      "synonyms": [
+        "disposition_aging"
+      ]
+    }
+  ]
+}

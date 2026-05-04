@@ -1,0 +1,4 @@
+{
+  "processId": "source2contract",
+  "strategy": "compare generated measures to demo CSV aggregates and KPI snapshot tolerances"
+}

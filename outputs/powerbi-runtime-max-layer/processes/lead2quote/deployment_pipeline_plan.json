@@ -1,0 +1,9 @@
+{
+  "processId": "lead2quote",
+  "stages": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "rollback": "restore previous certified PBIP artifact"
+}

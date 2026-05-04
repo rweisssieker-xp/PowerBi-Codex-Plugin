@@ -1,0 +1,40 @@
+{
+  "processId": "design2cost",
+  "kpis": [
+    {
+      "name": "Target Cost Variance",
+      "ownerRole": "Design-to-Cost Process Owner",
+      "synonyms": [
+        "target_cost_variance"
+      ]
+    },
+    {
+      "name": "Part Reuse %",
+      "ownerRole": "Design-to-Cost Process Owner",
+      "synonyms": [
+        "part_reuse_%"
+      ]
+    },
+    {
+      "name": "Single-Source Exposure",
+      "ownerRole": "Design-to-Cost Process Owner",
+      "synonyms": [
+        "single-source_exposure"
+      ]
+    },
+    {
+      "name": "Sourcing Readiness",
+      "ownerRole": "Design-to-Cost Process Owner",
+      "synonyms": [
+        "sourcing_readiness"
+      ]
+    },
+    {
+      "name": "Engineering Cost Risk",
+      "ownerRole": "Design-to-Cost Process Owner",
+      "synonyms": [
+        "engineering_cost_risk"
+      ]
+    }
+  ]
+}

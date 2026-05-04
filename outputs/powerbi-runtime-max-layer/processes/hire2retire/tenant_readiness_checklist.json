@@ -1,0 +1,10 @@
+{
+  "processId": "hire2retire",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

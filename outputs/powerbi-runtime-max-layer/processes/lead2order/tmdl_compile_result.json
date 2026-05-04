@@ -1,0 +1,14 @@
+{
+  "processId": "lead2order",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Lead2Order",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/lead2order/pbip/Lead2Order",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/lead2order/pbip/Lead2Order/Lead2Order.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/lead2order/pbip/Lead2Order/Lead2Order.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

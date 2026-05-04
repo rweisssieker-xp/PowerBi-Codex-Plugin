@@ -1,0 +1,47 @@
+{
+  "processId": "order2cash",
+  "kpis": [
+    {
+      "name": "Order Value",
+      "ownerRole": "Order-to-Cash Process Owner",
+      "synonyms": [
+        "order_value"
+      ]
+    },
+    {
+      "name": "Backlog Value",
+      "ownerRole": "Order-to-Cash Process Owner",
+      "synonyms": [
+        "backlog_value"
+      ]
+    },
+    {
+      "name": "OTIF %",
+      "ownerRole": "Order-to-Cash Process Owner",
+      "synonyms": [
+        "otif_%"
+      ]
+    },
+    {
+      "name": "Billing Block Value",
+      "ownerRole": "Order-to-Cash Process Owner",
+      "synonyms": [
+        "billing_block_value"
+      ]
+    },
+    {
+      "name": "Open AR",
+      "ownerRole": "Order-to-Cash Process Owner",
+      "synonyms": [
+        "open_ar"
+      ]
+    },
+    {
+      "name": "DSO",
+      "ownerRole": "Order-to-Cash Process Owner",
+      "synonyms": [
+        "dso"
+      ]
+    }
+  ]
+}

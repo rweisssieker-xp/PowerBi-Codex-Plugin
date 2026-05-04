@@ -1,0 +1,10 @@
+{
+  "processId": "installedbase2servicerevenue",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

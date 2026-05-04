@@ -1,0 +1,14 @@
+{
+  "processId": "dock2stock",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Dock2Stock",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/dock2stock/pbip/Dock2Stock",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/dock2stock/pbip/Dock2Stock/Dock2Stock.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/dock2stock/pbip/Dock2Stock/Dock2Stock.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

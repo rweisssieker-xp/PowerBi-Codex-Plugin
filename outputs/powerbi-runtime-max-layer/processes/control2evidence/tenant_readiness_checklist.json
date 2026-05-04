@@ -1,0 +1,10 @@
+{
+  "processId": "control2evidence",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

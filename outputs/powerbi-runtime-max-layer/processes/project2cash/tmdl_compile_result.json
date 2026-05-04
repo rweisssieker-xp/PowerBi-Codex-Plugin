@@ -1,0 +1,14 @@
+{
+  "processId": "project2cash",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Engineer2Order_Project2Cash",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/project2cash/pbip/Engineer2Order_Project2Cash",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/project2cash/pbip/Engineer2Order_Project2Cash/Engineer2Order_Project2Cash.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/project2cash/pbip/Engineer2Order_Project2Cash/Engineer2Order_Project2Cash.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

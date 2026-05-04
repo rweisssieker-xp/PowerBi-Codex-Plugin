@@ -1,0 +1,40 @@
+{
+  "processId": "pick2pack2ship",
+  "kpis": [
+    {
+      "name": "Pick Accuracy",
+      "ownerRole": "Outbound Warehouse Process Owner",
+      "synonyms": [
+        "pick_accuracy"
+      ]
+    },
+    {
+      "name": "Lines Per Hour",
+      "ownerRole": "Outbound Warehouse Process Owner",
+      "synonyms": [
+        "lines_per_hour"
+      ]
+    },
+    {
+      "name": "Wave Adherence",
+      "ownerRole": "Outbound Warehouse Process Owner",
+      "synonyms": [
+        "wave_adherence"
+      ]
+    },
+    {
+      "name": "Pack Backlog",
+      "ownerRole": "Outbound Warehouse Process Owner",
+      "synonyms": [
+        "pack_backlog"
+      ]
+    },
+    {
+      "name": "Cut-Off Misses",
+      "ownerRole": "Outbound Warehouse Process Owner",
+      "synonyms": [
+        "cut-off_misses"
+      ]
+    }
+  ]
+}

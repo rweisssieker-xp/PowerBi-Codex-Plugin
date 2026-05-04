@@ -1,0 +1,10 @@
+{
+  "processId": "supplieronboarding2risk",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

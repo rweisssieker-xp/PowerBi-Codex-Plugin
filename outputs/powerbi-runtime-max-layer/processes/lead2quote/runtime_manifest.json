@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.900040+00:00",
+  "processId": "lead2quote",
+  "processName": "Lead2Quote / Configure2Quote",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Lead2Quote_Configure2Quote",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/lead2quote/pbip/Lead2Quote_Configure2Quote",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/lead2quote/pbip/Lead2Quote_Configure2Quote/Lead2Quote_Configure2Quote.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/lead2quote/pbip/Lead2Quote_Configure2Quote/Lead2Quote_Configure2Quote.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

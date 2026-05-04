@@ -1,0 +1,9 @@
+{
+  "processId": "dock2stock",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

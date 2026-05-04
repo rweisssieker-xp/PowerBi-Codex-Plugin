@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.868089+00:00",
+  "processId": "record2report",
+  "processName": "Record2Report",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Record2Report",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/record2report/pbip/Record2Report",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/record2report/pbip/Record2Report/Record2Report.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/record2report/pbip/Record2Report/Record2Report.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

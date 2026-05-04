@@ -1,0 +1,10 @@
+{
+  "processId": "pick2pack2ship",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

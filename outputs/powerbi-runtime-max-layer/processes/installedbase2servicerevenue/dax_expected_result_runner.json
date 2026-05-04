@@ -1,0 +1,4 @@
+{
+  "processId": "installedbase2servicerevenue",
+  "strategy": "compare generated measures to demo CSV aggregates and KPI snapshot tolerances"
+}

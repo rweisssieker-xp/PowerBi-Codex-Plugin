@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.758598+00:00",
+  "processId": "order2cash",
+  "processName": "Order2Cash",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Order2Cash",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/order2cash/pbip/Order2Cash",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/order2cash/pbip/Order2Cash/Order2Cash.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/order2cash/pbip/Order2Cash/Order2Cash.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

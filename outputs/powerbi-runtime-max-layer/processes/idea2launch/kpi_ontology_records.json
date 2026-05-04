@@ -1,0 +1,40 @@
+{
+  "processId": "idea2launch",
+  "kpis": [
+    {
+      "name": "Gate Adherence",
+      "ownerRole": "Product Lifecycle Process Owner",
+      "synonyms": [
+        "gate_adherence"
+      ]
+    },
+    {
+      "name": "Change Backlog",
+      "ownerRole": "Product Lifecycle Process Owner",
+      "synonyms": [
+        "change_backlog"
+      ]
+    },
+    {
+      "name": "Launch Risk",
+      "ownerRole": "Product Lifecycle Process Owner",
+      "synonyms": [
+        "launch_risk"
+      ]
+    },
+    {
+      "name": "Ramp-Up Readiness",
+      "ownerRole": "Product Lifecycle Process Owner",
+      "synonyms": [
+        "ramp-up_readiness"
+      ]
+    },
+    {
+      "name": "Engineering Cycle Time",
+      "ownerRole": "Product Lifecycle Process Owner",
+      "synonyms": [
+        "engineering_cycle_time"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "processId": "demand2supply",
+  "kpis": [
+    {
+      "name": "Shortage Value",
+      "ownerRole": "Demand-to-Supply Process Owner",
+      "synonyms": [
+        "shortage_value"
+      ]
+    },
+    {
+      "name": "ATP Failure Rate",
+      "ownerRole": "Demand-to-Supply Process Owner",
+      "synonyms": [
+        "atp_failure_rate"
+      ]
+    },
+    {
+      "name": "Lost Sales",
+      "ownerRole": "Demand-to-Supply Process Owner",
+      "synonyms": [
+        "lost_sales"
+      ]
+    },
+    {
+      "name": "Supply Gap",
+      "ownerRole": "Demand-to-Supply Process Owner",
+      "synonyms": [
+        "supply_gap"
+      ]
+    },
+    {
+      "name": "Allocation Aging",
+      "ownerRole": "Demand-to-Supply Process Owner",
+      "synonyms": [
+        "allocation_aging"
+      ]
+    }
+  ]
+}

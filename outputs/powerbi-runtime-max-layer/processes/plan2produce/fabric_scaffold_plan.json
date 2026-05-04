@@ -1,0 +1,9 @@
+{
+  "processId": "plan2produce",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

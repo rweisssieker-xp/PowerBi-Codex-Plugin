@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:35.067226+00:00",
+  "processId": "supplieronboarding2risk",
+  "processName": "SupplierOnboarding2Risk",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "SupplierOnboarding2Risk",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/supplieronboarding2risk/pbip/SupplierOnboarding2Risk",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/supplieronboarding2risk/pbip/SupplierOnboarding2Risk/SupplierOnboarding2Risk.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/supplieronboarding2risk/pbip/SupplierOnboarding2Risk/SupplierOnboarding2Risk.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

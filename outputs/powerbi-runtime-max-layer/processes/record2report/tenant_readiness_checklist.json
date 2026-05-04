@@ -1,0 +1,10 @@
+{
+  "processId": "record2report",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

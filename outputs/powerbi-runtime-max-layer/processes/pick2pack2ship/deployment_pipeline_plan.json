@@ -1,0 +1,9 @@
+{
+  "processId": "pick2pack2ship",
+  "stages": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "rollback": "restore previous certified PBIP artifact"
+}

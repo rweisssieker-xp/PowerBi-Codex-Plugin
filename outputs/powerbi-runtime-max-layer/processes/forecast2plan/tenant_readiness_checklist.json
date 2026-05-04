@@ -1,0 +1,10 @@
+{
+  "processId": "forecast2plan",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

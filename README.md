@@ -23,6 +23,7 @@ The product turns business and process questions into validated Power BI deliver
 - Provides executable feature contracts for all 20 USPs under `data/powerbi_feature_catalog.json` and `outputs/powerbi-feature-factory/`.
 - Provides a concrete execution layer for all 20 features and all 32 processes under `outputs/powerbi-execution-layer/`, including source profiles, M templates, schema drift contracts, semantic compile plans, report materialization plans, DAX test plans, lineage, performance budgets, process-owner acceptance packs, and build manifests.
 - Provides a 25-capability Premium USP layer under `data/powerbi_premium_usp_catalog.json` and `outputs/powerbi-premium-usp-layer/`, including connector runtime, credential-safe profiling, AI field mapping, PBIP generation, PBIR materialization, Desktop log parsing, report scoring, deployment automation, data contracts, compliance packs, and Fabric scaffolds.
+- Provides a 15-capability Runtime Max layer under `data/powerbi_runtime_max_catalog.json` and `outputs/powerbi-runtime-max-layer/`, including generated PBIP/PBIR/TMDL skeletons for all 32 processes, TMDL compile results, PBIR visual materialization, Desktop/Frown parser contracts, semantic auto-repair rules, DAX expected-result runner contracts, connector runtime contracts, tenant/deployment/Fabric scaffolds, and documentation publisher manifests.
 - Adds executable trust checks for model graph quality, native source routing, visual bindings, DAX static checks, and Power BI Desktop smoke validation workflows.
 
 ## Repository Structure
@@ -68,6 +69,7 @@ Key guides:
 - [Power BI Feature Factory](outputs/powerbi-feature-factory/README.md)
 - [Power BI Execution Layer](outputs/powerbi-execution-layer/README.md)
 - [Power BI Premium USP Layer](outputs/powerbi-premium-usp-layer/README.md)
+- [Power BI Runtime Max Layer](outputs/powerbi-runtime-max-layer/README.md)
 - [Skills Catalog](docs/product/SKILLS_CATALOG.md)
 - [Power BI Expert-Replacement Factory Plan](docs/product/POWERBI_EXPERT_REPLACEMENT_FACTORY_GESAMTPLAN.md)
 - [Power BI Expert-Replacement Skill Map](docs/product/POWERBI_EXPERT_REPLACEMENT_SKILL_MAP.md)
@@ -114,6 +116,7 @@ python scripts\build_usp_capability_coverage.py
 python scripts\build_powerbi_feature_factory.py
 python scripts\build_powerbi_execution_layer.py
 python scripts\build_powerbi_premium_usp_layer.py
+python scripts\build_powerbi_runtime_max_layer.py
 ```
 
 Run the sample PBIP validation:
@@ -123,6 +126,7 @@ python scripts\powerbi_expert_factory.py validate --project outputs\powerbi-orde
 python scripts\powerbi_expert_factory.py feature-plan --process lead-to-order --out outputs\powerbi-feature-factory\lead-to-order-feature-plan.json
 python scripts\powerbi_expert_factory.py build --process lead-to-order --source demo --out outputs\local-builds\lead-to-order
 python scripts\powerbi_expert_factory.py premium-usp-plan --process lead-to-order --out outputs\powerbi-premium-usp-layer\lead-to-order-premium-usp-plan.json
+python scripts\powerbi_expert_factory.py runtime-max-plan --process lead-to-order --out outputs\powerbi-runtime-max-layer\lead-to-order-runtime-max-plan.json
 ```
 
 ## Design Principles

@@ -1,0 +1,26 @@
+{
+  "name": "Visual_ProcessCases_Case_Count",
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ProcessCases"
+                    }
+                  },
+                  "Measure": "Case Count"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

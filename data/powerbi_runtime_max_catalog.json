@@ -1,0 +1,97 @@
+{
+  "version": "2026-05-04",
+  "description": "Maximum runtime expansion layer for the Power BI Expert-Replacement Factory.",
+  "capabilityCount": 15,
+  "capabilities": [
+    {
+      "id": "tmdl_compiler",
+      "name": "TMDL Compiler",
+      "summary": "Compile process model specs into TMDL tables, measures, relationships, and roles.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "pbir_visual_materializer",
+      "name": "PBIR Visual Materializer",
+      "summary": "Materialize report page specs into PBIR page and visual container files.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "full_pbip_generator",
+      "name": "Full PBIP Generator",
+      "summary": "Generate a PBIP project skeleton for every industrial process.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "desktop_frown_log_parser",
+      "name": "Desktop/Frown Log Parser",
+      "summary": "Classify Desktop traces and Frown payloads against the Frown-to-Fix knowledge base.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "semantic_auto_repair",
+      "name": "Semantic Auto-Repair",
+      "summary": "Generate deterministic repair rules for source navigation, relationships, fields, and measures.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "dax_expected_result_runner",
+      "name": "DAX Expected-Result Runner",
+      "summary": "Create executable DAX reconciliation contracts against process demo data.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "real_connector_runner_contracts",
+      "name": "Real Connector Runner Contracts",
+      "summary": "Define credential-safe runtime contracts for Excel, Folder, SQL, SharePoint, Fabric, Dataverse, OData, REST, SAP, and Snowflake.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "credential_safe_runtime",
+      "name": "Credential-Safe Runtime",
+      "summary": "Keep runtime secrets out of generated artifacts and store evidence only.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "ai_field_mapping_runtime",
+      "name": "AI Field Mapping Runtime",
+      "summary": "Generate field-mapping candidates and review gates from source profiles and process semantics.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "kpi_ontology_runtime",
+      "name": "KPI Ontology Runtime",
+      "summary": "Generate KPI synonym, formula, owner, and comparability records.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "process_mining_eventlog_runtime",
+      "name": "Process Mining Event Log Runtime",
+      "summary": "Normalize process event logs for mining tools and Power BI process flow analysis.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "tenant_readiness_runtime",
+      "name": "Tenant Readiness Runtime",
+      "summary": "Create tenant-readiness checks for gateway, capacity, sensitivity labels, RLS, and deployment pipelines.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "deployment_pipeline_runtime",
+      "name": "Deployment Pipeline Runtime",
+      "summary": "Generate Dev/Test/Prod deployment plans, approval gates, and rollback evidence.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "fabric_scaffold_runtime",
+      "name": "Fabric Scaffold Runtime",
+      "summary": "Generate Lakehouse, Warehouse, Notebook, and Data Pipeline scaffold plans.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    },
+    {
+      "id": "documentation_publisher_runtime",
+      "name": "Documentation Publisher Runtime",
+      "summary": "Publish process owner, CoE, model, KPI, release, and audit documentation manifests.",
+      "implementationStatus": "implemented_as_runtime_max_artifact"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "processId": "sop_ibp2execution",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

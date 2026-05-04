@@ -1,0 +1,10 @@
+{
+  "processId": "quote2contract",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

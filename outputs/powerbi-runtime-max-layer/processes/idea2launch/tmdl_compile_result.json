@@ -1,0 +1,14 @@
+{
+  "processId": "idea2launch",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Idea2Launch_Engineer2Release",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/pbip/Idea2Launch_Engineer2Release",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/pbip/Idea2Launch_Engineer2Release/Idea2Launch_Engineer2Release.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/idea2launch/pbip/Idea2Launch_Engineer2Release/Idea2Launch_Engineer2Release.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

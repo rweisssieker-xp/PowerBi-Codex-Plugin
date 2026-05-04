@@ -1,0 +1,40 @@
+{
+  "processId": "market2lead",
+  "kpis": [
+    {
+      "name": "Campaign ROI",
+      "ownerRole": "Marketing Process Owner",
+      "synonyms": [
+        "campaign_roi"
+      ]
+    },
+    {
+      "name": "MQL Conversion",
+      "ownerRole": "Marketing Process Owner",
+      "synonyms": [
+        "mql_conversion"
+      ]
+    },
+    {
+      "name": "CAC",
+      "ownerRole": "Marketing Process Owner",
+      "synonyms": [
+        "cac"
+      ]
+    },
+    {
+      "name": "Lead Velocity",
+      "ownerRole": "Marketing Process Owner",
+      "synonyms": [
+        "lead_velocity"
+      ]
+    },
+    {
+      "name": "Qualified Pipeline",
+      "ownerRole": "Marketing Process Owner",
+      "synonyms": [
+        "qualified_pipeline"
+      ]
+    }
+  ]
+}

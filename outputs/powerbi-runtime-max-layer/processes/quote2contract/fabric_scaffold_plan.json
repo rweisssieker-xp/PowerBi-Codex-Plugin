@@ -1,0 +1,9 @@
+{
+  "processId": "quote2contract",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

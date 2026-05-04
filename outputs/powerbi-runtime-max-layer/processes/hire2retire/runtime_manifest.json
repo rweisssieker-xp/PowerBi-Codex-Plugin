@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.879287+00:00",
+  "processId": "hire2retire",
+  "processName": "Hire2Retire",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Hire2Retire",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/hire2retire/pbip/Hire2Retire",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/hire2retire/pbip/Hire2Retire/Hire2Retire.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/hire2retire/pbip/Hire2Retire/Hire2Retire.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

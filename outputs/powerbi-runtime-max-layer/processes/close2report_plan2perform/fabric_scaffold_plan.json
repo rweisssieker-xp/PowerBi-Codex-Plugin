@@ -1,0 +1,9 @@
+{
+  "processId": "close2report_plan2perform",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

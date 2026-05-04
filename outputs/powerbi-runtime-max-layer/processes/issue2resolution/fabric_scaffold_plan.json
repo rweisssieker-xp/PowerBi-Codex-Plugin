@@ -1,0 +1,9 @@
+{
+  "processId": "issue2resolution",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

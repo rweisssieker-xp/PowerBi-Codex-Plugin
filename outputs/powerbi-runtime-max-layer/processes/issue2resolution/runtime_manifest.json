@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.856230+00:00",
+  "processId": "issue2resolution",
+  "processName": "Issue2Resolution",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Issue2Resolution",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/issue2resolution/pbip/Issue2Resolution",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/issue2resolution/pbip/Issue2Resolution/Issue2Resolution.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/issue2resolution/pbip/Issue2Resolution/Issue2Resolution.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

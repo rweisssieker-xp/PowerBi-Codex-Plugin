@@ -1,0 +1,9 @@
+{
+  "processId": "record2report",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}

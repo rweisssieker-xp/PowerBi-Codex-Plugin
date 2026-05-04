@@ -1,0 +1,60 @@
+{
+  "status": "pass",
+  "generatedAt": "2026-05-04T07:05:35.296969+00:00",
+  "project": "outputs\\powerbi-runtime-max-layer\\processes\\lead2order\\pbip\\Lead2Order",
+  "summary": {
+    "tables": 5,
+    "relationships": 3,
+    "measures": 3,
+    "errors": 0,
+    "warnings": 5
+  },
+  "checks": [
+    {
+      "name": "model_graph",
+      "status": "pass",
+      "errors": [],
+      "warnings": [
+        "Relationship rel_1_ProcessEvents_ProcessCases is not a clean Fact_* -> Dim_* edge: ProcessEvents -> ProcessCases.",
+        "Relationship rel_2_ProcessKpiSnapshots_DimProcess is not a clean Fact_* -> Dim_* edge: ProcessKpiSnapshots -> DimProcess.",
+        "Relationship rel_3_ProcessCases_DimProcess is not a clean Fact_* -> Dim_* edge: ProcessCases -> DimProcess."
+      ],
+      "relationships": 3
+    },
+    {
+      "name": "native_sources",
+      "status": "pass",
+      "errors": [],
+      "warnings": [
+        "Table DimCalendar has no recognized native connector function in its partition.",
+        "Table DimProcess has no recognized native connector function in its partition."
+      ],
+      "connectors": {
+        "Csv.Document": 3
+      }
+    },
+    {
+      "name": "visual_bindings",
+      "status": "pass",
+      "errors": [],
+      "warnings": [],
+      "visuals": 16,
+      "bindings": 16
+    },
+    {
+      "name": "dax_static",
+      "status": "pass",
+      "errors": [],
+      "warnings": [],
+      "measures": 3
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Relationship rel_1_ProcessEvents_ProcessCases is not a clean Fact_* -> Dim_* edge: ProcessEvents -> ProcessCases.",
+    "Relationship rel_2_ProcessKpiSnapshots_DimProcess is not a clean Fact_* -> Dim_* edge: ProcessKpiSnapshots -> DimProcess.",
+    "Relationship rel_3_ProcessCases_DimProcess is not a clean Fact_* -> Dim_* edge: ProcessCases -> DimProcess.",
+    "Table DimCalendar has no recognized native connector function in its partition.",
+    "Table DimProcess has no recognized native connector function in its partition."
+  ]
+}

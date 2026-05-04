@@ -1,0 +1,16 @@
+{
+  "processId": "return2disposition",
+  "connectors": [
+    "Excel",
+    "Folder",
+    "SQL Server",
+    "SharePoint",
+    "Fabric",
+    "Dataverse",
+    "OData",
+    "REST",
+    "SAP",
+    "Snowflake"
+  ],
+  "credentialPolicy": "ephemeral runtime only"
+}

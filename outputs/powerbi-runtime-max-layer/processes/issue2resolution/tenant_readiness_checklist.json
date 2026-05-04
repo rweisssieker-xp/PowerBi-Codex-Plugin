@@ -1,0 +1,10 @@
+{
+  "processId": "issue2resolution",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

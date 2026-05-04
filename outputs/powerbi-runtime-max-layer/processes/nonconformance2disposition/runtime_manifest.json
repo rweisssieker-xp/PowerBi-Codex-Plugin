@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:35.019449+00:00",
+  "processId": "nonconformance2disposition",
+  "processName": "Nonconformance2Disposition",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Nonconformance2Disposition",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/nonconformance2disposition/pbip/Nonconformance2Disposition",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/nonconformance2disposition/pbip/Nonconformance2Disposition/Nonconformance2Disposition.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/nonconformance2disposition/pbip/Nonconformance2Disposition/Nonconformance2Disposition.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

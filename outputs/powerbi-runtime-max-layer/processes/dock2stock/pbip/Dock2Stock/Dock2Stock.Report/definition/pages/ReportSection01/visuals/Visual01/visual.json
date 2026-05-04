@@ -1,0 +1,26 @@
+{
+  "name": "Visual_ProcessCases_CaseID",
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ProcessCases"
+                    }
+                  },
+                  "Property": "CaseID"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

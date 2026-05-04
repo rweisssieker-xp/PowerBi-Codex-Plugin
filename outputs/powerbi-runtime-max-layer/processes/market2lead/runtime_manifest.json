@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.889504+00:00",
+  "processId": "market2lead",
+  "processName": "Market2Lead",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Market2Lead",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/market2lead/pbip/Market2Lead",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/market2lead/pbip/Market2Lead/Market2Lead.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/market2lead/pbip/Market2Lead/Market2Lead.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

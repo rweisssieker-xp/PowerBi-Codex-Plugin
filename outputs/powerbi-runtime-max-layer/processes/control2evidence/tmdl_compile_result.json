@@ -1,0 +1,14 @@
+{
+  "processId": "control2evidence",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Control2Evidence",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/control2evidence/pbip/Control2Evidence",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/control2evidence/pbip/Control2Evidence/Control2Evidence.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/control2evidence/pbip/Control2Evidence/Control2Evidence.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

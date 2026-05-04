@@ -10,6 +10,8 @@ The concrete execution layer is generated in [powerbi-execution-layer](../../out
 
 The premium USP layer is generated in [powerbi-premium-usp-layer](../../outputs/powerbi-premium-usp-layer/README.md). It adds 25 higher-order differentiators such as real connector runtime, credential-safe profiling, AI field mapping, process-mining import, KPI ontology, PBIR materialization, full PBIP generation, Power BI Desktop log parsing, report scoring, tenant readiness, deployment automation, data contracts, compliance packs, and Fabric scaffolds.
 
+The runtime max layer is generated in [powerbi-runtime-max-layer](../../outputs/powerbi-runtime-max-layer/README.md). It closes the 15 remaining runtime gaps with generated PBIP/PBIR/TMDL skeletons for every process, TMDL compile outputs, PBIR visual files, Desktop/Frown parser contracts, semantic auto-repair rules, DAX expected-result runner contracts, connector runtime contracts, tenant/deployment/Fabric scaffolds, and documentation publisher manifests.
+
 ## The 20 USP Capabilities
 
 1. One-Click Process-to-PBIP
@@ -72,4 +74,10 @@ Use the CLI to create a process-specific premium USP plan:
 
 ```powershell
 python scripts\powerbi_expert_factory.py premium-usp-plan --process lead-to-order --out outputs\powerbi-premium-usp-layer\lead-to-order-premium-usp-plan.json
+```
+
+Use the CLI to inspect a process-specific runtime max build:
+
+```powershell
+python scripts\powerbi_expert_factory.py runtime-max-plan --process lead-to-order --out outputs\powerbi-runtime-max-layer\lead-to-order-runtime-max-plan.json
 ```

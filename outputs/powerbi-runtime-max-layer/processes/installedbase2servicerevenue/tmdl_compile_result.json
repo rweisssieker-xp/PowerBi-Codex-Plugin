@@ -1,0 +1,14 @@
+{
+  "processId": "installedbase2servicerevenue",
+  "status": "generated",
+  "pbip": {
+    "projectName": "InstalledBase2ServiceRevenue",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/installedbase2servicerevenue/pbip/InstalledBase2ServiceRevenue",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/installedbase2servicerevenue/pbip/InstalledBase2ServiceRevenue/InstalledBase2ServiceRevenue.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/installedbase2servicerevenue/pbip/InstalledBase2ServiceRevenue/InstalledBase2ServiceRevenue.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.921317+00:00",
+  "processId": "contract2revenue",
+  "processName": "Contract2Revenue",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Contract2Revenue",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/contract2revenue/pbip/Contract2Revenue",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/contract2revenue/pbip/Contract2Revenue/Contract2Revenue.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/contract2revenue/pbip/Contract2Revenue/Contract2Revenue.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

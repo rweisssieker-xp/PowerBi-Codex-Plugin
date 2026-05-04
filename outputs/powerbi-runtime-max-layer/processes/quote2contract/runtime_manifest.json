@@ -1,0 +1,17 @@
+{
+  "eventType": "powerbi_runtime_max_build",
+  "generatedAt": "2026-05-04T07:05:34.911004+00:00",
+  "processId": "quote2contract",
+  "processName": "Quote2Contract",
+  "capabilityCount": 15,
+  "pbip": {
+    "projectName": "Quote2Contract",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/quote2contract/pbip/Quote2Contract",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/quote2contract/pbip/Quote2Contract/Quote2Contract.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/quote2contract/pbip/Quote2Contract/Quote2Contract.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

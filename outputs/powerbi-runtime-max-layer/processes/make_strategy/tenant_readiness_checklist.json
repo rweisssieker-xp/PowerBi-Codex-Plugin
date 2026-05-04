@@ -1,0 +1,10 @@
+{
+  "processId": "make_strategy",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

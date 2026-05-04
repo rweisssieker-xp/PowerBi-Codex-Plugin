@@ -1,0 +1,14 @@
+{
+  "processId": "maintain2operate",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Maintain2Operate",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/maintain2operate/pbip/Maintain2Operate",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/maintain2operate/pbip/Maintain2Operate/Maintain2Operate.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/maintain2operate/pbip/Maintain2Operate/Maintain2Operate.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

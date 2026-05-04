@@ -1,0 +1,11 @@
+relationship rel_1_ProcessEvents_ProcessCases
+	fromColumn: ProcessEvents.CaseID
+	toColumn: ProcessCases.CaseID
+
+relationship rel_2_ProcessKpiSnapshots_DimProcess
+	fromColumn: ProcessKpiSnapshots.ProcessID
+	toColumn: DimProcess.ProcessID
+
+relationship rel_3_ProcessCases_DimProcess
+	fromColumn: ProcessCases.ProcessID
+	toColumn: DimProcess.ProcessID

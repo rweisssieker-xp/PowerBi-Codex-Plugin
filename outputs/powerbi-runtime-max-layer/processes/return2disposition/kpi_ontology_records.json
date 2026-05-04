@@ -1,0 +1,40 @@
+{
+  "processId": "return2disposition",
+  "kpis": [
+    {
+      "name": "Return Rate",
+      "ownerRole": "Returns Process Owner",
+      "synonyms": [
+        "return_rate"
+      ]
+    },
+    {
+      "name": "Disposition Aging",
+      "ownerRole": "Returns Process Owner",
+      "synonyms": [
+        "disposition_aging"
+      ]
+    },
+    {
+      "name": "Recovery Value",
+      "ownerRole": "Returns Process Owner",
+      "synonyms": [
+        "recovery_value"
+      ]
+    },
+    {
+      "name": "Scrap Rate",
+      "ownerRole": "Returns Process Owner",
+      "synonyms": [
+        "scrap_rate"
+      ]
+    },
+    {
+      "name": "Resale Rate",
+      "ownerRole": "Returns Process Owner",
+      "synonyms": [
+        "resale_rate"
+      ]
+    }
+  ]
+}

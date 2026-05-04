@@ -1,0 +1,10 @@
+{
+  "processId": "design2cost",
+  "checks": [
+    "gateway",
+    "capacity",
+    "sensitivity labels",
+    "deployment pipeline",
+    "RLS ownership"
+  ]
+}

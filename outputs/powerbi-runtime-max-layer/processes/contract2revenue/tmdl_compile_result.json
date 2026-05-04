@@ -1,0 +1,14 @@
+{
+  "processId": "contract2revenue",
+  "status": "generated",
+  "pbip": {
+    "projectName": "Contract2Revenue",
+    "projectPath": "outputs/powerbi-runtime-max-layer/processes/contract2revenue/pbip/Contract2Revenue",
+    "semanticModelPath": "outputs/powerbi-runtime-max-layer/processes/contract2revenue/pbip/Contract2Revenue/Contract2Revenue.SemanticModel",
+    "reportPath": "outputs/powerbi-runtime-max-layer/processes/contract2revenue/pbip/Contract2Revenue/Contract2Revenue.Report",
+    "tables": 5,
+    "relationships": 3,
+    "pages": 4,
+    "visuals": 16
+  }
+}

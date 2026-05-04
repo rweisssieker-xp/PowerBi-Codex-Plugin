@@ -1,0 +1,9 @@
+{
+  "processId": "sop_ibp2execution",
+  "artifacts": [
+    "Lakehouse",
+    "Warehouse",
+    "Notebook",
+    "Data Pipeline"
+  ]
+}
