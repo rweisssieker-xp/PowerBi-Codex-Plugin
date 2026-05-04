@@ -1,6 +1,6 @@
 # Industry Demo Data
 
-Synthetic demo data for all industrial process chains in `data/industry_process_catalog.json`.
+Synthetic demo data for all industrial process chains in [industry_process_catalog.json](../../data/industry_process_catalog.json).
 
 Each process folder contains:
 
@@ -9,3 +9,5 @@ Each process folder contains:
 - `kpi_snapshots.csv`: monthly KPI target/actual/status snapshots.
 
 The files are designed for native Power BI file/folder ingestion and contain no customer-sensitive data.
+
+These files are test fixtures. Production implementations must use the native source-routing recommendations in [source-routing](../source-routing/README.md).

@@ -27,11 +27,11 @@ Same Markdown paths as [DOCUMENTATION.md](../../DOCUMENTATION.md); this table tr
 
 | Document | Bilingual status | Notes |
 | --- | --- | --- |
-| `README.md` | Required | Repository entry point; includes English and German positioning |
-| `DOCUMENTATION.md` | Complete | Root documentation navigation |
-| `INSTALLATION.md` | Complete | Root installation entry point |
-| `USAGE.md` | Complete | Root usage entry point |
-| `ARCHITECTURE.md` | Complete | Root architecture entry point |
+| `README.md` | English-first root | Repository entry point |
+| `DOCUMENTATION.md` | English-first root | Root documentation navigation |
+| `INSTALLATION.md` | English-first root | Root installation entry point |
+| `USAGE.md` | English-first root | Root usage entry point |
+| `ARCHITECTURE.md` | English-first root | Root architecture entry point |
 | `BILINGUAL_DOCUMENTATION.md` | Complete | Bilingual documentation standard |
 | `BILINGUAL_DOCUMENTATION_MATRIX.md` | Complete | Coverage matrix |
 | `EXAMPLES.md` | Complete | Example usage scope |
@@ -49,16 +49,16 @@ Same Markdown paths as [DOCUMENTATION.md](../../DOCUMENTATION.md); this table tr
 | `SIMULATION_TEST_REPORT.md` | Complete | Simulation test report |
 | `SKILLS_CATALOG.md` | Complete | Skills catalog |
 | `SOURCE_SYSTEM_COVERAGE.md` | Complete | Source-system coverage summary |
-| `plugins/powerbi-business-intelligence/README.md` | Required | Plugin entry point; includes English and German positioning |
-| `CODE_OF_CONDUCT.md` | Complete | Collaboration and enforcement standard |
-| `AUTHORS.md` | Complete | Maintainer and contributor authorship note |
-| `NOTICE.md` | Complete | Product and trademark notice |
-| `FAQ.md` | Complete | Root frequently asked questions |
-| `GOVERNANCE.md` | Complete | Repository decision and maintainer governance |
-| `MAINTAINERS.md` | Complete | Maintainer model and review expectations |
-| `RELEASE.md` | Complete | Release readiness and release-note process |
-| `ROADMAP.md` | Complete | Root roadmap entry point |
-| `SUPPORT.md` | Complete | Support and escalation guidance |
+| `plugins/powerbi-business-intelligence/README.md` | Required | Plugin entry point |
+| `CODE_OF_CONDUCT.md` | English-first root | Collaboration and enforcement standard |
+| `AUTHORS.md` | English-first root | Maintainer and contributor authorship note |
+| `NOTICE.md` | English-first root | Product and trademark notice |
+| `FAQ.md` | English-first root | Root frequently asked questions |
+| `GOVERNANCE.md` | English-first root | Repository decision and maintainer governance |
+| `MAINTAINERS.md` | English-first root | Maintainer model and review expectations |
+| `RELEASE.md` | English-first root | Release readiness and release-note process |
+| `ROADMAP.md` | English-first root | Root roadmap entry point |
+| `SUPPORT.md` | English-first root | Support and escalation guidance |
 
 ## Machine-Readable Artifacts
 
@@ -66,7 +66,12 @@ Same Markdown paths as [DOCUMENTATION.md](../../DOCUMENTATION.md); this table tr
 | --- | --- | --- |
 | `schemas/*.schema.json` | Language-neutral | JSON schema keys must remain stable |
 | `data/powerbi_connector_matrix.json` | Language-neutral with English labels | Connector names and M functions are technical identifiers |
+| `data/powerbi_source_capability_matrix.json` | Language-neutral with English labels | Power BI connector categories, modes, and M functions are technical identifiers |
+| `data/industry_process_catalog.json` | Language-neutral with English labels | Process IDs, source systems, KPIs, and table names are consumed by automation |
 | `templates/process_packs/*.json` | Language-neutral with business labels | Process pack fields are consumed by automation |
+| `outputs/industry-demo-data/**/*.csv` | Language-neutral with English labels | Synthetic test fixtures for native file/folder ingestion |
+| `outputs/industry-process-packs/**/*` | Language-neutral with English labels | Generated model, DAX, report, and quality-gate specs |
+| `outputs/source-routing/**/*` | Language-neutral with English labels | Generated production source-routing recommendations |
 | `scripts/*.py`, `scripts/*.ps1` | Language-neutral | Executable scripts use stable command and JSON names |
 
 ## de-DE Hinweise
